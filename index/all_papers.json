@@ -1,0 +1,3440 @@
+{
+  "last_updated": "2026-05-11",
+  "total_count": 169,
+  "papers": [
+    {
+      "id": "arxiv-2501",
+      "title": "Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression",
+      "conference": "arXiv",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, multi-agent, communication, compression]",
+      "abstract": "[(待补充 — 需要从 arXiv 获取完整摘要)]",
+      "arxiv": "2512.17914",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/arxiv/arxiv-2501-q-kvcomm-efficient-multi-agent-communication.md"
+    },
+    {
+      "id": "arxiv23-001",
+      "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+      "conference": "arXiv 2023",
+      "date": "2023-12",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[sglang, radix-attention, kv-cache, structured-programs]",
+      "abstract": "Large language models (LLMs) are increasingly used for complex tasks that require multiple generation calls, advanced prompting techniques, control flow, and structured inputs/outputs. However, efficient systems are lacking for programming and executing these applications. We introduce SGLang, a system for efficient execution of complex language model programs. SGLang consists of a frontend language and a runtime. The frontend simplifies programming with primitives for generation and parallelism control. The runtime accelerates execution with novel optimizations like RadixAttention for KV cache reuse and compressed finite state machines for faster structured output decoding. Experiments show that SGLang achieves up to 6.4× higher throughput compared to state-of-the-art inference systems on various large language and multi-modal models on tasks including agent control, logical reasoning, few-shot learning benchmarks, JSON decoding, retrieval-augmented generation pipelines, and multi-turn chat.",
+      "arxiv": "2312.07104",
+      "url": "https://arxiv.org/abs/2312.07104",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2023/arxiv23-001-sglang-efficient-execution.md"
+    },
+    {
+      "id": "arxiv23-002",
+      "title": "CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving",
+      "conference": "arXiv 2023",
+      "date": "2023-10",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[cachegen, kv-cache-compression, streaming, network-transfer]",
+      "abstract": "As large language models (LLMs) take on complex tasks, their inputs are supplemented with longer contexts that incorporate domain knowledge. Yet using long contexts is challenging, as nothing can be generated until the whole context is processed by the LLM. While the context-processing delay can be reduced by reusing the KV cache of a context across different inputs, fetching the KV cache, which contains large tensors, over the network can cause high extra network delays. CacheGen is a fast context-loading module for LLM systems. First, CacheGen uses a custom tensor encoder, leveraging KV cache's distributional properties to encode a KV cache into more compact bitstream representations with negligible decoding overhead, to save bandwidth usage. Second, CacheGen adapts the compression level of different parts of a KV cache to cope with changes in available bandwidth, in order to maintain low context-loading delay and high generation quality. When available bandwidth drops, CacheGen may raise the compression level for a part of the context or recompute its KV cache on the fly. We test CacheGen on popular LLMs and datasets. Compared to the recent systems that reuse the KV cache, CacheGen reduces the KV cache size by 3.5-4.3x and the total delay in fetching and processing contexts by 3.2-3.7x with negligible impact on the LLM response quality.",
+      "arxiv": "2310.07240",
+      "url": "https://arxiv.org/abs/2310.07240",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2023/arxiv23-002-cachegen-kv-cache.md"
+    },
+    {
+      "id": "arxiv25-001",
+      "title": "LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference",
+      "conference": "arXiv 2025",
+      "date": "2025-10",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[lmcache, kv-cache, offloading, prefill-decode, enterprise]",
+      "abstract": "KV cache has traditionally been stored in GPU memory to accelerate the decoding phase of large language model (LLM) inference. However, it is increasingly necessary to move KV caches outside GPU devices, to enable cache reuse across different queries and inference engines. Our real-world usage statistics confirm this trend: over time, the total KV cache stored by users has grown rapidly, far exceeding the capacity of GPU memory. Despite this need, there lacks an efficient solution for offloading and transferring KV caches. We present LMCACHE, the first and so far the most efficient open-source KV caching solution, which extracts and stores KV caches generated by modern LLM engines (vLLM and SGLang) out of the GPU memory and shares them across engines and queries. LMCACHE supports both cache offloading (prefix reuse across queries) and prefill-decode (PD) disaggregation (cross-engine/GPU cache transfer). LMCACHE's high performance and wide adoption stem from the following contributions: (1) highly optimized KV cache data movement powered by batched data movement operations, compute and I/O pipelining; (2) a modular KV cache connector component, decoupling LMCACHE from the rapid evolution of inference engines; (3) a first-class control API for flexible cache orchestration across GPU, CPU, storage, and network layers. Our evaluation shows that combining LMCACHE with vLLM achieves up to 15x improvement in throughput across workloads such as multi-round question answering and document analysis. Large-scale adoption of LMCACHE in enterprise settings provides us valuable insights, for example, fetching KV cache from remote storage has unsurprisingly benefits to prefill delay, and that context truncation, which is a widely applied technique in industry, can greatly reduce prefix cache hit ratio by half.",
+      "arxiv": "2510.09665",
+      "url": "https://arxiv.org/abs/2510.09665",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-001-lmcache-efficient-kv-cache.md"
+    },
+    {
+      "id": "arxiv25-002",
+      "title": "KVFlow: Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows",
+      "conference": "arXiv 2025",
+      "date": "2025-07",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[kvflow, prefix-caching, multi-agent, workflow-aware]",
+      "abstract": "Large language model (LLM) based agentic workflows have become a popular paradigm for coordinating multiple specialized agents to solve complex tasks. To improve serving efficiency, existing LLM systems employ prefix caching to reuse key-value (KV) tensors corresponding to agents' fixed prompts, thereby avoiding redundant computation across repeated invocations. However, current systems typically evict KV caches using a Least Recently Used (LRU) policy, which fails to anticipate future agent usage and often discards KV caches shortly before their reuse. This leads to frequent cache misses and substantial recomputation or swapping overhead. We present KVFlow, a workflow-aware KV cache management framework tailored for agentic workloads. KVFlow abstracts the agent execution schedule as an Agent Step Graph and assigns each agent a steps-to-execution value that estimates its temporal proximity to future activation. These values guide a fine-grained eviction policy at the KV node level, allowing KVFlow to preserve entries likely to be reused and efficiently manage shared prefixes in tree-structured caches. Moreover, KVFlow introduces a fully overlapped KV prefetching mechanism, which proactively loads required tensors from CPU to GPU in background threads for agents scheduled in the next step, thereby avoiding cache miss stalls during generation. Compared to SGLang with hierarchical radix cache, KVFlow achieves up to 1.83× speedup for single workflows with large prompts, and up to 2.19× speedup for scenarios with many concurrent workflows.",
+      "arxiv": "2507.07400",
+      "url": "https://arxiv.org/abs/2507.07400",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-002-kvflow-efficient-prefix.md"
+    },
+    {
+      "id": "arxiv25-003",
+      "title": "Tokencake: A KV-Cache-centric Serving Framework for LLM-based Multi-Agent Applications",
+      "conference": "arXiv 2025",
+      "date": "2025-10",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[tokencake, kv-cache, multi-agent, agent-serving]",
+      "abstract": "Large Language Models (LLMs) are increasingly deployed in complex multi-agent applications that use external function calls. This workload creates severe performance challenges for the KV Cache: space contention leads to the eviction of critical agents' caches and time underutilization leaves the cache of agents stalled on long-running tool calls idling in GPU memory. We present Tokencake, a KV-Cache-centric serving framework that co-optimizes scheduling and memory management with an agent-aware design. Tokencake's Space Scheduler uses dynamic memory partitioning to shield critical agents from contention, while its Time Scheduler employs a proactive offload and predictive upload mechanism to repurpose GPU memory during function call stalls. Our evaluation on representative multi-agent benchmarks shows that Tokencake can reduce end-to-end latency by over 47.06%, improve effective GPU memory utilization by up to 16.9% compared to vLLM.",
+      "arxiv": "2510.18586",
+      "url": "https://arxiv.org/abs/2510.18586",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-003-tokencake-kv-cache-centric.md"
+    },
+    {
+      "id": "arxiv25-004",
+      "title": "KVShare: An LLM Service System with Efficient and Effective Multi-Tenant KV Cache Reuse",
+      "conference": "arXiv 2025",
+      "date": "2025-03",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[kvshare, multi-tenant, kv-cache-reuse]",
+      "abstract": "Recent advances in long-text understanding have pushed the context length of large language models (LLMs) up to one million tokens. It boosts LLMs's accuracy and reasoning capacity but causes exorbitant computational costs and unsatisfactory Time to First Token (TTFT). KV cache reuse, which reuses the exact same KV cache of prefixes and templates or shares similar ones but with extra selective recomputation, offers a promising way to tackle this issue. However, prior studies overlook the cross-request KV reuse and the attention deviations introduced by new tokens during the decoding stage. In this paper, we present a KV cache management module that shares the KV cache across requests under multi-tenant scenarios without sacrificing model accuracy. Our system, KVShare, enables accurate and efficient LLM serving by 1) a Dual-Stage High Deviation algorithm (DHD) that conditionally selects a small portion of KV cache to be recomputed during both prefill and decode phases, and 2) a cache-aware scheduler that prioritizes requests based on their KV cache hit rates and orchestrates continuous batching to achieve enhanced system efficiency and faster TTFT. Multi-task experiments conducted on models such as Qwen2.5-7B,Llama3.1-8B and Yi1.5-9B demonstrate that KVShare reduces TTFT by up to 9.39x and increases 1.2x of the throughput compared to the full KV recompute. Moreover, KVShare achieves 20.38% boost in terms of accuracy compared to SOTA methods.",
+      "arxiv": "2503.16525",
+      "url": "https://arxiv.org/abs/2503.16525",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-004-kvshare-multi-tenant.md"
+    },
+    {
+      "id": "arxiv25-005",
+      "title": "SemShareKV: Efficient KVCache Sharing for Semantically Similar Prompts via Token-Level LSH Matching",
+      "conference": "arXiv 2025",
+      "date": "2025-09",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[semsharekv, semantic-similarity, kv-cache-sharing, lsh]",
+      "abstract": "As large language models (LLMs) continue to scale, the memory footprint of key-value (KV) caches during inference has become a significant bottleneck. Existing approaches primarily focus on compressing KV caches within a single prompt or reusing shared prefixes or frequently ocurred text segments across prompts. However, such strategies are limited in scenarios where prompts are semantically similar but lexically different, which frequently occurs in tasks such as multi-document summarization and conversational agents. We propose \\textit{SemShareKV}, a KV cache sharing and compression framework that accelerates LLM inference by reusing KVCache in semantically similar prompts. Instead of relying on exact token matches, SemShareKV applies fuzzy token matching using locality-sensitive hashing (LSH) on token embeddings and incorporates Rotary Position Embedding (RoPE) to better preserve positional information. By selectively reusing relevant key-value pairs from a reference prompt's cache, SemShareKV reduces redundant computation while maintaining output quality. Experiments on diverse summarization datasets show up to 6.25$\\times$ speedup and 42\\% lower GPU memory usage with 5k tokens input, with negligible quality degradation. These results highlight the potential of semantic-aware cache sharing for efficient LLM inference.",
+      "arxiv": "2509.24832",
+      "url": "https://arxiv.org/abs/2509.24832",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-005-semsharekv-efficient.md"
+    },
+    {
+      "id": "arxiv26-001",
+      "title": "Prefill-as-a-Service: KVCache of Next-Generation Models Could Go Cross-Datacenter",
+      "conference": "arXiv 2026",
+      "date": "2026-04",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[prfaas, prefill-as-a-service, disaggregation, cross-datacenter]",
+      "abstract": "Prefill-decode (PD) disaggregation has become the standard architecture for large-scale LLM serving, but in practice its deployment boundary is still determined by KVCache transfer. In conventional dense-attention models, prefill generates huge KVCache traffics that keep prefill and decode tightly coupled within a single high-bandwidth network domain, limiting heterogeneous deployment and resource elasticity. Recent hybrid-attention architectures substantially reduce KVCache size, making cross-cluster KVCache transport increasingly plausible. However, smaller KVCache alone does not make heterogeneous cross-datacenter PD serving practical: real workloads remain bursty, request lengths are highly skewed, prefix caches are unevenly distributed, and inter-cluster bandwidth fluctuates. A naive design that fully externalizes prefill can therefore still suffer from congestion, unstable queueing, and poor utilization. We present Prefill-as-a-Service (PrfaaS), a cross-datacenter serving architecture that selectively offloads long-context prefill to standalone, compute-dense prefill clusters and transfers the resulting KVCache over commodity Ethernet to local PD clusters for decode. Rather than treating reduced KVCache as sufficient, PrfaaS combines model-side KV efficiency with system-side selective offloading, bandwidth-aware scheduling, and cache-aware request placement. This design removes the requirement that heterogeneous accelerators share the same low-latency RDMA fabric, enabling independent scaling of prefill and decode capacity across loosely coupled clusters. In a case study using an internal 1T-parameter hybrid model, a PrfaaS-augmented heterogeneous deployment achieves 54% higher serving throughput and 64% lower P90 TTFT than a homogeneous PD baseline, with approximately 15% throughput gain at equal cost, while consuming only modest cross-datacenter bandwidth.",
+      "arxiv": "2604.15039",
+      "url": "https://arxiv.org/abs/2604.15039",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2026/arxiv26-001-prfaas-prefill-as-a-service.md"
+    },
+    {
+      "id": "arxiv26-002",
+      "title": "DualMap: Enabling Both Cache Affinity and Load Balancing for Distributed LLM Serving",
+      "conference": "arXiv 2026",
+      "date": "2026-02",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[dualmap, cache-affinity, load-balancing, distributed-serving]",
+      "abstract": "In LLM serving, reusing the KV cache of prompts across requests is critical for reducing TTFT and serving costs. Cache-affinity scheduling, which co-locates requests with the same prompt prefix to maximize KV cache reuse, often conflicts with load-balancing scheduling that distributes requests evenly across compute instances. Existing schedulers fail to reconcile this trade-off as they operate within a single mapping space, typically applying cache-affinity routing to a subset of requests and load-balanced routing to the rest, without a unified solution to achieve both goals. To address this limitation, we propose DualMap, a dual-mapping scheduling strategy for distributed LLM serving that achieves both cache affinity and load balancing. Its key idea is to map each request to two candidate instances via two independent hash functions based on the request prompt, then intelligently select the better candidate based on current system states. This design increases the likelihood that requests with shared prefixes are co-located, while evenly dispersing distinct prefixes across the cluster via \"the power of two choices\". To make DualMap robust under dynamic and skewed real-world workloads, we incorporate three techniques: 1) SLO-aware request routing, which prioritizes cache affinity but switches to load-aware scheduling when TTFT exceeds the SLO, enhancing load balance without sacrificing cache reuse; 2) hotspot-aware rebalancing, which dynamically migrates requests from overloaded to underloaded instances, mitigating hotspots and rebalancing the system; 3) lightweight dual-hash-ring scaling, which leverages a dual-hash-ring mapping to support fast and low-overhead instance scaling without costly global remapping. Experiments on real-world workloads show that DualMap improves effective request capacity by up to 2.25× under the same TTFT SLO constraints compared with SOTA work.",
+      "arxiv": "2602.06502",
+      "url": "https://arxiv.org/abs/2602.06502",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2026/arxiv26-002-dualmap-cache-affinity.md"
+    },
+    {
+      "id": "arxiv26-003",
+      "title": "Joint Encoding of KV-Cache Blocks for Scalable LLM Serving",
+      "conference": "arXiv 2026",
+      "date": "2026-01",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[joint-encoding, kv-cache-compression, scalable-serving]",
+      "abstract": "Modern large language models (LLMs) drive interactive AI systems but are bottlenecked by the memory-heavy growth of key-value (KV) caches, which limits real-time throughput under concurrent loads. Existing KV-cache compression methods rely on rigid heuristics, disrupt tensor layouts, or require specialized compute, hindering scalability and deployment. We propose joint encoding of KV-cache blocks, which fuses similar blocks across requests and input chunks into shared representations while preserving standard cache structure. This alleviates the KV-cache memory bottleneck, supporting high-concurrency serving without specialized hardware. Theoretically, we analyze the rate-distortion tradeoff of fused cache blocks under a Poisson process model. Empirically, our method achieves up to 4.38 × KV-cache compression with negligible accuracy loss across diverse LLMs and benchmarks, outperforming recent structured and adaptive compression baselines. In real LLM serving, joint encoding improves the token throughput by ∼40% on a single-machine vLLM benchmark, demonstrating substantial gains in inference throughput.",
+      "arxiv": "2601.03067",
+      "url": "https://arxiv.org/abs/2601.03067",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2026/arxiv26-003-joint-encoding-kv-cache.md"
+    },
+    {
+      "id": "atc25-001",
+      "title": "KVCache Cache in the Wild",
+      "conference": "USENIX ATC 2025",
+      "date": "2025-07",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, measurement, production]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "2506.02634",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/atc/2025/atc25-001-kvcache-cache-in-the-wild.md"
+    },
+    {
+      "id": "eurosys25-001",
+      "title": "HCache: Fast State Restoration in LLM Serving",
+      "conference": "EuroSys 2025",
+      "date": "2025-04",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, state-restoration, fast-recovery]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/eurosys/2025/eurosys25-001-hcache-fast-state-restoration-in-llm-serving.md"
+    },
+    {
+      "id": "eurosys25-002",
+      "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+      "conference": "EuroSys 2025",
+      "date": "2025-05",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[cacheblend, rag, kv-cache, knowledge-fusion]",
+      "abstract": "Large language models (LLMs) often incorporate multiple text chunks in their inputs to provide the necessary contexts. To speed up the prefill of the long LLM inputs, one can pre-compute the KV cache of a text and re-use the KV cache when the context is reused as the prefix of another LLM input. However, the reused text chunks are not always the input prefix, which makes precomputed KV caches not directly usable since they ignore the text's cross-attention with the preceding texts. Thus, the benefits of reusing KV caches remain largely unrealized. This paper tackles just one challenge: when an LLM input contains multiple text chunks, how to quickly combine their precomputed KV caches in order to achieve the same generation quality as the expensive full prefill (i.e., without reusing KV cache)? This challenge naturally arises in retrieval-augmented generation (RAG) where the input is supplemented with multiple retrieved texts as the context. We present CacheBlend, a scheme that reuses the precomputed KV caches, regardless prefix or not, and selectively recomputes the KV values of a small subset of tokens to partially update each reused KV cache. In the meantime, the small extra delay for recomputing some tokens can be pipelined with the retrieval of KV caches within the same job, allowing CacheBlend to store KV caches in slower devices with more storage capacity while retrieving them without increasing the inference delay. By comparing CacheBlend with the state-of-the-art KV cache reusing schemes on three open-source LLMs of various sizes and four popular benchmark datasets of different tasks, we show that CacheBlend reduces time-to-first-token (TTFT) by 2.2-3.3x and increases the inference throughput by 2.8-5x from full KV recompute without compromising generation quality.",
+      "arxiv": "2405.16444",
+      "url": "https://arxiv.org/abs/2405.16444",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/eurosys/2025/eurosys25-002-cacheblend-rag-cached-knowledge.md"
+    },
+    {
+      "id": "fast25-001",
+      "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+      "conference": "FAST 2025",
+      "date": "2025-02",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[mooncake, kv-cache, disaggregation, distributed-serving]",
+      "abstract": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. It features a KVCache-centric disaggregated architecture that separates the prefill and decoding clusters. It also leverages the underutilized CPU, DRAM, and SSD resources of the GPU cluster to implement a disaggregated cache of KVCache. The core of Mooncake is its KVCache-centric scheduler, which balances maximizing overall effective throughput while meeting latency-related Service Level Objectives (SLOs). Unlike traditional studies that assume all requests will be processed, Mooncake faces challenges due to highly overloaded scenarios. To mitigate these, we developed a prediction-based early rejection policy. Experiments show that Mooncake excels in long-context scenarios. Compared to the baseline method, Mooncake can achieve up to a 525% increase in throughput in certain simulated scenarios while adhering to SLOs. Under real workloads, Mooncake's innovative architecture enables Kimi to handle 75% more requests.",
+      "arxiv": "2407.00079",
+      "url": "https://www.usenix.org/conference/fast25/presentation/qin",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/fast/2025/fast25-001-mooncake-kvcache-centric.md"
+    },
+    {
+      "id": "iclr26-001",
+      "title": "KVTC: KV Cache Transform Coding for Compact Storage",
+      "conference": "ICLR 2026",
+      "date": "2026-04",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, transform-coding, compression]",
+      "abstract": "[(待补充 — 需要从 OpenReview 或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "https://openreview.net/forum?id=aNVKROYpLB",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/iclr/2026/iclr26-001-kvtc-kv-cache-transform-coding-for-compact-storage.md"
+    },
+    {
+      "id": "iclr26-002",
+      "title": "IceCache: Memory-Efficient KV-cache Management for Long-Context LLM",
+      "conference": "ICLR 2026",
+      "date": "2026-04",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, memory-management, long-context]",
+      "abstract": "[(待补充 — 需要从 OpenReview 或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "https://openreview.net/forum?id=yHxSKM9kdr",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/iclr/2026/iclr26-002-icecache-memory-efficient-kv-cache-management.md"
+    },
+    {
+      "id": "iclr26-003",
+      "title": "Randomization Boosts KV Caching, Learning Balances Query Load",
+      "conference": "ICLR 2026",
+      "date": "2026-04",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, randomization, query-load]",
+      "abstract": "[(待补充 — 需要从 arXiv 获取完整摘要)]",
+      "arxiv": "2601.18999",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/iclr/2026/iclr26-003-randomization-boosts-kv-caching-learning-balances-query-load.md"
+    },
+    {
+      "id": "icml26-001",
+      "title": "A Queueing-Theoretic Framework for Stability Analysis of LLM Inference with KV Cache Memory Constraints",
+      "conference": "ICML 2026",
+      "date": "2026-06",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, queueing-theory, stability]",
+      "abstract": "[(待补充 — 需要从 arXiv 获取完整摘要)]",
+      "arxiv": "2605.04595",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/icml/2026/icml26-001-a-queueing-theoretic-framework-for-stability-analysis.md"
+    },
+    {
+      "id": "isca24-001",
+      "title": "Splitwise: Efficient generative LLM inference using phase splitting",
+      "conference": "ISCA 2024",
+      "date": "2024-06",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[splitwise, phase-splitting, prefill-decode, disaggregation]",
+      "abstract": "Recent innovations in generative large language models (LLMs) have made their applications and use-cases ubiquitous. This has led to large-scale deployments of these models, using complex, expensive, and power-hungry AI accelerators, most commonly GPUs. These developments make LLM inference efficiency an important challenge. Based on our extensive characterization, we find that there are two main phases during an LLM inference request: a compute-intensive prompt computation, and a memory-intensive token generation, each with distinct latency, throughput, memory, and power characteristics. Despite state-of-the-art batching and scheduling, the token generation phase underutilizes compute resources. Specifically, unlike compute-intensive prompt computation phases, token generation phases do not require the compute capability of the latest GPUs, and can be run with lower power and cost.\n\nWith Splitwise, we propose splitting the two phases of a LLM inference request on to separate machines. This allows us to use hardware that is well-suited for each phase, and provision resources independently per phase. However, splitting an inference request across machines requires state transfer from the machine running prompt computation over to the machine generating tokens. We implement and optimize this state transfer using the fast back-plane interconnects available in today's GPU clusters.\n\nWe use the Splitwise technique to design LLM inference clusters using the same or different types of machines for the prompt computation and token generation phases. Our clusters are optimized for three key objectives: throughput, cost, and power. In particular, we show that we can achieve 1.4× higher throughput at 20% lower cost than current designs. Alternatively, we can achieve 2.35× more throughput with the same cost and power budgets.",
+      "arxiv": "2311.18677",
+      "url": "https://arxiv.org/abs/2311.18677",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/isca/2024/isca24-001-splitwise-efficient-generative.md"
+    },
+    {
+      "id": "neurips25-001",
+      "title": "Twilight: Adaptive Attention Sparsity with Hierarchical Top-p Pruning",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, attention-sparsity, top-p-pruning, adaptive]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-001-twilight-adaptive-attention-sparsity.md"
+    },
+    {
+      "id": "neurips25-002",
+      "title": "LRQK: Efficient Low Rank Attention for Long-Context Inference",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, low-rank, long-context, attention]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-002-lrqk-efficient-low-rank-attention.md"
+    },
+    {
+      "id": "neurips25-003",
+      "title": "PolarQuant: Leveraging Polar Transformation for Key Cache Quantization",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, quantization, polar-transformation]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-003-polarquant-leveraging-polar-transformation.md"
+    },
+    {
+      "id": "neurips25-004",
+      "title": "Sim-LLM: Optimizing LLM Inference at the Edge through Inter-Task KV Reuse",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, kv-reuse, edge-inference]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-004-simllm-optimizing-inference-through-inter-task-kv-reuse.md"
+    },
+    {
+      "id": "neurips25-005",
+      "title": "InfiniPot-V: Memory-Constrained KV Cache Compression for Streaming Video",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, compression, streaming-video]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-005-infinipot-v-memory-constrained-kv-cache-compression.md"
+    },
+    {
+      "id": "neurips25-006",
+      "title": "Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, eviction, adaptive-budget]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-006-ada-kv-optimizing-kv-cache-eviction.md"
+    },
+    {
+      "id": "neurips25-007",
+      "title": "KeyDiff: Key Similarity-Based KV Cache Eviction",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, eviction, key-similarity]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-007-keydiff-key-similarity-based-kv-cache-eviction.md"
+    },
+    {
+      "id": "neurips25-008",
+      "title": "HiFC: High-efficiency Flash-based KV Cache Swapping for Scaling LLM Inference",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, flash-memory, swapping]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-008-hifc-high-efficiency-flash-based-kv-cache-swapping.md"
+    },
+    {
+      "id": "neurips25-009",
+      "title": "SkipV1Former: Improving Model Representation and Reducing KV Cache via Skip Connections",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, skip-connections, model-representation]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-009-skipv1former-improving-model-representation-and-reducing-kv-cache.md"
+    },
+    {
+      "id": "neurips25-010",
+      "title": "DynaPipe: Dynamic Layer Redistribution for Efficient Serving of LLMs",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[llm-serving, dynamic-redistribution, pipeline]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-010-dynapipe-dynamic-layer-redistribution.md"
+    },
+    {
+      "id": "neurips25-011",
+      "title": "ChunkKV: Semantic-Preserving KV Cache Compression",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, compression, semantic-preserving]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-011-chunkkv-semantic-preserving-kv-cache-compression.md"
+    },
+    {
+      "id": "neurips25-012",
+      "title": "RPC (Reasoning Path Compression): Compressing Generation Trajectories",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[reasoning, path-compression]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-012-rpc-reasoning-path-compression.md"
+    },
+    {
+      "id": "neurips25-013",
+      "title": "dKV-Cache: The Cache for Diffusion Language Models",
+      "conference": "NeurIPS 2025",
+      "date": "2025-12",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, diffusion-language-models]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/neurips/2025/neurips25-013-dkv-cache-the-cache-for-diffusion-language-models.md"
+    },
+    {
+      "id": "nsdi26-001",
+      "title": "UNUM: A New Framework for Network Control",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/chen-jiayi",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-001-unum-a-new-framework-for-network-control.md"
+    },
+    {
+      "id": "nsdi26-002",
+      "title": "BURST: Seeking High-Performance, Interoperability and Scalability in Soft-RDMA",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/shen",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-002-burst-seeking-high-performance-interoperability-and-scalability-in-soft-rdma.md"
+    },
+    {
+      "id": "nsdi26-003",
+      "title": "PolicyCache: Intra-flow Learning in Congestion Control",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/tian",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-003-policycache-intra-flow-learning-in-congestion-control.md"
+    },
+    {
+      "id": "nsdi26-004",
+      "title": "SYMI: Efficient Mixture-of-Experts Training via Model and Optimizer State Decoupling",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Mixture-of-Experts (MoE) models have become a widely-adopted solution to continue scaling model sizes without a corresponding linear increase in compute. During MoE model training, each input token is dynamically routed to a subset of experts—sparsely-activated feed-forward networks—within each transformer layer. The distribution of tokens assigned to each expert varies widely and rapidly over the course of training. To handle the wide load imbalance across experts, current systems are forced to either drop tokens assigned to popular experts, degrading convergence, or frequently rebalance resources allocated to each expert based on popularity, incurring high state migration overheads. To break this performance-accuracy tradeoff, we introduce SYMI, an adaptive MoE training system. The key insight of SYMI is to decouple the placement of expert parameters from their large optimizer state. SYMI statically partitions the optimizer of each expert across all training nodes. Meanwhile, SYMI dynamically adjusts the placement of expert parameters by repurposing existing weight updates, avoiding migration overheads. In doing so, SYMI right-sizes the GPU resources allocated to each expert, on a per-iteration basis, with minimal overhead. Compared to state-of-the-art MoE training systems, DeepSpeed and FlexMoE, SYMI is able to achieve a 30.5% and 25.9% faster time-to-convergence, respectively.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/skiadopoulos",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-004-symi-efficient-mixture-of-experts-training-via-model-and-optimizer-state-decoupl.md"
+    },
+    {
+      "id": "nsdi26-005",
+      "title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Next-generation real-time communication (NGRTC) applications, such as cloud gaming and XR, demand consistently ultra-low latency. However, through our first large-scale measurement, we find that despite the deployment of edge servers, dedicated congestion control, and loss recovery mechanisms, cloud gaming users still experience long-tail latency in Wi-Fi networks. We further identify that Wi-Fi last-mile access points (APs) serve as the primary latency bottleneck. Specifically, short-term packet delivery droughts, caused by fundamental limitations in Wi-Fi contention control standards, are the root cause. To address this issue, we propose BLADE, an adaptive contention control algorithm that dynamically adjusts the contention windows (CW) of all Wi-Fi transmitters based on the channel contention level in a fully distributed manner. Our NS3 simulations and real-world evaluations with commercial Wi-Fi APs demonstrate that, compared to standard contention control, BLADE reduces Wi-Fi packet transmission tail latency by over 5X under heavy channel contention and significantly stabilizes MAC throughput while ensuring fast and fair convergence. Consequently, BLADE reduces the video stall rate in cloud gaming by over 90%.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-005-blade-adaptive-wi-fi-contention-control-for-next-generation-real-time-communicat.md"
+    },
+    {
+      "id": "nsdi26-006",
+      "title": "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Operating a large-scale WAN reliably is becoming increasingly challenging due to the surge in traffic volumes, and the growing complexity of both software and hardware. In this paper, we introduce MirrorNet, our production-grade emulation framework designed to mirror a software-based WAN. Unlike traditional emulators and simulators that access only a partial set of network information, MirrorNet functions as a comprehensive twin of the production network, encompassing the controller, data plane, and network traffic. Our key challenge lies in striking a balance between the requirements for a fine-grained and high-fidelity emulation, scalability, and resource efficiency. To address these, we have developed a multi-faceted approach: i) we employ an incremental storage and replay method to reconstruct the historical production network at a second-by-second level; ii) we propose a network update strategy that maintains consistent alignment between the emulation and production networks; and iii) we design a custom orchestrator capable of rapidly deploying one or more large-scale emulation networks, which can operate concurrently to expedite testing. MirrorNet has been deployed in TWAN for over 2 years and integral in our daily WAN management tasks, aiding in troubleshooting, parameter tuning, testing, and capacity assessment.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/miao",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-006-mirrornet-high-fidelity-and-scalable-network-emulation-for-software-defined-wan.md"
+    },
+    {
+      "id": "nsdi26-007",
+      "title": "KeepON: Supporting Deterministic Traffic on Standard NICs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Networked mission-critical applications (e.g., avionic control and industrial automation systems) require deterministic packet transmissions to support a range of sensing and control tasks with stringent timing constraints. While specialized network infrastructure (e.g., time-sensitive networking (TSN) switches) provides deterministic data transport across the network, achieving strict end-to-end timing guarantees requires equally capable end devices to support deterministic traffic. These end devices, however, often employ general-purpose computing platforms like standard PCs, which lack native support for deterministic traffic and suffer from unpredictable delays introduced by their software stack and system architecture. Although specialized NICs with hardware scheduling offload can mitigate this problem, the limited compatibility hinders their widespread adoption, particularly for cost-sensitive applications or in legacy devices. To fill this gap, this paper proposes a novel software-based driver model, namely KeepON, to enable the support of deterministic packet transmissions on end devices equipped with standard NICs. The key idea of KeepON is to have the NIC keep on transmitting fixed-size data chunks as placeholders, thereby maintaining a predictable temporal transmission pattern. The real-time packets generated by the mission-critical application(s) will then be precisely inserted into this stream by replacing placeholders at the designated position to ensure their accurate transmission time. We implement and evaluate KeepON by modifying the network driver on a Raspberry Pi using its standard NIC. Our experiments demonstrate that KeepON can achieve x162 times scheduling accuracy comparable to its default driver, and x2.6 times compared to hardware-based solution, thus enabling precise timing control on standard commodity hardware.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xue-chuanyu",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-007-keepon-supporting-deterministic-traffic-on-standard-nics.md"
+    },
+    {
+      "id": "nsdi26-008",
+      "title": "DroidSpeak: KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[droidspeak, kv-cache-sharing, cross-llm, multi-llm]",
+      "abstract": "Compound AI systems, such as agentic systems, are an emerging trend in large-scale enterprise settings, with multiple LLMs specialized for different users, tasks, and/or roles working together. In these scenarios, different models often process inputs that share the same context prefix. Although much work was done in the past to enable the reuse of prefix KV caches across inputs for a single model, how to enable one model to reuse the prefix KV caches of a different model remains an open question. We introduce DroidSpeak, the first distributed LLM inference system that enables KV cache reuse across distributed nodes running inference of different LLMs, so long as the LLMs have the same architecture. We present the first study that aims at understanding the impact of sharing KV caches across different LLMs, and if/when such sharing affects quality. Inspired by the findings, we present DroidSpeak, which selectively recomputes a few layers of the KV cache produced by another LLM and reuses the remaining layers, with negligible quality loss. Moreover, carefully pipelining the layer-wise re-computation and the loading of reused KV cache further improves the inference performance. Experiments on diverse datasets and model pairs demonstrate that DroidSpeak achieves up to 4× throughput improvement and about 3.1× faster prefill (time to first token), with negligible loss of quality in F1 scores, Rouge-L or code similarity score, compared to the baseline which does not allow any sharing across models.",
+      "arxiv": "2411.02820",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-yuhan",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/nsdi/2026/nsdi26-008-droidspeak-kv-cache-sharing.md"
+    },
+    {
+      "id": "nsdi26-009",
+      "title": "Di-PS: System-Algorithm Co-Design for Asynchronous and Heterogeneous Cross-Cluster LLM Training at Scale",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li-shengwei",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-009-di-ps-system-algorithm-co-design-for-asynchronous-and-heterogeneous-cross-cluste.md"
+    },
+    {
+      "id": "nsdi26-010",
+      "title": "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "With the proliferation of large language model (LLM) variants, developers are turning to serverless computing for cost-efficient LLM deployment. However, public cloud providers often struggle to provide performance guarantees for serverless LLM serving due to significant cold start latency caused by substantial model sizes and complex runtime dependencies. To address this problem, we present HydraServe, a serverless LLM serving system designed to minimize cold start latency in public clouds. HydraServe proactively distributes models across servers to quickly fetch them, and overlaps cold-start stages within workers to reduce startup latency. Additionally, HydraServe strategically places workers across GPUs to avoid network contention among cold-start instances. To minimize resource consumption during cold starts, HydraServe further introduces pipeline consolidation that can merge groups of workers into individual serving endpoints. Our comprehensive evaluations under diverse settings demonstrate that HydraServe reduces the cold start latency by 1.7×–4.7× and improves service level objective attainment by 1.43×–1.74× compared to baselines.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/lou",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-010-hydraserve-minimizing-cold-start-latency-for-serverless-llm-serving-in-public-cl.md"
+    },
+    {
+      "id": "nsdi26-011",
+      "title": "FalconFS: Distributed File System for Large-Scale Deep Learning Pipeline",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Client-side metadata caching has long been considered an effective method for accelerating metadata operations in distributed file systems (DFSs). However, we have found that client-side state (e.g., caching) is not only ineffective but also consumes valuable memory resources in the deep learning pipelines. We thus propose FalconFS, a DFS optimized for deep learning pipelines with the stateless-client architecture. Specifically, instead of performing client-side path resolution and caching, FalconFS efficiently resolves paths on the server side using hybrid metadata indexing and lazy namespace replication . FalconFS also boosts server concurrency with concurrent request merging and provides easy deployment with VFS shortcut . Evaluations against CephFS and Lustre show that FalconFS achieves up to 5.72× throughput for small file read/write and up to 12.81× throughput for deep learning model training. FalconFS has been running in Huawei autonomous driving system's production environment with 10,000 NPUs for one year and has been open-sourced.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xu",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-011-falconfs-distributed-file-system-for-large-scale-deep-learning-pipeline.md"
+    },
+    {
+      "id": "nsdi26-012",
+      "title": "DistVS: Large-scale Vector Search with Compute-Memory Disaggregation",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/yin",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-012-distvs-large-scale-vector-search-with-compute-memory-disaggregation.md"
+    },
+    {
+      "id": "nsdi26-013",
+      "title": "ZooRoute: Enhancing Cloud-Scale Network Reliability via Candidate Path Provisioning and Overlay Proactive Rerouting",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "This paper presents ZooRoute, a tenant-transparent, fast failure recovery service that requires no modifications to physical devices. ZooRoute leverages the overlay layer and enables traffic flows to bypass failures by altering source ports (srcPorts) in packet headers during encapsulation. To enable deployment in large-scale cloud networks, ZooRoute proposes: 1) On-demand probing to efficiently monitor a vast number of hosts while minimizing telemetry costs. 2) Table compression to record the states of numerous paths with limited on-chip resources. 3) A device-sensing mechanism to prevent unnecessary reconnections in stateful forwarding. Deployed in Alibaba Cloud for 18 months, ZooRoute has significantly improved network reliability, reducing cumulative outage time by 92.71%.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/sun",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-013-zooroute-enhancing-cloud-scale-network-reliability-via-candidate-path-provisioni.md"
+    },
+    {
+      "id": "nsdi26-014",
+      "title": "Bifrost: Alibaba's Next-Generation VPC Network with High-Performance Multipath Reliable Transport",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/fan",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-014-bifrost-alibabas-next-generation-vpc-network-with-high-performance-multipath-rel.md"
+    },
+    {
+      "id": "nsdi26-015",
+      "title": "Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Training large Deep Neural Network (DNN) models at scale often encounters straggler issues, mostly in communications due to network congestion, RNIC/switch defects, or topological asymmetry. Under advanced pipeline parallelism, even minor communication delays can induce significant training slowdowns. This occurs because (1) slow communication disrupts the pipeline schedule, creating cascading “bubbles” in a domino effect, and (2) current GPU kernel scheduling is susceptible to head-of-line blocking, where slow communication blocks subsequent computations, further adding to these bubbles. To address these challenges, we present PIPEMORPH, a straggler-resilient training system with two key optimizations. First, it optimally adapts the pipeline schedule in the presence of stragglers to absorb communication delays without inducing cascading bubbles, using a simple yet effective algorithm guided by an analytical model. Second, upon detecting slow communication, PIPEMORPH offloads communication operations from GPU to host memory and utilizes CPU-side RDMA for data transfer. This eliminates head-of-line blocking as subsequent computation kernels can be scheduled immediately on GPUs. Together, these optimizations effectively reduce pipeline stalls in the presence of communication stragglers, improving the training iteration time by 1.2-3.5× in our experiments under various settings.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-tianyuan",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-015-attack-of-the-bubbles-straggler-resilient-pipeline-parallelism-for-large-model-t.md"
+    },
+    {
+      "id": "nsdi26-016",
+      "title": "CrossCheck: Input Validation for WAN Control Systems",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "We present CrossCheck, a system that validates inputs to the Software-Defined Networking (SDN) controller in a Wide Area Network (WAN). By detecting incorrect inputs - often stemming from bugs in the SDN control infrastructure - CrossCheck alerts operators before they trigger network outages.   Our analysis at a large-scale WAN operator identifies invalid inputs as a leading cause of major outages, and we show how CrossCheck would have prevented those incidents. We deployed CrossCheck as a shadow validation system for four weeks in a production WAN, during which it accurately detected the single incident of invalid inputs that occurred while sustaining a 0% false positive rate under normal operation, hence imposing little additional burden on operators. In addition, we show through simulation that CrossCheck reliably detects a wide range of invalid inputs (e.g., detecting demand perturbations as small as 5% with 100% accuracy) and maintains a near-zero false positive rate for realistic levels of noisy, missing, or buggy telemetry data (e.g., sustaining zero false positives with up to 30% of corrupted telemetry data).",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/krentsel",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-016-crosscheck-input-validation-for-wan-control-systems.md"
+    },
+    {
+      "id": "nsdi26-017",
+      "title": "Skyline: A Cloud Centric Internet Monitoring Engine",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/guo-shixian",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-017-skyline-a-cloud-centric-internet-monitoring-engine.md"
+    },
+    {
+      "id": "nsdi26-018",
+      "title": "Feedback-guided Adaptive Testing of Distributed Systems Designs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Validating distributed systems for correctness poses significant challenges. Practitioners often rely on formal models of core system designs, which are then tested by exploring possible component interactions. Unfortunately, standard testing approaches based on random sampling of the state space are inefficient and prone to missing subtle bugs, as they lack guidance from the system's behavior. To address this, we present Fest, a new testing system for formal models of distributed systems. Fest incorporates feedback-guided adaptive schedule generation, drawing inspiration from grey-box fuzzing, to steer exploration towards maximizing behavioral coverage and uncovering bugs more effectively. Our implementation in the P programming framework demonstrates significant improvements across 94 distributed system model configurations: up to 41× (1.5× average) improvement in behavioral coverage, 278× (15× average) improvement in scenario coverage, and 33% more bugs detected compared to existing methods. These results highlight Fest's effectiveness in ensuring the robustness of distributed systems through improved testing efficiency.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-018-feedback-guided-adaptive-testing-of-distributed-systems-designs.md"
+    },
+    {
+      "id": "nsdi26-019",
+      "title": "Eywa: Automating Model-Based Testing Using LLMs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Model-based testing (MBT), whereby a model of the system under test is analyzed to generate high-coverage test cases, has been used to test protocol implementations. A key barrier to the use of MBT is the need for users to understand protocol RFCs in detail to create a compliant model. Our new approach to MBT uses LLMs to automatically build rich models of intended protocol behavior from knowledge embedded in RFCs, blogs, and other natural language sources. Our approach addresses key challenges with using LLMs, including hallucinations and their inability to monolithically generate complex protocol models. We realize our approach through a novel protocol testing framework Eywa,and demonstrate its effectiveness through extensive case studies of DNS and BGP and a smaller study of SMTP. Despite minimal user effort, applying Eywa enabled the discovery of 32 unique bugs across widely used DNS, BGP, and SMTP implementations, 15 of which were previously undiscovered despite extensive prior testing with manually crafted models.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/mondal",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-019-eywa-automating-model-based-testing-using-llms.md"
+    },
+    {
+      "id": "nsdi26-020",
+      "title": "JITServe: SLO-aware LLM Serving with Imprecise Request Information",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "The integration of Large Language Models (LLMs) into applications ranging from interactive chatbots to multi-agent systems has introduced a wide spectrum of service-level objectives (SLOs) for responsiveness. These include latency-sensitive requests emphasizing per-token latency in streaming chat, deadline-sensitive requests requiring rapid full responses to trigger external tools, and compound requests with evolving dependencies across multiple LLM calls. Despite-or perhaps, because of-this workload diversity and unpredictable request information (e.g., response lengths and dependencies), existing request schedulers have focused on aggregate performance, unable to ensure application-level SLO needs.   This paper presents JITServe, the first SLO-aware LLM serving system designed to maximize service goodput (e.g., the number of tokens meeting request SLOs) across diverse workloads. JITServe novelly schedules requests using imprecise request information and gradually relaxes this conservatism by refining request information estimates as generation progresses. It applies a grouped margin goodput maximization algorithm to allocate just enough serving bandwidth to satisfy each request's SLO just-in-time (JIT), maximizing residual capacity for others, while deciding the composition of requests in a batch to maximize efficiency and goodput with provable guarantees. Our evaluation across diverse realistic workloads, including chat, deep research, and agentic pipelines, shows that JITServe improves service goodput by 1.4x-6.3x, alternatively achieving 28.5%-83.2% resource savings, compared to state-of-the-art designs.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-wei",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-020-jitserve-slo-aware-llm-serving-with-imprecise-request-information.md"
+    },
+    {
+      "id": "nsdi26-021",
+      "title": "Flexes: Taming Long-Tail Rollouts for RL Post-Training with Tail Batching",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/gao-wei",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-021-flexes-taming-long-tail-rollouts-for-rl-post-training-with-tail-batching.md"
+    },
+    {
+      "id": "nsdi26-022",
+      "title": "DDoS Detection at the Scale of One Hundred Tbps",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xiao",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-022-ddos-detection-at-the-scale-of-one-hundred-tbps.md"
+    },
+    {
+      "id": "nsdi26-023",
+      "title": "MORP4: A Dynamic Network Telescope",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xygkou",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-023-morp4-a-dynamic-network-telescope.md"
+    },
+    {
+      "id": "nsdi26-024",
+      "title": "PlanB: Efficient Software IPv6 Lookup with Linearized B+-Tree",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhang-zhihao",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-024-planb-efficient-software-ipv6-lookup-with-linearized-b-tree.md"
+    },
+    {
+      "id": "nsdi26-025",
+      "title": "Flare: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "The rapid proliferation of large language models has driven the need for efficient GPU training clusters. However, it is challenging due to the frequent occurrence of training anomalies. Since existing diagnostic tools are narrowly tailored to specific issues, there are gaps in their ability to address anomalies spanning the entire training stack. In response, we introduce Flare, a diagnostic framework designed for distributed LLM training at scale. Flare first integrates a lightweight tracing daemon for full-stack and backend-extensible tracing. Additionally, it features a diagnostic engine that automatically diagnoses anomalies, with a focus on performance regressions. The deployment of Flare across 6,000 GPUs has demonstrated significant improvements in pinpointing deficiencies in real-world scenarios, with continuous operation for over eight months.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/cui",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-025-flare-anomaly-diagnostics-for-divergent-llm-training-in-gpu-clusters-of-thousand.md"
+    },
+    {
+      "id": "nsdi26-026",
+      "title": "TurboTest: Learning When Less is Enough through Early Termination of Internet Speed Tests",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Internet speed tests are indispensable for users, ISPs, and policymakers, but their static flooding-based design imposes growing costs: a single high-speed test can transfer hundreds of megabytes, and collectively, platforms like Ookla, M-Lab, and Fast.com generate petabytes of traffic each month. Reducing this burden requires deciding when a test can be stopped early without sacrificing accuracy. We frame this as an optimal stopping problem and show that existing heuristics-static thresholds, BBR pipe-full signals, or throughput stability rules from Fast.com and FastBTS-capture only a narrow portion of the achievable accuracy-savings trade-off. This paper introduces TURBOTEST, a systematic framework for speed test termination that sits atop existing platforms. The key idea is to decouple throughput prediction (Stage 1) from test termination (Stage 2): Stage 1 trains a regressor to estimate final throughput from partial measurements, while Stage 2 trains a classifier to decide when sufficient evidence has accumulated to stop. Leveraging richer transport-level features (RTT, retransmissions, congestion window) alongside throughput, TURBOTEST exposes a single tunable parameter for accuracy tolerance and includes a fallback mechanism for high-variability cases. Evaluation on 173,000 M-Lab NDT speed tests (2024-2025) shows that TURBOTEST achieves nearly 2-4x higher data savings than an approach based on BBR signals while reducing median error. These results demonstrate that adaptive ML-based termination can deliver accurate, efficient, and deployable speed tests at scale.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/manda",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-026-turbotest-learning-when-less-is-enough-through-early-termination-of-internet-spe.md"
+    },
+    {
+      "id": "nsdi26-027",
+      "title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-027-swiftep-accelerating-moe-inference-with-buffer-fusion-and-tma-offloading.md"
+    },
+    {
+      "id": "nsdi26-028",
+      "title": "Duonet: Learning the Duality-Based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-ximeng",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-028-duonet-learning-the-duality-based-topology-agnostic-update-operator-for-lightwei.md"
+    },
+    {
+      "id": "nsdi26-029",
+      "title": "EROICA: Online Performance Troubleshooting for Large-scale Model Training in Production",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Troubleshooting performance problems of large model training (LMT) is immensely challenging, due to unprecedented scales of modern GPU clusters, the complexity of software-hardware interactions, and the data intensity of the training process. Existing troubleshooting approaches designed for traditional distributed systems or datacenter networks fall short and can hardly apply to real-world training systems. In this paper, we present EROICA, the first online troubleshooting system that provides both fine-grained observation based on profiling, and coverage of all machines in GPU clusters, to diagnose performance issues in production, including both hardware and software problems (or the mixture of both). EROICA effectively summarizes runtime behavior patterns of LMT function executions via online profiling, and leverages differential observability to localize the root cause with minimal production impact. EROICA has been deployed as a production service for large-scale GPU clusters of ~100,000 GPUs for 1.5 years. It has diagnosed a variety of difficult performance issues with 97.5% success.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-yu",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-029-eroica-online-performance-troubleshooting-for-large-scale-model-training-in-prod.md"
+    },
+    {
+      "id": "nsdi26-030",
+      "title": "Supercharging Packet-Level Network Simulation of Large Model Training via Memoization and Fast-Forwarding",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/long",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-030-supercharging-packet-level-network-simulation-of-large-model-training-via-memoiz.md"
+    },
+    {
+      "id": "nsdi26-031",
+      "title": "Iris: Expressive Traffic Analysis for the Modern Internet",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/rossman",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-031-iris-expressive-traffic-analysis-for-the-modern-internet.md"
+    },
+    {
+      "id": "nsdi26-032",
+      "title": "Who Watches the Watchers? On the Reliability of Softwarizing Cloud Application Management",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Modern cloud applications are increasingly managed by software programs, often named “operators,” which automate laborious, human-based operations. While operator programs largely prevent human mistakes, their own reliability has unprecedented impact on managed applications. This paper discusses the emerging challenges of operator program reliability on cloud-native platforms like Kubernetes. Our work is grounded in a rigorous analysis of 412 real-world failures of thirteen Kubernetes operators. We find that challenges of operator reliability come from the multifold complexity of an operator’s interactions with its managed applications, environment, and user interface. Among these, operators’ interactions with managed applications are the largest contributor to real-world operator failures, but they are largely overlooked—these interactions are often ad hoc and lack well-defined interfaces. We advocate to rethink the management interface of cloud applications and demonstrate this urgent need by showing the prevalence of defects in existing operators. Specifically, we develop a simple testing tool to exercise interactions between operators and the managed cloud applications, which discovered 86 new bugs in six popular Kubernetes operators.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/gu",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-032-who-watches-the-watchers-on-the-reliability-of-softwarizing-cloud-application-ma.md"
+    },
+    {
+      "id": "nsdi26-033",
+      "title": "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Cloud gaming requires all video frames to be delivered before a stringent delay deadline to ensure seamless gaming experience. However, meeting this requirement is challenging due to packet losses, which greatly magnifies the frame delay. Various FEC-based loss recovery schemes were recently proposed to address the packet loss issue. However, the source of such packet losses remains unrevealed. Our production measurement results from Tencent START cloud gaming platform have shown that 66.5% of packet losses are caused by network infrastructure’s preferences against UDP and network congestion. Moreover, off-the-shelf video streaming systems like WebRTC could not detect retransmission loss efficiently. These issues completely nullified the performance gain of loss recovery schemes. To address this, we design and implement LADR, which combines loss avoidance, detection, and recovery to tackle packet losses. LADR incorporates the loss-based and delay-based congestion control algorithms and adopts RACK-TLP for loss avoidance and detection. Furthermore, LADR adopts an opportunistic FEC scheme to perform loss recovery. LADR has been rolled out at Tencent START cloud gaming platform, a large-scale cloud gaming provider, for one year. Production measurement results show that LADR only suffers from 0.049% packet loss rate (-59.8% vs. existing solutions) and delivers 99.87% of video frames within 100 milliseconds.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-jing",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-033-from-source-to-solution-tackling-packet-losses-in-large-scale-cloud-gaming-syste.md"
+    },
+    {
+      "id": "nsdi26-034",
+      "title": "UpFuzz: Detecting Data Format Incompatibility Bugs During Distributed Storage System Upgrade",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/han",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-034-upfuzz-detecting-data-format-incompatibility-bugs-during-distributed-storage-sys.md"
+    },
+    {
+      "id": "nsdi26-035",
+      "title": "Come Hell or Still Water: Alleviating Tail Latency in Cloud Block Store (Operational Systems Track)",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-chaolei",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-035-come-hell-or-still-water-alleviating-tail-latency-in-cloud-block-store-operation.md"
+    },
+    {
+      "id": "nsdi26-036",
+      "title": "Acadia: Scalable Low-Cost CXL Memory Pooling",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhong",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-036-acadia-scalable-low-cost-cxl-memory-pooling.md"
+    },
+    {
+      "id": "nsdi26-037",
+      "title": "FluidRL: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-yongji",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-037-fluidrl-harvesting-preemptible-cloud-resources-for-cost-efficient-reinforcement.md"
+    },
+    {
+      "id": "nsdi26-038",
+      "title": "FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Finetuning large language models (LLMs) is essential for task adaptation, yet today's serving stacks isolate inference and finetuning on separate GPU clusters—wasting resources and under-utilizing hardware. We introduce FlexLLM, the first system to co-serve LLM inference and PEFT-based finetuning on shared GPUs by fusing computation at the token level. FlexLLM's static compilation optimizations— dependent parallelization and graph pruning significantly shrink activation memory, leading to end-to-end GPU memory savings by up to 80%. At runtime, a novel token-level finetuning mechanism paired with a hybrid token scheduler dynamically interleaves inference and training tokens within each co-serving iteration, meeting strict latency SLOs while maximizing utilization. In end-to-end benchmarks on LLaMA-3.1-8B, Qwen-2.5-14B, and Qwen-2.5-32B, FlexLLM maintains inference SLO compliance at up to 20 req/s, and improves finetuning throughput by 1.9-4.8× under heavy inference workloads and 2.5-6.8× under light loads, preserving over 76% of peak finetuning progress even at peak demand. FlexLLM is publicly available at https://flexllm.github.io .",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/oliaro",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-038-flexllm-token-level-co-serving-of-llm-inference-and-finetuning-with-slo-guarante.md"
+    },
+    {
+      "id": "nsdi26-039",
+      "title": "Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta’s Express Backbone Network",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/iqbal",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-039-express-lane-to-efficiency-and-reliability-multi-dimensional-control-in-metas-ex.md"
+    },
+    {
+      "id": "nsdi26-040",
+      "title": "Controlling Arbitrary Internet Queues with Titrate",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Router buffers are critical to networks for absorbing short-lived congestion and allowing full throughput. However, excessive buffering can lead to high queuing delay, poor burst absorption, and even low throughput for queues sharing the buffer memory. Existing queue management schemes designed for Internet routers (e.g., CoDel, PIE) prevent such excessive buffering only under stringent assumptions about the queue composition (flows in the queue), while more recent approaches (e.g., L4S) require end-host collaboration. In this work, we revisit queue management for Internet routers from first principles and introduce Titrate, a closed-loop controller that senses queue dynamics and adjusts thresholds for any given queue to achieve high throughput, low latency and effective burst absorption. To balance convergence speed and stability, Titrate draws inspiration from TCP’s control loop, combining a multiplicative-increase-additive-decrease approach with an ssthresh-like variable. We evaluate Titrate’s performance via simulation and Internet experiments. Across a wide range of realistic traffic mixes, Titrate increases minimum throughput by 39%, 14% compared to CoDel, PIE, while keeping 59% lower queuing latency compared to static-threshold baselines of on-par throughput. It also improves end-user quality of experience over static-threshold baselines. We further show that Titrate reacts swiftly to bandwidth and traffic changes and offers device-wide benefits.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-titrate",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-040-controlling-arbitrary-internet-queues-with-titrate.md"
+    },
+    {
+      "id": "nsdi26-041",
+      "title": "CStar Gateway: Augmenting Public Cloud Infrastructure for Heterogeneous Network Function Virtualization",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/li-haonan",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-041-cstar-gateway-augmenting-public-cloud-infrastructure-for-heterogeneous-network-f.md"
+    },
+    {
+      "id": "nsdi26-042",
+      "title": "DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhu-ruidong",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-042-distrs-disaggregated-reward-service-for-rlvr-with-batch-level-constraint.md"
+    },
+    {
+      "id": "nsdi26-043",
+      "title": "HEDGE: Traffic Engineering with Probabilistic Link Capacities",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Cloud providers have adopted higher modulation formats to achieve higher data-rate wavelengths in their optical wide-area networks. However, higher modulation formats reduce signal quality margins, making wavelengths more susceptible to wavelength-specific faults (WSFs)—temporary faults that selectively affect certain wavelengths while others remain unaffected, even though they all share the same optical fiber and equipment. WSFs cause the capacity of inter-datacenter links to fluctuate, frequently disrupting traffic engineering systems. We propose HEDGE, a system that mitigates the effects of WSFs by implementing link-local resilience and global network-wide resilience against WSFs. For local resilience, HEDGE provisions inter-datacenter links with a guaranteed minimum capacity and availability target, in spite of WSFs, while using the fewest possible constituent wavelengths. For global resilience, HEDGE optimally balances throughput and availability while allocating flows on a stochastic wide-area network with fluctuating link capacities. HEDGE sustains equivalent throughput with state-of-the-art traffic engineering systems, while dropping 12.2× less network flow in worst-case scenarios and reducing disruptions to tunnel allocations by 622× in spite of a rapidly changing topology.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/devraj",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-043-hedge-traffic-engineering-with-probabilistic-link-capacities.md"
+    },
+    {
+      "id": "nsdi26-044",
+      "title": "Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Although substantial progress has been made in automatically verifying whether distributed routing configurations comply with certain intents, diagnosing and repairing configuration errors remains manual and time-consuming. To fill this gap, we propose S2Sim, a novel system for automatic routing configuration diagnosis and repair. Our key insight is that by deriving a set of contracts that guarantees an intent-compliant variant of the erroneous configuration, we can systematically check for all contract violations in the configuration via symbolic simulation to pinpoint and repair the errors. S2Sim also introduces a series of extensions to support complex configurations (e.g., ACL, route aggregation and multi-path routing), networks (e.g., underlay and overlay networks), and intents (e.g., k-link failure tolerance). We fully implement S2Sim and evaluate its performance using real configurations from two major providers and synthesized configurations composed from their real errors and real-world topologies with different scales O(10) to O(1000). Results show that S2Sim accurately and efficiently diagnoses and repairs real configuration errors (i.e., up to 20 seconds in real networks of O(100) nodes and up to 15 minutes in synthesized networks of O(1000) nodes).",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/yang",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-044-diagnosing-and-repairing-distributed-routing-configurations-using-selective-symb.md"
+    },
+    {
+      "id": "nsdi26-045",
+      "title": "A Composable Emulation Framework for Whitebox Switches",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-whitebox",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-045-a-composable-emulation-framework-for-whitebox-switches.md"
+    },
+    {
+      "id": "nsdi26-046",
+      "title": "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/hu-jiayu",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-046-harp-improving-vpc-network-availability-via-efficient-failure-detection-and-rero.md"
+    },
+    {
+      "id": "nsdi26-047",
+      "title": "Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-zhaodong",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-047-enabling-ai-network-cross-layer-design-and-operations-with-arcadia-a-simulation.md"
+    },
+    {
+      "id": "nsdi26-048",
+      "title": "GPUSynth: Maximizing Code Reuse in Simulation-Based Machine Learning System Performance Estimation",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Modern machine learning (ML) training workloads place substantial demands on both computational and communication resources. Consequently, accurate performance estimation has become increasingly critical for guiding system design decisions, such as the selection of parallelization strategies, cluster configurations, and hardware provisioning. Existing simulation-based performance estimation requires reimplementing the ML framework in a simulator, which demands significant manual effort and is hard to maintain as ML frameworks evolve rapidly. This paper introduces Phantora, a hybrid GPU cluster simulator designed for performance estimation of ML training workloads. Phantora executes unmodified ML frameworks as is within a distributed, containerized environment. Each container emulates the behavior of a GPU server in a large-scale cluster, while Phantora intercepts and simulates GPU- and communication-related operations to provide high-fidelity performance estimation. We call this approach hybrid simulation of ML systems, in contrast to traditional methods that simulate static workloads. The primary advantage of hybrid simulation is that it allows direct reuse of ML framework source code in simulation, avoiding the need for reimplementation. Our evaluation shows that Phantora provides accuracy comparable to static workload simulation while supporting three state-of-the-art LLM training frameworks out-of-the-box. In addition, Phantora operates on a single GPU, eliminating the need for the resource-intensive trace collection and workload extraction steps required by traditional trace-based simulators. Phantora is open-sourced at https://github.com/QDelta/Phantora.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/qin",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-048-gpusynth-maximizing-code-reuse-in-simulation-based-machine-learning-system-perfo.md"
+    },
+    {
+      "id": "nsdi26-049",
+      "title": "Seshat: Workload Characterization and Generation of Large Language Model Serving in Production",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "With the widespread adoption of Large Language Models (LLMs), serving LLM inference requests has become an increasingly important task, attracting active research advancements. Practical workloads play an essential role in this process: they are critical for motivating and benchmarking serving techniques and systems. However, the existing understanding of real-world LLM serving workloads is limited due to the lack of a comprehensive workload characterization. Prior analyses remain insufficient in scale and scope, thus failing to fully capture intricate workload characteristics. In this paper, we fill the gap with an in-depth characterization of LLM serving workloads collected from our worldwide cloud inference serving service, covering not only language models but also emerging multimodal and reasoning models, and unveiling important new findings in each case. Moreover, based on our findings, we propose ServeGen, a principled framework for generating realistic LLM serving workloads by composing them on a per-client basis. A practical use case in production validates that ServeGen avoids 50% under-provisioning compared to naive workload generation, demonstrating ServeGen's advantage in performance benchmarking. ServeGen is available at https://github.com/alibaba/ServeGen.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/xiang-servegen",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-049-seshat-workload-characterization-and-generation-of-large-language-model-serving.md"
+    },
+    {
+      "id": "nsdi26-050",
+      "title": "ZOC: Elastic and Cost-Efficient Virtual SmartNIC Architecture for Cloud Physical Machines",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/guan-naixuan",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-050-zoc-elastic-and-cost-efficient-virtual-smartnic-architecture-for-cloud-physical.md"
+    },
+    {
+      "id": "nsdi26-051",
+      "title": "A Fast Solver-Free Algorithm for Traffic Engineering in Large-Scale Data Center Network",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Rapid growth of data center networks (DCNs) poses significant challenges for large-scale traffic engineering (TE). Existing acceleration strategies, which rely on commercial solvers or deep learning, face scalability issues and struggle with degrading performance or long computational time. Unlike existing algorithms adopting parallel strategies, we propose Sequential Source-Destination Optimization (SSDO), a sequential solver-free algorithm for intra-DCN TE. SSDO decomposes the problem into subproblems, each focused on adjusting the split ratios for a specific source-destination (SD) demand while keeping others fixed. To enhance the efficiency of subproblem optimization, we design a Balanced Binary Search Method (BBSM), which identifies the most balanced split ratios among multiple solutions that minimize Maximum Link Utilization (MLU). SSDO dynamically updates the sequence of SDs based on real-time utilization, which accelerates convergence and enhances solution quality. We evaluate SSDO primarily on Meta DCNs, and additionally on two WAN topologies as auxiliary demonstrations of generality. In a Meta topology, SSDO achieves a 65% and 60% reduction in normalized MLU compared to TEAL and POP, two state-of-the-art TE acceleration methods, while delivering a 12× speedup over POP. These results demonstrate the superior performance of SSDO in large-scale TE.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/mao",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-051-a-fast-solver-free-algorithm-for-traffic-engineering-in-large-scale-data-center.md"
+    },
+    {
+      "id": "nsdi26-052",
+      "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "AI-driven video analytics has become increasingly important across diverse domains. However, existing systems are often constrained to specific, predefined tasks, limiting their adaptability in open-ended analytical scenarios. The recent emergence of Vision Language Models (VLMs) as transformative technologies offers significant potential for enabling open-ended video understanding, reasoning, and analytics. Nevertheless, their limited context windows present challenges when processing ultra-long video content, which is prevalent in real-world applications. To address this, we introduce AVA, a VLM-powered system designed for open-ended, advanced video analytics. AVA incorporates two key innovations: (1) the near real-time construction of Event Knowledge Graphs (EKGs) for efficient indexing of long or continuous video streams, and (2) an agentic retrieval-generation mechanism that leverages EKGs to handle complex and diverse queries. Comprehensive evaluations on public benchmarks, LVBench and VideoMME-Long, demonstrate that AVA achieves state-of-the-art performance, attaining 62.3% and 64.1% accuracy, respectively, significantly surpassing existing VLM and video Retrieval-Augmented Generation (RAG) systems. Furthermore, to evaluate video analytics in ultra-long and open-world video scenarios, we introduce a new benchmark, AVA-100. This benchmark comprises 8 videos, each exceeding 10 hours in duration, along with 120 manually annotated, diverse, and complex question-answer pairs. On AVA-100, AVA achieves top-tier performance with an accuracy of 75.8%. The source code of AVA is available at https://github.com/I-ESC/Project-Ava . The AVA-100 benchmark could be accessed at https://huggingface.co/datasets/iesc/Ava-100 .",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/yan",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-052-ava-towards-agentic-video-analytics-with-vision-language-models.md"
+    },
+    {
+      "id": "nsdi26-053",
+      "title": "SmartNIC-Enabled Live Migration for Storage-Optimized VMs with PYROCUMULUS",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-jiechen",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-053-smartnic-enabled-live-migration-for-storage-optimized-vms-with-pyrocumulus.md"
+    },
+    {
+      "id": "nsdi26-054",
+      "title": "Uber's Failover Architecture: Reconciling Reliability and Efficiency in Hyperscale Microservice Infrastructure",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/bansal",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-054-ubers-failover-architecture-reconciling-reliability-and-efficiency-in-hyperscale.md"
+    },
+    {
+      "id": "nsdi26-055",
+      "title": "ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhao-liangyu",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-055-forestcoll-throughput-optimal-collective-communications-on-heterogeneous-network.md"
+    },
+    {
+      "id": "nsdi26-056",
+      "title": "Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Over the past decade, data center networking (DCN) has undergone substantial transformation in terms of both scale and complexity. Developing a DCN entails multiple intricate steps, such as establishing physical connections, configuring logical network addressing, and defining high-level routing policies. While extensive work has focused on logical DCN design and physical deployment, a critical gap remains: materializing these designs into concrete switch configurations—a necessary step to realize the development procedure. This problem is especially acute in the AI era, as hyperscale, rapidly evolving, and highly heterogeneous AI-driven clusters place unprecedented demands on DCN design and implementation. This paper presents Matryoshka, Meta’s production-scale DCN design system that bridges this gap. Matryoshka employs an intent-based, model-driven approach to systematically compile high-level DCN design intents into working switch configurations. Operational for over six years, Matryoshka has supported orders-of-magnitude growth in Meta’s DCN infrastructure, guiding the design nearly 900 DCNs across 18 distinct types, including the latest 100K-GPU supercluster for AI training. We share our experience in building and operating Matryoshka, highlighting how it empowers the rapid design and evolution of AI clusters nowadays.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/cai",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-056-matryoshka-realizing-hyperscale-data-center-network-design-for-the-ai-era.md"
+    },
+    {
+      "id": "nsdi26-057",
+      "title": "MetaEase: Heuristic Analysis from Source Code via Symbolic-Guided Optimization",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/karimi",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-057-metaease-heuristic-analysis-from-source-code-via-symbolic-guided-optimization.md"
+    },
+    {
+      "id": "nsdi26-058",
+      "title": "Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Video-streaming platforms tune dozens of playback parameters across thousands of client devices. Our measurements from Amazon Prime Video show that device-specific tuning can enhance stream quality. Yet traditional tuning techniques like Bayesian optimization become prohibitively expensive due to the large configuration space and the constant emergence of new device types. We introduce AZEEM, a scalable recommendation system leveraging few-shot prediction to rapidly identify promising configurations for new devices. The key insight behind AZEEM is that devices exhibit performance similarities that enable predictions from limited observations. Trained on offline data of device-playback configuration interactions, AZEEM efficiently narrows down the search space to a small set of configurations likely to contain optimal or near-optimal candidates. Additionally, AZEEM addresses temporal distribution shift—where the best-performing configurations change over time—by recommending a small, robust set of candidates rather than a single configuration. Evaluations using large-scale real-world datasets show that AZEEM reduces exploration cost by 5.8−13.6× and improves stream quality compared to state-of-the-art Bayesian optimization and multi-armed bandit approaches, enabling effective device-specific optimization at scale. We deploy AZEEM on a subset of Amazon Prime Video’s production traffic, where it achieved a relative QoE improvement of 2.7% on average and 10.6% at the 90th percentile over an existing treatment tuning system.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/sharma",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-058-predict-prune-play-efficient-video-playback-optimization-under-device-diversity.md"
+    },
+    {
+      "id": "nsdi26-059",
+      "title": "Mortise: Auto-tuning Congestion Control to Optimize QoE via Network-Aware Parameter Optimization",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Congestion control algorithms (CCAs) critically shape the tradeoff among throughput, latency, and loss, directly impacting user Quality of Experience (QoE). However, most existing CCAs use static, heuristically chosen parameter settings that fail to adapt to dynamic network states, resulting in suboptimal QoE. Our key observation is that the optimal CCA parameter configuration depends on real-time network states. To bridge this gap, we propose Mortise, a real-time, network-aware adaptation framework that dynamically tunes rule-based CCA parameters to maximize QoE. To address the challenges in modeling the complex parameter-QoE relationship, Mortise introduces a QoS tradeoff proxy to decompose parameter optimization into two steps: it first infers the application's preferred QoS tradeoff from real-time QoE gradients and then derives the corresponding parameter settings via control-theoretic analysis. Implemented atop TCP and evaluated in both emulated and production environments, Mortise outperforms state-of-the-art solutions, enhancing the QoE of file downloading service by up to 73% and QoE of video streaming service by up to 167% in real-world scenarios, with minimal deployment overhead.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/shen-yixin",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-059-mortise-auto-tuning-congestion-control-to-optimize-qoe-via-network-aware-paramet.md"
+    },
+    {
+      "id": "nsdi26-060",
+      "title": "Harvesting Spare CPU Resources in Container Systems",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Platforms like Kubernetes are widely adopted for deploying latency-sensitive cloud services in containers, and CPU resources for these containers are over-provisioned to ensure low 99th percentile tail latency under peak load. At the same time, cloud services exhibit bursty traffic patterns resulting in CPU usage variability that creates opportunity to harvest ephemerally unused CPU cores to run latency-tolerant containers. However, existing resource controls do not allow latency-sensitive containers to share unused cores without compromising their low tail latency objectives. Prior research on performance isolation is inadequate for container systems because it requires modifying applications and system software, employs offline profiling, and does not account for interference from processing container networking interrupts. We present HarvestContainers , a system that protects latency-sensitive containers from all sources of interference while harvesting their spare CPU cores to run latency-tolerant containers. Our solution dynamically determines the safe number of CPU cores to harvest and does not require rewriting applications or OS. We implement HarvestContainers integrated with Kubernetes and evaluate it experimentally. Our evaluation shows that latency-sensitive containers with microsecond-scale service level objectives can share up to 75% of their unused CPU cores while maintaining tail latency within 4% of standalone operation.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/hall",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-060-harvesting-spare-cpu-resources-in-container-systems.md"
+    },
+    {
+      "id": "nsdi26-061",
+      "title": "Agentix: An Efficient Serving Engine for LLM Agents as General Programs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "Large language model (LLM) applications are evolving beyond simple chatbots into dynamic, general-purpose agentic programs, which scale LLM calls and output tokens to help AI agents reason, explore, and solve complex tasks. However, existing LLM serving systems ignore dependencies between programs and calls, missing significant opportunities for optimization. Our analysis reveals that programs submitted to LLM serving engines experience long cumulative wait times, primarily due to head-of-line blocking at both the individual LLM request and the program. To address this, we introduce Agentix, an LLM serving system that treats programs as first-class citizens to minimize their end-to-end latencies. Agentix intercepts LLM calls submitted by programs, enriching schedulers with program-level context. We propose two scheduling algorithms—for single-threaded and distributed programs—that preempt and prioritize LLM calls based on their programs' previously completed calls. Our evaluation demonstrates that across diverse LLMs and agentic workloads, Agentix improves throughput of programs by 4-15× at the same latency compared to state-of-the-art systems, such as vLLM.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/luo",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-061-agentix-an-efficient-serving-engine-for-llm-agents-as-general-programs.md"
+    },
+    {
+      "id": "nsdi26-062",
+      "title": "Hierarchical Integration of WebAssembly in Serverless for Efficiency and Interoperability",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/baqershahi",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-062-hierarchical-integration-of-webassembly-in-serverless-for-efficiency-and-interop.md"
+    },
+    {
+      "id": "nsdi26-063",
+      "title": "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/hei",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-063-heteccl-synthesizing-near-optimal-collective-communication-schedules-for-heterog.md"
+    },
+    {
+      "id": "nsdi26-064",
+      "title": "Medley: Optimizing Midgress Bandwidth for Commercial Live Streaming CDNs",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-haiping",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-064-medley-optimizing-midgress-bandwidth-for-commercial-live-streaming-cdns.md"
+    },
+    {
+      "id": "nsdi26-065",
+      "title": "Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wu-shaofeng",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-065-offloading-cloud-network-services-at-production-scale-with-sonic-dash-smartswitc.md"
+    },
+    {
+      "id": "nsdi26-066",
+      "title": "AnyPro: Preference-Preserving Anycast Optimization based on Strategic AS-Path Prepending",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/zhou-minyuan",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-066-anypro-preference-preserving-anycast-optimization-based-on-strategic-as-path-pre.md"
+    },
+    {
+      "id": "nsdi26-067",
+      "title": "HCDN: Coordinated Stream Scheduling for Cost-Effective Live Video Delivery",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wang-liying",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-067-hcdn-coordinated-stream-scheduling-for-cost-effective-live-video-delivery.md"
+    },
+    {
+      "id": "nsdi26-068",
+      "title": "HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "As ByteDance’s business expands, the cost of video streaming using content delivery networks (CDN) has become prohibitively high. We have discovered a sea of under-utilized edge devices with the potential to reduce content distribution cost. The unreliable performance of an edge network, however, presents deep challenges to video streaming services. In this work, we introduce HyperEdge, an edge-assisted content delivery system for video streaming. HyperEdge seamlessly integrates the robustness of a conventional CDN with the cost-efficiency of an edge network. It offers dependable streaming quality to users while minimizing traffic expenses. HyperEdge employs a centralized tracker cluster to optimize content distribution to a pool of edge devices, based on real-time monitoring. To ensure satisfactory video playback quality, we develop a novel multi-path protocol for client-edge video transmission. Having been in stable operation for six years, HyperEdge manages over a hundred thousand edge devices, serving about a hundred million users daily, and saving hundreds of millions of dollars in content delivery cost annually.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/wei",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-068-hyperedge-an-edge-cdn-infrastructure-for-cost-efficient-video-streaming.md"
+    },
+    {
+      "id": "nsdi26-069",
+      "title": "Cost-effective and Reliable Global Internet Peering with Programmable Switches",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/miao-peering",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-069-cost-effective-and-reliable-global-internet-peering-with-programmable-switches.md"
+    },
+    {
+      "id": "nsdi26-070",
+      "title": "KRAKENGUARD: Towards Fine-Grained eBPF Isolation",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/patel",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-070-krakenguard-towards-fine-grained-ebpf-isolation.md"
+    },
+    {
+      "id": "nsdi26-071",
+      "title": "Net-P4ct: Enhanced WAN Bandwidth Fair Sharing Using P4 Programmable Switches",
+      "conference": "NSDI 2026",
+      "date": "2026-03",
+      "topics": [
+        "Distributed Systems"
+      ],
+      "tags": [
+        "distributed-systems"
+      ],
+      "abstract": "At growing internet companies like ByteDance, Wide Area Network (WAN) bandwidth sharing across diverse services with varying SLO requirements is a fundamental challenge. Conventional host-based enforcement systems, where agents identify and throttle traffic at the server end, face practical challenges such as \"blind spot\" traffic, kernel-dependent operational complexity, and significant server resource overhead. To address these issues, we present Net-P4ct, an in-network bandwidth enforcement system using P4 programmable switches. Net-P4ct improves both bandwidth guarantees and fair sharing by shifting dynamic QoS control into the switch data plane. Specifically, it achieves broader traffic coverage by combining host-side traffic tagging with a P4-switch pipeline, where service classification and QoS class assignment are performed. Based on observed traffic metrics, a centralized control plane determines real-time policy updates according to the max-min fair bandwidth allocation. We demonstrate the system's benefits including improved bandwidth utilization, reduced operational complexity, and lower per-byte processing cost. Net-P4ct has been deployed in ByteDance's production WAN for nearly a year, and we hope to share our experience with the community.",
+      "arxiv": "",
+      "url": "https://www.usenix.org/conference/nsdi26/presentation/chen",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/nsdi/2026/nsdi26-071-net-p4ct-enhanced-wan-bandwidth-fair-sharing-using-p4-programmable-switches.md"
+    },
+    {
+      "id": "osdi24-001",
+      "title": "InfiniGen: Efficient LLM Serving with Disaggregated KV Cache",
+      "conference": "OSDI 2024",
+      "date": "2024-07",
+      "topics": [
+        "LLM Serving"
+      ],
+      "tags": "[kv-cache, disaggregated, distributed-serving]",
+      "abstract": "[(待补充 — 需要从会议页面或 arXiv 获取完整摘要)]",
+      "arxiv": "",
+      "url": "",
+      "status": "new",
+      "is_industry": false,
+      "file": "papers/osdi/2024/osdi24-001-ininiggen-efficient-llm-serving-with-disaggregated-kv-cache.md"
+    },
+    {
+      "id": "osdi24-002",
+      "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+      "conference": "OSDI 2024",
+      "date": "2024-07",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[distllm, disaggregation, prefill-decode, goodput]",
+      "abstract": "DistServe improves the performance of large language models (LLMs) serving by disaggregating the prefill and decoding computation. Existing LLM serving systems colocate the two phases and batch the computation of prefill and decoding across all users and requests. We find that this strategy not only leads to strong prefill-decoding interferences but also couples the resource allocation and parallelism plans for both phases. LLM applications often emphasize individual latency for each phase: time to first token (TTFT) for the prefill phase and time per output token (TPOT) of each request for the decoding phase. In the presence of stringent latency requirements, existing systems have to prioritize one latency over the other, or over-provision compute resources to meet both. DistServe assigns prefill and decoding computation to different GPUs, hence eliminating prefill-decoding interferences. Given the application's TTFT and TPOT requirements, DistServe co-optimizes the resource allocation and parallelism strategy tailored for each phase. DistServe also places the two phases according to the serving cluster's bandwidth to minimize the communication caused by disaggregation. As a result, DistServe significantly improves LLM serving performance in terms of the maximum rate that can be served within both TTFT and TPOT constraints on each GPU. Our evaluations show that on various popular LLMs, applications, and latency requirements, DistServe can serve 7.4x more requests or 12.6x tighter SLO, compared to state-of-the-art systems, while staying within latency constraints for > 90% of requests.",
+      "arxiv": "2401.09670",
+      "url": "https://arxiv.org/abs/2401.09670",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/osdi/2024/osdi24-002-distserve-disaggregating.md"
+    },
+    {
+      "id": "sigcomm25-001",
+      "title": "InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "LLM Serving",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "ai-dcn",
+        "llm-serving",
+        "datacenter-networking"
+      ],
+      "abstract": "Proposes InfiniteHBD, a transceiver-centric HBD architecture integrating Optical Circuit Switching (OCS) within each transceiver. 100 optical channels at 2 Gbps each, scaling to 800 Gbps with up to 50m reach.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750468",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-001-nfinite-uilding-atacenter-cale-igh-andwidth-omain-for-with-ptical-ircuit-witchin.md"
+    },
+    {
+      "id": "sigcomm25-002",
+      "title": "DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "LLM Training",
+        "LLM Serving"
+      ],
+      "tags": [
+        "ai-training",
+        "llm-serving"
+      ],
+      "abstract": "Incorporates two novel disaggregation techniques to address model and data heterogeneity in multimodal LLM training.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750472",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-002-istrain-ddressing-odel-and-ata-eterogeneity-with-isaggregated-raining-for-ultimo.md"
+    },
+    {
+      "id": "sigcomm25-003",
+      "title": "SCX: Stateless KV-Cache Encoding for Cloud-Scale Confidential Transformer Serving",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Security",
+        "LLM Serving"
+      ],
+      "tags": [
+        "network-security",
+        "llm-serving"
+      ],
+      "abstract": "Proposes stateless KV-cache encoding (SCX) that encodes intermediate key-value cache during Transformer inference using user-controlled keys, enabling confidential serving.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750509",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-003-tateless-ache-ncoding-for-loud-cale-onfidential-ransformer-erving.md"
+    },
+    {
+      "id": "sigcomm25-004",
+      "title": "ResCCL: Resource-Efficient Scheduling for Collective Communication",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "LLM Training"
+      ],
+      "tags": [
+        "ai-dcn",
+        "ai-training"
+      ],
+      "abstract": "Novel CCL backend designed for Resource-Efficient Scheduling to address key limitations in current collective communication systems.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750514",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-004-es-esource-fficient-cheduling-for-ollective-ommunication.md"
+    },
+    {
+      "id": "sigcomm25-005",
+      "title": "Albatross: A Containerized Cloud Gateway Platform with FPGA-accelerated Packet-level Load Balancing",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "CDN",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "cdn",
+        "datacenter-networking"
+      ],
+      "abstract": "3rd generation cloud gateway based on FPGA and x86 CPUs with FPGA-accelerated packet-level load balancing.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750473",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-005-lbatross-ontainerized-loud-ateway-latform-with-accelerated-acket-level-oad-alanc.md"
+    },
+    {
+      "id": "sigcomm25-006",
+      "title": "Revisiting RDMA Reliability for Lossy Fabrics",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "network-measurement",
+        "datacenter-networking"
+      ],
+      "abstract": "RDMA reliability independent of PFC, compatible with packet-level load balancing, free from RTO, and friendly to hardware offloading.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750480",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-006-evisiting-eliability-for-ossy-abrics.md"
+    },
+    {
+      "id": "sigcomm25-007",
+      "title": "Software-based Live Migration for RDMA",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "datacenter-networking"
+      ],
+      "abstract": "Proposes MigrRDMA, a software-based RDMA live migration without extra hardware support.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750487",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-007-oftware-based-ive-igration-for.md"
+    },
+    {
+      "id": "sigcomm25-008",
+      "title": "ByteDance Jakiro: Enabling RDMA and TCP Over Virtual Private Cloud",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Cloud Computing",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "cloud-computing",
+        "datacenter-networking"
+      ],
+      "abstract": "Jakiro framework supporting both RDMA and TCP within ByteDance Cloud VPC environment.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750496",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-008-yteance-akiro-nabling-and-ver-irtual-rivate-loud.md"
+    },
+    {
+      "id": "sigcomm25-009",
+      "title": "LeoCC: Making Internet Congestion Control Robust to LEO Satellite Dynamics",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Wireless",
+        "Congestion Control"
+      ],
+      "tags": [
+        "wireless",
+        "congestion-control"
+      ],
+      "abstract": "Detects reconfiguration, applies reconfiguration-aware model, and precisely regulates sending rate for LEO satellite networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750491",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-009-eo-aking-nternet-ongestion-ontrol-obust-to-atellite-ynamics.md"
+    },
+    {
+      "id": "sigcomm25-010",
+      "title": "Censys: A Map of Internet Hosts and Services",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement",
+        "Network Security"
+      ],
+      "tags": [
+        "network-measurement",
+        "network-security"
+      ],
+      "abstract": "Presents Censys evolution, current architecture, evaluation of visibility, and research/industry/government applications.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3754344",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-010-ensys-ap-of-nternet-osts-and-ervices.md"
+    },
+    {
+      "id": "sigcomm25-011",
+      "title": "Edge Caching As Differentiation",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "CDN",
+        "Edge Computing"
+      ],
+      "tags": [
+        "cdn",
+        "edge-computing"
+      ],
+      "abstract": "Reveals surprising QoE disparities from edge caching and discusses their implications.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3754350",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-011-dge-aching-s-ifferentiation.md"
+    },
+    {
+      "id": "sigcomm25-012",
+      "title": "Raha: A General Tool to Analyze WAN Degradation",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "network-measurement",
+        "network-monitoring"
+      ],
+      "abstract": "Experiments on Microsoft production network demonstrating Raha is scalable and effective for WAN degradation analysis.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3754348",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-012-aha-eneral-ool-to-nalyze-egradation.md"
+    },
+    {
+      "id": "sigcomm25-013",
+      "title": "ParserHawk: Hardware-aware Parser Generator Using Program Synthesis",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "SDN",
+        "Network Programmability"
+      ],
+      "tags": [
+        "sdn",
+        "network-programmability"
+      ],
+      "abstract": "Parser compiler using program-synthesis for Intel IPU and Barefoot Tofino programmable switch.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750484",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-013-arserawk-ardware-aware-arser-enerator-sing-rogram-ynthesis.md"
+    },
+    {
+      "id": "sigcomm25-014",
+      "title": "Nezha: SmartNIC-based Virtual Switch Load Sharing",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "SDN",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "sdn",
+        "datacenter-networking"
+      ],
+      "abstract": "Distributed vSwitch load sharing system using SmartNICs for datacenter networking.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750466",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-014-ezha-mart-based-irtual-witch-oad-haring.md"
+    },
+    {
+      "id": "sigcomm25-015",
+      "title": "Mosaic: Breaking The Optics Versus Copper Trade-off with A Wide-and-Slow Architecture and MicroLEDs",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "datacenter-networking"
+      ],
+      "abstract": "End-to-end prototype with 100 optical channels at 2 Gbps each, scaling to 800 Gbps with up to 50m reach for datacenter networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750510",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-015-osaic-reaking-he-ptics-ersus-opper-rade-off-with-ide-and-low-rchitecture-and-icr.md"
+    },
+    {
+      "id": "sigcomm25-016",
+      "title": "Falcon: A Reliable, Low Latency Hardware Transport",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Transport Protocol",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "transport-protocol",
+        "datacenter-networking"
+      ],
+      "abstract": "First hardware transport supporting multiple ULPs and heterogeneous workloads in general-purpose Ethernet datacenters.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750474",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-016-alcon-eliable-ow-atency-ardware-ransport.md"
+    },
+    {
+      "id": "sigcomm25-017",
+      "title": "Hattrick: Solving Multi-Class TE Using Neural Models",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Machine Learning for Networks",
+        "Routing"
+      ],
+      "tags": [
+        "machine-learning-for-networks",
+        "routing"
+      ],
+      "abstract": "First ML-based approach for handling multiple traffic classes in cloud and ISP WANs traffic engineering.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750482",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-017-attrick-olving-ulti-lass-sing-eural-odels.md"
+    },
+    {
+      "id": "sigcomm25-018",
+      "title": "CClinguist: An Expert-Free Framework for Future-Compatible Congestion Control Algorithm Identification",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Machine Learning for Networks",
+        "Congestion Control"
+      ],
+      "tags": [
+        "machine-learning-for-networks",
+        "congestion-control"
+      ],
+      "abstract": "Expert-free CCA identification tool eliminating manual configuration needs for congestion control.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750478",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-018-linguist-n-xpert-ree-ramework-for-uture-ompatible-ongestion-ontrol-lgorithm-dent.md"
+    },
+    {
+      "id": "sigcomm25-019",
+      "title": "The Sweet Danger of Sugar: Debunking Representation Learning for Encrypted Traffic Classification",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement",
+        "Network Security"
+      ],
+      "tags": [
+        "network-measurement",
+        "network-security"
+      ],
+      "abstract": "Critical reassessment of representation learning performance for encrypted traffic classification.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750488",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-019-he-weet-anger-of-ugar-ebunking-epresentation-earning-for-ncrypted-raffic-lassifi.md"
+    },
+    {
+      "id": "sigcomm25-020",
+      "title": "DeepSpace: Super Resolution Powered Efficient and Reliable Satellite Image Data Acquisition",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Wireless",
+        "Machine Learning for Networks"
+      ],
+      "tags": [
+        "wireless",
+        "machine-learning-for-networks"
+      ],
+      "abstract": "DL-based super-resolution compressing satellite imagery by over two orders of magnitude using MoE framework.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750493",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-020-eeppace-uper-esolution-owered-fficient-and-eliable-atellite-mage-ata-cquisition.md"
+    },
+    {
+      "id": "sigcomm25-021",
+      "title": "Agua: A Concept-Based Explainer for Learning-Enabled Systems",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Machine Learning for Networks"
+      ],
+      "tags": [
+        "machine-learning-for-networks"
+      ],
+      "abstract": "Explains model decisions using high-level human understandable concepts for learning-enabled networked systems.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750494",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-021-gua-oncept-ased-xplainer-for-earning-nabled-ystems.md"
+    },
+    {
+      "id": "sigcomm25-022",
+      "title": "Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "SDN",
+        "Machine Learning for Networks",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "sdn",
+        "machine-learning-for-networks",
+        "network-monitoring"
+      ],
+      "abstract": "Multi-agent framework for network management at Meta using LLMs for intent-driven operations.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750502",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-022-ntent-riven-etwork-anagement-with-ulti-gent-s-he-onfucius-ramework.md"
+    },
+    {
+      "id": "sigcomm25-023",
+      "title": "Hermes: Enhancing Layer-7 Cloud Load Balancers with Userspace-Directed I/O Event Notification",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Cloud Computing",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "cloud-computing",
+        "datacenter-networking"
+      ],
+      "abstract": "Userspace-directed I/O event notification framework to enhance L7 load balancers in cloud.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750486",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-023-ermes-nhancing-ayer-7-loud-oad-alancers-with-serspace-irected-vent-otification.md"
+    },
+    {
+      "id": "sigcomm25-024",
+      "title": "CEIO: A Cache-Efficient Network I/O Architecture for NIC-CPU Data Paths",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "datacenter-networking"
+      ],
+      "abstract": "Achieves zero LLC misses in I/O data path while ensuring DDIO and RDMA effectiveness.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750490",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-024-ache-fficient-etwork-rchitecture-for-ata-aths.md"
+    },
+    {
+      "id": "sigcomm25-025",
+      "title": "Centralium: A Hybrid Route-Planning Framework for Large-Scale Data Center Network Migrations",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Routing",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "routing",
+        "datacenter-networking"
+      ],
+      "abstract": "Addresses unique challenges of production migration where native BGP falls short for large-scale DCN.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750489",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-025-entralium-ybrid-oute-lanning-ramework-for-arge-cale-ata-enter-etwork-igrations.md"
+    },
+    {
+      "id": "sigcomm25-026",
+      "title": "ZENITH: Towards A Formally Verified Highly-Available Control Plane",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Security",
+        "Distributed Systems"
+      ],
+      "tags": [
+        "network-security",
+        "distributed-systems"
+      ],
+      "abstract": "Microservice-based controller avoiding inconsistencies by design with formal verification for network control planes.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750500",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-026-owards-ormally-erified-ighly-vailable-ontrol-lane.md"
+    },
+    {
+      "id": "sigcomm25-027",
+      "title": "Firefly: Scalable, Ultra-Accurate Clock Synchronization for Datacenters",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Distributed Systems",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "distributed-systems",
+        "datacenter-networking"
+      ],
+      "abstract": "Software-driven datacenter clock sync using distributed consensus on random overlay graph.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750504",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-027-irefly-calable-ltra-ccurate-lock-ynchronization-for-atacenters.md"
+    },
+    {
+      "id": "sigcomm25-028",
+      "title": "Alibaba Stellar: A New Generation RDMA Network for Cloud AI",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "ai-dcn",
+        "rdma",
+        "datacenter-networking"
+      ],
+      "abstract": "Addresses container initialization times, hardware constraints (limited QP numbers), and traffic steering for cloud AI RDMA networking.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750470",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-028-libaba-tellar-ew-eneration-etwork-for-loud.md"
+    },
+    {
+      "id": "sigcomm25-029",
+      "title": "DNSLogzip: A Novel Approach to Fast and High-Ratio Compression for DNS Logs",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement"
+      ],
+      "tags": [
+        "network-measurement"
+      ],
+      "abstract": "Identifies four key inter-line and intra-line characteristics for effective compression of DNS logs.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750506",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-029-ogzip-ovel-pproach-to-ast-and-igh-atio-ompression-for-ogs.md"
+    },
+    {
+      "id": "sigcomm25-030",
+      "title": "Hawkeye: Diagnosing RDMA Network Performance Anomalies with PFC Provenance",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Monitoring",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "network-monitoring",
+        "datacenter-networking"
+      ],
+      "abstract": "Accurate and efficient RDMA network performance anomaly diagnosis system based on PFC provenance.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750476",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-030-awkeye-iagnosing-etwork-erformance-nomalies-with-rovenance.md"
+    },
+    {
+      "id": "sigcomm25-031",
+      "title": "Towards LLM-Based Failure Localization in Production-Scale Networks",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Machine Learning for Networks",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "machine-learning-for-networks",
+        "network-monitoring"
+      ],
+      "abstract": "BiAn framework assisting operators in efficient incident investigation using LLMs for failure localization.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750475",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-031-owards-ased-ailure-ocalization-in-roduction-cale-etworks.md"
+    },
+    {
+      "id": "sigcomm25-032",
+      "title": "SkyNet: Analyzing Alert Flooding from Severe Network Failures in Large Cloud Infrastructures",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Monitoring"
+      ],
+      "tags": [
+        "network-monitoring"
+      ],
+      "abstract": "Extracts scope and severity information from alert floods for large cloud infrastructure failure analysis.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750471",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-032-kyet-nalyzing-lert-looding-from-evere-etwork-ailures-in-arge-loud-nfrastructures.md"
+    },
+    {
+      "id": "sigcomm25-033",
+      "title": "SkeletonHunter: Diagnosing and Localizing Network Failures in Containerized Large Model Training",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "LLM Training",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "ai-training",
+        "network-monitoring"
+      ],
+      "abstract": "Container network monitoring using intrinsic sparsity of training traffic for failure diagnosis in large model training.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750479",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-033-keletonunter-iagnosing-and-ocalizing-etwork-ailures-in-ontainerized-arge-odel-ra.md"
+    },
+    {
+      "id": "sigcomm25-034",
+      "title": "ByteTracker: An Agentless and Real-time Path-aware Network Probing System",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Monitoring",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "network-monitoring",
+        "datacenter-networking"
+      ],
+      "abstract": "First agentless probing and diagnostic system for large-scale datacenter network.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750485",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-034-yteracker-n-gentless-and-eal-time-ath-aware-etwork-robing-ystem.md"
+    },
+    {
+      "id": "sigcomm25-035",
+      "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "LLM Training"
+      ],
+      "tags": [
+        "ai-dcn",
+        "ai-training"
+      ],
+      "abstract": "First-of-its-kind system unlocking topology reconfiguration during distributed MoE training using optical-electrical fabric.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750497",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-035-ixet-untime-econfigurable-ptical-lectrical-abric-for-istributed-ixture-of-xperts.md"
+    },
+    {
+      "id": "sigcomm25-036",
+      "title": "Orderlock: A New Type of Deadlock and Its Implications on High Performance Network Protocol Design",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Security",
+        "Transport Protocol"
+      ],
+      "tags": [
+        "network-security",
+        "transport-protocol"
+      ],
+      "abstract": "Identifies Orderlock as necessary and sufficient condition for a new type of deadlock in network protocol design.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750501",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-036-rderlock-ew-ype-of-eadlock-and-ts-mplications-on-igh-erformance-etwork-rotocol-e.md"
+    },
+    {
+      "id": "sigcomm25-037",
+      "title": "MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "LLM Training",
+        "LLM Serving"
+      ],
+      "tags": [
+        "ai-training",
+        "llm-serving"
+      ],
+      "abstract": "Introduces ping-pong pipeline parallelism for MoE inference disaggregation in distributed serving.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750495",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-037-egacale-nfer-fficient-ixture-of-xperts-odel-erving-with-isaggregated-xpert-arall.md"
+    },
+    {
+      "id": "sigcomm25-038",
+      "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "LLM Training"
+      ],
+      "tags": [
+        "ai-dcn",
+        "ai-training"
+      ],
+      "abstract": "Novel datacenter infrastructure for ultra-scale LLM training with operational lessons from production.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750467",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-038-stral-atacenter-nfrastructure-for-arge-anguage-odel-raining-at-cale.md"
+    },
+    {
+      "id": "sigcomm25-039",
+      "title": "SGLB: Scalable and Robust Global Load Balancing in Commodity AI Clusters",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "ai-dcn",
+        "datacenter-networking"
+      ],
+      "abstract": "Distributed global congestion-aware load balancing system for AI clusters with commodity hardware.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750503",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-039-calable-and-obust-lobal-oad-alancing-in-ommodity-lusters.md"
+    },
+    {
+      "id": "sigcomm25-040",
+      "title": "SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "AI DCN",
+        "LLM Training"
+      ],
+      "tags": [
+        "ai-dcn",
+        "ai-training"
+      ],
+      "abstract": "Scalable collective schedule synthesizer for near-optimal schedules in minutes using symmetry exploitation.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750465",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-040-y-xploiting-ymmetry-for-fficient-ollective-ommunication-cheduling.md"
+    },
+    {
+      "id": "sigcomm25-041",
+      "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Cloud Computing",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "cloud-computing",
+        "datacenter-networking"
+      ],
+      "abstract": "Shifts from software-centric to hardware-centric architecture with session as basic unit for cloud networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750512",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-041-ornax-ardware-entric-ession-anagement-in-arge-ublic-loud-etwork.md"
+    },
+    {
+      "id": "sigcomm25-042",
+      "title": "NPC: Rethinking Dataplane Through Network-aware Packet Classification",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement",
+        "SDN"
+      ],
+      "tags": [
+        "network-measurement",
+        "sdn"
+      ],
+      "abstract": "Integrates network measurement module with packet classification module for smarter dataplane.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750498",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-042-ethinking-ataplane-hrough-etwork-aware-acket-lassification.md"
+    },
+    {
+      "id": "sigcomm25-043",
+      "title": "Pegasus: A Universal Framework for Scalable Deep Learning Inference on The Dataplane",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "SDN",
+        "LLM Serving"
+      ],
+      "tags": [
+        "sdn",
+        "llm-serving"
+      ],
+      "abstract": "Addresses limitations of MAT abstraction for DL inference on programmable dataplane switches.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750492",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-043-egasus-niversal-ramework-for-calable-eep-earning-nference-on-he-ataplane.md"
+    },
+    {
+      "id": "sigcomm25-044",
+      "title": "PtCAM: Scalable High-Speed Name Prefix Lookup Using TCAM",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Routing",
+        "Network Programmability"
+      ],
+      "tags": [
+        "routing",
+        "network-programmability"
+      ],
+      "abstract": "Supports generic hierarchical name lookups on millions of prefixes with TCAM for information-centric networking.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750507",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-044-t-calable-igh-peed-ame-refix-ookup-sing.md"
+    },
+    {
+      "id": "sigcomm25-045",
+      "title": "Scaling SCIERA: A Journey Through The Deployment of A Next-generation Network",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Routing",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "routing",
+        "network-architecture"
+      ],
+      "abstract": "Increases native SCION use cases for application-optimized communication in next-generation networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750511",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-045-caling-ourney-hrough-he-eployment-of-ext-generation-etwork.md"
+    },
+    {
+      "id": "sigcomm25-046",
+      "title": "RANBooster: Democratizing Advanced Cellular Connectivity Through Fronthaul Middleboxes",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Wireless",
+        "Edge Computing"
+      ],
+      "tags": [
+        "wireless",
+        "edge-computing"
+      ],
+      "abstract": "Middlebox architecture enhancing RAN capabilities via open fronthaul interface for cellular networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750505",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-046-ooster-emocratizing-dvanced-ellular-onnectivity-hrough-ronthaul-iddleboxes.md"
+    },
+    {
+      "id": "sigcomm25-047",
+      "title": "Understanding and Profiling CXL.mem Using PathFinder",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "datacenter-networking"
+      ],
+      "abstract": "Profiles CXL.mem using PMUs and treats processor/chipset as multi-stage Clos network for memory disaggregation.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750513",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-047-nderstanding-and-rofiling-mem-sing-athinder.md"
+    },
+    {
+      "id": "sigcomm25-048",
+      "title": "PreTE: Traffic Engineering with Predictive Failures",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Routing",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "routing",
+        "network-monitoring"
+      ],
+      "abstract": "Novel TE system factoring dynamic fiber cut probabilities into traffic engineering for WAN.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750481",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-048-re-raffic-ngineering-with-redictive-ailures.md"
+    },
+    {
+      "id": "sigcomm25-049",
+      "title": "S2: A Distributed Configuration Verifier for Hyper-Scale Networks",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Security",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "network-security",
+        "network-monitoring"
+      ],
+      "abstract": "Scales out verification using multiple servers' resources for hyper-scale network configuration.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750483",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-049-2-istributed-onfiguration-erifier-for-yper-cale-etworks.md"
+    },
+    {
+      "id": "sigcomm25-050",
+      "title": "New Evolution of Hoyan: Enhancing Scalability, Usability, and Accuracy for Alibaba's Global WAN Verification",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Security",
+        "Network Monitoring"
+      ],
+      "tags": [
+        "network-security",
+        "network-monitoring"
+      ],
+      "abstract": "Addresses new challenges in scalability, usability, and accuracy for Alibaba global WAN verification.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750508",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-050-ew-volution-of-oyan-nhancing-calability-sability-and-ccuracy-for-libabas-lobal-e.md"
+    },
+    {
+      "id": "sigcomm25-051",
+      "title": "Lessons Learned from Operating A Large Network Telescope",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Network Measurement"
+      ],
+      "tags": [
+        "network-measurement"
+      ],
+      "abstract": "Leverages third-party scanning to validate data integrity and discover misconfigurations in network telescope operations.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750516",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-051-essons-earned-from-perating-arge-etwork-elescope.md"
+    },
+    {
+      "id": "sigcomm25-052",
+      "title": "Unlocking Superior Performance in Reconfigurable Data Center Networks with Credit-Based Transport",
+      "conference": "SIGCOMM 2025",
+      "date": "2025-03",
+      "topics": [
+        "Transport Protocol",
+        "Datacenter Networking"
+      ],
+      "tags": [
+        "transport-protocol",
+        "datacenter-networking"
+      ],
+      "abstract": "Flare protocol ensuring reliable delivery, low latency, and leveraging reconfiguring circuits in datacenter networks.",
+      "arxiv": "",
+      "url": "https://doi.org/10.1145/3718958.3750515",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/sigcomm/2025/sigcomm25-052-nlocking-uperior-erformance-in-econfigurable-ata-enter-etworks-with-redit-ased-r.md"
+    },
+    {
+      "id": "sosp23-001",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "conference": "SOSP 2023",
+      "date": "2023-10",
+      "topics": [
+        "LLM Serving",
+        "Distributed Systems"
+      ],
+      "tags": "[llm-serving, pagedattention, vllm, kv-cache, memory-management]",
+      "abstract": "High throughput serving of large language models (LLMs) requires batching sufficiently many requests at a time. However, existing systems struggle because the key-value cache (KV cache) memory for each request is huge and grows and shrinks dynamically. When managed inefficiently, this memory can be significantly wasted by fragmentation and redundant duplication, limiting the batch size. To address this problem, we propose PagedAttention, an attention algorithm inspired by the classical virtual memory and paging techniques in operating systems. On top of it, we build vLLM, an LLM serving system that achieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV cache within and across requests to further reduce memory usage. Our evaluations show that vLLM improves the throughput of popular LLMs by 2-4× with the same level of latency compared to the state-of-the-art systems, such as FasterTransformer and Orca. The improvement is more pronounced with longer sequences, larger models, and more complex decoding algorithms.",
+      "arxiv": "2309.06180",
+      "url": "https://arxiv.org/abs/2309.06180",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/sosp/2023/sosp23-001-efficient-memory-management.md"
+    },
+    {
+      "id": "iclr26-004",
+      "title": "LouisKV: Efficient KV Cache Retrieval for Long Input-Output Sequences",
+      "conference": "ICLR 2026",
+      "date": "2026-03",
+      "authors": [
+        {
+          "name": "Wenbo Wu",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Qingyi Si",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Xiurui Pan",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Ye Wang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jie Zhang",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Caching",
+        "Distributed Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "caching",
+        "distributed-systems"
+      ],
+      "abstract": "While Key-Value (KV) cache succeeds in reducing redundant computations in auto-regressive models, it introduces significant memory overhead, limiting its practical deployment in long-sequence scenarios. Existing KV retrieval methods attempt to mitigate this by dynamically retaining only a subset of KV entries on the GPU. However, they still suffer from notable efficiency and accuracy bottlenecks due to per-token retrieval and coarse-grained page-level KV management strategy, especially in long-output reasoning scenarios. With the emergence of large reasoning models, efficiently handling such scenarios has become increasingly important. To address this issue, we present two key observations: (1) critical KVs exhibit strong temporal locality during decoding, and (2) these KVs exhibit distinct distribution patterns across the input prompt and the generated output. Building on these observations, we propose LouisKV, an efficient KV cache retrieval framework designed for various long-sequence scenarios. Specifically, LouisKV introduces a semantic-aware retrieval strategy that leverages temporal locality to trigger retrieval only at semantic boundaries, drastically reducing computation and data transfer overhead. LouisKV also designs a decoupled, fine-grained management scheme that tailors differentiated strategies for input and output sequences to create retrieval units that better match the model's attention patterns, thereby enabling the precise identification of critical KVs. Furthermore, to boost system efficiency, LouisKV incorporates several kernel-level optimizations, including custom Triton and CUDA kernels to accelerate the KV clustering and retrieval. Evaluation results show that LouisKV achieves up to 4.7× speedup over state-of-the-art KV retrieval methods while maintaining near-lossless accuracy across diverse long-sequence tasks, including long-input short-output, short-input long-output, and long-input long-output scenarios.",
+      "arxiv": "",
+      "url": "https://openreview.net/forum?id=6RJ8fZwm4P",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/iclr/2026/iclr26-004-louiskv-efficient-kv-cache-retrieval-for-long-input-output-sequences.md"
+    },
+    {
+      "id": "iclr26-005",
+      "title": "Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs",
+      "conference": "ICLR 2026",
+      "date": "2026-03",
+      "authors": [
+        {
+          "name": "Ngoc Bui",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Shubham Sharma",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Simran Lamba",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Saumitra Mishra",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Rex Ying",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Caching"
+      ],
+      "tags": [
+        "llm-serving",
+        "caching"
+      ],
+      "abstract": "Memory and computation remain core bottlenecks in long-horizon LLM inference due to the quadratic cost of self-attention and the ever-growing key-value (KV) cache. Existing strategies for memory-bounded inference, such as quantization, offloading, or heuristic KV eviction, either incur high orchestration costs or rely on unreliable attention-based proxies of importance. We propose TRIM-KV, a novel approach that learns each token’s intrinsic importance at creation time via a lightweight retention gate. Each gate predicts a scalar retention score that decays over time, reflecting the long-term utility of the token for a specific layer and head. Tokens with low scores are evicted when the memory budget is exceeded, ensuring that the cache always contains the most critical tokens. TRIM-KV is trained efficiently through distillation from a frozen LLM combined with a capacity loss, requiring only gate fine-tuning and adding negligible inference overhead. Across mathematical reasoning (GSM8K, MATH-500, AIME24), procedural generation (LongProc), conversational long-memory benchmarks (LongMemEval), and long-context understanding (LongBenchV2 and SCBench), TRIM-KV consistently outperforms strong eviction and learnable retrieval baselines, especially in low-memory regimes. Remarkably, it even surpasses full-cache models in some settings, showing that selective retention can serve as a form of regularization, suppressing noise from uninformative tokens. Qualitative analyses further reveal that learned retention scores align with human intuition, naturally recovering heuristics such as sink tokens, sliding windows, and gist compression without explicit design. Beyond efficiency, retention scores provide insights into layer- and head-specific roles, suggesting a new path toward LLM interpretability.",
+      "arxiv": "",
+      "url": "https://openreview.net/forum?id=qCaq3jGb0S",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/iclr/2026/iclr26-005-cache-what-lasts-token-retention-for-memory-bounded-kv-cache-in-llms.md"
+    },
+    {
+      "id": "arxiv25-006",
+      "title": "PRKV: Page Restruct KV Cache for High Accuracy and Efficiency LLM Generation",
+      "conference": "arXiv 2025",
+      "date": "2025-03",
+      "authors": [
+        {
+          "name": "Fang Wu",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Congming Gao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Weixi Zhu",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jiwu Shu",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "As the key-value (KV) cache size scales with context length, accessing large KV cache each step and substantial GPU memory demand challenge us to deploy LLMs with long contexts. Offloading-based KV retrieval preserves the entire KV cache in CPU memory and dynamically retrieves the most relevant KV pairs for each decoding step, which can preserve quality and reduce GPU memory consumption. However, existing page-level retrieval introduces inaccurate KV selection and significant retrieval overhead. PRKV jointly optimizes algorithm and system for page-level KV retrieval with KV offloading. On the algorithm side, PRKV introduces hybrid KV selection that combines static and dynamic selection strategies. On the system side, PRKV employs contiguous memory indexing and batched transfer optimizations to improve retrieval efficiency. Experiments demonstrate improved accuracy across scenarios and models, with up to 6.75x speedup over prior KV retrieval methods.",
+      "arxiv": "",
+      "url": "https://openreview.net/forum?id=7FM0GBFhe5",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-006-prkv-page-restruct-kv-cache-for-high-accuracy-and-efficiency-llm-generation.md"
+    },
+    {
+      "id": "arxiv25-007",
+      "title": "CentroidKV: Efficient Long-Context LLM Inference via KV Cache Clustering",
+      "conference": "arXiv 2025",
+      "date": "2025-03",
+      "authors": [
+        {
+          "name": "Jie Hu",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Shengnan Wang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Yutong He",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Ping Gong",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jiawei Yi",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Juncheng Zhang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Youhui Bai",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Renhai Chen",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Gong Zhang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Cheng Li",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Kun Yuan",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Large language models with extended context windows pose substantial deployment challenges because of their KV cache footprint. CentroidKV introduces an online KV cache clustering framework based on the observation that key states exhibit high similarity along the sequence dimension. It divides the sequence into chunks, applies Chunked Soft Matching within each chunk, and merges each cluster into a centroid. Extensive experiments across multiple models and long-context benchmarks show that CentroidKV can reduce KV cache memory usage by up to 75% while maintaining comparable model performance, accelerate decoding by up to 1.92x, and increase serving throughput by up to 4x with low computational overhead.",
+      "arxiv": "2506.11418",
+      "url": "https://openreview.net/forum?id=T3EeupQhGj",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-007-centroidkv-efficient-long-context-llm-inference-via-kv-cache-clustering.md"
+    },
+    {
+      "id": "arxiv25-008",
+      "title": "Sparse Attention Across Multiple-Context KV Cache",
+      "conference": "arXiv 2025",
+      "date": "2025-03",
+      "authors": [
+        {
+          "name": "Ziyi Cao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Qingyi Si",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jingbin Zhang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Bingquan Liu",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Reusing historical KV cache has become a mainstream approach for improving long-sequence inference efficiency, and sparse attention can further enhance throughput by selecting the most relevant KV cache. Existing methods, however, are limited to single-context scenarios with causal-attention dependencies. In retrieval-augmented generation, each document context is computed and stored independently as multiple-context KV cache, lacking cross-attention between contexts. SamKV is the first exploration of attention sparsification for multiple-context KV cache. It accounts for complementary information from other contexts when sparsifying one context and then locally recomputes the sparsified information. Experiments show that SamKV compresses sequence length to 15% without accuracy degradation compared with full-recomputation baselines, significantly improving throughput in multi-context RAG scenarios.",
+      "arxiv": "2508.11661",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40266",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2025/arxiv25-008-sparse-attention-across-multiple-context-kv-cache.md"
+    },
+    {
+      "id": "arxiv26-004",
+      "title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+      "conference": "arXiv 2026",
+      "date": "2026-03",
+      "authors": [
+        {
+          "name": "Yizhao Gao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jianyu Wei",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Qihao Zhang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Yu Cheng",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Shimao Chen",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Zhengju Tang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Zihan Jiang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Yifan Song",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Hailin Zhang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Liang Zhao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Bo Yang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Gang Wang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Shijie Cao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Fuli Luo",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "HySparse interleaves each full attention layer with several sparse attention layers and derives each sparse layer's token selection and KV caches directly from the preceding full attention layer. This resolves two limitations of prior sparse attention methods: they often require extra proxies to predict token importance, and they reduce computation without saving KV cache. HySparse uses the full attention layer as an oracle for token selection and enables sparse attention layers to reuse the full-attention KV cache, reducing both computation and memory. Evaluations on both 7B dense and 80B MoE models show substantial performance gains while reducing KV cache storage by nearly 10x.",
+      "arxiv": "2602.03560",
+      "url": "https://arxiv.org/abs/2602.03560",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2026/arxiv26-004-hysparse-a-hybrid-sparse-attention-architecture-with-oracle-token-selection-and.md"
+    },
+    {
+      "id": "arxiv25-010",
+      "title": "NOSA: Native and Offloadable Sparse Attention",
+      "conference": "arXiv 2025",
+      "date": "2025-03",
+      "authors": [
+        {
+          "name": "Yuxiang Huang",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Chaojun Xiao",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Xu Han",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Zhiyuan Liu",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Trainable sparse attention can improve decoding efficiency in long-context processing, but existing methods leave the size of the KV cache unchanged, constraining on-GPU batch sizes and throughput. NOSA shows that trainable sparse attention naturally exhibits strong locality in token selection across adjacent decoding steps, enabling KV cache offloading without altering the underlying attention computation. Because inherent locality is insufficient to make offloading efficient on its own, NOSA introduces explicit locality constraints by decomposing token selection into query-aware and query-agnostic components, reducing KV transfers while preserving the same attention computation used during training. Extensive benchmarks show near-lossless performance with up to 2.3x decoding-throughput improvement over a vanilla trainable sparse attention baseline.",
+      "arxiv": "2510.13602",
+      "url": "https://arxiv.org/abs/2510.13602",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2025/arxiv25-010-nosa-native-and-offloadable-sparse-attention.md"
+    },
+    {
+      "id": "arxiv23-003",
+      "title": "Prompt Cache: Modular Attention Reuse for Low-Latency Inference",
+      "conference": "arXiv 2023",
+      "date": "2023-03",
+      "authors": [
+        {
+          "name": "In Gim",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Guojun Chen",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Seung-seob Lee",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Nikhil Sarda",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Anurag Khandelwal",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Lin Zhong",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Prompt Cache accelerates LLM inference by reusing precomputed attention states across different prompts. Many prompts contain overlapping text segments such as system messages, prompt templates, and documents. Prompt Cache introduces reusable prompt modules defined in a schema and caches their attention states for later reuse. By concatenating cached module states and computing attention only for uncached segments, it significantly reduces time-to-first-token while preserving output accuracy across several LLMs.",
+      "arxiv": "2311.04934",
+      "url": "https://arxiv.org/abs/2311.04934",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2023/arxiv23-003-prompt-cache-modular-attention-reuse-for-low-latency-inference.md"
+    },
+    {
+      "id": "arxiv26-005",
+      "title": "LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents",
+      "conference": "arXiv 2026",
+      "date": "2026-03",
+      "authors": [
+        {
+          "name": "Hyesung Jeon",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Hyeongju Ha",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Jae-Joon Kim",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Role-specialized multi-agent systems often use multiple LoRA adapters on top of a shared pretrained backbone, but each agent still builds and stores its own KV cache for the same long trajectories. LRAgent decomposes the cache into a shared base component induced by the pretrained backbone and an adapter-dependent low-rank component induced by the LoRA weights. By sharing the base component and compactly storing the low-rank component, it reduces both memory and compute overhead while preserving accuracy near the non-shared baseline.",
+      "arxiv": "2602.01053",
+      "url": "https://arxiv.org/abs/2602.01053",
+      "status": "analyzed",
+      "is_industry": false,
+      "file": "papers/arxiv/2026/arxiv26-005-lragent-efficient-kv-cache-sharing-for-multi-lora-llm-agents.md"
+    },
+    {
+      "id": "arxiv26-006",
+      "title": "Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks",
+      "conference": "arXiv 2026",
+      "date": "2026-03",
+      "authors": [
+        {
+          "name": "Elias Lumer",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Faheem Nizar",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Akshaya Jangiti",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Kevin Frank",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Anmol Gulati",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Mandar Phadate",
+          "affiliation": "",
+          "is_industry": false
+        },
+        {
+          "name": "Vamse Kumar Subbiah",
+          "affiliation": "",
+          "is_industry": false
+        }
+      ],
+      "topics": [
+        "LLM Serving",
+        "Learning-based Systems"
+      ],
+      "tags": [
+        "llm-serving",
+        "learning-based-systems"
+      ],
+      "abstract": "Long-horizon LLM agents accumulate large contexts across many tool calls, but the benefits of prompt caching for such workloads remain underexplored. This work evaluates prompt caching across major providers and compares multiple strategies including full-context caching, system-prompt-only caching, and caching that excludes dynamic tool results. The results show that caching strategy choice matters materially for agentic workloads and that context structure strongly affects achievable cost and latency savings.",
+      "arxiv": "2601.06007",
+      "url": "https://arxiv.org/abs/2601.06007",
+      "status": "analyzed",
+      "is_industry": true,
+      "file": "papers/arxiv/2026/arxiv26-006-dont-break-the-cache-an-evaluation-of-prompt-caching-for-long-horizon-agentic-ta.md"
+    }
+  ]
+}

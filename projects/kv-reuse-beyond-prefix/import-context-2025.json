@@ -1,0 +1,13 @@
+[
+  {
+    "raw_title": "Cost-Efficient Serving of LLM Agents via Test-Time Plan Caching",
+    "raw_authors": "Qizheng Zhang; Michael Wornow; Kunle Olukotun",
+    "conference": "arXiv",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2506.14852",
+    "arxiv_id": "2506.14852",
+    "abstract": "Agentic applications incur substantial latency and cost from repeated planning and reasoning. Existing caching techniques designed for chatbots are insufficient when outputs depend on external state and environment context. This work proposes agentic plan caching, which extracts, stores, matches, and adapts structured plan templates from completed executions at test time. Across several real-world agentic applications, plan caching reduces serving cost materially while maintaining task performance.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  }
+]

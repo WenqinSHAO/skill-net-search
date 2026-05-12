@@ -1,0 +1,13 @@
+[
+  {
+    "raw_title": "Prompt Cache: Modular Attention Reuse for Low-Latency Inference",
+    "raw_authors": "In Gim; Guojun Chen; Seung-seob Lee; Nikhil Sarda; Anurag Khandelwal; Lin Zhong",
+    "conference": "arXiv",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2311.04934",
+    "arxiv_id": "2311.04934",
+    "abstract": "Prompt Cache accelerates LLM inference by reusing precomputed attention states across different prompts. Many prompts contain overlapping text segments such as system messages, prompt templates, and documents. Prompt Cache introduces reusable prompt modules defined in a schema and caches their attention states for later reuse. By concatenating cached module states and computing attention only for uncached segments, it significantly reduces time-to-first-token while preserving output accuracy across several LLMs.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  }
+]

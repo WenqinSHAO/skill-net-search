@@ -1,0 +1,57 @@
+[
+  {
+    "raw_title": "PRKV: Page Restruct KV Cache for High Accuracy and Efficiency LLM Generation",
+    "raw_authors": "Fang Wu; Congming Gao; Weixi Zhu; Jiwu Shu",
+    "conference": "arXiv",
+    "year": 2025,
+    "url": "https://openreview.net/forum?id=7FM0GBFhe5",
+    "arxiv_id": "",
+    "abstract": "As the key-value (KV) cache size scales with context length, accessing large KV cache each step and substantial GPU memory demand challenge us to deploy LLMs with long contexts. Offloading-based KV retrieval preserves the entire KV cache in CPU memory and dynamically retrieves the most relevant KV pairs for each decoding step, which can preserve quality and reduce GPU memory consumption. However, existing page-level retrieval introduces inaccurate KV selection and significant retrieval overhead. PRKV jointly optimizes algorithm and system for page-level KV retrieval with KV offloading. On the algorithm side, PRKV introduces hybrid KV selection that combines static and dynamic selection strategies. On the system side, PRKV employs contiguous memory indexing and batched transfer optimizations to improve retrieval efficiency. Experiments demonstrate improved accuracy across scenarios and models, with up to 6.75x speedup over prior KV retrieval methods.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  },
+  {
+    "raw_title": "CentroidKV: Efficient Long-Context LLM Inference via KV Cache Clustering",
+    "raw_authors": "Jie Hu; Shengnan Wang; Yutong He; Ping Gong; Jiawei Yi; Juncheng Zhang; Youhui Bai; Renhai Chen; Gong Zhang; Cheng Li; Kun Yuan",
+    "conference": "arXiv",
+    "year": 2025,
+    "url": "https://openreview.net/forum?id=T3EeupQhGj",
+    "arxiv_id": "2506.11418",
+    "abstract": "Large language models with extended context windows pose substantial deployment challenges because of their KV cache footprint. CentroidKV introduces an online KV cache clustering framework based on the observation that key states exhibit high similarity along the sequence dimension. It divides the sequence into chunks, applies Chunked Soft Matching within each chunk, and merges each cluster into a centroid. Extensive experiments across multiple models and long-context benchmarks show that CentroidKV can reduce KV cache memory usage by up to 75% while maintaining comparable model performance, accelerate decoding by up to 1.92x, and increase serving throughput by up to 4x with low computational overhead.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  },
+  {
+    "raw_title": "Sparse Attention Across Multiple-Context KV Cache",
+    "raw_authors": "Ziyi Cao; Qingyi Si; Jingbin Zhang; Bingquan Liu",
+    "conference": "arXiv",
+    "year": 2025,
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40266",
+    "arxiv_id": "2508.11661",
+    "abstract": "Reusing historical KV cache has become a mainstream approach for improving long-sequence inference efficiency, and sparse attention can further enhance throughput by selecting the most relevant KV cache. Existing methods, however, are limited to single-context scenarios with causal-attention dependencies. In retrieval-augmented generation, each document context is computed and stored independently as multiple-context KV cache, lacking cross-attention between contexts. SamKV is the first exploration of attention sparsification for multiple-context KV cache. It accounts for complementary information from other contexts when sparsifying one context and then locally recomputes the sparsified information. Experiments show that SamKV compresses sequence length to 15% without accuracy degradation compared with full-recomputation baselines, significantly improving throughput in multi-context RAG scenarios.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": true
+  },
+  {
+    "raw_title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+    "raw_authors": "Yizhao Gao; Jianyu Wei; Qihao Zhang; Yu Cheng; Shimao Chen; Zhengju Tang; Zihan Jiang; Yifan Song; Hailin Zhang; Liang Zhao; Bo Yang; Gang Wang; Shijie Cao; Fuli Luo",
+    "conference": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.03560",
+    "arxiv_id": "2602.03560",
+    "abstract": "HySparse interleaves each full attention layer with several sparse attention layers and derives each sparse layer's token selection and KV caches directly from the preceding full attention layer. This resolves two limitations of prior sparse attention methods: they often require extra proxies to predict token importance, and they reduce computation without saving KV cache. HySparse uses the full attention layer as an oracle for token selection and enables sparse attention layers to reuse the full-attention KV cache, reducing both computation and memory. Evaluations on both 7B dense and 80B MoE models show substantial performance gains while reducing KV cache storage by nearly 10x.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": true
+  },
+  {
+    "raw_title": "NOSA: Native and Offloadable Sparse Attention",
+    "raw_authors": "Yuxiang Huang; Chaojun Xiao; Xu Han; Zhiyuan Liu",
+    "conference": "arXiv",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2510.13602",
+    "arxiv_id": "2510.13602",
+    "abstract": "Trainable sparse attention can improve decoding efficiency in long-context processing, but existing methods leave the size of the KV cache unchanged, constraining on-GPU batch sizes and throughput. NOSA shows that trainable sparse attention naturally exhibits strong locality in token selection across adjacent decoding steps, enabling KV cache offloading without altering the underlying attention computation. Because inherent locality is insufficient to make offloading efficient on its own, NOSA introduces explicit locality constraints by decomposing token selection into query-aware and query-agnostic components, reducing KV transfers while preserving the same attention computation used during training. Extensive benchmarks show near-lossless performance with up to 2.3x decoding-throughput improvement over a vanilla trainable sparse attention baseline.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  }
+]

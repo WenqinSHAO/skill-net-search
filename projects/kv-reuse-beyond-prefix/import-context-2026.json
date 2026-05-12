@@ -1,0 +1,24 @@
+[
+  {
+    "raw_title": "LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents",
+    "raw_authors": "Hyesung Jeon; Hyeongju Ha; Jae-Joon Kim",
+    "conference": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.01053",
+    "arxiv_id": "2602.01053",
+    "abstract": "Role-specialized multi-agent systems often use multiple LoRA adapters on top of a shared pretrained backbone, but each agent still builds and stores its own KV cache for the same long trajectories. LRAgent decomposes the cache into a shared base component induced by the pretrained backbone and an adapter-dependent low-rank component induced by the LoRA weights. By sharing the base component and compactly storing the low-rank component, it reduces both memory and compute overhead while preserving accuracy near the non-shared baseline.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": false
+  },
+  {
+    "raw_title": "Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks",
+    "raw_authors": "Elias Lumer; Faheem Nizar; Akshaya Jangiti; Kevin Frank; Anmol Gulati; Mandar Phadate; Vamse Kumar Subbiah",
+    "conference": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2601.06007",
+    "arxiv_id": "2601.06007",
+    "abstract": "Long-horizon LLM agents accumulate large contexts across many tool calls, but the benefits of prompt caching for such workloads remain underexplored. This work evaluates prompt caching across major providers and compares multiple strategies including full-context caching, system-prompt-only caching, and caching that excludes dynamic tool results. The results show that caching strategy choice matters materially for agentic workloads and that context structure strongly affects achievable cost and latency savings.",
+    "topics_raw": ["LLM Serving", "Learning-based Systems"],
+    "is_industry": true
+  }
+]
