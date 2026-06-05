@@ -1,0 +1,71 @@
+---
+id: iclr-0022
+title: "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition"
+conference: ICLR 2024
+date: 2024-05
+authors:
+  - name: "Huck Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "YuChen Hu"
+    affiliation: ""
+    is_industry: false
+  - name: "Chen Chen"
+    affiliation: ""
+    is_industry: false
+  - name: "Ruizhe Li"
+    affiliation: ""
+    is_industry: false
+  - name: "Chao Zhang"
+    affiliation: ""
+    is_industry: false
+  - name: "Pin-Yu Chen"
+    affiliation: ""
+    is_industry: false
+  - name: "EnSiong Chng"
+    affiliation: ""
+    is_industry: false
+topics:
+  - AI & Machine Learning
+  - Applied_perception
+  - Foundation_models
+  - AI & Machine Learning
+tags:
+  - nvidia-research
+arxiv: ""
+research_areas:
+  - "Applied Perception"
+  - "Artificial Intelligence and Machine Learning"
+  - "Generative AI"
+  - "Machine Translation"
+  - "Natural Language Processing"
+  - "Speech Processing"
+external_links:
+  - name: "Arxiv Link"
+    url: "https://arxiv.org/abs/2401.10446"
+abstract: "Recent advances in large language models (LLMs) have promoted generative error correction (GER) for automatic speech recognition (ASR), which leverages the rich linguistic knowledge and powerful reasoning ability of LLMs to improve recognition results. The latest work proposes a GER benchmark with H"
+url: "https://research.nvidia.com/publication/2024-05_large-language-models-are-efficient-learners-noise-robust-speech-recognition"
+status: new
+---
+
+# Large Language Models are Efficient Learners of Noise-Robust Speech Recognition
+
+## 摘要
+
+Recent advances in large language models (LLMs) have promoted generative error correction (GER) for automatic speech recognition (ASR), which leverages the rich linguistic knowledge and powerful reasoning ability of LLMs to improve recognition results. The latest work proposes a GER benchmark with HyPoradise dataset to learn the mapping from ASR N-best hypotheses to ground-truth transcription by efficient LLM finetuning, which shows great effectiveness but lacks specificity on noise-robust ASR. In this work, we extend the benchmark to noisy conditions and investigate if we can teach LLMs to perform denoising for GER just like what robust ASR do}, where one solution is introducing noise information as a conditioner into LLM. However, directly incorporating noise embeddings from audio encoder could harm the LLM tuning due to cross-modality gap. To this end, we propose to extract a language-space noise embedding from the N-best list to represent the noise conditions of source speech, which can promote the denoising process in GER. Furthermore, in order to enhance its representation ability of audio noise, we design a knowledge distillation (KD) approach via mutual information estimation to distill the real noise information in audio embeddings to our language embedding. Experiments on various latest LLMs demonstrate our approach achieves a new breakthrough with up to 53.9% correction improvement in terms of word error rate while with limited training data. Analysis shows that our language-space noise embedding can well represent the noise conditions of source speech, under which off-the-shelf LLMs show strong ability of language-space denoising.
+
+## Problem
+
+*(待补充)*
+
+## Method
+
+*(待补充)*
+
+## Evaluation
+
+*(待补充)*
+
+## Limitations
+
+*(待补充)*
