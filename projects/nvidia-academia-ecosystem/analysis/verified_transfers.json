@@ -1,0 +1,914 @@
+{
+  "methodology": "Agent-reviewed blog content with title_match evidence gate",
+  "review_date": "2026-06-05",
+  "blogs_reviewed": 70,
+  "total_blog_paper_links": 71,
+  "unique_blogs_with_transfer": 53,
+  "papers_with_direct_transfer": 40,
+  "papers_with_moderate_transfer": 18,
+  "papers_with_both": 2,
+  "false_positives": 15,
+  "unique_papers_with_transfer": 56,
+  "product_groups": {
+    "NeMo Ecosystem": {
+      "papers": 12,
+      "members": [
+        "Minitron",
+        "Megatron-LM",
+        "NeMo Framework",
+        "SteerLM",
+        "Parakeet",
+        "NeMo Curator",
+        "Megatron-Core",
+        "NeMo"
+      ]
+    },
+    "Isaac Ecosystem": {
+      "papers": 16,
+      "members": [
+        "Isaac ROS",
+        "Isaac Sim",
+        "Isaac Lab",
+        "Isaac",
+        "Isaac GR00T",
+        "Isaac Manipulator",
+        "Isaac Perceptor",
+        "Isaac Gym"
+      ]
+    },
+    "RTX & Rendering": {
+      "papers": 3,
+      "members": [
+        "RT Cores",
+        "RTX",
+        "RTX Direct Illumination",
+        "RTXDI"
+      ]
+    },
+    "Earth-2 Ecosystem": {
+      "papers": 3,
+      "members": [
+        "Earth-2",
+        "FourCastNet",
+        "PhysicsNeMo"
+      ]
+    },
+    "Omniverse Ecosystem": {
+      "papers": 4,
+      "members": [
+        "DRIVE Sim",
+        "Omniverse Replicator",
+        "Omniverse"
+      ]
+    },
+    "GR00T & Robotics AI": {
+      "papers": 3,
+      "members": [
+        "Project GR00T",
+        "GR00T-Control",
+        "Newton Physics Engine"
+      ]
+    },
+    "TensorRT Ecosystem": {
+      "papers": 3,
+      "members": [
+        "TensorRT",
+        "TensorRT Model Optimizer",
+        "TensorRT-LLM"
+      ]
+    },
+    "Medical AI": {
+      "papers": 4,
+      "members": [
+        "Bio-Megatron",
+        "MONAI",
+        "Clara NLP",
+        "NV-Generate",
+        "BioNeMo",
+        "Proteina-Complexa"
+      ]
+    },
+    "CUDA & GPU": {
+      "papers": 8,
+      "members": [
+        "CUDA",
+        "A100 GPU"
+      ]
+    },
+    "Developer Tools": {
+      "papers": 15,
+      "members": [
+        "DREAMPlace",
+        "CloudXR",
+        "Reflex",
+        "Kaolin",
+        "Sionna",
+        "Kaolin Library",
+        "Marco",
+        "Aerial",
+        "Warp",
+        "PhysX"
+      ]
+    }
+  },
+  "paper_transfers": {
+    "arxiv-2567": [
+      {
+        "blog_title": "Accelerate Generalist Humanoid Robot Development with NVIDIA Isaac GR00T N1",
+        "url": "https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1/",
+        "blog_date": "2025-03-18",
+        "products": [
+          "Isaac GR00T",
+          "Isaac Sim",
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2965": [
+      {
+        "blog_title": "Accelerating Deep Learning Research in Medical Imaging Using MONAI",
+        "url": "https://developer.nvidia.com/blog/accelerating-deep-learning-research-in-medical-imaging-using-monai/",
+        "blog_date": "2020-07-08",
+        "products": [
+          "MONAI"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "NVIDIA Research at C-MIMI",
+        "url": "https://developer.nvidia.com/blog/c-mimi-research-nlp-telemedicine/",
+        "blog_date": "2020-09-14",
+        "products": [
+          "Bio-Megatron",
+          "Riva",
+          "NeMo",
+          "MONAI"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2641": [
+      {
+        "blog_title": "Advanced AI and RAG for Code Development in HPC",
+        "url": "https://developer.nvidia.com/blog/advanced-ai-and-retrieval-augmented-generation-for-code-development-in-high-performance-computing/",
+        "blog_date": "2024-05-12",
+        "products": [
+          "NeMo"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2579": [
+      {
+        "blog_title": "Advancing Physical AI with NVIDIA Cosmos World Foundation Model Platform",
+        "url": "https://developer.nvidia.com/blog/advancing-physical-ai-with-nvidia-cosmos-world-foundation-model-platform/",
+        "blog_date": "2025-01-09",
+        "products": [
+          "Cosmos",
+          "NeMo Curator",
+          "NeMo Framework"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2771": [
+      {
+        "blog_title": "Advancing Robotic Assembly with a Novel Simulation Approach Using NVIDIA Isaac",
+        "url": "https://developer.nvidia.com/blog/advancing-robotic-assembly-with-a-novel-simulation-approach-using-nvidia-isaac/",
+        "blog_date": "2022-07-08",
+        "products": [
+          "Isaac Gym",
+          "Isaac Sim"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2644": [
+      {
+        "blog_title": "Announcing NVIDIA SteerLM",
+        "url": "https://developer.nvidia.com/blog/announcing-steerlm-a-simple-and-practical-technique-to-customize-llms-during-inference/",
+        "blog_date": "2023-10-11",
+        "products": [
+          "NeMo",
+          "SteerLM"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "ispd-0003": [
+      {
+        "blog_title": "AutoDMP Optimizes Macro Placement for Chip Design with AI and GPUs",
+        "url": "https://developer.nvidia.com/blog/autodmp-optimizes-macro-placement-for-chip-design-with-ai-and-gpus/",
+        "blog_date": "2023-03-27",
+        "products": [
+          "DREAMPlace",
+          "CUDA"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "ispd-0005": [
+      {
+        "blog_title": "AutoDMP Optimizes Macro Placement for Chip Design with AI and GPUs",
+        "url": "https://developer.nvidia.com/blog/autodmp-optimizes-macro-placement-for-chip-design-with-ai-and-gpus/",
+        "blog_date": "2023-03-27",
+        "products": [
+          "DREAMPlace",
+          "CUDA"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "siggraph-0033": [
+      {
+        "blog_title": "Better 3D Meshes, from Reconstruction to Generative AI",
+        "url": "https://developer.nvidia.com/blog/better-3d-meshes-from-reconstruction-to-generative-ai/",
+        "blog_date": "2023-08-11",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "rss-0011": [
+      {
+        "blog_title": "Bridging the Sim-to-Real Gap for Industrial Robotic Assembly Using Isaac Lab",
+        "url": "https://developer.nvidia.com/blog/bridging-the-sim-to-real-gap-for-industrial-robotic-assembly-applications-using-nvidia-isaac-lab/",
+        "blog_date": "2025-05-20",
+        "products": [
+          "Isaac Lab",
+          "Isaac ROS",
+          "Isaac Sim"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2962": [
+      {
+        "blog_title": "Building State-of-the-Art Biomedical and Clinical NLP Models with BioMegatron",
+        "url": "https://developer.nvidia.com/blog/building-state-of-the-art-biomedical-and-clinical-nlp-models-with-biomegatron/",
+        "blog_date": "2020-10-05",
+        "products": [
+          "Megatron-LM",
+          "NeMo",
+          "Clara NLP"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2552": [
+      {
+        "blog_title": "Configurable Graph-Based Task Solving with the Marco Multi-AI Agent Framework",
+        "url": "https://developer.nvidia.com/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/",
+        "blog_date": "2025-02-25",
+        "products": [
+          "Marco"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2585": [
+      {
+        "blog_title": "Configurable Graph-Based Task Solving with the Marco Multi-AI Agent Framework",
+        "url": "https://developer.nvidia.com/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/",
+        "blog_date": "2025-02-25",
+        "products": [
+          "Marco"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2596": [
+      {
+        "blog_title": "Configurable Graph-Based Task Solving with the Marco Multi-AI Agent Framework",
+        "url": "https://developer.nvidia.com/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/",
+        "blog_date": "2025-02-25",
+        "products": [
+          "Marco"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2611": [
+      {
+        "blog_title": "Configurable Graph-Based Task Solving with the Marco Multi-AI Agent Framework",
+        "url": "https://developer.nvidia.com/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/",
+        "blog_date": "2025-02-25",
+        "products": [
+          "Marco"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2522": [
+      {
+        "blog_title": "Designing Protein Binders Using Proteina-Complexa",
+        "url": "https://developer.nvidia.com/blog/designing-protein-binders-using-the-generative-model-proteina-complexa/",
+        "blog_date": "2026-03-25",
+        "products": [
+          "Proteina-Complexa",
+          "BioNeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2971": [
+      {
+        "blog_title": "Discovering GPU-friendly Deep Neural Networks with Unified Neural Architecture Search",
+        "url": "https://developer.nvidia.com/blog/discovering-gpu-friendly-deep-neural-networks-with-unified-neural-architecture-search/",
+        "blog_date": "2020-11-05",
+        "products": [
+          "TensorRT",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2629": [
+      {
+        "blog_title": "Entropy-Based Methods for Word-Level ASR Confidence Estimation",
+        "url": "https://developer.nvidia.com/blog/entropy-based-methods-for-word-level-asr-confidence-estimation/",
+        "blog_date": "2023-01-13",
+        "products": [
+          "NeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "icra-0029": [
+      {
+        "blog_title": "Generate Synthetic Data for Deep Object Pose Estimation Training with Isaac ROS",
+        "url": "https://developer.nvidia.com/blog/generate-synthetic-data-for-deep-object-pose-estimation-training-with-nvidia-isaac-ros/",
+        "blog_date": "2024-01-18",
+        "products": [
+          "Isaac ROS",
+          "Isaac Sim"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "siggraph-0048": [
+      {
+        "blog_title": "Generative AI Research Spotlight: Personalizing Text-to-Image Models",
+        "url": "https://developer.nvidia.com/blog/generative-ai-research-spotlight-personalizing-text-to-image-models/",
+        "blog_date": "2024-02-06",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-3003": [
+      {
+        "blog_title": "Improving Computer Vision with NVIDIA A100 GPUs",
+        "url": "https://developer.nvidia.com/blog/improving-computer-vision-with-nvidia-a100-gpus/",
+        "blog_date": "2020-06-16",
+        "products": [
+          "A100 GPU",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "iclr-0033": [
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 1",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-1/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      },
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 2",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "iclr-0034": [
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 1",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-1/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      },
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 2",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "neurips-0045": [
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 1",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-1/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      },
+      {
+        "blog_title": "Improving Diffusion Models as an Alternative To GANs, Part 2",
+        "url": "https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-2/",
+        "blog_date": "2022-04-26",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2838": [
+      {
+        "blog_title": "Improving Player Performance with Low Latency",
+        "url": "https://developer.nvidia.com/blog/improving-player-performance-with-low-latency-as-evident-from-fps-aim-trainer-experiments/",
+        "blog_date": "2022-04-27",
+        "products": [
+          "Reflex"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2872": [
+      {
+        "blog_title": "Improving Player Performance with Low Latency",
+        "url": "https://developer.nvidia.com/blog/improving-player-performance-with-low-latency-as-evident-from-fps-aim-trainer-experiments/",
+        "blog_date": "2022-04-27",
+        "products": [
+          "Reflex"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2991": [
+      {
+        "blog_title": "Improving Player Performance with Low Latency",
+        "url": "https://developer.nvidia.com/blog/improving-player-performance-with-low-latency-as-evident-from-fps-aim-trainer-experiments/",
+        "blog_date": "2022-04-27",
+        "products": [
+          "Reflex"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Warp Drive Gaming – Eliminate Latency Penalty",
+        "url": "https://developer.nvidia.com/blog/nvidia-research-warp-drive-gaming-eliminate-more-than-80-of-the-latency-performance-penalty/",
+        "blog_date": "2020-07-14",
+        "products": [
+          "RTX",
+          "CloudXR"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-3026": [
+      {
+        "blog_title": "Jump-start Training for Speech Recognition Models with NeMo",
+        "url": "https://developer.nvidia.com/blog/jump-start-training-for-speech-recognition-models-with-nemo/",
+        "blog_date": "2020-05-14",
+        "products": [
+          "NeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2986": [
+      {
+        "blog_title": "Lighting Scenes with Millions of Lights Using RTX Direct Illumination",
+        "url": "https://developer.nvidia.com/blog/lighting-scenes-with-millions-of-lights-using-rtx-direct-illumination/",
+        "blog_date": "2020-10-20",
+        "products": [
+          "RTX Direct Illumination",
+          "RTX"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Rendering Millions of Dynamic Lights in Real-Time",
+        "url": "https://developer.nvidia.com/blog/rendering-millions-of-dynamics-lights-in-realtime/",
+        "blog_date": "2020-05-14",
+        "products": [
+          "RTX",
+          "RTXDI",
+          "RT Cores"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Rendering Perfect Reflections and Refractions in Path-Traced Games",
+        "url": "https://developer.nvidia.com/blog/rendering-perfect-reflections-and-refractions-in-path-traced-games/",
+        "blog_date": "2020-08-13",
+        "products": [
+          "RTX"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2594": [
+      {
+        "blog_title": "LLM Model Pruning and Knowledge Distillation with NeMo Framework",
+        "url": "https://developer.nvidia.com/blog/llm-model-pruning-and-knowledge-distillation-with-nvidia-nemo-framework/",
+        "blog_date": "2025-02-12",
+        "products": [
+          "NeMo",
+          "NeMo Framework"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Mistral-NeMo-Minitron 8B Model Delivers Unparalleled Accuracy",
+        "url": "https://developer.nvidia.com/blog/mistral-nemo-minitron-8b-foundation-model-delivers-unparalleled-accuracy/",
+        "blog_date": "2024-10-08",
+        "products": [
+          "NeMo",
+          "Minitron",
+          "TensorRT-LLM"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Pruning and Distilling LLMs Using TensorRT Model Optimizer",
+        "url": "https://developer.nvidia.com/blog/pruning-and-distilling-llms-using-nvidia-tensorrt-model-optimizer/",
+        "blog_date": "2025-10-07",
+        "products": [
+          "TensorRT Model Optimizer",
+          "NeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "icml-0014": [
+      {
+        "blog_title": "Modeling Earth's Atmosphere with Spherical Fourier Neural Operators",
+        "url": "https://developer.nvidia.com/blog/modeling-earths-atmosphere-with-spherical-fourier-neural-operators/",
+        "blog_date": "2023-07-27",
+        "products": [
+          "Earth-2",
+          "FourCastNet"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2674": [
+      {
+        "blog_title": "New Standard for Speech Recognition and Translation from the NeMo Canary Model",
+        "url": "https://developer.nvidia.com/blog/new-standard-for-speech-recognition-and-translation-from-the-nvidia-nemo-canary-model/",
+        "blog_date": "2024-04-18",
+        "products": [
+          "NeMo"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "NVIDIA Speech and Translation AI Models Set Records",
+        "url": "https://developer.nvidia.com/blog/nvidia-speech-and-translation-ai-models-set-records-for-speed-and-accuracy/",
+        "blog_date": "2024-03-19",
+        "products": [
+          "NeMo",
+          "Riva",
+          "NIM",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Turbocharge ASR Accuracy and Speed with NeMo Parakeet-TDT",
+        "url": "https://developer.nvidia.com/blog/turbocharge-asr-accuracy-and-speed-with-nvidia-nemo-parakeet-tdt/",
+        "blog_date": "2024-04-18",
+        "products": [
+          "NeMo",
+          "Parakeet"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2614": [
+      {
+        "blog_title": "NeMo Accelerates LLM Innovation with Hybrid SSM Support",
+        "url": "https://developer.nvidia.com/blog/nvidia-nemo-accelerates-llm-innovation-with-hybrid-state-space-model-support/",
+        "blog_date": "2024-07-17",
+        "products": [
+          "NeMo",
+          "Megatron-Core"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "icra-0004": [
+      {
+        "blog_title": "NVIDIA Presents New Robotics Research at ICRA",
+        "url": "https://developer.nvidia.com/blog/nvidia-presents-new-robotics-research-on-geometric-fabrics-surgical-robots-and-more-at-icra/",
+        "blog_date": "2024-05-15",
+        "products": [
+          "Isaac Lab"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "icra-0005": [
+      {
+        "blog_title": "NVIDIA Presents New Robotics Research at ICRA",
+        "url": "https://developer.nvidia.com/blog/nvidia-presents-new-robotics-research-on-geometric-fabrics-surgical-robots-and-more-at-icra/",
+        "blog_date": "2024-05-15",
+        "products": [
+          "Isaac Lab"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "siggraph-0028": [
+      {
+        "blog_title": "NVIDIA Research Shows Interactive Texture Painting at SIGGRAPH Asia",
+        "url": "https://developer.nvidia.com/blog/nvidia-research-shows-interactive-texture-painting-with-gen-ai-at-siggraph-asia-real-time-live/",
+        "blog_date": "2023-12-11",
+        "products": [
+          "Omniverse",
+          "Kaolin",
+          "Warp",
+          "RTX"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2957": [
+      {
+        "blog_title": "NVIDIA Researchers Use AI to Teach Robots Human-to-Robot Interactions",
+        "url": "https://developer.nvidia.com/blog/nvidia-researchers-use-ai-to-teach-robots-how-to-improve-human-to-robot-interactions/",
+        "blog_date": "2020-03-18",
+        "products": [
+          "Isaac",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2645": [
+      {
+        "blog_title": "NVIDIA Speech and Translation AI Models Set Records",
+        "url": "https://developer.nvidia.com/blog/nvidia-speech-and-translation-ai-models-set-records-for-speed-and-accuracy/",
+        "blog_date": "2024-03-19",
+        "products": [
+          "NeMo",
+          "Riva",
+          "NIM",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Pushing the Boundaries of Speech Recognition with NeMo Parakeet",
+        "url": "https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/",
+        "blog_date": "2024-04-18",
+        "products": [
+          "NeMo"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Turbocharge ASR Accuracy and Speed with NeMo Parakeet-TDT",
+        "url": "https://developer.nvidia.com/blog/turbocharge-asr-accuracy-and-speed-with-nvidia-nemo-parakeet-tdt/",
+        "blog_date": "2024-04-18",
+        "products": [
+          "NeMo",
+          "Parakeet"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2677": [
+      {
+        "blog_title": "NVIDIA Speech and Translation AI Models Set Records",
+        "url": "https://developer.nvidia.com/blog/nvidia-speech-and-translation-ai-models-set-records-for-speed-and-accuracy/",
+        "blog_date": "2024-03-19",
+        "products": [
+          "NeMo",
+          "Riva",
+          "NIM",
+          "CUDA"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Turbocharge ASR Accuracy and Speed with NeMo Parakeet-TDT",
+        "url": "https://developer.nvidia.com/blog/turbocharge-asr-accuracy-and-speed-with-nvidia-nemo-parakeet-tdt/",
+        "blog_date": "2024-04-18",
+        "products": [
+          "NeMo",
+          "Parakeet"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2538": [
+      {
+        "blog_title": "Powering Flood Risk Assessment with Earth-2",
+        "url": "https://developer.nvidia.com/blog/powering-flood-risk-assessment-with-nvidia-earth-2/",
+        "blog_date": "2025-03-25",
+        "products": [
+          "Earth-2",
+          "PhysicsNeMo"
+        ],
+        "strength": "DIRECT"
+      },
+      {
+        "blog_title": "Predict Extreme Weather Events in Minutes Without a Supercomputer",
+        "url": "https://developer.nvidia.com/blog/predict-extreme-weather-events-in-minutes-without-a-supercomputer/",
+        "blog_date": "2025-09-19",
+        "products": [
+          "Earth-2",
+          "PhysicsNeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2539": [
+      {
+        "blog_title": "Predict Extreme Weather Events in Minutes Without a Supercomputer",
+        "url": "https://developer.nvidia.com/blog/predict-extreme-weather-events-in-minutes-without-a-supercomputer/",
+        "blog_date": "2025-09-19",
+        "products": [
+          "Earth-2",
+          "PhysicsNeMo"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "corl-0008": [
+      {
+        "blog_title": "R2D2: Adapting Dexterous Robots with NVIDIA Research",
+        "url": "https://developer.nvidia.com/blog/r2d2-adapting-dexterous-robots-with-nvidia-research-workflows-and-models/",
+        "blog_date": "2025-04-25",
+        "products": [
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "neurips-0004": [
+      {
+        "blog_title": "R2D2: Improving Robot Manipulation with Simulation and Language Models",
+        "url": "https://developer.nvidia.com/blog/r2d2-improving-robot-manipulation-with-simulation-and-language-models/",
+        "blog_date": "2025-12-12",
+        "products": [
+          "Cosmos",
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "neurips-0005": [
+      {
+        "blog_title": "R2D2: Improving Robot Manipulation with Simulation and Language Models",
+        "url": "https://developer.nvidia.com/blog/r2d2-improving-robot-manipulation-with-simulation-and-language-models/",
+        "blog_date": "2025-12-12",
+        "products": [
+          "Cosmos",
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "corl-0001": [
+      {
+        "blog_title": "R2D2: Three Neural Breakthroughs Transforming Robot Learning",
+        "url": "https://developer.nvidia.com/blog/r2d2-three-neural-breakthroughs-transforming-robot-learning-from-nvidia-research/",
+        "blog_date": "2025-09-25",
+        "products": [
+          "Isaac Lab",
+          "Warp",
+          "Newton Physics Engine"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "corl-0002": [
+      {
+        "blog_title": "R2D2: Three Neural Breakthroughs Transforming Robot Learning",
+        "url": "https://developer.nvidia.com/blog/r2d2-three-neural-breakthroughs-transforming-robot-learning-from-nvidia-research/",
+        "blog_date": "2025-09-25",
+        "products": [
+          "Isaac Lab",
+          "Warp",
+          "Newton Physics Engine"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2634": [
+      {
+        "blog_title": "Real-Time Neural Receivers Drive AI-RAN Innovation",
+        "url": "https://developer.nvidia.com/blog/real-time-neural-receivers-drive-ai-ran-innovation/",
+        "blog_date": "2024-09-03",
+        "products": [
+          "TensorRT",
+          "Sionna",
+          "Aerial"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2665": [
+      {
+        "blog_title": "Reinforcing the Value of Simulation by Teaching Dexterity to a Real Robot Hand",
+        "url": "https://developer.nvidia.com/blog/reinforcing-the-value-of-simulation-by-teaching-dexterity-to-a-real-robot-hand/",
+        "blog_date": "2022-12-07",
+        "products": [
+          "Isaac Gym",
+          "Omniverse Replicator",
+          "PhysX"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "iccv-0003": [
+      {
+        "blog_title": "Sensing New Frontiers with Neural Lidar Fields",
+        "url": "https://developer.nvidia.com/blog/sensing-new-frontiers-with-neural-lidar-fields-for-autonomous-vehicle-simulation/",
+        "blog_date": "2023-07-27",
+        "products": [
+          "Omniverse",
+          "DRIVE Sim"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2604": [
+      {
+        "blog_title": "Simulate Elastic Objects in Any Representation with Kaolin Library",
+        "url": "https://developer.nvidia.com/blog/simulate-elastic-objects-in-any-representation-with-nvidia-kaolin-library/",
+        "blog_date": "2024-07-25",
+        "products": [
+          "Kaolin Library"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "icra-0014": [
+      {
+        "blog_title": "Simulating Realistic Traffic Behavior with Bi-Level Imitation Learning",
+        "url": "https://developer.nvidia.com/blog/simulating-realistic-traffic-behavior-with-a-bi-level-imitation-learning-ai-model/",
+        "blog_date": "2023-11-28",
+        "products": [
+          "DRIVE Sim",
+          "Omniverse"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-2533": [
+      {
+        "blog_title": "Streamline Robot Learning with Isaac Lab 2.3",
+        "url": "https://developer.nvidia.com/blog/streamline-robot-learning-with-whole-body-control-and-enhanced-teleoperation-in-nvidia-isaac-lab-2-3/",
+        "blog_date": "2025-09-29",
+        "products": [
+          "Isaac Lab"
+        ],
+        "strength": "MODERATE"
+      }
+    ],
+    "arxiv-2542": [
+      {
+        "blog_title": "Synthesize Realistic 3D Medical Images at Scale",
+        "url": "https://developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/",
+        "blog_date": "2026-05-22",
+        "products": [
+          "MONAI",
+          "NV-Generate"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "arxiv-3007": [
+      {
+        "blog_title": "Synthesizing High-Resolution Images with StyleGAN2",
+        "url": "https://developer.nvidia.com/blog/synthesizing-high-resolution-images-with-stylegan2/",
+        "blog_date": "2020-06-17",
+        "products": [],
+        "strength": "MODERATE"
+      }
+    ],
+    "rss-0004": [
+      {
+        "blog_title": "Training Sim-to-Real Transferable Robotic Assembly Skills",
+        "url": "https://developer.nvidia.com/blog/training-sim-to-real-transferable-robotic-assembly-skills-over-diverse-geometries/",
+        "blog_date": "2024-07-11",
+        "products": [
+          "Isaac Sim",
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ],
+    "siggraph-0009": [
+      {
+        "blog_title": "Unified Whole-Body Control for Physically Simulated Humanoids",
+        "url": "https://developer.nvidia.com/blog/unified-whole-body-control-for-physically-simulated-humanoids/",
+        "blog_date": "2024-12-02",
+        "products": [
+          "Project GR00T",
+          "GR00T-Control",
+          "Isaac Sim",
+          "Isaac Lab"
+        ],
+        "strength": "DIRECT"
+      }
+    ]
+  }
+}
