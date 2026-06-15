@@ -27,6 +27,16 @@ OBSERVATION_YEARS = list(range(2018, 2027))
 NETWORK_THRESHOLD = 6
 QUALIFYING_VENUES = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC"}
 
+# When True, annualized rates use the count of years with actual papers
+# rather than the full period length. This corrects for 2026 incompleteness.
+USE_EFFECTIVE_YEARS = False
+
+# When set to "fractional", each paper counts as 1/N for N authors.
+# When set to "lead_weighted", first-author = 1.0, last-author = 0.5,
+# middle = 1/(N-2) for papers with >=3 authors.
+# When None (default), all co-authors receive equal credit (1 paper = 1 incidence).
+FRACTIONAL_COUNTING: str | None = None  # "fractional" | "lead_weighted" | None
+
 VENUE_ALIASES = {
     "Internet Measurement Conference": "IMC",
     "ACM Internet Measurement Conference": "IMC",
@@ -135,18 +145,67 @@ def qualifying_venue_mix(counter: Counter) -> str:
     return "mixed_2"
 
 
-def annualized_rate_ratio(baseline_count: int, post_count: int) -> float | None:
-    baseline_rate = baseline_count / len(BASELINE_YEARS)
-    post_rate = post_count / len(POST_YEARS)
+def effective_post_years(post_papers: list[dict[str, Any]]) -> int:
+    """Count how many of POST_YEARS have at least one paper.
+
+    Used to correct the annualization denominator when 2026 data is incomplete.
+    Returns at least 1 to avoid division by zero.
+    """
+    years_with_papers = {p["year"] for p in post_papers if p["year"] in POST_YEARS}
+    return max(len(years_with_papers), 1)
+
+
+def fractional_paper_weight(paper: dict[str, Any], scheme: str | None) -> float:
+    """Compute fractional weight for a paper based on author contribution.
+
+    Args:
+        paper: Paper dict with author_count and optional author_position fields.
+        scheme: "fractional" for 1/N, "lead_weighted" for lead-weighted scheme.
+
+    Returns:
+        Weight between 0 and 1.
+    """
+    if scheme is None:
+        return 1.0
+    author_count = max(paper.get("author_count", 1), 1)
+    if scheme == "fractional":
+        return 1.0 / author_count
+    if scheme == "lead_weighted":
+        if paper.get("is_first_author"):
+            return 1.0
+        if paper.get("is_last_author") and author_count >= 3:
+            return 0.5
+        # Middle authors share remaining credit
+        if author_count <= 2:
+            return 0.5  # Two-author paper: both get equal credit
+        return 1.0 / (author_count - 2) if author_count > 2 else 1.0
+    return 1.0
+
+
+def annualized_rate_ratio(
+    baseline_count: int,
+    post_count: int,
+    baseline_year_count: int | None = None,
+    post_year_count: int | None = None,
+) -> float | None:
+    bl_years = baseline_year_count if baseline_year_count is not None else len(BASELINE_YEARS)
+    po_years = post_year_count if post_year_count is not None else len(POST_YEARS)
+    baseline_rate = baseline_count / bl_years
+    post_rate = post_count / po_years
     if baseline_rate == 0:
         return None
     return round(post_rate / baseline_rate, 3)
 
 
-def rate_change_label(baseline_count: int, post_count: int) -> str:
+def rate_change_label(
+    baseline_count: int,
+    post_count: int,
+    baseline_year_count: int | None = None,
+    post_year_count: int | None = None,
+) -> str:
     if post_count == 0:
         return "inactive_after_2022"
-    ratio = annualized_rate_ratio(baseline_count, post_count)
+    ratio = annualized_rate_ratio(baseline_count, post_count, baseline_year_count, post_year_count)
     if ratio is None:
         return "new_after_2022"
     if ratio >= 1.25:
@@ -176,6 +235,13 @@ def summarize_researcher(researcher: dict[str, Any]) -> dict[str, Any]:
     post_top = [p for p in post if p.get("is_top_networking")]
     all_top = [p for p in papers if p.get("is_top_networking")]
 
+    # Fractional / weighted counting
+    scheme = FRACTIONAL_COUNTING
+    baseline_clean_count_w = round(sum(fractional_paper_weight(p, scheme) for p in baseline), 3)
+    post_clean_count_w = round(sum(fractional_paper_weight(p, scheme) for p in post), 3)
+    baseline_top_count_w = round(sum(fractional_paper_weight(p, scheme) for p in baseline_top), 3)
+    post_top_count_w = round(sum(fractional_paper_weight(p, scheme) for p in post_top), 3)
+
     baseline_clean_count = len(baseline)
     post_clean_count = len(post)
     total_clean_count = len(papers)
@@ -199,13 +265,20 @@ def summarize_researcher(researcher: dict[str, Any]) -> dict[str, Any]:
     baseline_top_venues = venue_counts(baseline_top)
     post_top_venues = venue_counts(post_top)
 
-    baseline_rate = round(baseline_top_count / len(BASELINE_YEARS), 3)
-    post_rate = round(post_top_count / len(POST_YEARS), 3)
-    top_rate_ratio = annualized_rate_ratio(baseline_top_count, post_top_count)
-    volume_ratio = round(post_clean_count / baseline_clean_count, 3) if baseline_clean_count else None
-    volume_rate_ratio = annualized_rate_ratio(baseline_clean_count, post_clean_count)
+    # Effective post years: count only years with actual papers
+    eff_post_years = effective_post_years(post) if USE_EFFECTIVE_YEARS else None
+    eff_post_top_years = effective_post_years(post_top) if USE_EFFECTIVE_YEARS else None
+    baseline_year_count = len(BASELINE_YEARS)
+    post_year_count = eff_post_years if USE_EFFECTIVE_YEARS else len(POST_YEARS)
+    post_top_year_count = eff_post_top_years if USE_EFFECTIVE_YEARS else len(POST_YEARS)
 
-    return {
+    baseline_rate = round(baseline_top_count / baseline_year_count, 3)
+    post_rate = round(post_top_count / post_top_year_count, 3)
+    top_rate_ratio = annualized_rate_ratio(baseline_top_count, post_top_count, baseline_year_count, post_top_year_count)
+    volume_ratio = round(post_clean_count / baseline_clean_count, 3) if baseline_clean_count else None
+    volume_rate_ratio = annualized_rate_ratio(baseline_clean_count, post_clean_count, baseline_year_count, post_year_count)
+
+    result = {
         "name": researcher.get("name", ""),
         "dblp_pid": researcher.get("dblp_pid", ""),
         "identity": researcher.get("identity", {}),
@@ -218,14 +291,14 @@ def summarize_researcher(researcher: dict[str, Any]) -> dict[str, Any]:
         "top_networking_rate_baseline_per_year": baseline_rate,
         "top_networking_rate_post2023_per_year": post_rate,
         "top_networking_rate_ratio_post_vs_baseline": top_rate_ratio,
-        "top_networking_rate_change": rate_change_label(baseline_top_count, post_top_count),
+        "top_networking_rate_change": rate_change_label(baseline_top_count, post_top_count, baseline_year_count, post_top_year_count),
         "baseline_clean_publication_count": baseline_clean_count,
         "post2023_clean_publication_count": post_clean_count,
         "clean_publication_count": total_clean_count,
         "clean_publication_count_by_year": count_by_year(papers, OBSERVATION_YEARS),
         "publication_volume_change_ratio_post_vs_baseline": volume_ratio,
         "clean_publication_rate_ratio_post_vs_baseline": volume_rate_ratio,
-        "clean_publication_rate_change": rate_change_label(baseline_clean_count, post_clean_count),
+        "clean_publication_rate_change": rate_change_label(baseline_clean_count, post_clean_count, baseline_year_count, post_year_count),
         "baseline_active_year_count": baseline_active_years,
         "post2023_active_year_count": post_active_years,
         "baseline_top_networking_active_year_count": baseline_top_active_years,
@@ -259,7 +332,25 @@ def summarize_researcher(researcher: dict[str, Any]) -> dict[str, Any]:
         "baseline_venue_portfolio": compact_counts(baseline_venues, 12),
         "post2023_venue_portfolio": compact_counts(post_venues, 12),
         "all_venue_portfolio": compact_counts(all_venues, 15),
+        "post_year_denominator": post_year_count,
+        "post_year_denominator_is_effective": USE_EFFECTIVE_YEARS,
     }
+
+    # Add fractional counts if enabled
+    if scheme:
+        result["fractional_counting_scheme"] = scheme
+        result["baseline_top_networking_count_fractional"] = baseline_top_count_w
+        result["post2023_top_networking_count_fractional"] = post_top_count_w
+        result["baseline_clean_publication_count_fractional"] = baseline_clean_count_w
+        result["post2023_clean_publication_count_fractional"] = post_clean_count_w
+        result["top_networking_rate_ratio_fractional"] = annualized_rate_ratio(
+            baseline_top_count_w, post_top_count_w, baseline_year_count, post_top_year_count
+        )
+        result["clean_publication_rate_ratio_fractional"] = annualized_rate_ratio(
+            baseline_clean_count_w, post_clean_count_w, baseline_year_count, post_year_count
+        )
+
+    return result
 
 
 

@@ -43,6 +43,8 @@ Those 12 researchers are not discarded from the project. They remain part of cor
 
 Open question: these 12 should later be analyzed as a separate low-post-output group, probably with career-stage, industry, retirement, and DBLP-lag checks. They should not be forced into percentage-vector PCA.
 
+A detailed breakdown of these 12 with career-stage, institutional context, and aggregate patterns is now available in [synthesis/excluded_12_analysis.md](synthesis/excluded_12_analysis.md). Key findings: at least 3 are industry researchers (Hongqiang Harry Liu at Uber AI, Ankit Singla at Google), several are senior enough that reduced publishing is expected (Hari Balakrishnan, Bruce M. Maggs), and one (Stefano Vissicchio) is a borderline case whose post-2023 papers are 100% at qualifying top-networking venues — excluded purely by the <5 threshold, not by topic direction.
+
 ## 2. Feature Construction
 
 The analysis uses two related but distinct feature layers.
@@ -102,6 +104,8 @@ Trend labels use deterministic thresholds: `increased` if ratio >= 1.25, `decrea
 
 Limitation: rate labels describe per-year output for a researcher, not the absolute volume represented by a group. A small group can have a strong rate change but low paper volume; a large group can dominate aggregate volume even with modest per-researcher movement. For that reason, the analysis below always pairs rate labels with raw paper counts and group weights.
 
+Limitation: the post-baseline denominator is always 4 (2023-2026). At the time of writing (June 2026), DBLP indexing for 2026 is incomplete — several 2026 conference proceedings (including SIGCOMM 2026 and CoNEXT 2026) have not yet been published or indexed. This systematically biases annualized post-2023 rates downward. Researchers with no 2026 papers are effectively annualized over 3 observable years but divided by 4. A dynamic-year correction is planned (see §12).
+
 The main investigation grouping uses the two rate features:
 
 | Group | Top-networking rate | Overall clean-publication rate | Plain meaning |
@@ -137,6 +141,8 @@ There are three measurements to keep separate:
 | mobile_wireless_iot | 6.3% | 6.4% | +0.0pp | 0.0% | 0.0% |
 | web_social_hci | 2.0% | 4.1% | +2.1pp | 0.0% | 0.0% |
 
+Three families (`data_management`, `theory_distributed`, `programming_languages`) each account for <2% of mean baseline and post-2023 portfolio share and are omitted above for readability. Full 10-family data is available in `data/core99_feature_vectors.json`.
+
 ![Aggregate Portfolio](figures/aggregate_portfolio.png)
 
 The median researcher has zero AI_ML papers in both periods. AI_ML expansion exists, but it is concentrated in a minority rather than a cohort-wide shift.
@@ -157,7 +163,23 @@ The count table below uses author-paper incidences for the 87 analyzable researc
 
 The top-networking denominator matters. During 2018-2022, the accepted-paper cache has 1,146 unique papers across SIGCOMM, NSDI, CoNEXT, HotNets, and IMC. The full core-99 appears on 589 of them, or 51.4%; the 87 analyzable researchers appear on 569, or 49.7%.
 
-For 2023-2026, this project does not yet have the same all-accepted-paper denominator for the five venues. Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers, which is 112.8 unique papers/year, almost the same as their baseline 113.8 unique papers/year. The full core-99 appears on 456 unique post-2023 top-networking papers.
+For 2023-2026, DBLP TOC API data now provides approximate denominators. DBLP TOC counts include workshop and poster papers alongside main-conference proceedings and are therefore inflated relative to curated acceptance counts, but they are internally consistent with the baseline `raw_dblp_papers.json` cache (which was built from the same DBLP source and shows 1,146 papers for 2018-2022 vs. 1,161 from TOC — a 1.3% discrepancy). The post-2023 TOC denominators are:
+
+| Year | DBLP TOC total | Venues indexed | Notes |
+|------|---------------:|:--------------:|-------|
+| 2023 | 308 | 4/5 | CoNEXT 2023 not indexed by DBLP |
+| 2024 | 323 | 5/5 | — |
+| 2025 | 352 | 5/5 | — |
+| 2026 | 151 | 1/5 | Only NSDI 2026 indexed (SIGCOMM, CoNEXT not yet held) |
+
+Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers, which is 112.8 unique papers/year, almost the same as their baseline 113.8 unique papers/year. The full core-99 appears on 456 unique post-2023 top-networking papers.
+
+Two denominator-relative readings are possible with current data:
+
+- **Against DBLP TOC totals (inflated, but consistent with baseline cache):** For 2024 (the most complete year), core-99's 451 papers over 4 years averages to ~113/year. If the annual denominator is roughly 320-350 papers, core-99 appears on ~32-35% of top-networking papers by unique-paper count — down from 51.4% at baseline. However, this comparison is fragile because the TOC denominator mixes main-conference and workshop papers, and the workshop/main ratio may differ between periods.
+- **Against the research community:** The unique-paper count per year (112.8) is **not** the number of distinct papers published at these venues — it is the number of papers that have at least one core-99 author. Without a clean main-conference denominator, the share cannot be stated with confidence.
+
+*Status: A main-conference-only denominator (curated acceptance counts from conference websites) would allow a clean share comparison. The DBLP TOC data is available in `data/venue_accepted_totals.json` but should be used with the inflation caveat noted above.*
 
 So the cleanest current reading is:
 
@@ -250,6 +272,8 @@ Inv-Q2 is the strongest visible conference-presence group. These researchers mai
 
 The key point is that Inv-Q2 is not a migration-away group. It is better described as the stable core: still strong in top networking, with some AI_ML and systems broadening.
 
+Important framing note: Inv-Q2's rising share of post-2023 top-networking author-paper incidences (42.1% → 63.2%) is partly mechanical — Inv-Q1 and Inv-Q4 collectively reduce their qualifying-venue incidences by ~452, while Inv-Q2's absolute count is nearly unchanged (381 → 391, +2.6%). Inv-Q2 maintains absolute output at roughly the same level; the rising share reflects the cohort contracting around them, not an expansion of Inv-Q2's own top-networking activity. The share gain is compositional redistribution, not growth.
+
 Representative examples:
 
 | Researcher | Why this example | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
@@ -318,6 +342,8 @@ Systems movement is also concentrated in a small number of people. It should be 
 | Arvind Krishnamurthy | +14pp | 13 -> 15 | Inv-Q2 | Systems remains high and slightly grows |
 
 Open TODO: summarize the actual paper topics for AI_ML and systems expanders with title/abstract evidence. The current venue-family label can say where papers appeared, not whether the work is core AI, AI infrastructure, systems, or networking using ML.
+
+MLSys classification note: In the current `venue_family_map.json`, MLSys is classified under `systems`. If reclassified as `AI_ML`, 13 researchers would have material (>2pp) delta profile changes — most notably Mosharaf Chowdhury (+6pp AI_ML, −6pp systems), Arvind Krishnamurthy (+4.4pp AI_ML, −4.4pp systems), and Minlan Yu (+4.3pp AI_ML, −4.3pp systems). This reclassification does not change the group-level narrative (AI_ML expansion remains concentrated), but it shifts the systems/AI_ML boundary for individual researchers who publish at MLSys. Full sensitivity data in `data/mlsys_sensitivity_check.json`.
 
 ## 7. Deeper Structure: Static Profiles and Trajectories
 
@@ -393,10 +419,10 @@ Visualization note: the current biplot is harder to interpret than the group tab
 The current core-99 analysis supports these claims:
 
 1. Core-99 is not monolithic. Baseline profiles range from elite-venue-concentrated to broad-networking to systems-engaged.
-2. The first aggregate signal is not cohort-wide AI_ML or systems migration. The larger signal is redistribution: unique-paper core-99 presence in top networking is roughly stable annualized, but top-networking author-paper incidence and adjacent-networking incidence drop, while AI_ML, systems share, and web/HCI gains are smaller and concentrated.
+2. The first aggregate signal is not cohort-wide AI_ML or systems migration. The larger signal is redistribution: unique-paper core-99 presence in top networking is roughly stable in raw annualized count (~113 papers/year in both periods), but the post-2023 denominator (total papers at these venues) is only approximately known from DBLP TOC data, which includes workshop inflation. Top-networking author-paper incidence and adjacent-networking incidence drop substantially, while AI_ML, systems share, and web/HCI gains are smaller and concentrated.
 3. A large individual-level falling-out phenomenon exists: 43 of 87 analyzable researchers lose top-networking presence. Inv-Q1 looks like substitution away from top networking; Inv-Q4 looks more like broad publication-volume decline.
 4. The falling-out pattern should currently be described as degradation or redistribution from top-networking visibility for part of the old core, not as proven topic migration or collective disappearance from top networking.
-5. Inv-Q2 remains the stable core: top networking is maintained, AI_ML count grows, and systems remains large. This group is where AI infrastructure and systems broadening should be checked carefully.
+5. Inv-Q2 maintains absolute top-networking output at near-constant level (381→391 incidences, +2.6%) while the cohort around them contracts. Their rising share of post-2023 top-networking incidences (42.1%→63.2%) is compositional — driven by Inv-Q1 and Inv-Q4 shedding ~452 incidences — rather than an Inv-Q2 expansion. AI_ML count grows and systems remains large within this group, but the absolute top-networking gain is modest. This is where AI infrastructure and systems broadening should be checked carefully.
 6. Inv-Q3 is best read cautiously as concentration by contraction, not automatic strengthening, because raw clean output falls sharply.
 7. AI_ML expansion is real for 9 researchers, and strong systems-share moves are visible for researchers such as Yibo Zhu 0001, Robert Soulé, Alex C. Snoeren, Kai Chen 0005, Mosharaf Chowdhury, Gianni Antichi, and Arvind Krishnamurthy. Both AI_ML and systems movement need paper-topic review before semantic labels are assigned.
 
@@ -429,14 +455,58 @@ Near-term work should be question-driven:
 
 LLM-driven itinerary analysis should enter after the topic packets and evidence questions are explicit. The first LLM task should be descriptive summarization with citations to titles/venues, not final migration labeling.
 
-## Related Documents
+## 12. Caveats and Limitations
+
+The following methodological limitations are acknowledged and documented here. Where a fix is planned or implemented, the remediation status is noted.
+
+### 12.1 Denominator Construction
+
+**Unequal period length (5-year baseline vs. 4-year post-baseline).** Rate features in §2.2 annualize by dividing by fixed denominators (5 for baseline, 4 for post). This normalization is fragile for 2026, where DBLP coverage is incomplete — several 2026 conferences (including SIGCOMM 2026 and CoNEXT 2026) have not yet been published or indexed as of writing (June 2026). A dynamic per-year denominator that counts actual available years for each researcher would be more robust. *Status: dynamic-year correction planned (§2.2, Phase C of remediation plan).*
+
+**Missing post-2023 total-accepted-paper denominator.** Section 3.2 reports core-99's share of qualifying-venue papers for the baseline period (51.4% using the `raw_dblp_papers.json` cache) but cannot report the same share for 2023-2026 because total accepted papers at the five qualifying venues have not been fetched. This limits the interpretation of post-2023 incidence changes: the observed author-paper incidence decline (906→619) could reflect fewer total papers being published at these venues, fewer core-99 authors per paper, or both. Without the denominator, these cannot be distinguished. *Status: to be fetched via DBLP TOC API (Phase B of remediation plan).*
+
+### 12.2 Rate Computation and Thresholds
+
+**Hardcoded rate thresholds (1.25 / 0.75).** The `increased`/`flat`/`decreased` labels use fixed thresholds defined in `build_core99_attributes.py`. These thresholds are not validated against the distribution of rate ratios in the cohort, and small changes near the boundary (e.g., a rate ratio of 0.76 vs. 0.74) produce different group assignments. Results should be treated as fragile near the threshold; sensitivity analysis with alternative boundaries (e.g., 1.15/0.85, 1.35/0.65) is advisable. *Status: acknowledged; sensitivity analysis deferred.*
+
+**No domain-volume normalization.** Family shares are computed as researcher-internal percentages (§2.1), which treats a 10% AI_ML share identically whether the total AI_ML publication volume in the field is growing or shrinking. If AI_ML conferences are accepting more papers overall, researcher AI_ML shares may rise without any researcher-level change in AI_ML engagement. Similarly, a researcher maintaining the same absolute top-networking count while a venue shrinks is actually *increasing* their relative presence, but the current metrics would show this as flat. *Status: domain-volume normalization planned (Phase B of remediation plan).*
+
+**2026 data incompleteness biases annualized post-2023 rates downward.** The post-baseline denominator is uniformly 4 (2023-2026), but 2026 data is incomplete. Researchers with no 2026 papers are effectively annualized over 3 observable years but divided by 4, producing rates roughly 25% below their true annualized level. This may cause some researchers with no 2026 papers to be incorrectly labeled `decreased` when their actual 2023-2025 annualized rate would be `flat`. *Status: documented in §2.2; dynamic-year correction planned.*
+
+### 12.3 Venue Classification
+
+**MLSys classification.** The `venue_family_map.json` classifies MLSys under `systems`. An argument exists for treating it as AI_ML-adjacent (it is the premier venue for ML systems research). Under the current classification, AI infrastructure work published at MLSys counts as "systems" rather than "AI_ML," potentially understating the AI-adjacent signal. A sensitivity check with MLSys mapped to AI_ML is planned. *Status: sensitivity check planned (Phase C of remediation plan).*
+
+**ICML-to-systems boundary.** Papers at ML venues (ICML, NeurIPS, ICLR) that concern distributed training, LLM serving, or GPU cluster networking are classified as AI_ML by venue family but substantively concern systems/infrastructure topics. This is an acknowledged limitation of venue-based classification — it answers WHERE papers appear, not WHAT they are about. *Status: acknowledged; requires paper-topic analysis (beyond current venue-family scope).*
+
+**No author contribution weighting.** All co-authors receive equal credit (one incidence per author per paper). This inflates the apparent participation of middle/senior authors on large-author-list papers, which is particularly relevant for AI_ML venues where author lists routinely exceed 10 authors. A single middle-author appearance on a 15-author NeurIPS paper counts identically to a solo or dual-author SIGCOMM paper. Fractional counting (1/N for an N-author paper) or lead-author weighting would change the per-researcher volume picture, particularly for researchers who transition from lead-author to senior-author roles. *Status: fractional counting planned (Phase D of remediation plan).*
+
+### 12.4 Cohort Construction
+
+**Exclusion of 12 low-post-output researchers from feature-vector analysis.** The 12 researchers excluded because they have fewer than 5 post-2023 clean papers (§1) represent real and possibly substantively important cases — they include some of the biggest names in the field (Hari Balakrishnan, Ankit Singla, Alan Mislove). Their exclusion from PCA and delta analysis is methodologically necessary (percentage vectors from small N are unstable), but their stories — retirement, industry exit, reduced output, data lag — are central to the question of what happens to top networking researchers. They are not irrelevant just because their post-2023 percentages are unstable. *Status: dedicated analysis planned (Phase E of remediation plan).*
+
+**No regression-to-the-mean check.** Core-99 selects researchers at their peak: those with ≥7 papers at five qualifying venues during 2018-2022. This is an extreme-tail selection. Even under a null model where researchers maintain identical underlying publication behavior, we would expect post-selection counts to regress toward the mean. Some fraction of the observed "decline" in Inv-Q1 and Inv-Q4 is statistical artifact, not behavioral change. A comparison cohort of similarly selected researchers from an earlier period (e.g., ≥7 papers in 2013-2017) would distinguish field-specific change from statistical artifact. *Status: comparison cohort planned (Phase E of remediation plan).*
+
+**COVID distortion of baseline (2018-2022).** The baseline period spans COVID-19. Conference cancellations, virtual formats, and submission disruptions in 2020-2021 affected different subfields differently. Systems and AI venues may have had different disruption and recovery patterns than networking venues. The annualized baseline rate averages over this, but COVID-era distortions are embedded in the baseline and cannot be separated without pre-COVID comparison data. *Status: acknowledged; neutralization would require pre-2018 data and is deferred.*
+
+### 12.5 Coverage and Data Quality
+
+**DBLP coverage lag.** DBLP indexing of recent conference proceedings (especially late-2025 and 2026) may be incomplete. This affects all post-2023 metrics and is particularly relevant for the 2026 data point. Some 2025 conferences may also have incomplete indexing at the time of collection. *Status: acknowledged; inherent to DBLP as a data source.*
+
+**Conference-only scope (no journals).** The `publication_scope.py` rules deliberately exclude journals, books, theses, and non-conference records. In networking and AI/ML, top conferences are the primary venues for high-impact work, so this scope is intentional. However, researchers who shift from conference to journal publishing (common in later career stages, some regions, and some subfields) will appear to have declining output even if their total research productivity is stable. This is particularly relevant for Inv-Q4 researchers showing broad output decline. *Status: acknowledged; journal coverage is deferred as lower priority per project scope.*
+
+**Missing abstracts.** Most DBLP records lack abstracts, limiting the ability to perform topic-based classification beyond venue-family analysis. This is noted in §10 and is a constraint inherited from DBLP as a data source. *Status: acknowledged; abstract coverage audit planned before LLM topic analysis.*
+
+**Co-author disambiguation.** DBLP PIDs are used for author identity, but PID coverage may be incomplete for very new or very old publications. Author position matching uses alias lists maintained in `build_itineraries.py`; incomplete aliases may misattribute positions. *Status: acknowledged; manual spot-check recommended for representative researchers.*
+
+## 13. Related Documents
 
 - [CORE99_INVESTIGATION.md](CORE99_INVESTIGATION.md) - Detailed investigation tables, decompositions, quadrant analysis, and researcher-level notes
 - [CORE99_RESEARCHER_ATTRIBUTES.md](CORE99_RESEARCHER_ATTRIBUTES.md) - Per-researcher deterministic attribute definitions
 - [ANALYSIS_PLAN.md](ANALYSIS_PLAN.md) - Full project plan and TODO list
 - [README.md](README.md) - Master project index
 
-## Data Artifacts
+## 14. Data Artifacts
 
 | Artifact | Description |
 |----------|-------------|
@@ -446,7 +516,7 @@ LLM-driven itinerary analysis should enter after the topic packets and evidence 
 | `data/core99_sys_ai_storage_quadrants.csv` | Supplementary top-tier systems/AI/storage venue quadrant analysis |
 | `data/venue_family_map.json` | Venue-to-family mappings and aliases |
 
-## Figures
+## 15. Figures
 
 | Figure | Content |
 |--------|---------|
