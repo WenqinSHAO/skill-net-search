@@ -1,0 +1,260 @@
+{
+  "zone_trend": {
+    "years": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "zone1_pct": [
+      92.5,
+      92.2,
+      89.8,
+      88.9,
+      89.3,
+      85.6,
+      80.7,
+      78.6,
+      79.1
+    ],
+    "zone2_pct": [
+      4.9,
+      4.7,
+      6.2,
+      5.4,
+      4.7,
+      6.7,
+      6.8,
+      9.3,
+      10.3
+    ],
+    "zone3_pct": [
+      2.7,
+      3.1,
+      4.0,
+      5.8,
+      5.9,
+      7.7,
+      12.5,
+      12.0,
+      10.6
+    ],
+    "total_papers": [
+      2849,
+      3004,
+      3084,
+      3171,
+      3318,
+      3480,
+      3707,
+      4037,
+      1382
+    ]
+  },
+  "transition_types": {
+    "all_researchers": {
+      "stayer": 320,
+      "full_ai_migrant": 20,
+      "hybrid": 29,
+      "infra_shifter": 80,
+      "gone_quiet": 43
+    },
+    "active_only": {
+      "stayer": 320,
+      "full_ai_migrant": 20,
+      "hybrid": 29,
+      "infra_shifter": 80
+    },
+    "total": 492,
+    "active": 449
+  },
+  "regional": {
+    "US": {
+      "total": 187,
+      "active": 172,
+      "stayer_pct": 69.0,
+      "infra_shifter_pct": 15.5,
+      "full_ai_migrant_pct": 3.7,
+      "hybrid_pct": 3.7,
+      "gone_quiet_pct": 8.0
+    },
+    "Europe": {
+      "total": 106,
+      "active": 94,
+      "stayer_pct": 73.6,
+      "infra_shifter_pct": 10.4,
+      "full_ai_migrant_pct": 3.8,
+      "hybrid_pct": 0.9,
+      "gone_quiet_pct": 11.3
+    },
+    "China": {
+      "total": 83,
+      "active": 82,
+      "stayer_pct": 50.6,
+      "infra_shifter_pct": 25.3,
+      "full_ai_migrant_pct": 4.8,
+      "hybrid_pct": 18.1,
+      "gone_quiet_pct": 1.2
+    },
+    "Other": {
+      "total": 42,
+      "active": 38,
+      "stayer_pct": 50.0,
+      "infra_shifter_pct": 21.4,
+      "full_ai_migrant_pct": 7.1,
+      "hybrid_pct": 11.9,
+      "gone_quiet_pct": 9.5
+    },
+    "Unknown": {
+      "total": 74,
+      "active": 63,
+      "stayer_pct": 67.6,
+      "infra_shifter_pct": 13.5,
+      "full_ai_migrant_pct": 2.7,
+      "hybrid_pct": 1.4,
+      "gone_quiet_pct": 14.9
+    }
+  },
+  "first_crossing": {
+    "years": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "first_zone2": [
+      93,
+      48,
+      41,
+      32,
+      15,
+      27,
+      16,
+      17,
+      3
+    ],
+    "first_zone3": [
+      45,
+      29,
+      27,
+      33,
+      31,
+      15,
+      22,
+      23,
+      8
+    ]
+  },
+  "subfield": {
+    "Network Hardware & Architecture": {
+      "stickiness": 1.0,
+      "flight_rate": 0.0,
+      "total": 4,
+      "stayer": 1,
+      "infra_shifter": 3,
+      "full_ai_migrant": 0,
+      "hybrid": 0,
+      "gone_quiet": 0
+    },
+    "Wireless & Mobile": {
+      "stickiness": 0.898,
+      "flight_rate": 0.034,
+      "total": 88,
+      "stayer": 69,
+      "infra_shifter": 10,
+      "full_ai_migrant": 2,
+      "hybrid": 1,
+      "gone_quiet": 6
+    },
+    "Network Measurement & Monitoring": {
+      "stickiness": 0.871,
+      "flight_rate": 0.032,
+      "total": 62,
+      "stayer": 51,
+      "infra_shifter": 3,
+      "full_ai_migrant": 1,
+      "hybrid": 1,
+      "gone_quiet": 6
+    },
+    "Routing & Topology": {
+      "stickiness": 0.84,
+      "flight_rate": 0.0,
+      "total": 25,
+      "stayer": 19,
+      "infra_shifter": 2,
+      "full_ai_migrant": 0,
+      "hybrid": 0,
+      "gone_quiet": 4
+    },
+    "Transport & Congestion": {
+      "stickiness": 0.826,
+      "flight_rate": 0.0,
+      "total": 23,
+      "stayer": 16,
+      "infra_shifter": 3,
+      "full_ai_migrant": 0,
+      "hybrid": 0,
+      "gone_quiet": 4
+    },
+    "Network Security & Privacy": {
+      "stickiness": 0.818,
+      "flight_rate": 0.0,
+      "total": 11,
+      "stayer": 7,
+      "infra_shifter": 2,
+      "full_ai_migrant": 0,
+      "hybrid": 0,
+      "gone_quiet": 2
+    },
+    "Content Delivery & Streaming": {
+      "stickiness": 0.786,
+      "flight_rate": 0.143,
+      "total": 14,
+      "stayer": 9,
+      "infra_shifter": 2,
+      "full_ai_migrant": 0,
+      "hybrid": 2,
+      "gone_quiet": 1
+    },
+    "Networking Systems & Architecture": {
+      "stickiness": 0.778,
+      "flight_rate": 0.17,
+      "total": 230,
+      "stayer": 128,
+      "infra_shifter": 51,
+      "full_ai_migrant": 16,
+      "hybrid": 23,
+      "gone_quiet": 12
+    },
+    "SDN & Data Plane": {
+      "stickiness": 0.69,
+      "flight_rate": 0.103,
+      "total": 29,
+      "stayer": 16,
+      "infra_shifter": 4,
+      "full_ai_migrant": 1,
+      "hybrid": 2,
+      "gone_quiet": 6
+    },
+    "Datacenter & Cloud Networking": {
+      "stickiness": 0.667,
+      "flight_rate": 0.0,
+      "total": 6,
+      "stayer": 4,
+      "infra_shifter": 0,
+      "full_ai_migrant": 0,
+      "hybrid": 0,
+      "gone_quiet": 2
+    }
+  }
+}

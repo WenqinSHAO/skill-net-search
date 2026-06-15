@@ -1,0 +1,6017 @@
+# Selected Sample: Baseline Top-Networking Count > 6
+
+This is a derived review packet for the provisional selected sample. It does not filter or rewrite the raw cohort, publication history, or itinerary artifacts.
+
+The summaries below are title-based because abstract coverage is not yet reliable enough to use silently.
+
+## Sample Summary
+
+- Researchers: 99
+- Selection rule: baseline_top_networking_count > 6
+- Baseline: 2018-2022
+- Observation window: 2018-2026
+- Median total clean publications: 38
+- Median baseline top-networking papers: 10
+- High-total researchers with total clean publications >100: 5
+
+## Aggregate Title Vocabulary
+
+- Baseline terms: network (312), networks (196), data (180), internet (150), learning (139), control (138), programmable (118), distributed (110), congestion (103), traffic (92), video (83), dns (82), web (77), iot (75), routing (73), plane (72), cloud (71), mobile (70), deep (63), switches (59)
+- Post-2023 terms: network (163), networks (126), learning (88), data (78), internet (75), training (73), cloud (71), control (71), model (61), video (60), distributed (54), language (49), models (48), congestion (48), serving (43), traffic (43), applications (41), poster (38), llm (38), understanding (37)
+
+## Researcher Table
+
+| Researcher | Baseline net | Total clean | Post-2023 | Top venues | Baseline title terms | Post-2023 title terms |
+|---|---:|---:|---:|---|---|---|
+| Vyas Sekar | 23 | 67 | 18 | NSDI (10), SIGCOMM (6), Internet Measurement Conference (5), HotNets (4), USENIX Security Symposium (4) | network (11), iot (6), security (6), switches (5), programmable (5) | network (4), stateful (3), telemetry (3), raising (2), level (2) |
+| Mohammad Alizadeh | 20 | 71 | 18 | NSDI (15), SIGCOMM (14), SIGMOD Conference (4), HotNets (3), SIGSPATIAL/GIS (3) | control (12), congestion (9), learning (6), networks (5), network (5) | video (4), learning (3), causal (2), control (2), applications (2) |
+| Hongqiang Harry Liu | 20 | 24 | 3 | SIGCOMM (16), NSDI (6), SelfDN@SIGCOMM (1), OSDI (1) | data (5), network (4), programmable (3), plane (3), video (3) | rf-chord (1), deployable (1), rfid (1), localization (1), logistic (1) |
+| Arvind Krishnamurthy | 19 | 66 | 30 | NSDI (15), SIGCOMM (12), HotNets (6), MLSys (5), EuroSys (4) | distributed (6), network (5), programmable (4), switches (3), learning (3) | serving (5), networks (3), collective (3), communication (3), network (3) |
+| Kimberly C. Claffy | 19 | 62 | 23 | IMC (16), PAM (10), Internet Measurement Conference (9), SIGCOMM (4), HPEC (3) | internet (8), dns (7), network (6), traffic (5), inferring (4) | internet (4), bgp (3), measurement (3), data (2), inference (2) |
+| Laurent Vanbever | 19 | 60 | 26 | NSDI (11), HotNets (9), SIGCOMM (7), SIGCOMM (Posters and Demos) (4), CyCon (3) | network (11), data (3), network-wide (3), configuration (3), cyber (2) | network (6), routing (6), poster (2), what (2), attack (2) |
+| Amin Vahdat | 18 | 40 | 15 | SIGCOMM (15), NSDI (10), SOSP (2), OSDI (2), HotOS (2) | network (6), networks (4), control (4), datacenter (4), google (3) | datacenter (5), network (4), architecture (3), hardware (2), optical (2) |
+| Aditya Akella | 17 | 71 | 35 | NSDI (20), SoCC (6), HotNets (5), SIGCOMM (4), EuroSys (3) | analytics (5), distributed (5), learning (5), network (5), programmable (4) | learning (5), serving (4), control (4), machine (3), learned (3) |
+| Minlan Yu | 17 | 58 | 23 | SIGCOMM (12), NSDI (11), HotNets (4), Networking (3), OSDI (3) | network (6), routing (5), diagnosis (4), data (4), ddos (3) | accelerating (5), distributed (5), llm (4), ebpf (3), network (3) |
+| Ethan Katz-Bassett | 17 | 44 | 14 | Internet Measurement Conference (7), IMC (7), SIGCOMM (6), HotNets (5), SIGMETRICS (Abstracts) (3) | internet (7), cloud (5), bgp (4), rpki (3), routing (3) | internet (3), dataset (3), traffic (2), routing (2), enterprise (2) |
+| Srinivasan Seshan | 16 | 37 | 17 | NSDI (8), SIGCOMM (7), HotNets (5), ISMAR (2), NINeS (2) | data (3), congestion (3), control (3), networks (3), algorithms (2) | congestion (5), control (4), federated (3), rendering (2), provably (2) |
+| Sylvia Ratnasamy | 15 | 44 | 23 | HotNets (12), NSDI (9), SIGCOMM (7), HotOS (3), NINeS (2) | network (4), control (3), internet (3), access (3), open (2) | case (4), cellular (4), data (3), networks (3), hardware (2) |
+| Georgios Smaragdakis | 14 | 55 | 32 | IMC (10), Internet Measurement Conference (8), CoNEXT (3), ANRW (2), CCS (2) | scale (5), distributed (4), bgp (3), communities (3), traffic (3) | attacks (5), data (3), syn (3), state (3), digital (3) |
+| Anja Feldmann | 14 | 55 | 24 | Internet Measurement Conference (7), PAM (7), IMC (7), CoNEXT (5), ANRW (4) | network (4), scale (4), web (4), access (3), selection (3) | internet (3), measuring (3), tree (3), how (2), dns (2) |
+| Ion Stoica | 13 | 156 | 73 | ICML (25), NSDI (17), OSDI (11), NeurIPS (10), ICLR (9) | learning (22), distributed (17), analytics (10), reinforcement (8), deep (8) | llm (13), inference (10), language (10), models (10), serving (10) |
+| Xin Jin 0008 | 13 | 76 | 39 | NSDI (18), SIGCOMM (14), OSDI (8), EuroSys (5), SOSP (5) | programmable (6), data (5), distributed (5), network (4), learning (4) | serverless (8), serving (8), training (7), model (7), language (7) |
+| Gianni Antichi | 13 | 56 | 26 | NSDI (7), SIGCOMM (6), SIGCOMM Posters and Demos (5), CoNEXT (4), HotNets (4) | network (6), data (6), plane (4), experimentation (3), software (3) | network (4), programmable (3), networking (3), switch (3), data (3) |
+| Scott Shenker | 13 | 51 | 24 | HotNets (11), SIGCOMM (8), NSDI (7), HotOS (4), EuroSys (3) | computing (4), network (4), internet (4), memory (3), graph (2) | cellular (4), control (2), applications (2), software (2), architecture (2) |
+| Ryan Beckett | 13 | 39 | 18 | NSDI (13), SIGCOMM (8), HotNets (7), PLDI (2), CAV (2) (1) | network (9), verification (7), control (3), dns (3), plane (2) | network (4), llms (2), configurations (2), bgp (2), verification (2) |
+| Alex C. Snoeren | 13 | 38 | 15 | SIGCOMM (7), Internet Measurement Conference (4), IMC (4), NSDI (3), PAM (3) | datacenter (3), paper (2), data (2), center (2), ecosystem (2) | internet (3), memory (3), access (3), risks (2), far (2) |
+| Gautam Akiwate | 13 | 24 | 7 | Internet Measurement Conference (7), IMC (7), SIGCOMM (2), PAM (2), TMA (2) | dns (5), anycast (3), infrastructure (3), inferring (2), measuring (2) | security (2), line (1), fire (1), risks (1), dpi-triggered (1) |
+| Stefan Schmid 0001 | 12 | 223 | 89 | INFOCOM (22), Networking (17), OPODIS (11), CoNEXT (9), SPAA (9) | networks (38), network (28), routing (14), self-adjusting (11), virtual (10) | networks (29), demand-aware (11), dynamic (9), algorithms (8), control (7) |
+| Jennifer Rexford | 12 | 47 | 10 | SOSR (8), SIGCOMM (6), NSDI (5), USENIX Security Symposium (4), HotNets (3) | data (7), plane (7), switches (6), traffic (4), programmable (4) | data (3), planes (2), wireless (2), control (2), video (2) |
+| Narseo Vallina-Rodriguez | 12 | 30 | 7 | Internet Measurement Conference (9), NDSS (3), USENIX Security Symposium (3), IMC (3), SP (2) | android (7), privacy (6), study (5), apps (4), mobile (4) | protocol (2), ecosystem (2), information (2), android (2), chrowned (1) |
+| Matt Calder | 12 | 17 | 3 | Internet Measurement Conference (4), HotNets (3), SIGCOMM (3), IMC (3), NSDI (2) | cloud (6), provider (4), internet (4), cdn (2), connectivity (2) | content (2), web (2), dataset (2), central (1), problem (1) |
+| Ang Chen 0001 | 11 | 68 | 26 | NSDI (10), HotNets (8), USENIX Security Symposium (6), SOSR (3), ACSAC (2) | data (12), programmable (9), network (8), plane (4), security (3) | cloud (8), infrastructure-as-code (4), programs (3), management (2), synthesizing (2) |
+| Ravi Netravali | 11 | 53 | 21 | NSDI (19), HotMobile (4), SoCC (4), OSDI (4), MobiSys (3) | mobile (8), web (6), video (5), caching (4), page (4) | video (8), analytics (6), adaptation (3), data (2), detection (2) |
+| Junchen Jiang | 11 | 51 | 24 | SIGCOMM (9), NSDI (9), SoCC (4), APNet (2), EuroSys (2) | video (16), analytics (12), learning (6), streaming (5), quality (3) | video (6), model (6), applications (5), streaming (4), language (4) |
+| Mattijs Jonker | 11 | 44 | 20 | IMC (11), TMA (7), Internet Measurement Conference (5), PAM (4), EuroS&P Workshops (3) | dns (13), ddos (5), infrastructure (4), attacks (3), potential (3) | dns (4), network (3), anycast (3), internet (3), reverse (2) |
+| Alberto Dainotti | 11 | 42 | 18 | IMC (12), Internet Measurement Conference (6), PAM (5), NSDI (3), TMA (3) | bgp (7), internet (5), dns (3), hijacking (2), wild (2) | poster (4), network (3), internet (3), investigating (3), bgp (3) |
+| Omid Abari | 11 | 38 | 12 | HotNets (6), SIGCOMM (6), MobiCom (5), SenSys (4), HotMobile (3) | wifi (8), rfid (8), backscatter (7), can (5), networks (4) | sensing (4), wireless (3), side-channels (2), processors (2), low (2) |
+| Geoffrey M. Voelker | 11 | 37 | 12 | Internet Measurement Conference (8), IMC (7), USENIX Security Symposium (3), WWW (3), SoCC (2) | dns (4), characterizing (3), hijacking (3), infrastructure (3), account (2) | understanding (3), email (2), fingerprinting (2), efficacy (2), empirical (1) |
+| Hari Balakrishnan | 11 | 33 | 4 | NSDI (5), SIGCOMM (5), ANRW (3), SIGSPATIAL/GIS (3), MobiSys (3) | congestion (9), control (9), internet (5), road (4), extraction (3) | drivetrack (1), benchmark (1), long-range (1), point (1), tracking (1) |
+| Michael Schapira | 11 | 31 | 5 | HotNets (6), SIGCOMM (5), ANRW (3), NDSS (3), NSDI (2) | congestion (8), control (8), network (4), internet (4), time (3) | verifying (1), generalization (1), deep (1), learning (1), dote (1) |
+| Rachit Agarwal 0001 | 11 | 30 | 12 | NSDI (8), SIGCOMM (6), OSDI (5), USENIX Security Symposium (3), SOSP (2) | network (5), distributed (3), oblivious (3), stack (3), storage (3) | host (3), network (2), resource (2), allocation (2), dynamic (2) |
+| Justine Sherry | 11 | 25 | 10 | SIGCOMM (6), NSDI (4), HotNets (4), Internet Measurement Conference (2), OSDI (2) | control (5), network (4), congestion (4), functions (2), fairness (2) | congestion (4), control (3), communication (2), how (1), learned (1) |
+| Ming Zhang 0005 | 11 | 12 | 0 | SIGCOMM (10), SelfDN@SIGCOMM (1), NSDI (1) | data (4), plane (3), configurations (2), language (2), global (2) | none |
+| Georg Carle | 10 | 155 | 58 | NOMS (18), CNSM (10), ANRW (8), IFIP Networking (8), GLOBECOM (6) | network (21), networks (13), data (12), learning (8), management (8) | network (11), learning (7), quic (6), networks (6), tls (5) |
+| Feng Qian 0001 | 10 | 103 | 45 | MobiCom (18), SIGCOMM (9), NSDI (8), HotMobile (6), WWW (5) | mobile (15), streaming (14), video (13), devices (6), volumetric (6) | video (13), mobile (9), streaming (8), networks (6), volumetric (5) |
+| Dave Levin | 10 | 45 | 15 | SIGCOMM (8), CCS (5), USENIX Security Symposium (5), PAM (4), SP (4) | censorship (5), certificate (4), web (3), evasion (3), you (3) | how (2), global (2), internet (2), connection (2), tampering (2) |
+| Ramesh Govindan | 10 | 44 | 16 | SIGCOMM (7), NSDI (7), IoTDI (3), MobiSys (3), CoNEXT (2) | video (5), networks (4), distributed (2), iot (2), understanding (2) | outdoor (2), pose (2), resource (2), network (2), mcal (1) |
+| Stefan Savage | 10 | 40 | 15 | Internet Measurement Conference (7), IMC (7), USENIX Security Symposium (4), WWW (4), CSET @ USENIX Security Symposium (2) | dns (4), characterizing (3), hijacking (3), infrastructure (3), surveillance (2) | understanding (3), empirical (2), security (2), email (2), use (2) |
+| Manya Ghobadi | 10 | 38 | 13 | SIGCOMM (8), HotNets (5), NSDI (5), OFC (4), SIGMETRICS (Abstracts) (2) | programmable (6), optical (4), beyond (3), network (3), traffic (3) | network (3), distributed (3), training (3), scheduling (3), real-time (2) |
+| David R. Choffnes | 10 | 37 | 13 | IMC (9), Internet Measurement Conference (5), ANRW (3), NDSS (3), SIGCOMM (2) | iot (4), devices (4), attack (3), control (3), consumer (3) | iot (6), understanding (4), smart (4), home (2), behavior (2) |
+| Vincent Liu 0001 | 10 | 35 | 17 | SIGCOMM (10), NSDI (7), OSDI (4), HotNets (3), CIDR (3) | data (5), network (3), networks (3), through (2), optimizing (2) | serving (3), simulation (3), model (2), parallelism (2), learning (2) |
+| Philip Brighten Godfrey | 10 | 35 | 17 | HotNets (9), NSDI (8), SIGCOMM (3), HotMobile (2), MMSys (2) | congestion (4), control (4), network (4), service (3), mobile (2) | networks (3), application (2), channels (2), challenges (2), opportunities (2) |
+| Alan Mislove | 10 | 31 | 3 | Internet Measurement Conference (5), NDSS (3), IMC (3), ANRW (2), WWW (2) | study (5), advertising (4), automated (3), measuring (3), facebook (3) | measurement (2), problematic (1), advertising (1), its (1), disparate (1) |
+| Oliver Gasser | 10 | 29 | 14 | IMC (8), Internet Measurement Conference (6), PAM (6), ANRW (2), TMA (2) | internet (5), dns (4), ecosystem (3), ipv6 (3), adoption (2) | prefixes (3), ipv6 (3), analyzing (2), web (2), bgp (2) |
+| Ankit Singla | 10 | 26 | 1 | HotNets (4), SoCC (3), NSDI (2), Internet Measurement Conference (2), SIGCOMM (2) | network (4), internet (4), space (3), networks (3), learning (2) | decentralized (1), sdn (1), architecture (1), wan (1) |
+| Behnaz Arzani | 10 | 23 | 11 | NSDI (9), HotNets (6), SIGCOMM (4), Internet Measurement Conference (1), OSDI (1) | cloud (2), monitoring (2), packet (2), verification (2), domain-customized (2) | network (2), heuristics (2), optimization (2), holistic (1), view (1) |
+| Gareth Tyson | 9 | 122 | 61 | WWW (19), ICWSM (13), IMC (8), INFOCOM (7), ASONAM (6) | web (8), exploring (7), deep (6), covid-19 (6), social (5) | social (11), understanding (8), moderation (8), network (7), networks (5) |
+| Thomas C. Schmidt | 9 | 95 | 26 | ICN (16), VNC (7), Internet Measurement Conference (6), EWSN (5), SIGCOMM (Posters and Demos) (5) | iot (16), networks (9), ndn (8), internet (6), communication (6) | networks (6), ipv6 (4), lora (3), automotive (3), asynchronous (3) |
+| Matthias Wählisch | 9 | 74 | 18 | ICN (16), Internet Measurement Conference (6), EWSN (5), SIGCOMM (Posters and Demos) (5), TMA (4) | iot (15), ndn (8), internet (7), information-centric (5), icn (5) | ipv6 (4), lora (3), cloud (3), low (2), iot (2) |
+| Oliver Hohlfeld | 9 | 64 | 17 | PAM (7), Internet Measurement Conference (6), QoMEX (4), WWW (Companion Volume) (4), IMC (4) | web (6), control (5), internet (5), ddos (5), data (4) | poster (3), ddos (3), internet (3), age (2), empirical (2) |
+| Ennan Zhai | 9 | 55 | 36 | SIGCOMM (21), NSDI (15), FAST (2), MobiCom (2), MobiSys (2) | cloud (4), storage (4), data (4), services (3), android (3) | network (10), cloud (7), training (7), model (6), communication (5) |
+| Kyle Jamieson | 9 | 47 | 21 | MobiCom (11), NSDI (6), SIGCOMM (4), GLOBECOM (4), HotNets (3) | quantum (5), mimo (5), annealing (4), networks (4), network (3) | mimo (5), wireless (4), video (4), quantum (3), channel (3) |
+| Zakir Durumeric | 9 | 42 | 23 | USENIX Security Symposium (7), ICWSM (7), IMC (7), SIGCOMM (4), Internet Measurement Conference (3) | certificate (3), encrypt (2), web (2), all (2), exploring (2) | media (4), news (4), tracking (3), embeddings (2), russo-ukrainian (2) |
+| Yibo Zhu 0001 | 9 | 31 | 14 | NSDI (7), SIGCOMM (5), OSDI (3), EuroSys (3), IPDPS (2) | training (5), distributed (4), deep (4), learning (4), dnn (4) | training (8), language (3), model (3), optimizing (2), data (2) |
+| Anirudh Sivaraman | 9 | 29 | 12 | NSDI (5), SIGCOMM (5), HotNets (4), OSDI (2), MobiSys (1) | programmable (6), packet (4), processing (3), networks (3), packet-processing (2) | cloud (4), packet-processing (2), programs (2), program (2), synthesis (2) |
+| Matthew Luckie | 9 | 28 | 9 | IMC (5), Internet Measurement Conference (4), SOSR (3), CoNEXT (2), PAM (2) | network (5), learning (4), extract (4), hostnames (4), router (3) | internet (4), inference (2), access (2), verification (2), coarse-grained (1) |
+| Balakrishnan Chandrasekaran 0002 | 9 | 28 | 11 | Internet Measurement Conference (5), NSDI (4), HotNets (2), TMA (2), EPIQ@CoNEXT (1) | web (4), case (3), video (2), streaming (2), rpki (2) | nvme (3), networks (3), channels (2), bbrv3 (2), internet (2) |
+| Ran Ben Basat | 8 | 52 | 11 | CoNEXT (4), INFOCOM Workshops (4), SIGCOMM (4), Networking (3), HotNets (3) | measurement (7), network (6), distributed (6), heavy (5), hitters (5) | compression (5), distributed (3), telemetry (2), cache (2), estimation (2) |
+| Roland van Rijswijk-Deij | 8 | 49 | 16 | TMA (6), PAM (6), NOMS (5), CNSM (5), ANRW (4) | dns (14), anycast (8), impact (4), measuring (3), dnssec (3) | anycast (5), longitudinal (3), characterization (2), empirical (2), network (2) |
+| Matteo Varvello | 8 | 48 | 19 | IMC (11), WWW (7), TMA (4), CoNEXT (3), MMSys (2) | mobile (6), web (6), batterylab (4), distributed (4), platform (4) | web (5), look (4), demo (3), first (3), study (3) |
+| Mosharaf Chowdhury | 8 | 45 | 21 | NSDI (8), MLSys (5), OSDI (4), EuroSys (3), SIGCOMM (3) | learning (5), analytics (3), distributed (3), networks (3), federated (3) | training (7), dnn (4), learning (4), cloud (3), federated (3) |
+| Aurojit Panda | 8 | 45 | 21 | HotNets (8), SIGCOMM (4), HotOS (4), NSDI (3), SoCC (3) | network (4), graph (2), analytics (2), resilient (2), edge-computing (2) | memory (3), applications (3), gaussian (3), splatting (3), training (3) |
+| Ying Zhang 0022 | 8 | 44 | 28 | SIGCOMM (18), NSDI (9), IWQoS (2), INFOCOM (2), IMC (2) | network (9), consistent (2), software (2), functions (2), management (2) | network (13), training (4), distributed (3), express (3), datacenters (3) |
+| Ítalo Cunha | 8 | 39 | 6 | SBRC (7), IMC (5), Internet Measurement Conference (4), ISCC (3), SIGCOMM Posters and Demos (2) | internet (9), bashlite (4), bgp (4), rpki (3), iot (3) | internet (2), bgp (2), community (2), rpslyzer (1), characterization (1) |
+| Haitham Hassanieh | 8 | 37 | 15 | NSDI (9), MobiCom (7), MobiSys (3), SIGCOMM (3), SIGCOMM Posters and Demos (3) | millimeter (6), wave (6), wireless (3), iot (3), networks (3) | ran (3), networks (3), accurate (2), contactless (2), material (2) |
+| Fadel Adib | 8 | 36 | 20 | MobiCom (9), SIGCOMM (8), NSDI (3), SenSys (3), RFID (3) | underwater (6), wireless (5), learning (4), backscatter (4), networking (3) | underwater (12), backscatter (9), localization (6), rfid (3), augmented (3) |
+| Robert Soulé | 8 | 35 | 10 | SOSR (4), NSDI (3), EuroSys (3), HotNets (2), CoNEXT (2) | data (4), traffic (3), engineering (3), programmable (3), plane (3) | quantum (2), operating (2), synchronous (2), public (2), clouds (2) |
+| Olivier Bonaventure | 8 | 35 | 6 | Networking (4), SIGCOMM Posters and Demos (4), CoNEXT (3), ANRW (3), TMA (2) | routing (7), segment (6), tcp (6), ipv6 (4), quic (4) | quic (4), internet (2), xbgp (1), faster (1), innovation (1) |
+| Nate Foster | 8 | 30 | 7 | SIGCOMM (5), NSDI (3), SOSR (3), HotNets (2), ECOOP (2) | traffic (3), engineering (3), network (3), verification (3), data (3) | network (2), verification (2), design (2), p4cub (1), little (1) |
+| Harsha V. Madhyastha | 8 | 27 | 9 | NSDI (7), IMC (4), OSDI (3), SoCC (2), HotNets (2) | web (5), federated (3), learning (3), relay (2), than (2) | web (4), training (2), reviving (1), dead (1), links (1) |
+| Daehyeok Kim | 8 | 27 | 16 | NSDI (8), SIGCOMM (4), HotNets (3), SOSR (2), MobiCom (2) | programmable (4), switches (4), network (2), generic (1), external (1) | video (2), virtualized (2), rans (2), resource (2), generators (2) |
+| Aaron Schulman | 8 | 25 | 8 | Internet Measurement Conference (5), MobiCom (2), MobiSys (2), PAM (2), USENIX Security Symposium (2) | federated (2), measuring (2), security (2), how (2), sdrs (2) | base (2), access (2), different (2), rosebud (1), making (1) |
+| Srinivas Narayana | 8 | 23 | 11 | SIGCOMM (6), HotNets (4), ANRW (2), NSDI (2), SAS (2) | control (5), congestion (4), elasticity (2), detection (2), building (2) | ebpf (4), synthesis (4), verifier (3), abstract (3), operators (3) |
+| John Sonchack | 8 | 17 | 2 | SIGCOMM (4), NSDI (3), EuroSys (1), HotCloud (1), NetCompute@SIGCOMM (1) | network (5), flow (2), switches (2), analytics (2), in-network (2) | switchlog (1), logic (1), programming (1), language (1), network (1) |
+| Robert Beverly | 8 | 15 | 3 | Internet Measurement Conference (6), PAM (2), CCS (1), CoNEXT (1), NSDI (1) | bgp (3), communities (3), ipv6 (3), network (3), routing (2) | illuminating (1), router (1), vendor (1), diversity (1), within (1) |
+| Kai Chen 0005 | 7 | 94 | 53 | EuroSys (13), APNet (12), INFOCOM (11), NSDI (10), SIGCOMM (8) | network (7), learning (6), networks (6), congestion (5), control (5) | learning (12), control (8), training (7), rdma (6), federated (6) |
+| Jianping Wu | 7 | 84 | 34 | INFOCOM (8), ICNP (7), NDSS (4), NSDI (4), SIGCOMM (4) | network (7), traffic (7), networks (5), high-performance (5), learning (5) | networks (6), satellite (6), routing (4), leo (4), attack (3) |
+| Zaoxing Liu | 7 | 39 | 19 | NSDI (6), SIGCOMM (5), FAST (2), SIGMETRICS (Abstracts) (2), SOSR (2) | switches (6), sketch-based (5), monitoring (5), programmable (5), graph (2) | telemetry (6), network (4), sketches (2), data (2), sketch-based (2) |
+| Jiaqi Gao | 7 | 38 | 20 | SIGCOMM (12), NSDI (4), DSC (3), ICASSP (3), CNCERT (2) | data (5), switch (3), cheetah (2), accelerating (2), database (2) | detection (4), network (3), training (3), anomaly (2), feature (2) |
+| Dongsu Han | 7 | 37 | 18 | SIGCOMM (5), CoNEXT (4), ICNP (3), APNet (2), EuroSys (2) | video (4), network (4), mobile (3), neural (3), app (2) | neural (3), storage (3), video (3), video-based (3), accelerating (2) |
+| Deepak Vasisht | 7 | 36 | 21 | MobiCom (8), SIGCOMM (5), MobiSys (5), NSDI (5), HotNets (2) | localization (4), iot (3), distributed (2), network (2), low (2) | networks (5), satellite (4), traffic (3), wi-fi (3), localization (2) |
+| John S. Heidemann | 7 | 35 | 13 | Internet Measurement Conference (5), IMC (5), PAM (3), FAccT (3), IEEE BigData (2) | dns (7), internet (5), anycast (5), detection (4), ddos (3) | internet (3), delivery (3), auditing (2), discrimination (2), poster (2) |
+| Yu Zhou 0008 | 7 | 29 | 2 | ICNP (5), SIGCOMM (5), SOSR (4), SIGCOMM Posters and Demos (3), CoNEXT (2) | programmable (12), data (10), network (6), plane (6), telemetry (5) | norma (1), network (1), load (1), testing (1), infinitehbd (1) |
+| Ihsan Ayyub Qazi | 7 | 28 | 15 | WWW (5), CoNEXT (4), SIGCOMM (2), CHI (2), IMC (2) | web (3), audio (3), detection (3), video (2), fake (2) | learning (4), pruning (4), data (3), youtube (3), neural (2) |
+| David Walker 0001 | 7 | 22 | 7 | NSDI (6), SIGCOMM (4), HotNets (2), PLDI (2), SOSR (2) | network (6), control (4), plane (3), verification (3), language (3) | network (5), programming (2), data (2), abstractions (2), verification (2) |
+| Vasileios Giotsas | 7 | 20 | 5 | Internet Measurement Conference (4), IMC (4), ANRW (2), GLOBECOM (1), NSDI (1) | bgp (5), cloud (3), provider (2), connectivity (2), flat (2) | dataset (2), heat (1), debate (1), simulating (1), program (1) |
+| Bradley Huffaker | 7 | 20 | 7 | PAM (5), Internet Measurement Conference (4), IMC (3), CoNEXT (2), MILCOM (2) | learning (4), extract (4), hostnames (4), router (3), internet (3) | packetlab (2), model (2), access (2), internet (2), verification (2) |
+| Venkat Arun | 7 | 18 | 8 | NSDI (8), HotNets (4), SIGCOMM (2), ANRW (1), NDSS (1) | congestion (4), control (4), internet (3), copa (2), delay-based (2) | congestion (4), control (3), video (2), streaming (2), provably (2) |
+| Ali Abedi 0002 | 7 | 18 | 5 | HotNets (7), MobiCom (4), DySPAN (3), SIGCOMM (2), MSWiM (2) | wifi (9), backscatter (4), networks (4), can (3), witag (2) | spectrum (3), signals (2), opportunity (2), calibration (1), crowd-sourced (1) |
+| Prateesh Goyal | 7 | 17 | 5 | SIGCOMM (7), NSDI (3), ANRW (2), BS (1), HotEdge (1) | control (8), congestion (6), elasticity (2), detection (2), building (2) | estimation (2), cloud-hosted (2), financial (2), exchanges (2), tail (1) |
+| Bruce M. Maggs | 7 | 17 | 3 | Internet Measurement Conference (4), ICALP (3), HotNets (2), NSDI (2), SODA (1) | web (3), algorithms (3), rpki (2), gearing (1), century (1) | root (1), store (1), left (1), behind (1), dchannel (1) |
+| Ingmar Poese | 7 | 15 | 6 | Internet Measurement Conference (4), NSDI (2), PAM (2), CoNEXT (2), SIGCOMM Posters and Demos (1) | tracing (2), traffic (2), scale (2), covid-19 (2), dissecting (1) | flow (2), multi-hop (1), isp-hypergiant (1), collaboration (1), dns (1) |
+| Debopam Bhattacherjee | 7 | 15 | 7 | HotNets (5), Internet Measurement Conference (2), LEO-NET (2), CoNEXT (1), ICC (1) | space (3), internet (3), networks (2), gearing (1), century (1) | network (3), solar (2), boosting (1), application (1), heterogeneous (1) |
+| Christoph Dietzel | 7 | 14 | 0 | Internet Measurement Conference (4), PAM (3), CoNEXT (2), ANRW (1), SIGCOMM Posters and Demos (1) | ddos (5), ixps (4), dynam-ix (3), dynamic (3), interconnection (3) | none |
+| Stefano Vissicchio | 7 | 10 | 3 | SIGCOMM (4), NSDI (3), HotNets (2), CoNEXT (1) | routing (2), network (2), robustly (1), disjoint (1), paths (1) | taming (1), transient (1), while (1), reconfiguring (1), bgp (1) |
+
+## Per-Researcher Evidence
+
+Each section lists compact yearly title evidence. Years with many publications are truncated in this markdown view; the full packet is in `data/selected_sample_network_gt6_packet.json`.
+
+### Vyas Sekar
+
+- DBLP pid: `45/4044`
+- Counts: baseline networking `23`, total clean `67`, post-2023 clean `18`
+- Top venues: NSDI (10), SIGCOMM (6), Internet Measurement Conference (5), HotNets (4), USENIX Security Symposium (4), SP (3), CoNEXT (2), WF-IoT (2)
+- Baseline title terms: network (11), iot (6), security (6), switches (5), programmable (5), networks (4), edge (4), proxies (3)
+- Post-2023 title terms: network (4), stateful (3), telemetry (3), raising (2), level (2), abstraction (2), analytics (2), services (2)
+
+- 2018:
+  - CoNEXT: Intent-driven composition of resource-management SDN applications [qualifying]
+  - Internet Measurement Conference: How to Catch when Proxies Lie: Verifying the Physical Locations of Network Proxies with Active Geolocation
+  - NSDI: Efficient and Correct Test Scheduling for Ensembles of Network Policies [qualifying]
+  - SECON: Rethinking Virtual Network Embedding in Reconfigurable Networks
+  - SIGCOMM: Hyperloop: group-based NIC-offloading to accelerate replicated transactions in multi-tenant storage systems [qualifying]
+- 2019:
+  - HotNets: Towards Oblivious Network Analysis using Generative Adversarial Networks [qualifying]
+  - ICDCS: Practical Verifiable In-network Filtering for DDoS Defense
+  - NSDI: Alembic: Automated Model Inference for Stateful Network Functions [qualifying]
+  - NSDI: FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds [qualifying]
+  - SEC: Sandpaper: mitigating performance interference in CDN edge proxies
+  - SIGCOMM: Nitrosketch: robust and general sketch-based monitoring in software switches [qualifying]
+  - USENIX Security Symposium: CANvas: Fast and Inexpensive Automotive Network Mapping
+- 2020:
+  - HotEdge: Towards an Architecture for Trusted Edge IoT Security Gateways
+  - IPSN: All that GLITTERs: Low-Power Spoof-Resilient Optical Markers for Augmented Reality
+  - Internet Measurement Conference: Analyzing Third Party Service Dependencies in Modern Web Services: Have We Learned from the Mirai-Dyn Incident?
+  - Internet Measurement Conference: Using GANs for Sharing Networked Time Series Data: Challenges, Initial Promise, and Open Questions
+  - IoTDI: Learning Context-Aware Policies from Multiple Smart Homes via Federated Multi-Task Learning
+  - MobiCom: Joltik: enabling energy-efficient "future-proof" analytics on low-power wide-area networks
+  - NSDI: NetSMC: A Custom Symbolic Model Checker for Stateful Network Verification [qualifying]
+  - OSDI: Achieving 100Gbps Intrusion Prevention on a Single Server
+  - SIGCOMM: Contention-Aware Performance Prediction For Virtualized Network Functions [qualifying]
+  - SIGCOMM: TEA: Enabling State-Intensive Network Functions on Programmable Switches [qualifying]
+  - SP (Workshops): Security Analysis of Networked 3D Printers
+  - SPIN@SIGCOMM: Fighting Fire with Light: Tackling Extreme Terabit DDoS Using Programmable Optics
+  - ... 1 more in JSON packet
+- 2021:
+  - AISTATS: On the Privacy Properties of GAN-generated Samples
+  - HotNets: Watching the watchmen: Least privilege for managed network services [qualifying]
+  - ICML: Pareto GAN: Extending the Representational Power of GANs to Heavy-Tailed Distributions
+  - Internet Measurement Conference: Revisiting TCP congestion control throughput models & fairness properties at scale
+  - Internet Measurement Conference: The shape of view: an alert system for video viewership anomalies
+  - NSDI: Don't Yank My Chain: Auditable NF Service Chaining [qualifying]
+  - NetSoft: Sketchy With a Chance of Adoption: Can Sketch-Based Telemetry Be Ready for Prime Time?
+  - NeurIPS: Why Spectral Normalization Stabilizes GANs: Analysis and Improvements
+  - RTCSA: Formalizing an Architectural Model of a Trustworthy Edge IoT Security Gateway
+  - SIGCOMM: RedPlane: enabling fault-tolerant stateful in-switch applications [qualifying]
+  - SOSR: Telemetry Retrieval Inaccuracy in Programmable Switches: Analysis and Recommendations
+  - SP: CANNON: Reliable and Stealthy Remote Shutdown Attacks via Unaltered Automotive Microcontrollers
+  - ... 3 more in JSON packet
+- 2022:
+  - AAAI: RareGAN: Generating Samples for Rare Classes
+  - CoNEXT: Lumen: a framework for developing and evaluating ML-based IoT network anomaly detection [qualifying]
+  - HotNets: Rethinking data-driven networking with foundation models: challenges and opportunities [qualifying]
+  - ICCPS: Protecting Smart Homes from Unintended Application Actions
+  - NSDI: SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches [qualifying]
+  - SIGCOMM: Practical GAN-based synthetic IP header trace generation using NetShare [qualifying]
+  - SenSys: Breaking Edge Shackles: Infrastructure-Free Collaborative Mobile Augmented Reality
+  - USENIX Security Symposium: Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment
+  - WISEC: On the Security of Thread Networks: Experimentation with OpenThread-Enabled Devices
+- 2023:
+  - CIDR: Raising the Level of Abstraction for Time-State Analytics With the Timeline Framework
+  - NSDI: ExoPlane: An Operating System for On-Rack Switch Resource Augmentation
+  - NSDI: Sketchovsky: Enabling Ensembles of Sketches on Programmable Switches
+  - PAM: A First Look at Third-Party Service Dependencies of Web Services in Africa
+  - SP: Shedding Light on Inconsistencies in Grid Cybersecurity: Disconnects and Recommendations
+- 2024:
+  - CHI: SEAM-EZ: Simplifying Stateful Analytics through Visual Programming
+  - EuroS&P Workshops: Work-in-Progress: CANGen: Practical Synthetic CAN Traces Generation Using Deep Generative Models
+  - IMC: Raising the Level of Abstraction for Sketch-Based Network Telemetry with SketchPlan
+  - NDSS: TrustSketch: Trustworthy Sketch-based Telemetry on Cloud Hosts
+  - NSDI: ExChain: Exception Dependency Analysis for Root Cause Diagnosis
+  - SIGCOMM (Posters and Demos): Poster: Circa: Re-imagining Network Telemetry from an Approximation-First Perspective
+  - SP: Pryde: A Modular Generalizable Workflow for Uncovering Evasion Attacks Against Stateful Firewall Deployments
+- 2025:
+  - HotNets: Automatically Surfacing Opportunities for Improvements In Internet-Scale Applications
+  - ICST: SPIDER: Fuzzing for Stateful Performance Issues in the ONOS Software-Defined Network Controller
+  - NDSS: Heimdall: Towards Risk-Aware Network Management Outsourcing
+  - RAID: Perry: A High-level Framework for Accelerating Cyber Deception Experimentation
+- 2026:
+  - KDD (1): AHA: Scalable Alternative History Analysis for Operational Timeseries Applications
+  - NSDI: MoCE: A Mixture-of-Context Aware Experts Framework for Troubleshooting Internet-scale Services
+
+### Mohammad Alizadeh
+
+- DBLP pid: `37/8397`
+- Counts: baseline networking `20`, total clean `71`, post-2023 clean `18`
+- Top venues: NSDI (15), SIGCOMM (14), SIGMOD Conference (4), HotNets (3), SIGSPATIAL/GIS (3), ICCV (3), ANRW (2), NeurIPS (2)
+- Baseline title terms: control (12), congestion (9), learning (6), networks (5), network (5), road (4), video (4), detection (3)
+- Post-2023 title terms: video (4), learning (3), causal (2), control (2), applications (2), responsive (2), latency (2), estimation (2)
+
+- 2018:
+  - ANRW: Elasticity Detection: A Building Block for Delay-Sensitive Congestion Control
+  - ANRW: Restructuring Endpoint Congestion Control
+  - CVPR: RoadTracer: Automatic Extraction of Road Networks From Aerial Images
+  - HotNets: Routing Cryptocurrency with the Spider Network [qualifying]
+  - SIGCOMM: Homa: a receiver-driven low-latency transport protocol using network priorities [qualifying]
+  - SIGCOMM: Restructuring endpoint congestion control [qualifying]
+  - SIGSPATIAL/GIS: Machine-assisted map editing
+  - SIGSPATIAL/GIS: RoadRunner: improving the precision of road network inference from GPS trajectories
+- 2019:
+  - BS: Backpressure Flow Control
+  - CIDR: SageDB: A Learned Database System
+  - HotEdge: Secure Incentivization for Decentralized Content Delivery
+  - ICLR (Poster): Variance Reduction for Reinforcement Learning in Input-Driven Environments
+  - NSDI: DETER: Deterministic TCP Replay for Performance Diagnosis [qualifying]
+  - NSDI: Flashield: a Hybrid Key-value Cache that Controls Flash Write Amplification [qualifying]
+  - NeurIPS: Learning Generalizable Device Placement Algorithms for Distributed Machine Learning
+  - NeurIPS: Park: An Open Platform for Learning-Augmented Computer Systems
+  - SIGCOMM: End-to-end transport for video QoE fairness [qualifying]
+  - SIGCOMM: HPCC: high precision congestion control [qualifying]
+  - SIGCOMM: Learning scheduling algorithms for data processing clusters [qualifying]
+  - SIGMETRICS (Abstracts): A Distributed Algorithm to Calculate Max-Min Fair Rates Without Per-Flow State
+- 2020:
+  - AAAI: RoadTagger: Robust Road Attribute Inference with Graph Neural Networks
+  - ECCV (24): Sat2Graph: Road Graph Extraction Through Graph-Tensor Encoding
+  - HotNets: Bertha: Tunneling through the Network API [qualifying]
+  - ICASSP: Exploiting Channel Locality for Adaptive Massive MIMO Signal Detection
+  - ICDE Workshops: Cost-Guided Cardinality Estimation: Focus Where it Matters
+  - MAPL@PLDI: Learned garbage collection
+  - MobiSys: BeeCluster: drone orchestration via predictive optimization
+  - NSDI: ABC: A Simple Explicit Congestion Controller for Wireless Networks [qualifying]
+  - NSDI: High Throughput Cryptocurrency Routing in Payment Channel Networks [qualifying]
+  - OSDI: Overload Control for µs-scale RPCs with Breakwater
+  - SIGCOMM: Annulus: A Dual Congestion Control Loop for Datacenter and WAN Traffic Aggregates [qualifying]
+  - SIGMOD Conference: Learning Multi-Dimensional Indexes
+  - ... 1 more in JSON packet
+- 2021:
+  - DroNet@MobiSys: Toward a Marketplace for Aerial Computing
+  - EuroSys: Site-to-site internet traffic control
+  - ICCV: Efficient Video Compression via Content-Adaptive Super-Resolution
+  - ICCV: Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories
+  - ICCV: Real-Time Video Inference on Edge Devices via Adaptive Model Streaming
+  - MobiSys: Throughput-fairness tradeoffs in mobility platforms
+  - NSDI: Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport [qualifying]
+  - SIGCOMM: SiP-ML: high-bandwidth optical network interconnects for machine learning training [qualifying]
+  - SIGCOMM: Toward formally verifying congestion control behavior [qualifying]
+  - SIGMOD Conference: Bao: Making Learned Query Optimization Practical
+  - SIGMOD Conference: Steering Query Optimizers: A Practical Take on Big Data Workloads
+  - SIGSPATIAL/GIS: Updating Street Maps using Changes Detected in Satellite Imagery
+- 2022:
+  - AFT: Longest Chain Consensus Under Bandwidth Constraint
+  - CCS: Poster: Coded Broadcast for Scalable Leader-Based BFT Consensus
+  - HotNets: The case for an internet primitive for fault localization [qualifying]
+  - MLSys: Efficient Strong Scaling Through Burst Parallel Training
+  - NSDI: Backpressure Flow Control [qualifying]
+  - NSDI: DispersedLedger: High-Throughput Byzantine Consensus on Variable Bandwidth Networks [qualifying]
+  - SIGCOMM: Elasticity detection: a building block for internet congestion control [qualifying]
+  - SIGCOMM: Starvation in end-to-end congestion control [qualifying]
+- 2023:
+  - ICDE: Unshackling Database Benchmarking from Synthetic Workloads
+  - ICML: Counterfactual Identifiability of Bijective Causal Models
+  - NSDI: CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation
+  - NSDI: Protego: Overload Control for Applications with Unpredictable Lock Contention
+  - NSDI: RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics
+  - NSDI: Scalable Tail Latency Estimation for Data Center Networks
+  - SIGCOMM: Ekho: Synchronizing cloud gaming media across multiple endpoints
+- 2024:
+  - NSDI: Gemino: Practical and Robust Neural Compression for Video Conferencing
+  - NSDI: LDB: An Efficient Latency Profiling Tool for Multithreaded Applications
+  - SIGCOMM: Practical Rateless Set Reconciliation
+  - SIGCOMM: Principles for Internet Congestion Management
+  - SIGCOMM: m3: Accurate Flow-Level Performance Estimation using Machine Learning
+- 2025:
+  - ASPLOS (1): GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism
+  - ICLR: Online Reinforcement Learning in Non-Stationary Context-Driven Environments
+  - ISCA: Concorde: Fast and Accurate CPU Performance Modeling with Compositional Analytical-ML Fusion
+- 2026:
+  - NINeS: Tight Loops, Smooth Streams: Responsive Congestion Control for Real-Time Video
+  - NSDI: Heuristic Analysis from Source Code via Symbolic-Guided Optimization
+  - NSDI: Predict, Prune, Play: Efficient Video Playback Optimization Under Device Diversity and Drift
+
+### Hongqiang Harry Liu
+
+- DBLP pid: `117/4311`
+- Counts: baseline networking `20`, total clean `24`, post-2023 clean `3`
+- Top venues: SIGCOMM (16), NSDI (6), SelfDN@SIGCOMM (1), OSDI (1)
+- Baseline title terms: data (5), network (4), programmable (3), plane (3), video (3), configurations (2), networking (2), control (2)
+- Post-2023 title terms: rf-chord (1), deployable (1), rfid (1), localization (1), logistic (1), networks (1), flor (1), open (1)
+
+- 2018:
+  - SIGCOMM: Hyperloop: group-based NIC-offloading to accelerate replicated transactions in multi-tenant storage systems [qualifying]
+  - SelfDN@SIGCOMM: Automatic Life Cycle Management of Network Configurations
+- 2019:
+  - NSDI: FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds [qualifying]
+  - NSDI: Slim: OS Kernel Support for a Low-Overhead Container Overlay Network [qualifying]
+  - NSDI: Tiresias: A GPU Cluster Manager for Distributed Deep Learning [qualifying]
+  - SIGCOMM: HPCC: high precision congestion control [qualifying]
+  - SIGCOMM: Safely and automatically updating in-network ACL configurations with intent language [qualifying]
+- 2020:
+  - SIGCOMM: Accuracy, Scalability, Coverage: A Practical Configuration Verifier on a Global WAN [qualifying]
+  - SIGCOMM: Flow Event Telemetry on Programmable Data Plane [qualifying]
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+  - SIGCOMM: NFC+: Breaking NFC Networking Limits through Resonance Engineering [qualifying]
+- 2021:
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+  - SIGCOMM: XLINK: QoE-driven multi-path QUIC transport in large-scale video services [qualifying]
+- 2022:
+  - NSDI: Buffer-based End-to-end Request Event Monitoring in the Cloud [qualifying]
+  - NSDI: Cetus: Releasing P4 Programmers from the Chore of Trial and Error Compiling [qualifying]
+  - SIGCOMM: Achieving consistent low latency for wireless real-time communications with the shortest control loop [qualifying]
+  - SIGCOMM: From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud [qualifying]
+  - SIGCOMM: GSO-simulcast: global stream orchestration in simulcast video conferencing systems [qualifying]
+  - SIGCOMM: LiveNet: a low-latency video transport network for large-scale live streaming [qualifying]
+  - SIGCOMM: Meissa: scalable network testing for programmable data planes [qualifying]
+  - SIGCOMM: Predictable vFabric on informative data plane [qualifying]
+- 2023:
+  - NSDI: RF-Chord: Towards Deployable RFID Localization System for Logistic Networks
+  - OSDI: Flor: An Open High Performance RDMA Framework Over Heterogeneous RNICs
+  - SIGCOMM: CellFusion: Multipath Vehicle-to-Cloud Video Streaming with Network Coding in the Wild
+
+### Arvind Krishnamurthy
+
+- DBLP pid: `k/AKrishnamurthy`
+- Counts: baseline networking `19`, total clean `66`, post-2023 clean `30`
+- Top venues: NSDI (15), SIGCOMM (12), HotNets (6), MLSys (5), EuroSys (4), SOSP (4), OSDI (3), SoCC (3)
+- Baseline title terms: distributed (6), network (5), programmable (4), switches (3), learning (3), automated (3), training (3), offloading (3)
+- Post-2023 title terms: serving (5), networks (3), collective (3), communication (3), network (3), application (2), host (2), congestion (2)
+
+- 2018:
+  - EuroSys: MultiNyx: a multi-level abstraction framework for systematic analysis of hypervisors
+  - NSDI: Approximating Fair Queueing on Reconfigurable Switches [qualifying]
+  - NSDI: Deepview: Virtual Disk Failure Diagnosis and Pattern Detection for Azure [qualifying]
+  - NeurIPS: Learning to Optimize Tensor Programs
+  - OSDI: TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+  - SIGCOMM: Revisiting network support for RDMA [qualifying]
+  - SoCC: Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training
+- 2019:
+  - EuroSys: TAS: TCP Acceleration as an OS Service
+  - HotOS: Practical Safe Linux Kernel Extensibility
+  - NSDI: Slim: OS Kernel Support for a Low-Overhead Container Overlay Network [qualifying]
+  - NSDI: Stable and Practical AS Relationship Inference with ProbLink [qualifying]
+  - SIGCOMM: Offloading distributed applications onto smartNICs using iPipe [qualifying]
+  - SIGCOMM: Zooming in on wide-area latencies to a global cloud provider [qualifying]
+  - SOSP: Nexus: a GPU cluster engine for accelerating DNN-based video analysis
+  - USENIX ATC: E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers
+- 2020:
+  - ACSAC: Talek: Private Group Messaging with Hidden Access Patterns
+  - EuroSys: Meerkat: multicore-scalable replicated transactions following the zero-coordination principle
+  - HotNets: Bertha: Tunneling through the Network API [qualifying]
+  - HotNets: On the Future of Congestion Control for the Public Internet [qualifying]
+  - HotNets: Remote Memory Calls [qualifying]
+  - MLSys: PLink: Discovering and Exploiting Locality for Accelerated Distributed Training on the public Cloud
+  - NSDI: Automated Verification of Customizable Middlebox Properties with Gravel [qualifying]
+  - NSDI: Fine-Grained Replicated State Machines for a Cluster Storage System [qualifying]
+  - NSDI: Programmable Calendar Queues for High-speed Packet Scheduling [qualifying]
+  - SIGCOMM: A Public Option for the Core [qualifying]
+  - SIGCOMM: Gallium: Automated Software Middlebox Offloading to Programmable Switches [qualifying]
+  - USENIX ATC: End the Senseless Killing: Improving Memory Management for Mobile Operating Systems
+- 2021:
+  - APSys: Offloading load balancers onto SmartNICs
+  - HotNets: A Vision for Runtime Programmable Networks [qualifying]
+  - ICLR: AutoLRS: Automatic Learning-Rate Schedule by Bayesian Optimization on the Fly
+  - NSDI: Scaling Distributed Machine Learning with In-Network Aggregation [qualifying]
+  - SIGCOMM: Gimbal: enabling multi-tenant storage disaggregation on SmartNIC JBOFs [qualifying]
+  - SOSP: Xenic: SmartNIC-Accelerated Distributed Transactions
+- 2022:
+  - MLSys: SRIFTY: Swift and Thrifty Distributed Neural Network Training on the Cloud
+  - NSDI: Runtime Programmable Switches [qualifying]
+  - SIGMETRICS (Abstracts): Dremel: Adaptive Configuration Tuning of RocksDB KV-Store
+- 2023:
+  - HotNets: Application Defined Networks
+  - HotNets: How I Learned to Stop Worrying About CCA Contention
+  - OSDI: eZNS: An Elastic Zoned Namespace for Commodity ZNS SSDs
+  - SIGCOMM: Host Congestion Control
+  - SIGCOMM: Unleashing SmartNIC Packet Processing Performance in P4
+  - SOSP: A Cloud-Scale Characterization of Remote Procedure Calls
+  - SoCC: Anticipatory Resource Allocation for ML Training
+  - SoCC: Dissecting Overheads of Service Mesh Sidecars
+- 2024:
+  - ASPLOS (1): CC-NIC: a Cache-Coherent Interface to the NIC
+  - FPGA: SuperNIC: An FPGA-Based, Cloud-Oriented SmartNIC
+  - HPDC: Efficient all-to-all Collective Communication Schedules for Direct-connect Topologies
+  - MLSys: Atom: Low-Bit Quantization for Efficient and Accurate LLM Serving
+  - MLSys: Punica: Multi-Tenant LoRA Serving
+  - SIGCOMM: An Architecture For Edge Networking Services
+  - SIGCOMM: Principles for Internet Congestion Management
+  - SIGCOMM: Relational Network Verification
+  - SIGCOMM: Understanding the Host Network
+- 2025:
+  - HotOS: Rethinking RPC Communication for Microservices-based Applications
+  - MLSys: FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving
+  - NSDI: Efficient Direct-Connect Topologies for Collective Communications
+  - NSDI: High-level Programming for Application Networks
+  - NSDI: White-Boxing RDMA with Packet-Granular Software Control
+  - OSDI: NanoFlow: Towards Optimal Large Language Model Serving Throughput
+  - SOSP: IC-Cache: Efficient Large Language Model Serving via In-context Caching
+  - eBPF@SIGCOMM: Offloading the Tedious Task of Writing eBPF Programs
+- 2026:
+  - ASPLOS (2): SG-IOV: Socket-Granular I/O Virtualization for SmartNIC-Based Container Networks
+  - EuroSys: Reducing the GPU Memory Bottleneck with Lossless Compression for ML
+  - NSDI: FAST: An Efficient Scheduler for All-to-All GPU Communication
+  - NSDI: ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics
+  - NSDI: RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs
+
+### Kimberly C. Claffy
+
+- DBLP pid: `68/4966`
+- Counts: baseline networking `19`, total clean `62`, post-2023 clean `23`
+- Top venues: IMC (16), PAM (10), Internet Measurement Conference (9), SIGCOMM (4), HPEC (3), TMA (3), CoNEXT (2), EuroS&P Workshops (2)
+- Baseline title terms: internet (8), dns (7), network (6), traffic (5), inferring (4), learning (4), extract (4), hostnames (4)
+- Post-2023 title terms: internet (4), bgp (3), measurement (3), data (2), inference (2), routing (2), poster (2), packetlab (2)
+
+- 2018:
+  - ANRW: TCP Congestion Signatures
+  - Internet Measurement Conference: Pushing the Boundaries with bdrmapIT: Mapping Router Ownership at Internet Scale
+  - PAM: Revealing the Load-Balancing Behavior of YouTube Traffic on Interdomain Links
+  - SIGCOMM: Inferring persistent interdomain congestion [qualifying]
+- 2019:
+  - CCS: Network Hygiene, Incentives, and Regulation: Deployment of Source Address Validation in the Internet
+  - CoNEXT: Challenges in inferring spoofed traffic at IXPs [qualifying]
+  - HPEC: Hypersparse Neural Network Analysis of Large-Scale Internet Traffic
+  - Internet Measurement Conference: Learning Regexes to Extract Router Names from Hostnames
+  - SIGCOMM Posters and Demos: QUINCE: A unified crowdsourcing-based QoE measurement platform
+- 2020:
+  - EuroS&P Workshops: The Forgotten Side of DNS: Orphan and Abandoned Records
+  - Internet Measurement Conference: Learning to Extract and Use ASNs in Hostnames
+  - Internet Measurement Conference: MAnycast2: Using Anycast to Measure Anycast
+  - Internet Measurement Conference: Unresolved Issues: Prevalence, Persistence, and Perils of Lame Delegations
+  - PAM: Unintended Consequences: Effects of Submarine Cable Deployment on Internet Routing
+  - PAM: When Parents and Children Disagree: Diving into DNS Delegation Inconsistency
+  - SIGMETRICS (Abstracts): vrfinder: Finding Outbound Addresses in Traceroute
+- 2021:
+  - AINTEC: Learning Regexes to Extract Network Names from Hostnames
+  - CoNEXT: Learning to extract geographic information from internet router hostnames [qualifying]
+  - HPEC: Spatial Temporal Analysis of 40, 000, 000, 000, 000 Internet Darkspace Packets
+  - Internet Measurement Conference: Follow the scent: defeating IPv6 prefix rotation privacy
+  - Internet Measurement Conference: Inferring regional access network topologies: methods and applications
+  - Internet Measurement Conference: Measuring the network performance of Google cloud platform
+  - Internet Measurement Conference: Risky BIZness: risks derived from registrar name management
+  - PAM: Inferring Cloud Interconnections: Validation, Geolocation, and Routing Behavior
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+- 2022:
+  - EuroS&P Workshops: No Time for Downtime: Understanding Post-Attack Behaviors by Customers of Managed DNS Providers
+  - HPEC: GraphBLAS on the Edge: Anonymized High Performance Streaming of Network Traffic
+  - IMC: Investigating the impact of DDoS attacks on DNS infrastructure [qualifying]
+  - IMC: Mind your MANRS: measuring the MANRS ecosystem [qualifying]
+  - IMC: Observable KINDNS: validating DNS hygiene [qualifying]
+  - IMC: PacketLab: tools alpha release and demo [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Stop, DROP, and ROA: effectiveness of defenses through the lens of DROP [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - IPDPS Workshops: Temporal Correlation of Internet Observatories and Outposts
+  - Massive Graph Analytics: New Phenomena in Large-Scale Internet Traffic
+  - PAM: IRR Hygiene in the RPKI Era
+  - ... 2 more in JSON packet
+- 2023:
+  - HotNets: Internet Science Moonshot: Expanding BGP Data Horizons
+  - IMC: Coarse-grained Inference of BGP Community Intent
+  - IMC: IRRegularities in the Internet Routing Registry
+  - IMC: On the Importance of Being an AS: An Approach to Country-Level AS Rankings
+  - IMC: Poster: Empirically Testing the PacketLab Model
+  - SIGCOMM: Poster: Taking the Low Road: How RPKI Invalids Propagate
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+- 2024:
+  - IMC: DarkDNS: Revisiting the Value of Rapid Zone Update
+  - IMC: DarkSim: A similarity-based time-series analytic framework for darknet traffic
+  - IMC: Sublet Your Subnet: Inferring IP Leasing in the Wild
+  - IMC: The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+  - MILCOM: AVOID: Automatic Verification Of Internet Data-paths
+  - MILCOM: REVEAL: Real-time Evaluation and Verification of External Adversarial Links
+  - SIGCOMM: The Next Generation of BGP Data Collection Platforms
+- 2025:
+  - CNSM: Noisy Neighbours: Keep the Neighbourhood Quiet
+  - IMC: R&E Routing Policy: Inference and Implication
+  - PAM: An Integrated Active Measurement Programming Environment
+  - PAM: Marionette Measurement: Measurement Support Under the PacketLab Model
+  - SIGCOMM: Lessons Learned from Operating a Large Network Telescope
+  - SIGCOMM (Posters and Demos): Hilby - Hilbert Interactive Prefix Plots
+  - TMA: From Scarcity to Opportunity: Examining Abuse of the IPv4 Leasing Market
+- 2026:
+  - PAM: Different Policies for Different NodeBs: Comparing Downlink Schedulers in Cellular Base Stations
+  - PAM: Through a Smaller Lens: Revisiting Opportunistic Analysis Using Network Telescopes
+
+### Laurent Vanbever
+
+- DBLP pid: `51/7546`
+- Counts: baseline networking `19`, total clean `60`, post-2023 clean `26`
+- Top venues: NSDI (11), HotNets (9), SIGCOMM (7), SIGCOMM (Posters and Demos) (4), CyCon (3), NDSS (2), SOSR (2), ICNP (2)
+- Baseline title terms: network (11), data (3), network-wide (3), configuration (3), cyber (2), control (2), behaviors (2), synthesis (2)
+- Post-2023 title terms: network (6), routing (6), poster (2), what (2), attack (2), packet (2), scheduling (2), traffic (2)
+
+- 2018:
+  - CyCon: FeedRank: A tamper- resistant method for the ranking of cyber threat intelligence feeds
+  - CyCon: Screen watermarking for data theft investigation and attribution
+  - HotNets: Hardware-Accelerated Network Control Planes [qualifying]
+  - NSDI: Net2Text: Query-Guided Summarization of Network Forwarding Behaviors [qualifying]
+  - NSDI: NetComplete: Practical Network-Wide Configuration Synthesis with Autocompletion [qualifying]
+  - NSDI: Stroboscope: Declarative Network Monitoring on a Budget [qualifying]
+  - PLDI: Bayonet: probabilistic inference for networks
+  - USENIX Security Symposium: NetHide: Secure and Practical Network Topology Obfuscation
+- 2019:
+  - BS: FAB: Toward Flow-aware Buffer Sharing on Programmable Switches
+  - CyCon: Machine Learninģ-based Detection of C&C Channels with a Focus on the Locked Shields Cyber Defense Exercise
+  - HotNets: (Self) Driving Under the Influence: Intoxicating Adversarial Network Inputs [qualifying]
+  - NDSS: SABRE: Protecting Bitcoin against Routing Attacks
+  - NSDI: Blink: Fast Connectivity Recovery Entirely in the Data Plane [qualifying]
+  - Networking: Latency and Consistent Flow Migration: Relax for Lossless Updates
+- 2020:
+  - HotNets: P2GO: P4 Profile-Guided Optimizations [qualifying]
+  - HotNets: xBGP: When You Can't Wait for the IETF and Vendors [qualifying]
+  - NSDI: Config2Spec: Mining Network Specifications from Network Configurations [qualifying]
+  - NSDI: SP-PIFO: Approximating Push-In First-Out Behaviors using Strict-Priority Queues [qualifying]
+  - SIGCOMM: Probabilistic Verification of Network Configurations [qualifying]
+- 2021:
+  - Financial Cryptography (1): Perimeter: A Network-Layer Attack on the Anonymity of Cryptocurrencies
+  - NSDI: Metha: Network Verifiers Need To Be Correct Too! [qualifying]
+  - SIGCOMM: Snowcap: synthesizing network-wide configuration updates [qualifying]
+  - SOSR: Performance-Driven Internet Path Selection
+- 2022:
+  - EuroP4@CoNEXT: Reducing P4 language's voluminosity using higher-level constructs
+  - HotNets: A new hope for network model generalization [qualifying]
+  - HotNets: Generating representative, live network traffic out of millions of code repositories [qualifying]
+  - ICNP: On the Complexity of Network-Wide Configuration Synthesis
+  - IMC: "Is my internet down?": sifting through user-affecting outages with Google trends [qualifying]
+  - NDSS: ditto: WAN Traffic Obfuscation at Line Rate
+  - NeurIPS: Learning to Configure Computer Networks with Neural Algorithmic Reasoning
+  - SIGCOMM: ABM: active buffer management in datacenters [qualifying]
+  - SIGCOMM: Aggregate-based congestion control for pulse-wave DDoS defense [qualifying]
+  - SIGCOMM: FAst in-network [qualifying]
+  - SOSR: Mass surveillance of VoIP calls in the data plane
+- 2023:
+  - CoNEXT (Short Papers): Poster: What Keeps Your Network up at Night?
+  - EuroS&P: Revelio: A Network-Level Privacy Attack in the Lightning Network
+  - HotCarbon: Does rate adaptation at daily timescales make sense?
+  - HotNets: QVISOR: Virtualizing Packet Scheduling Policies
+  - NSDI: Enhancing Global Network Monitoring with Magnifier
+  - NSDI: xBGP: Faster Innovation in Routing Protocols
+  - SIGCOMM: Poster: Learning distributions to detect anomalies using all the network traffic
+  - SIGCOMM: Taming the transient while reconfiguring BGP
+  - SIROCCO: FnF-BFT: A BFT Protocol with Provable Performance Under Attack
+  - StudentWorkshop@CoNEXT: Causality Analysis in Control Plane Verification
+  - StudentWorkshop@CoNEXT: Predicting Specification Violations During BGP Convergence
+- 2024:
+  - ANRW: Harnessing Public Code Repositories to Develop Production-Ready ML Artifacts for Networking
+  - HotNets: What is the next hop to more granular routing models?
+  - SP: Routing Attacks on Cryptocurrency Mining Pools
+- 2025:
+  - HotNets: It Is Time to Address Network Power Proportionality
+  - ICDCS: Uncovering Hidden Proxy Smart Contracts for Finding Collision Vulnerabilities in Ethereum
+  - ICNP: Guided Exploration of Control-Plane Routing States
+  - IMC: Fantastic Joules and Where to Find Them. Modeling and Optimizing Router Energy Demand
+  - NSDI: Everything Matters in Programmable Packet Scheduling
+  - NSDI: Verifying maximum link loads in a changing world
+  - PACMI@SOSP: Into the Wild: Real-World Testing for ML-Based ABR
+  - SIGCOMM (Posters and Demos): Better QUIC implementations with Nesquic
+  - SIGCOMM (Posters and Demos): Continual Benchmarking of LLM-Based Systems on Networking Operations
+  - SIGCOMM (Posters and Demos): Probabilistic Routing Algebras for QoS Routing
+  - SIGCOMM (Posters and Demos): Towards Network Model Generalization using Strategic Data Collection
+- 2026:
+  - NINeS: Five Blind Men and the Internet: Towards an Understanding of Internet Traffic
+
+### Amin Vahdat
+
+- DBLP pid: `v/AminVahdat`
+- Counts: baseline networking `18`, total clean `40`, post-2023 clean `15`
+- Top venues: SIGCOMM (15), NSDI (10), SOSP (2), OSDI (2), HotOS (2), USENIX ATC (2), ASPLOS (3) (2), OFC (2)
+- Baseline title terms: network (6), networks (4), control (4), datacenter (4), google (3), software-defined (3), data (3), networking (3)
+- Post-2023 title terms: datacenter (5), network (4), architecture (3), hardware (2), optical (2), circuit (2), switching (2), availability (2)
+
+- 2018:
+  - NSDI: Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization [qualifying]
+  - NSDI: Exploiting a Natural Network Effect for Scalable, Fine-grained Clock Synchronization [qualifying]
+  - SIGCOMM: B4 and after: managing hierarchy, partitioning, and asymmetry for availability and scale in google's software-defined WAN [qualifying]
+  - SIGCOMM: Sincronia: near-optimal network design for coflows [qualifying]
+- 2019:
+  - ANCS: Using P4 on Fixed-Pipeline and Programmable Stratum Switches
+  - NSDI: Eiffel: Efficient and Flexible Software Packet Scheduling [qualifying]
+  - NSDI: Minimal Rewiring: Efficient Live Expansion for Clos Data Center Networks [qualifying]
+  - NSDI: SIMON: A Simple and Scalable Method for Sensing, Inference and Measurement in Data Center Networks [qualifying]
+  - SIGCOMM: PicNIC: predictable virtualized NIC [qualifying]
+  - SOSP: Risk based planning of network changes in evolving data centers
+  - SOSP: Snap: a microkernel approach to host networking
+- 2020:
+  - OSDI: Sundial: Fault-tolerant Clock Synchronization for Datacenters
+  - SIGCOMM: 1RMA: Re-envisioning Remote Memory Access for Multi-tenant Datacenters [qualifying]
+  - SIGCOMM: Annulus: A Dual Congestion Control Loop for Datacenter and WAN Traffic Aggregates [qualifying]
+  - SIGCOMM: Swift: Delay is Simple and Effective for Congestion Control in the Datacenter [qualifying]
+- 2021:
+  - HotOS: Cores that don't count
+  - NSDI: Orion: Google's Software-Defined Networking Control Plane [qualifying]
+  - SIGCOMM: CliqueMap: productionizing an RMA-based distributed caching system [qualifying]
+  - SIGCOMM: SiP-ML: high-bandwidth optical network interconnects for machine learning training [qualifying]
+- 2022:
+  - HotNets: Understanding host interconnect congestion [qualifying]
+  - NSDI: Aquila: A unified, low-latency fabric for datacenter networks [qualifying]
+  - OSDI: Carbink: Fault-Tolerant Far Memory
+  - SIGCOMM: Aequitas: admission control for performance-critical RPCs in datacenters [qualifying]
+  - SIGCOMM: Jupiter evolving: transforming google's datacenter network via optical circuit switches and software-defined networking [qualifying]
+  - USENIX ATC: Hashing Design in Modern Networks: Challenges and Mitigation Techniques
+- 2023:
+  - ASPLOS (3): Towards an Adaptable Systems Architecture for Memory Tiering at Warehouse-Scale
+  - HCS: Exciting Directions for ML Models and the Implications for Computing Hardware
+  - HotOS: Towards Modern Development of Cloud Applications
+  - OFC: Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking
+  - SIGCOMM: Fathom: Understanding Datacenter Application Network Performance
+  - SIGCOMM: Improving Network Availability with Protective ReRoute
+  - SIGCOMM: Lightwave Fabrics: At-Scale Optical Circuit Switching for Datacenter and Machine Learning Systems
+  - USENIX ATC: Change Management in Physical Network Lifecycle Automation
+- 2024:
+  - ASPLOS (3): Societal infrastructure in the age of Artificial General Intelligence
+  - NSDI: CAPA: An Architecture For Operating Cluster Networks With High Availability
+  - NSDI: Harmony: A Congestion-free Datacenter Architecture
+  - OFC: Reconfigurable Lightwave Fabrics for ML Supercomputers
+- 2025:
+  - NSDI: Preventing Network Bottlenecks: Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage
+  - SIGCOMM: Falcon: A Reliable, Low Latency Hardware Transport
+  - SIGCOMM: Firefly: Scalable, Ultra-Accurate Clock Synchronization for Datacenters
+
+### Aditya Akella
+
+- DBLP pid: `a/AdityaAkella`
+- Counts: baseline networking `17`, total clean `71`, post-2023 clean `35`
+- Top venues: NSDI (20), SoCC (6), HotNets (5), SIGCOMM (4), EuroSys (3), ICML (3), EMNLP (3), HotCloud (2)
+- Baseline title terms: analytics (5), distributed (5), learning (5), network (5), programmable (4), multi-tenant (4), serverless (4), nic (3)
+- Post-2023 title terms: learning (5), serving (4), control (4), machine (3), learned (3), scheduling (3), dynamic (3), microservice (2)
+
+- 2018:
+  - GRADES/NDA@SIGMOD/PODS: Bridging the GAP: towards approximate graph analytics
+  - HotCloud: Monarch: Gaining Command on Geo-Distributed Graph Analytics
+  - HotNets: Your Programmable NIC Should be a Programmable Switch [qualifying]
+  - NSDI: Iron: Isolating Network-based CPU in Container Environments [qualifying]
+  - OSDI: Dynamic Query Re-Planning using QOOP
+  - SIGMETRICS (Abstracts): Synthesis of Fault-Tolerant Distributed Router Configurations
+  - SoCC: RoGUE: RDMA over Generic Unconverged Ethernet
+- 2019:
+  - APNet: On the Impact of Cluster Configuration on RoCE Application Design
+  - HotCloud: Accelerating Deep Learning Inference via Freezing
+  - NSDI: Correctness and Performance for Stateful Chained Network Functions [qualifying]
+  - NSDI: Loom: Flexible and Efficient NIC Packet Scheduling [qualifying]
+  - USENIX ATC: The Design and Operation of CloudLab
+- 2020:
+  - CoNEXT: AED: incrementally synthesizing policy-compliant and manageable configurations [qualifying]
+  - NSDI: Automated Verification of Customizable Middlebox Properties with Gravel [qualifying]
+  - NSDI: Liveness Verification of Stateful Network Functions [qualifying]
+  - NSDI: Themis: Fair and Efficient GPU Cluster Scheduling [qualifying]
+  - NSDI: Tiramisu: Fast Multilayer Network Verification [qualifying]
+  - OSDI: PANIC: A High-Performance Programmable NIC for Multi-tenant Networks
+  - PLDI: Detecting network load violations for distributed control planes
+  - SIGCOMM: 1RMA: Re-envisioning Remote Memory Access for Multi-tenant Datacenters [qualifying]
+  - SoCC: Network-accelerated distributed machine learning for multi-tenant settings
+  - SoCC: SNF: serverless network functions
+- 2021:
+  - DistributedML@CoNEXT: Doing more by doing less: how structured partial backpropagation improves deep learning clusters
+  - HotNets: A Vision for Runtime Programmable Networks [qualifying]
+  - HotNets: TCP is Harmful to In-Network Computing: Designing a Message Transport Protocol (MTP) [qualifying]
+  - NSDI: ATP: In-network Aggregation for Multi-tenant Learning [qualifying]
+  - NSDI: Running BGP in Data Centers at Scale [qualifying]
+  - NSDI: Whiz: Data-Driven Analytics Execution [qualifying]
+  - SIGCOMM: CliqueMap: productionizing an RMA-based distributed caching system [qualifying]
+  - SOSR: D2R: Policy-Compliant Fast Reroute
+  - SoCC: Atoll: A Scalable Low-Latency Serverless Platform
+- 2022:
+  - BiDEDE@SIGMOD: Think before you shuffle: data-driven shuffles for geo-distributed analytics
+  - EuroSys: Jiffy: elastic far-memory for stateful serverless analytics
+  - EuroSys: Memory deduplication for serverless computing with Medes
+  - HOTI: Impact of RoCE Congestion Control Policies on Distributed Training of DNNs
+  - HotNets: Congestion control in machine learning clusters [qualifying]
+- 2023:
+  - ASPLOS (2): Towards a Machine Learning-Assisted Kernel with LAKE
+  - ApPLIED@PODC: Invited Paper: Towards Efficient Microservice Communication
+  - ICDCN: Learned Load Balancing
+  - ICML: Lowering the Pre-training Tax for Gradient-based Subset Training: A Lightweight Distributed Pre-Training Toolkit
+  - MICRO: LogNIC: A High-Level Performance Model for SmartNICs
+  - NSDI: Better Together: Jointly Optimizing ML Collective Scheduling and Execution Planning using SYNDICATE
+  - NSDI: RingLeader: Efficiently Offloading Intra-Server Orchestration to NICs
+  - NSDI: Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
+  - SIGCOMM: Darwin: Flexible Learning-based CDN Caching
+  - SIGCOMM: Resilient Baseband Processing in Virtualized RANs with Slingshot
+  - SIGMETRICS (Abstracts): Towards Accelerating Data Intensive Application's Shuffle Process Using SmartNICs
+  - SoCC: Auxo: Efficient Federated Learning via Scalable Client Clustering
+  - ... 1 more in JSON packet
+- 2024:
+  - EMNLP: FFN-SkipLLM: A Hidden Gem for Autoregressive Decoding with Adaptive Feed Forward Skipping
+  - EMNLP: MOSEL: Inference Serving Using Dynamic Modality Selection
+  - ICNP: Balancing Sdn Control Plane Availability and Traffic Engineering Efficiency in Data Centers
+  - NSDI: CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters
+  - NeurIPS: Read-ME: Refactorizing LLMs as Router-Decoupled Mixture of Experts with System Co-Design
+- 2025:
+  - ACL (1): StitchLLM: Serving LLMs, One Block at a Time
+  - ASPLOS (1): Copper and Wire: Bridging Expressiveness and Performance for Service Mesh Policies
+  - EMNLP: Large Language Models as Realistic Microservice Trace Generators
+  - HotNets: Man-Made Heuristics Are Dead. Long Live Code Generators!
+  - HotOS: How I learned to stop worrying and love learned OS policies
+  - ICLR: CONGO: Compressive Online Gradient Optimization
+  - ICML: HALoS: Hierarchical Asynchronous Local SGD over Slow Networks for Geo-Distributed Large Language Model Training
+  - ICML: On-the-Fly Adaptive Distillation of Transformer to Dual-State Linear Attention for Long-Context LLM Serving
+  - IROS: ConfigBot: Adaptive Resource Allocation for Robot Applications in Dynamic Environments
+  - NSDI: Enabling Portable and High-Performance SmartNIC Programs with Alkali
+  - NSDI: MTP: Transport for In-Network Computing
+  - PACMI@SOSP: OQueue: Observable Communication in Learning Directed Operating Systems
+- 2026:
+  - EuroSys: Canopy: Property-Driven Learning for Congestion Control
+  - NSDI: Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta's Express Backbone Network
+  - NSDI: SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems
+  - NSDI: Towards Performance Robustness for Microservices
+  - NSDI: UNUM: A New Framework for Network Control
+
+### Minlan Yu
+
+- DBLP pid: `89/6345`
+- Counts: baseline networking `17`, total clean `58`, post-2023 clean `23`
+- Top venues: SIGCOMM (12), NSDI (11), HotNets (4), Networking (3), OSDI (3), EuroSys (2), SIGMOD Conference (2), SOSR (2)
+- Baseline title terms: network (6), routing (5), diagnosis (4), data (4), ddos (3), functions (3), switch (3), programmable (3)
+- Post-2023 title terms: accelerating (5), distributed (5), llm (4), ebpf (3), network (3), training (3), intent-driven (2), homomorphic (2)
+
+- 2018:
+  - ACSAC: SENSS Against Volumetric DDoS Attacks
+  - EuroSys: Wide-area analytics with multiple resources
+  - HotNets: Decoupling Algorithms and Optimizations in Network Functions [qualifying]
+  - SEC: VideoEdge: Processing Camera Streams using Hierarchical Clusters
+  - SIGMOD Conference: Cold Filter: A Meta-Framework for Faster and More Accurate Stream Processing
+  - SOSR: A Comparison of Performance and Accuracy of Measurement Algorithms in Software
+- 2019:
+  - NSDI: DETER: Deterministic TCP Replay for Performance Diagnosis [qualifying]
+  - SIGCOMM: HPCC: high precision congestion control [qualifying]
+  - SIGCOMM Posters and Demos: Cheetah: Accelerating Database Queries with Switch Pruning
+  - SIGCOMM Posters and Demos: DeepDiag: Detailed NFV Performance Diagnosis
+  - SOSP: Risk based planning of network changes in evolving data centers
+  - SOSR: Enabling Policy Innovation in Interdomain Routing: A Software-Defined Approach
+- 2020:
+  - CoNEXT: Detecting routing loops in the data plane [qualifying]
+  - HotNets: Challenging the Stateless Quo of Programmable Switches [qualifying]
+  - Internet Measurement Conference: Quantifying the Impact of Blocklisting in the Age of Address Reuse
+  - NDSS: BLAG: Improving the Accuracy of Blacklists
+  - Networking: Enabling Premium Service for Streaming Video in Cellular Networks
+  - Networking: Poster: CO2: Collaborative Packet Classification for Network Functions with Overselection
+  - Networking: Routing Oblivious Measurement Analytics
+  - OSDI: Sundial: Fault-tolerant Clock Synchronization for Datacenters
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+  - SIGCOMM: Microscope: Queue-based Performance Diagnosis for Network Functions [qualifying]
+  - SIGCOMM: PINT: Probabilistic In-band Network Telemetry [qualifying]
+  - SIGCOMM: Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing [qualifying]
+  - ... 1 more in JSON packet
+- 2021:
+  - HotNets: Zero-CPU Collection with Direct Telemetry Access [qualifying]
+  - SIGCOMM: A throughput-centric view of the performance of datacenter topologies [qualifying]
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+  - USENIX Security Symposium: Jaqen: A High-Performance Switch-Native Approach for Detecting and Mitigating Volumetric DDoS Attacks with Programmable Switches
+- 2022:
+  - CoNEXT: Xatu: boosting existing DDoS detection systems using auxiliary signals [qualifying]
+  - INFOCOM: Optimal Oblivious Routing for Structured Networks
+  - NSDI: Evolvable Network Telemetry at Facebook [qualifying]
+  - OSDI: Carbink: Fault-Tolerant Far Memory
+  - SIGCOMM: SwitchV: automated SDN switch validation with P4 models [qualifying]
+  - USENIX ATC: Hashing Design in Modern Networks: Challenges and Mitigation Techniques
+- 2023:
+  - MetaCom: Challenges in Metaverse Research: An Internet of Things Perspective
+  - NSDI: Electrode: Accelerating Distributed Protocols with eBPF
+  - NSDI: Practical Intent-driven Routing Configuration Synthesis
+  - NSDI: Rearchitecting the TCP Stack for I/O-Offloaded Content Delivery
+  - NSDI: Scalable Distributed Massive MIMO Baseband Processing
+  - SIGCOMM: Direct Telemetry Access
+  - SIGCOMM: Teal: Learning-Accelerated Optimization of WAN Traffic Engineering
+- 2024:
+  - EuroSys: SmartNIC Security Isolation in the Cloud with S-NIC
+  - ICDE: BitMatcher: Bit-level Counter Adjustment for Sketches
+  - NSDI: DINT: Fast In-Kernel Distributed Transactions with eBPF
+  - NSDI: THC: Accelerating Distributed Deep Learning Using Tensor Homomorphic Compression
+- 2025:
+  - ASPLOS (2): OctoCache: Caching Voxels for Accelerating 3D Occupancy Mapping in Autonomous Systems
+  - HotNets: Your network doesn't end at the NIC: A case for unifying the inter-host and intra-host networks in (AI) datacenters
+  - ICLR: Don't stop me Now: Embedding based Scheduling for LLMS
+  - MLSys: NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
+  - NSDI: Minder: Faulty Machine Detection for Large-scale Distributed Model Training
+  - NSDI: Preventing Network Bottlenecks: Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage
+  - NSDI: eTran: Extensible Kernel Transport with eBPF
+  - OSDI: Decouple and Decompose: Scaling Resource Allocation with DeDe
+  - SIGCOMM: HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference
+  - SIGCOMM: Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework
+  - SOSP: Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training
+  - USENIX ATC: Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
+
+### Ethan Katz-Bassett
+
+- DBLP pid: `66/2080`
+- Counts: baseline networking `17`, total clean `44`, post-2023 clean `14`
+- Top venues: Internet Measurement Conference (7), IMC (7), SIGCOMM (6), HotNets (5), SIGMETRICS (Abstracts) (3), SIGCOMM Posters and Demos (2), ANRW (1), NSDI (1)
+- Baseline title terms: internet (7), cloud (5), bgp (4), rpki (3), routing (3), measuring (2), route (2), validation (2)
+- Post-2023 title terms: internet (3), dataset (3), traffic (2), routing (2), enterprise (2), networks (2), network (2), verification (2)
+
+- 2018:
+  - ANRW: Towards a Rigorous Methodology for Measuring Adoption of RPKI Route Validation and Filtering
+  - Internet Measurement Conference: Understanding Video Management Planes
+  - NSDI: Odin: Microsoft's Scalable Fault-Tolerant CDN Measurement System [qualifying]
+  - SIGCOMM: Oboe: auto-tuning video ABR algorithms to network conditions [qualifying]
+  - SIGCOMM Posters and Demos: Controlling Real Cloud Experiments from BGP to the Server (and Back)
+  - SIGCOMM Posters and Demos: High-Fidelity Interdomain Routing Experiments
+- 2019:
+  - CoNEXT: PEERING: virtualizing BGP at the edge for research [qualifying]
+  - CoNEXT Companion: Tracking Down Sources of Spoofed IP Packets
+  - HotNets: Beating BGP is Harder than we Thought [qualifying]
+  - Internet Measurement Conference: Internet Performance from Facebook's Edge
+  - MMSys: Requet: real-time QoE detection for encrypted YouTube traffic
+- 2020:
+  - HotNets: On the Future of Congestion Control for the Public Internet [qualifying]
+  - INFOCOM: (How Much) Does a Private WAN Improve Cloud Performance?
+  - Internet Measurement Conference: Cloud Provider Connectivity in the Flat Internet
+  - Internet Measurement Conference: Reduce, Reuse, Recycle: Repurposing Existing Measurements to Identify Stale Traceroutes
+  - NDSS: DISCO: Sidestepping RPKI's Deployment Barriers
+  - Networking: Tracking Down Sources of Spoofed IP Packets
+- 2021:
+  - FAST: Facebook's Tectonic Filesystem: Efficiency from Exascale
+  - HotNets: Towards a traffic map of the Internet Connecting the dots between popular services and users: Connecting the dots between popular services and users [qualifying]
+  - HotOS: Don't be a blockhead: zoned namespaces make work on conventional SSDs obsolete
+  - Internet Measurement Conference: Corrigendum: cloud provider connectivity in the flat internet
+  - Internet Measurement Conference: Measuring the network performance of Google cloud platform
+  - Internet Measurement Conference: Towards identifying networks with internet clients using public data
+  - SIGCOMM: Anycast In context: a tale of two systems [qualifying]
+  - SIGCOMM: Seven years in the life of Hypergiants' off-nets [qualifying]
+  - TAURIN@SIGCOMM: On the Deployment of Default Routes in Inter-domain Routing
+  - TMA: Revisiting RPKI Route Origin Validation on the Data Plane
+- 2022:
+  - IMC: Internet scale reverse traceroute [qualifying]
+  - IMC: The best of both worlds: high availability CDN routing without compromising control [qualifying]
+  - SIGMETRICS (Abstracts): Automatic Inference of BGP Location Communities
+- 2023:
+  - HotNets: The Central Problem with Distributed Content: Common CDN Deployments Centralize Traffic In A Risky Way
+  - SIGCOMM: PAINTER: Ingress Traffic Engineering and Routing for Enterprise Cloud Networks
+- 2024:
+  - HotNets: Toward Applying Quantum Computing to Network Verification
+  - IMC: RPSLyzer: Characterization and Verification of Policies in Internet Routing Registries
+  - IMC: What's in the Dataset? Unboxing the APNIC per AS User Population Dataset
+  - IMC: metAScritic: Reframing AS-Level Topology Discovery as a Recommendation System
+  - SIGCOMM: An Architecture For Edge Networking Services
+  - SIGCOMM: Principles for Internet Congestion Management
+- 2025:
+  - IMC: Do Spammers Dream of Electric Sheep? Characterizing the Prevalence of LLM-Generated Malicious Emails
+  - IMC: Poster: Collection and Sharing of A Residential Dataset
+  - PAM: Characterizing the Networks Sending Enterprise Phishing Emails
+  - SIGMETRICS (Abstracts): Internet Service Usage and Delivery As Seen From a Residential Network
+  - SIGMETRICS (Abstracts): Uncovering BGP Action Communities and Community Squatters in the Wild
+- 2026:
+  - EuroSys: Avicenna: Masking Slowdowns in Replicated State Machines with Counterfactual Evaluation
+
+### Srinivasan Seshan
+
+- DBLP pid: `s/SrinivasanSeshan`
+- Counts: baseline networking `16`, total clean `37`, post-2023 clean `17`
+- Top venues: NSDI (8), SIGCOMM (7), HotNets (5), ISMAR (2), NINeS (2), CoNEXT (1), Internet Measurement Conference (1), SEC (1)
+- Baseline title terms: data (3), congestion (3), control (3), networks (3), algorithms (2), virtual (2), video (2), live (2)
+- Post-2023 title terms: congestion (5), control (4), federated (3), rendering (2), provably (2), fairness (2), meshreduce (2), scene (2)
+
+- 2018:
+  - HotNets: Generic External Memory for Switch Data Planes [qualifying]
+  - SIGCOMM: Hyperloop: group-based NIC-offloading to accelerate replicated transactions in multi-tenant storage systems [qualifying]
+- 2019:
+  - CoNEXT: UNARI: an <u>un</u>certainty-aware approach to <u>a</u>s <u>r</u>elationships <u>i</u>nference [qualifying]
+  - HotNets: Beyond Jain's Fairness Index: Setting the Bar For The Deployment of Congestion Control Algorithms [qualifying]
+  - Internet Measurement Conference: Modeling BBR's Interactions with Loss-Based Congestion Control
+  - NSDI: FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds [qualifying]
+  - SEC: Sandpaper: mitigating performance interference in CDN edge proxies
+  - SIGCOMM: Vantage: optimizing video upload for time-shifted viewing of social live streams [qualifying]
+- 2020:
+  - IoTDI: Learning Context-Aware Policies from Multiple Smart Homes via Federated Multi-Task Learning
+  - NSDI: Adapting TCP for Reconfigurable Datacenter Networks [qualifying]
+  - SIGCOMM: TEA: Enabling State-Intensive Network Functions on Programmable Switches [qualifying]
+- 2021:
+  - HotNets: Redesigning Data Centers for Renewable Energy [qualifying]
+  - NetSoft: Sketchy With a Chance of Adoption: Can Sketch-Based Telemetry Be Ready for Prime Time?
+  - SIGCOMM: RedPlane: enabling fault-tolerant stateful in-switch applications [qualifying]
+- 2022:
+  - ACM Multimedia: Prism: Handling Packet Loss for Ultra-low Latency Video
+  - HotNets: Automating network heuristic design and analysis [qualifying]
+  - HotNets: CC-fuzz: genetic algorithm-based fuzzing for stress testing congestion control algorithms [qualifying]
+  - NSDI: HeteroSketch: Coordinating Network-wide Monitoring in Heterogeneous and Dynamic Networks [qualifying]
+  - SIGCOMM: Time-division TCP for reconfigurable data center networks [qualifying]
+  - SenSys: Live 3D Scene Capture for Virtual Teleportation
+- 2023:
+  - ISMAR: RenderFusion: Balancing Local and Remote Rendering for Interactive 3D Scenes
+  - NSDI: ExoPlane: An Operating System for On-Rack Switch Resource Augmentation
+  - NSDI: Unlocking unallocated cloud capacity for long, uninterruptible workloads
+- 2024:
+  - IMC: Understanding Incast Bursts in Modern Datacenters
+  - NSDI: Precise Data Center Traffic Engineering with Constrained Hardware Resources
+  - NSDI: Towards provably performant congestion control
+  - SIGCOMM: CCAnalyzer: An Efficient and Nearly-Passive Congestion Control Classifier
+  - SIGCOMM: Prudentia: Findings of an Internet Fairness Watchdog
+  - VR: MeshReduce: Scalable and Bandwidth Efficient 3D Scene Capture
+  - VR Workshops: MeshReduce: Split Rendering of Live 3D Scene for Virtual Teleportation
+- 2025:
+  - HotOS: Uniting the World by Dividing it: Federated Maps to Enable Spatial Applications
+  - ISMAR: OpenFLAME: Federated Visual Positioning System to Enable Large-Scale Augmented Reality Applications
+  - ISMAR-Adjunct: Reconstructing Reality over Time: From Drone Capture to Timelapse Gaussian Splatting
+- 2026:
+  - MMSys: NILO: Nested Iterative Optimization for Video Bitrate Ladder Construction
+  - NINeS: Contracts: A Unified Lens on Congestion Control Robustness, Fairness, Congestion, and Generality
+  - NINeS: OpenFLAME: A Federated Spatial Naming Infrastructure
+  - NSDI: FRCC: Towards Provably Fair and Robust Congestion Control
+
+### Sylvia Ratnasamy
+
+- DBLP pid: `68/5579`
+- Counts: baseline networking `15`, total clean `44`, post-2023 clean `23`
+- Top venues: HotNets (12), NSDI (9), SIGCOMM (7), HotOS (3), NINeS (2), NEAT@SIGCOMM (1), EuroSys (1), HotEdge (1)
+- Baseline title terms: network (4), control (3), internet (3), access (3), open (2), edge (2), functions (2), cloud (2)
+- Post-2023 title terms: case (4), cellular (4), data (3), networks (3), hardware (2), software (2), cloud (2), architecture (2)
+
+- 2018:
+  - NEAT@SIGCOMM: Open Carrier Interface: An Open Source Edge Computing Framework
+  - NSDI: Elastic Scaling of Stateful Network Functions [qualifying]
+  - NSDI: ResQ: Enabling SLOs in Network Function Virtualization [qualifying]
+  - NSDI: SafeBricks: Shielding Network Functions in the Cloud [qualifying]
+  - SIGCOMM: AWStream: adaptive wide-area streaming analytics [qualifying]
+  - SIGCOMM: Revisiting network support for RDMA [qualifying]
+- 2020:
+  - EuroSys: Can far memory improve job throughput?
+  - HotEdge: Fast and Efficient Container Startup at the Edge via Dependency Scheduling
+  - HotNets: On the Future of Congestion Control for the Public Internet [qualifying]
+  - HotNets: Remote Memory Calls [qualifying]
+  - NSDI: TimeCrypt: Encrypted Data Stream Processing at Scale with Cryptographic Access Control [qualifying]
+  - SIGCOMM: A Public Option for the Core [qualifying]
+  - USENIX Security Symposium: Droplet: Decentralized Authorization and Access Control for Encrypted Data Streams
+- 2021:
+  - HotOS: Rethinking networking abstractions for cloud tenants
+  - NSDI: On the Use of ML for Blackbox System Performance Prediction [qualifying]
+  - SIGCOMM: Democratizing cellular access with CellBricks [qualifying]
+  - SOSP: dSpace: Composable Abstractions for Smart Spaces
+- 2022:
+  - HotNets: Global content revocation on the internet: a case study in technology ecosystem transformation [qualifying]
+  - HotNets: The internet of things in a laptop: rapid prototyping for IoT applications with digibox [qualifying]
+  - HotNets: Understanding host interconnect congestion [qualifying]
+  - NSDI: Efficient Scheduling Policies for Microsecond-Scale Tasks [qualifying]
+- 2023:
+  - CIDR: Zed: Leveraging Data Types to Process Eclectic Data
+  - HotOS: Out of Hand for Hardware? Within Reach for Software!
+  - HotOS: The Case for Performance Interfaces for Hardware Accelerators
+  - NSDI: Invisinets: Removing Networking from Cloud Networks
+  - NSDI: LOCA: A Location-Oblivious Cellular Architecture
+- 2024:
+  - ASPLOS (2): Efficient Microsecond-scale Blind Scheduling with Tiny Quanta
+  - HotNets: The Case for Validating Inputs in Software-Defined WANs
+  - HotNets: Toward Data-Centric Service Composition
+  - LEO-NET: A Survey on Direct-to-Device Satellite Communications: Advances, Challenges, and Prospects
+  - OSDI: Harvesting Memory-bound CPU Stall Cycles in Software with MSH
+  - SIGCOMM: A Decentralized SDN Architecture for the WAN
+- 2025:
+  - APNet: Exposing RDMA NIC Resources for Software-Defined Scheduling
+  - HotMobile: Make Way for Ducklings: Centering Data Files in Sensor Networks
+  - HotNets: A Case for Learned Cloud Emulators
+  - HotNets: A Modern Edge-based Design for Cellular Roaming
+  - HotNets: Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide
+  - HotNets: The Case for Crowd-Sourcing Communication to BLE-Only Devices
+  - HotNets: Towards Accessible Model-Free Verification
+  - SIGCOMM: Making Cellular Networks More Efficient By Roaming-in-Place
+  - SIGCOMM: RANBooster: Democratizing advanced cellular connectivity through fronthaul middleboxes
+- 2026:
+  - NINeS: No Signal to Rule Them All: A Systematic Analysis of In-Network Congestion Signals
+  - NINeS: TURBO: Utility-Aware Bandwidth Allocation for Cloud-Augmented Autonomous Control
+  - NSDI: CrossCheck: Input Validation for WAN Control Systems
+
+### Georgios Smaragdakis
+
+- DBLP pid: `88/6355`
+- Counts: baseline networking `14`, total clean `55`, post-2023 clean `32`
+- Top venues: IMC (10), Internet Measurement Conference (8), CoNEXT (3), ANRW (2), CCS (2), NDSS (2), TMA (2), EuroS&P (2)
+- Baseline title terms: scale (5), distributed (4), bgp (3), communities (3), traffic (3), iot (3), mitigation (2), routing (2)
+- Post-2023 title terms: attacks (5), data (3), syn (3), state (3), digital (3), information (2), how (2), network (2)
+
+- 2018:
+  - CoNEXT: Stellar: network attack mitigation using advanced blackholing [qualifying]
+  - Internet Measurement Conference: BGP Communities: Even more Worms in the Routing Can
+  - Internet Measurement Conference: Tracing Cross Border Web Tracking
+  - SIGCOMM Posters and Demos: Flowtree: Enabling Distributed Flow Summarization at Scale
+- 2019:
+  - CoNEXT: Steering hyper-giants' traffic at scale [qualifying]
+  - ICDCS: Distributed Mega-Datasets: The Need for Novel Computing Primitives
+- 2020:
+  - CoNEXT: Keep your communities clean: exploring the routing message impact of BGP communities [qualifying]
+  - EdgeSys@EuroSys: Edge replication strategies for wide-area distributed processing
+  - Internet Measurement Conference: A Haystack Full of Needles: Scalable Detection of IoT Devices in the Wild
+  - Internet Measurement Conference: Identifying Sensitive URLs atWeb-Scale
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+  - Internet Measurement Conference: Who's left behind?: Measuring Adoption of Application Updates at Scale
+- 2021:
+  - ANCS: No-hop: In-network Distributed Hash Tables
+  - ANRW: Detecting consumer IoT devices through the lens of an ISP
+  - CCS: United We Stand: Collaborative Detection and Mitigation of Amplification DDoS Attacks at Scale
+  - HotNets: Towards a traffic map of the Internet Connecting the dots between popular services and users: Connecting the dots between popular services and users [qualifying]
+  - INFOCOM: Fix with P6: Verifying Programmable Switches at Runtime
+  - Internet Measurement Conference: AS-level BGP community usage classification
+  - Internet Measurement Conference: Third time's not a charm: exploiting SNMPv3 for router fingerprinting
+  - SIGCOMM: Seven years in the life of Hypergiants' off-nets [qualifying]
+  - StudentWorkshop@CoNEXT: Large scale outage visibility on the control plane
+- 2022:
+  - IMC: Deep dive into the IoT backend ecosystem [qualifying]
+  - WebSci: Measuring Web Cookies in Governmental Websites
+- 2023:
+  - ANRW: Enabling Multi-hop ISP-Hypergiant Collaboration
+  - ESORICS (2): Fingerprinting of Cellular Infrastructure Based on Broadcast Information
+  - EuroP4@CoNEXT: Per Priority Data Rate Measurement in Data Plane
+  - IMC: Fifteen Months in the Life of a Honeyfarm
+  - IMC: How to Operate a Meta-Telescope in your Spare Time
+  - IMC: Illuminating Router Vendor Diversity Within Providers and Along Network Paths
+  - IMC: Pushing Alias Resolution to the Limit
+  - NDSS: Securing Federated Sensitive Topic Classification against Poisoning Attacks
+  - TMA: Longitudinal Analysis of Inter-City Network Delays
+- 2024:
+  - CCS: Characterizing and Mitigating Phishing Attacks at ccTLD Scale
+  - ICWSM: Reviewing War: Unconventional User Reviews as a Side Channel to Circumvent Information Controls
+  - IMC: Have you SYN me? Characterizing Ten Years of Internet Scanning
+  - IMC: Poster: The State of Malware Loaders
+  - SAC: Disjunctive Multi-Level Digital Forgetting Scheme
+  - SIGMETRICS/Performance (Abstracts): Deep Dive into NTP Pool's Popularity and Mapping
+  - TMA: How Russia's Invasion of Ukraine Impacted the Internet Peering of the Conflicted Countries
+- 2025:
+  - CHIWORK (Adjunct): Can't LLMs do that? Supporting Third-Party Audits under the DSA: Exploring Large Language Models for Systemic Risk Evaluation of the Digital Services Act in an Interdisciplinary Setting
+  - CODASPY: Coding Malware in Fancy Programming Languages for Fun and Profit
+  - EuroS&P: All that Glitters is not Gold: Uncovering Exposed Industrial Control Systems and Honeypots in the Wild
+  - EuroS&P: Endless Subscriptions: Open RAN is Open to RIC E2 Subscription Denial of Service Attacks
+  - EuroSec: Provable Co-Owned Data Deletion with Zero-Residuals and Verifiability in Multi-Cloud Environment
+  - ICBC: Bitcoin Battle: Burning Bitcoin for Geopolitical Fun and Profit
+  - IMC: Attacks Come to Those Who Wait: Long-Term Observations in an SSH Honeynet
+  - IMC: Decoy Databases: Analyzing Attacks on Public Facing Databases
+  - IMC: Have you SYN What I See? Analyzing TCP SYN Payloads in the Wild
+  - Middleware: Clair Obscur: The Light and Shadow of System Call Interposition - From Pitfalls to Solutions with K23
+  - NDSS: LADDER: Multi-Objective Backdoor Attack via Evolutionary Algorithm
+  - RAID: Revealing Informed Scanners by Colocating Reactive and Passive Telescopes
+  - ... 3 more in JSON packet
+- 2026:
+  - EuroSec: The Last of the Apaches: Investigating the State of Internet-facing End-of-Life Software: Investigating the State of Internet-facing End-of-Life Software
+
+### Anja Feldmann
+
+- DBLP pid: `f/AnjaFeldmann`
+- Counts: baseline networking `14`, total clean `55`, post-2023 clean `24`
+- Top venues: Internet Measurement Conference (7), PAM (7), IMC (7), CoNEXT (5), ANRW (4), TMA (3), ICWSM (2), EPIQ@CoNEXT (1)
+- Baseline title terms: network (4), scale (4), web (4), access (3), selection (3), streaming (3), distributed (3), data (3)
+- Post-2023 title terms: internet (3), measuring (3), tree (3), how (2), dns (2), bgp (2), telegram (2), bbrv3 (2)
+
+- 2018:
+  - ANRW: Metrics for access network selection
+  - CoNEXT: Stellar: network attack mitigation using advanced blackholing [qualifying]
+  - EPIQ@CoNEXT: The QUIC Fix for Optimal Video Streaming
+  - Internet Measurement Conference: BGP Communities: Even more Worms in the Routing Can
+  - PAM: In rDNS We Trust: Revisiting a Common Data-Source's Reliability
+  - SIGCOMM Posters and Demos: Flowtree: Enabling Distributed Flow Summarization at Scale
+  - SOSR: Taking Control of SDN-based Cloud Systems via the Data Plane
+- 2019:
+  - BS: P4-enabled Network-assisted Congestion Feedback: A Case for NACKs
+  - CNSM: Informed Access Network Selection: The Benefits of Socket Intents for Web Performance
+  - CoNEXT: Steering hyper-giants' traffic at scale [qualifying]
+  - ICDCS: Distributed Mega-Datasets: The Need for Novel Computing Primitives
+  - PAM: Web Performance Pitfalls
+- 2020:
+  - CoNEXT: When wells run dry: the 2020 IPv4 address market [qualifying]
+  - EdgeSys@EuroSys: Edge replication strategies for wide-area distributed processing
+  - Internet Measurement Conference: A Haystack Full of Needles: Scalable Detection of IoT Devices in the Wild
+  - Internet Measurement Conference: AS-Path Prepending: there is no rose without a thorn
+  - Internet Measurement Conference: Demystifying the Messaging Platforms' Ecosystem Through the Lens of Twitter
+  - Internet Measurement Conference: On Landing and Internal Web Pages: The Strange Case of Jekyll and Hyde in Web Performance Measurement
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+  - MMSys: Using informed access network selection to improve HTTP adaptive streaming performance
+- 2021:
+  - ANRW: Detecting consumer IoT devices through the lens of an ISP
+  - CCS: United We Stand: Collaborative Detection and Mitigation of Amplification DDoS Attacks at Scale
+  - CoNEXT: VOXEL: cross-layer optimization for video streaming with imperfect transmission [qualifying]
+  - INFOCOM: Fix with P6: Verifying Programmable Switches at Runtime
+  - Internet Measurement Conference: How biased is our validation (data) for AS relationships?
+  - PAM: Zeroing in on Port 0 Traffic in the Wild
+- 2022:
+  - CoNEXT: FlowDNS: correlating netflow and DNS streams at scale [qualifying]
+  - EuroS&P Workshops: SRv6: Is There Anybody Out There?
+  - FIRA@SIGCOMM: P4IX: a concept for P4 programmable data planes at IXPs
+  - IMC: Deep dive into the IoT backend ecosystem [qualifying]
+  - PAM: Peering Only? Analyzing the Reachability Benefits of Joining Large IXPs Today
+- 2023:
+  - ANRW: Enabling Multi-hop ISP-Hypergiant Collaboration
+  - IMC: Fifteen Months in the Life of a Honeyfarm
+  - IMC: How to Operate a Meta-Telescope in your Spare Time
+  - PAM: How Ready is DNS for an IPv6-Only World?
+  - TMA: Live Long and Prosper: Analyzing Long-Lived MOAS Prefixes in BGP
+  - WebSci: On the Globalization of the QAnon Conspiracy Theory Through Telegram
+- 2024:
+  - ANRW: BBRv3 in the public Internet: a boon or a bane?
+  - ICWSM: Characterizing Information Propagation in Fringe Communities on Telegram
+  - ICWSM: Strategies and Attacks of Digital Militias in WhatsApp Political Groups
+  - IMC: Poster: The State of Malware Loaders
+  - IMC: The Roots Go Deep: Measuring '.' Under Change
+  - NOMS: Peaking Beyond the Best Route: An Extensive Dataset for Looking Glasses
+  - PAM (2): Promises and Potential of BBRv3
+- 2025:
+  - EuroS&P: Can You Hear Me? A First Study of VoIP Censorship Techniques in Saudi Arabia and the UAE
+  - IMC: Attacks Come to Those Who Wait: Long-Term Observations in an SSH Honeynet
+  - IMC: Measuring the deployment of DNSSEC Bootstrapping Using Authenticated Signals
+  - NGNO@MM: BGP AS Paths: Shorter Is Not Always Better
+  - PAM: A First Look at Cookies Having Independent Partitioned State
+  - PAM: A Tree in a Tree: Measuring Biases of Partial DNS Tree Exploration
+  - TMA: Catching Wind in a Net: The Effects of the CrowdStrike Outage on Internet Traffic
+  - TMA: RPKI Syncing: Delay in Relying Party Synchronization
+  - USENIX Security Symposium: Catch-22: Uncovering Compromised Hosts using SSH Public Keys
+- 2026:
+  - AsiaCCS: "Nobody should control the end user": Exploring Privacy Perspectives of Indian Internet Users in Light of DPDPA
+  - NDSS: There is No War in Ba Sing Se: A Global Analysis of Content Moderation in Large Language Models
+
+### Ion Stoica
+
+- DBLP pid: `s/IonStoica`
+- Counts: baseline networking `13`, total clean `156`, post-2023 clean `73`
+- Top venues: ICML (25), NSDI (17), OSDI (11), NeurIPS (10), ICLR (9), MLSys (9), EuroSys (7), SoCC (5)
+- Baseline title terms: learning (22), distributed (17), analytics (10), reinforcement (8), deep (8), graph (6), networks (5), serverless (5)
+- Post-2023 title terms: llm (13), inference (10), language (10), models (10), serving (10), learning (6), cloud (6), optimizing (6)
+
+- 2018:
+  - GRADES/NDA@SIGMOD/PODS: Bridging the GAP: towards approximate graph analytics
+  - HotCloud: Monarch: Gaining Command on Geo-Distributed Graph Analytics
+  - HotCloud: Towards Fast and Scalable Graph Pattern Mining
+  - ICLR (Poster): Parametrized Hierarchical Procedures for Neural Programming
+  - ICML: RLlib: Abstractions for Distributed Reinforcement Learning
+  - MobiCom: Mitigating the Latency-Accuracy Trade-off in Mobile Data Analytics Systems
+  - NSDI: NetChain: Scale-Free Sub-RTT Coordination [qualifying]
+  - OSDI: ASAP: Fast, Approximate Graph Pattern Mining at Scale
+  - OSDI: Ray: A Distributed Framework for Emerging AI Applications
+  - SIGCOMM: Chameleon: scalable adaptation of video analytics [qualifying]
+  - SIGMOD Conference: Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark
+  - USENIX Security Symposium: DIZK: A Distributed Zero Knowledge Proof System
+- 2019:
+  - CASE: Multi-Task Hierarchical Imitation Learning for Home Automation
+  - FAST: DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching
+  - FCCM: AutoPhase: Compiler Phase-Ordering for HLS with Deep Reinforcement Learning
+  - ICML: Population Based Augmentation: Efficient Learning of Augmentation Policy Schedules
+  - IEEE Symposium on Security and Privacy: Helen: Maliciously Secure Coopetitive Learning for Linear Models
+  - NSDI: Confluo: Distributed Monitoring and Diagnosis Stack for High-speed Networks [qualifying]
+  - NSDI: Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure [qualifying]
+  - NetAI@SIGCOMM: Contextual Multi-Armed Bandits for Link Adaptation in Cellular Networks
+  - NeurIPS: Communication-efficient Distributed SGD with Sketching
+  - SIGCOMM: Neural packet classification [qualifying]
+  - SOSP: Lineage stash: fault tolerance off the critical path
+  - SoCC: HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline
+  - ... 1 more in JSON packet
+- 2020:
+  - ACSSC: Robust Class Parallelism - Error Resilient Parallel Inference with Low Communication Cost
+  - CGO: NeuroVectorizer: end-to-end vectorization with deep reinforcement learning
+  - EuroSys: Oblivious coopetitive analytics using hardware enclaves
+  - HotCloud: Systems and ML at RISELab
+  - ICLR: IMPACT: Importance Weighted Asynchronous Architectures with Clipped Target Networks
+  - ICML: FetchSGD: Communication-Efficient Federated Learning with Sketching
+  - ICML: Variable Skipping for Autoregressive Range Density Estimation
+  - ICRA: Dex-Net AR: Distributed Deep Grasp Planning Using a Commodity Cellphone and Augmented Reality App
+  - ICRA: Fog Robotics Algorithms for Distributed Motion Planning Using Lambda Serverless Computing
+  - MLSys: AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning
+  - MLSys: Blink: Fast and Generic Collectives for Distributed ML
+  - MLSys: Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization
+  - ... 7 more in JSON packet
+- 2021:
+  - DAC: Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration
+  - EMNLP (1): Contrastive Code Representation Learning
+  - EMNLP (Findings): Grounded Graph Decoding improves Compositional Generalization in Question Answering
+  - EuroSys: RubberBand: cloud-based hyperparameter tuning
+  - HotOS: From cloud computing to sky computing
+  - HotOS: In reference to RPC: it's time to add distributed memory
+  - ICML: ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training
+  - ICML: Resource Allocation in Multi-armed Bandit Exploration: Overcoming Sublinear Scaling with Adaptive Parallelism
+  - ICML: TeraPipe: Token-Level Pipeline Parallelism for Training Large-Scale Language Models
+  - ICRA: Pylot: A Modular Platform for Exploring Latency-Accuracy Tradeoffs in Autonomous Vehicles
+  - KDD: Simple and Automatic Distributed Machine Learning on Ray
+  - MLSys: Wavelet: Efficient DNN Training with Tick-Tock Scheduling
+  - ... 13 more in JSON packet
+- 2022:
+  - AAAI: Programmatic Modeling and Generation of Real-Time Strategic Soccer Environments for Reinforcement Learning
+  - AISTATS: Learning Competitive Equilibria in Exchange Economies with Bandit Feedback
+  - DATE: Learning to Design Accurate Deep Learning Accelerators with Inaccurate Multipliers
+  - ECCV (38): Context-Aware Streaming Perception in Dynamic Environments
+  - EuroSys: D3: a dynamic deadline-driven approach for building autonomous vehicles
+  - EuroSys: Jiffy: elastic far-memory for stateful serverless analytics
+  - HotNets: The internet of things in a laptop: rapid prototyping for IoT applications with digibox [qualifying]
+  - ICML: POET: Training Neural Networks on Tiny Devices with Integrated Rematerialization and Paging
+  - NSDI: Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers [qualifying]
+  - NSDI: NetHint: White-Box Networking for Multi-Tenant Data Centers [qualifying]
+  - OSDI: Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
+  - SIGMOD Conference: Balsa: Learning a Query Optimizer Without Expert Demonstrations
+  - ... 2 more in JSON packet
+- 2023:
+  - CIDR: Analyzing and Comparing Lakehouse Storage Systems
+  - CIDR: Raising the Level of Abstraction for Time-State Analytics With the Timeline Framework
+  - ICML: CLUTR: Curriculum Learning via Unsupervised Task Representation Learning
+  - ICML: FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU
+  - ICRA: FogROS2: An Adaptive Platform for Cloud and Fog Robotics Using ROS 2
+  - IROS: Leveraging Cloud Computing to Make Autonomous Vehicles Safer
+  - MLSys: On Optimizing the Communication of Model Parallelism
+  - NSDI: SHEPHERD: Serving DNNs in the Wild
+  - NSDI: SkyPilot: An Intercloud Broker for Sky Computing
+  - NSDI: Skyplane: Optimizing Transfer Cost and Throughput Using Cloud-Aware Overlays
+  - NeurIPS: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+  - OSDI: AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving
+  - ... 5 more in JSON packet
+- 2024:
+  - EuroSys: ZKML: An Optimizing System for ML Inference in Zero-Knowledge Proofs
+  - HotNets: Revisiting Cache Freshness for Emerging Real-Time Applications
+  - ICLR: LLM-Assisted Code Cleaning For Training Accurate Code Generators
+  - ICLR: LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset
+  - ICML: Break the Sequential Dependency of LLM Inference Using Lookahead Decoding
+  - ICML: Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference
+  - ICML: MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving
+  - ICML: Online Speculative Decoding
+  - ICML: R2E: Turning any Github Repository into a Programming Agent Environment
+  - ICML: Trustless Audits without Revealing Data or Models
+  - IROS: FogROS2-FT: Fault Tolerant Cloud Robotics
+  - MLSys: SLoRA: Scalable Serving of Thousands of LoRA Adapters
+  - ... 10 more in JSON packet
+- 2025:
+  - ASPLOS (1): MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs
+  - CVPR: VisionArena: 230k Real World User-VLM Conversations with Preference Labels
+  - EMNLP (Findings): Language Models Can Easily Learn to Reason from Demonstrations
+  - EMNLP (Findings): S*: Test Time Scaling for Code Generation
+  - EuroSys: SkyServe: Serving AI Models across Regions and Clouds with Spot Instances
+  - HotNets: Lost in Translation: The Search for Meaning in Network-Attached AI Accelerator Disaggregation
+  - HotNets: Rethinking the Cost of Distributed Caches for Datacenter Services
+  - ICLR: A Statistical Framework for Ranking LLM-based Chatbots
+  - ICLR: GameArena: Evaluating LLM Reasoning through Live Computer Games
+  - ICLR: How to Evaluate Reward Models for RLHF
+  - ICLR: JudgeBench: A Benchmark for Evaluating LLM-Based Judges
+  - ICLR: LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code
+  - ... 15 more in JSON packet
+- 2026:
+  - ASPLOS (2): BlendServe: Optimizing Offline Inference with Resource-Aware Batching
+  - ASPLOS (2): Title: An AI Stack: From Scaling AI Workloads to Evaluating LLMs
+  - CIDR: Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First
+  - EuroSys: SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference
+  - NINeS: TURBO: Utility-Aware Bandwidth Allocation for Cloud-Augmented Autonomous Control
+  - NSDI: Agentix: An Efficient Serving Engine for LLM Agents as General Programs
+  - NSDI: RLBoost: Harvesting Preemptible Cloud Resources for Cost-Efficient Reinforcement Learning on LLMs
+
+### Xin Jin 0008
+
+- DBLP pid: `68/3340-8`
+- Counts: baseline networking `13`, total clean `76`, post-2023 clean `39`
+- Top venues: NSDI (18), SIGCOMM (14), OSDI (8), EuroSys (5), SOSP (5), HotCloud (2), INFOCOM (2), CoNEXT (2)
+- Baseline title terms: programmable (6), data (5), distributed (5), network (4), learning (4), switches (3), pattern (3), analytics (3)
+- Post-2023 title terms: serverless (8), serving (8), training (7), model (7), language (7), models (6), network (5), cloud (5)
+
+- 2018:
+  - EuroSys: DumbNet: a smart data center network fabric with dumb switches
+  - HotCloud: Towards Fast and Scalable Graph Pattern Mining
+  - INFOCOM: Proactive Video Push for Optimizing Bandwidth Consumption in Hybrid CDN-P2P VoD Systems
+  - NSDI: NetChain: Scale-Free Sub-RTT Coordination [qualifying]
+  - OSDI: ASAP: Fast, Approximate Graph Pattern Mining at Scale
+  - SIGCOMM: AWStream: adaptive wide-area streaming analytics [qualifying]
+- 2019:
+  - CIKM: PatMat: A Distributed Pattern Matching Engine with Cypher
+  - CoNEXT: Flash: efficient dynamic routing for offchain networks [qualifying]
+  - CoNEXT: QPipe: quantiles sketch fully in the data plane [qualifying]
+  - FAST: DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching
+  - SIGCOMM: Neural packet classification [qualifying]
+  - USENIX ATC: DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching
+- 2020:
+  - APSys: Concerto: cooperative network-wide telemetry with controllable error rate
+  - HotCloud: Multitenancy for Fast and Programmable Networks in the Cloud
+  - ICML: On Efficient Constructions of Checkpoints
+  - NetAI@SIGCOMM: Is Network the Bottleneck of Distributed Training?
+  - OSDI: Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories
+  - OSDI: PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
+  - OSDI: RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers
+  - SIGCOMM: NetLock: Fast, Centralized Lock Management Using Programmable Switches [qualifying]
+- 2021:
+  - ESEC/SIGSOFT FSE: An empirical study on challenges of application development in serverless computing
+  - ICDE: FAST: FPGA-based Subgraph Matching on Massive Graphs
+  - INFOCOM: Enabling Edge-Cloud Video Analytics for Robotics Applications
+  - NSDI: Ship Compute or Ship Data? Why Not Both? [qualifying]
+  - NSDI: Twenty Years After: Hierarchical Core-Stateless Fair Queueing [qualifying]
+  - SIGCOMM: Network planning with deep reinforcement learning [qualifying]
+  - SIGCOMM: Programmable packet scheduling with a single queue [qualifying]
+  - SIGCOMM Posters and Demos: Cost-effective data analytics across multiple cloud regions
+  - SP: Runtime Recovery of Web Applications under Zero-Day ReDoS Attacks
+  - USENIX Security Symposium: Jaqen: A High-Performance Switch-Native Approach for Detecting and Mitigating Volumetric DDoS Attacks with Programmable Switches
+- 2022:
+  - APSys: Optimizing half precision Winograd convolution on ARM many-core processors
+  - EuroSys: Multi-objective congestion control
+  - MobiCom: Mandheling: mixed-precision on-device DNN training with DSP offloading
+  - MobiSys: Melon: breaking the memory wall for resource-efficient on-device machine learning
+  - NSDI: NetVRM: Virtual Register Memory for Programmable Networks [qualifying]
+  - SIGCOMM: Meissa: scalable network testing for programmable data planes [qualifying]
+  - SIGCOMM: Multi-resource interleaving for deep learning training [qualifying]
+- 2023:
+  - ASPLOS (2): ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning
+  - ASPLOS (3): Disaggregated RAID Storage in Modern Datacenters
+  - ICSOC (1): Niagara: Scheduling DNN Inference Services on Heterogeneous Edge Processors
+  - NSDI: Fast, Approximate Vector Queries on Very Large Unstructured Datasets
+  - NSDI: Transparent GPU Sharing in Container Clouds for Deep Learning Workloads
+  - OSDI: AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving
+  - SIGCOMM: Ditto: Efficient Serverless Analytics with Elastic Parallelism
+  - SIGCOMM: Klotski: Efficient and Safe Network Migration of Large Production Datacenters
+  - SIGCOMM: Understanding the Micro-Behaviors of Hardware Offloaded Network Stacks with Lumina
+  - SIGCOMM: XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale
+  - SOSP: Automated Verification of an In-Production DNS Authoritative Engine
+  - SOSP: Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing
+  - ... 1 more in JSON packet
+- 2024:
+  - ASPLOS (1): SoCFlow: Efficient and Scalable DNN Training on SoC-Clustered Edge Servers
+  - EuroSys: Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel
+  - NSDI: Fast Vector Query Processing for Large Datasets Beyond GPU Memory with Reordered Pipelining
+  - NSDI: Jolteon: Unleashing the Promise of Serverless for Serverless Workflows
+  - NSDI: MegaScale: Scaling Large Language Model Training to More Than 10, 000 GPUs
+  - OSDI: Burstable Cloud Block Storage with Data Processing Units
+  - OSDI: DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving
+  - OSDI: dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving
+  - SOSP: LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism
+- 2025:
+  - DASFAA (6): CloudChurn: Optimizing Enterprise Customer Churn Prediction in Cloud Services for Huawei Cloud
+  - ICML: OmniBal: Towards Fast Instruction-Tuning for Vision-Language Models via Omniverse Computation Balance
+  - NSDI: MeshTest: End-to-End Testing for Service Mesh Traffic Management
+  - NSDI: Optimizing RLHF Training for Large Language Models with Stage Fusion
+  - SIGCOMM: DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models
+  - SIGCOMM: Fornax: A Hardware-Centric Session Management in Large Public Cloud Network
+  - SIGCOMM: MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism
+  - SOSP: Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market
+- 2026:
+  - EuroSys: MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production
+  - EuroSys: Serverless Replication of Object Storage across Multi-Vendor Clouds and Regions
+  - NSDI: A Composable Emulation Framework for Whitebox Switches
+  - NSDI: DistRS: Disaggregated Reward Service for RLVR with Batch-Level Constraint
+  - NSDI: FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference
+  - NSDI: HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds
+  - NSDI: Iceberg: Automated Verification of DNS Authoritative Engines via Just-in-Time Summarization
+  - NSDI: KUBEDIRECT: Unleashing the Full Power of the Cluster Manager for Serverless Computing
+  - NSDI: ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production
+
+### Gianni Antichi
+
+- DBLP pid: `00/4948`
+- Counts: baseline networking `13`, total clean `56`, post-2023 clean `26`
+- Top venues: NSDI (7), SIGCOMM (6), SIGCOMM Posters and Demos (5), CoNEXT (4), HotNets (4), SOSR (3), ASPLOS (2) (3), SIGCOMM (Posters and Demos) (3)
+- Baseline title terms: network (6), data (6), plane (4), experimentation (3), software (3), telemetry (3), applications (2), understanding (2)
+- Post-2023 title terms: network (4), programmable (3), networking (3), switch (3), data (3), processing (2), telemetry (2), end-host (2)
+
+- 2018:
+  - NEAT@SIGCOMM: Supporting Emerging Applications With Low-Latency Failover in P4
+  - SIGCOMM: Understanding PCIe performance for end host networking [qualifying]
+  - SIGCOMM Posters and Demos: Revealing Hidden Hierarchical Heavy Hitters in network traffic
+  - SIGSIM-PADS: An SDN-inspired Model for Faster Network Experimentation
+  - SOSR: Umbrella: a deployable SDN-enabled IXP Switching Fabric
+- 2019:
+  - CoG: Towards Cheap Scalable Browser Multiplayer
+  - CoNEXT: PURR: a primitive for reconfigurable fast reroute: hope for the best and program for the worst [qualifying]
+  - HotNets: Event-Driven Packet Processing [qualifying]
+  - IWQoS: FAST: enabling fast software/hardware prototype for network experimentation
+  - Internet Measurement Conference: An Empirical Study of the Cost of DNS-over-HTTPS
+  - NetSoft: Incremental Deployment of Programmable Switches for Network-wide Heavy-hitter Detection
+  - SIGCOMM Posters and Demos: Faster Control Plane Experimentation with Horse
+- 2020:
+  - CoNEXT: DISCOvering the heavy hitters with disaggregated sketches [qualifying]
+  - CoNEXT: Detecting routing loops in the data plane [qualifying]
+  - EPIQ@SIGCOMM: Making QUIC Quicker With NIC Offload
+  - SIGCOMM: PINT: Probabilistic In-band Network Telemetry [qualifying]
+  - SIGCOMM Posters and Demos: Automatic optimization of software data planes
+  - SIGCOMM Posters and Demos: Revisiting heavy-hitters: don't count packets, compute flow inter-packet metrics in the data plane
+  - SOSR: Enabling Event-Triggered Data Plane Monitoring
+  - SOSR: Full-stack SDN: The Next Big Challenge?
+- 2021:
+  - CoNEXT: The case for network functions decomposition [qualifying]
+  - HotNets: Zero-CPU Collection with Direct Telemetry Access [qualifying]
+  - NetSoft: Providing In-network Support to Coflow Scheduling
+  - SIGCOMM: revisiting the open vSwitch dataplane ten years later [qualifying]
+- 2022:
+  - ASPLOS: Domain specific run time optimization for software data planes
+  - NSDI: Backdraft: a Lossless Virtual Switch that Prevents the Slow Receiver Problem [qualifying]
+  - NSDI: Isolation Mechanisms for High-Speed Packet-Processing Pipelines [qualifying]
+  - NSDI: Re-architecting Traffic Analysis with Neural Network Interface Cards [qualifying]
+  - SIGCOMM Posters and Demos: Mind the cost of telemetry data analysis
+  - UCC: Understanding Microquanta Process Scheduling for Cloud Applications
+- 2023:
+  - HotOS: Automatic Kernel Offload Using BPF
+  - ICNP: Dryad: Deploying Adaptive Trees on Programmable Switches for Networking Classification
+  - ICNP: Efficient Attack Detection with Multi-Latency Neural Models on Heterogeneous Network Devices
+  - NFV-SDN: SmartNIC-Accelerated Stream Processing Analytics
+  - SIGCOMM: Direct Telemetry Access
+  - SIGCOMM: Poster: Continual Network Learning
+  - StudentWorkshop@CoNEXT: Disaggregate Applications Along End-Host Data-Path
+- 2024:
+  - HCS: A Smart Cache for a SmartNIC! Scaling End-Host Networking to 400Gbps and Beyond
+  - HPSR: Rethinking Cloud Network Stacks with Switch Bypass
+  - HotNets: Incremental Specialization of Network Programs
+  - HotNets: Rethinking the Switch Architecture for Stateful In-network Computing
+  - SIGMETRICS/Performance (Abstracts): Lightweight Acquisition and Ranging of Flows in the Data Plane
+- 2025:
+  - ASPLOS (2): Aqua: Network-Accelerated Memory Offloading for LLMs in Scale-Up GPU Domains
+  - ASPLOS (2): Gigaflow: Pipeline-Aware Sub-Traversal Caching for Modern SmartNICs
+  - EuroSys: Enabling Virtual Priority in Data Center Congestion Control
+  - NFV-SDN: Design Principles for Accelerated Programmable Edge Computing in Future 6G Architectures
+  - NSDI: Enabling Silent Telemetry Data Transmission with InvisiFlow
+  - NSDI: State-Compute Replication: Parallelizing High-Speed Stateful Packet Processing
+  - SIGCOMM: Astral: A Datacenter Infrastructure for Large Language Model Training at Scale
+  - SIGCOMM (Posters and Demos): Better QUIC implementations with Nesquic
+  - SIGCOMM (Posters and Demos): Kairo - Incremental View Maintenance for Scalable Virtual Switch Caching
+  - SIGCOMM (Posters and Demos): Software Prefetching for eBPF Programs
+  - eBPF@SIGCOMM: Performance Implications at the Intersection of AF_XDP and Programmable NICs
+- 2026:
+  - ASPLOS (2): Enabling Fast Networking in the Public Cloud
+  - NSDI: Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation
+  - NSDI: OSCAR: O(1)-Step Convergence and Readily-deployable Congestion Control
+
+### Scott Shenker
+
+- DBLP pid: `34/5593`
+- Counts: baseline networking `13`, total clean `51`, post-2023 clean `24`
+- Top venues: HotNets (11), SIGCOMM (8), NSDI (7), HotOS (4), EuroSys (3), OSDI (3), SoCC (2), NINeS (2)
+- Baseline title terms: computing (4), network (4), internet (4), memory (3), graph (2), analytics (2), resilient (2), edge-computing (2)
+- Post-2023 title terms: cellular (4), control (2), applications (2), software (2), architecture (2), everywhere (2), all (2), not (2)
+
+- 2018:
+  - APNet: Preserving Privacy at IXPs
+  - GRADES/NDA@SIGMOD/PODS: Bridging the GAP: towards approximate graph analytics
+  - HotCloud: Monarch: Gaining Command on Geo-Distributed Graph Analytics
+  - MECOMM@SIGCOMM: CESSNA: Resilient Edge-Computing
+  - NEAT@SIGCOMM: Open Carrier Interface: An Open Source Edge Computing Framework
+  - NSDI: Elastic Scaling of Stateful Network Functions [qualifying]
+  - NSDI: ResQ: Enabling SLOs in Network Function Virtualization [qualifying]
+  - SAS: Abstract Interpretation of Stateful Networks
+  - SIGCOMM: Revisiting network support for RDMA [qualifying]
+- 2019:
+  - AAAI: Fair and Efficient Memory Sharing: Confronting Free Riders
+  - NSDI: Stable and Practical AS Relationship Inference with ProbLink [qualifying]
+  - SIGCOMM: Enabling a permanent revolution in internet architecture [qualifying]
+  - SIGMETRICS (Abstracts): Axiomatizing Congestion Control
+- 2020:
+  - EuroSys: Can far memory improve job throughput?
+  - HotNets: Bertha: Tunneling through the Network API [qualifying]
+  - HotNets: On the Future of Congestion Control for the Public Internet [qualifying]
+  - HotNets: Remote Memory Calls [qualifying]
+  - OSDI: Persistent State Machines for Recoverable In-memory Storage Systems with NVRam
+  - SIGCOMM: A Public Option for the Core [qualifying]
+  - SoCC: Kappa: a programming framework for serverless computing
+  - SoCC: Making edge-computing resilient
+- 2021:
+  - HotOS: From cloud computing to sky computing
+  - SIGCOMM: Democratizing cellular access with CellBricks [qualifying]
+- 2022:
+  - HotNets: Global content revocation on the internet: a case study in technology ecosystem transformation [qualifying]
+  - HotNets: The case for an internet primitive for fault localization [qualifying]
+  - NSDI: Efficient Scheduling Policies for Microsecond-Scale Tasks [qualifying]
+  - OSDI: Blockaid: Data Access Policy Enforcement for Web Applications
+- 2023:
+  - HotNets: How I Learned to Stop Worrying About CCA Contention
+  - HotOS: Access Control for Database Applications: Beyond Policy Enforcement
+  - HotOS: Out of Hand for Hardware? Within Reach for Software!
+  - NSDI: LOCA: A Location-Oblivious Cellular Architecture
+  - NSDI: SkyPilot: An Intercloud Broker for Sky Computing
+- 2024:
+  - ASE Workshops: Everything Everywhere All At Once: Efficient Cross-Service Program Analysis with OverSeer
+  - ASPLOS (2): Efficient Microsecond-scale Blind Scheduling with Tiny Quanta
+  - HotNets: If Layering is useful, why not Sublayering?
+  - HotNets: Revisiting Cache Freshness for Emerging Real-Time Applications
+  - NSDI: Can't Be Late: Optimizing Spot Instance Savings under Deadlines
+  - OSDI: Harvesting Memory-bound CPU Stall Cycles in Software with MSH
+  - SIGCOMM: An Architecture For Edge Networking Services
+  - SIGCOMM: Principles for Internet Congestion Management
+  - USENIX ATC: Starburst: A Cost-aware Scheduler for Hybrid Cloud
+- 2025:
+  - EuroSys: SkyServe: Serving AI Models across Regions and Clouds with Spot Instances
+  - HotNets: A Modern Edge-based Design for Cellular Roaming
+  - HotNets: Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide
+  - HotNets: Rethinking the Cost of Distributed Caches for Datacenter Services
+  - HotOS: Designing a Datacenter-wide Distributed Shared Log
+  - SIGCOMM: Making Cellular Networks More Efficient By Roaming-in-Place
+  - SIGCOMM: RANBooster: Democratizing advanced cellular connectivity through fronthaul middleboxes
+- 2026:
+  - EuroSys: SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference
+  - NINeS: No Signal to Rule Them All: A Systematic Analysis of In-Network Congestion Signals
+  - NINeS: TURBO: Utility-Aware Bandwidth Allocation for Cloud-Augmented Autonomous Control
+
+### Ryan Beckett
+
+- DBLP pid: `161/6041`
+- Counts: baseline networking `13`, total clean `39`, post-2023 clean `18`
+- Top venues: NSDI (13), SIGCOMM (8), HotNets (7), PLDI (2), CAV (2) (1), NetPL@SIGCOMM (1), OSDI (1), SOSR (1)
+- Baseline title terms: network (9), verification (7), control (3), dns (3), plane (2), intermediate (2), language (2), programmable (2)
+- Post-2023 title terms: network (4), llms (2), configurations (2), bgp (2), verification (2), cloud (2), heuristics (2), optimization (2)
+
+- 2018:
+  - SIGCOMM: Control plane compression [qualifying]
+- 2019:
+  - CAV (2): Efficient Verification of Network Fault Tolerance via Counterexample-Guided Refinement
+  - HotNets: Putting network verification to good use [qualifying]
+  - NetPL@SIGCOMM: NV: An intermediate language for network verification
+- 2020:
+  - HotNets: A General Framework for Compositional Network Modeling [qualifying]
+  - NSDI: Contra: A Programmable System for Performance-aware Routing [qualifying]
+  - NSDI: Finding Network Misconfigurations by Automatic Template Inference [qualifying]
+  - OSDI: Aragog: Scalable Runtime Verification of Shardable Networked Systems
+  - PLDI: NV: an intermediate language for verification of network control planes
+  - SIGCOMM: GRooT: Proactive Verification of DNS Configurations [qualifying]
+  - SOSR: Adaptive Weighted Traffic Splitting in Programmable Data Planes
+- 2021:
+  - HotNets: How Complex is DNS? [qualifying]
+  - SIGCOMM: Campion: debugging router configuration differences [qualifying]
+  - SIGCOMM: Test coverage metrics for the network [qualifying]
+- 2022:
+  - FMCAD: ACORN: Network Control Plane Abstraction using Route Nondeterminism
+  - HotNets: Minding the gap between fast heuristics and their optimal counterparts [qualifying]
+  - ICNP: Kirigami, the Verifiable Art of Network Cutting
+  - NSDI: Katra: Realtime Verification for Multilayer Networks [qualifying]
+  - NSDI: SCALE: Automatically Finding RFC Compliance Bugs in DNS Nameservers [qualifying]
+  - PLDI: Kleene algebra modulo theories: a framework for concrete KATs
+  - SIGCOMM: TIPSY: predicting where traffic will ingress a WAN [qualifying]
+- 2023:
+  - HotNets: What do LLMs need to Synthesize Correct Router Configurations?
+  - NSDI: Formal Methods for Network Performance Analysis
+  - NSDI: Synthesizing Runtime Programmable Switch Updates
+  - NSDI: Test Coverage for Network Configurations
+  - SIGCOMM: Lightyear: Using Modularity to Scale BGP Control Plane Verification
+  - SIGCOMM: PAINTER: Ingress Traffic Engineering and Routing for Enterprise Cloud Networks
+- 2024:
+  - HotNets: End-to-End Performance Analysis of Learning-enabled Systems
+  - HotNets: Towards Safer Heuristics With XPlain
+  - NSDI: Finding Adversarial Inputs for Heuristics using Multi-level Optimization
+  - NSDI: MESSI: Behavioral Testing of BGP Implementations
+  - NSDI: Sequence Abstractions for Flexible, Line-Rate Network Monitoring
+  - SOSP: Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs
+  - USENIX ATC: Kivi: Verification for Cluster Management
+- 2025:
+  - NSDI: Efficient Multi-WAN Transport for 5G with OTTER
+  - SIGCOMM: Raha: A General Tool to Analyze WAN Degradation
+- 2026:
+  - EuroSys: Concord: Learning Network Configuration Contracts
+  - NSDI: Eywa: Automating Model-Based Testing using LLMs
+  - NSDI: Heuristic Analysis from Source Code via Symbolic-Guided Optimization
+
+### Alex C. Snoeren
+
+- DBLP pid: `s/AlexCSnoeren`
+- Counts: baseline networking `13`, total clean `38`, post-2023 clean `15`
+- Top venues: SIGCOMM (7), Internet Measurement Conference (4), IMC (4), NSDI (3), PAM (3), CSET @ USENIX Security Symposium (2), USENIX ATC (2), Financial Cryptography (1)
+- Baseline title terms: datacenter (3), paper (2), data (2), center (2), ecosystem (2), cloud (2), inferring (2), tcp (2)
+- Post-2023 title terms: internet (3), memory (3), access (3), risks (2), far (2), cuckoo (2), rosebud (1), making (1)
+
+- 2018:
+  - Financial Cryptography: Estimating Profitability of Alternative Cryptocurrencies (Short Paper)
+  - HPSR: Toward Optical Switching in the Data Center (Invited Paper)
+  - IEEE Symposium on Security and Privacy: Tracking Ransomware End-to-end
+  - Internet Measurement Conference: An Empirical Analysis of the Commercial VPN Ecosystem
+  - Internet Measurement Conference: Cloud Datacenter SDN Monitoring: Experiences and Challenges
+  - SIGCOMM: Inferring persistent interdomain congestion [qualifying]
+- 2019:
+  - CSET @ USENIX Security Symposium: Triton: A Software-Reconfigurable Federated Avionics Testbed
+  - MobiSys: SparSDR: Sparsity-proportional Backhaul and Compute for SDRs
+  - OFC: LEED: A Lightwave Energy-Efficient Datacenter
+- 2020:
+  - FCCM: Corundum: An Open-Source 100-Gbps Nic
+  - HotNets: Enabling Active Networking on RMT Hardware [qualifying]
+  - NSDI: Adapting TCP for Reconfigurable Datacenter Networks [qualifying]
+  - NSDI: Expanding across time to deliver bandwidth efficiency and low latency [qualifying]
+  - SIGCOMM: SmartNIC Performance Isolation with FairNIC [qualifying]
+- 2021:
+  - Internet Measurement Conference: Identifying ASes of state-owned internet operators
+  - Internet Measurement Conference: Locked-in during lock-down: undergraduate life on the internet in a pandemic
+  - PAM: Inferring Cloud Interconnections: Validation, Geolocation, and Routing Behavior
+- 2022:
+  - CoNEXT: Scaling beyond packet switch limits with multiple dataplanes [qualifying]
+  - IMC: Measuring UID smuggling in the wild [qualifying]
+  - IMC: Mind your MANRS: measuring the MANRS ecosystem [qualifying]
+  - PAM: IRR Hygiene in the RPKI Era
+  - PAM: Quantifying Nations' Exposure to Traffic Observation and Selective Tampering
+  - SIGCOMM: Time-division TCP for reconfigurable data center networks [qualifying]
+- 2023:
+  - ASPLOS (3): Rosebud: Making FPGA-Accelerated Middlebox Development More Pleasant
+  - CSET @ USENIX Security Symposium: In the Line of Fire: Risks of DPI-triggered Data Collection
+  - IMC: IRRegularities in the Internet Routing Registry
+  - SIGCOMM: Destination Unreachable: Characterizing Internet Outages and Shutdowns
+  - SIGCOMM: Memory Management in ActiveRMT: Towards Runtime-programmable Switches
+  - SIGCOMM: Poster: Taking the Low Road: How RPKI Invalids Propagate
+  - SOSP: A Cloud-Scale Characterization of Remote Procedure Calls
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+  - WORDS@SOSP: Limited Access: The Truth Behind Far Memory
+- 2024:
+  - IMC: Sublet Your Subnet: Inferring IP Leasing in the Wild
+  - SIGCOMM: Realizing RotorNet: Toward Practical Microsecond Scale Optical Networking
+- 2025:
+  - CCS: Local Frames: Exploiting Inherited Origins to Bypass Content Blockers
+  - NSDI: Eden: Developer-Friendly Application-Integrated Far Memory
+  - USENIX ATC: Cuckoo for Clients: Disaggregated Cuckoo Hashing
+  - USENIX ATC: PageFlex: Flexible and Efficient User-space Delegation of Linux Paging Policies with eBPF
+
+### Gautam Akiwate
+
+- DBLP pid: `224/2363`
+- Counts: baseline networking `13`, total clean `24`, post-2023 clean `7`
+- Top venues: Internet Measurement Conference (7), IMC (7), SIGCOMM (2), PAM (2), TMA (2), CSET @ USENIX Security Symposium (1), EuroS&P (1), SIGMETRICS/Performance (Abstracts) (1)
+- Baseline title terms: dns (5), anycast (3), infrastructure (3), inferring (2), measuring (2), security (2), impact (2), where (2)
+- Post-2023 title terms: security (2), line (1), fire (1), risks (1), dpi-triggered (1), data (1), collection (1), forward (1)
+
+- 2018:
+  - SIGCOMM: Inferring persistent interdomain congestion [qualifying]
+- 2019:
+  - Internet Measurement Conference: Measuring Security Practices and How They Impact Security
+- 2020:
+  - Internet Measurement Conference: MAnycast2: Using Anycast to Measure Anycast
+  - Internet Measurement Conference: Trufflehunter: Cache Snooping Rare Domains at Large Public DNS Resolvers
+  - Internet Measurement Conference: Unresolved Issues: Prevalence, Persistence, and Perils of Lame Delegations
+- 2021:
+  - Internet Measurement Conference: Home is where the hijacking is: understanding DNS interception by residential routers
+  - Internet Measurement Conference: Risky BIZness: risks derived from registrar name management
+  - Internet Measurement Conference: Who's got your mail?: characterizing mail service provider usage
+  - PAM: Clairvoyance: Inferring Blocklist Use on the Internet
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+- 2022:
+  - IMC: Mind your MANRS: measuring the MANRS ecosystem [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Stop, DROP, and ROA: effectiveness of defenses through the lens of DROP [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - IMC: ZDNS: a fast DNS toolkit for internet measurement [qualifying]
+  - PAM: IRR Hygiene in the RPKI Era
+  - TMA: Domain Name Lifetimes: Baseline and Threats
+- 2023:
+  - CSET @ USENIX Security Symposium: In the Line of Fire: Risks of DPI-triggered Data Collection
+  - EuroS&P: Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy
+  - IMC: IRRegularities in the Internet Routing Registry
+- 2024:
+  - IMC: DarkDNS: Revisiting the Value of Rapid Zone Update
+  - SIGMETRICS/Performance (Abstracts): Democratizing LEO Satellite Network Measurement
+- 2025:
+  - CHI: "Perfect is the Enemy of Good": The CISO's Role in Enterprise Security as a Business Enabler
+  - SIGCOMM: Formalizing Dependence of Web Infrastructure
+
+### Stefan Schmid 0001
+
+- DBLP pid: `58/3289-1`
+- Counts: baseline networking `12`, total clean `223`, post-2023 clean `89`
+- Top venues: INFOCOM (22), Networking (17), OPODIS (11), CoNEXT (9), SPAA (9), PODC (8), DISC (8), SIGMETRICS (Abstracts) (7)
+- Baseline title terms: networks (38), network (28), routing (14), self-adjusting (11), virtual (10), rerouting (9), distributed (8), reconfigurable (7)
+- Post-2023 title terms: networks (29), demand-aware (11), dynamic (9), algorithms (8), control (7), network (7), self-adjusting (6), datacenter (6)
+
+- 2018:
+  - ANCS: Characterizing the algorithmic complexity of reconfigurable data center architectures
+  - Big-DAMA@SIGCOMM: NetSlicer: Automated and Traffic-Pattern Based Application Clustering in Datacenters
+  - CoNEXT: P-Rex: fast verification of MPLS networks with multiple link failures [qualifying]
+  - ICALP: Congestion-Free Rerouting of Flows on DAGs
+  - ICDCN: Evacuating Two Robots from Two Unknown Exits on the Perimeter of a Disk with Wireless Communication
+  - ICDCS: Renaissance: A Self-Stabilizing Distributed SDN Control Plane
+  - ICDCS: Scheduling Congestion-Free Updates of Multiple Flows with Chronicle in Timed SDNs
+  - INFOCOM: NeuroViNE: A Neural Preprocessor for Your Virtual Network Embedding Algorithm
+  - INFOCOM: Polynomial-Time What-If Analysis for Prefix-Manipulating MPLS Networks
+  - INFOCOM Workshops: Fast and efficient network service embedding method with adaptive offloading to the edge
+  - INFOCOM Workshops: Poster abstract: Themis: A data-driven approach to bot detection
+  - INFOCOM Workshops: TI-MFA: Keep calm and reroute segments fast
+  - ... 16 more in JSON packet
+- 2019:
+  - ANCS: Empirical Predictability Study of SDN Switches
+  - Blockchain: Breeding Unicorns: Developing Trustworthy and Scalable Randomness Beacons
+  - CoNEXT: Loko: predictable latency in small networks [qualifying]
+  - CoNEXT: PURR: a primitive for reconfigurable fast reroute: hope for the best and program for the worst [qualifying]
+  - CoNEXT: Tuple space explosion: a denial-of-service attack against a software packet classifier [qualifying]
+  - DISC: Brief Announcement: On Self-Adjusting Skip List Networks
+  - DSN: Bonsai: Efficient Fast Failover Routing Using Small Arborescences
+  - ESA: Compact Oblivious Routing
+  - ICNP: Local Fast Rerouting with Low Congestion: A Randomized Approach
+  - INFOCOM: A Constant Approximation for Maximum Throughput Multicommodity Routing And Its Application to Delay-Tolerant Network Scheduling
+  - INFOCOM: CASA: Congestion and Stretch Aware Static Fast Rerouting
+  - INFOCOM: Demand-Aware Network Design with Minimal Congestion and Route Lengths
+  - ... 20 more in JSON packet
+- 2020:
+  - AFT: Route Hijacking and DoS in Off-Chain Networks
+  - ALGOSENSORS: Conic Formation in Presence of Faulty Robots
+  - ARES: SOK: cryptocurrency networking context, state-of-the-art, challenges
+  - Blockchain: On Search Friction of Route Discovery in Offchain Networks
+  - CoNEXT: AalWiNes: a fast and quantitative what-if analysis tool for MPLS networks [qualifying]
+  - CoNEXT: Chameleon: predictable latency and high utilization with queue-aware and adaptive source routing [qualifying]
+  - DISC: Brief Announcement: What Can(Not) Be Perfectly Rerouted Locally
+  - ICISSP: Toward Active and Passive Confidentiality Attacks on Cryptocurrency Off-chain Networks
+  - ICISSP (Revised Selected Papers): Inferring Sensitive Information in Cryptocurrency Off-Chain Networks Using Probing and Timing Attacks
+  - INFOCOM: SplitCast: Optimizing Multicast Flows in Reconfigurable Datacenter Networks
+  - INFOCOM: Working Set Theorems for Routing in Self-Adjusting Skip List Networks
+  - LATIN: Dynamically Optimal Self-adjusting Single-Source Tree Networks
+  - ... 6 more in JSON packet
+- 2021:
+  - ANCS: ExRec: Experimental Framework for Reconfigurable Networks Based on Off-the-Shelf Hardware
+  - ANCS: Improving the Resilience of Fast Failover Routing: TREE (Tree Routing to Extend Edge disjoint paths)
+  - ANCS: Macchiato: Importing Cache Side Channels to SDNs
+  - ANCS: On Efficient Oblivious Wavelength Assignments for Programmable Wide-Area Topologies
+  - APOCS: On the Feasibility of Perfect Resilience with Local Fast Failover
+  - APOCS: Online Balanced Repartitioning of Dynamic Communication Patterns in Polynomial Time
+  - APOCS: ReNets: Statically-Optimal Demand-Aware Networks
+  - ATVA: Faster Pushdown Reachability Analysis with Applications in Network Verification
+  - CNSM: Network Traffic Characteristics of Machine Learning Frameworks Under the Microscope
+  - CoNEXT: ReactNet: self-adjusting architecture for networked systems [qualifying]
+  - CoNEXT: Traffic engineering with joint link weight and segment optimization [qualifying]
+  - DISC: Brief Announcement: Sinkless Orientation Is Hard Also in the Supported LOCAL Model
+  - ... 20 more in JSON packet
+- 2022:
+  - AFT: Wiser: Increasing Throughput in Payment Channel Networks with Transaction Aggregation
+  - ATVA: PDAAAL: A Library for Reachability Analysis of Weighted Pushdown Systems
+  - CloudNet: FBR: Dynamic Memory-Aware Fast Rerouting
+  - CloudNet: MPLS-Kit: An MPLS Data Plane Toolkit
+  - CoNEXT: R-MPLS: recursive protection for highly dependable MPLS networks [qualifying]
+  - DISC: Brief Announcement: Minimizing Congestion in Hybrid Demand-Aware Network Topologies
+  - DISC: Brief Announcement: Temporal Locality in Online Algorithms
+  - DSN: On the Price of Locality in Static Fast Rerouting
+  - DSN: The Hazard Value: A Quantitative Network Connectivity Measure Accounting for Failures
+  - Financial Cryptography: Hide & Seek: Privacy-Preserving Rebalancing on Payment Channel Networks
+  - Financial Cryptography: Short Paper: A Centrality Analysis of the Lightning Network
+  - ICDCS: Deterministic Self-Adjusting Tree Networks Using Rotor Walks
+  - ... 12 more in JSON packet
+- 2023:
+  - ESA: Online Algorithms with Randomly Infused Advice
+  - ESORICS Workshops (1): Comparison of Ethereum Smart Contract Analysis and Verification Methods
+  - EuroP4@CoNEXT: Poster: P4DME: DNS Threat Mitigation with P4 In-Network Machine Learning Offload
+  - FC (1): R2: Boosting Liquidity in Payment Channel Networks with Online Admission Control
+  - ICC Workshops: Digital Twin-Empowered Resource Allocation for 6G-Enabled Massive IoT
+  - IFIP Networking: The Case for Stochastic Online Segment Routing under Demand Uncertainty
+  - INFOCOM: Dynamic Demand-Aware Link Scheduling for Reconfigurable Datacenters
+  - INFOCOM: OpticNet: Self-Adjusting Networks for ToR-Matching-ToR Optical Switching Architectures
+  - INFOCOM: SeedTree: A Dynamically Optimal and Local Self-Adjusting Tree
+  - INFOCOM: Self-Adjusting Partially Ordered Lists
+  - ITCS: Asymptotically Tight Bounds on the Time Complexity of Broadcast and Its Variants in Dynamic Networks
+  - ITCS: The Time Complexity of Consensus Under Oblivious Message Adversaries
+  - ... 13 more in JSON packet
+- 2024:
+  - 6GNet: RIS as a Network Resource: User Multiplexing and Pricing Algorithms
+  - AFT: Musketeer: Incentive-Compatible Rebalancing for Payment Channel Networks
+  - ApPLIED@PODC: Invited Paper: Blockchain Governance and Liquid Democracy - Quantifying Decentralization in Gitcoin and Internet Computer
+  - CSCN: RIS-Assisted 6G Networks: Challenges and Tradeoffs in Control Standardization
+  - DISC: Broadcast and Consensus in Stochastic Dynamic Networks with Byzantine Nodes and Adversarial Edges
+  - DRCN: Reliability Assurance in RIS-Assisted 6G Campus Networks
+  - DSN: SyRep: Efficient Synthesis and Repair of Fast Re-Route Forwarding Tables for Resilient Networks
+  - ESA: Toward Self-Adjusting k-Ary Search Tree Networks
+  - ICBC: DecentPeeR: A Self-Incentivised & Inclusive Decentralized Peer Review System
+  - ICC Workshops: An Intelligent Digital Twin Model for Attack Detection in Zero-Touch 6G Networks
+  - ICDCN: Tero: Offloading CDN Traffic to Massively Distributed Devices
+  - ICDCS: Learning Minimum Linear Arrangement of Cliques and Lines
+  - ... 21 more in JSON packet
+- 2025:
+  - ALENEX: SpiderDAN: Matching Augmentation in Demand-Aware Networks
+  - ATVA: TAPAAL HyperLTL: A Tool for Checking Hyperproperties of Petri Nets
+  - DISC: Boosting Payment Channel Network Liquidity with Topology Optimization and Transaction Selection
+  - DRCN: Reliability and QoS Assurance in RIS-Assisted Indoor Networks
+  - FC: X-Transfer: Enabling and Optimizing Cross-PCN Transactions
+  - FC (Workshops 1): Monero's Decentralized P2P Exchanges: Functionality, Adoption, and Privacy Risks
+  - GECCO: In the Search of Optimal Tree Networks: Hardness and Heuristics
+  - ICBC: Democracy for DAOs: An Empirical Study of Decentralized Governance and Dynamics : Case Study Internet Computer SNS Ecosystem
+  - ICBC: Internet Computer as a Data Availability Layer
+  - ICPP: Efficient Cross-Datacenter Congestion Control with Fast Control Loops
+  - INDIN: Breaking the Vision: Assessing and Mitigating the Impact of Video Artifacts on ML Models in Industrial Use Cases
+  - IPDPS: Distributed Construction of Demand-Aware Datacenter Networks
+  - ... 17 more in JSON packet
+- 2026:
+  - ALENEX: Efficient Algorithms for Temporal Balanced Graph Partitioning of Datacenter Workloads
+  - SOSA: The Harmonic Policy for Online Buffer Sharing is (2 + ln n)-Competitive: A Simple Proof
+
+### Jennifer Rexford
+
+- DBLP pid: `r/JenniferRexford`
+- Counts: baseline networking `12`, total clean `47`, post-2023 clean `10`
+- Top venues: SOSR (8), SIGCOMM (6), NSDI (5), USENIX Security Symposium (4), HotNets (3), FOCI @ USENIX Security Symposium (2), APOCS (2), SPIN@SIGCOMM (2)
+- Baseline title terms: data (7), plane (7), switches (6), traffic (4), programmable (4), routing (3), network (3), commodity (3)
+- Post-2023 title terms: data (3), planes (2), wireless (2), control (2), video (2), conferencing (2), route (2), bgp (2)
+
+- 2018:
+  - ALGOCLOUD: Multi-commodity Flow with In-Network Processing
+  - ANRW: Why (and How) Networks Should Run Themselves
+  - COMPASS: Nation-State Hegemony in Internet Routing
+  - SIGCOMM: Sonata: query-driven streaming network telemetry [qualifying]
+  - SOSR: Network-Wide Heavy Hitter Detection with Commodity Switches
+  - SPAA: Accurate Traffic Splitting on Commodity Switches
+  - SelfDN@SIGCOMM: Catching the Microburst Culprits with Snappy
+  - USENIX Security Symposium: Bamboozling Certificate Authorities with BGP
+- 2019:
+  - CCS: SICO: Surgical Interception Attacks by Manipulating BGP Communities
+  - CoNEXT: Fine-grained queue measurement in the data plane [qualifying]
+  - FOCI @ USENIX Security Symposium: SPINE: Surveillance Protection in the Network Elements
+  - SIGCOMM: Elmo: source routed multicast for public clouds [qualifying]
+- 2020:
+  - APOCS: Memory-Efficient Performance Monitoring on Programmable Switches with Lean Algorithms
+  - CloudNet: Cooperative Rule Caching for SDN Switches
+  - FOCI @ USENIX Security Symposium: MIMIQ: Masking IPs with Migration in QUIC
+  - HotNets: Elastic Switch Programming with P4All [qualifying]
+  - NSDI: Contra: A Programmable System for Performance-aware Routing [qualifying]
+  - NSDI: Enabling Programmable Transport Protocols in High-Speed NICs [qualifying]
+  - SIGCOMM: BeauCoup: Answering Many Network Traffic Queries, One Memory Update at a Time [qualifying]
+  - SOSR: Adaptive Weighted Traffic Splitting in Programmable Data Planes
+  - SOSR: Memory-Efficient Membership Encoding in Switches
+  - SOSR: PacketScope: Monitoring the Packet Lifecycle Inside a Switch
+  - SOSR: Tracking P4 Program Execution in the Data Plane
+  - SPIN@SIGCOMM: Carpe Elephants: Seize the Global Heavy Hitters
+  - ... 1 more in JSON packet
+- 2021:
+  - SIGCOMM: Lucid: a language for control in the data plane [qualifying]
+  - SOSR: A P4-based 5G User Plane Function
+  - SOSR: Analyzing Traffic by Domain Name in the Data Plane
+  - USENIX Security Symposium: Experiences Deploying Multi-Vantage-Point Domain Validation at Let's Encrypt
+- 2022:
+  - APOCS: Unbiased Delay Measurement in the Data Plane
+  - HotNets: It takes two to tango: cooperative edge-to-edge routing [qualifying]
+  - IMC: Enabling passive measurement of zoom performance in production networks [qualifying]
+  - INFOCOM: Cutting Through the Noise to Infer Autonomous System Topology
+  - NSDI: Modular Switch Programming Under Resource Constraints [qualifying]
+  - NetSoft: Passive OS Fingerprinting on Commodity Switches
+  - SIGCOMM: Continuous in-network round-trip time monitoring [qualifying]
+  - SOSR: Flow-level loss detection with Δ-sketches
+- 2023:
+  - EuroP4@CoNEXT: NAP: Programming Data Planes with Approximate Data Structures
+  - INFOCOM: Scalable Real-Time Bandwidth Fairness in Switches
+  - NSDI: Building Flexible, Low-Cost Wireless Access Networks With Magma
+  - USENIX Security Symposium: How Effective is Multiple-Vantage-Point Domain Control Validation?
+- 2024:
+  - HotNets: Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond
+  - NSDI: TANGO: Secure Collaborative Route Control across the Public Internet
+  - USENIX Security Symposium: SmartCookie: Blocking Large-Scale SYN Floods with a Split-Proxy Defense on Programmable Data Planes
+- 2025:
+  - PAM: Global BGP Attacks that Evade Route Monitoring
+  - SIGCOMM: Scalable Video Conferencing Using SDN Principles
+- 2026:
+  - NINeS: Passive Data-Plane Telemetry to Mitigate Long-Distance BGP Hijacks
+
+### Narseo Vallina-Rodriguez
+
+- DBLP pid: `50/7563`
+- Counts: baseline networking `12`, total clean `30`, post-2023 clean `7`
+- Top venues: Internet Measurement Conference (9), NDSS (3), USENIX Security Symposium (3), IMC (3), SP (2), EuroS&P (2), ANRW (1), INFOCOM (1)
+- Baseline title terms: android (7), privacy (6), study (5), apps (4), mobile (4), internet (4), services (4), ecosystem (4)
+- Post-2023 title terms: protocol (2), ecosystem (2), information (2), android (2), chrowned (1), extension (1), abusing (1), chrome (1)
+
+- 2018:
+  - ANRW: Studying TLS Usage in Android Apps
+  - INFOCOM: The Cloud that Runs the Mobile Internet: A Measurement Study of Mobile Cloud Services
+  - Internet Measurement Conference: A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists
+  - Internet Measurement Conference: An Empirical Analysis of the Commercial VPN Ecosystem
+  - Internet Measurement Conference: Beyond Google Play: A Large-Scale Comparative Study of Chinese Android App Markets
+  - Internet Measurement Conference: Coming of Age: A Longitudinal Study of TLS Deployment
+  - NDSS: Apps, Trackers, Privacy, and Regulators: A Global Study of the Mobile Tracking Ecosystem
+  - NDSS: Bug Fixes, Improvements, ... and Privacy Leaks - A Longitudinal Study of PII Leaks Across Android App Versions
+- 2019:
+  - Internet Measurement Conference: Tales from the Porn: A Comprehensive Privacy Analysis of the Web Porn Ecosystem
+  - USENIX Security Symposium: 50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System
+- 2020:
+  - Internet Measurement Conference: Mis-shapes, Mistakes, Misfits: An Analysis of Domain Classification Services
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+  - Internet Measurement Conference: Understanding Incentivized Mobile App Installs on Google Play Store
+  - NDSS: Encrypted DNS -> Privacy? A Traffic Analysis Perspective
+  - SP: An Analysis of Pre-installed Android Software
+  - WWW: Apophanies or Epiphanies? How Crawlers Impact Our Understanding of the Web
+- 2021:
+  - HotNets: Towards a traffic map of the Internet Connecting the dots between popular services and users: Connecting the dots between popular services and users [qualifying]
+  - Internet Measurement Conference: IoTLS: understanding TLS usage in consumer IoT devices
+  - SP: Trouble Over-The-Air: An Analysis of FOTA Apps in the Android Ecosystem
+  - USENIX Security Symposium: Blind In/On-Path Attacks and Applications to VPNs
+- 2022:
+  - IMC: A comparative analysis of certificate pinning in Android & iOS [qualifying]
+  - IMC: Towards an extensible privacy analysis framework for smart homes [qualifying]
+  - StudentWorkshop@CoNEXT: Challenges in inferring privacy properties of smart devices: towards scalable multi-vantage point testing methods
+- 2023:
+  - EuroS&P: Chrowned by an Extension: Abusing the Chrome DevTools Protocol through the Debugger API
+  - IMC: In the Room Where It Happens: Characterizing Local Communication and Threats in Smart Homes
+  - TMA: Your Code is 0000: An Analysis of the Disposable Phone Numbers Ecosystem
+  - USENIX Security Symposium: Log: It's Big, It's Heavy, It's Filled with Personal Data! Measuring the Logging of Sensitive Information in the Android Ecosystem
+- 2024:
+  - ICWSM: Reviewing War: Unconventional User Reviews as a Side Channel to Circumvent Information Controls
+  - MetaCom: Reversing the Virtual Maze: An Overview of the Technical and Methodological Challenges for Metaverse App Analysis
+- 2025:
+  - EuroS&P: Beneath the Surface: An Analysis of OEM Customizations on the Android TLS Protocol Stack
+
+### Matt Calder
+
+- DBLP pid: `24/3165`
+- Counts: baseline networking `12`, total clean `17`, post-2023 clean `3`
+- Top venues: Internet Measurement Conference (4), HotNets (3), SIGCOMM (3), IMC (3), NSDI (2), TMA (1), INFOCOM (1)
+- Baseline title terms: cloud (6), provider (4), internet (4), cdn (2), connectivity (2), flat (2), traffic (2), connecting (2)
+- Post-2023 title terms: content (2), web (2), dataset (2), central (1), problem (1), distributed (1), common (1), cdn (1)
+
+- 2018:
+  - NSDI: Odin: Microsoft's Scalable Fault-Tolerant CDN Measurement System [qualifying]
+- 2019:
+  - HotNets: Beating BGP is Harder than we Thought [qualifying]
+  - SIGCOMM: Zooming in on wide-area latencies to a global cloud provider [qualifying]
+  - TMA: A Cloud Provider's View of EDNS Client-Subnet Adoption
+- 2020:
+  - INFOCOM: (How Much) Does a Private WAN Improve Cloud Performance?
+  - Internet Measurement Conference: Cloud Provider Connectivity in the Flat Internet
+  - Internet Measurement Conference: Reduce, Reuse, Recycle: Repurposing Existing Measurements to Identify Stale Traceroutes
+- 2021:
+  - HotNets: Towards a traffic map of the Internet Connecting the dots between popular services and users: Connecting the dots between popular services and users [qualifying]
+  - Internet Measurement Conference: Corrigendum: cloud provider connectivity in the flat internet
+  - Internet Measurement Conference: Towards identifying networks with internet clients using public data
+  - NSDI: Cost-effective Cloud Edge Traffic Engineering with Cascara [qualifying]
+  - SIGCOMM: Anycast In context: a tale of two systems [qualifying]
+  - SIGCOMM: Seven years in the life of Hypergiants' off-nets [qualifying]
+- 2022:
+  - IMC: The best of both worlds: high availability CDN routing without compromising control [qualifying]
+- 2023:
+  - HotNets: The Central Problem with Distributed Content: Common CDN Deployments Centralize Traffic In A Risky Way
+  - IMC: The Prevalence of Single Sign-On on the Web: Towards the Next Generation of Web Content Measurement
+- 2024:
+  - IMC: What's in the Dataset? Unboxing the APNIC per AS User Population Dataset
+
+### Ang Chen 0001
+
+- DBLP pid: `59/146-1`
+- Counts: baseline networking `11`, total clean `68`, post-2023 clean `26`
+- Top venues: NSDI (10), HotNets (8), USENIX Security Symposium (6), SOSR (3), ACSAC (2), HotCloud (2), NDSS (2), SIGMOD Conference (2)
+- Baseline title terms: data (12), programmable (9), network (8), plane (4), security (3), mitigating (3), traffic (3), switches (3)
+- Post-2023 title terms: cloud (8), infrastructure-as-code (4), programs (3), management (2), synthesizing (2), updates (2), remote (2), direct (2)
+
+- 2018:
+  - ACSAC: An Historical Analysis of the SEAndroid Policy Evolution
+  - ACSAC: DeDoS: Defusing DoS with Dispersion Oriented Software
+  - HotCloud: Enforcing Context-Aware BYOD Policies with In-Network Security
+  - SIGCOMM Posters and Demos: The Case for a Rackless Data Center Network Architecture
+- 2019:
+  - CSET @ USENIX Security Symposium: Automated Attack Discovery in Data Plane Systems
+  - HotCloud: NetWarden: Mitigating Network Covert Channels without Performance Loss
+  - HotNets: Accelerated Service Chaining on a Single Switch ASIC [qualifying]
+  - HotNets: Architecting Programmable Data Plane Defenses into the Network with FastFlex [qualifying]
+  - ICDCS: DataEther: Data Exploration Framework For Ethereum
+  - ICNP: NETHCF: Enabling Line-rate and Adaptive Spoofed IP Traffic Filtering
+  - IPDPS Workshops: Green, Yellow, Yield: End-Host Traffic Scheduling for Distributed Deep Learning with TensorLights
+  - NDSS: Total Recall: Persistence of Passwords in Android
+  - NSDI: Zeno: Diagnosing Performance Problems with Temporal Provenance [qualifying]
+  - SIGMOD Conference: Optimizing Declarative Graph Queries at Large Scale
+  - SOSR: Say No to Rack Boundaries: Towards A Reconfigurable Pod-Centric DCN Architecture
+- 2020:
+  - CIDR: Rethinking Data Management Systems for Disaggregated Data Centers
+  - HotNets: Clara: Performance Clarity for SmartNIC Offloading [qualifying]
+  - NDSS: Poseidon: Mitigating Volumetric DDoS Attacks with Programmable Switches
+  - NSDI: Check before You Change: Preventing Correlated Failures in Service Updates [qualifying]
+  - NSDI: Contra: A Programmable System for Performance-aware Routing [qualifying]
+  - SOSR: Adaptive Weighted Traffic Splitting in Programmable Data Planes
+  - SOSR: Grasp the Root Causes in the Data Plane: Diagnosing Latency Problems with SpiderMon
+  - SPIN@SIGCOMM: A Feasibility Study on Time-aware Monitoring with Commodity Switches
+  - SPIN@SIGCOMM: Secure State Migration in the Data Plane
+  - USENIX Security Symposium: NetWarden: Mitigating Network Covert Channels while Preserving Performance
+  - USENIX Security Symposium: Programmable In-Network Security for Context-aware BYOD Policies
+- 2021:
+  - ASPLOS: Probabilistic profiling of stateful data planes for adversarial testing
+  - FAST: High Velocity Kernel File Systems with Bento
+  - HotNets: A Vision for Runtime Programmable Networks [qualifying]
+  - HotNets: MXDAG: A Hybrid Abstraction for Emerging Applications [qualifying]
+  - HotOS: An incremental path towards a safer OS kernel
+  - HotOS: Toward reconfigurable kernel datapaths with learned optimizations
+  - SOSP: Automated SmartNIC Offloading Insights for Network Functions
+  - USENIX Security Symposium: Ripple: A Programmable, Decentralized Link-Flooding Defense Against Adaptive Adversaries
+- 2022:
+  - CPSIOTSEC@CCS: Stargaze: A LEO Constellation Emulator for Security Experimentation
+  - MLSys: Bolt: Bridging the Gap between Auto-tuners and Hardware-native Performance
+  - NSDI: Closed-loop Network Performance Monitoring and Diagnosis with SpiderMon [qualifying]
+  - NSDI: RDC: Energy-Efficient Data Center Network Congestion Relief with Topological Reconfigurability at the Edge [qualifying]
+  - NSDI: Runtime Programmable Switches [qualifying]
+  - NeurIPS: Symbolic Distillation for Learned TCP Congestion Control
+  - SIGMOD Conference: Optimizing Data-intensive Systems in Disaggregated Data Centers with TELEPORT
+  - USENIX Security Symposium: Bedrock: Programmable Network Support for Secure RDMA Systems
+- 2023:
+  - CIDR: Templating Shuffles
+  - HotNets: Simplifying Cloud Management with Cloudless Computing
+  - NSDI: Synthesizing Runtime Programmable Switch Updates
+  - SIGCOMM: Unleashing SmartNIC Packet Processing Performance in P4
+  - USENIX Security Symposium: Remote Direct Memory Introspection
+- 2024:
+  - EuroSys: Enoki: High Velocity Linux Kernel Scheduler Development
+  - EuroSys: Occam: A Programming System for Reliable Network Management
+  - IISWC: Empowering the Quantum Cloud User with QRIO
+  - NeurIPS: IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs
+  - SIGCOMM: In-Network Address Caching for Virtual Networks
+  - SOSP: Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs
+  - SP: NetShuffle: Circumventing Censorship with Shuffle Proxies at the Edge
+  - USENIX Security Symposium: SpotProxy: Rediscovering the Cloud for Censorship Circumvention
+- 2025:
+  - AIOps: Automated Bug Discovery in Cloud Infrastructure-as-Code Updates with LLM Agents
+  - AIOps: Automated Lifting for Cloud Infrastructure-as-Code Programs
+  - APNet: Exposing RDMA NIC Resources for Software-Defined Scheduling
+  - APSys: Towards Fully Disaggregated Recommendation Model Serving
+  - CoNEXT (Short Papers): The Three Faces of Networking
+  - EMNLP: SQUiD: Synthesizing Relational Databases from Unstructured Text
+  - HotNets: A Case for Learned Cloud Emulators
+  - HotNets: Remote Direct Code Execution
+  - NAIC: NSX: Large-Scale Network Simulation on an AI Server
+  - NSDI: Unlocking ECMP Programmability for Precise Traffic Control
+- 2026:
+  - ASPLOS (2): TetriServe: Efficiently Serving Mixed DiT Workloads
+  - NSDI: A Composable Emulation Framework for Whitebox Switches
+  - NSDI: Secure Vickrey Auctions for Online Advertising
+
+### Ravi Netravali
+
+- DBLP pid: `123/3350-1`
+- Counts: baseline networking `11`, total clean `53`, post-2023 clean `21`
+- Top venues: NSDI (19), HotMobile (4), SoCC (4), OSDI (4), MobiSys (3), SOSP (3), HotEdge (2), SIGCOMM (2)
+- Baseline title terms: mobile (8), web (6), video (5), caching (4), page (4), loads (4), distributed (4), analytics (4)
+- Post-2023 title terms: video (8), analytics (6), adaptation (3), data (2), detection (2), memory (2), robust (2), real-time (2)
+
+- 2018:
+  - HotMobile: Remote-Control Caching: Proxy-based URL Rewriting to Decrease Mobile Browsing Bandwidth
+  - NSDI: Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs [qualifying]
+  - NSDI: Vesper: Measuring Time-to-Interactivity for Web Pages [qualifying]
+- 2019:
+  - HotEdge: Edge-based Transcoding for Adaptive Live Video Streaming
+  - HotEdge: Secure Incentivization for Decentralized Content Delivery
+  - MobiSys: WatchTower: Fast, Secure Mobile Page Loads Using Remote Dependency Resolution
+  - SIGCOMM Posters and Demos: Sluice: Network-Wide Data Plane Programming
+  - SoCC: A System-Wide Debugging Assistant Powered by Natural Language Processing
+  - SoCC: Acorn: Aggressive Result Caching in Distributed Data Processing Frameworks
+  - SoCC: Reverb: Speculative Debugging for Web Applications
+- 2020:
+  - CoNEXT: Mind the delay: the adverse effects of delay-based TCP on HTTP [qualifying]
+  - NSDI: ABC: A Simple Explicit Congestion Controller for Wireless Networks [qualifying]
+  - NSDI: Fawkes: Faster Mobile Page Loads via App-Inspired Static Templating [qualifying]
+  - OSDI: Semeru: A Memory-Disaggregated Managed Runtime
+  - SIGCOMM: Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics [qualifying]
+  - SIGMOD Conference: Physical Visualization Design
+- 2021:
+  - HotEdgeVideo@MobiCom: Towards memory-efficient inference in edge video analytics
+  - HotMobile: Rethinking Client-Side Caching for the Mobile Web
+  - HotMobile: WebMedic: Disentangling the Memory-Functionality Tension for the Next Billion Mobile Web Users
+  - HotNets: Snicket: Query-Driven Distributed Tracing [qualifying]
+  - MobiSys: Marauder: synergized caching and prefetching for low-risk mobile app acceleration
+  - NSDI: Alohamora: Reviving HTTP/2 Push and Preload by Adapting Policies On the Fly [qualifying]
+  - NSDI: Oblique: Accelerating Page Loads Using Symbolic Execution [qualifying]
+  - OSDI: Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads
+  - OSDI: Horcrux: Automatic JavaScript Parallelism for Resource-Efficient Web Computation
+  - SoCC: Portkey: Adaptive Key-Value Placement over Dynamic Edge Networks
+- 2022:
+  - HotMobile: Understanding the potential of server-driven edge video analytics
+  - IMC: Enabling passive measurement of zoom performance in production networks [qualifying]
+  - MLSys: Revelio: ML-Generated Debugging Queries for Finding Root Causes in Distributed Systems
+  - MobiSys: Floo: automatic, lightweight memoization for faster mobile apps
+  - NSDI: Privid: Practical, Privacy-Preserving Video Analytics Queries [qualifying]
+  - OSDI: Jawa: Web Archival in the Era of JavaScript
+- 2023:
+  - ECML/PKDD (1): Marvolo: Programmatic Data Augmentation for Deep Malware Detection
+  - NSDI: Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs
+  - NSDI: Boggart: Towards General-Purpose Acceleration of Retrospective Video Analytics
+  - NSDI: Canvas: Isolated and Adaptive Swapping for Multi-Applications on Remote Memory
+  - NSDI: Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming
+  - NSDI: Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
+  - NSDI: RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics
+  - VLDB Workshops: QuEST: Fast, Expressive, and Cheap Analytics for Distributed Traces Using Cloud Storage
+- 2024:
+  - NSDI: ADR-X: ANN-Assisted Wireless Link Rate Adaptation for Compute-Constrained Embedded Gaming Devices
+  - NSDI: MadEye: Boosting Live Video Analytics Accuracy with Adaptive Camera Configurations
+  - NSDI: NetVigil: Robust and Low-Cost Anomaly Detection for East-West Data Center Security
+  - NSDI: Sprinter: Speeding Up High-Fidelity Crawling of the Modern Web
+  - SOSP: Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving
+  - SOSP: Improving DNN Inference Throughput Using Practical, Per-Input Compute Adaptation
+- 2025:
+  - HotNets: Software Managed Networks via Coarsening
+  - HotOS: Guillotine: Hypervisors for Isolating Malicious AIs
+  - MLSys: Marconi: Prefix Caching for the Era of Hybrid LLMs
+  - NSDI: Mowgli: Passively Learned Rate Control for Real-Time Video
+  - SIGCOMM: Scalable Video Conferencing Using SDN Principles
+  - SOSP: METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation
+- 2026:
+  - NSDI: Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs
+
+### Junchen Jiang
+
+- DBLP pid: `49/8398`
+- Counts: baseline networking `11`, total clean `51`, post-2023 clean `24`
+- Top venues: SIGCOMM (9), NSDI (9), SoCC (4), APNet (2), EuroSys (2), HotCloud (2), HotMobile (2), SEC (2)
+- Baseline title terms: video (16), analytics (12), learning (6), streaming (5), quality (3), edge (3), deep (2), networking (2)
+- Post-2023 title terms: video (6), model (6), applications (5), streaming (4), language (4), analytics (3), learning (3), adaptation (3)
+
+- 2018:
+  - APNet: Demystifying Deep Learning in Networking
+  - EuroSys: BDS: a centralized near-optimal overlay network for inter-datacenter data replication
+  - HotCloud: Reinventing Video Streaming for Distributed Vision Analytics
+  - SIGCOMM: Chameleon: scalable adaptation of video analytics [qualifying]
+- 2019:
+  - APNet: Rethinking Transport Layer Design for Distributed Machine Learning
+  - HotCloud: Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics
+  - HotEdgeVideo@MobiCom: Networked Cameras Are the New Big Data Clusters
+  - HotMobile: Scaling Video Analytics Systems to Large Camera Deployments
+  - SIGCOMM: E2E: embracing user heterogeneity to improve quality of experience on the web [qualifying]
+  - SIGCOMM: Pano: optimizing 360° video streaming with a better understanding of quality perception [qualifying]
+  - SIGCOMM: Zooming in on wide-area latencies to a global cloud provider [qualifying]
+- 2020:
+  - SEC: Spatula: Efficient cross-camera video analytics on large camera networks
+  - SIGCOMM: Server-Driven Video Streaming for Deep Learning Inference [qualifying]
+- 2021:
+  - INFOCOM: Enabling Edge-Cloud Video Analytics for Robotics Applications
+  - Internet Measurement Conference: Precise error estimation for sketch-based flow measurement
+  - NSDI: SENSEI: Aligning Video Streaming Quality with Dynamic User Sensitivity [qualifying]
+  - SEC: Towards Performance Clarity of Edge Video Analytics
+  - SIGCOMM: CocoSketch: high-performance sketch-based measurement over arbitrary partial key query [qualifying]
+  - SoCC: Sayer: Using Implicit Feedback to Optimize System Policies
+- 2022:
+  - ACM Multimedia: Bandwidth-Efficient Multi-video Prefetching for Short Video Streaming
+  - HotMobile: Understanding the potential of server-driven edge video analytics
+  - ICPADS: FedDGIC: Reliable and Efficient Asynchronous Federated Learning with Gradient Compensation
+  - MLSys: AccMPEG: Optimizing Video Encoding for Accurate Video Analytics
+  - NSDI: Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers [qualifying]
+  - NSDI: Privid: Practical, Privacy-Preserving Video Analytics Queries [qualifying]
+  - SIGCOMM: Genet: automatic curriculum generation for learning adaptation in networking [qualifying]
+  - SoCC: Minimizing packet retransmission for real-time video analytics
+- 2023:
+  - CIDR: Raising the Level of Abstraction for Time-State Analytics With the Timeline Framework
+  - IMC: Estimating WebRTC Video QoE Metrics Without Using Application Headers
+  - INFOCOM: Gemini: Divide-and-Conquer for Practical Learning-Based Internet Congestion Control
+  - NSDI: RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics
+  - SoCC: OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation
+  - SoCC: Online Profiling and Adaptation of Quality Sensitivity for Internet Video
+  - WOC@Middleware: Towards Optimal Preemptive GPU Time-Sharing for Edge Model Serving
+- 2024:
+  - CLOUD: Fed2PKD: Bridging Model Diversity in Federated Learning via Two-Pronged Knowledge Distillation
+  - EDGE: Concierge: Towards Accuracy-Driven Bandwidth Allocation for Video Analytics Applications in Edge Network
+  - NAIC: Eloquent: A More Robust Transmission Scheme for LLM Token Streaming
+  - NSDI: ARTEMIS: Adaptive Bitrate Ladder Optimization for Live Video Streaming
+  - NSDI: GRACE: Loss-Resilient Real-Time Video through Neural Codecs
+  - NSDI: Towards Domain-Specific Network Transport for Distributed DNN Training
+  - OSDI: ChameleonAPI: Automatic and Efficient Customization of Neural Networks for ML Applications
+  - SIGCOMM: CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving
+  - SIGCOMM: NetLLM: Adapting Large Language Models for Networking
+- 2025:
+  - ASPLOS (1): Earth+: On-Board Satellite Imagery Compression Leveraging Historical Earth Observations
+  - EuroSys: CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion
+  - NSDI: Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters
+  - SOSP: METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation
+  - SOSP: PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications
+- 2026:
+  - AAAI: DeNC++: Efficient Diffusion-Enhanced Neural Codec for End-to-end Semantic Streaming at the Edge
+  - NINeS: SwiftQueue: Optimizing Low-Latency Applications with Swift Packet Queuing
+  - NSDI: DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants
+
+### Mattijs Jonker
+
+- DBLP pid: `163/4064`
+- Counts: baseline networking `11`, total clean `44`, post-2023 clean `20`
+- Top venues: IMC (11), TMA (7), Internet Measurement Conference (5), PAM (4), EuroS&P Workshops (3), CNSM (3), ANRW (3), NOMS (2)
+- Baseline title terms: dns (13), ddos (5), infrastructure (4), attacks (3), potential (3), anycast (3), amplification (3), domain (3)
+- Post-2023 title terms: dns (4), network (3), anycast (3), internet (3), reverse (2), characterization (2), data (2), security (2)
+
+- 2018:
+  - Internet Measurement Conference: A First Joint Look at DoS Attacks and BGP Blackholing in the Wild
+  - SIGCOMM Posters and Demos: On the Potential of BGP Flowspec for DDoS Mitigation at Two Sources: ISP and IXP
+- 2020:
+  - EuroS&P Workshops: The Forgotten Side of DNS: Orphan and Abandoned Records
+  - Internet Measurement Conference: MAnycast2: Using Anycast to Measure Anycast
+  - Internet Measurement Conference: Unresolved Issues: Prevalence, Persistence, and Perils of Lame Delegations
+  - NOMS: DDoS Mitigation: A Measurement-Based Approach
+  - PAM: When Parents and Children Disagree: Diving into DNS Delegation Inconsistency
+- 2021:
+  - CNSM: ANYway: Measuring the Amplification DDoS Potential of Domains
+  - Internet Measurement Conference: The far side of DNS amplification: tracing the DDoS attack ecosystem from the internet core
+  - Internet Measurement Conference: Who's got your mail?: characterizing mail service provider usage
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+- 2022:
+  - CNSM: Assessing e-Government DNS Resilience
+  - EuroS&P Workshops: No Time for Downtime: Understanding Post-Attack Behaviors by Customers of Managed DNS Providers
+  - IMC: Investigating the impact of DDoS attacks on DNS infrastructure [qualifying]
+  - IMC: Observable KINDNS: validating DNS hygiene [qualifying]
+  - IMC: On unifying diverse DNS data sources [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Saving Brian's privacy: the perils of privacy exposure through reverse DNS [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - NOMS: Hosting Industry Centralization and Consolidation
+  - PAM: A Matter of Degree: Characterizing the Amplification Power of Open DNS Resolvers
+  - RAID: Mirrors in the Sky: On the Potential of Clouds in DNS Reflection-based Denial-of-Service Attacks
+  - TMA: Domain Name Lifetimes: Baseline and Threats
+  - ... 1 more in JSON packet
+- 2023:
+  - AINTEC: Advancing in Reverse: A Comprehensive Characterization of IN-ADDR.ARPA Deployment
+  - ANRW: Lowering the Barriers to Working with Public RIR-Level Data
+  - EuroS&P: Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy
+  - EuroS&P Workshops: Assessing Network Operator Actions to Enhance Digital Sovereignty and Strengthen Network Resilience: A Longitudinal Analysis during the Russia-Ukraine Conflict
+  - IMC: Poster: Through the ccTLD Looking Glass: Mining CT Logs for Fun, Profit and Domain Names
+  - TMA: Hazardous Echoes: The DNS Resolvers that Should Be Put on Mute
+- 2024:
+  - ANRW: An Empirical Characterization of Anycast Convergence Time
+  - IMC: DarkDNS: Revisiting the Value of Rapid Zone Update
+  - IMC: The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+  - IMC: The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages a Knowledge Graph for the Internet
+  - PAM (2): Swamp of Reflectors: Investigating the Ecosystem of Open DNS Resolvers
+  - USENIX Security Symposium: LanDscAPe: Exploring LDAP weaknesses and data leaks at Internet scale
+- 2025:
+  - ANRW: Locating and Enumerating Anycast: a Comparison of Two Approaches
+  - CNSM: Characterizing Hosting and Security Practices for Public-Facing LDAP Servers
+  - IMC: LACeS: An Open, Fast, Responsible and Efficient Longitudinal Anycast Census System
+  - TMA: From Scarcity to Opportunity: Examining Abuse of the IPv4 Leasing Market
+  - TMA: On the Role of Forward-Confirmed Reverse DNS in E-Mail Authentication
+  - TMA: To Block or Not to Block? Evaluating Parental Controls Across Routers, DNS Services, and Software
+- 2026:
+  - PAM: Prefix Top Lists Reloaded: A Temporal Prefix Ranking Dataset
+  - PAM: Through a Smaller Lens: Revisiting Opportunistic Analysis Using Network Telescopes
+
+### Alberto Dainotti
+
+- DBLP pid: `28/5074`
+- Counts: baseline networking `11`, total clean `42`, post-2023 clean `18`
+- Top venues: IMC (12), Internet Measurement Conference (6), PAM (5), NSDI (3), TMA (3), USENIX Security Symposium (2), ANRW (1), INFOCOM (1)
+- Baseline title terms: bgp (7), internet (5), dns (3), hijacking (2), wild (2), attacks (2), ddos (2), address (2)
+- Post-2023 title terms: poster (4), network (3), internet (3), investigating (3), bgp (3), improving (2), autonomous (2), access (2)
+
+- 2018:
+  - ANRW: ARTEMIS: Neutralizing BGP Hijacking within a Minute
+  - INFOCOM: Inferring Carrier-Grade NAT Deployment in the Wild
+  - Internet Measurement Conference: A First Joint Look at DoS Attacks and BGP Blackholing in the Wild
+  - SIGCOMM Posters and Demos: On the Potential of BGP Flowspec for DDoS Mitigation at Two Sources: ISP and IXP
+- 2019:
+  - Internet Measurement Conference: Profiling BGP Serial Hijackers: Capturing Persistent Misbehavior in the Global Routing Table
+  - NSDI: Blink: Fast Connectivity Recovery Entirely in the Data Plane [qualifying]
+  - PAM: How to Find Correlated Internet Failures
+  - TMA: BGP hijacking classification
+  - TMA: Chocolatine: Outage Detection for Internet Background Radiation
+  - TMA: Geo-locating BGP prefixes
+- 2020:
+  - CoNEXT: DynamIPs: analyzing address assignment practices in IPv4 and IPv6 [qualifying]
+  - EuroS&P Workshops: The Forgotten Side of DNS: Orphan and Abandoned Records
+  - Internet Measurement Conference: AS-Path Prepending: there is no rose without a thorn
+  - Internet Measurement Conference: MAnycast2: Using Anycast to Measure Anycast
+  - PAM: To Filter or Not to Filter: Measuring the Benefits of Registering in the RPKI Today
+  - PAM: When Parents and Children Disagree: Diving into DNS Delegation Inconsistency
+- 2021:
+  - FOCI@SIGCOMM: A multi-perspective view of Internet censorship in Myanmar
+  - Internet Measurement Conference: Identifying ASes of state-owned internet operators
+  - Internet Measurement Conference: The parallel lives of autonomous systems: ASN allocations vs. BGP
+- 2022:
+  - IMC: Analysis of IPv4 address space utilization with ANT ISI dataset and censys [qualifying]
+  - IMC: Investigating the impact of DDoS attacks on DNS infrastructure [qualifying]
+  - IMC: iGDB: connecting the physical and logical layers of the internet [qualifying]
+  - PAM: Quantifying Nations' Exposure to Traffic Observation and Selective Tampering
+  - USENIX Security Symposium: Spoki: Unveiling a New Wave of Scanners through a Reactive Network Telescope
+- 2023:
+  - CoNEXT (Short Papers): Aggressive Internet-Wide Scanners: Network Impact and Longitudinal Characterization
+  - IMC: How to Operate a Meta-Telescope in your Spare Time
+  - PAM: Improving the Inference of Sibling Autonomous Systems
+  - SIGCOMM: Destination Unreachable: Characterizing Internet Outages and Shutdowns
+  - SecureComm (2): DDoS Mitigation Dilemma Exposed: A Two-Wave Attack with Collateral Damage of Millions
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+- 2024:
+  - IMC: Poster: Enhancing Internet Disruption Investigation via Path Monitoring
+  - IMC: Poster: Investigating Autonomous Systems Recurrently Causing Unexplained (Sub)MOAS Events
+  - IMC: Poster: Investigating Network Security Post-Outage: Open Ports Vulnerabilities
+  - NSDI: A System to Detect Forged-Origin BGP Hijacks
+  - PAM (1): Towards Improving Outage Detection with Multiple Probing Protocols
+- 2025:
+  - IMC: A First Look into Long-lived BGP Zombies
+  - IMC: Assessing LEO Satellite Networks for National Emergency Failover
+  - IMC: Poster: Investigating the Survivability of the Experimental TCP Option
+  - IMC: Prefix2Org: Mapping BGP Prefixes to Organizations
+  - IMC: Replication: A Two Decade Review of Policy Atoms - Tracing the Evolution of AS Path Sharing Prefixes
+- 2026:
+  - NDSS: Repairing Trust in Domain Name Disputes Practices: Insights from a Quarter-Century's Worth of Squabbles
+  - NSDI: MORP4: A Dynamic Network Telescope
+
+### Omid Abari
+
+- DBLP pid: `71/9428`
+- Counts: baseline networking `11`, total clean `38`, post-2023 clean `12`
+- Top venues: HotNets (6), SIGCOMM (6), MobiCom (5), SenSys (4), HotMobile (3), MobiSys (2), UIST (2), IPSN (2)
+- Baseline title terms: wifi (8), rfid (8), backscatter (7), can (5), networks (4), millimeter (4), wave (4), communication (3)
+- Post-2023 title terms: sensing (4), wireless (3), side-channels (2), processors (2), low (2), overhead (2), radios (2), side (2)
+
+- 2018:
+  - HotNets: WiTAG: Rethinking Backscatter Communication for WiFi Networks [qualifying]
+  - MobiCom: Challenge: RFID Hacking for Fun and Profit
+  - MobiCom: Poster: Bringing mmWave Communications to Raspberry Pi
+  - SIGCOMM: Fast millimeter wave beam alignment [qualifying]
+  - SIGCOMM: In-body backscatter communication and localization [qualifying]
+- 2019:
+  - HotNets: Wi-LE: Can WiFi Replace Bluetooth? [qualifying]
+  - MobiSys: Are RFID Sensing Systems Ready for the Real World?
+  - SIGCOMM: A millimeter wave network for billions of things [qualifying]
+  - SIGCOMM Posters and Demos: SwimTrack: Drowning Detection using RFID
+  - UIST: Tip-Tap: Battery-free Discrete 2D Fingertip Input
+- 2020:
+  - BuildSys: Can Future Wireless Networks Detect Fires?
+  - HotNets: Millimeter Wave Backscatter: Toward Batteryless Wireless Networking at Gigabit Speeds [qualifying]
+  - HotNets: WiFi Says "Hi!" Back to Strangers! [qualifying]
+  - IoTDI: ID-Clicker: A Battery-Free In-Class Response System Using RFID Tags
+  - MSWiM: PNOFA: Practical, Near-Optimal Frame Aggregation for Modern 802.11 Networks
+  - MobiSys: Soil moisture sensing with commodity RFID systems
+  - SIGCOMM: WiTAG: Seamless WiFi Backscatter Communication [qualifying]
+  - SenSys: Sensing finger input using an RFID transmission line
+- 2021:
+  - HotMobile: mmWall: A Reconfigurable Metamaterial Surface for mmWave Networks
+  - HotNets: Can WiFi Backscatter Achieve the Range of RFID?: Nulling to the Rescue [qualifying]
+  - MobiCom: Verification: can wifi backscatter replace RFID?
+  - SIGCOMM: mmTag: a millimeter wave backscatter network [qualifying]
+  - UIST: PocketView: Through-Fabric Information Displays
+- 2022:
+  - HotMobile: 5G in the sky: the future of high-speed internet via unmanned aerial vehicles
+  - HotNets: Bringing wifi localization to any wifi devices [qualifying]
+  - SECON: How Manufacturers Can Easily Improve Working Range of Passive RFIDs
+- 2023:
+  - IPSN: Demo Abstract: Leveraging Side-Channels to Turn Processors into Low Overhead Radios
+  - IPSN: Everything has its Bad Side and Good Side: Turning Processors to Low Overhead Radios Using Side-Channels
+  - MobiCom: Bringing Millimeter Wave Technology to Any IoT Device
+  - NSDI: mmWall: A Steerable, Transflective Metamaterial Surface for NextG mmWave Networks
+  - SIGCOMM: A Millimeter Wave Backscatter Network for Two-Way Communication and Localization
+- 2024:
+  - HotMobile: Can IoT Devices be Powered up by Future Indoor Wireless Networks?
+  - ICML: NeWRF: A Deep Learning Framework for Wireless Radiation Field Reconstruction and Channel Prediction
+  - MobiCom: Enabling On-Demand Low-Power mmWave Repeaters via Passive Beamforming
+- 2026:
+  - NDSS: XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing
+  - SenSys: Deform to Inform: Persistent Batteryless Sensing via Antenna Deformation and RFID Impedance Adaptation
+  - SenSys: FruitScope: A Non-Invasive Fruit Ripeness Sensing System via Multi-Resolution FMCW Design and Acoustic Sensing
+  - SenSys: Motion Capture with Millimeter-Wave Tags
+
+### Geoffrey M. Voelker
+
+- DBLP pid: `v/GeoffreyMVoelker`
+- Counts: baseline networking `11`, total clean `37`, post-2023 clean `12`
+- Top venues: Internet Measurement Conference (8), IMC (7), USENIX Security Symposium (3), WWW (3), SoCC (2), TMA (2), EuroS&P (2), ANCS (1)
+- Baseline title terms: dns (4), characterizing (3), hijacking (3), infrastructure (3), account (2), serverless (2), measuring (2), security (2)
+- Post-2023 title terms: understanding (3), email (2), fingerprinting (2), efficacy (2), empirical (1), enterprise-wide (1), mandatory (1), password (1)
+
+- 2018:
+  - ANCS: Dark packets and the end of network scaling
+  - HotCloud: CacheCloud: Towards Speed-of-light Datacenter Communication
+  - Internet Measurement Conference: An Empirical Analysis of the Commercial VPN Ecosystem
+  - Internet Measurement Conference: Following Their Footsteps: Characterizing Account Automation Abuse and Defenses
+  - SoCC: Sprocket: A Serverless Video Processing Framework
+- 2019:
+  - ICSE (SEIP): Web feature deprecation: a case study for chrome
+  - Internet Measurement Conference: Measuring Security Practices and How They Impact Security
+  - USENIX Security Symposium: Detecting and Characterizing Lateral Phishing at Scale
+  - USENIX Security Symposium: Reading the Tea leaves: A Comparative Analysis of Threat Intelligence
+  - WWW: Hack for Hire: Exploring the Emerging Market for Account Hijacking
+- 2020:
+  - Internet Measurement Conference: Trufflehunter: Cache Snooping Rare Domains at Large Public DNS Resolvers
+  - Internet Measurement Conference: Unresolved Issues: Prevalence, Persistence, and Perils of Lame Delegations
+  - SoCC: Particle: ephemeral endpoints for serverless networking
+- 2021:
+  - Internet Measurement Conference: Home is where the hijacking is: understanding DNS interception by residential routers
+  - Internet Measurement Conference: Risky BIZness: risks derived from registrar name management
+  - Internet Measurement Conference: Who's got your mail?: characterizing mail service provider usage
+  - PAM: Clairvoyance: Inferring Blocklist Use on the Internet
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+  - USENIX Security Symposium: Hopper: Modeling and Detecting Lateral Movement
+- 2022:
+  - EuroSys: FaaSnap: FaaS made fast using snapshot-based VMs
+  - IMC: Measuring UID smuggling in the wild [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - TMA: Domain Name Lifetimes: Baseline and Threats
+  - eCrime: The Challenges of Blockchain-Based Naming Systems for Malware Defenders
+- 2023:
+  - ACSAC: An Empirical Analysis of Enterprise-Wide Mandatory Password Updates
+  - CSET @ USENIX Security Symposium: In the Line of Fire: Risks of DPI-triggered Data Collection
+  - EuroS&P: Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy
+  - SOUPS: Understanding the Viability of Gmail's Origin Indicator for Identifying the Sender
+- 2024:
+  - EuroS&P: Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild
+  - IMC: Give and Take: An End-To-End Investigation of Giveaway Scam Conversion Rates
+  - WWW: Unfiltered: Measuring Cloud-based Email Filtering Bypasses
+- 2025:
+  - IMC: Canvassing the Fingerprinters: Characterizing Canvas Fingerprinting Use Across the Web
+  - IMC: Poster: When Blocks Go Missing: The Timeliness and Trustworthiness of Blockchain RPC Providers
+  - IMC: Somesite I Used To Crawl: Awareness, Agency and Efficacy in Protecting Content Creators From AI Crawlers
+  - SP: Understanding the Efficacy of Phishing Training in Practice
+- 2026:
+  - WWW: Understanding Server-side Commercial Fingerprinting
+
+### Hari Balakrishnan
+
+- DBLP pid: `b/HariBalakrishnan`
+- Counts: baseline networking `11`, total clean `33`, post-2023 clean `4`
+- Top venues: NSDI (5), SIGCOMM (5), ANRW (3), SIGSPATIAL/GIS (3), MobiSys (3), HotNets (3), CVPR (2), HotEdge (1)
+- Baseline title terms: congestion (9), control (9), internet (5), road (4), extraction (3), networks (3), aerial (3), imagery (3)
+- Post-2023 title terms: drivetrack (1), benchmark (1), long-range (1), point (1), tracking (1), real-world (1), videos (1), case (1)
+
+- 2018:
+  - ANRW: Copa: Practical Delay-Based Congestion Control for the Internet
+  - ANRW: Elasticity Detection: A Building Block for Delay-Sensitive Congestion Control
+  - ANRW: Restructuring Endpoint Congestion Control
+  - CVPR: RoadTracer: Automatic Extraction of Road Networks From Aerial Images
+  - NSDI: Copa: Practical Delay-Based Congestion Control for the Internet [qualifying]
+  - NSDI: Vesper: Measuring Time-to-Interactivity for Web Pages [qualifying]
+  - SIGCOMM: Restructuring endpoint congestion control [qualifying]
+  - SIGSPATIAL/GIS: Machine-assisted map editing
+  - SIGSPATIAL/GIS: RoadRunner: improving the precision of road network inference from GPS trajectories
+- 2019:
+  - HotEdge: Secure Incentivization for Decentralized Content Delivery
+  - MobiSys: WatchTower: Fast, Secure Mobile Page Loads Using Remote Dependency Resolution
+  - NSDI: Shenango: Achieving High CPU Efficiency for Latency-sensitive Datacenter Workloads [qualifying]
+- 2020:
+  - AAAI: RoadTagger: Robust Road Attribute Inference with Graph Neural Networks
+  - ECCV (24): Sat2Graph: Road Graph Extraction Through Graph-Tensor Encoding
+  - HotNets: Bertha: Tunneling through the Network API [qualifying]
+  - MobiSys: BeeCluster: drone orchestration via predictive optimization
+  - NSDI: ABC: A Simple Explicit Congestion Controller for Wireless Networks [qualifying]
+  - NSDI: RFocus: Beamforming Using Thousands of Passive Antennas [qualifying]
+  - SIGMOD Conference: MIRIS: Fast Object Track Queries in Video
+- 2021:
+  - DroNet@MobiSys: Toward a Marketplace for Aerial Computing
+  - EuroSys: Site-to-site internet traffic control
+  - ICCV: Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories
+  - MobiSys: Throughput-fairness tradeoffs in mobility platforms
+  - SIGCOMM: Toward formally verifying congestion control behavior [qualifying]
+  - SIGSPATIAL/GIS: Updating Street Maps using Changes Detected in Satellite Imagery
+- 2022:
+  - HotNets: The case for an internet primitive for fault localization [qualifying]
+  - SIGCOMM: Elasticity detection: a building block for internet congestion control [qualifying]
+  - SIGCOMM: Starvation in end-to-end congestion control [qualifying]
+  - WACV: Lane-Level Street Map Extraction from Aerial Imagery
+- 2024:
+  - CVPR: DriveTrack: A Benchmark for Long-Range Point Tracking in Real-World Videos
+  - HotNets: The Case for Decentralized Fallback Networks
+  - SIGCOMM: Principles for Internet Congestion Management
+- 2026:
+  - NINeS: Scalable Routing in a City-Scale Wi-Fi Network for Disaster Recovery
+
+### Michael Schapira
+
+- DBLP pid: `15/5634`
+- Counts: baseline networking `11`, total clean `31`, post-2023 clean `5`
+- Top venues: HotNets (6), SIGCOMM (5), ANRW (3), NDSS (3), NSDI (2), FMCAD (2), CHANTS@MOBICOM (1), ESA (1)
+- Baseline title terms: congestion (8), control (8), network (4), internet (4), time (3), deep (3), learning (3), preventing (2)
+- Post-2023 title terms: verifying (1), generalization (1), deep (1), learning (1), dote (1), predictive (1), wan (1), traffic (1)
+
+- 2018:
+  - ANRW: Preventing (Network) Time Travel with Chronos
+  - CHANTS@MOBICOM: Congestion Control for Future Mobile Networks
+  - ESA: Large Low-Diameter Graphs are Good Expanders
+  - HPSR: Network-Model-Based vs. Network-Model-Free Approaches to Internet Congestion Control
+  - HotNets: Perfect is the Enemy of Good: Setting Realistic Goals for BGP Security [qualifying]
+  - INFOCOM Workshops: Nash-peering: A new techno-economic framework for internet interconnections
+  - NDSS: Preventing (Network) Time Travel with Chronos
+  - NSDI: PCC Vivace: Online-Learning Congestion Control [qualifying]
+- 2019:
+  - HotNets: Beating BGP is Harder than we Thought [qualifying]
+  - HotNets: Robustifying Network Protocols with Adversarial Examples [qualifying]
+  - ICML: A Deep Reinforcement Learning Perspective on Internet Congestion Control
+  - NetAI@SIGCOMM: Verifying Deep-RL-Driven Systems
+  - SIGCOMM: TEAVAR: striking the right utilization-availability balance in WAN traffic engineering [qualifying]
+  - SIGMETRICS (Abstracts): Axiomatizing Congestion Control
+- 2020:
+  - CoNEXT: MPCC: online learning multipath transport [qualifying]
+  - HotNets: On the Future of Congestion Control for the Public Internet [qualifying]
+  - HotNets: Online Safety Assurance for Learning-Augmented Systems [qualifying]
+  - NDSS: DISCO: Sidestepping RPKI's Deployment Barriers
+  - SIGCOMM: A Public Option for the Core [qualifying]
+  - SIGCOMM: PCC Proteus: Scavenger Transport And Beyond [qualifying]
+- 2021:
+  - ANRW: Toward greater scavenger congestion control deployment: implementations and interfaces
+  - FMCAD: Towards Scalable Verification of Deep Reinforcement Learning
+  - NDSS: A Devil of a Time: How Vulnerable is NTP to Malicious Timeservers?
+  - SIGCOMM: Verifying learning-augmented systems [qualifying]
+- 2022:
+  - FMCAD: Verification-Aided Deep Ensemble Selection
+  - MHV: Network congestion control and its impact on video streaming QoE
+- 2023:
+  - CAV (2): Verifying Generalization in Deep Learning
+  - NSDI: DOTE: Rethinking (Predictive) WAN Traffic Engineering
+- 2024:
+  - ANRW: The Observer Effect in Computer Networks
+  - HotNets: End-to-End Performance Analysis of Learning-enabled Systems
+  - SIGCOMM: Principles for Internet Congestion Management
+
+### Rachit Agarwal 0001
+
+- DBLP pid: `41/5447-1`
+- Counts: baseline networking `11`, total clean `30`, post-2023 clean `12`
+- Top venues: NSDI (8), SIGCOMM (6), OSDI (5), USENIX Security Symposium (3), SOSP (2), EuroSys (1), HotNets (1), PODC (1)
+- Baseline title terms: network (5), distributed (3), oblivious (3), stack (3), storage (3), monitoring (2), near-optimal (2), networks (2)
+- Post-2023 title terms: host (3), network (2), resource (2), allocation (2), dynamic (2), demands (2), memory (2), access (2)
+
+- 2018:
+  - NSDI: Distributed Network Monitoring and Debugging with SwitchPointer [qualifying]
+  - OSDI: Obladi: Oblivious Serializable Transactions in the Cloud
+  - SIGCOMM: Sincronia: near-optimal network design for coflows [qualifying]
+- 2019:
+  - NSDI: Confluo: Distributed Monitoring and Diagnosis Stack for High-speed Networks [qualifying]
+  - NSDI: Shoal: A Network Architecture for Disaggregated Racks [qualifying]
+- 2020:
+  - NSDI: Building An Elastic Query Engine on Disaggregated Storage [qualifying]
+  - NSDI: TCP ≈ RDMA: CPU-efficient Remote Storage Access with i10 [qualifying]
+  - USENIX Security Symposium: Pancake: Frequency Smoothing for Encrypted Data Stores
+- 2021:
+  - NSDI: CodedBulk: Inter-Datacenter Bulk Transfers using Network Coding [qualifying]
+  - OSDI: Rearchitecting Linux Storage Stack for µs Latency and High Throughput
+  - SIGCOMM: Understanding host network stack overheads [qualifying]
+- 2022:
+  - EuroSys: Jiffy: elastic far-memory for stateful serverless analytics
+  - HotNets: Understanding host interconnect congestion [qualifying]
+  - OSDI: SHORTSTACK: Distributed, Fault-tolerant, Oblivious Data Access
+  - PODC: From Switch Scheduling to Datacenter Scheduling: Matching-Coordinated Greed is Good
+  - SIGCOMM: Towards [qualifying]
+  - SIGCOMM: dcPIM: near-optimal proactive datacenter transport [qualifying]
+  - STOC: Optimal oblivious reconfigurable networks
+- 2023:
+  - NSDI: Formal Methods for Network Performance Analysis
+  - OSDI: Karma: Resource Allocation for Dynamic Demands
+  - SIGCOMM: Host Congestion Control
+- 2024:
+  - NSDI: Harmony: A Congestion-free Datacenter Architecture
+  - OSDI: High-throughput and Flexible Host Networking for Accelerated Computing
+  - SAGT: Incentives in Dominant Resource Fair Allocation Under Dynamic Demands
+  - SIGCOMM: Understanding the Host Network
+  - SOSP: Fast & Safe IO Memory Protection
+  - SOSP: Tiered Memory Management: Access Latency is the Key!
+  - SP: Injection Attacks Against End-to-End Encrypted Applications
+  - USENIX Security Symposium: Exploiting Leakage in Password Managers via Injection Attacks
+  - USENIX Security Symposium: Length Leakage in Oblivious Data Access Mechanisms
+
+### Justine Sherry
+
+- DBLP pid: `37/8465`
+- Counts: baseline networking `11`, total clean `25`, post-2023 clean `10`
+- Top venues: SIGCOMM (6), NSDI (4), HotNets (4), Internet Measurement Conference (2), OSDI (2), IMC (2), HotOS (1), SIGCOMM Posters and Demos (1)
+- Baseline title terms: control (5), network (4), congestion (4), functions (2), fairness (2), algorithms (2), achieving (2), attacks (2)
+- Post-2023 title terms: congestion (4), control (3), communication (2), how (1), learned (1), stop (1), worrying (1), about (1)
+
+- 2018:
+  - NSDI: Elastic Scaling of Stateful Network Functions [qualifying]
+- 2019:
+  - HotNets: Beyond Jain's Fairness Index: Setting the Bar For The Deployment of Congestion Control Algorithms [qualifying]
+  - Internet Measurement Conference: Modeling BBR's Interactions with Loss-Based Congestion Control
+- 2020:
+  - OSDI: Achieving 100Gbps Intrusion Prevention on a Single Server
+  - SIGCOMM: Caching with Delayed Hits [qualifying]
+  - SIGCOMM: Contention-Aware Performance Prediction For Virtualized Network Functions [qualifying]
+- 2021:
+  - HotNets: Counterfeiting Congestion Control Algorithms [qualifying]
+  - HotOS: We need kernel interposition over the network dataplane
+  - Internet Measurement Conference: Revisiting TCP congestion control throughput models & fairness properties at scale
+  - NSDI: Don't Yank My Chain: Auditable NF Service Chaining [qualifying]
+- 2022:
+  - IMC: The ukrainian internet under attack: an NDT perspective [qualifying]
+  - SIGCOMM: Achieving consistent low latency for wireless real-time communications with the shortest control loop [qualifying]
+  - SIGCOMM: SurgeProtector: mitigating temporal algorithmic complexity attacks using adversarial scheduling [qualifying]
+  - SIGCOMM Posters and Demos: Pigasus 2.0: making the pigasus IDS robust to attacks and different workloads
+  - SOSR: Automatic generation of network function accelerators using component-based synthesis
+- 2023:
+  - HotNets: How I Learned to Stop Worrying About CCA Contention
+  - HotNets: Of Apples and Oranges: Fair Comparisons in Heterogenous Systems Evaluation
+  - OSDI: Ensō: A Streaming Interface for NIC-Application Communication
+- 2024:
+  - IMC: Reverse-Engineering Congestion Control Algorithm Behavior
+  - NSDI: BBQ: A Fast and Scalable Integer Priority Queue for Hardware Packet Scheduling
+  - PODC: Impossibility Results for Data-Center Routing with Congestion Control and Unsplittable Flows
+  - SIGCOMM: CCAnalyzer: An Efficient and Nearly-Passive Congestion Control Classifier
+  - SIGCOMM: Prudentia: Findings of an Internet Fairness Watchdog
+  - SIGCOMM (Posters and Demos): POSTER: User-Controllable Congestion Mitigation for Low-Latency Applications
+- 2026:
+  - NSDI: FAST: An Efficient Scheduler for All-to-All GPU Communication
+
+### Ming Zhang 0005
+
+- DBLP pid: `73/1844-5`
+- Counts: baseline networking `11`, total clean `12`, post-2023 clean `0`
+- Top venues: SIGCOMM (10), SelfDN@SIGCOMM (1), NSDI (1)
+- Baseline title terms: data (4), plane (3), configurations (2), language (2), global (2), event (2), programmable (2), video (2)
+- Post-2023 title terms: none
+
+- 2018:
+  - SelfDN@SIGCOMM: Automatic Life Cycle Management of Network Configurations
+- 2019:
+  - SIGCOMM: HPCC: high precision congestion control [qualifying]
+  - SIGCOMM: Safely and automatically updating in-network ACL configurations with intent language [qualifying]
+- 2020:
+  - SIGCOMM: Accuracy, Scalability, Coverage: A Practical Configuration Verifier on a Global WAN [qualifying]
+  - SIGCOMM: Flow Event Telemetry on Programmable Data Plane [qualifying]
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+  - SIGCOMM: NFC+: Breaking NFC Networking Limits through Resonance Engineering [qualifying]
+- 2021:
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+  - SIGCOMM: XLINK: QoE-driven multi-path QUIC transport in large-scale video services [qualifying]
+- 2022:
+  - NSDI: Buffer-based End-to-end Request Event Monitoring in the Cloud [qualifying]
+  - SIGCOMM: GSO-simulcast: global stream orchestration in simulcast video conferencing systems [qualifying]
+  - SIGCOMM: Predictable vFabric on informative data plane [qualifying]
+
+### Georg Carle
+
+- DBLP pid: `c/GeorgCarle`
+- Counts: baseline networking `10`, total clean `155`, post-2023 clean `58`
+- Top venues: NOMS (18), CNSM (10), ANRW (8), IFIP Networking (8), GLOBECOM (6), ANCS (5), IM (5), TMA (5)
+- Baseline title terms: network (21), networks (13), data (12), learning (8), management (8), cognitive (8), distributed (7), deep (7)
+- Post-2023 title terms: network (11), learning (7), quic (6), networks (6), tls (5), distributed (5), federated (4), latency (4)
+
+- 2018:
+  - ANRW: Behind the scenes: what device benchmarks can tell us
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - ANRW: Push Away Your Privacy: Precise User Tracking Based on TLS Client Certificate Authentication
+  - ANRW: User Space Network Drivers
+  - Bench@CPSWeek: Benchmarking Networked Control Systems
+  - Big-DAMA@SIGCOMM: Learning and Generating Distributed Routing Protocols Using Graph-Based Deep Learning
+  - COMSNETS: High-performance packet processing and measurements
+  - CloudNet: Efficient Dynamic Flow Tracking for Packet Analyzers
+  - CloudNet: Intra-Node Resource Isolation for SFC with SR-IOV
+  - DPM/CBT@ESORICS: A Performance and Resource Consumption Assessment of Secret Sharing Based Secure Multiparty Computation
+  - EuCNC: Transactional Network Updates in SDN
+  - ICIN: Evaluation of algorithms for multipath route selection over the Internet
+  - ... 14 more in JSON packet
+- 2019:
+  - ANCS: Cryptographic Hashing in P4 Data Planes
+  - ANCS: The Case for Writing Network Drivers in High-Level Programming Languages
+  - ANCS: User Space Network Drivers
+  - EdgeSys@EuroSys: Enabling Wireless Network Support for Gain Scheduled Control
+  - ICC Workshops: Comparison of Optimization Goals for Resilient Routing
+  - IM: Adaptive Network Management for Safety-Critical Systems
+  - IM: Data Querying and Access Control for Secure Multiparty Computation
+  - IM: Multi-party authorization and conflict mediation for decentralized configuration management processes
+  - IPIN: A Generalized TDoA/ToA Model for ToF Positioning
+  - IPIN: Clock Error Analysis of Common Time of Flight based Positioning Methods
+  - Internet Measurement Conference: Prefix Top Lists: Gaining Insights with Prefixes from Domain-based Top Lists on DNS Deployment
+  - LCN Symposium: FitSDN: Flexible Integrated Transactional SDN
+  - ... 3 more in JSON packet
+- 2020:
+  - CCNC: NCSbench Demo: Reproducible Benchmarking Platform for Networked Control Systems
+  - CCNC: NCSbench: Reproducible Benchmarking Platform for Networked Control Systems
+  - ETFA: Open-Source OPC UA Security and Scalability
+  - EuroP4@CoNEXT: SYN Flood Defense in Programmable Data Planes
+  - ITC: Key Properties of Programmable Data Plane Targets
+  - NOMS: 5G QoS: Impact of Security Functions on Latency
+  - NOMS: Deep Clustering of Mobile Network Data with Sparse Autoencoders
+  - NOMS: Environment Modeling and Abstraction of Network States for Cognitive Functions
+  - NOMS: Hardening X.509 Certificate Issuance using Distributed Ledger Technology
+  - NOMS: Online Monitoring of TCP Throughput Limitations
+  - Networking: Performance Analysis of VPN Gateways
+  - SPECTS: Game theoretic Conflict Resolution Mechanism for Cognitive Autonomous Networks
+- 2021:
+  - ANCS: A Framework for Reproducible Data Plane Performance Modeling
+  - ANCS: High-Performance Match-Action Table Updates from within Programmable Software Data Planes
+  - ANRW: On the evolution of internet flow characteristics
+  - CCNC: Open-Source MQTT Evaluation
+  - CNSM: An Intent-Driven Orchestration of Cognitive Autonomous Networks for RAN management
+  - CNSM: Ducked Tails: Trimming the Tail Latency of(f) Packet Processing Systems
+  - CNSM: EnGINE: Developing a Flexible Research Infrastructure for Reliable and Scalable Intra-Vehicular TSN Networks
+  - CNSM: On Detection of Manipulative Cognitive Functions in Cognitive Autonomous Networks
+  - CoNEXT: Precise real-time monitoring of time-critical flows [qualifying]
+  - CoNEXT: The pos framework: a methodology and toolchain for reproducible network experiments [qualifying]
+  - GLOBECOM (Workshops): Understanding Exploration and Exploitation of Q-Learning Agents in B5G Network Management
+  - IM: Optimal configuration determination in Cognitive Autonomous Networks
+  - ... 6 more in JSON packet
+- 2022:
+  - 5G-MeMZ@SIGCOMM: Slicing networks with P4 hardware and software targets
+  - CNSM: Flow-level Tail Latency Estimation and Verification based on Extreme Value Theory
+  - CNSM: PTP Security Measures and their Impact on Synchronization Accuracy
+  - DroNet@MobiSys: Policy-based routing for Flying Adhoc Networks
+  - FIRA@SIGCOMM: On-path vs off-path traffic steering, that is the question
+  - GLOBECOM: Improving Scalability of 6G Network Automation with Distributed Deep Q-Networks
+  - GLOBECOM: Network Slicing via Transfer Learning aided Distributed Deep Reinforcement Learning
+  - GNNet@CoNEXT: Modeling TCP performance using graph neural networks
+  - ICC: Inter-Cell Slicing Resource Partitioning via Coordinated Multi-Agent Deep Reinforcement Learning
+  - ICC: Scalability of Distributed Intelligence Architecture for 6G Network Automation
+  - IFIP Networking: CArDS: Dealing a New Hand in Reducing Service Request Completion Times
+  - IFIP Networking: Contradiction Management in Intent-driven Cognitive Autonomous RAN
+  - ... 14 more in JSON packet
+- 2023:
+  - ANRW: Evaluating the Benefits: Quantifying the Effects of TCP Options, QUIC, and CDNs on Throughput
+  - ANRW: Gotta Query 'Em All, Again!: Repeatable Name Resolution with Full Dependency Provenance
+  - CNSM: Synthesizing and Scaling WAN Topologies Using Permutation-Invariant Graph Generative Models
+  - CSCN: Coordination, Trust and Orchestration of Cognitive, Open, Multi-Vendor Network Automation Functions
+  - CoNEXT (Short Papers): The Performance of Post-Quantum TLS 1.3
+  - EuroS&P Workshops: A First Look at SVCB and HTTPS DNS Resource Records in the Wild
+  - GLOBECOM: Advancing Federated Learning in 6G: A Trusted Architecture with Graph-Based Analysis
+  - GLOBECOM: Fast and Scalable Network Slicing by Integrating Deep Learning with Lagrangian Methods
+  - GLOBECOM (Workshops): Trustworthy Federated Learning via Decentralized Consensus Under Communication Constraints
+  - GNNet@CoNEXT: Predicting Latency Quantiles using Network Calculus-assisted GNNs
+  - ICC: Distributing Intelligence for 6G Network Automation: Performance and Architectural Impact
+  - IFIP Networking: Keeping up to Date with P4Runtime: An Analysis of Data Plane Updates on P4 Switches
+  - ... 14 more in JSON packet
+- 2024:
+  - BSCI: On the Impact of Network Transport Protocols on Leader-Based Consensus Communication
+  - CNSM: Applicability of Hardware-Supported Containers in Low-Latency Networking
+  - CNSM: CRDT Web Caching: Enabling Distributed Writes and Fast Cache Consistency for REST APIs
+  - CNSM: On-the-fly Table Insertions on Programmable Software Data Planes
+  - EuroS&P Workshops: An Internet-Wide View on HTTPS Certificate Revocations: Observing the Revival of CRLs via Active TLS Scans
+  - GNNet@CoNEXT: Sim2HW: Modeling Latency Offset Between Network Simulations and Hardware Measurements
+  - IFIP Networking: A Quantum of QUIC: Dissecting Cryptography with Post-Quantum Insights
+  - IFIP Networking: RO-Crate for Testbeds: Automated Packaging of Experimental Results
+  - IWCMC: Scheduled Trigger Frames: Enabling Worst-case Latency Bounds for Wi-Fi Industrial Use
+  - NOMS: Distributed Intelligence for Automated 6G Network Management Using Reinforcement Learning
+  - NOMS: Distributed Intelligence for Dynamic Task Migration in the 6G User Plane using Deep Reinforcement Learning
+  - NOMS: Shells Bells: Cyber-Physical Anomaly Detection in Data Centers
+  - ... 5 more in JSON packet
+- 2025:
+  - ACM REP: MARTE: Malleable and Automated Reproduction for Testbed-driven Experiments
+  - ANRW: BrowsEm: Model-based Web Site Loading Emulation
+  - ARES (Workshops 4): Attestation of Electronic Identification Schemes Based on Secure Channels Through Security Microcontrollers
+  - CCSW: ThreatCompute: Leveraging LLMs for Automated Threat Modeling of Cloud-Native Applications
+  - CoNEXT (Short Papers): Poster: The FAIRer Path Forward: Advancing Research Infrastructures for Unified Reproducibility and Usability
+  - GLOBECOM: A Priority-Based Scheduling Mechanism for Multidrop Networks
+  - GLOBECOM: Towards a Larger Model via One-Shot Federated Learning on Heterogeneous Client Models
+  - ICC: FedABC: Attention-Based Client Selection for Federated Learning with Long-Term View
+  - IMC: Lazy Eye Inspection: Capturing the State of Happy Eyeballs Implementations
+  - ITC-36: Continuous Integration for Networks Supporting Low-Latency Using Hybrid Network Emulation
+  - LANMAN: Evaluation of Graph Neural Networks in Airborne Networks
+  - NAIC: LLMs on Edge: Network Traffic Characteristics of Distributed Inference under the Loupe
+  - ... 3 more in JSON packet
+
+### Feng Qian 0001
+
+- DBLP pid: `54/476-1`
+- Counts: baseline networking `10`, total clean `103`, post-2023 clean `45`
+- Top venues: MobiCom (18), SIGCOMM (9), NSDI (8), HotMobile (6), WWW (5), MMSys (4), MobiSys (4), INFOCOM (3)
+- Baseline title terms: mobile (15), streaming (14), video (13), devices (6), volumetric (6), understanding (6), commercial (6), smartphones (5)
+- Post-2023 title terms: video (13), mobile (9), streaming (8), networks (6), volumetric (5), collaborative (4), live (4), through (3)
+
+- 2018:
+  - CoNEXT: ABR streaming of VBR-encoded videos: characterization, challenges, and solutions [qualifying]
+  - HotMobile: CARS: Collaborative Augmented Reality for Socialization
+  - MobiCom: Demo: Tile-Based Viewport-Adaptive Panoramic Video Streaming on Smartphones
+  - MobiCom: Flare: Practical Viewport-Adaptive 360-Degree Video Streaming for Mobile Devices
+  - NDSS: Game of Missuggestions: Semantic Analysis of Search-Autocomplete Manipulations
+- 2019:
+  - APNet: DTP: Deadline-aware Transport Protocol
+  - CoNEXT: Analyzing viewport prediction under different VR interactions [qualifying]
+  - HotMobile: Toward Practical Volumetric Video Streaming on Commodity Smartphones
+  - IEEE Symposium on Security and Privacy: Dangerous Skills: Understanding and Mitigating Security Risks of Voice-Controlled Third-Party Functions on Virtual Personal Assistant Systems
+  - IEEE Symposium on Security and Privacy: Resident Evil: Understanding Residential IP Proxy as a Dark Service
+  - INFOCOM: Collaborative Client-Side DNS Cache Poisoning Attack
+  - MMSys: LIME: understanding commercial 360° live video streaming services
+  - MMSys: Quality-aware strategies for optimizing ABR video streaming QoE and reducing data usage
+  - MobiCom: An Active-Passive Measurement Study of TCP Performance over LTE on High-speed Rails
+  - MobiCom: MP-H2: A Client-only Multipath Solution for HTTP/2
+  - MobiSys: An In-depth Study of Commercial MVNO: Measurement and Optimization
+  - NOSSDAV: Supporting untethered multi-user VR over enterprise wi-fi
+  - ... 4 more in JSON packet
+- 2020:
+  - EuroSys: Experiences of landing machine learning onto market-scale mobile malware detection
+  - FAST: Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation
+  - Internet Measurement Conference: Lumos5G: Mapping and Predicting Commercial mmWave 5G Throughput
+  - MMSys: Energy considerations for ABR video streaming to smartphones: measurements, models and insights
+  - MobiCom: Experience: aging or glitching? why does android stop responding and what can we do about it?
+  - MobiCom: ViVo: visibility-aware mobile volumetric video streaming
+  - MobiSys: MPBond: efficient network-level collaboration among personal mobile devices
+  - MobiSys: MPBond: efficient network-level collaboration among personal mobile devices
+  - MobiSys: Mobile Volumetric Video Streaming Enhanced by Super Resolution
+  - SIGCOMM Posters and Demos: 5G tracker: a crowdsourced platform to enable research using commercial 5g services
+  - SIGMETRICS (Abstracts): Latency Imbalance Among Internet Load-Balanced Paths: A Cloud-Centric View
+  - USENIX ATC: Firefly: Untethered Multi-user VR for Commodity Mobile Devices
+  - ... 1 more in JSON packet
+- 2021:
+  - 5G-MeMZ@SIGCOMM: Case for 5G-aware video streaming applications
+  - HotMobile: Efficient Volumetric Video Streaming Through Super Resolution
+  - INFOCOM Workshops: An Interactive and Immersive Remote Education Platform based on Commodity Devices
+  - Internet Measurement Conference: From cloud to edge: a first look at public edge platforms
+  - MobiCom: A nationwide census on wifi security threats: prevalence, riskiness, and the economics
+  - MobiCom: EMP: edge-assisted multi-vehicle perception
+  - NDSS: Your Phone is My Proxy: Detecting and Understanding Mobile Proxy Networks
+  - NSDI: Fast and Light Bandwidth Testing for Internet Users [qualifying]
+  - SIGCOMM: A nationwide study on cellular reliability: measurement, analysis, and enhancements [qualifying]
+  - SIGCOMM: A variegated look at 5G in the wild: performance, power, and QoE implications [qualifying]
+  - WWW: DeepVista: 16K Panoramic Cinema on Your Mobile Device
+- 2022:
+  - CHI: How Will VR Enter University Classrooms? Multi-stakeholders Investigation of VR in Higher Education
+  - HotMobile: Hybrid mobile vision for emerging applications
+  - ICDCS: Enhancing Quality of Experience for Collaborative Virtual Reality with Commodity Mobile Devices
+  - ICNP: To Punctuality and Beyond: Meeting Application Deadlines with DTP
+  - INFOCOM: A Comparative Measurement Study of Commercial 5G mmWave Deployments
+  - MobiCom: Experience: practical indoor localization for malls
+  - MobiCom: SalientVR: saliency-driven mobile 360-degree video streaming with gaze information
+  - MobiCom: Vues: practical mobile volumetric video streaming through multiview transcoding
+  - NSDI: YuZu: Neural-Enhanced Volumetric Video Streaming [qualifying]
+  - OSDI: Trinity: High-Performance Mobile Emulation through Graphics Projection
+  - SIGCOMM: Mobile access bandwidth in practice: measurement, analysis, and implications [qualifying]
+  - SIGCOMM: Vivisecting mobility management in 5G cellular networks [qualifying]
+  - ... 1 more in JSON packet
+- 2023:
+  - ACM Multimedia: ParliRobo: Participant Lightweight AI Robots for Massively Multiplayer Online Games (MMOGs)
+  - ACM Multimedia: SkipStreaming: Pinpointing User-Perceived Redundancy in Correlated Web Video Streaming through the Lens of Scenes
+  - CHI: Collaborative Online Learning with VR Video: Roles of Collaborative Tools and Shared Video Control
+  - CoNEXT (Short Papers): LEO Satellite vs. Cellular Networks: Exploring the Potential for Synergistic Integration
+  - ICDCS Workshops: Multi-Modal Vehicle Data Delivery via Commercial 5G Mobile Networks: An Initial Study
+  - IMC: Poster: QUIC is not Quick Enough over Fast Internet
+  - ImmerCom: MagicCloth: Protect User Privacy in AR Streaming
+  - MeditCom: A Closer Look at Stand-Alone 5G Deployments from the UE Perspective
+  - MobiCom: Experience: A Three-Year Retrospective of Large-scale Multipath Transport Deployment for Mobile Applications
+  - MobiCom: The Wisdom of 1, 170 Teams: Lessons and Experiences from a Large Indoor Localization Competition
+  - MobiCom: Virtual Device Farms for Mobile App Testing at Scale: A Pursuit for Fidelity, Efficiency, and Accessibility
+  - NSDI: POLYCORN: Data-driven Cross-layer Multipath Networking for High-speed Railway through Composable Schedulerlets
+  - ... 3 more in JSON packet
+- 2024:
+  - ACM Multimedia: An In-depth Study of Bandwidth Allocation across Media Sources in Video Conferencing
+  - CHI: Virtual Reality, Real Pedagogy: A Contextual Inquiry of Instructor Practices with VR Video
+  - HotMobile: The Case for Boosting Mobile Application QoE via Smart Band Switching in 5G/xG Networks
+  - INFOCOM: Roaming across the European Union in the 5G Era: Performance, Challenges, and Opportunities
+  - MMSys: OASIS: Collaborative Neural-Enhanced Mobile Video Streaming
+  - MobiCom: Deciphering the Enigma of Satellite Computing with COTS Devices: Measurement and Analysis
+  - MobiCom: Experiences of Deploying a Citywide Crowdsourcing Platform to Search for Missing People with Dementia
+  - MobiCom: MuV2: Scaling up Multi-user Mobile Volumetric Video Streaming via Content Hybridization and Sharing
+  - MobiCom: Rethinking Process Management for Interactive Mobile Systems
+  - NSDI: Habitus: Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking
+  - NSDI: Passengers' Safety Matters: Experiences of Deploying a Large-Scale Indoor Delivery Monitoring System
+  - NSDI: SMUFF: Towards Line Rate Wi-Fi Direct Transport with Orchestrated On-device Buffer Management
+  - ... 6 more in JSON packet
+- 2025:
+  - ASE: Democratizing the Cryptocurrency Ecosystem by Just-In-Time Transformation of Mining Programs
+  - EMS@SIGCOMM: Towards Available Bandwidth Estimation for Low-Latency Up-Streaming Amidst Application-Limited Scenarios
+  - MLSys: VoLUT: Efficient Volumetric streaming enhanced by LUT-based super-resolution
+  - MobiHoc: Poster: Exploring Privacy Challenges in Using Volumetric Video for Educational VR
+  - NOSSDAV: Alice: Low-latency Image Live Co-editing via Adaptation
+  - NSDI: Dissecting and Streamlining the Interactive Loop of Mobile Cloud Gaming
+  - NSDI: Mitigating Scalability Walls of RDMA-based Container Networks
+  - SIGCOMM: Harnessing WebRTC for Large-Scale Live Streaming
+  - SIGCOMM: NIER: Practical Neural-enhanced Low-bitrate Video Conferencing
+  - SIGCOMM: TLadder: QoE-Centric Video Ladder Optimization with Playback Feedback at Billion Scale
+- 2026:
+  - HotMobile: Predicting Connectivity and Link Performance in Dynamic LEO Satellite Networks
+  - WWW: Camel: Frame-Level Bandwidth Estimation for Low-Latency Live Streaming under Video Bitrate Undershooting
+
+### Dave Levin
+
+- DBLP pid: `03/6428`
+- Counts: baseline networking `10`, total clean `45`, post-2023 clean `15`
+- Top venues: SIGCOMM (8), CCS (5), USENIX Security Symposium (5), PAM (4), SP (4), Internet Measurement Conference (3), NDSS (2), TMA (2)
+- Baseline title terms: censorship (5), certificate (4), web (3), evasion (3), you (3), study (3), session (2), analyzing (2)
+- Post-2023 title terms: how (2), global (2), internet (2), connection (2), tampering (2), ipv6 (2), measuring (2), case (2)
+
+- 2018:
+  - ASE @ USENIX Security Symposium: King of the Hill: A Novel Cybersecurity Competition for Teaching Penetration Testing
+  - Graphics Interface: Session details: Session G3: Motion
+  - Internet Measurement Conference: Analyzing Ethereum's Contract Topology
+  - Internet Measurement Conference: Is the Web Ready for OCSP Must-Staple?
+  - SIGCOMM: Internet anycast: performance, problems, & potential [qualifying]
+- 2019:
+  - CCS: Geneva: Evolving Censorship Evasion Strategies
+  - CCS: You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+  - NDSS: Measurement and Analysis of Hajime, a Peer-to-peer IoT Botnet
+  - PAM: How to Find Correlated Internet Failures
+  - SIGCOMM: Residential links under the weather [qualifying]
+  - WPES@CCS: When Certificate Transparency Is Too Transparent: Analyzing Information Leakage in HTTPS Domain Names
+- 2020:
+  - AMIA: API Connectivity: Real-World Uses and Implementation Experiences in using APIs and Third-party Apps for Data Exchange and Research
+  - CCS: Bento: Bringing Network Function Virtualization to Tor
+  - FOCI @ USENIX Security Symposium: Detecting and Evading Censorship-in-Depth: A Case Study of Iran's Protocol Whitelister
+  - SIGCOMM: Come as You Are: Helping Unmodified Clients Bypass Censorship with Server-side Evasion [qualifying]
+  - TMA: A Deeper Look at Web Content Availability and Consistency over HTTP/S
+  - USENIX Security Symposium: Achieving Keyless CDNs with Conclaves
+- 2021:
+  - FOCI@SIGCOMM: Even Censors Have a Backup: Examining China's Double HTTPS Censorship Middleboxes
+  - Financial Cryptography (2): Under the Hood of the Ethereum Gossip Protocol
+  - PAM: Measurement and Analysis of Automated Certificate Reissuance
+  - SIGCOMM: Bento: safely bringing network function virtualization to Tor [qualifying]
+  - SIGCOMM: The ties that un-bind: decoupling IP from web services and sockets for robust addressing agility at CDN-scale [qualifying]
+  - SP (Workshops): Your Censor is My Censor: Weaponizing Censorship Infrastructure for Availability Attacks
+  - TMA: Sound Methodology for Downloading Webpages
+  - USENIX Security Symposium: Weaponizing Middleboxes for TCP Reflected Amplification
+- 2022:
+  - CCS: Hammurabi: A Framework for Pluggable, Logic-Based X.509 Certificate Validation Policies
+  - IMC: A comparative analysis of certificate pinning in Android & iOS [qualifying]
+  - SP: Investigating Influencer VPN Ads on YouTube
+  - USENIX Security Symposium: GET /out: Automated Discovery of Application-Layer Censorship Evasion Strategies
+- 2023:
+  - FC (1): Provably Avoiding Geographic Regions for Tor's Onion Services
+  - HotNets: No Root Store Left Behind
+  - NDSS: How to Count Bots in Longitudinal Datasets of IP Addresses
+  - PAM: A Global Measurement of Routing Loops on the Internet
+  - SIGCOMM: Global, Passive Detection of Connection Tampering
+  - SIGCOMM: IPv6 Hitlists at Scale: Be Careful What You Wish For
+  - SP: Blue Is the New Black (Market): Privacy Leaks and Re-Victimization from Police-Auctioned Cellphones
+  - USENIX Security Symposium: How the Great Firewall of China Detects and Blocks Fully Encrypted Traffic
+  - WWW: Measuring and Evading Turkmenistan's Internet Censorship: A Case Study in Large-Scale Measurements of a Low-Penetration Country
+- 2024:
+  - SP: Surveilling the Masses with Wi-Fi-Based Positioning Systems
+- 2025:
+  - CCS: Don't Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites
+  - SIGCOMM: Reliable and Decentralized Certificate Revocation via DNS: The Case for RevDNS
+  - SP: Is Nobody There? Good! Globally Measuring Connection Tampering Without Responsive Endhosts
+  - USENIX Security Symposium: As Advertised? Understanding the Impact of Influencer VPN Ads
+- 2026:
+  - PAM: WikIPedia: Unearthing a 20-Year History of IPv6 Client Addressing
+
+### Ramesh Govindan
+
+- DBLP pid: `g/RameshGovindan`
+- Counts: baseline networking `10`, total clean `44`, post-2023 clean `16`
+- Top venues: SIGCOMM (7), NSDI (7), IoTDI (3), MobiSys (3), CoNEXT (2), SoCC (2), MobiCom (2), Encyclopedia of Database Systems (2nd ed.) (1)
+- Baseline title terms: video (5), networks (4), distributed (2), iot (2), understanding (2), management (2), augmented (2), tracking (2)
+- Post-2023 title terms: outdoor (2), pose (2), resource (2), network (2), mcal (1), minimum (1), cost (1), human-machine (1)
+
+- 2018:
+  - Encyclopedia of Database Systems (2nd ed.): Sensor Networks
+  - FUSION: QuickSketch: Building 3D Representations in Unknown Environments Using Crowdsourcing
+  - ICDCS: Will Distributed Computing Revolutionize Peace? The Emergence of Battlefield IoT
+  - Internet Measurement Conference: Understanding Video Management Planes
+  - IoTDI: Kestrel: Video Analytics for Augmented Multi-Camera Vehicle Tracking
+  - MILCOM: On Tracking Realistic Targets in a Megacity with Contested Domain Access
+  - Middleware: Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving System
+  - MobiSys: AVR: Augmented Vehicular Reality
+  - MobiSys: Gnome: A Practical Approach to NLOS Mitigation for GPS Positioning in Smartphones
+  - SIGCOMM: Oboe: auto-tuning video ABR algorithms to network conditions [qualifying]
+- 2019:
+  - CoNEXT: AViC: a cache for adaptive bitrate video [qualifying]
+  - NSDI: Understanding Lifecycle Management Complexity of Datacenter Topologies [qualifying]
+  - SIGCOMM: Towards highly available clos-based WAN routers [qualifying]
+  - SenSys: Caesar: cross-camera complex activity recognition
+- 2020:
+  - CoNEXT: Meeting SLOs in cross-platform NFV [qualifying]
+  - ICCCN: Rapid Top-Down Synthesis of Large-Scale IoT Networks
+  - IROS: Persistent Connected Power Constrained Surveillance with Unmanned Aerial Vehicles
+  - NSDI: CarMap: Fast 3D Feature Map Updates for Automobiles [qualifying]
+  - Networking: Enabling Premium Service for Streaming Video in Cellular Networks
+- 2021:
+  - ANRW: Tools for disambiguating RFCs
+  - IoTDI: Rim: Offloading Inference to the Edge
+  - SIGCOMM: A throughput-centric view of the performance of datacenter topologies [qualifying]
+  - SIGCOMM: Semi-automated protocol disambiguation and code generation [qualifying]
+  - SoCC: Scrooge: A Cost-Effective Deep Learning Inference System
+- 2022:
+  - INFOCOM: Optimal Oblivious Routing for Structured Networks
+  - MobiSys: AutoCast: scalable infrastructure-less cooperative perception for distributed collaborative driving
+  - NSDI: CloudCluster: Unearthing the Functional Structure of a Cloud Service [qualifying]
+  - SoCC: Quadrant: a cloud-deployable NF virtualization platform
+- 2023:
+  - ICLR: MCAL: Minimum Cost Human-Machine Active Labeling
+  - MobiCom: UbiPose: Towards Ubiquitous Outdoor AR Pose Tracking using Aerial Meshes
+  - SIGCOMM: Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback
+- 2024:
+  - HotNets: End-to-End Performance Analysis of Learning-enabled Systems
+  - IoTDI: Cooperative Infrastructure Perception
+  - MobiCom: RECAP: 3D Traffic Reconstruction
+  - NSDI: Finding Adversarial Inputs for Heuristics using Multi-level Optimization
+  - NSDI: Solving Max-Min Fair Resource Allocations Quickly on Large Graphs
+- 2025:
+  - ACM Multimedia: SplatPose: On-Device Outdoor AR Pose Estimation Using Gaussian Splatting
+  - HotOS: Granular Resource Demand Heterogeneity
+  - IMC: Poster: Did I Just Browse A Website Written by LLMs?
+  - NSDI: Enhancing Network Failure Mitigation with Performance-Aware Ranking
+  - NSDI: Preventing Network Bottlenecks: Accelerating Datacenter Services with Hotspot-Aware Placement for Compute and Storage
+  - SIGCOMM: Firefly: Scalable, Ultra-Accurate Clock Synchronization for Datacenters
+  - SIGCOMM: ZENITH: Towards A Formally Verified Highly-Available Control Plane
+  - SIGMETRICS (Abstracts): Tiered Cloud Routing: Methodology, Latency, and Improvement
+
+### Stefan Savage
+
+- DBLP pid: `s/StefanSavage`
+- Counts: baseline networking `10`, total clean `40`, post-2023 clean `15`
+- Top venues: Internet Measurement Conference (7), IMC (7), USENIX Security Symposium (4), WWW (4), CSET @ USENIX Security Symposium (2), CSLAW (2), TMA (2), EuroS&P (2)
+- Baseline title terms: dns (4), characterizing (3), hijacking (3), infrastructure (3), surveillance (2), account (2), public (2), measuring (2)
+- Post-2023 title terms: understanding (3), empirical (2), security (2), email (2), use (2), fingerprinting (2), efficacy (2), enterprise-wide (1)
+
+- 2018:
+  - CCS: Lawful Device Access without Mass Surveillance Risk: A Technical Design Discussion
+  - Internet Measurement Conference: Following Their Footsteps: Characterizing Account Automation Abuse and Defenses
+- 2019:
+  - CSET @ USENIX Security Symposium: Triton: A Software-Reconfigurable Federated Avionics Testbed
+  - CSLAW: Surveillance and privacy in the public and private sectors: panel
+  - ICSE (SEIP): Web feature deprecation: a case study for chrome
+  - Internet Measurement Conference: Measuring Security Practices and How They Impact Security
+  - USENIX Security Symposium: Detecting and Characterizing Lateral Phishing at Scale
+  - USENIX Security Symposium: Reading the Tea leaves: A Comparative Analysis of Threat Intelligence
+  - WWW: Hack for Hire: Exploring the Emerging Market for Account Hijacking
+- 2020:
+  - Internet Measurement Conference: Trufflehunter: Cache Snooping Rare Domains at Large Public DNS Resolvers
+  - Internet Measurement Conference: Unresolved Issues: Prevalence, Persistence, and Perils of Lame Delegations
+- 2021:
+  - Internet Measurement Conference: Home is where the hijacking is: understanding DNS interception by residential routers
+  - Internet Measurement Conference: Risky BIZness: risks derived from registrar name management
+  - Internet Measurement Conference: Who's got your mail?: characterizing mail service provider usage
+  - NDSS: Доверя'й, но проверя'й: SFI safety for native-compiled Wasm
+  - PAM: Clairvoyance: Inferring Blocklist Use on the Internet
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+  - USENIX Security Symposium: Hopper: Modeling and Detecting Lateral Movement
+  - USENIX Security Symposium: Jetset: Targeted Firmware Rehosting for Embedded Systems
+  - WWW: CoResident Evil: Covert Communication In The Cloud With Lambdas
+- 2022:
+  - IMC: Measuring UID smuggling in the wild [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - TMA: Domain Name Lifetimes: Baseline and Threats
+  - eCrime: The Challenges of Blockchain-Based Naming Systems for Malware Defenders
+- 2023:
+  - ACSAC: An Empirical Analysis of Enterprise-Wide Mandatory Password Updates
+  - CSET @ USENIX Security Symposium: In the Line of Fire: Risks of DPI-triggered Data Collection
+  - EuroS&P: Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy
+  - SOUPS: Understanding the Viability of Gmail's Origin Indicator for Identifying the Sender
+  - SP: WaVe: a verifiably secure WebAssembly sandboxing runtime
+- 2024:
+  - EuroS&P: Using Honeybuckets to Characterize Cloud Storage Scanning in the Wild
+  - IMC: Give and Take: An End-To-End Investigation of Giveaway Scam Conversion Rates
+  - WWW: Unfiltered: Measuring Cloud-based Email Filtering Bypasses
+- 2025:
+  - CSLAW: An Empirical Analysis on the Use and Reporting of National Security Letters
+  - IMC: Canvassing the Fingerprinters: Characterizing Canvas Fingerprinting Use Across the Web
+  - IMC: Poster: When Blocks Go Missing: The Timeliness and Trustworthiness of Blockchain RPC Providers
+  - IMC: Somesite I Used To Crawl: Awareness, Agency and Efficacy in Protecting Content Creators From AI Crawlers
+  - SOSP: TickTock: Verified Isolation in a Production Embedded OS
+  - SP: Understanding the Efficacy of Phishing Training in Practice
+- 2026:
+  - WWW: Understanding Server-side Commercial Fingerprinting
+
+### Manya Ghobadi
+
+- DBLP pid: `37/1704`
+- Counts: baseline networking `10`, total clean `38`, post-2023 clean `13`
+- Top venues: SIGCOMM (8), HotNets (5), NSDI (5), OFC (4), SIGMETRICS (Abstracts) (2), OptSys@SIGCOMM (2), ANCS (1), ANRW (1)
+- Baseline title terms: programmable (6), optical (4), beyond (3), network (3), traffic (3), in-network (3), machine (3), learning (3)
+- Post-2023 title terms: network (3), distributed (3), training (3), scheduling (3), real-time (2), photonic-electronic (2), inference (2), job (2)
+
+- 2018:
+  - ANCS: Characterizing the algorithmic complexity of reconfigurable data center architectures
+  - ANRW: Beyond Binary Failures in Networks
+  - HPSR: Beyond SmartNICs: Towards a Fully Programmable Cloud: Invited Paper
+  - SIGCOMM: RADWAN: rate adaptive wide area network [qualifying]
+- 2019:
+  - BS: FAB: Toward Flow-aware Buffer Sharing on Programmable Switches
+  - SC: Bandwidth steering in HPC using silicon nanophotonics
+  - SIGCOMM: TEAVAR: striking the right utilization-availability balance in WAN traffic engineering [qualifying]
+- 2020:
+  - HotNets: Challenging the Stateless Quo of Programmable Switches [qualifying]
+  - NSDI: Enabling Programmable Transport Protocols in High-Speed NICs [qualifying]
+  - SIGMETRICS (Abstracts): On the Complexity of Traffic Traces and Implications
+  - SOSR: OptFlow: A Flow-based Abstraction for Programmable Topologies
+- 2021:
+  - MLSys: In-network Aggregation for Shared Machine Learning Clusters
+  - NSDI: A Social Network Under Social Distancing: Risk-Driven Backbone Management During COVID-19 and Beyond [qualifying]
+  - OFC: BOW: First Real-World Demonstration of a Firewall-based Bayesian Optimization System for Wavelength Deployment
+  - OptSys@SIGCOMM: Are WANs Ready for Optical Topology Programming?
+  - OptSys@SIGCOMM: IOI: In-network Optical Inference
+  - SIGCOMM: ARROW: restoration-aware traffic engineering [qualifying]
+  - SIGCOMM: SiP-ML: high-bandwidth optical network interconnects for machine learning training [qualifying]
+- 2022:
+  - HotNets: Congestion control in machine learning clusters [qualifying]
+  - OECC/PSC: WDM-Enabled Photonic Edge Computing
+  - OFC: Demonstration of WDM-Enabled Ultralow-Energy Photonic Edge Computing
+  - OFC: Emerging Optical Interconnects for AI Systems
+  - SIGCOMM: ABM: active buffer management in datacenters [qualifying]
+  - SIGCOMM: Using trio: juniper networks' programmable chipset - for emerging in-network applications [qualifying]
+  - SIGMETRICS (Abstracts): Cerberus: The Power of Choices in Datacenter Topology Design - A Throughput Perspective
+- 2023:
+  - HotNets: On-Fiber Photonic Computing
+  - ICASSP: InfoShape: Task-Based Neural Data Shaping via Mutual Information
+  - NSDI: TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs
+  - SIGCOMM: Demo: First Demonstration of Real-Time Photonic-Electronic DNN Acceleration on SmartNICs
+  - SIGCOMM: Lightning: A Reconfigurable Photonic-Electronic SmartNIC for Fast and Energy-Efficient Inference
+- 2024:
+  - CloudNet: Nona: A Stochastic Congestion-Aware Job Scheduler for Real-Time Inference Queries
+  - HOTI: Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters
+  - HotNets: MLTCP: A Distributed Technique to Approximate Centralized Flow Scheduling For Machine Learning
+  - HotNets: The Case for Decentralized Fallback Networks
+  - NSDI: CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters
+- 2025:
+  - Networking: FORESIGHT: Joint Time and Space Scheduling for Efficient Distributed ML Training
+- 2026:
+  - NSDI: Checkmate: Zero Performance Overhead Model Checkpointing via Network Gradient Replication
+  - OFC: Reconfiguration-Aware Direct-Connect AI Cluster using Spatial-and-Wavelength-Selective Switching
+
+### David R. Choffnes
+
+- DBLP pid: `48/6854`
+- Counts: baseline networking `10`, total clean `37`, post-2023 clean `13`
+- Top venues: IMC (9), Internet Measurement Conference (5), ANRW (3), NDSS (3), SIGCOMM (2), CHI (2), WWW (1), MobiCom (1)
+- Baseline title terms: iot (4), devices (4), attack (3), control (3), consumer (3), automated (2), discovery (2), tcp (2)
+- Post-2023 title terms: iot (6), understanding (4), smart (4), home (2), behavior (2), homes (2), security (2), experimentation (2)
+
+- 2018:
+  - ANRW: Automated Attack Discovery in TCP Congestion Control Using a Model-guided Approach
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - Internet Measurement Conference: Is the Web Ready for OCSP Must-Staple?
+  - NDSS: Automated Attack Discovery in TCP Congestion Control Using a Model-guided Approach
+  - NDSS: Bug Fixes, Improvements, ... and Privacy Leaks - A Longitudinal Study of PII Leaks Across Android App Versions
+  - WWW: Mile High WiFi: A First Look At In-Flight Internet Connectivity
+- 2019:
+  - Internet Measurement Conference: Information Exposure From Consumer IoT Devices: A Multidimensional, Network-Informed Measurement Approach
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+  - MobiCom: Internet-QoE 2019: 4th Internet-QoE Workshop on QoE-based Analysis and Management of Data Communication Networks
+  - SIGCOMM: A large-scale analysis of deployed traffic differentiation practices [qualifying]
+- 2020:
+  - Internet Measurement Conference: A Haystack Full of Needles: Scalable Detection of IoT Devices in the Wild
+  - NDSS: FlowPrint: Semi-Supervised Mobile-App Fingerprinting on Encrypted Network Traffic
+  - RAID: aBBRate: Automating BBR Attack Exploration Using a Model-Based Approach
+  - TMA: A Deeper Look at Web Content Availability and Consistency over HTTP/S
+- 2021:
+  - ANRW: Detecting consumer IoT devices through the lens of an ISP
+  - EuroS&P: SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses
+  - Internet Measurement Conference: IoTLS: understanding TLS usage in consumer IoT devices
+  - SIGCOMM: AnyOpt: predicting and optimizing IP Anycast performance [qualifying]
+- 2022:
+  - ACNS: ZLeaks: Passive Inference Attacks on Zigbee Based Smart Homes
+  - EuroUSEC: Exploring Deceptive Design Patterns in Voice Interfaces
+  - IMC: A comparative analysis of certificate pinning in Android & iOS [qualifying]
+  - IMC: Internet scale reverse traceroute [qualifying]
+  - IMC: Using reverse IP geolocation to identify institutional networks [qualifying]
+  - StudentWorkshop@CoNEXT: Toward flexible auditing for in-network functionality
+- 2023:
+  - CHI: Understanding Dark Patterns in Home IoT Devices
+  - IMC: BehavIoT: Measuring Smart Home IoT Behavior Using Network-Inferred Behavior Models
+  - IMC: Behind the Scenes: Uncovering TLS and Server Certificate Practice of IoT Device Vendors in the Wild
+  - IMC: In the Room Where It Happens: Characterizing Local Communication and Threats in Smart Homes
+  - IMC: Localizing Traffic Differentiation
+  - IMC: Tracking, Profiling, and Ad Targeting in the Alexa Echo Smart Speaker Ecosystem
+  - SP: Protected or Porous: A Comparative Analysis of Threat Detection Capability of IoT Safeguards
+- 2024:
+  - CCS: Poster: Security and Privacy Heterogeneous Environment for Reproducible Experimentation (SPHERE)
+  - ICWSM: Fair or Fare? Understanding Automated Transcription Error Bias in Social Media and Videoconferencing Platforms
+  - IMC: IoT Bricks Over v6: Understanding IPv6 Usage in Smart Homes
+  - PAM (2): SunBlock: Cloudless Protection for IoT Systems
+- 2025:
+  - CHI: Promises, Promises: Understanding Claims Made in Social Robot Consumer Experiences
+  - ICCPS: SPHERE CPS Enclave: A Reconfigurable Testbed for Industrial Control System Security Experimentation
+
+### Vincent Liu 0001
+
+- DBLP pid: `22/9263-1`
+- Counts: baseline networking `10`, total clean `35`, post-2023 clean `17`
+- Top venues: SIGCOMM (10), NSDI (7), OSDI (4), HotNets (3), CIDR (3), SIGMOD Conference (2), APNet (1), USENIX ATC (1)
+- Baseline title terms: data (5), network (3), networks (3), through (2), optimizing (2), disaggregated (2), centers (2), programmable (2)
+- Post-2023 title terms: serving (3), simulation (3), model (2), parallelism (2), learning (2), disaggregation (2), network (2), cloud (2)
+
+- 2018:
+  - HotNets: Fast Network Simulation Through Approximation or: How Blind Men Can Describe Elephants [qualifying]
+  - SIGCOMM: Synchronized network snapshots [qualifying]
+- 2019:
+  - APNet: TMC: Pay-as-you-Go Distributed Communication
+  - SIGMOD Conference: Optimizing Declarative Graph Queries at Large Scale
+  - USENIX ATC: Detecting Asymmetric Application-layer Denial-of-Service Attacks In-Flight with Finelame
+- 2020:
+  - CIDR: Rethinking Data Management Systems for Disaggregated Data Centers
+  - NSDI: tpprof: A Network Traffic Pattern Profiler [qualifying]
+  - OSDI: Aragog: Scalable Runtime Verification of Shardable Networked Systems
+  - OSDI: Fault-tolerant and transactional stateful serverless workflows
+  - SIGCOMM: Mantis: Reactive Programmable Switches [qualifying]
+  - SIGCOMM: Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing [qualifying]
+- 2021:
+  - HotNets: Towards a Cost vs. Quality Sweet Spot for Monitoring Networks [qualifying]
+  - SIGCOMM: MimicNet: fast performance estimates for data center networks with machine learning [qualifying]
+- 2022:
+  - CIDR: CompuCache: Remote Computable Caching using Spot VMs
+  - NSDI: OrbWeaver: Using IDLE Cycles in Programmable Networks for Opportunistic Coordination [qualifying]
+  - SIGCOMM: Cebinae: scalable in-network fairness augmentation [qualifying]
+  - SIGCOMM: PrintQueue: performance diagnosis via queue measurement in the data plane [qualifying]
+  - SIGMOD Conference: Optimizing Data-intensive Systems in Disaggregated Data Centers with TELEPORT
+- 2023:
+  - CIDR: Templating Shuffles
+  - OSDI: AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving
+  - SIGCOMM: Cowbird: Freeing CPUs to Compute by Offloading the Disaggregation of Memory
+  - SIGCOMM: DONS: Fast and Affordable Discrete Event Network Simulation with Automatic Parallelization
+  - SIGCOMM: Demo: NetVision: Efficient Visualization Front-End for Packet-level Discrete-Event Network Simulation
+  - SOSP: Paella: Low-latency Model Serving with Software-defined GPU Scheduling
+- 2024:
+  - NSDI: Cloudcast: High-Throughput, Cost-Aware Overlay Multicast in the Cloud
+  - NSDI: MuCache: A General Framework for Caching in Microservice Graphs
+  - OSDI: Beaver: Practical Partial Snapshots for Distributed Cloud Services
+  - SIGCOMM: Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem
+- 2025:
+  - AFT: Cuttlefish: A Fair, Predictable Execution Environment for Cloud-Hosted Financial Exchanges
+  - ASPLOS (3): λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating
+  - HotNets: Lost in Translation: The Search for Meaning in Network-Attached AI Accelerator Disaggregation
+  - NSDI: Accelerating Design Space Exploration for LLM Training Systems with Multi-experiment Parallel Simulation
+  - NSDI: Enabling Silent Telemetry Data Transmission with InvisiFlow
+  - SoCC: Multiplexed Heterogeneous LLM Serving via Stage-Aligned Parallelism
+- 2026:
+  - NSDI: CCEval: Accurately and Confidently Evaluating Performance Metrics of Congestion Control Algorithms for Datacenter Networks
+
+### Philip Brighten Godfrey
+
+- DBLP pid: `g/BrightenGodfrey`
+- Counts: baseline networking `10`, total clean `35`, post-2023 clean `17`
+- Top venues: HotNets (9), NSDI (8), SIGCOMM (3), HotMobile (2), MMSys (2), CHANTS@MOBICOM (1), SecSoN@SIGCOMM (1), ICML (1)
+- Baseline title terms: congestion (4), control (4), network (4), service (3), mobile (2), networks (2), pcc (2), learning (2)
+- Post-2023 title terms: networks (3), application (2), channels (2), challenges (2), opportunities (2), microservice (2), applications (2), distributed (2)
+
+- 2018:
+  - CHANTS@MOBICOM: Congestion Control for Future Mobile Networks
+  - HotNets: Gearing up for the 21st century space race [qualifying]
+  - NSDI: PCC Vivace: Online-Learning Congestion Control [qualifying]
+  - SecSoN@SIGCOMM: High-coverage testing of softwarized networks
+- 2019:
+  - HotNets: Robustifying Network Protocols with Adversarial Examples [qualifying]
+  - ICML: A Deep Reinforcement Learning Perspective on Internet Congestion Control
+- 2020:
+  - CoNEXT: MPCC: online learning multipath transport [qualifying]
+  - HotCloud: Towards An Application Objective-Aware Network Interface
+  - HotNets: Spineless Data Centers [qualifying]
+  - HotNets: Towards Verified Self-Driving Infrastructure [qualifying]
+  - NSDI: Plankton: Scalable network configuration verification through model checking [qualifying]
+  - SIGCOMM: PCC Proteus: Scavenger Transport And Beyond [qualifying]
+- 2021:
+  - ANRW: Toward greater scavenger congestion control deployment: implementations and interfaces
+  - FlexNets@SIGCOMM: Practical Automation for Management Planes of Service Provider Infrastructure
+  - HotMobile: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - HotNets: Leveraging Service Meshes as a New Network Layer [qualifying]
+- 2022:
+  - IROS: On-Device CPU Scheduling for Robot Systems
+  - NSDI: cISP: A Speed-of-Light Internet Service Provider [qualifying]
+- 2023:
+  - HotNets: Boosting Application Performance using Heterogeneous Virtual Channels: Challenges and Opportunities
+  - HotNets: Expressive Policies For Microservice Networks
+  - NSDI: DChannel: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - SIGCOMM: Murphy: Performance Diagnosis of Distributed Cloud Applications
+  - VR Workshops: Offloading Visual-Inertial Odometry for Low Power Extended Reality
+- 2024:
+  - HotNets: Lightweight Automated Reasoning for Network Architectures
+  - HotNets: Opportunities and Challenges in Service Layer Traffic Engineering
+  - NSDI: CAPA: An Architecture For Operating Cluster Networks With High Availability
+  - SIGCOMM: TraceWeaver: Distributed Request Tracing for Microservices Without Application Modification
+  - USENIX ATC: Kivi: Verification for Cluster Management
+- 2025:
+  - HotMobile: Is WTSN the missing piece for low latency in general-purpose Wi-Fi?
+  - MMSys: RemoteVIO: Offloading Head Tracking in an End-to-End XR System
+  - MMSys: XRgo: Design and Evaluation of Rendering Offload for Low-Power Extended Reality Devices
+  - NSDI: CellReplay: Towards accurate record-and-replay for cellular networks
+  - Petri Nets: Leveraging Petri Nets for Workflow Anomaly Detection in Microservice Architectures
+- 2026:
+  - NSDI: Controlling Arbitrary Internet Queues with Titrate
+  - NSDI: SLATE: Service Layer Traffic Engineering
+
+### Alan Mislove
+
+- DBLP pid: `31/3833`
+- Counts: baseline networking `10`, total clean `31`, post-2023 clean `3`
+- Top venues: Internet Measurement Conference (5), NDSS (3), IMC (3), ANRW (2), WWW (2), CCS (2), SIGCOMM (2), USENIX Security Symposium (2)
+- Baseline title terms: study (5), advertising (4), automated (3), measuring (3), facebook (3), auditing (3), case (3), algorithms (3)
+- Post-2023 title terms: measurement (2), problematic (1), advertising (1), its (1), disparate (1), exposure (1), facebook (1), what (1)
+
+- 2018:
+  - ANRW: Automated Attack Discovery in TCP Congestion Control Using a Model-guided Approach
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - FAT: Potential for Discrimination in Online Targeted Advertising
+  - HotNets: Treads: Transparency-Enhancing Ads [qualifying]
+  - IEEE Symposium on Security and Privacy: Privacy Risks with Facebook's PII-Based Targeting: Auditing a Data Broker's Advertising Interface
+  - Internet Measurement Conference: Analyzing Ethereum's Contract Topology
+  - Internet Measurement Conference: Is the Web Ready for OCSP Must-Staple?
+  - NDSS: Automated Attack Discovery in TCP Congestion Control Using a Model-guided Approach
+  - NDSS: Investigating Ad Transparency Mechanisms in Social Media: A Case Study of Facebooks Explanations
+  - WWW: On Ridesharing Competition and Accessibility: Evidence from Uber, Lyft, and Taxi
+- 2019:
+  - CCS: You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+  - NDSS: Measuring the Facebook Advertising Ecosystem
+  - SIGCOMM: A large-scale analysis of deployed traffic differentiation practices [qualifying]
+  - WWW: Auditing Offline Data Brokers via Facebook's Advertising Platform
+  - WWW (Companion Volume): Quantifying the Impact of User Attentionon Fair Group Representation in Ranked Lists
+- 2020:
+  - Internet Measurement Conference: On the Potential for Discrimination via Composition
+- 2021:
+  - FAccT: Building and Auditing Fair Algorithms: A Case Study in Candidate Screening
+  - Financial Cryptography (2): Under the Hood of the Ethereum Gossip Protocol
+  - Internet Measurement Conference: Selfish & opaque transaction ordering in the Bitcoin blockchain: the case for chain neutrality
+  - PAM: Measurement and Analysis of Automated Certificate Reissuance
+  - SIGCOMM: The ties that un-bind: decoupling IP from web services and sockets for robust addressing agility at CDN-scale [qualifying]
+  - USENIX Security Symposium: Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps
+  - WSDM: Ad Delivery Algorithms: The Hidden Arbiters of Political Messaging
+- 2022:
+  - AIES: Algorithms that "Don't See Color": Measuring Biases in Lookalike and Special Ad Audiences
+  - CCS: Hammurabi: A Framework for Pluggable, Logic-Based X.509 Certificate Validation Policies
+  - IMC: Measurement and analysis of implied identity in ad delivery optimization [qualifying]
+  - SIGCSE (1): Broadening Participation in Computing via Ubiquitous Combined Majors (CS+X)
+- 2023:
+  - USENIX Security Symposium: Problematic Advertising and its Disparate Exposure on Facebook
+- 2024:
+  - IMC: What I Learned at the White House, or, the Importance of Measurement Researchers Engaging with Policy
+- 2025:
+  - IMC: Quantifying the Threat of Sandwiching MEV on Jito: A Measurement of Solana's Leading Validator Client
+
+### Oliver Gasser
+
+- DBLP pid: `147/1125`
+- Counts: baseline networking `10`, total clean `29`, post-2023 clean `14`
+- Top venues: IMC (8), Internet Measurement Conference (6), PAM (6), ANRW (2), TMA (2), Networking (1), CoNEXT (1), EuroS&P Workshops (1)
+- Baseline title terms: internet (5), dns (4), ecosystem (3), ipv6 (3), adoption (2), security (2), clusters (2), certificate (2)
+- Post-2023 title terms: prefixes (3), ipv6 (3), analyzing (2), web (2), bgp (2), target (2), internet (2), ipv4 (2)
+
+- 2018:
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - Internet Measurement Conference: Clusters in the Expanse: Understanding and Unbiasing IPv6 Hitlists
+  - Internet Measurement Conference: The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem
+  - PAM: In Log We Trust: Revealing Poor Security Practices with Certificate Transparency Logs and Internet Measurements
+- 2019:
+  - Internet Measurement Conference: DNS Observatory: The Big Picture of the DNS
+  - Internet Measurement Conference: Prefix Top Lists: Gaining Insights with Prefixes from Domain-based Top Lists on DNS Deployment
+- 2020:
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+- 2021:
+  - Internet Measurement Conference: Third time's not a charm: exploiting SNMPv3 for router fingerprinting
+  - Networking: From Single Lane to Highways: Analyzing the Adoption of Multipath TCP in the Internet
+  - PAM: Zeroing in on Port 0 Traffic in the Wild
+- 2022:
+  - CoNEXT: FlowDNS: correlating netflow and DNS streams at scale [qualifying]
+  - EuroS&P Workshops: SRv6: Is There Anybody Out There?
+  - IMC: Deep dive into the IoT backend ecosystem [qualifying]
+  - IMC: Illuminating large-scale IPv6 scanning in the internet [qualifying]
+  - IMC: Rusty clusters?: dusting an IPv6 research foundation [qualifying]
+- 2023:
+  - ANRW: Enabling Multi-hop ISP-Hypergiant Collaboration
+  - IMC: Fifteen Months in the Life of a Honeyfarm
+  - IMC: Illuminating Router Vendor Diversity Within Providers and Along Network Paths
+  - IMC: Pushing Alias Resolution to the Limit
+  - IMC: Thou Shalt Not Reject: Analyzing Accept-Or-Pay Cookie Banners on the Web
+  - PAM: Characterizing the VPN Ecosystem in the Wild
+  - PAM: Exploring the Cookieverse: A Multi-Perspective Analysis of Web Cookies
+  - PAM: How Ready is DNS for an IPv6-Only World?
+  - TMA: Live Long and Prosper: Analyzing Long-Lived MOAS Prefixes in BGP
+  - TMA: Target Acquired? Evaluating Target Generation Algorithms for IPv6
+- 2024:
+  - AsiaCCS: Kirin: Hitting the Internet with Distributed BGP Announcements
+  - PAM (1): A First Look at NAT64 Deployment In-The-Wild
+- 2025:
+  - IMC: Sibling Prefixes: Identifying Similarities in IPv4 and IPv6 Prefixes
+- 2026:
+  - PAM: Unpacking Internet Ossification: A Large-Scale Study of Path-Impairing Middleboxes Across IPv4 and IPv6
+
+### Ankit Singla
+
+- DBLP pid: `78/8146`
+- Counts: baseline networking `10`, total clean `26`, post-2023 clean `1`
+- Top venues: HotNets (4), SoCC (3), NSDI (2), Internet Measurement Conference (2), SIGCOMM (2), USENIX ATC (2), SOSR (2), FPL (1)
+- Baseline title terms: network (4), internet (4), space (3), networks (3), learning (2), video (2), streaming (2), algorithms (2)
+- Post-2023 title terms: decentralized (1), sdn (1), architecture (1), wan (1)
+
+- 2018:
+  - FPL: Providing Multi-tenant Services with FPGAs: Case Study on a Key-Value Store
+  - HotNets: Gearing up for the 21st century space race [qualifying]
+  - SoCC: Network Scheduling in the Dark
+- 2019:
+  - CoNEXT: Network topology design at 27, 000 km/hour [qualifying]
+  - HotCloud: Happiness index: Right-sizing the cloud's tenant-provider interface
+  - HotNets: (Self) Driving Under the Influence: Intoxicating Adversarial Network Inputs [qualifying]
+  - ICFC: Fog Application Allocation for Automation Systems
+  - ICML: Distributed Learning over Unreliable Networks
+  - NSDI: Is advance knowledge of flow sizes a plausible assumption? [qualifying]
+- 2020:
+  - HotNets: "Internet from Space" without Inter-satellite Links [qualifying]
+  - HotNets: In-orbit Computing: An Outlandish thought Experiment? [qualifying]
+  - Internet Measurement Conference: A Bird's Eye View of the World's Fastest Networks
+  - Internet Measurement Conference: Exploring the "Internet from space" with Hypatia
+  - PAM: Understanding Video Streaming Algorithms in the Wild
+  - SC: FatPaths: routing in supercomputers and data centers when shortest paths fall short
+  - SIGCOMM: Beyond the mega-data center: networking multi-data center regions [qualifying]
+  - SoCC: Photons: lambdas on a diet
+  - SoCC: Specializing the network for scatter-gather workloads
+  - USENIX ATC: Reconstructing proprietary video streaming algorithms
+- 2021:
+  - HotMobile: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - SIGMOD Conference: Towards Demystifying Serverless Machine Learning Training
+  - SOSR: Performance-Driven Internet Path Selection
+  - USENIX ATC: ICARUS: Attacking low Earth orbit satellite networks
+- 2022:
+  - NSDI: cISP: A Speed-of-Light Internet Service Provider [qualifying]
+  - SOSR: Mass surveillance of VoIP calls in the data plane
+- 2024:
+  - SIGCOMM: A Decentralized SDN Architecture for the WAN
+
+### Behnaz Arzani
+
+- DBLP pid: `126/1063`
+- Counts: baseline networking `10`, total clean `23`, post-2023 clean `11`
+- Top venues: NSDI (9), HotNets (6), SIGCOMM (4), Internet Measurement Conference (1), OSDI (1), MLSys (1), NINeS (1)
+- Baseline title terms: cloud (2), monitoring (2), packet (2), verification (2), domain-customized (2), automl (2), datacenter (1), sdn (1)
+- Post-2023 title terms: network (2), heuristics (2), optimization (2), holistic (1), view (1), ai-driven (1), incident (1), management (1)
+
+- 2018:
+  - Internet Measurement Conference: Cloud Datacenter SDN Monitoring: Experiences and Challenges
+  - NSDI: 007: Democratically Finding the Cause of Packet Drops [qualifying]
+- 2019:
+  - NSDI: dShark: A General, Easy to Program and Scalable Framework for Analyzing In-network Packet Traces [qualifying]
+- 2020:
+  - NSDI: PrivateEye: Scalable and Privacy-Preserving Compromise Detection in the Cloud [qualifying]
+  - OSDI: Aragog: Scalable Runtime Verification of Shardable Networked Systems
+  - SIGCOMM: GRooT: Proactive Verification of DNS Configurations [qualifying]
+  - SIGCOMM: Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing [qualifying]
+- 2021:
+  - HotNets: Interpretable Feedback for AutoML and a Proposal for Domain-customized AutoML for Networking [qualifying]
+  - HotNets: Towards a Cost vs. Quality Sweet Spot for Monitoring Networks [qualifying]
+  - NSDI: Contracting Wide-area Network Topologies to Solve Flow Problems Quickly [qualifying]
+- 2022:
+  - HotNets: Minding the gap between fast heuristics and their optimal counterparts [qualifying]
+  - MLSys: Matchmaker: Data Drift Mitigation in Machine Learning for Large-Scale Systems
+- 2023:
+  - HotNets: A Holistic View of AI-driven Network Incident Management
+- 2024:
+  - HotNets: End-to-End Performance Analysis of Learning-enabled Systems
+  - HotNets: Towards Safer Heuristics With XPlain
+  - NSDI: Finding Adversarial Inputs for Heuristics using Multi-level Optimization
+  - NSDI: Solving Max-Min Fair Resource Allocations Quickly on Large Graphs
+  - SIGCOMM: Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem
+- 2025:
+  - NSDI: Enhancing Network Failure Mitigation with Performance-Aware Ranking
+  - NSDI: Everything Matters in Programmable Packet Scheduling
+  - SIGCOMM: Raha: A General Tool to Analyze WAN Degradation
+- 2026:
+  - NINeS: OrbitalBrain: A Distributed Framework for Training ML Models in Space
+  - NSDI: Heuristic Analysis from Source Code via Symbolic-Guided Optimization
+
+### Gareth Tyson
+
+- DBLP pid: `85/85`
+- Counts: baseline networking `9`, total clean `122`, post-2023 clean `61`
+- Top venues: WWW (19), ICWSM (13), IMC (8), INFOCOM (7), ASONAM (6), Internet Measurement Conference (4), SIGMETRICS (Abstracts) (4), WWW (Companion Volume) (3)
+- Baseline title terms: web (8), exploring (7), deep (6), covid-19 (6), social (5), content (5), case (5), mobile (5)
+- Post-2023 title terms: social (11), understanding (8), moderation (8), network (7), networks (5), case (5), content (5), study (4)
+
+- 2018:
+  - CNSM: Adaptive Service Deployment using In-Network Mediation
+  - ICPP: H2Cloud: Maintaining the Whole Filesystem in an Object Storage Cloud
+  - ICWSM: Movie Pirates of the Caribbean: Exploring Illegal Streaming Cyberlockers
+  - ICWSM: WhatApp Doc? A First Look at WhatsApp Public Group Data
+  - INFOCOM: Deep Diving into Africa's Inter-Country Latencies
+  - SNAMS: Trollslayer: Crowdsourcing and Characterization of Abusive Birds in Twitter
+  - SelfDN@SIGCOMM: On Analyzing Self-Driving Networks: A Systems Thinking Approach
+  - WWW: Facebook (A)Live?: Are Live Social Broadcasts Really
+- 2019:
+  - COMSNETS: On the potential of Google AMP to promote local content in developing regions
+  - CoG: Towards Cheap Scalable Browser Multiplayer
+  - ICC: Deep Reinforcement Learning in Cache-Aided MEC Networks
+  - Internet Measurement Conference: An Empirical Study of the Cost of DNS-over-HTTPS
+  - Internet Measurement Conference: Challenges in the Decentralised Web: The Mastodon Case
+  - WWW: PYTHIA: a Framework for the Automated Analysis of Web Hosting Environments
+  - WWW: The Chain of Implicit Trust: An Analysis of the Web Third-party Resources Loading
+  - WWW: Who Watches the Watchmen: Exploring Complaints on the Web
+  - eCrime: Identifying Unintended Harms of Cybersecurity Countermeasures
+- 2020:
+  - ASONAM: A First Look at COVID-19 Messages on WhatsApp in Pakistan
+  - ASONAM: Characterising and Detecting Sponsored Influencer Posts on Instagram
+  - ASONAM: Impersonation on Social Media: A Deep Neural Approach to Identify Ingenuine Content
+  - ICWSM: Characterising User Content on a Multi-Lingual Social Network
+  - INFOCOM: Your Privilege Gives Your Privacy Away: An Analysis of a Home Security Camera Service
+  - IWQoS: LogSayer: Log Pattern-driven Cloud Component Anomaly Diagnosis with Machine Learning
+  - Insights: Embedding Structured Dictionary Entries
+  - Internet Measurement Conference: Dissecting the Communication Latency in Distributed Deep Sparse Learning
+  - LREC: Urban Dictionary Embeddings for Slang NLP Applications
+  - PAM: Dissecting the Workload of a Major Adult Video Portal
+  - PAM: Exploring the Eastern Frontier: A First Look at Mobile App Tracking in China
+  - SIGMETRICS (Abstracts): Understanding (Mis)Behavior on the EOSIO Blockchain
+  - ... 4 more in JSON packet
+- 2021:
+  - CoNEXT: Exploring content moderation in the decentralised web: the pleroma case [qualifying]
+  - EACL: An Expert Annotated Dataset for the Detection of Online Misogyny
+  - ICNP: Antelope: A Framework for Dynamic Selection of Congestion Control Algorithms
+  - ICSE: An Empirical Assessment of Global COVID-19 Contact Tracing Applications
+  - ICSE (Companion Volume): An Empirical Assessment of Global COVID-19 Contact Tracing Applications
+  - INFOCOM: Accelerating LSH-based Distributed Search with In-network Computation
+  - Internet Measurement Conference: Characterising the IETF through the lens of RFC deployment
+  - SIGMETRICS (Abstracts): Tracking Counterfeit Cryptocurrency End-to-end
+  - StudentWorkshop@CoNEXT: The impact of Capitol Hill on Pleroma: the case for decentralised moderation
+- 2022:
+  - AINTEC: Exploring Crowdsourced Content Moderation Through Lens of Reddit during COVID-19
+  - ASONAM: Exploring Mental Health Communications among Instagram Coaches
+  - HT: Weaponising Social Media for Information Divide and Warfare
+  - ICWSM: Improving Zero-Shot Cross-Lingual Hate Speech Detection with Pseudo-Label Fine-Tuning of Transformer Language Models
+  - ICWSM: The Web We Weave: Untangling the Social Graph of the IETF
+  - IMC: Challenges in decentralized name management: the case of ENS [qualifying]
+  - IMC: Exploring online manifestations of real-world inequalities [qualifying]
+  - INFOCOM: Muses: Enabling Lightweight Learning-Based Congestion Control for Mobile Devices
+  - INFOCOM: On Uploading Behavior and Optimizations of a Mobile Live Streaming Service
+  - MMAsia: Human-Avatar Interaction in Metaverse: Framework for Full-Body Interaction
+  - MOBILESoft: A Tale of Two Countries: A Longitudinal Cross-Country Study of Mobile Users' Reactions to the COVID-19 Pandemic Through the Lens of App Popularity
+  - NSS: A First Look at Android Apps' Third-Party Resources Loading
+  - ... 7 more in JSON packet
+- 2023:
+  - ACL (2): Tracing Linguistic Markers of Influence in a Large Online Organisation
+  - ACL (Findings): LEDA: a Large-Organization Email-Based Decision-Dialogue-Act Analysis Dataset
+  - ACM Multimedia: Reparo: QoE-Aware Live Video Streaming in Low-Rate Networks by Intelligent Frame Recovery
+  - ASONAM: Echo Chambers within the Russo-Ukrainian War: The Role of Bipartisan Users
+  - ASONAM: Understanding Characteristics of Catalyst Users in the WallStreetBets Community
+  - ESEC/SIGSOFT FSE: Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors
+  - HT: Ghost Booking as a New Philanthropy Channel: A Case Study on Ukraine-Russia Conflict
+  - ICDCS Workshops: Network Traffic in the Metaverse: The Case of Social VR
+  - ICWSM: Lady and the Tramp Nextdoor: Online Manifestations of Real-World Inequalities in the Nextdoor Social Network
+  - IMC: A First Look at the Privacy Harms of the Public Suffix List
+  - IMC: Flocking to Mastodon: Tracking the Great Twitter Migration
+  - IWQoS: Grace: Interpretable Root Cause Analysis by Graph Convolutional Network for Microservices
+  - ... 8 more in JSON packet
+- 2024:
+  - ACM Multimedia: Exploring the Use of Abusive Generative AI Models on Civitai
+  - ACM Multimedia: Understanding the Impact of AI-Generated Content on Social Media: The Pixiv Case
+  - ASONAM (3): Exploring the Capability of ChatGPT to Reproduce Human Labels for Social Computing Tasks
+  - ASONAM (3): The Emergence of Threads: The Birth of a New Social Network
+  - CIKM: Collecting and Analyzing Public Data from Mastodon
+  - CIKM: Mastodoner: A Command-line Tool and Python Library for Public Data Collection from Mastodon
+  - ICNP: Linc: Enabling Low-Resource in-Network Classification and Incremental Model Update
+  - ICWSM: A Study of Partisan News Sharing in the Russian Invasion of Ukraine
+  - ICWSM: Decentralised Moderation for Interoperable Social Networks: A Conversation-Based Approach for Pleroma and the Fediverse
+  - ICWSM: Making the Pick: Understanding Professional Editor Comment Curation in Online News
+  - ICWSM: Temporal Network Analysis of Email Communication Patterns in a Long Standing Hierarchy
+  - ICWSM: Understanding and Improving Content Moderation in Web3 Platforms
+  - ... 14 more in JSON packet
+- 2025:
+  - ANRW: Two Decades of IETF Affiliations: Evolution and Impact
+  - COLING: A Dataset for Expert Reviewer Recommendation with Large Language Models as Zero-shot Rankers
+  - ICDCS: PEE: Precise ECN Encoding for Efficient Congestion Control in Data Center Networks
+  - ICWSM: Bootstrapping Social Networks: Lessons from Bluesky Starter Packs
+  - ICWSM: Examining the Makeup of Media Trigger Warnings Online
+  - SIGMETRICS (Abstracts): Piecing Together the Jigsaw Puzzle of Transactions on Heterogeneous Blockchain Networks
+  - WWW: Virtual Stars, Real Fans: Understanding the VTuber Ecosystem
+  - WWW (Companion Volume): Unpacking the Layers: Exploring Self-Disclosure Norms, Engagement Dynamics, and Privacy Implications
+- 2026:
+  - CHI: Conflicting Rationales, Shifting Stances: Unpacking User Divergence in Online Geopolitical Debates
+  - CHI: Who Gets Written In? Gender, Identity, and Moderation in AO3's Celebrity Fanfiction
+  - NDSS: Benchmarking and Understanding Safety Risks in AI Character Platforms
+  - WWW: Enhancing Content Moderation with LLMs: A Reddit Case Study on Evaluating and Refining Human Decisions
+  - WWW: Open or Blocked Skies? Community Moderation Practices in Bluesky
+  - WWW: SkyCL: Swift Continuous Learning with Kinship-Awareness for Multi-Drone Video Analytics under Drastic Drift
+  - WWW: Understanding the Consequences of VTuber Reincarnation
+
+### Thomas C. Schmidt
+
+- DBLP pid: `s/TCSchmidt`
+- Counts: baseline networking `9`, total clean `95`, post-2023 clean `26`
+- Top venues: ICN (16), VNC (7), Internet Measurement Conference (6), EWSN (5), SIGCOMM (Posters and Demos) (5), TMA (4), LCN (3), CoNEXT (3)
+- Baseline title terms: iot (16), networks (9), ndn (8), internet (6), communication (6), security (6), information-centric (5), icn (5)
+- Post-2023 title terms: networks (6), ipv6 (4), lora (3), automotive (3), asynchronous (3), traffic (3), shaping (3), ageing (2)
+
+- 2018:
+  - AGERE!@SPLASH: A configurable transport layer for CAF
+  - ANRW: Towards a Rigorous Methodology for Measuring Adoption of RPKI Route Validation and Filtering
+  - EuCNC: MONICA in Hamburg: Towards Large-Scale IoT Deployments in a Smart City
+  - ICN: HoPP: publish-subscribe for the constrained IoT
+  - ICN: ICN-LoWPAN: header compression for the constrained IoT
+  - ICN: NDN, CoAP, and MQTT: a comparative measurement study in the IoT
+  - Internet Measurement Conference: The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem
+  - LCN: HoPP: Robust and Resilient Publish-Subscribe for an Information-Centric Internet of Things
+  - MobiSys: A PUF Seed Generator for RIOT: Introducing Crypto-Fundamentals to the Wild
+  - MobiSys: Seamless Producer Mobility for the Industrial Information-Centric Internet
+  - Programming with Actors: OpenCL Actors - Adding Data Parallelism to Actor-Based Programming with CAF
+  - SIGCOMM Posters and Demos: On the Potential of BGP Flowspec for DDoS Mitigation at Two Sources: ISP and IXP
+- 2019:
+  - ENSsys@SenSys: Eco: A Hardware-Software Co-Design for In Situ Power Measurement on Low-end IoT Systems
+  - ICN: Bluetooth Mesh under the Microscope: How much ICN is Inside?
+  - ICN: Gain More for Less: The Surprising Benefits of QoS Management in Constrained NDN Networks
+  - ICN: NDN meets BLE: A Transparent Gateway for Opening NDN-over-BLE Networks to your Smartphone
+  - ICN: NDNSSEC: Namespace Management in NDN with DNSSEC
+  - ICN: The Missing Piece: On Namespace Management in NDN and How DNSSEC Might Help
+  - ICN: Your Message Rescues Me: Enhancing NDN Communication Quality in Disaster Scenarios
+  - ICT: SANE: Smart Networks for Urban Citizen Participation
+  - ICT-DM: Authenticated Communication in Crises: Toward an Infrastructureless Trust Model for Challenged Networks
+  - Internet Measurement Conference: Down the Black Hole: Dismantling Operational Practices of BGP Blackholing at IXPs
+  - LCN: A Lesson in Scaling 6LoWPAN - Minimal Fragment Forwarding in Lossy Networks
+  - NetSys: An Energy-aware IoT Node for Sustainable Urban Sensing
+  - ... 4 more in JSON packet
+- 2020:
+  - AGERE!@SPLASH: Revisiting the network stack in CAF
+  - Echtzeit: Integration realer Angriffe in simulierte Echtzeit-Ethernet-Netzwerke
+  - ICN: Connecting the Dots: Selective Fragment Recovery in ICNLoWPAN
+  - ICN: Long-Range IoT: Is LoRaWAN an option for ICN?
+  - ICN: On economic, societal, and political aspects in ICN
+  - ICN: Toward a RESTful Information-Centric Web of Things: A Deeper Look at Data Orientation in CoAP
+  - Internet Measurement Conference: BGP Beacons, Network Tomography, and Bayesian Computation to Locate Route Flap Damping
+  - Internet Measurement Conference: On Measuring RPKI Relying Parties
+  - NOMS: Uncovering Vulnerable Industrial Control Systems from the Internet Core
+  - Networking: IoT Content Object Security with OSCORE and NDN: A First Experimental Comparison
+  - VNC: Demo: A Security Infrastructure for Vehicular Information Using SDN, Intrusion Detection, and a Defense Center in the Cloud
+  - VNC: Requirements Analysis and Performance Evaluation of SDN Controllers for Automotive Use Cases
+  - ... 2 more in JSON packet
+- 2021:
+  - CoNEXT: Mind the gap: multi-hop IPv6 over BLE in the IoT [qualifying]
+  - CoNEXT: Transparent forwarders: an unnoticed component of the open DNS infrastructure [qualifying]
+  - EMSOFT: Large-scale timer hardware analysis for a flexible low-level timer-API design: work-in-progress
+  - EWSN: A Performance Study of Crypto-Hardware in the Low-end IoT
+  - ICN: Reliable firmware updates for the information-centric internet of things
+  - ICNP: Poster: DSME-LoRa - A Flexible MAC for LoRa
+  - Internet Measurement Conference: QUICsand: quantifying QUIC reconnaissance scans and DoS flooding events
+  - Internet Measurement Conference: The far side of DNS amplification: tracing the DDoS attack ecosystem from the internet core
+  - IoTDI: Third Party Authorization of LwM2M Clients: Poster Abstract
+  - LCN: Group Communication with OSCORE: RESTful Multiparty Access to a Data-Centric Web of Things
+  - StudentWorkshop@CoNEXT: Securing name resolution in the IoT: DNS over CoAP
+  - TAURIN@SIGCOMM: On the Deployment of Default Routes in Inter-domain Routing
+  - ... 4 more in JSON packet
+- 2022:
+  - CoNEXT: On the interplay between TLS certificates and QUIC performance [qualifying]
+  - EWSN: Dynamic Clock Reconfiguration for the Constrained IoT and its Application to Energy-efficient Networking
+  - EWSN: Usable Security for an IoT OS: Integrating the Zoo of Embedded Crypto Components Below a Common API
+  - ICN: Delay-tolerant ICN and its application to LoRa
+  - ICN: Public key and namespace management in NDN: SoK
+  - IFIP Networking: Long-Range ICN for the IoT: Exploring a LoRa System Design
+  - IPSN: Poster Abstract: Offloading Crypto Processing with RIOT
+  - IPSN: Secure and Authorized Client-to-Client Communication for LwM2M
+  - TMA: The Race to the Vulnerable: Measuring the Log4j Shell Incident
+  - USENIX Security Symposium: Spoki: Unveiling a New Wave of Scanners through a Reactive Network Telescope
+  - WoWMoM: WIP: Exploring DSME MAC for LoRa - A System Integration and First Evaluation
+- 2023:
+  - DSD: Ageing Analysis of Embedded SRAM on a Large-Scale Testbed Using Machine Learning
+  - EWSN: 6LoRa: Full Stack IPv6 Networking with DSME-LoRa on Low Power IoT Nodes
+  - EWSN: IPv6 over Bluetooth Advertisements: An alternative approach to IP over BLE
+  - EuroS&P: SoK: A Data-driven View on Methods to Detect Reflective Amplification DDoS Attacks Using Honeypots
+  - VNC: Authenticated and Secure Automotive Service Discovery with DNSSEC and DANE
+  - VTC2023-Spring: Dynamic Service-Orientation for Software-Defined In-Vehicle Networks
+- 2024:
+  - DSD: Studying the Degradation of Propagation Delay on FPGAs at the European XFEL
+  - IMC: ReACKed QUICer: Measuring the Performance of Instant Acknowledgments in QUIC Handshakes
+  - IMC: The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+  - TMA: Do CAA, CT, and DANE Interlink in Certificate Deployments? A Web PKI Measurement Study
+  - VNC: A Framework for the Systematic Assessment of Anomaly Detectors in Time-Sensitive Automotive Networks
+- 2025:
+  - CCS: Forward to Hell? On the Potentials of Misusing Transparent DNS Forwarders in Reflective Amplification Attacks
+  - INFOCOM: CoRa: A Collision-Resistant LoRa Symbol Detector of Low Complexity
+  - INFOCOM WKSHPS: AirBridge Pro - A Programmable Multiradio Outdoor Gateway for IoT Research & Measurement
+  - INFOCOM WKSHPS: LoRa Collision Resolution in Real-Time
+  - SIGCOMM: Lessons Learned from Operating a Large Network Telescope
+  - SIGCOMM (Posters and Demos): DNSSEC in the Car - Towards an Agile Management of Automotive Service Security
+  - SIGCOMM (Posters and Demos): Hilby - Hilbert Interactive Prefix Plots
+  - SIGCOMM (Posters and Demos): Latency Limits for Asynchronous Traffic Shaping in Redundant TSN Networks
+  - SIGCOMM (Posters and Demos): Towards a Complete View of Encrypted Client Hello Deployments
+  - SIGCOMM (Posters and Demos): Two-Phase Scanning in IPv6 - First Observations from a Reactive IPv6 Network Telescope
+  - VNC: Asynchronous Traffic Shaping and Redundancy: Avoiding Unbounded Latencies in In-Car Networks
+  - VTC2025-Fall: Anomaly Detection in Real-Time Networks Using Asynchronous Traffic Shaping
+- 2026:
+  - Concurrent Programming, Open Systems and Formal Methods: The C++ Actor Framework: A Scalable Fundament for Research and Applications
+  - DDECS: Ageing Monitoring for Commercial Microcontrollers Based on Timing Windows
+  - Engineering Safe and Trustworthy Cyber Physical Systems: Securing Future In-Vehicle Networks: Monitoring and Control for Ethernet Backbones
+
+### Matthias Wählisch
+
+- DBLP pid: `91/5978`
+- Counts: baseline networking `9`, total clean `74`, post-2023 clean `18`
+- Top venues: ICN (16), Internet Measurement Conference (6), EWSN (5), SIGCOMM (Posters and Demos) (5), TMA (4), LCN (3), CoNEXT (3), IMC (3)
+- Baseline title terms: iot (15), ndn (8), internet (7), information-centric (5), icn (5), networks (5), measuring (4), route (4)
+- Post-2023 title terms: ipv6 (4), lora (3), cloud (3), low (2), iot (2), view (2), reflective (2), amplification (2)
+
+- 2018:
+  - ANRW: Towards a Rigorous Methodology for Measuring Adoption of RPKI Route Validation and Filtering
+  - ICN: HoPP: publish-subscribe for the constrained IoT
+  - ICN: ICN-LoWPAN: header compression for the constrained IoT
+  - ICN: NDN, CoAP, and MQTT: a comparative measurement study in the IoT
+  - Internet Measurement Conference: The Rise of Certificate Transparency and Its Implications on the Internet Ecosystem
+  - LCN: HoPP: Robust and Resilient Publish-Subscribe for an Information-Centric Internet of Things
+  - MobiSys: A PUF Seed Generator for RIOT: Introducing Crypto-Fundamentals to the Wild
+  - MobiSys: Seamless Producer Mobility for the Industrial Information-Centric Internet
+  - SIGCOMM Posters and Demos: On the Potential of BGP Flowspec for DDoS Mitigation at Two Sources: ISP and IXP
+- 2019:
+  - ENSsys@SenSys: Eco: A Hardware-Software Co-Design for In Situ Power Measurement on Low-end IoT Systems
+  - GI-Jahrestagung: Internet of Everything
+  - ICN: Bluetooth Mesh under the Microscope: How much ICN is Inside?
+  - ICN: Gain More for Less: The Surprising Benefits of QoS Management in Constrained NDN Networks
+  - ICN: NDN meets BLE: A Transparent Gateway for Opening NDN-over-BLE Networks to your Smartphone
+  - ICN: NDNSSEC: Namespace Management in NDN with DNSSEC
+  - ICN: The Missing Piece: On Namespace Management in NDN and How DNSSEC Might Help
+  - ICN: Your Message Rescues Me: Enhancing NDN Communication Quality in Disaster Scenarios
+  - ICT-DM: Authenticated Communication in Crises: Toward an Infrastructureless Trust Model for Challenged Networks
+  - Internet Measurement Conference: Down the Black Hole: Dismantling Operational Practices of BGP Blackholing at IXPs
+  - LCN: A Lesson in Scaling 6LoWPAN - Minimal Fragment Forwarding in Lossy Networks
+  - NetSys: An Energy-aware IoT Node for Sustainable Urban Sensing
+  - ... 2 more in JSON packet
+- 2020:
+  - ICN: Connecting the Dots: Selective Fragment Recovery in ICNLoWPAN
+  - ICN: Long-Range IoT: Is LoRaWAN an option for ICN?
+  - ICN: On economic, societal, and political aspects in ICN
+  - ICN: Toward a RESTful Information-Centric Web of Things: A Deeper Look at Data Orientation in CoAP
+  - Internet Measurement Conference: BGP Beacons, Network Tomography, and Bayesian Computation to Locate Route Flap Damping
+  - Internet Measurement Conference: On Measuring RPKI Relying Parties
+  - NOMS: Uncovering Vulnerable Industrial Control Systems from the Internet Core
+  - Networking: IoT Content Object Security with OSCORE and NDN: A First Experimental Comparison
+- 2021:
+  - CoNEXT: Mind the gap: multi-hop IPv6 over BLE in the IoT [qualifying]
+  - CoNEXT: Transparent forwarders: an unnoticed component of the open DNS infrastructure [qualifying]
+  - EWSN: A Performance Study of Crypto-Hardware in the Low-end IoT
+  - ICN: Reliable firmware updates for the information-centric internet of things
+  - ICNP: Poster: DSME-LoRa - A Flexible MAC for LoRa
+  - Internet Measurement Conference: QUICsand: quantifying QUIC reconnaissance scans and DoS flooding events
+  - Internet Measurement Conference: The far side of DNS amplification: tracing the DDoS attack ecosystem from the internet core
+  - IoTDI: Third Party Authorization of LwM2M Clients: Poster Abstract
+  - LCN: Group Communication with OSCORE: RESTful Multiparty Access to a Data-Centric Web of Things
+  - StudentWorkshop@CoNEXT: Securing name resolution in the IoT: DNS over CoAP
+  - TAURIN@SIGCOMM: On the Deployment of Default Routes in Inter-domain Routing
+  - TMA: Revisiting RPKI Route Origin Validation on the Data Plane
+  - ... 2 more in JSON packet
+- 2022:
+  - CoNEXT: On the interplay between TLS certificates and QUIC performance [qualifying]
+  - EWSN: Dynamic Clock Reconfiguration for the Constrained IoT and its Application to Energy-efficient Networking
+  - EWSN: Usable Security for an IoT OS: Integrating the Zoo of Embedded Crypto Components Below a Common API
+  - ICN: Delay-tolerant ICN and its application to LoRa
+  - ICN: Public key and namespace management in NDN: SoK
+  - IFIP Networking: Long-Range ICN for the IoT: Exploring a LoRa System Design
+  - IPSN: Poster Abstract: Offloading Crypto Processing with RIOT
+  - IPSN: Secure and Authorized Client-to-Client Communication for LwM2M
+  - TMA: The Race to the Vulnerable: Measuring the Log4j Shell Incident
+  - USENIX Security Symposium: Spoki: Unveiling a New Wave of Scanners through a Reactive Network Telescope
+  - WoWMoM: WIP: Exploring DSME MAC for LoRa - A System Integration and First Evaluation
+- 2023:
+  - EWSN: 6LoRa: Full Stack IPv6 Networking with DSME-LoRa on Low Power IoT Nodes
+  - EWSN: IPv6 over Bluetooth Advertisements: An alternative approach to IP over BLE
+  - EuroS&P: SoK: A Data-driven View on Methods to Detect Reflective Amplification DDoS Attacks Using Honeypots
+- 2024:
+  - IMC: ReACKed QUICer: Measuring the Performance of Instant Acknowledgments in QUIC Handshakes
+  - IMC: The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+  - TMA: Do CAA, CT, and DANE Interlink in Certificate Deployments? A Web PKI Measurement Study
+  - WWW (Companion Volume): From Files to Streams: Revisiting Web History and Exploring Potentials for Future Prospects
+- 2025:
+  - CCS: Forward to Hell? On the Potentials of Misusing Transparent DNS Forwarders in Reflective Amplification Attacks
+  - IMC: The SAP Cloud Infrastructure Dataset: A Reality Check of Scheduling and Placement of VMs in Cloud Computing
+  - INFOCOM: CoRa: A Collision-Resistant LoRa Symbol Detector of Low Complexity
+  - INFOCOM WKSHPS: AirBridge Pro - A Programmable Multiradio Outdoor Gateway for IoT Research & Measurement
+  - INFOCOM WKSHPS: LoRa Collision Resolution in Real-Time
+  - SIGCOMM: Lessons Learned from Operating a Large Network Telescope
+  - SIGCOMM (Posters and Demos): Challenges in VM Scheduling and Placement: Insights from a Real-World SAP Cloud Dataset
+  - SIGCOMM (Posters and Demos): Hilby - Hilbert Interactive Prefix Plots
+  - SIGCOMM (Posters and Demos): Privacy-Preserving Payments on Constrained End-User Devices
+  - SIGCOMM (Posters and Demos): Towards a Complete View of Encrypted Client Hello Deployments
+  - SIGCOMM (Posters and Demos): Two-Phase Scanning in IPv6 - First Observations from a Reactive IPv6 Network Telescope
+
+### Oliver Hohlfeld
+
+- DBLP pid: `75/6403`
+- Counts: baseline networking `9`, total clean `64`, post-2023 clean `17`
+- Top venues: PAM (7), Internet Measurement Conference (6), QoMEX (4), WWW (Companion Volume) (4), IMC (4), CCS (3), ANRW (2), CAMAD (2)
+- Baseline title terms: web (6), control (5), internet (5), ddos (5), data (4), scale (4), lru (3), content (3)
+- Post-2023 title terms: poster (3), ddos (3), internet (3), age (2), empirical (2), comparison (2), developer (2), traffic (2)
+
+- 2018:
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - CAMAD: Comparing Web Cache Implementations for Fast O(1) Updates Based on LRU, LFU and Score Gated Strategies
+  - CoNEXT: Is the web ready for HTTP/2 server push? [qualifying]
+  - Financial Cryptography: A Quantitative Analysis of the Impact of Arbitrary Blockchain Content on Bitcoin
+  - IC2E: Giving Customers Control Over Their Data: Integrating a Policy Language into the Cloud
+  - ITC (1): Application-Agnostic Offloading of Datagram Processing
+  - Internet Measurement Conference: A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists
+  - Internet Measurement Conference: Digging into Browser-based Crypto Mining
+  - Internet Measurement Conference: Dissecting Apple's Meta-CDN during an iOS Update
+  - PAM: A First Look at QUIC in the Wild
+  - PAM: Characterizing a Meta-CDN
+  - SIGCOMM Posters and Demos: Operating a DNS-based Active Internet Observatory
+  - ... 2 more in JSON packet
+- 2019:
+  - ANRW: A performance perspective on web optimized protocol stacks: TCP+TLS+HTTP/2 vs. QUIC
+  - CAMAD: Fast and Efficient Web Caching Methods Regarding the Size and Performance Measures per Data Object
+  - CoNEXT: Perceiving QUIC: do users notice or even care? [qualifying]
+  - Internet Measurement Conference: DDoS Hide & Seek: On the Effectiveness of a Booter Services Takedown
+  - KONVENS: Determining Response-generating Contexts on Microblogging Platforms
+  - LCN Symposium: The Case for Session Sharing: Relieving Clients from TLS Handshake Overheads
+  - NetAI@SIGCOMM: DeePCCI: Deep Learning-based Passive Congestion Control Identification
+  - NetSoft: Demystifying the Performance of XDP BPF
+  - PAM: Hidden Treasures - Recycling Large-Scale Internet Measurements to Study the Internet's Control Plane
+  - QoMEX: TheFragebogen: A Web Browser-based Questionnaire Framework for Scientific Research
+  - TMA: An Empirical View on Content Provider Fairness
+  - WWW (Companion Volume): Hashtag Usage in a Geographically-Local Microblogging App
+  - ... 1 more in JSON packet
+- 2020:
+  - CCS: The Boon and Bane of Cross-Signing: Shedding Light on a Common Practice in Public Key Infrastructures
+  - ICWSM Workshops: Word-Emoji Embeddings from large scale Messaging Data reflect real-worldSemantic Associations of Expressive Icons
+  - Internet Measurement Conference: Mis-shapes, Mistakes, Misfits: An Analysis of Domain Classification Services
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+  - Networking: General Knapsack Bounds of Web Caching Performance Regarding the Properties of each Cacheable Object
+  - PAM: MUST, SHOULD, DON'T CARE: TCP Conformance in the Wild
+  - QoMEX: Multi-Episodic Perceived Quality of an Audio-on-Demand Service
+  - SIGCOMM Posters and Demos: Corona-warn-app: tracing the start of the official COVID-19 exposure notification app for germany
+- 2021:
+  - CCS: CyberBunker 2.0 - A Domain and Traffic Perspective on a Bulletproof Hoster
+  - CCS: United We Stand: Collaborative Detection and Mitigation of Amplification DDoS Attacks at Scale
+  - PAM: DDoS Never Dies? An IXP Perspective on DDoS Amplification Attacks
+  - QoMEX: A Questionnaire to Assess Virtual Conference Participation Experience
+  - StudentWorkshop@CoNEXT: Large scale outage visibility on the control plane
+  - WWW (Companion Volume): Understanding & Predicting User Lifetime with Machine Learning in an Anonymous Location-Based Social Network
+- 2022:
+  - PAM: Differences in Social Media Usage Exist Between Western and Middle-East Countries
+  - PAM: Lights on Power Plant Control Networks
+  - QoMEX: Data - Driven Study of Long - Term Gaming Experience
+  - SIGCOMM: IXP scrubber: learning from blackholing traffic for ML-driven DDoS detection at scale [qualifying]
+  - WWW (Companion Volume): Anonymous Hyperlocal Communities: What do they talk about?
+  - WiOpt: Analysis of the LRU Cache StartUp Phase and Convergence Time and Error Bounds on Approximations by Fagin and Che
+- 2023:
+  - WFCS: TSN Scheduler Benchmarking
+- 2024:
+  - ICWSM: Reviewing War: Unconventional User Reviews as a Side Channel to Circumvent Information Controls
+  - IMC: Poster: Web Dependency Analyzer to Identify Resource Dependencies and their Impact on Rendering
+  - IMC: The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+  - IoT: SEAL-CC: Scalable Latency Evaluation Methodology for Internet-of-Things Services
+  - MoDELS (Companion): Low-code vs. the developer: An empirical study on the developer experience and efficiency of a no-code platform
+  - SIGCOMM: IPD: Detecting Traffic Ingress Points at ISPs
+  - SIGCOMM (Posters and Demos): DEMO: P4PLC: How Dynamic In-Network Control Enables an Interruption-free Migration of vPLCs
+- 2025:
+  - ASEW: LLMs Choose the Right Stack: From Patterns to Tools
+  - ECSA (Tracks and Workshops): Industrial Views on DevOps Adoption Before and After Implementation: A Qualitative Comparison
+  - ECSA (Tracks and Workshops): The (C)omprehensive (A)rchitecture (P)attern (I)ntegration Method: Navigating the Sea of Technology
+  - HotNets: Data Centers Manufacturing Steel: Rethinking Industrial Networks in the Age of IT
+  - IMC: Poster: Beyond IP: Amateur Radio PSKReporter as a Crisis Measurement Tool
+  - IMC: Poster: Power Out, Internet Down? Measuring Internet Resilience in South Africa
+  - ITC-36: DDoS on Repeat: Measuring Pulse-Wave DDoS in the Wild
+  - NGNO@MM: TraffIX: Monitoring Global Internet Traffic Trends by Crawling IXP Statistics
+  - SIGCOMM (Posters and Demos): Crawling Alice Looking Glasses at IXPs to Quantify BGP Route Diversity
+
+### Ennan Zhai
+
+- DBLP pid: `23/7560`
+- Counts: baseline networking `9`, total clean `55`, post-2023 clean `36`
+- Top venues: SIGCOMM (21), NSDI (15), FAST (2), MobiCom (2), MobiSys (2), SOSP (2), ICPP (1), IWQoS (1)
+- Baseline title terms: cloud (4), storage (4), data (4), services (3), android (3), configuration (3), filesystem (2), mobile (2)
+- Post-2023 title terms: network (10), cloud (7), training (7), model (6), communication (5), alibaba (4), load (3), verification (3)
+
+- 2018:
+  - FAST: Towards Web-based Delta Synchronization for Cloud Storage Services
+  - ICPP: H2Cloud: Maintaining the Whole Filesystem in an Object Storage Cloud
+  - IWQoS: Minimizing the Cask Effect of Multi-Source Content Delivery
+- 2019:
+  - INFOCOM: HyCloud: Tweaking Hybrid Cloud Storage Services for Cost-Efficient Filesystem Hosting
+  - MobiCom: Demo: Mobile Gaming on Personal Computers with Direct Android Emulation
+  - MobiCom: Mobile Gaming on Personal Computers with Direct Android Emulation
+  - MobiSys: Understanding Fileless Attacks on Linux-based IoT Devices with HoneyCloud
+  - MobiSys: Understanding and Detecting Overlay-based Android Malware at Market Scales
+  - SIGCOMM: Safely and automatically updating in-network ACL configurations with intent language [qualifying]
+- 2020:
+  - FAST: Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation
+  - NSDI: Check before You Change: Preventing Correlated Failures in Service Updates [qualifying]
+  - SIGCOMM: Accuracy, Scalability, Coverage: A Practical Configuration Verifier on a Global WAN [qualifying]
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+- 2021:
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+  - SIGCOMM: Campion: debugging router configuration differences [qualifying]
+- 2022:
+  - NSDI: Cetus: Releasing P4 Programmers from the Chore of Trial and Error Compiling [qualifying]
+  - SANER: Learning CI Configuration Correctness for Early Build Feedback
+  - SIGCOMM: Meissa: scalable network testing for programmable data planes [qualifying]
+  - SIGCOMM: Predictable vFabric on informative data plane [qualifying]
+- 2023:
+  - NSDI: Norma: Towards Practical Network Load Testing
+  - SIGCOMM: CellFusion: Multipath Vehicle-to-Cloud Video Streaming with Network Coding in the Wild
+  - SIGCOMM: XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale
+  - SOSP: Automated Verification of an In-Production DNS Authoritative Engine
+- 2024:
+  - APNet: Cross-Platform Transpilation of Packet-Processing Programs using Program Synthesis
+  - BigCom: RACCOON: Online Content Recommendation and Edge-Assisted Caching for In-Vehicle Infotainment
+  - MLSys: CloudEval-YAML: A Practical Benchmark for Cloud Configuration Generation
+  - NSDI: LuoShen: A Hyper-Converged Programmable Gateway for Multi-Tenant Multi-Service Edge Clouds
+  - NSDI: Reasoning about Network Traffic Load Property at Production Scale
+  - NSDI: Sirius: Composing Network Function Chains into P4-Capable Edge Gateways
+  - OSDI: Burstable Cloud Block Storage with Data Processing Units
+  - SIGCOMM: A General and Efficient Approach to Verifying Traffic Load Properties under Arbitrary k Failures
+  - SIGCOMM: Alibaba HPN: A Data Center Network for Large Language Model Training
+  - SIGCOMM: Crux: GPU-Efficient Communication Scheduling for Deep Learning Training
+  - SIGCOMM: Relational Network Verification
+- 2025:
+  - FMANO@SIGCOMM: ConfSum: Towards Automatic Summarization of Network-scale Operational Intents from Device Configurations
+  - HPCA: Enhancing Large-Scale AI Training Efficiency: The C4 Solution for Real-Time Anomaly Detection and Communication Optimization
+  - NSDI: Evolution of Aegis: Fault Diagnosis for AI Model Training Service in Production
+  - NSDI: Learning Production-Optimized Congestion Control Selection for Alibaba Cloud CDN
+  - NSDI: Mitigating Scalability Walls of RDMA-based Container Networks
+  - NSDI: SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability and Precision
+  - SIGCOMM: Alibaba Stellar: A New Generation RDMA Network for Cloud AI
+  - SIGCOMM: New Evolution of Hoyan: Enhancing Scalability, Usability, and Accuracy for Alibaba's Global WAN Verification
+  - SIGCOMM: ParserHawk: Hardware-aware parser generator using program synthesis
+  - SIGCOMM: ResCCL: Resource-Efficient Scheduling for Collective Communication
+  - SIGCOMM: SkeletonHunter: Diagnosing and Localizing Network Failures in Containerized Large Model Training
+  - SIGCOMM: SkyNet: Analyzing Alert Flooding from Severe Network Failures in Large Cloud Infrastructures
+  - ... 4 more in JSON packet
+- 2026:
+  - NSDI: Come Hell or Still Water: Alleviating Tail Latency in Cloud Block Store
+  - NSDI: Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation
+  - NSDI: EROICA: Online Performance Troubleshooting for Large-scale Model Training
+  - NSDI: HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters
+  - NSDI: ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production
+
+### Kyle Jamieson
+
+- DBLP pid: `j/KyleJamieson`
+- Counts: baseline networking `9`, total clean `47`, post-2023 clean `21`
+- Top venues: MobiCom (11), NSDI (6), SIGCOMM (4), GLOBECOM (4), HotNets (3), HotMobile (2), MILCOM (2), USENIX ATC (1)
+- Baseline title terms: quantum (5), mimo (5), annealing (4), networks (4), network (3), radio (3), detection (3), iot (3)
+- Post-2023 title terms: mimo (5), wireless (4), video (4), quantum (3), channel (3), networks (3), nextg (3), cellular (3)
+
+- 2018:
+  - MobiCom: Session details: Keynote Address V
+  - SIGCOMM: PLoRa: a passive long-range data network from ambient LoRa transmissions [qualifying]
+- 2019:
+  - MobiCom: Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity
+  - MobiCom: mD-Track: Leveraging Multi-Dimensionality for Passive Indoor Wi-Fi Tracking
+  - NSDI: Towards Programming the Radio Environment with Large Arrays of Inexpensive Antennas [qualifying]
+  - SIGCOMM: Leveraging quantum annealing for large MIMO processing in centralized radio access networks [qualifying]
+  - USENIX ATC: Who's Afraid of Uncorrectable Bit Errors? Online Recovery of Flash Errors with Distributed Redundancy
+- 2020:
+  - HotNets: Towards Hybrid Classical-Quantum Computation Structures in Wirelessly-Networked Systems [qualifying]
+  - MobiCom: Towards quantum belief propagation for LDPC decoding in wireless networks
+  - NDSS: Metamorph: Injecting Inaudible Commands into Over-the-air Voice Controlled Systems
+  - SIGCOMM: Pbe-CC: Congestion Control via Endpoint-Centric, Physical-Layer Bandwidth Measurements [qualifying]
+- 2021:
+  - HotMobile: REITS: Reflective Surface for Intelligent Transportation Systems
+  - HotMobile: mmWall: A Reconfigurable Metamaterial Surface for mmWave Networks
+  - ICC: Quantum Annealing for Large MIMO Downlink Vector Perturbation Precoding
+  - MobiCom: Physics-inspired heuristics for soft MIMO detection in 5G new radio and beyond
+  - NSDI: Pushing the Physical Limits of IoT Devices with Programmable Metasurfaces [qualifying]
+  - SEC: Spider: A Multi-Hop Millimeter-Wave Network for Live Video Analytics
+  - SIGCOMM: LAVA: fine-grained 3D indoor wireless coverage for small IoT devices [qualifying]
+  - WiOpt: The Case for Small-Scale, Mobile-Enhanced COVID-19 Epidemiology
+- 2022:
+  - GLOBECOM: Perturbation-based Formulation of Maximum Likelihood MIMO Detection for Coherent Ising Machines
+  - GLOBECOM: Regularized Ising Formulation for Near-Optimal MIMO Detection using Quantum Inspired Solvers
+  - GLOBECOM: The Design and Implementation of a Hybrid Classical-Quantum Annealing Polar Decoder
+  - HotNets: Towards dual-band reconfigurable metasurfaces for satellite networking [qualifying]
+  - MobiCom: Warm-started quantum sphere decoding via reverse annealing for massive IoT connectivity
+  - NSDI: CurvingLoRa to Boost LoRa Network Throughput via Concurrent Transmission [qualifying]
+  - SIGMETRICS (Abstracts): NG-Scope: Fine-Grained Telemetry for NextG Cellular Networks
+- 2023:
+  - GLOBECOM: A Low-Power OAM Metasurface for Rank-Deficient Wireless Environments
+  - ICASSP: Finer-Grained Decomposition for Parallel Quantum Mimo Processing
+  - MobiHoc: Scalable Multi-Modal Learning for Cross-Link Channel Prediction in Massive IoT Networks
+  - NSDI: Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming
+  - NSDI: mmWall: A Steerable, Transflective Metamaterial Surface for NextG mmWave Networks
+- 2024:
+  - CoNEXT (Short Papers): NR-Scope: A Practical 5G Standalone Telemetry Tool
+  - HotNets: Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond
+  - ICC Workshops: Optimizing Reconfigurable Antenna MIMO Systems with Coherent Ising Machines
+  - MILCOM: AVOID: Automatic Verification Of Internet Data-paths
+  - MILCOM: REVEAL: Real-time Evaluation and Verification of External Adversarial Links
+  - MobiCom: Demo: Decoding Control Information Passively from Standalone 5G Network
+  - MobiCom: Demo: Metasurface-Enabled NextG mmWave for Roadside Networking
+  - MobiCom: SIMD-enabled Physics-inspired MIMO detector for Uplink Multi-user MIMO
+  - MobiCom: Understanding the Impact of Cellular RAN-induced Delay on Video Conferencing
+  - QCE: A Quantum Approximate Optimization Algorithm-Based Decoder Architecture for NextG Wireless Channel Codes
+- 2025:
+  - DySPAN: RadioTwin: A Digital Building Material Twin for Wideband, Cross-link, Cross-band Wireless Channel Prediction
+  - IMC: Automated, Cross-Layer Root Cause Analysis of 5G Video-Conferencing Quality Degradation
+  - MobiCom: X-ResQ: Parallel Reverse Annealing for Quantum Maximum-Likelihood MIMO Detection with Flexible Parallelism
+- 2026:
+  - NSDI: Remembrall: Leaning into Memory for Accurate Video Analytics on System-on-Chip GPUs
+  - PAM: Different Policies for Different NodeBs: Comparing Downlink Schedulers in Cellular Base Stations
+  - SenSys: RAN-Aware Delay Compensation for Delay-Sensitive Protocols in Cellular Networks
+
+### Zakir Durumeric
+
+- DBLP pid: `143/5673`
+- Counts: baseline networking `9`, total clean `42`, post-2023 clean `23`
+- Top venues: USENIX Security Symposium (7), ICWSM (7), IMC (7), SIGCOMM (4), Internet Measurement Conference (3), SP (3), NSDI (2), IEEE Symposium on Security and Privacy (1)
+- Baseline title terms: certificate (3), encrypt (2), web (2), all (2), exploring (2), internet (2), services (2), website (2)
+- Post-2023 title terms: media (4), news (4), tracking (3), embeddings (2), russo-ukrainian (2), war (2), russian (2), narratives (2)
+
+- 2018:
+  - IEEE Symposium on Security and Privacy: Tracking Certificate Misissuance in the Wild
+- 2019:
+  - CCS: Let's Encrypt: An Automated Certificate Authority to Encrypt the Entire Web
+  - USENIX Security Symposium: All Things Considered: An Analysis of IoT Devices on Home Networks
+- 2020:
+  - Internet Measurement Conference: On the Origin of Scanning: The Impact of Location on Internet-Wide Scans
+- 2021:
+  - Internet Measurement Conference: ASdb: a system for classifying owners of autonomous systems
+  - Internet Measurement Conference: Tracing your roots: exploring the TLS trust anchor ecosystem
+  - RAID: Stratosphere: Finding Vulnerable Cloud Storage Buckets
+  - SOUPS @ USENIX Security Symposium: Designing Toxic Content Classification for a Diversity of Perspectives
+  - SP: SoK: Hate, Harassment, and the Changing Landscape of Online Abuse
+  - USENIX Security Symposium: LZR: Identifying Unexpected Internet Services
+  - USENIX Security Symposium: What's in a Name? Exploring CA Certificate Control
+- 2022:
+  - ICWSM: No Calm in the Storm: Investigating QAnon Website Relationships
+  - ICWSM: On the Infrastructure Providers That Support Misinformation Websites
+  - IMC: A world wide view of browsing the world wide web [qualifying]
+  - IMC: Retroactive identification of targeted DNS infrastructure hijacking [qualifying]
+  - IMC: Toppling top lists: evaluating the accuracy of popular website lists [qualifying]
+  - IMC: ZDNS: a fast DNS toolkit for internet measurement [qualifying]
+  - SIGCOMM: Predicting IPv4 services across all ports [qualifying]
+  - SIGCOMM: Retina: analyzing 100GbE traffic on commodity hardware [qualifying]
+- 2023:
+  - EMNLP: TATA: Stance Detection via Topic-Agnostic and Topic-Aware Embeddings
+  - ICWSM: "A Special Operation": A Quantitative Approach to Dissecting and Comparing Different Media Ecosystems' Coverage of the Russo-Ukrainian War
+  - ICWSM: Happenstance: Utilizing Semantic Search to Track Russian State Media Narratives about the Russo-Ukrainian War on Reddit
+  - IMC: Cloud Watching: Understanding Attacks Against Cloud-Hosted Services
+  - IMC: Stale TLS Certificates: Investigating Precarious Third-Party Access to Valid TLS Keys
+  - WWW: Understanding the Behaviors of Toxic Accounts on Reddit
+- 2024:
+  - ICWSM: Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites
+  - ICWSM: Partial Mobilization: Tracking Multilingual Information Flows amongst Russian Media Outlets and Telegram
+  - ICWSM: Watch Your Language: Investigating Content Moderation with Large Language Models
+  - IMC: Ten Years of ZMap
+  - SIGMETRICS/Performance (Abstracts): Democratizing LEO Satellite Network Measurement
+  - SP: Specious Sites: Tracking the Spread and Sway of Spurious News Stories at Scale
+- 2025:
+  - ACL (1): Hierarchical Level-Wise News Article Clustering via Multilingual Matryoshka Embeddings
+  - CHI: "Perfect is the Enemy of Good": The CISO's Role in Enterprise Security as a Business Enabler
+  - NSDI: CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines
+  - SIGCOMM: Censys: A Map of Internet Hosts and Services
+  - SIGCOMM: Formalizing Dependence of Web Infrastructure
+  - SP: A Wall Behind A Wall: Emerging Regional Censorship in China
+  - USENIX Security Symposium: A First Look at Governments' Enterprise Security Guidance
+  - USENIX Security Symposium: Characterizing the MrDeepFakes Sexual Deepfake Marketplace
+  - USENIX Security Symposium: Exposing and Circumventing SNI-based QUIC Censorship of the Great Firewall of China
+  - USENIX Security Symposium: Tracking the Takes and Trajectories of English-Language News Narratives across Trustworthy and Worrisome Websites
+- 2026:
+  - NSDI: Iris: Expressive Traffic Analysis for the Modern Internet
+
+### Yibo Zhu 0001
+
+- DBLP pid: `65/8854-1`
+- Counts: baseline networking `9`, total clean `31`, post-2023 clean `14`
+- Top venues: NSDI (7), SIGCOMM (5), OSDI (3), EuroSys (3), IPDPS (2), HotNets (1), SOSP (1), SoCC (1)
+- Baseline title terms: training (5), distributed (4), deep (4), learning (4), dnn (4), generic (3), data (2), finding (2)
+- Post-2023 title terms: training (8), language (3), model (3), optimizing (2), data (2), distributed (2), inference (2), models (2)
+
+- 2018:
+  - HotNets: Generic External Memory for Switch Data Planes [qualifying]
+  - NSDI: 007: Democratically Finding the Cause of Packet Drops [qualifying]
+  - SIGCOMM: Hyperloop: group-based NIC-offloading to accelerate replicated transactions in multi-tenant storage systems [qualifying]
+- 2019:
+  - NSDI: FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds [qualifying]
+  - NSDI: Slim: OS Kernel Support for a Low-Overhead Container Overlay Network [qualifying]
+  - NSDI: Tiresias: A GPU Cluster Manager for Distributed Deep Learning [qualifying]
+  - SOSP: A generic communication scheduler for distributed DNN training acceleration
+- 2020:
+  - OSDI: A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters
+  - OSDI: PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
+  - SIGCOMM: TEA: Enabling State-Intensive Network Functions on Programmable Switches [qualifying]
+  - SoCC: Elastic parameter server load distribution in deep learning clusters
+- 2021:
+  - APSys: Building verified neural networks with specifications for systems
+  - ICLR: AutoLRS: Automatic Learning-Rate Schedule by Bayesian Optimization on the Fly
+- 2022:
+  - MLSys: dPRO: A Generic Performance Diagnosis and Optimization Toolkit for Expediting Distributed DNN Training
+  - NSDI: Collie: Finding Performance Anomalies in RDMA Subsystems [qualifying]
+  - NeurIPS: SAPipe: Staleness-Aware Pipeline for Data Parallel DNN Training
+  - SIGCOMM: Multi-resource interleaving for deep learning training [qualifying]
+- 2023:
+  - EuroSys: Hi-Speed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies
+  - EuroSys: Lyra: Elastic Scheduling for Deep Learning Clusters
+  - IPDPS: ByteTransformer: A High-Performance Transformer Boosted for Variable-Length Inputs
+  - NSDI: BGL: GPU-Efficient GNN Training by Optimizing Graph Data I/O and Preprocessing
+  - USENIX ATC: Accelerating Distributed MoE Training and Inference with Lina
+- 2024:
+  - EuroSys: CDMPP: A Device-Model Agnostic Framework for Latency Prediction of Tensor Programs
+  - IPDPS: QSync: Quantization-Minimized Synchronous Distributed Training Across Hybrid Devices
+  - OSDI: DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving
+- 2025:
+  - NSDI: Optimizing RLHF Training for Large Language Models with Stage Fusion
+  - PACMI@SOSP: Frontier: Simulating the Next Generation of LLM Inference Systems
+  - SIGCOMM: DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models
+  - SIGCOMM: InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers
+- 2026:
+  - ASPLOS (1): Dynamic Sparsity in Large-Scale Video DiT Training
+  - ASPLOS (2): DIP: Efficient Large Multimodal Model Training with Dynamic Interleaved Pipeline
+
+### Anirudh Sivaraman
+
+- DBLP pid: `123/2342`
+- Counts: baseline networking `9`, total clean `29`, post-2023 clean `12`
+- Top venues: NSDI (5), SIGCOMM (5), HotNets (4), OSDI (2), MobiSys (1), SIGCOMM Posters and Demos (1), SoCC (1), CoNEXT (1)
+- Baseline title terms: programmable (6), packet (4), processing (3), networks (3), packet-processing (2), code (2), program (2), synthesis (2)
+- Post-2023 title terms: cloud (4), packet-processing (2), programs (2), program (2), synthesis (2), network (2), fair (2), exchanges (2)
+
+- 2019:
+  - HotNets: Autogenerating Fast Packet-Processing Code Using Program Synthesis [qualifying]
+  - MobiSys: WatchTower: Fast, Secure Mobile Page Loads Using Remote Dependency Resolution
+  - SIGCOMM Posters and Demos: Sluice: Network-Wide Data Plane Programming
+  - SoCC: A System-Wide Debugging Assistant Powered by Natural Language Processing
+- 2020:
+  - CoNEXT: Testing compilers for programmable switches through switch hardware simulation [qualifying]
+  - HotCloud: Multitenancy for Fast and Programmable Networks in the Cloud
+  - NSDI: Programmable Calendar Queues for High-speed Packet Scheduling [qualifying]
+  - OSDI: Gauntlet: Finding Bugs in Compilers for Programmable Packet Processing
+  - OSDI: PANIC: A High-Performance Programmable NIC for Multi-tenant Networks
+  - SIGCOMM: Switch Code Generation Using Program Synthesis [qualifying]
+- 2021:
+  - HotNets: Snicket: Query-Driven Distributed Tracing [qualifying]
+  - HotOS: CloudEx: a fair-access financial exchange in the cloud
+  - NSDI: Breaking the Transience-Equilibrium Nexus: A New Approach to Datacenter Packet Transport [qualifying]
+  - SIGCOMM: Synthesizing safe and efficient kernel extensions for packet processing [qualifying]
+- 2022:
+  - MLSys: Revelio: ML-Generated Debugging Queries for Finding Root Causes in Distributed Systems
+  - NSDI: Isolation Mechanisms for High-Speed Packet-Processing Pipelines [qualifying]
+  - NSDI: NetVRM: Virtual Register Memory for Programmable Networks [qualifying]
+- 2023:
+  - ASPLOS (3): CaT: A Solver-Aided Compiler for Packet-Processing Pipelines
+  - SIGCOMM: P4Testgen: An Extensible Test Oracle For P4-16
+  - VLDB Workshops: QuEST: Fast, Expressive, and Cheap Analytics for Distributed Traces Using Cloud Storage
+- 2024:
+  - APNet: Cross-Platform Transpilation of Packet-Processing Programs using Program Synthesis
+  - EuroSys: Erlang: Application-Aware Autoscaling for Cloud Microservices
+  - HotNets: Incremental Specialization of Network Programs
+  - SIGCOMM (Posters and Demos): POSTER: Jasper, A Scalable and Fair Multicast for Financial Exchanges in the Cloud
+- 2025:
+  - HotNets: Beyond Lamport, Towards Probabilistic Fair Ordering
+  - NSDI: State-Compute Replication: Parallelizing High-Speed Stateful Packet Processing
+  - SIGCOMM: Network Support For Scalable And High Performance Cloud Exchanges
+  - SIGCOMM: ParserHawk: Hardware-aware parser generator using program synthesis
+  - SOSP: Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks
+
+### Matthew Luckie
+
+- DBLP pid: `12/4563`
+- Counts: baseline networking `9`, total clean `28`, post-2023 clean `9`
+- Top venues: IMC (5), Internet Measurement Conference (4), SOSR (3), CoNEXT (2), PAM (2), MILCOM (2), NFV-SDN (1), SIGCOMM (1)
+- Baseline title terms: network (5), learning (4), extract (4), hostnames (4), router (3), internet (3), inferring (3), openflow (2)
+- Post-2023 title terms: internet (4), inference (2), access (2), verification (2), coarse-grained (1), bgp (1), community (1), intent (1)
+
+- 2018:
+  - Internet Measurement Conference: Pushing the Boundaries with bdrmapIT: Mapping Router Ownership at Internet Scale
+  - NFV-SDN: Characterising the Limits of the OpenFlow Slow-Path
+  - SIGCOMM: Inferring persistent interdomain congestion [qualifying]
+  - TMA: Using Crowdsourcing Marketplaces for Network Measurements: The Case of Spoofer
+- 2019:
+  - CCS: Network Hygiene, Incentives, and Regulation: Deployment of Source Address Validation in the Internet
+  - CoNEXT: Challenges in inferring spoofed traffic at IXPs [qualifying]
+  - Internet Measurement Conference: Learning Regexes to Extract Router Names from Hostnames
+  - SOSR: Identifying Equivalent SDN Forwarding Behaviour
+- 2020:
+  - Internet Measurement Conference: Learning to Extract and Use ASNs in Hostnames
+  - SIGMETRICS (Abstracts): vrfinder: Finding Outbound Addresses in Traceroute
+  - SOSR: Towards Transforming OpenFlow Rulesets to Fit Fixed-Function Pipelines
+- 2021:
+  - AINTEC: Learning Regexes to Extract Network Names from Hostnames
+  - CoNEXT: Learning to extract geographic information from internet router hostnames [qualifying]
+  - Internet Measurement Conference: Inferring regional access network topologies: methods and applications
+  - SOSR: Helix: Traffic Engineering for Multi-Controller SDN
+- 2022:
+  - IFIP Networking: Shoehorn: Towards Portable P4 for Low Cost Hardware
+  - IMC: Stop, DROP, and ROA: effectiveness of defenses through the lens of DROP [qualifying]
+  - PAM: On the Latency Impact of Remote Peering
+  - SP: Deployment of Source Address Validation by Network Operators: A Randomized Control Trial
+- 2023:
+  - IMC: Coarse-grained Inference of BGP Community Intent
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+- 2024:
+  - MILCOM: AVOID: Automatic Verification Of Internet Data-paths
+  - MILCOM: REVEAL: Real-time Evaluation and Verification of External Adversarial Links
+- 2025:
+  - IMC: LACeS: An Open, Fast, Responsible and Efficient Longitudinal Anycast Census System
+  - IMC: R&E Routing Policy: Inference and Implication
+  - IMC: Replication: Characterizing MPLS Tunnels over Internet Paths
+  - PAM: An Integrated Active Measurement Programming Environment
+- 2026:
+  - NDSS: Aliens Among Us: Observing Private or Reserved IPs on the Public Internet
+
+### Balakrishnan Chandrasekaran 0002
+
+- DBLP pid: `c/BChandrasekaran2`
+- Counts: baseline networking `9`, total clean `28`, post-2023 clean `11`
+- Top venues: Internet Measurement Conference (5), NSDI (4), HotNets (2), TMA (2), EPIQ@CoNEXT (1), BS (1), CRYPTO (4) (1), CoNEXT (1)
+- Baseline title terms: web (4), case (3), video (2), streaming (2), rpki (2), information (2), network (2), quic (1)
+- Post-2023 title terms: nvme (3), networks (3), channels (2), bbrv3 (2), internet (2), open (2), research (2), optical (2)
+
+- 2018:
+  - EPIQ@CoNEXT: The QUIC Fix for Optimal Video Streaming
+  - HotNets: Gearing up for the 21st century space race [qualifying]
+  - Internet Measurement Conference: Is the Web Ready for OCSP Must-Staple?
+- 2019:
+  - BS: P4-enabled Network-assisted Congestion Feedback: A Case for NACKs
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+- 2020:
+  - Internet Measurement Conference: Demystifying the Messaging Platforms' Ecosystem Through the Lens of Twitter
+  - Internet Measurement Conference: On Landing and Internal Web Pages: The Strange Case of Jekyll and Hyde in Web Performance Measurement
+  - TMA: A Deeper Look at Web Content Availability and Consistency over HTTP/S
+- 2021:
+  - CRYPTO (4): Puncturable Pseudorandom Sets and Private Information Retrieval with Near-Optimal Online Bandwidth and Time
+  - CoNEXT: VOXEL: cross-layer optimization for video streaming with imperfect transmission [qualifying]
+  - HotMobile: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - Internet Measurement Conference: Selfish & opaque transaction ordering in the Bitcoin blockchain: the case for chain neutrality
+  - SIGCOMM: AnyOpt: predicting and optimizing IP Anycast performance [qualifying]
+  - SOSR: Tardis: A Fault-Tolerant Design for Network Control Planes
+- 2022:
+  - APNet: Hop-On Hop-Off Routing: A Fast Tour across the Optical Data Center Network for Latency-Sensitive Flows
+  - NSDI: cISP: A Speed-of-Light Internet Service Provider [qualifying]
+  - SAC: Calibrating the performance and security of blockchains via information propagation delays: revisiting an old approach with a new perspective
+- 2023:
+  - CLUSTER: Performance Characterization of NVMe Flash Devices with Zoned Namespaces (ZNS)
+  - FC: Dissecting Bitcoin and Ethereum Transactions: On the Lack of Transaction Contention and Prioritization Transparency in Blockchains
+  - HotNets: Boosting Application Performance using Heterogeneous Virtual Channels: Challenges and Opportunities
+  - NSDI: DChannel: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+- 2024:
+  - ANRW: BBRv3 in the public Internet: a boon or a bane?
+  - PAM (2): Promises and Potential of BBRv3
+  - SIGCOMM (Posters and Demos): DEMO: An Open Research Framework for Optical Data Center Networks
+- 2025:
+  - IISWC: Does Linux Provide Performance Isolation for NVMe SSDs? Configuring cgroups for I/O Control in the NVMe Era
+  - NSDI: CellReplay: Towards accurate record-and-replay for cellular networks
+  - TMA: On the Constancy of Latency at the Internet's Edge
+- 2026:
+  - NSDI: OpenOptics: Enabling Open Research and Implementation of Optical Data Center Networks
+
+### Ran Ben Basat
+
+- DBLP pid: `140/7690`
+- Counts: baseline networking `8`, total clean `52`, post-2023 clean `11`
+- Top venues: CoNEXT (4), INFOCOM Workshops (4), SIGCOMM (4), Networking (3), HotNets (3), ICALP (2), ICNP (2), INFOCOM (2)
+- Baseline title terms: measurement (7), network (6), distributed (6), heavy (5), hitters (5), sliding (4), estimation (4), log (4)
+- Post-2023 title terms: compression (5), distributed (3), telemetry (2), cache (2), estimation (2), gradient (2), data (2), accelerating (2)
+
+- 2018:
+  - ANCS: Network-wide routing-oblivious heavy hitters
+  - CoNEXT: Memento: making sliding windows efficient for heavy hitters [qualifying]
+  - ICALP: Brief Announcement: Give Me Some Slack: Efficient Network Measurements
+  - ICDCN: Fast Flow Volume Estimation
+  - ICNP: Efficient Measurement on Programmable Switches Using Probabilistic Recirculation
+  - INFOCOM: Pay for a Sliding Bloom Filter and Get Counting, Distinct Elements, and Entropy for Free
+  - INFOCOM Workshops: Frequent elements on query defined ranges
+  - INFOCOM Workshops: Line speed heavy hitters on sliding windows
+  - ISAAC: Approximate Query Processing over Static Sets and Sliding Windows
+  - MASCOTS: Volumetric Hierarchical Heavy Hitters
+  - MFCS: Give Me Some Slack: Efficient Network Measurements
+  - SIROCCO: A Deterministic Distributed 2-Approximation for Weighted Vertex Cover in O(\log N\log \varDelta /\log ^2\log \varDelta ) Rounds
+  - ... 1 more in JSON packet
+- 2019:
+  - DISC: Optimal Distributed Covering Algorithms
+  - DISC: Parameterized Distributed Algorithms
+  - INFOCOM Workshops: q-MAX: A Unified Way to Improve Network Measurement Throughput
+  - Internet Measurement Conference: q-MAX: A Unified Scheme for Improving Network Measurement Throughput
+  - Networking: A Black-box Method for Accelerating Measurement Algorithms with Accuracy Guarantees
+  - PODC: Optimal Distributed Covering Algorithms
+  - SIGCOMM: Nitrosketch: robust and general sketch-based monitoring in software switches [qualifying]
+  - SIGCOMM Posters and Demos: Attack Time Localization using Interval Queries
+  - SIGCOMM Posters and Demos: Cheetah: Accelerating Database Queries with Switch Pruning
+- 2020:
+  - APOCS: Learning Software Constraints via Installation Attempts
+  - CoNEXT: A faster and more efficient [qualifying]
+  - CoNEXT: DISCOvering the heavy hitters with disaggregated sketches [qualifying]
+  - CoNEXT: Detecting routing loops in the data plane [qualifying]
+  - ICNP: Cooperative Network-wide Flow Selection
+  - INFOCOM: Faster and More Accurate Measurement through Additive-Error Counters
+  - INFOCOM Workshops: Near Optimal Network-wide Per-Flow Measurement
+  - Networking: Cost Effective Troubleshooting of NFV Infrastructure
+  - Networking: Routing Oblivious Measurement Analytics
+  - SIGCOMM: PINT: Probabilistic In-band Network Telemetry [qualifying]
+  - SIGMETRICS (Abstracts): I Know What You Did Last Summer: Network Monitoring using Interval Queries
+  - SIGMOD Conference: Cheetah: Accelerating Database Queries with Switch Pruning
+- 2021:
+  - HotNets: Zero-CPU Collection with Direct Telemetry Access [qualifying]
+  - ICALP: How to Send a Real Number Using a Single Bit (And Some Shared Randomness)
+  - ICDE: SALSA: Self-Adjusting Lean Streaming Analytics
+  - NeurIPS: DRIVE: One-bit Distributed Mean Estimation
+- 2022:
+  - ICML: EDEN: Communication-Efficient and Robust Distributed Mean Estimation for Federated Learning
+  - SYSTOR: SQUAD: combining sketching and sampling is better than either for per-item quantile estimation
+  - WWW: DUET: A Generic Framework for Finding Special Quadratic Elements in Data Streams
+- 2023:
+  - SIGCOMM: Direct Telemetry Access
+  - USENIX ATC: Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale
+- 2024:
+  - HotNets: Beyond Throughput and Compression Ratios: Towards High End-to-end Utility of Gradient Compression
+  - HotNets: When ML Training Cuts Through Congestion: Just-in-Time Gradient Compression via Packet Trimming
+  - ICDE: DISCO: A Dynamically Configurable Sketch Framework in Skewed Data Streams
+  - ICML: Accelerating Federated Learning with Quick Distributed Mean Estimation
+  - NSDI: THC: Accelerating Distributed Deep Learning Using Tensor Homomorphic Compression
+  - NeurIPS: Optimal and Approximate Adaptive Stochastic Quantization
+- 2025:
+  - NSDI: Enabling Silent Telemetry Data Transmission with InvisiFlow
+  - SIGCOMM: HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference
+  - SPAA: Bounded Memory in Distributed Networks
+
+### Roland van Rijswijk-Deij
+
+- DBLP pid: `155/5773`
+- Counts: baseline networking `8`, total clean `49`, post-2023 clean `16`
+- Top venues: TMA (6), PAM (6), NOMS (5), CNSM (5), ANRW (4), Internet Measurement Conference (4), IMC (4), EuroS&P Workshops (3)
+- Baseline title terms: dns (14), anycast (8), impact (4), measuring (3), dnssec (3), ddos (3), rpki (3), roll (3)
+- Post-2023 title terms: anycast (5), longitudinal (3), characterization (2), empirical (2), network (2), bgp (2), federated (2), remote (2)
+
+- 2018:
+  - AIMS: Towards an Independent and Resilient DNS
+  - ANRW: Measuring Adoption of Security Additions to the HTTPS Ecosystem
+  - NOMS: Economic incentives on DNSSEC deployment: Time to move from quantity to quality
+  - NOMS: Melting the snow: Using active DNS measurements to detect snowshoe spam domains
+  - TMA: Passive Observations of a Large DNS Service: 2.5 Years in the Life of Google
+  - WTMC@SIGCOMM: Measuring the Impact of a Successful DDoS Attack on the Customer Behaviour of Managed DNS Service Providers
+- 2019:
+  - IM: Privacy-Conscious Threat Intelligence Using DNSBloom
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+  - Internet Measurement Conference: Roll, Roll, Roll your Root: A Comprehensive Analysis of the First Ever DNSSEC Root KSK Rollover
+  - PAM: A First Look at QNAME Minimization in the Domain Name System
+- 2020:
+  - CNSM: BGP Anycast Tuner: Intuitive Route Management for Anycast Services
+  - CoNEXT: Evaluating RPKI ROV identification methodologies in automatically generated mininet topologies [qualifying]
+  - EuroS&P Workshops: TXTing 101: Finding Security Issues in the Long Tail of DNS TXT Records
+  - EuroS&P Workshops: The Forgotten Side of DNS: Orphan and Abandoned Records
+  - Internet Measurement Conference: MAnycast2: Using Anycast to Measure Anycast
+  - Internet Measurement Conference: The Reality of Algorithm Agility: Studying the DNSSEC Algorithm Life-Cycle
+  - NOMS: Global-Scale Anycast Network Management with Verfploeter
+  - PAM: When Parents and Children Disagree: Diving into DNS Delegation Inconsistency
+  - USENIX Security Symposium: A Longitudinal and Comprehensive Study of the DANE Ecosystem in Email
+- 2021:
+  - CNSM: ANYway: Measuring the Amplification DDoS Potential of Domains
+  - IM: TANGLED: A Cooperative Anycast Testbed
+  - TMA: Characterization of Anycast Adoption in the DNS Authoritative Infrastructure
+  - TMA: Forecasting the Impact of IXP Outages Using Anycast
+- 2022:
+  - CNSM: On the Asymmetry of Internet eXchange Points -Why Should IXPs and CDNs Care?
+  - EuroS&P Workshops: No Time for Downtime: Understanding Post-Attack Behaviors by Customers of Managed DNS Providers
+  - IMC: Investigating the impact of DDoS attacks on DNS infrastructure [qualifying]
+  - IMC: Saving Brian's privacy: the perils of privacy exposure through reverse DNS [qualifying]
+  - IMC: Where .ru?: assessing the impact of conflict on russian domain infrastructure [qualifying]
+  - LCN: Improving Proximity Classification for Contact Tracing using a Multi-channel Approach
+  - PAM: A Matter of Degree: Characterizing the Amplification Power of Open DNS Resolvers
+  - RAID: Mirrors in the Sky: On the Potential of Clouds in DNS Reflection-based Denial-of-Service Attacks
+  - Sicherheit: Studie über das Gefahrenpotential und Gegenmaßnahmen zu Angriffen auf das DNS Protokoll durch IP-Fragmentierung
+  - USENIX Security Symposium: Under the Hood of DANE Mismanagement in SMTP
+- 2023:
+  - AINTEC: Advancing in Reverse: A Comprehensive Characterization of IN-ADDR.ARPA Deployment
+  - PAM: Stranger VPNs: Investigating the Geo-Unblocking Capabilities of Commercial VPN Providers
+- 2024:
+  - ANRW: An Empirical Characterization of Anycast Convergence Time
+  - CNSM: A First Look at User-Installed Residential Proxies From a Network Operator's Perspective
+  - NDSS: IRRedicator: Pruning IRR with RPKI-Valid BGP Insights
+  - NOMS: ERAFL: Efficient Resource Allocation for Federated Learning Training in Smart Homes
+  - NOMS: Exploring the Benefit of Path Plausibility Algorithms in BGP
+  - TMA: WetLinks: A Large-Scale Longitudinal Starlink Dataset with Contiguous Weather Data
+- 2025:
+  - ANRW: Locating and Enumerating Anycast: a Comparison of Two Approaches
+  - ANRW: PQC for DNSSEC: a format size analysis on Falcon signatures
+  - CNSM: Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering
+  - IMC: LACeS: An Open, Fast, Responsible and Efficient Longitudinal Anycast Census System
+  - PAM: An Empirical Evaluation of Longitudinal Anycast Catchment Stability
+  - TMA: From Scarcity to Opportunity: Examining Abuse of the IPv4 Leasing Market
+  - TMA: Measuring The Impact of Post-Quantum Cryptography on Complex Applications: A Case Study on Federated Identity Management
+- 2026:
+  - PAM: Through a Smaller Lens: Revisiting Opportunistic Analysis Using Network Telescopes
+
+### Matteo Varvello
+
+- DBLP pid: `01/6280`
+- Counts: baseline networking `8`, total clean `48`, post-2023 clean `19`
+- Top venues: IMC (11), WWW (7), TMA (4), CoNEXT (3), MMSys (2), SenSys (2), SIGCOMM (Posters and Demos) (2), NOSSDAV (1)
+- Baseline title terms: mobile (6), web (6), batterylab (4), distributed (4), platform (4), power (3), monitoring (3), measurements (3)
+- Post-2023 title terms: web (5), look (4), demo (3), first (3), study (3), tag (2), mobile (2), networks (2)
+
+- 2018:
+  - NOSSDAV: Incorporating Prediction into Adaptive Streaming Algorithms: A QoE Perspective
+  - WWW: CHIMP: Crowdsourcing Human Inputs for Mobile Phones
+  - WWW: ProxyTorrent: Untangling the Free HTTP(S) Proxy Ecosystem
+- 2019:
+  - HotNets: BatteryLab, A Distributed Power Monitoring Platform For Mobile Devices [qualifying]
+  - ICDCS: Kaleidoscope: A Crowdsourcing Testing Tool for Web Quality of Experience
+  - MMSys: Empowering video players in cellular: throughput prediction from radio network measurements
+  - MMSys: LIME: understanding commercial 360° live video streaming services
+  - SenSys: BatteryLab, a distributed power monitoring platform for mobile devices: demo abstract
+- 2020:
+  - CoNEXT: Mind the delay: the adverse effects of delay-based TCP on HTTP [qualifying]
+  - MedComNet: Implications of the Multi-Modality of User Perceived Page Load Time
+  - TMA: A Retrospective Analysis of User Exposure to (Illicit) Cryptocurrency Mining on the Web
+  - WWW: De-Kodi: Understanding the Kodi Ecosystem
+- 2021:
+  - CoNEXT: FIAT: frictionless authentication of IoT traffic [qualifying]
+  - ESORICS (1): PoW-How: An Enduring Timing Side-Channel to Evade Online Malware Sandboxes
+  - INFOCOM: Web-LEGO: Trading Content Strictness for Faster Webpages
+  - Internet Measurement Conference: Can you see me now?: a measurement study of Zoom, Webex, and Meet
+  - Networking: VPN-Zero: A Privacy-Preserving Decentralized Virtual Private Network
+  - TMA: Shedding (Some) Light on Mobile Browsers Energy Consumption
+  - TMA: WebTune: A Distributed Platform for Web Performance Measurements
+  - WWW: BrowseLite: A Private Data Saving Solution for the Web
+  - WWW: Towards Realistic and ReproducibleWeb Crawl Measurements
+- 2022:
+  - CoNEXT: FIAT: frictionless authentication of IoT traffic [qualifying]
+  - ICTD: To Block or Not to Block: Accelerating Mobile Web Pages On-The-Fly Through JavaScript Classification
+  - IFIP Networking: SNAPS: Seamless Network-Assisted Publish-Subscribe
+  - IMC: Are we ready for metaverse?: a measurement study of social virtual reality platforms [qualifying]
+  - IMC: Muzeel: assessing the impact of JavaScript dead code elimination on mobile web performance [qualifying]
+  - IMC: Performance characterization of videoconferencing in the wild [qualifying]
+  - PAM: BatteryLab: A Collaborative Platform for Power Monitoring - https: //batterylab.dev
+  - SIGMETRICS (Abstracts): Monetizing Spare Bandwidth: The Case of Distributed VPNs
+- 2023:
+  - HPSR: Optimized SRv6 Multicasting for Network-Assisted Publish-Subscribe Systems
+  - IMC: I Tag, You Tag, Everybody Tags!
+  - MILCOM: BIER-Like Multicast for Mobile Ad Hoc Networks
+  - SIGCOMM: Demo: PDNS: A Fully Privacy-Preserving DNS
+  - TMA: A Worldwide Look Into Mobile Access Networks Through the Eyes of AmiGos
+- 2024:
+  - IMC: A First Look at Immersive Telepresence on Apple Vision Pro
+  - IMC: Poster: A First Look at IPX Hub Breakout with Airalo
+  - SIGCOMM (Posters and Demos): Demo: Connecting the Unconnected Using FM Radio
+  - SIGCOMM (Posters and Demos): Demo: Towards Faster Web in Developing Regions
+  - SenSys: MagicStream: Bandwidth-conserving Immersive Telepresence via Semantic Communication
+- 2025:
+  - EMS@SIGCOMM: Octavius: Towards Efficient Transmission of 3D Point Clouds Via Adaptive Encoding and QUIC
+  - IMC: From GEO to LEO: First Look Into Starlink In-Flight Connectivity
+  - IMC: From WebGL to WebGPU: A Reality Check of Browser-Based GPU Acceleration
+  - IMC: Hello, GenAI? Dissecting Human to Generative AI Calling
+  - IMC: Not All Visitors are Bilingual: A Measurement Study of the Multilingual Web from an Accessibility Perspective
+  - IMC: Roam Without a Home: Unraveling the Airalo Ecosystem
+  - SEiGS@ICSE: Non-Western Perspectives on Web Inclusivity: A Study of Accessibility Practices in the Global South
+  - WWW: Digital Disparities: A Comparative Web Measurement Study Across Economic Boundaries
+  - WWW: MAML: Towards a Faster Web in Developing Regions
+
+### Mosharaf Chowdhury
+
+- DBLP pid: `42/1518`
+- Counts: baseline networking `8`, total clean `45`, post-2023 clean `21`
+- Top venues: NSDI (8), MLSys (5), OSDI (4), EuroSys (3), SIGCOMM (3), HotCloud (2), HotNets (2), SOSP (2)
+- Baseline title terms: learning (5), analytics (3), distributed (3), networks (3), federated (3), shape (2), graph (2), geo-distributed (2)
+- Post-2023 title terms: training (7), dnn (4), learning (4), cloud (3), federated (3), management (2), integration (2), energy (2)
+
+- 2018:
+  - APNet: Pas de deux: Shape the Circuits, and Shape the Apps too!
+  - GRADES/NDA@SIGMOD/PODS: Bridging the GAP: towards approximate graph analytics
+  - HotCloud: Monarch: Gaining Command on Geo-Distributed Graph Analytics
+  - HotCloud: To Relay or Not to Relay for Inter-Cloud Transfers?
+  - MobiCom: Mitigating the Latency-Accuracy Trade-off in Mobile Data Analytics Systems
+  - OSDI: Dynamic Query Re-Planning using QOOP
+  - SIGMOD Conference: Distributed Lock Management with RDMA: Decentralization without Starvation
+- 2019:
+  - NSDI: Tiresias: A GPU Cluster Manager for Distributed Deep Learning [qualifying]
+  - SPAA: Near Optimal Coflow Scheduling in Networks
+- 2020:
+  - EuroSys: AlloX: compute allocation in hybrid clusters
+  - MLSys: Fine-Grained GPU Sharing Primitives for Deep Learning Applications
+  - NSDI: Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage [qualifying]
+  - NSDI: Sol: Fast Distributed Computation Over Slow Networks [qualifying]
+  - SIGCOMM: NetLock: Fast, Centralized Lock Management Using Programmable Switches [qualifying]
+  - USENIX ATC: Effectively Prefetching Remote Memory with Leap
+- 2021:
+  - MLSys: Fluid: Resource-aware Hyperparameter Tuning Engine
+  - NSDI: Ship Compute or Ship Data? Why Not Both? [qualifying]
+  - OSDI: Oort: Efficient Federated Learning via Guided Participant Selection
+  - ResilientFL: FedScale: Benchmarking Model and System Performance of Federated Learning
+  - SIGCOMM: Programmable packet scheduling with a single queue [qualifying]
+- 2022:
+  - FAST: Hydra : Resilient and Highly Available Remote Memory
+  - ICML: FedScale: Benchmarking Model and System Performance of Federated Learning at Scale
+  - NSDI: Justitia: Software Multi-Tenancy in Hardware Kernel-Bypass Networks [qualifying]
+  - SIGCOMM: Aequitas: admission control for performance-critical RPCs in datacenters [qualifying]
+- 2023:
+  - ASPLOS (3): TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory
+  - DistributedML@CoNEXT: Flamingo: A User-Centric System for Fast and Energy-Efficient DNN Training on Smartphones
+  - EuroSys: Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing
+  - HotNets: Simplifying Cloud Management with Cloudless Computing
+  - MLSys: FLINT: A Platform for Federated Learning Integration
+  - NSDI: ModelKeeper: Accelerating DNN Training via Automated Training Warmup
+  - NSDI: Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training
+  - OSDI: AdaEmbed: Adaptive Embedding for Large-Scale Recommendation Models
+  - SIGMETRICS (Abstracts): Memtrade: Marketplace for Disaggregated Memory Clouds
+  - SOSP: Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates
+  - SoCC: Auxo: Efficient Federated Learning via Scalable Client Clustering
+- 2024:
+  - IEEE Big Data: INFA-FinOps for Cloud Data Integration
+  - MLSys: FedTrans: Efficient Federated Learning via Multi-Model Transformation
+  - NSDI: Vulcan: Automatic Query Planning for Live ML Analytics
+  - NeurIPS: IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs
+  - OSDI: Managing Memory Tiers with CXL in Virtualized Environments
+  - SOSP: Reducing Energy Bloat in Large Model Training
+- 2025:
+  - EuroSys: DPack: Efficiency-Oriented Privacy Budget Scheduling
+  - HotNets: Remote Direct Code Execution
+  - MLSys: Venn: Resource Management For Collaborative Learning Jobs
+- 2026:
+  - ASPLOS (2): TetriServe: Efficiently Serving Mixed DiT Workloads
+
+### Aurojit Panda
+
+- DBLP pid: `55/925`
+- Counts: baseline networking `8`, total clean `45`, post-2023 clean `21`
+- Top venues: HotNets (8), SIGCOMM (4), HotOS (4), NSDI (3), SoCC (3), OSDI (3), ASPLOS (2) (3), HotCloud (2)
+- Baseline title terms: network (4), graph (2), analytics (2), resilient (2), edge-computing (2), open (2), computing (2), networks (2)
+- Post-2023 title terms: memory (3), applications (3), gaussian (3), splatting (3), training (3), fair (2), beyond (2), programs (2)
+
+- 2018:
+  - APNet: Preserving Privacy at IXPs
+  - GRADES/NDA@SIGMOD/PODS: Bridging the GAP: towards approximate graph analytics
+  - HotCloud: Monarch: Gaining Command on Geo-Distributed Graph Analytics
+  - MECOMM@SIGCOMM: CESSNA: Resilient Edge-Computing
+  - NEAT@SIGCOMM: Open Carrier Interface: An Open Source Edge Computing Framework
+  - NSDI: ResQ: Enabling SLOs in Network Function Virtualization [qualifying]
+  - SAS: Abstract Interpretation of Stateful Networks
+  - SIGCOMM: Revisiting network support for RDMA [qualifying]
+- 2019:
+  - SIGCOMM: Enabling a permanent revolution in internet architecture [qualifying]
+- 2020:
+  - EuroSys: Can far memory improve job throughput?
+  - HotCloud: Multitenancy for Fast and Programmable Networks in the Cloud
+  - HotNets: Bertha: Tunneling through the Network API [qualifying]
+  - HotNets: Remote Memory Calls [qualifying]
+  - SIGCOMM: A Public Option for the Core [qualifying]
+  - SoCC: Kappa: a programming framework for serverless computing
+  - SoCC: Making edge-computing resilient
+- 2021:
+  - HotOS: We need kernel interposition over the network dataplane
+  - SoCC: Cloud-Scale Runtime Verification of Serverless Applications
+  - USENIX Security Symposium: Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning
+- 2022:
+  - EuroS&P: CostCO: An automatic cost modeling framework for secure multi-party computation
+  - HotNets: The case for an internet primitive for fault localization [qualifying]
+  - ICML: Measuring the Effect of Training Data on Deep Learning Predictions via Randomized Experiments
+  - NSDI: Isolation Mechanisms for High-Speed Packet-Processing Pipelines [qualifying]
+  - OSDI: Blockaid: Data Access Policy Enforcement for Web Applications
+- 2023:
+  - ASPLOS (2): NNSmith: Generating Diverse and Valid Test Cases for Deep Learning Compilers
+  - HotNets: How I Learned to Stop Worrying About CCA Contention
+  - HotNets: Logical Memory Pools: Flexible and Local Disaggregated Memory
+  - HotNets: Of Apples and Oranges: Fair Comparisons in Heterogenous Systems Evaluation
+  - HotOS: Access Control for Database Applications: Beyond Policy Enforcement
+  - HotOS: Automatic Kernel Offload Using BPF
+  - OSDI: Ensō: A Streaming Interface for NIC-Application Communication
+  - StudentWorkshop@CoNEXT: Disaggregate Applications Along End-Host Data-Path
+- 2024:
+  - ECCV Workshops (23): On Scaling Up 3D Gaussian Splatting Training
+  - EuroSys: Efficient Auditing of Event-driven Web Applications
+  - HotNets: Incremental Specialization of Network Programs
+  - SIGCOMM: An Architecture For Edge Networking Services
+- 2025:
+  - HotNets: Beyond Lamport, Towards Probabilistic Fair Ordering
+  - HotOS: Designing a Datacenter-wide Distributed Shared Log
+  - ICLR: On Scaling Up 3D Gaussian Splatting Training
+  - NSDI: Runtime Protocol Refinement Checking for Distributed Protocol Implementations
+  - OSDI: Understanding Stragglers in Large Model Training Using What-if Analysis
+  - SIGCOMM (Posters and Demos): Software Prefetching for eBPF Programs
+  - eBPF@SIGCOMM: Performance Implications at the Intersection of AF_XDP and Programmable NICs
+- 2026:
+  - ASPLOS (2): CLM: Removing the GPU Memory Barrier for 3D Gaussian Splatting
+  - ASPLOS (2): It Takes Two to Entangle
+
+### Ying Zhang 0022
+
+- DBLP pid: `13/6769-22`
+- Counts: baseline networking `8`, total clean `44`, post-2023 clean `28`
+- Top venues: SIGCOMM (18), NSDI (9), IWQoS (2), INFOCOM (2), IMC (2), ACSAC (1), SIGCOMM Posters and Demos (1), SoCC (1)
+- Baseline title terms: network (9), consistent (2), software (2), functions (2), management (2), social (2), backbone (2), planning (2)
+- Post-2023 title terms: network (13), training (4), distributed (3), express (3), datacenters (3), communication (3), management (3), scale (3)
+
+- 2018:
+  - ACSAC: SENSS Against Volumetric DDoS Attacks
+  - IWQoS: NetCP: Consistent, Non-Interruptive and Efficient Checkpointing and Rollback of SDN
+  - SIGCOMM: FBOSS: building switch software at scale [qualifying]
+- 2019:
+  - NSDI: Alembic: Automated Model Inference for Stateful Network Functions [qualifying]
+- 2020:
+  - SIGCOMM Posters and Demos: Towards optimal path encoding using SAT solver
+  - SoCC: Concury: a fast and light-weight software cloud load balancer
+- 2021:
+  - INFOCOM: Flow Algebra: Towards an Efficient, Unifying Framework for Network Management Tasks
+  - INFOCOM: NFD: Using Behavior Models to Develop Cross-Platform Network Functions
+  - NSDI: A Social Network Under Social Distancing: Risk-Driven Backbone Management During COVID-19 and Beyond [qualifying]
+  - OFC: BOW: First Real-World Demonstration of a Firewall-based Bayesian Optimization System for Wavelength Deployment
+  - SIGCOMM: ARROW: restoration-aware traffic engineering [qualifying]
+  - SIGCOMM: Capacity-efficient and uncertainty-resilient backbone network planning with hose [qualifying]
+  - SIGCOMM: Network planning with deep reinforcement learning [qualifying]
+- 2022:
+  - IWQoS: NQ/ATP: Architectural Support for Massive Aggregate Queries in Data Center Networks
+  - SIGCOMM: Flash: fast, consistent data plane verification for large-scale network settings [qualifying]
+  - SIGCOMM: Network entitlement: contract-based network sharing with agility and SLO guarantees [qualifying]
+- 2023:
+  - NSDI: Practical Intent-driven Routing Configuration Synthesis
+  - NSDI: TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs
+  - SIGCOMM: EBB: Reliable and Evolvable Express Backbone Network in Meta
+  - SIGCOMM: FlexWAN: Software Hardware Co-design for Cost-Effective and Resilient Optical Backbones
+  - SIGCOMM: Klotski: Efficient and Safe Network Migration of Large Production Datacenters
+- 2024:
+  - APNet: Understanding Communication Characteristics of Distributed Training
+  - EuroSys: Occam: A Programming System for Reliable Network Management
+  - HOTI: Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters
+  - IMC: Understanding Incast Bursts in Modern Datacenters
+  - NSDI: Netcastle: Network Infrastructure Testing At Scale
+  - SIGCOMM: MCCS: A Service-based Approach to Collective Communication for Multi-Tenant Cloud
+  - SIGCOMM: NetEdit: An Orchestration Platform for eBPF Network Functions at Scale
+  - SIGCOMM: Transferable Neural WAN TE for Changing Topologies
+- 2025:
+  - FMANO@SIGCOMM: SafeMigration: Safe Large-scale Migration Planning via Symbolic Execution
+  - HotNets: One to Many: Closing the Bandwidth Gap in AI Datacenters with Scalable Multicast
+  - IMC: Congestion Patterns in a Large-scale RDMA Datacenter
+  - NDSS: Heimdall: Towards Risk-Aware Network Management Outsourcing
+  - OSDI: Enabling Efficient GPU Communication over Multiple NICs with FuseLink
+  - SIGCOMM: Centralium: A Hybrid Route-Planning Framework for Large-Scale Data Center Network Migrations
+  - SIGCOMM: Hattrick: Solving Multi-Class TE using Neural Models
+  - SIGCOMM: Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework
+  - SIGCOMM: MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training
+  - SIGCOMM: PreTE: Traffic Engineering with Predictive Failures
+  - SIGCOMM: Unlocking Superior Performance in Reconfigurable Data Center Networks with Credit-Based Transport
+- 2026:
+  - NSDI: Enabling AI Network Cross-Layer Design and Operations with Arcadia: A Simulation Platform at Scale
+  - NSDI: Express Lane to Efficiency and Reliability: Multi-Dimensional Control in Meta's Express Backbone Network
+  - NSDI: Matryoshka: Realizing Hyperscale Data Center Network Design for the AI Era
+  - NSDI: Phantora: Maximizing Code Reuse in Simulation-based Machine Learning System Performance Estimation
+
+### Ítalo Cunha
+
+- DBLP pid: `80/186`
+- Counts: baseline networking `8`, total clean `39`, post-2023 clean `6`
+- Top venues: SBRC (7), IMC (5), Internet Measurement Conference (4), ISCC (3), SIGCOMM Posters and Demos (2), SBRC Companion (2), INFOCOM (2), SIGMETRICS (Abstracts) (2)
+- Baseline title terms: internet (9), bashlite (4), bgp (4), rpki (3), iot (3), mirai (3), cloud (3), routing (3)
+- Post-2023 title terms: internet (2), bgp (2), community (2), rpslyzer (1), characterization (1), verification (1), policies (1), routing (1)
+
+- 2018:
+  - ANRW: Towards a Rigorous Methodology for Measuring Adoption of RPKI Route Validation and Filtering
+  - IPSN: Attributed-based authentication and access control for IoT home devices: demo abstract
+  - ISCC: An SDN-based Framework for Managing Internet Exchange Points
+  - ISCC: The Evolution of Bashlite and Mirai IoT Botnets
+  - SBRC: Monitoramento e Caracterização de Botnets Bashlite em Dispositivos IoT
+  - SBRC: Previsão de Engajamento de Usuários Durante Transmissão Adaptativa de Vídeo ao Vivo
+  - SIGCOMM Posters and Demos: Controlling Real Cloud Experiments from BGP to the Server (and Back)
+  - SIGCOMM Posters and Demos: High-Fidelity Interdomain Routing Experiments
+- 2019:
+  - CoNEXT: PEERING: virtualizing BGP at the edge for research [qualifying]
+  - CoNEXT Companion: Tracking Down Sources of Spoofed IP Packets
+  - HotNets: Beating BGP is Harder than we Thought [qualifying]
+  - ISCC: Identifying and Characterizing Bashlite and Mirai C&C Servers
+  - Internet Measurement Conference: Internet Performance from Facebook's Edge
+  - SBRC: Estratégias de Sondagem para Remapeamento Eficiente de Eventos de Roteamento na Internet
+  - SBRC: Identificação Automática de Servidores C&C e Identificação de Variantes de Malwares Bashlite e Mirai
+  - SBRC Companion: Realizando o Potencial da Plaforma RIPE Atlas
+- 2020:
+  - INFOCOM: Classification of Load Balancing in the Internet
+  - Internet Measurement Conference: Cloud Provider Connectivity in the Flat Internet
+  - Internet Measurement Conference: Reduce, Reuse, Recycle: Repurposing Existing Measurements to Identify Stale Traceroutes
+  - NDSS: DISCO: Sidestepping RPKI's Deployment Barriers
+  - Networking: Tracking Down Sources of Spoofed IP Packets
+  - SBRC Companion: Classification of Load Balancing in the Internet
+- 2021:
+  - Internet Measurement Conference: Corrigendum: cloud provider connectivity in the flat internet
+  - SBRC: Monitoramento e Identificação de Páginas de Phishing
+  - TAURIN@SIGCOMM: On the Deployment of Default Routes in Inter-domain Routing
+  - TMA: Revisiting RPKI Route Origin Validation on the Data Plane
+- 2022:
+  - ASONAM: Characterizing Low Credibility Websites in Brazil through Computer Networking Attributes
+  - IMC: Internet scale reverse traceroute [qualifying]
+  - IMC: The best of both worlds: high availability CDN routing without compromising control [qualifying]
+  - INFOCOM: Dyssect: Dynamic Scaling of Stateful Network Functions
+  - SBRC: Caracterizando Websites de Baixa Credibilidade no Brasil
+  - SBRC: Caracterização Escalável de Vulnerabilidades de Segurança: um Estudo de Caso na Internet Brasileira
+  - SIGMETRICS (Abstracts): Automatic Inference of BGP Location Communities
+- 2024:
+  - IMC: RPSLyzer: Characterization and Verification of Policies in Internet Routing Registries
+  - IMC: metAScritic: Reframing AS-Level Topology Discovery as a Recommendation System
+- 2025:
+  - IMC: RemapRoute: Local Remapping of Internet Path Changes
+  - NOMS: Automatic Inference of BGP Community Semantics
+  - NOMS: Distributed Graph Neural Networks in Programmable Data Planes
+  - SIGMETRICS (Abstracts): Uncovering BGP Action Communities and Community Squatters in the Wild
+
+### Haitham Hassanieh
+
+- DBLP pid: `13/8398`
+- Counts: baseline networking `8`, total clean `37`, post-2023 clean `15`
+- Top venues: NSDI (9), MobiCom (7), MobiSys (3), SIGCOMM (3), SIGCOMM Posters and Demos (3), CVPR (2), HotNets (2), VTS (1)
+- Baseline title terms: millimeter (6), wave (6), wireless (3), iot (3), networks (3), liquid (2), beam (2), alignment (2)
+- Post-2023 title terms: ran (3), networks (3), accurate (2), contactless (2), material (2), identification (2), millimeter (2), wave (2)
+
+- 2018:
+  - MobiCom: Ghostbuster: Detecting the Presence of Hidden Eavesdroppers
+  - MobiCom: Poster: Networked Acoustics Around Human Ears
+  - MobiCom: Session details: Running on Empty: Backscatter and Low-Power Systems
+  - MobiSys: LiquID: A Wireless Liquid IDentifier
+  - NSDI: Inaudible Voice Commands: The Long-Range Attack and Defense [qualifying]
+  - SIGCOMM: Fast millimeter wave beam alignment [qualifying]
+  - SIGCOMM: MUTE: bringing IoT to noise cancellation [qualifying]
+  - SIGCOMM Posters and Demos: Enabling Dense Spatial Reuse in mmWave Networks
+- 2019:
+  - NSDI: Many-to-Many Beam Alignment in Millimeter Wave Networks [qualifying]
+  - VTS: Online Millimeter Wave Phased Array Calibration Based on Channel Estimation
+- 2020:
+  - CVPR: Through Fog High-Resolution Imaging Using Millimeter Wave Radar
+  - MobiCom: EarSense: earphones as a teeth activity sensor
+  - MobiCom: Understanding and embracing the complexities of the molecular communication channel in liquids
+  - SIGCOMM Posters and Demos: Millimeter wave wireless network on chip using deep reinforcement learning
+- 2021:
+  - DATE: Fuzzy-Token: An Adaptive MAC Protocol for Wireless-Enabled Manycores
+  - HotMobile: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - NSDI: Efficient Wideband Spectrum Sensing Using MEMS Acoustic Resonators [qualifying]
+  - NSDI: One Protocol to Rule Them All: Wireless Network-on-Chip using Deep Reinforcement Learning [qualifying]
+  - NSDI: Practical Null Steering in Millimeter Wave Networks [qualifying]
+- 2022:
+  - ECCV (39): Radatron: Accurate Detection Using Multi-resolution Cascaded MIMO Radar
+  - NSDI: Enabling IoT Self-Localization Using Ambient 5G Signals [qualifying]
+  - SIGCOMM Posters and Demos: Enabling IoT self-localization using ambient 5G mmWave signals
+- 2023:
+  - ICASSP: Exploiting Virtual Array Diversity for Accurate Radar Detection
+  - IPSN: WINC: A Wireless IoT Network for Multi-Noise Source Cancellation
+  - MobiSys: Contactless Material Identification with Millimeter Wave Vibrometry
+  - MobiSys: Poster: Contactless Material Identification with Millimeter Wave Vibrometry
+  - NSDI: Channel-Aware 5G RAN Slicing with Customizable Schedulers
+  - NSDI: DChannel: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - SIGCOMM: Towards Practical and Scalable Molecular Networks
+- 2024:
+  - CVPR: Bootstrapping Autonomous Driving Radars with Self-Supervised Learning
+  - HotNets: Towards Seamless 5G Open-RAN Integration with WebAssembly
+  - HotNets: Ultra-Reliable Low-Latency in 5G: A Close Reality or a Distant Goal?
+  - MobiCom: Around the Corner mmWave Imaging in Practical Environments
+  - MobiCom: SliceGuard: Secure and Dynamic 5G RAN Slicing with WebAssembly
+- 2025:
+  - INFOCOM: Heartbeat Aware Decoding in Molecular Networks
+  - NSDI: CellReplay: Towards accurate record-and-replay for cellular networks
+- 2026:
+  - NINeS: Performance Isolation for 5G RAN Slices Across Multiple Interfering Cells
+
+### Fadel Adib
+
+- DBLP pid: `51/9975`
+- Counts: baseline networking `8`, total clean `36`, post-2023 clean `20`
+- Top venues: MobiCom (9), SIGCOMM (8), NSDI (3), SenSys (3), RFID (3), HotNets (2), ICRA (1), CICC (1)
+- Baseline title terms: underwater (6), wireless (5), learning (4), backscatter (4), networking (3), battery-free (3), sensing (3), food (2)
+- Post-2023 title terms: underwater (12), backscatter (9), localization (6), rfid (3), augmented (3), reality (3), demo (3), polarization (2)
+
+- 2018:
+  - HotNets: Learning Food Quality and Safety from Wireless Stickers [qualifying]
+  - SIGCOMM: Enabling deep-tissue networking for miniature medical devices [qualifying]
+  - SIGCOMM: Networking across boundaries: enabling wireless communication through the water-air interface [qualifying]
+- 2019:
+  - NSDI: 3D Backscatter Localization for Fine-Grained Robotics [qualifying]
+  - SIGCOMM: Underwater backscatter networking [qualifying]
+- 2020:
+  - HotNets: Underwater Backscatter Localization: Toward a Battery-Free Underwater GPS [qualifying]
+  - MobiCom: Contactless seismocardiography via deep learning radars
+  - MobiCom: Self-reconfigurable micro-implants for cross-tissue wireless and batteryless connectivity
+  - NSDI: Food and Liquid Sensing in Practical Environments using RFIDs [qualifying]
+  - SIGCOMM: Ultra-Wideband Underwater Backscatter via Piezoelectric Metamaterials [qualifying]
+- 2021:
+  - ICRA: Robotic Grasping of Fully-Occluded Objects using RF Perception
+  - SenSys: RFusion: Robotic Grasping via RF-Visual Sensing and Learning
+- 2022:
+  - CICC: Wireless, Batteryless, and Secure Implantable System-on-a-Chip for 1.37mmHg Strain Sensing with Bandwidth Reconfigurability for Cross-Tissue Adaptation
+  - HotMobile: Towards battery-free machine learning and inference in underwater environments
+  - Robotics: Science and Systems: FuseBot: RF-Visual Mechanical Search
+  - WUWNet: Demo: Enabling Battery-Free Wireless Underwater Imaging
+- 2023:
+  - MobiCom: A Handheld Fine-Grained RFID Localization System with Complex-Controlled Polarization
+  - MobiCom: The Underwater Backscatter Channel: Theory, Link Budget, and Experimental Validation
+  - NSDI: Augmenting Augmented Reality with Non-Line-of-Sight Perception
+  - RFID: Exploiting Synergies between Augmented Reality and RFIDs for Item Localization and Retrieval
+  - RFID: Software-Controlled Polarization for Longer-Range RFID Reading and Localization
+  - SIGCOMM: Demo: Real-time X-Ray Vision via Augmented Reality with RF Sensing
+  - SIGCOMM: Demo: Underwater Backscatter Link Budget Tool
+  - SIGCOMM: Enabling Long-Range Underwater Backscatter via Van Atta Acoustic Networks
+- 2024:
+  - IROS: 3D-BLUE: Backscatter Localization for Underwater Robotics
+  - MobiCom: SURF: Eavesdropping on Underwater Communications from the Air
+  - MobiCom: SeaScan: An Energy-Efficient Underwater Camera for Wireless 3D Color Imaging
+  - MobiCom: Snooping Underwater Communications via Low-Cost mmWave Radars
+  - RFID: Reinforcement Learning for RFID Localization
+- 2025:
+  - INFOCOM: 6D Self-Localization of Drones Using a Single Millimeter-Wave Backscatter Anchor
+  - MobiCom: Demo: Leveraging Underwater Backscatter for Long-Term Environmental Sensing
+  - MobiCom: Scalable and Low Power Localization for Underwater Robots
+  - MobiSys: Non-Line-of-Sight 3D Object Reconstruction via mmWave Surface Normal Estimation
+  - SIGCOMM: Mobile Underwater Backscatter Networking
+- 2026:
+  - SenSys: Bringing All Modulations to Underwater Backscatter via PDM-Synthesis
+  - SenSys: Piezo-Ultrasonic Backscatter: Low-Power High Throughput Underwater Networking
+
+### Robert Soulé
+
+- DBLP pid: `49/6828`
+- Counts: baseline networking `8`, total clean `35`, post-2023 clean `10`
+- Top venues: SOSR (4), NSDI (3), EuroSys (3), HotNets (2), CoNEXT (2), APSys (2), ANRW (1), ICNP (1)
+- Baseline title terms: data (4), traffic (3), engineering (3), programmable (3), plane (3), semi-oblivious (2), packet (2), subscriptions (2)
+- Post-2023 title terms: quantum (2), operating (2), synchronous (2), public (2), clouds (2), mcbeth (1), measurement-based (1), programming (1)
+
+- 2018:
+  - ANRW: Semi-Oblivious Traffic Engineering with SMORE
+  - HotNets: Packet Subscriptions for Programmable ASICs [qualifying]
+  - ICNP: Consensus for Non-volatile Main Memory
+  - NSDI: NetChain: Scale-Free Sub-RTT Coordination [qualifying]
+  - NSDI: Semi-Oblivious Traffic Engineering: The Road Not Taken [qualifying]
+  - NetCompute@SIGCOMM: Infinite Resources for Optimistic Concurrency Control
+  - SIGCOMM: p4v: practical verification for programmable data planes [qualifying]
+  - SIGCOMM Posters and Demos: A Programmable Framework for Validating Data Planes
+  - SOSR: Life in the Fast Lane: A Line-Rate Linear Road
+  - SOSR: YATES: Rapid Prototyping for Traffic Engineering Systems
+- 2019:
+  - Encyclopedia of Big Data Technologies: Stream Query Optimization
+  - EuroSys: The Case For In-Network Computing On Demand
+  - ICDCS: DynaStar: Optimized Dynamic Partitioning for Scalable State Machine Replication
+  - SOSR: Fast String Searching on PISA
+- 2020:
+  - CoNEXT: Finding hard-to-find data plane bugs with a PTA [qualifying]
+  - CoNEXT: Forwarding and routing with packet subscriptions [qualifying]
+  - EuroSys: Analyzing system performance with probabilistic performance annotations
+  - NAI@SIGCOMM: Trading Latency for Compute in the Network
+- 2021:
+  - ANCS: Building an Internet Router with P4Pi
+  - HotNets: Don't Let RPCs Constrain Your API [qualifying]
+  - HotOS: Zerializer: towards zero-copy serialization
+  - INFOCOM: Flow Algebra: Towards an Efficient, Unifying Framework for Network Management Tasks
+  - NSDI: Avenir: Managing Data Plane Diversity with Control Plane Synthesis [qualifying]
+  - SOSR: P4 Weaver: Supporting Modular and Incremental Programming in P4
+- 2022:
+  - OPODIS: Robust and Fast Blockchain State Synchronization
+- 2023:
+  - Q-SE@ICSE: MCBeth: A Measurement-based Quantum Programming Language
+  - QuNet@SIGCOMM: Towards an Algebraic Specification of Quantum Networks
+- 2024:
+  - APSys: NotNets: Accelerating Microservices by Bypassing the Network
+  - APSys: Split gRPC: An Isolation Architecture for RPC Software Stacks
+- 2025:
+  - CIDR: OSDB: Exposing the Operating System's Inner Database
+  - DBPL: Towards Automatically Extracting the Relational Model of an Operating System
+  - Middleware: Message Size Matters: AlterBFT's Approach to Practical Synchronous BFT in Public Clouds
+  - SoCC: The case for synchronous distributed protocols in public clouds
+- 2026:
+  - EuroSys: Yield Not Thy Core
+  - NINeS: Accio: Rethinking OS-Architecture Co-Design for Next-Gen I/O
+
+### Olivier Bonaventure
+
+- DBLP pid: `91/2043`
+- Counts: baseline networking `8`, total clean `35`, post-2023 clean `6`
+- Top venues: Networking (4), SIGCOMM Posters and Demos (4), CoNEXT (3), ANRW (3), TMA (2), ICNP (2), HotNets (2), IMC (2)
+- Baseline title terms: routing (7), segment (6), tcp (6), ipv6 (4), quic (4), network (3), multipath (3), ebpf (2)
+- Post-2023 title terms: quic (4), internet (2), xbgp (1), faster (1), innovation (1), routing (1), protocols (1), poster (1)
+
+- 2018:
+  - CNSM: Flexible failure detection and fast reroute using eBPF and SRv6
+  - CoNEXT: Leveraging eBPF for programmable network functions with IPv6 segment routing [qualifying]
+  - CoNEXT: Robustly disjoint paths with segment routing [qualifying]
+  - EPIQ@CoNEXT: Observing the Evolution of QUIC Implementations
+  - Networking: SRv6Pipes: Enabling In-network Bytestream Functions
+  - Networking: Tuning Multipath TCP for Interactive Applications on Smartphones
+  - SIGCOMM Posters and Demos: Exploring various use cases for IPv6 Segment Routing
+  - SIGCOMM Posters and Demos: Observing Network Handovers with Multipath TCP
+  - SOSR: Software Resolved Networks: Rethinking Enterprise Networks with IPv6 Segment Routing
+  - TMA: Voice-Activated Applications and Multipath TCP: A Good Match?
+- 2019:
+  - ICNP: The Case for Pluginized Routing Protocols
+  - INFOCOM: CG4SR: Near Optimal Traffic Engineering for Segment Routing with Column Generation
+  - LCN Symposium: Making our networking stack truly extensible
+  - Networking: Beyond socket options: making the Linux TCP stack truly extensible
+  - Networking: QUIC-FEC: Bringing the benefits of Forward Erasure Correction to QUIC
+  - SIGCOMM: Pluginizing QUIC [qualifying]
+  - TMA: MultipathTester: Comparing MPTCP and MPQUIC in Mobile Environments
+- 2020:
+  - HotNets: TCPLS: Closely Integrating TCP and TLS [qualifying]
+  - HotNets: xBGP: When You Can't Wait for the IETF and Vendors [qualifying]
+- 2021:
+  - ANRW: Leveraging the 0-RTT convert protocol to improve wi-fi/cellular convergence
+  - CoNEXT: TCPLS: modern transport services with TCP and TLS [qualifying]
+  - SIGCOMM Posters and Demos: Implementing the plugin distribution system
+  - SIGCOMM Posters and Demos: SRv6-FEC: bringing forward erasure correction to IPv6 segment routing
+- 2022:
+  - FIRA@SIGCOMM: A first step towards checking BGP routes in the dataplane
+  - IMC: A first look at starlink performance [qualifying]
+  - IMC: Revealing the evolution of a cloud provider through its network weather map [qualifying]
+  - StudentWorkshop@CoNEXT: A high-speed QUIC implementation
+  - StudentWorkshop@CoNEXT: Experimenting with bit index explicit replication
+  - WNS3: Evaluating OSPF Convergence with ns-3 DCE
+- 2023:
+  - NSDI: xBGP: Faster Innovation in Routing Protocols
+- 2024:
+  - ICNP: Poster: Enhancing the Performance of a Single Connection Using Multipath Quic
+  - IFIP Networking: OFIQUIC: Leveraging QUIC in OSPF for Seamless Network Topology Changes
+- 2025:
+  - ANRW: MAY is not enough! QUIC servers SHOULD skip packet numbers
+  - ANRW: Towards switched-homing for Internet access
+  - SIGCOMM (Posters and Demos): Towards an Internet Deployment of Flexible Multicast QUIC
+
+### Nate Foster
+
+- DBLP pid: `15/3253`
+- Counts: baseline networking `8`, total clean `30`, post-2023 clean `7`
+- Top venues: SIGCOMM (5), NSDI (3), SOSR (3), HotNets (2), ECOOP (2), PLDI (2), ANRW (1), PLAS@CCS (1)
+- Baseline title terms: traffic (3), engineering (3), network (3), verification (3), data (3), concurrent (3), plane (3), semi-oblivious (2)
+- Post-2023 title terms: network (2), verification (2), design (2), p4cub (1), little (1), language (1), big (1), routers (1)
+
+- 2018:
+  - ANRW: Semi-Oblivious Traffic Engineering with SMORE
+  - HotNets: Packet Subscriptions for Programmable ASICs [qualifying]
+  - NSDI: NetChain: Scale-Free Sub-RTT Coordination [qualifying]
+  - NSDI: Semi-Oblivious Traffic Engineering: The Road Not Taken [qualifying]
+  - PLAS@CCS: Network Verification: Successes, Challenges, and Opportunities
+  - SIGCOMM: p4v: practical verification for programmable data planes [qualifying]
+  - SOSR: Life in the Fast Lane: A Line-Rate Linear Road
+  - SOSR: YATES: Rapid Prototyping for Traffic Engineering Systems
+- 2019:
+  - APLAS: TxForest: A DSL for Concurrent Filestores
+  - CCS: Proof-Carrying Network Code
+  - ECOOP: How to Avoid Making a Billion-Dollar Mistake: Type-Safe Data Plane Programming with SafeP4
+  - EuroSys: Efficient, Consistent Distributed Computation with Predictive Treaties
+  - Onward!: Property conveyances as a programming language
+  - PLDI: Scalable verification of probabilistic networks
+  - SIGCOMM: PicNIC: predictable virtualized NIC [qualifying]
+  - SOSR: Fast String Searching on PISA
+  - WPES@CCS: Ancile: Enhancing Privacy for Ubiquitous Computing with Use-Based Privacy
+- 2020:
+  - CoNEXT: Forwarding and routing with packet subscriptions [qualifying]
+  - SIGCOMM: Composing Dataplane Programs with μP4 [qualifying]
+- 2021:
+  - NSDI: Avenir: Managing Data Plane Diversity with Control Plane Synthesis [qualifying]
+- 2022:
+  - ESOP: Concurrent NetKAT - Modeling and analyzing stateful, concurrent networks
+  - EuroP4@CoNEXT: Causal network telemetry
+  - PLDI: Leapfrog: certified equivalence for protocol parsers
+- 2023:
+  - CPP: P4Cub: A Little Language for Big Routers
+  - ECOOP: Automata Learning with an Incomplete Teacher
+  - SIGCOMM: Hydra: Effective Runtime Network Verification
+  - SIGCOMM: P4Testgen: An Extensible Test Oracle For P4-16
+- 2024:
+  - HotNets: Network Design Considerations for Trading Systems
+- 2025:
+  - HotOS: Lightweight Hypervisor Verification: Putting the Hardware Burger on a Diet
+  - SOSP: The Design and Implementation of a Virtual Firmware Monitor
+
+### Harsha V. Madhyastha
+
+- DBLP pid: `45/2026`
+- Counts: baseline networking `8`, total clean `27`, post-2023 clean `9`
+- Top venues: NSDI (7), IMC (4), OSDI (3), SoCC (2), HotNets (2), HotMobile (2), HotCloud (1), Internet Measurement Conference (1)
+- Baseline title terms: web (5), federated (3), learning (3), relay (2), than (2), storage (2), client-side (2), computation (2)
+- Post-2023 title terms: web (4), training (2), reviving (1), dead (1), links (1), fable (1), modelkeeper (1), accelerating (1)
+
+- 2018:
+  - HotCloud: To Relay or Not to Relay for Inter-Cloud Transfers?
+  - SoCC: Bolt-On Global Consistency for the Cloud
+- 2019:
+  - HotNets: Beating BGP is Harder than we Thought [qualifying]
+- 2020:
+  - HotMobile: Remotely Controlled Manufacturing: A New Frontier for Systems Research
+  - Internet Measurement Conference: Reduce, Reuse, Recycle: Repurposing Existing Measurements to Identify Stale Traceroutes
+  - NSDI: Fine-Grained Replicated State Machines for a Cluster Storage System [qualifying]
+  - NSDI: Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage [qualifying]
+  - NSDI: Network Error Logging: Client-side measurement of end-to-end web service reliability [qualifying]
+  - NSDI: Sol: Fast Distributed Computation Over Slow Networks [qualifying]
+- 2021:
+  - HotMobile: Rethinking Client-Side Caching for the Mobile Web
+  - MobiSys: Marauder: synergized caching and prefetching for low-risk mobile app acceleration
+  - OSDI: Horcrux: Automatic JavaScript Parallelism for Resource-Efficient Web Computation
+  - OSDI: Oort: Efficient Federated Learning via Guided Participant Selection
+  - ResilientFL: FedScale: Benchmarking Model and System Performance of Federated Learning
+- 2022:
+  - HotNets: Making links on your web pages last longer than you [qualifying]
+  - ICML: FedScale: Benchmarking Model and System Performance of Federated Learning at Scale
+  - IMC: Characterizing "permanently dead" links on Wikipedia [qualifying]
+  - OSDI: Jawa: Web Archival in the Era of JavaScript
+- 2023:
+  - IMC: Reviving Dead Links on the Web with Fable
+  - NSDI: ModelKeeper: Accelerating DNN Training via Automated Training Warmup
+  - SoCC: Auxo: Efficient Federated Learning via Scalable Client Clustering
+- 2024:
+  - NSDI: Sprinter: Speeding Up High-Fidelity Crawling of the Modern Web
+- 2025:
+  - IMC: Poster: Did I Just Browse A Website Written by LLMs?
+  - IMC: Toward Better Efficiency vs. Fidelity Tradeoffs in Web Archives
+  - SIGCOMM: ZENITH: Towards A Formally Verified Highly-Available Control Plane
+  - USENIX ATC: Cosmic: Cost-Effective Support for Cloud-Assisted 3D Printing
+- 2026:
+  - NSDI: Detecting and Diagnosing Errors in Serving Archived Web Pages
+
+### Daehyeok Kim
+
+- DBLP pid: `115/6369`
+- Counts: baseline networking `8`, total clean `27`, post-2023 clean `16`
+- Top venues: NSDI (8), SIGCOMM (4), HotNets (3), SOSR (2), MobiCom (2), ICWS (1), ICASSP (1), INTERSPEECH (1)
+- Baseline title terms: programmable (4), switches (4), network (2), generic (1), external (1), memory (1), switch (1), data (1)
+- Post-2023 title terms: video (2), virtualized (2), rans (2), resource (2), generators (2), live (2), counterfactual (1), two-stage (1)
+
+- 2018:
+  - HotNets: Generic External Memory for Switch Data Planes [qualifying]
+  - ICWS: A Reflective Covert Channel Attack Anchored on Trusted Web Services
+  - SIGCOMM: Hyperloop: group-based NIC-offloading to accelerate replicated transactions in multi-tenant storage systems [qualifying]
+- 2019:
+  - NSDI: FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds [qualifying]
+- 2020:
+  - NSDI: Adapting TCP for Reconfigurable Datacenter Networks [qualifying]
+  - SIGCOMM: TEA: Enabling State-Intensive Network Functions on Programmable Switches [qualifying]
+- 2021:
+  - SIGCOMM: RedPlane: enabling fault-tolerant stateful in-switch applications [qualifying]
+  - SOSR: Telemetry Retrieval Inaccuracy in Programmable Switches: Analysis and Recommendations
+- 2022:
+  - NSDI: SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches [qualifying]
+  - NSDI: SwiSh: Distributed Shared State Abstractions for Programmable Switches [qualifying]
+  - SOSR: Automatic generation of network function accelerators using component-based synthesis
+- 2023:
+  - ICASSP: Counterfactual Two-Stage Debiasing For Video Corpus Moment Retrieval
+  - INTERSPEECH: Mitigating the Exposure Bias in Sentence-Level Grapheme-to-Phoneme (G2P) Transduction
+  - MICRO: LogNIC: A High-Level Performance Model for SmartNICs
+  - MobiCom: Accelerating Open RAN Research Through an Enterprise-scale 5G Testbed
+  - MobiCom: Enabling Resilience in Virtualized RANs with Atlas
+  - NSDI: ExoPlane: An Operating System for On-Rack Switch Resource Augmentation
+  - NSDI: Sketchovsky: Enabling Ensembles of Sketches on Programmable Switches
+  - SIGCOMM: Resilient Baseband Processing in Virtualized RANs with Slingshot
+- 2024:
+  - USENIX Security Symposium: On the Criticality of Integrity Protection in 5G Fronthaul Networks
+- 2025:
+  - EMNLP: Large Language Models as Realistic Microservice Trace Generators
+  - HotNets: Man-Made Heuristics Are Dead. Long Live Code Generators!
+  - HotNets: Towards Incremental MTU Upgrade for the Internet
+  - IROS: ConfigBot: Adaptive Resource Allocation for Robot Applications in Dynamic Environments
+  - MobiSys: Towards End-to-End Latency Guarantee in MEC Live Video Analytics with App-RAN Mutual Awareness
+  - NSDI: Enabling Portable and High-Performance SmartNIC Programs with Alkali
+- 2026:
+  - NSDI: Enabling SLO-Aware 5G Multi-Access Edge Computing with SMEC
+
+### Aaron Schulman
+
+- DBLP pid: `77/3626`
+- Counts: baseline networking `8`, total clean `25`, post-2023 clean `8`
+- Top venues: Internet Measurement Conference (5), MobiCom (2), MobiSys (2), PAM (2), USENIX Security Symposium (2), SP (2), CSET @ USENIX Security Symposium (1), NSDI (1)
+- Baseline title terms: federated (2), measuring (2), security (2), how (2), sdrs (2), low-cost (2), residential (2), dns (2)
+- Post-2023 title terms: base (2), access (2), different (2), rosebud (1), making (1), fpga-accelerated (1), middlebox (1), development (1)
+
+- 2019:
+  - CSET @ USENIX Security Symposium: Triton: A Software-Reconfigurable Federated Avionics Testbed
+  - Internet Measurement Conference: Measuring Security Practices and How They Impact Security
+  - MobiCom: Detecting if LTE is the Bottleneck with BurstTracker
+  - MobiSys: SparSDR: Sparsity-proportional Backhaul and Compute for SDRs
+  - NSDI: SweepSense: Sensing 5 GHz in 5 Milliseconds with Low-cost Radios [qualifying]
+  - PAM: How to Find Correlated Internet Failures
+  - SIGCOMM: Residential links under the weather [qualifying]
+  - USENIX Security Symposium: Please Pay Inside: Evaluating Bluetooth-based Detection of Gas Pump Skimmers
+- 2020:
+  - Internet Measurement Conference: Trufflehunter: Cache Snooping Rare Domains at Large Public DNS Resolvers
+- 2021:
+  - Internet Measurement Conference: Federated infrastructure: usage, patterns, and insights from "the people's network"
+  - Internet Measurement Conference: Home is where the hijacking is: understanding DNS interception by residential routers
+  - Internet Measurement Conference: Inferring regional access network topologies: methods and applications
+- 2022:
+  - ACNS: ZLeaks: Passive Inference Attacks on Zigbee Based Smart Homes
+  - IMC: Measuring UID smuggling in the wild [qualifying]
+  - MobiSys: Observing wideband RF spectrum with low-cost, resource limited SDRs
+  - SP: Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices
+  - eCrime: The Challenges of Blockchain-Based Naming Systems for Malware Defenders
+- 2023:
+  - ASPLOS (3): Rosebud: Making FPGA-Accelerated Middlebox Development More Pleasant
+  - ICT4S: Investigating the Sustainability of the 5G Base Station Overhaul in the United States
+  - MobiCom: Crescendo: Towards Wideband, Real-time, High-Fidelity Spectrum Sensing Systems
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+- 2024:
+  - SP: Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices
+- 2025:
+  - ACSAC Workshops: CRASHCART: Truckin' in a Backup System to Revive Hospitals During Computer Outages
+  - CCS: Don't Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites
+- 2026:
+  - PAM: Different Policies for Different NodeBs: Comparing Downlink Schedulers in Cellular Base Stations
+
+### Srinivas Narayana
+
+- DBLP pid: `03/1245`
+- Counts: baseline networking `8`, total clean `23`, post-2023 clean `11`
+- Top venues: SIGCOMM (6), HotNets (4), ANRW (2), NSDI (2), SAS (2), SOSP (1), CGO (1), ASPLOS (3) (1)
+- Baseline title terms: control (5), congestion (4), elasticity (2), detection (2), building (2), block (2), restructuring (2), endpoint (2)
+- Post-2023 title terms: ebpf (4), synthesis (4), verifier (3), abstract (3), operators (3), packet-processing (2), cloud (2), program (2)
+
+- 2018:
+  - ANRW: Elasticity Detection: A Building Block for Delay-Sensitive Congestion Control
+  - ANRW: Restructuring Endpoint Congestion Control
+  - SIGCOMM: Restructuring endpoint congestion control [qualifying]
+- 2019:
+  - HotNets: Autogenerating Fast Packet-Processing Code Using Program Synthesis [qualifying]
+- 2020:
+  - SIGCOMM: Switch Code Generation Using Program Synthesis [qualifying]
+- 2021:
+  - HotNets: Snicket: Query-Driven Distributed Tracing [qualifying]
+  - SIGCOMM: Synthesizing safe and efficient kernel extensions for packet processing [qualifying]
+  - SOSP: Automated SmartNIC Offloading Insights for Network Functions
+- 2022:
+  - CGO: Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers
+  - HotNets: Load balancers need in-band feedback control [qualifying]
+  - NSDI: Privid: Practical, Privacy-Preserving Video Analytics Queries [qualifying]
+  - SIGCOMM: Elasticity detection: a building block for internet congestion control [qualifying]
+- 2023:
+  - ASPLOS (3): CaT: A Solver-Aided Compiler for Packet-Processing Pipelines
+  - CAV (3): Verifying the Verifier: eBPF Range Analysis Verification
+  - VLDB Workshops: QuEST: Fast, Expressive, and Cheap Analytics for Distributed Traces Using Cloud Storage
+- 2024:
+  - APNet: Cross-Platform Transpilation of Packet-Processing Programs using Program Synthesis
+  - SAS: Fixing Latent Unsound Abstract Operators in the eBPF Verifier of the Linux Kernel
+- 2025:
+  - HotNets: Beyond Lamport, Towards Probabilistic Fair Ordering
+  - NSDI: State-Compute Replication: Parallelizing High-Speed Stateful Packet Processing
+  - SAS: Comparing the Precision of Abstract Operators in the eBPF Verifier Using Differential Synthesis
+  - SIGCOMM: Network Support For Scalable And High Performance Cloud Exchanges
+  - SIGCOMM: ParserHawk: Hardware-aware parser generator using program synthesis
+  - eBPF@SIGCOMM: Automatic Synthesis of Abstract Operators for eBPF
+
+### John Sonchack
+
+- DBLP pid: `145/2967`
+- Counts: baseline networking `8`, total clean `17`, post-2023 clean `2`
+- Top venues: SIGCOMM (4), NSDI (3), EuroSys (1), HotCloud (1), NetCompute@SIGCOMM (1), USENIX ATC (1), APNet (1), PLDI (1)
+- Baseline title terms: network (5), flow (2), switches (2), analytics (2), in-network (2), queries (2), data (2), plane (2)
+- Post-2023 title terms: switchlog (1), logic (1), programming (1), language (1), network (1), switches (1), beaver (1), partial (1)
+
+- 2018:
+  - EuroSys: Turboflow: information rich flow record generation on commodity switches
+  - HotCloud: Packet-Level Analytics in Software without Compromises
+  - NetCompute@SIGCOMM: In-network computing to the rescue of faulty links
+  - SIGCOMM: Synchronized network snapshots [qualifying]
+  - USENIX ATC: Scaling Hardware Accelerated Network Monitoring to Concurrent and Dynamic Queries With *Flow
+- 2019:
+  - APNet: TMC: Pay-as-you-Go Distributed Communication
+  - PLDI: Ignis: scaling distribution-oblivious systems with light-touch distribution
+  - SDN-NFV@CODASPY: PIQ: Persistent Interactive Queries for Network Security Analytics
+- 2020:
+  - CoNEXT: DeepMatch: practical deep packet inspection in the data plane using network processors [qualifying]
+  - NSDI: tpprof: A Network Traffic Pattern Profiler [qualifying]
+  - SIGCOMM: Mantis: Reactive Programmable Switches [qualifying]
+- 2021:
+  - NSDI: Flightplan: Dataplane Disaggregation and Placement for P4 Programs [qualifying]
+  - SIGCOMM: Lucid: a language for control in the data plane [qualifying]
+- 2022:
+  - NSDI: OrbWeaver: Using IDLE Cycles in Programmable Networks for Opportunistic Coordination [qualifying]
+  - SIGCOMM: Cebinae: scalable in-network fairness augmentation [qualifying]
+- 2023:
+  - PADL: SwitchLog: A Logic Programming Language for Network Switches
+- 2024:
+  - OSDI: Beaver: Practical Partial Snapshots for Distributed Cloud Services
+
+### Robert Beverly
+
+- DBLP pid: `12/1817`
+- Counts: baseline networking `8`, total clean `15`, post-2023 clean `3`
+- Top venues: Internet Measurement Conference (6), PAM (2), CCS (1), CoNEXT (1), NSDI (1), TMA (1), IMC (1), SP (1)
+- Baseline title terms: bgp (3), communities (3), ipv6 (3), network (3), routing (2), topology (2), discovery (2), internet (2)
+- Post-2023 title terms: illuminating (1), router (1), vendor (1), diversity (1), within (1), providers (1), along (1), network (1)
+
+- 2018:
+  - Internet Measurement Conference: BGP Communities: Even more Worms in the Routing Can
+  - Internet Measurement Conference: In the IP of the Beholder: Strategies for Active IPv6 Topology Discovery
+- 2019:
+  - CCS: Network Hygiene, Incentives, and Regulation: Deployment of Source Address Validation in the Internet
+  - PAM: Sundials in the Shade - An Internet-Wide Perspective on ICMP Timestamps
+- 2020:
+  - CoNEXT: Keep your communities clean: exploring the routing message impact of BGP communities [qualifying]
+  - Internet Measurement Conference: Reading In-Between the Lines: An Analysis of Dissenter
+  - NSDI: Diamond-Miner: Comprehensive Discovery of the Internet's Topology Diamonds [qualifying]
+  - PAM: Discovering the IPv6 Network Periphery
+- 2021:
+  - Internet Measurement Conference: AS-level BGP community usage classification
+  - Internet Measurement Conference: Follow the scent: defeating IPv6 prefix rotation privacy
+  - Internet Measurement Conference: Third time's not a charm: exploiting SNMPv3 for router fingerprinting
+  - TMA: IP Geolocation Database Stability and Implications for Network Research: A Reproducibility Study
+- 2023:
+  - IMC: Illuminating Router Vendor Diversity Within Providers and Along Network Paths
+  - SP: IPvSeeYou: Exploiting Leaked Identifiers in IPv6 for Street-Level Geolocation
+- 2026:
+  - NDSS: On Borrowed Time: Measurement-Informed Understanding of the NTP Pool's Robustness to Monopoly Attacks
+
+### Kai Chen 0005
+
+- DBLP pid: `c/KaiChen5`
+- Counts: baseline networking `7`, total clean `94`, post-2023 clean `53`
+- Top venues: EuroSys (13), APNet (12), INFOCOM (11), NSDI (10), SIGCOMM (8), ICNP (6), KDD (5), USENIX ATC (4)
+- Baseline title terms: network (7), learning (6), networks (6), congestion (5), control (5), datacenters (5), distributed (5), data (4)
+- Post-2023 title terms: learning (12), control (8), training (7), rdma (6), federated (6), in-network (6), graph (5), distributed (5)
+
+- 2018:
+  - APNet: Augmenting Proactive Congestion Control with Aeolus
+  - APNet: Pas de deux: Shape the Circuits, and Shape the Apps too!
+  - EuroSys: BDS: a centralized near-optimal overlay network for inter-datacenter data replication
+  - INFOCOM: Enabling Work-Conserving Bandwidth Guarantees for Multi-Tenant Datacenters via Dynamic Tenant-Queue Binding
+  - NSDI: PowerMan: An Out-of-Band Management Network for Datacenters Using Power Line Communication [qualifying]
+  - SIGCOMM: AuTO: scaling deep reinforcement learning for datacenter-scale automatic traffic optimization [qualifying]
+  - SIGMETRICS (Abstracts): Neural Network Meets DCN: Traffic-driven Topology Adaptation with Deep Learning
+- 2019:
+  - APNet: Rethinking Transport Layer Design for Distributed Machine Learning
+  - CoNEXT: Enabling ECN for datacenter networks with RTT variations [qualifying]
+  - EuroSys: URSA: Hybrid Block Storage for Cloud-Scale Virtual Disks
+  - HotCloud: Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics
+  - ICNP: Congestion Control for Cross-Datacenter Networks
+  - SIGCOMM Posters and Demos: Resilient Disaggregated Network Flow Monitoring
+- 2020:
+  - APNet: RAT - Resilient Allreduce Tree for Distributed Machine Learning
+  - Federated Learning: Federated Recommendation Systems
+  - INFOCOM: Clustering-preserving Network Flow Sketching
+  - INFOCOM: One More Config is Enough: Saving (DC)TCP for High-speed Extremely Shallow-buffered Datacenters
+  - RecSys: Exploring Clustering of Bandits for Online Recommendation System
+  - SIGCOMM: Aeolus: A Building Block for Proactive Transport in Datacenters [qualifying]
+  - VTC Fall: Managing Multicast Membership for Software Defined Data Center Network
+- 2021:
+  - ICNP: FlashPass: Proactive Congestion Control for Shallow-buffered WAN
+  - ICNP: RPO: Receiver-driven Transport Protocol Using Opportunistic Transmission in Data Center
+  - INFOCOM: Enabling Edge-Cloud Video Analytics for Robotics Applications
+  - INFOCOM: Jellyfish: Locality-Sensitive Subflow Sketching
+- 2022:
+  - APNet: Herald: An Embedding Scheduler for Distributed Embedding Model Training
+  - APNet: Load Balancing in PFC-Enabled Datacenter Networks
+  - CoNEXT: Spine: an efficient DRL-based congestion control with ultra-low overhead [qualifying]
+  - EuroSys: Multi-objective congestion control
+  - FL@IJCAI: Practical and Secure Federated Recommendation with Personalized Mask
+  - FL@IJCAI: Secure Forward Aggregation for Vertical Federated Neural Networks
+  - ICNP: DGS: Communication-Efficient Graph Sampling for Distributed GNN Training
+  - INFOCOM: Addressing Network Bottlenecks with Divide-and-Shuffle Synchronization for Distributed DNN Training
+  - INFOCOM: AutoByte: Automatic Configuration for Optimal Communication Scheduling in DNN Training
+  - INFOCOM: Cutting Tail Latency in Commodity Datacenters with Cloudburst
+  - KDD: Connecting the Hosts: Street-Level IP Geolocation with Graph Neural Networks
+  - KDD: Practical Lossless Federated Singular Vector Decomposition over Billion-Scale Data
+  - ... 5 more in JSON packet
+- 2023:
+  - APNet: Accurate and Scalable Rate Limiter for RDMA NICs
+  - APNet: Scaling Switch-driven Flow Control with Aquarius
+  - EuroSys: Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing
+  - EuroSys: Tabi: An Efficient Multi-Level Inference System for Large Language Models
+  - ICNP: Enabling Load Balancing for Lossless Datacenters
+  - ICNP: Towards Fine-Grained and Practical Flow Control for Datacenter Networks
+  - IJCAI: Globally Consistent Federated Graph Autoencoder for Non-IID Graphs
+  - KDD: Transferable Graph Structure Learning for Graph-based Traffic Forecasting Across Cities
+  - KDD: TrustGeo: Uncertainty-Aware Dynamic Graph Learning for Trustworthy IP Geolocation
+  - MDM: RIPGeo: Robust Street-Level IP Geolocation
+  - NSDI: FLASH: Towards a High-performance Hardware Acceleration Architecture for Cross-silo Federated Learning
+  - NSDI: SRNIC: A Scalable Architecture for RDMA NICs
+- 2024:
+  - APNet: Understanding Communication Characteristics of Distributed Training
+  - EuroSys: Accelerating Privacy-Preserving Machine Learning With GeniBatch
+  - EuroSys: Astraea: Towards Fair and Efficient Learning-based Congestion Control
+  - HPCA: Cepheus: Accelerating Datacenter Applications with High-Performance RoCE-Capable Multicast
+  - ICDE: Triple-D: Denoising Distant Supervision for High-Quality Data Creation
+  - NSDI: Accelerating Neural Recommendation Training with Embedding Scheduling
+  - NSDI: Flow Scheduling with Imprecise Knowledge
+  - NSDI: Towards Domain-Specific Network Transport for Distributed DNN Training
+  - NeurIPS: Shopping MMLU: A Massive Multi-Task Online Shopping Benchmark for Large Language Models
+  - SIGCOMM: Fast, Scalable, and Accurate Rate Limiter for RDMA NICs
+  - USENIX ATC: Efficient Decentralized Federated Singular Vector Decomposition
+  - USENIX Security Symposium: Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA
+- 2025:
+  - AAAI: Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities
+  - APNet: Cache-Aware I/O Rate Control for RDMA
+  - APNet: Congestion Control for AI Workloads with Message-Level Signaling
+  - APNet: Enabling Packet Spraying over Commodity RNICs with In-Network Support
+  - ASPLOS (1): Design and Operation of Shared Machine Learning Clusters on Campus
+  - COLING: FedMKT: Federated Mutual Knowledge Transfer for Large and Small Language Models
+  - EuroSys: Achieving Fairness Generalizability for Learning-based Congestion Control with Jury
+  - EuroSys: Cheetah: Metadata Aggregation for Fast Object Storage without Distributed Ordering
+  - EuroSys: eNetSTL: Towards an In-kernel Library for High-Performance eBPF-based Network Functions
+  - GLOBECOM: PINGeo: Towards Robust IP Geolocation with Adaptive Graph Pruning
+  - ICAIF: Federated Financial Reasoning Distillation: Training A Small Financial Expert by Learning From Multiple Teachers
+  - INFOCOM: A Generic and Efficient Communication Framework for Message-Level In-Network Computing
+  - ... 12 more in JSON packet
+- 2026:
+  - EuroSys: Enabling Packet Spraying over Commodity RNICs with In-Network Support
+  - EuroSys: Learn-to-Probe: Achieving Signal Distinguishability in Learning-based Congestion Control
+  - EuroSys: MFS: An Efficient Model Family Serving System for LLMs
+  - NSDI: CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns
+  - NSDI: PolicyCache: Intra-flow Learning in Congestion Control
+
+### Jianping Wu
+
+- DBLP pid: `82/4905`
+- Counts: baseline networking `7`, total clean `84`, post-2023 clean `34`
+- Top venues: INFOCOM (8), ICNP (7), NDSS (4), NSDI (4), SIGCOMM (4), CVPR (3), ACSAC (2), APNOMS (2)
+- Baseline title terms: network (7), traffic (7), networks (5), high-performance (5), learning (5), nfv (4), algorithm (4), sdn (3)
+- Post-2023 title terms: networks (6), satellite (6), routing (4), leo (4), attack (3), network (3), direct-to-cell (3), space (2)
+
+- 2018:
+  - APNet: GEN: A GPU-Accelerated Elastic Framework for NFV
+  - ICA3PP (4): One-Sided Communication in Coarray Fortran: Performance Tests on TH-1A
+  - ICCCN: Simplifying Network Updates in SDN and NFV Networks Using GUM
+  - ICDCS: USTR: A High-Performance Traffic Engineering Approach for the Failed Link
+  - ICNP: Grus: Enabling Latency SLOs for GPU-Accelerated NFV Systems
+  - INFOCOM: Building Generic Scalable Middlebox Services Over Encrypted Protocols
+  - INFOCOM Workshops: Efficient network configuration verification using optimized datalog
+  - IPCCC: S5: An Application Sensitive QoS Assurance System via SDN
+  - NeurIPS: BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training
+- 2019:
+  - ACML: Multi-modal Representation Learning for Successive POI Recommendation
+  - ACSAC: Casino royale: a deep exploration of illegal online gambling
+  - APNOMS: Measurement and Analysis of Adult Websites in IPv6 Networks
+  - APNOMS: NFVMP: An Architecture for NFV Applications from Multiple Providers
+  - CoNEXT: HyperTester: high-performance network testing driven by programmable switches [qualifying]
+  - GLOBECOM: GSDM: Graph-Based Scaling Detection Model in Network Function Virtualization
+  - ICPP: DLBooster: Boosting End-to-End Deep Learning Workflows with Offloading Data Preprocessing Pipelines
+  - INFOCOM: Octans: Optimal Placement of Service Function Chains in Many-Core Systems
+  - INFOCOM: Towards Verifiable Performance Measurement over In-the-Cloud Middleboxes
+  - ITSC: Evolutionary Learning in Decision Making for Tactical Lane Changing
+  - IWQoS: Trigger relationship aware mobile traffic classification
+  - Internet Measurement Conference: An End-to-End, Large-Scale Measurement of DNS-over-Encryption: How Far Have We Come?
+  - ... 1 more in JSON packet
+- 2020:
+  - AIAM: Study on Prediction Model of Magnetic Field Intensity of Submarine Power Cable Based on LSTM
+  - CoNEXT: Newton: intent-driven network traffic monitoring [qualifying]
+  - ICC: NetView: Towards On-Demand Network-Wide Telemetry in the Data Center
+  - INFOCOM: Enabling Execution Assurance of Federated Learning at Untrusted Participants
+  - IWQoS: Delay-Sensitive Computation Partitioning for Mobile Augmented Reality Applications
+  - Internet Measurement Conference: TopoScope: Recover AS Relationships From Fragmentary Observations
+  - NDSS: Poseidon: Mitigating Volumetric DDoS Attacks with Programmable Switches
+  - VTC Fall: Managing Multicast Membership for Software Defined Data Center Network
+- 2021:
+  - ACSAC: MineHunter: A Practical Cryptomining Traffic Detection Algorithm Based on Time Series Tracking
+  - AHFE (17): The Effect of Restorative Environment and Presence Based on Virtual Reality for Anxiety and Depression
+  - CCS: Deterrence of Intelligent DDoS via Multi-Hop Traffic Divergence
+  - DAC: ROLoad: Securing Sensitive Operations with Pointee Integrity
+  - GLOBECOM: FastKeeper: A Fast Algorithm for Identifying Top-k Real-time Large Flows
+  - HotNets: "Internet in Space" for Terrestrial Users via Cyber-Physical Convergence [qualifying]
+  - ICC: Unsupervised IoT Fingerprinting Method via Variational Auto-encoder and K-means
+  - ICCV: Real-time Vanishing Point Detector Integrating Under-parameterized RANSAC and Hough Transform
+  - ICNP: Cooperatively Constructing Cost-Effective Content Distribution Networks upon Emerging Low Earth Orbit Satellites and Clouds
+  - ICNP: OrbitCast: Exploiting Mega-Constellations for Low-Latency Earth Observation
+  - ISPA/BDCloud/SocialCom/SustainCom: Optimization of the parallel semi-Lagrangian scheme in the YHGSM based on the adaptive maximum wind speed
+  - ISSRE: CloudPin: A Root Cause Localization Framework of Shared Bandwidth Package Traffic Anomalies in Public Cloud Networks
+- 2022:
+  - CISP-BMEI: Analysis of epileptic EEG based on improved sample entropy algorithm
+  - ECCV (35): MILES: Visual BERT Pre-training with Injected Language Semantics for Video-Text Retrieval
+  - HPSR: A Deep Reinforcement Learning Approach for Deploying SDN Switches in ISP Networks from the Perspective of Traffic Engineering
+  - ICNP: To Punctuality and Beyond: Meeting Application Deadlines with DTP
+  - INFOCOM: SpaceRTC: Unleashing the Low-latency Potential of Mega-constellations for Real-Time Communications
+  - NSDI: Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness [qualifying]
+  - SIGCOMM: A case for stateless mobile core network functions in space [qualifying]
+  - SIGMETRICS (Abstracts): Understanding I/O Direct Cache Access Performance for End Host Networking
+- 2023:
+  - ACM TUR-C: A Case for Stateless Mobile Core Functions in Space
+  - Blockchain: EMIS: A Uniform Management and Resolution System of Multiple Identifiers on Ethereum
+  - CCS: Point Cloud Analysis for ML-Based Malicious Traffic Detection: Reducing Majorities of False Positive Alarms
+  - CVPR: All in One: Exploring Unified Video-Language Pre-Training
+  - CVPR: ViLEM: Visual-Language Error Modeling for Image-Text Retrieval
+  - DAC: PTStore: Lightweight Architectural Support for Page Table Isolation
+  - ICLR: Masked Image Modeling with Denoising Contrast
+  - IEEE Big Data: H-MIS: A Hierarchical Multi-Identifier System Based on Blockchain
+  - INFOCOM: Achieving Resilient and Performance-Guaranteed Routing in Space-Terrestrial Integrated Networks
+  - MobiCom: A Networking Perspective on Starlink's Self-Driving LEO Mega-Constellation
+  - NDSS: A Security Study about Electron Applications and a Programming Methodology to Tame DOM Functionalities
+  - NSDI: StarryNet: Empowering Researchers to Evaluate Futuristic Integrated Space and Terrestrial Networks
+  - ... 2 more in JSON packet
+- 2024:
+  - Euro-Par (3): Pipe-AGCM: A Fine-Grain Pipelining Scheme for Optimizing the Parallel Atmospheric General Circulation Model
+  - ICNP: Poster: Automatic Network Protocol Fingerprint Discovery with Difference-Guided Fuzzing
+  - IEEE Big Data: HL-LSM: A LSM-Tree Combined with Read Hotness and Learned Index
+  - MobiCom: Stable Hierarchical Routing for Operational LEO Networks
+  - NSDI: Brain-on-Switch: Towards Advanced Intelligent Network Data Plane via NN-Driven Traffic Analysis at Line-Speed
+  - NSDI: Democratizing Direct-to-Cell Low Earth Orbit Satellite Networks
+  - SP: The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations
+  - USENIX Security Symposium: Learning with Semantics: Towards a Semantics-Aware Routing Anomaly Detection System
+- 2025:
+  - CVPR: DiskVPS: Vanishing Point Detector via Hough Transform in a Disk Region
+  - ICA3PP (2): Auto-CLOUDSC: An Auto-generation Framework for Vectorization and Optimization of Cloud Microphysics Parameterization on ARM CPUs
+  - ICNP: SRmesh: Deterministic and Efficient Diagnosis of Latency Bottleneck Links in SRv6 Networks
+  - ICNP: Undermining Delay-based QUIC Congestion Control: A Receiver-driven Attack via Crafted Host Delays
+  - INFOCOM: Affinity-Model: Improving AS Routing Models via AS Affinity Behavior Inference
+  - INFOCOM: Which way to go? Inferring Fine-Grained AS Paths with PathRadar
+  - NDSS: Off-Path TCP Hijacking in Wi-Fi Networks: A Packet-Size Side Channel Attack
+  - NOSSDAV: Active Management of Jammed Packets in Wireless Real-Time Communications
+  - SIGCOMM: Direct-to-Cell Satellite Network without Satellite Navigation
+  - SIGCOMM: LeoCC: Making Internet Congestion Control Robust to LEO Satellite Dynamics
+  - SIGCOMM: Small-scale LEO Satellite Networking for Global-scale Demands
+- 2026:
+  - NDSS: Understanding the Stealthy BGP Hijacking Risk in the ROV Era
+
+### Zaoxing Liu
+
+- DBLP pid: `166/6255`
+- Counts: baseline networking `7`, total clean `39`, post-2023 clean `19`
+- Top venues: NSDI (6), SIGCOMM (5), FAST (2), SIGMETRICS (Abstracts) (2), SOSR (2), HotNets (2), IMC (2), HotCloud (1)
+- Baseline title terms: switches (6), sketch-based (5), monitoring (5), programmable (5), graph (2), pattern (2), mining (2), distcache (2)
+- Post-2023 title terms: telemetry (6), network (4), sketches (2), data (2), sketch-based (2), cloud (2), interactive (1), research (1)
+
+- 2018:
+  - HotCloud: Towards Fast and Scalable Graph Pattern Mining
+  - OSDI: ASAP: Fast, Approximate Graph Pattern Mining at Scale
+- 2019:
+  - FAST: DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching
+  - SIGCOMM: Nitrosketch: robust and general sketch-based monitoring in software switches [qualifying]
+  - SIGCOMM Posters and Demos: Attack Time Localization using Interval Queries
+  - USENIX ATC: DistCache: Provable Load Balancing for Large-Scale Storage Systems with Distributed Caching
+- 2020:
+  - APOCS: Memory-Efficient Performance Monitoring on Programmable Switches with Lean Algorithms
+  - CoNEXT: DISCOvering the heavy hitters with disaggregated sketches [qualifying]
+  - MobiCom: Joltik: enabling energy-efficient "future-proof" analytics on low-power wide-area networks
+  - SIGCOMM: TEA: Enabling State-Intensive Network Functions on Programmable Switches [qualifying]
+  - SIGMETRICS (Abstracts): I Know What You Did Last Summer: Network Monitoring using Interval Queries
+- 2021:
+  - Internet Measurement Conference: Precise error estimation for sketch-based flow measurement
+  - IoTDI: SecDeep: Secure and Performant On-device Deep Learning Inference Framework for Mobile and IoT Devices
+  - NetSoft: Sketchy With a Chance of Adoption: Can Sketch-Based Telemetry Be Ready for Prime Time?
+  - SIGCOMM: CocoSketch: high-performance sketch-based measurement over arbitrary partial key query [qualifying]
+  - SOSR: Telemetry Retrieval Inaccuracy in Programmable Switches: Analysis and Recommendations
+  - USENIX Security Symposium: Jaqen: A High-Performance Switch-Native Approach for Detecting and Mitigating Volumetric DDoS Attacks with Programmable Switches
+- 2022:
+  - NSDI: HeteroSketch: Coordinating Network-wide Monitoring in Heterogeneous and Dynamic Networks [qualifying]
+  - NSDI: SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches [qualifying]
+  - SOSR: Flow-level loss detection with Δ-sketches
+- 2023:
+  - HotNets: Towards Interactive Research Agents for Internet Incident Investigation
+  - IC2E: Enabling Privacy-preserving Multidimensional Network Telemetry with Autoencoders
+  - NSDI: Arya: Arbitrary Graph Pattern Mining with Decomposition-based Sampling
+  - NSDI: Sketchovsky: Enabling Ensembles of Sketches on Programmable Switches
+  - SIGCOMM: Beyond a Centralized Verifier: Scaling Data Plane Checking via Distributed, On-Device Verification
+  - SIGCOMM: Poster: Meili: Towards SmartNIC as a Service
+- 2024:
+  - ENLSP: GEAR: An Efficient Error Reduction Framework for KV Cache Compression in LLM Inference
+  - FAST: In-Memory Key-Value Store Live Migration with NetMigrate
+  - ICDE: BitMatcher: Bit-level Counter Adjustment for Sketches
+  - IMC: Raising the Level of Abstraction for Sketch-Based Network Telemetry with SketchPlan
+  - NDSS: TrustSketch: Trustworthy Sketch-based Telemetry on Cloud Hosts
+  - NSDI: OctoSketch: Enabling Real-Time, Continuous Network Monitoring over Multiple Cores
+- 2025:
+  - ASPLOS (2): OctoCache: Caching Voxels for Accelerating 3D Occupancy Mapping in Autonomous Systems
+  - HotNets: Towards Verifiable Network Telemetry without Special Purpose Hardware
+  - IMC: Protocol Compliance in Popular RTC Applications
+  - SIGCOMM (Posters and Demos): Rearchitecting Approximation-First Cloud Telemetry
+  - SIGMETRICS (Abstracts): Exploiting Kubernetes Autoscaling for Economic Denial of Sustainability
+- 2026:
+  - NINeS: Tidal: Tackling Concept Drift in Provenance-Based Advanced Persistent Threats Detection
+  - NSDI: PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention
+
+### Jiaqi Gao
+
+- DBLP pid: `125/2840`
+- Counts: baseline networking `7`, total clean `38`, post-2023 clean `20`
+- Top venues: SIGCOMM (12), NSDI (4), DSC (3), ICASSP (3), CNCERT (2), AAAI (2), SIGCOMM Posters and Demos (1), SOSP (1)
+- Baseline title terms: data (5), switch (3), cheetah (2), accelerating (2), database (2), queries (2), pruning (2), process (2)
+- Post-2023 title terms: detection (4), network (3), training (3), anomaly (2), feature (2), motion (2), learning (2), program (2)
+
+- 2019:
+  - SIGCOMM Posters and Demos: Cheetah: Accelerating Database Queries with Switch Pruning
+  - SOSP: Risk based planning of network changes in evolving data centers
+- 2020:
+  - APSEC: Towards tracking the development process of the server ecosystems using open-source data
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+  - SIGCOMM: Scouts: Improving the Diagnosis Process Through Domain-customized Incident Routing [qualifying]
+  - SIGMOD Conference: Cheetah: Accelerating Database Queries with Switch Pruning
+- 2021:
+  - CNCERT: A Review of Machine Learning Algorithms for Text Classification
+  - IC4E: Learning Path Generator Based on Knowledge Graph
+  - ICCIR: The Effects of Aging on Municipal Bond Issuance Based on ordinary least squares
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+- 2022:
+  - CNCERT: Detecting Bitcoin Nodes by the Cyberspace Search Engines
+  - DSC: Security Evaluation Model of Blockchain System Based on Combination Weighting and Grey Clustering
+  - ICICS: Using Blockchains for Censorship-Resistant Bootstrapping in Anonymity Networks
+  - NSDI: Cetus: Releasing P4 Programmers from the Chore of Trial and Error Compiling [qualifying]
+  - OSDI: Carbink: Fault-Tolerant Far Memory
+  - SIGCOMM: From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud [qualifying]
+  - SIGCOMM: Predictable vFabric on informative data plane [qualifying]
+  - SIGCOMM: SwitchV: automated SDN switch validation with P4 models [qualifying]
+- 2023:
+  - DSC: Blockchain Storage Method Based on Erasure Code
+  - DSC: Enhancing IoT Flow Anomaly Detection with Differential Optimal Feature Subspace
+  - ICASSP: Cross-Head Supervision for Crowd Counting with Noisy Annotations
+  - ICASSP: Motion Matters: A Novel Motion Modeling for Cross-View Gait Feature Learning
+  - ICASSP: Unsupervised Video Anomaly Detection For Stereotypical Behaviours in Autism
+- 2024:
+  - APNet: Cross-Platform Transpilation of Packet-Processing Programs using Program Synthesis
+  - ASCC: Decentralized Navigation of Multiple Robots Based on Event-Triggered NMPC and NH-ORCA
+  - ICC Workshops: Spectrum Enhancement Based Modulation Recognition with Dual-Cue Attention Fusion and Extraction
+  - NSDI: Sirius: Composing Network Function Chains into P4-Capable Edge Gateways
+  - SIGCOMM: Alibaba HPN: A Data Center Network for Large Language Model Training
+  - SIGCOMM: Crux: GPU-Efficient Communication Scheduling for Deep Learning Training
+- 2025:
+  - EuroSys: Enabling Virtual Priority in Data Center Congestion Control
+  - NSDI: SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability and Precision
+  - SIGCOMM: Alibaba Stellar: A New Generation RDMA Network for Cloud AI
+  - SIGCOMM: ParserHawk: Hardware-aware parser generator using program synthesis
+  - SIGCOMM: SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling
+  - SIGCOMM: Towards LLM-Based Failure Localization in Production-Scale Networks
+- 2026:
+  - AAAI: CTX-Coder: Cross-Attention Architectures Empower LLMs for Long-Context Vulnerability Detection
+  - AAAI: SAFE: Semantic- and Frequency-Enhanced Curriculum for Cross-Domain Deepfake Detection
+  - NSDI: OSCAR: O(1)-Step Convergence and Readily-deployable Congestion Control
+
+### Dongsu Han
+
+- DBLP pid: `12/5388`
+- Counts: baseline networking `7`, total clean `37`, post-2023 clean `18`
+- Top venues: SIGCOMM (5), CoNEXT (4), ICNP (3), APNet (2), EuroSys (2), ICML (2), HotStorage (2), HotNets (2)
+- Baseline title terms: video (4), network (4), mobile (3), neural (3), app (2), networks (2), flow (2), improving (2)
+- Post-2023 title terms: neural (3), storage (3), video (3), video-based (3), accelerating (2), cloud (2), sand (2), abstraction (2)
+
+- 2018:
+  - CoNEXT: APPx: an automated app acceleration framework for low latency mobile app [qualifying]
+  - OSDI: Neural Adaptive Content-aware Internet Video Delivery
+- 2019:
+  - ICNP: Congestion Control for Cross-Datacenter Networks
+  - ICNP: FlowShader: a Generalized Framework for GPU-accelerated VNF Flow Processing
+  - NDSS: Cybercriminal Minds: An investigative study of cryptocurrency abuses in the Dark Web
+  - SysTEX@SOSP: Toward scaling hardware security module for emerging cloud services
+- 2020:
+  - APNet: Leveraging SIMD parallelism for accelerating network applications
+  - ICNP: Lumos: Improving Smart Home IoT Visibility and Interoperability Through Analyzing Mobile Apps
+  - MobiCom: NEMO: enabling neural-enhanced video streaming on commodity mobile devices
+  - SIGCOMM: Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning [qualifying]
+  - USENIX ATC: NetKernel: Making Network Stack Part of the Virtualized Infrastructure
+- 2021:
+  - APNet: pHPA: A Proactive Autoscaling Framework for Microservice Chain
+  - CoNEXT: GRAF: a graph neural network based proactive resource allocation framework for SLO-oriented microservices [qualifying]
+  - EuroSys: Towards timeout-less transport in commodity datacenter networks
+- 2022:
+  - CoNEXT: OutRAN: co-optimizing for flow completion time in radio access network [qualifying]
+  - CoNEXT: PipeDevice: a hardware-software co-design approach to intra-host container communication [qualifying]
+  - ICML: TSPipe: Learn from Teacher Faster with Pipelines
+  - SIGCOMM: NeuroScaler: neural video enhancement at scale [qualifying]
+  - SIGCOMM Posters and Demos: PipeDevice: a hardware-software co-design approach to intra-host container communication
+- 2023:
+  - CVPR: AccelIR: Task-aware Image Compression for Accelerating Neural Restoration
+  - EuroSys: FlexPass: A Case for Flexible Credit-based Transport for Datacenter Networks
+  - HotStorage: Neural Cloud Storage: Innovative Cloud Storage Solution for Cold Video
+  - HotStorage: SAND: A Storage Abstraction for Video-based Deep Learning
+  - ICC: Low-earth Orbit Satellite Network Optimization and Statistical Qubit Freezing on Quantum Annealer
+- 2024:
+  - HotNets: Toward Trustworthy Learning-Enabled Systems with Concept-Based Explanations
+  - ICML: Scaling Beyond the GPU Memory Limit for Large Mixture-of-Experts Model Training
+  - SIGCOMM: Accelerating Model Training in Multi-cluster Environments with Consumer-grade GPUs
+  - SIGCOMM: TopFull: An Adaptive Top-Down Overload Control for SLO-Oriented Microservices
+- 2025:
+  - HotNets: Towards an Agentic Workflow for Internet Measurement Research
+  - MobiSys: Presto: Hybrid CPU-GPU Preprocessing Framework for Video-based AI Inference System
+  - SIGCOMM: Agua: A Concept-Based Explainer for Learning-Enabled Systems
+  - SOSP: SAND: A New Programming Abstraction for Video-based Deep Learning
+  - WACV: NarrAD: Automatic Generation of Audio Descriptions for Movies with Rich Narrative Context
+  - eBPF@SIGCOMM: A Memory Pool Allocator for eBPF Applications
+- 2026:
+  - ASPLOS (2): Trinity: Three-Dimensional Tensor Program Optimization via Tile-level Equality Saturation
+  - MobiSys: BlenDR: Bandwidth-efficient RGB-D Representation and Delivery for Live 3D Video Streaming
+  - WACV: NerVast: Compression-Efficient Scaling of Implicit Neural Video Representations via Scene-based Parameter-sharing
+
+### Deepak Vasisht
+
+- DBLP pid: `149/9280`
+- Counts: baseline networking `7`, total clean `36`, post-2023 clean `21`
+- Top venues: MobiCom (8), SIGCOMM (5), MobiSys (5), NSDI (5), HotNets (2), CoNEXT (1), COMPASS (1), ICRA (1)
+- Baseline title terms: localization (4), iot (3), distributed (2), network (2), low (2), satellites (2), wi-fi (2), privacy (2)
+- Post-2023 title terms: networks (5), satellite (4), traffic (3), wi-fi (3), localization (2), transmitting (2), scheduling (2), through (2)
+
+- 2018:
+  - CoNEXT: BLoc: CSI-based accurate localization for BLE tags [qualifying]
+  - SIGCOMM: In-body backscatter communication and localization [qualifying]
+- 2019:
+  - COMPASS: Low-cost aerial imaging for small holder farmers
+- 2020:
+  - HotNets: A Distributed and Hybrid Ground Station Network for Low Earth Orbit Satellites [qualifying]
+  - MobiCom: Deep learning based wireless localization for indoor navigation
+- 2021:
+  - MobiCom: FIRE: enabling reciprocity for FDD MIMO systems
+  - SIGCOMM: L2D2: low latency distributed downlink for LEO satellites [qualifying]
+- 2022:
+  - ICRA: RF-Annotate: Automatic RF-Supervised Image Annotation of Common Objects in Context
+  - IPSN: MiLTOn: Sensing Product Integrity without Opening the Box using Non-Invasive Acoustic Vibrometry
+  - MobiCom: Non-cooperative wi-fi localization & its privacy implications
+  - MobiSys: Defending wi-fi network discovery from time correlation tracking
+  - NSDI: Enabling IoT Self-Localization Using Ambient 5G Signals [qualifying]
+  - NSDI: Whisper: IoT in the TV White Space Spectrum [qualifying]
+  - SIGCOMM: RF-protect: privacy against device-free human tracking [qualifying]
+  - SIGCOMM Posters and Demos: Enabling IoT self-localization using ambient 5G mmWave signals
+- 2023:
+  - MobiCom: BatMobility: Towards Flying Without Seeing for Autonomous Drones
+  - MobiCom: Magnetic Backscatter for In-body Communication and Localization
+  - MobiCom: Transmitting, Fast and Slow: Scheduling Satellite Traffic through Space and Time
+  - NSDI: Exploring Practical Vulnerabilities of Machine Learning-based Wireless Systems
+  - S3@MobiCom: Passive Device Identification with Packet Timing Analysis
+- 2024:
+  - HotNets: A Call for Decentralized Satellite Networks
+  - MobiCom: CosMAC: Constellation-Aware Medium Access and Scheduling for IoT Satellites
+  - MobiSys: Radarize: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry
+  - NSDI: Known Knowns and Unknowns: Near-realtime Earth Observation Via Query Bifurcation in Serval
+  - NSDI: Spectrumize: Spectrum-efficient Satellite Networks for the Internet of Things
+- 2025:
+  - HotMobile: Is WTSN the missing piece for low latency in general-purpose Wi-Fi?
+  - ICLR: Support is All You Need for Certified VAE Training
+  - MobiCom: Poster: Scalable Indoor Localization with Non-Cooperative Wi-Fi Ranging
+  - MobiSys: Demo: Unveiling Randomized Device Identity in Dynamic Wi-Fi Networks
+  - SEC: Centralized Traffic Engineering for Networked Farm Applications
+  - SIGCOMM: DeepSpace: Super Resolution Powered Efficient and Reliable Satellite Image Data Acquistion
+  - SIGCOMM: StarCDN: Moving Content Delivery Networks to Space
+- 2026:
+  - CHI: Counting How the Seconds Count: Understanding TikTok Behavior via ML-driven Analysis of Video Content
+  - MobiSys: AquaScope: Reliable Underwater Image Transmission on Mobile Devices
+  - MobiSys: Pinpointing Transmitting LEO Satellites from a Single Passive Array
+  - NINeS: EcoCell: Energy Conservation Through Traffic Shaping in Cellular Radio Access Networks
+
+### John S. Heidemann
+
+- DBLP pid: `h/JohnSHeidemann`
+- Counts: baseline networking `7`, total clean `35`, post-2023 clean `13`
+- Top venues: Internet Measurement Conference (5), IMC (5), PAM (3), FAccT (3), IEEE BigData (2), TMA (2), PAM (2) (2), IoT S&P@SIGCOMM (1)
+- Baseline title terms: dns (7), internet (5), anycast (5), detection (4), ddos (3), ipv6 (3), detecting (2), processing (2)
+- Post-2023 title terms: internet (3), delivery (3), auditing (2), discrimination (2), poster (2), ipv6 (2), defending (1), root (1)
+
+- 2018:
+  - Internet Measurement Conference: LDplayer: DNS Experimentation at Scale
+  - Internet Measurement Conference: When the Dike Breaks: Dissecting DNS Defenses During DDoS
+  - Internet Measurement Conference: Who Knocks at the IPv6 Door?: Detecting IPv6 Scanning
+  - IoT S&P@SIGCOMM: IP-Based IoT Device Detection
+  - PAM: Detecting ICMP Rate Limiting in the Internet
+  - SIGCOMM Posters and Demos: Poster: Towards a Collaborative and Retrospective Understanding of Security Events with Retro-Future
+  - SoCC: Plumb: Efficient Processing of Multi-User Pipelines
+  - WTMC@SIGCOMM: Leveraging Controlled Information Sharing for Botnet Activity Detection
+- 2019:
+  - IEEE BigData: Identifying Important Internet Outages
+  - Internet Measurement Conference: Cache Me If You Can: Effects of DNS Time-to-Live
+- 2020:
+  - PAM: Improving Coverage of Internet Outage Detection in Sparse Blocks
+  - TMA: Bidirectional Anycast/Unicast Probing (BAUP): Optimizing CDN Anycast
+- 2021:
+  - ANRW: Institutional privacy risks in sharing DNS data
+  - CLOUD: Efficient Processing of Streaming Data using Multiple Abstractions
+  - IEEE BigData: Visualizing Internet Measurements of Covid-19 Work-from-Home
+  - Internet Measurement Conference: TsuNAME: exploiting misconfiguration and vulnerability to DDoS DNS
+  - SIGCOMM: Anycast In context: a tale of two systems [qualifying]
+  - WWW: Auditing for Discrimination in Algorithms Delivering Job Ads
+- 2022:
+  - BDCAT: Differences in Monitoring the DNS Root Over IPv4 and IPv6
+  - IMC: Internet outage detection using passive analysis [qualifying]
+  - PAM: Old but Gold: Prospecting TCP to Engineer and Live Monitor DNS Anycast
+  - USENIX Security Symposium: Anycast Agility: Network Playbooks to Fight DDoS
+- 2023:
+  - COMSNETS: Defending Root DNS Servers Against DDoS Using Layered Defenses
+  - IMC: Inferring Changes in Daily Human Activity from Internet Response
+- 2024:
+  - FAccT: Auditing for Racial Discrimination in the Delivery of Education Ads
+  - PAM (2): Anycast Polarization in the Wild
+  - PAM (2): Ebb and Flow: Implications of ISP Address Dynamics
+  - SIGMETRICS/Performance (Abstracts): Deep Dive into NTP Pool's Popularity and Mapping
+- 2025:
+  - FAccT: Auditing for Bias in Ad Delivery Using Inferred Demographic Attributes
+  - FAccT: External Evaluation of Discrimination Mitigation Efforts in Meta's Ad Delivery
+  - IMC: Poster: Rediscovering Recurring Routing Results
+  - IMC: Poster: Rough Edges for IPv6 in VPNs
+  - IMC: Towards a Non-Binary View of IPv6 Adoption
+  - TMA: Quantifying Differences Between Batch and Streaming Detection of Internet Outages
+- 2026:
+  - NINeS: Understanding Partial Reachability in the Internet Core
+
+### Yu Zhou 0008
+
+- DBLP pid: `36/2728-8`
+- Counts: baseline networking `7`, total clean `29`, post-2023 clean `2`
+- Top venues: ICNP (5), SIGCOMM (5), SOSR (4), SIGCOMM Posters and Demos (3), CoNEXT (2), NSDI (2), CFI (1), ISCC (1)
+- Baseline title terms: programmable (12), data (10), network (6), plane (6), telemetry (5), switches (4), high-performance (4), packet (3)
+- Post-2023 title terms: norma (1), network (1), load (1), testing (1), infinitehbd (1), building (1), datacenter-scale (1), high-bandwidth (1)
+
+- 2018:
+  - CFI: Tunneling over IP Based on Match-Action Table in Software Defined Networks
+  - ICNP: KeySight: Troubleshooting Programmable Switches via Scalable High-Coverage Behavior Tracking
+  - ICNP: NetVision: Towards Network Telemetry as a Service
+  - ISCC: B-Cache: A Behavior-Level Caching Framework for the Programmable Data Plane
+  - SIGCOMM Posters and Demos: CoFilter: A High-Performance Switch-Assisted Stateful Packet Filter
+  - SIGCOMM Posters and Demos: In-band Network Function Telemetry
+  - SOSR: KeySight: A Scalable Troubleshooting Platform Based on Network Telemetry
+  - SOSR: NS4: Enabling Programmable Data Plane Simulation
+- 2019:
+  - CoNEXT: HyperTester: high-performance network testing driven by programmable switches [qualifying]
+  - ICCCN: CoFilter: A High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers
+  - IWQoS: P4Tester: efficient runtime rule fault detection for programmable data planes
+  - SIGCOMM Posters and Demos: HyperGen: High-Performance Flexible Packet Generator Using Programmable Switching ASIC
+  - SOSR: Prophet: Real-time Queue Length Inference in Programmable Switches
+- 2020:
+  - CoNEXT: Newton: intent-driven network traffic monitoring [qualifying]
+  - ICC: NetView: Towards On-Demand Network-Wide Telemetry in the Data Center
+  - ICNP: TurboNet: Faithfully Emulating Networks with Programmable Switches
+  - Networking: FlexMesh: Flexibly Chaining Network Functions on Programmable Data Planes at Runtime
+  - SIGCOMM: Flow Event Telemetry on Programmable Data Plane [qualifying]
+  - SIGCOMM: Lyra: A Cross-Platform Language and Compiler for Data Plane Programming on Heterogeneous ASICs [qualifying]
+  - SOSR: Towards In-network Acceleration of Erasure Coding
+- 2021:
+  - ICNP: DOVE: Diagnosis-driven SLO Violation Detection
+  - ICNP: SketchINT: Empowering INT with TowerSketch for Per-flow Per-switch Measurement
+  - ICPADS: ECRaft: A Raft Based Consensus Protocol for Highly Available and Reliable Erasure-Coded Storage Systems
+  - SIGCOMM: Aquila: a practically usable verification system for production-scale programmable data planes [qualifying]
+- 2022:
+  - NSDI: Buffer-based End-to-end Request Event Monitoring in the Cloud [qualifying]
+  - SIGCOMM: Predictable vFabric on informative data plane [qualifying]
+  - USENIX ATC: Firebolt: Finding Bugs in Programmable Data Plane Generators
+- 2023:
+  - NSDI: Norma: Towards Practical Network Load Testing
+- 2025:
+  - SIGCOMM: InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers
+
+### Ihsan Ayyub Qazi
+
+- DBLP pid: `98/776`
+- Counts: baseline networking `7`, total clean `28`, post-2023 clean `15`
+- Top venues: WWW (5), CoNEXT (4), SIGCOMM (2), CHI (2), IMC (2), INTERSPEECH (2), SIGCOMM Posters and Demos (1), ASRU (1)
+- Baseline title terms: web (3), audio (3), detection (3), video (2), fake (2), resource-constrained (2), mobile (2), scylla (1)
+- Post-2023 title terms: learning (4), pruning (4), data (3), youtube (3), neural (2), machine (2), translation (2), dataset (2)
+
+- 2018:
+  - CoNEXT: Scylla: interleaving multiple IoT stacks on a single radio [qualifying]
+  - CoNEXT: Workload adaptive flow scheduling [qualifying]
+  - SIGCOMM: Incentivizing censorship measurements via circumvention [qualifying]
+- 2019:
+  - CoNEXT: Reducing tail latency using duplication: a multi-layered approach [qualifying]
+  - SIGCOMM Posters and Demos: Device-Aware Adaptive Video Streaming
+- 2020:
+  - CHI: MissIt: Using Missed Calls for Free, Extremely Low Bit-Rate Communication in Developing Regions
+  - WWW: Deconstructing Google's Web Light Service
+- 2021:
+  - ASRU: Using Self Attention DNNs to Discover Phonemic Features for Audio Deep Fake Detection
+  - HotNets: Rethinking Web for Affordability and Inclusion [qualifying]
+  - Interspeech: Fake Audio Detection in Resource-Constrained Settings Using Microfeatures
+- 2022:
+  - CoNEXT: Coal not diamonds: how memory pressure falters mobile video QoE [qualifying]
+  - IMC: Causal impact of Android go on mobile web performance [qualifying]
+  - INTERSPEECH: Dataset Pruning for Resource-constrained Spoofed Audio Detection
+- 2023:
+  - ECML/PKDD (2): Learning Fast and Slow: Towards Inclusive Federated Learning
+  - EMNLP (Findings): Data Pruning for Efficient Model Pruning in Neural Machine Translation
+  - INTERSPEECH: Self-Supervised Dataset Pruning for Efficient Training in Audio Anti-spoofing
+  - SIGCOMM: A Framework for Improving Web Affordability and Inclusiveness
+  - WWW: A First Look at Public Service Websites from the Affordability Lens
+- 2024:
+  - ACL (Findings): Deepfake Defense: Constructing and Evaluating a Specialized Urdu Deepfake Audio Dataset
+  - IMC: Of Choices and Control - A Comparative Analysis of Government Hosting
+  - WWW: Analyzing Ad Exposure and Content in Child-Oriented Videos on YouTube
+  - WWW: Uncovering the Hidden Data Costs of Mobile YouTube Video Ads
+- 2025:
+  - COLING: To Label or Not to Label: Hybrid Active Learning for Neural Machine Translation
+  - ECML/PKDD (3): Quality-Preserving Extreme Image Compression: Using Interpretable Conditioning Inputs with Diffusion Models
+  - Networking: Efficient Datacenter Load Balancing with Microslices
+- 2026:
+  - CHI: Prompting, Oversight, and Adoption: Physicians' Use of Large Language Models for Diagnostic Reasoning in an LMIC
+  - EACL (Findings): Language Model-Driven Data Pruning Enables Efficient Active Learning
+  - WWW: Safeguarding Children at Scale: Cost-Effective Multimodal LLM Detection of Inappropriate YouTube Advertising
+
+### David Walker 0001
+
+- DBLP pid: `53/5714-1`
+- Counts: baseline networking `7`, total clean `22`, post-2023 clean `7`
+- Top venues: NSDI (6), SIGCOMM (4), HotNets (2), PLDI (2), SOSR (2), CAV (2) (1), NetPL@SIGCOMM (1), FMCAD (1)
+- Baseline title terms: network (6), control (4), plane (3), verification (3), language (3), programmable (3), planes (3), data (3)
+- Post-2023 title terms: network (5), programming (2), data (2), abstractions (2), verification (2), nap (1), planes (1), approximate (1)
+
+- 2018:
+  - SIGCOMM: Control plane compression [qualifying]
+- 2019:
+  - CAV (2): Efficient Verification of Network Fault Tolerance via Counterexample-Guided Refinement
+  - NetPL@SIGCOMM: NV: An intermediate language for network verification
+- 2020:
+  - HotNets: Elastic Switch Programming with P4All [qualifying]
+  - NSDI: Contra: A Programmable System for Performance-aware Routing [qualifying]
+  - NSDI: Enabling Programmable Transport Protocols in High-Speed NICs [qualifying]
+  - PLDI: Data-driven inference of representation invariants
+  - PLDI: NV: an intermediate language for verification of network control planes
+  - SOSR: Adaptive Weighted Traffic Splitting in Programmable Data Planes
+- 2021:
+  - SIGCOMM: Lucid: a language for control in the data plane [qualifying]
+  - SIGCOMM: Test coverage metrics for the network [qualifying]
+- 2022:
+  - FMCAD: ACORN: Network Control Plane Abstraction using Route Nondeterminism
+  - ICNP: Kirigami, the Verifiable Art of Network Cutting
+  - NSDI: Modular Switch Programming Under Resource Constraints [qualifying]
+  - SOSR: Synthesizing state machines for data planes
+- 2023:
+  - EuroP4@CoNEXT: NAP: Programming Data Planes with Approximate Data Structures
+  - NSDI: Test Coverage for Network Configurations
+  - PADL: SwitchLog: A Logic Programming Language for Network Switches
+- 2024:
+  - HotNets: Buffy: A Formal Language-Based Framework for Network Performance Analysis
+  - NSDI: Sequence Abstractions for Flexible, Line-Rate Network Monitoring
+  - SIGCOMM: Relational Network Verification
+- 2026:
+  - NSDI: Count-Based Abstractions for Performance Verification of Contention Points
+
+### Vasileios Giotsas
+
+- DBLP pid: `87/7704`
+- Counts: baseline networking `7`, total clean `20`, post-2023 clean `5`
+- Top venues: Internet Measurement Conference (4), IMC (4), ANRW (2), GLOBECOM (1), NSDI (1), e-Energy (1), INFOCOM (1), NOMS (1)
+- Baseline title terms: bgp (5), cloud (3), provider (2), connectivity (2), flat (2), internet (2), multipath (2), communitywatch (1)
+- Post-2023 title terms: dataset (2), heat (1), debate (1), simulating (1), program (1), committee (1), within (1), computer (1)
+
+- 2018:
+  - ANRW: CommunityWatch: The Swiss-Army Knife of BGP Anomaly Detection
+  - Internet Measurement Conference: O Peer, Where Art Thou?: Uncovering Remote Peering Interconnections at IXPs
+- 2019:
+  - GLOBECOM: Profiling IoT-Based Botnet Traffic Using DNS
+  - NSDI: Stable and Practical AS Relationship Inference with ProbLink [qualifying]
+  - e-Energy: Identifying infected energy systems in the wild
+- 2020:
+  - INFOCOM: (How Much) Does a Private WAN Improve Cloud Performance?
+  - Internet Measurement Conference: Cloud Provider Connectivity in the Flat Internet
+  - Internet Measurement Conference: Reduce, Reuse, Recycle: Repurposing Existing Measurements to Identify Stale Traceroutes
+  - NOMS: λBGP: Rethinking BGP programmability
+  - PAM: A First Look at the Misuse and Abuse of the IPv4 Transfer Market
+  - TMA: Anatomy of Multipath BGP Deployment in a Large ISP Network
+- 2021:
+  - INFOCOM Workshops: Performance Analysis of Multipath BGP
+  - Internet Measurement Conference: Corrigendum: cloud provider connectivity in the flat internet
+  - SIGCOMM: The ties that un-bind: decoupling IP from web services and sockets for robust addressing agility at CDN-scale [qualifying]
+- 2022:
+  - IMC: Understanding the confounding factors of inter-domain routing modeling [qualifying]
+- 2023:
+  - EDUCON: Into the Heat of the Debate: Simulating a Program Committee Within Computer Science Education
+  - IMC: Replication: 20 Years of Inferring Interdomain Routing Policies
+- 2024:
+  - ANRW: Investigating Location-aware Advertisements in Anycast IP Networks
+  - IMC: What's in the Dataset? Unboxing the APNIC per AS User Population Dataset
+  - IMC: metAScritic: Reframing AS-Level Topology Discovery as a Recommendation System
+
+### Bradley Huffaker
+
+- DBLP pid: `11/3626`
+- Counts: baseline networking `7`, total clean `20`, post-2023 clean `7`
+- Top venues: PAM (5), Internet Measurement Conference (4), IMC (3), CoNEXT (2), MILCOM (2), Networking (1), SIGMETRICS (Abstracts) (1), AINTEC (1)
+- Baseline title terms: learning (4), extract (4), hostnames (4), router (3), internet (3), inferring (2), traffic (2), regexes (2)
+- Post-2023 title terms: packetlab (2), model (2), access (2), internet (2), verification (2), measurement (2), different (2), importance (1)
+
+- 2018:
+  - Internet Measurement Conference: Pushing the Boundaries with bdrmapIT: Mapping Router Ownership at Internet Scale
+- 2019:
+  - CoNEXT: Challenges in inferring spoofed traffic at IXPs [qualifying]
+  - Internet Measurement Conference: Learning Regexes to Extract Router Names from Hostnames
+  - Networking: Dynamic Property Enforcement in Programmable Data Planes
+- 2020:
+  - Internet Measurement Conference: Learning to Extract and Use ASNs in Hostnames
+  - PAM: Unintended Consequences: Effects of Submarine Cable Deployment on Internet Routing
+  - SIGMETRICS (Abstracts): vrfinder: Finding Outbound Addresses in Traceroute
+- 2021:
+  - AINTEC: Learning Regexes to Extract Network Names from Hostnames
+  - CoNEXT: Learning to extract geographic information from internet router hostnames [qualifying]
+  - Internet Measurement Conference: Inferring regional access network topologies: methods and applications
+- 2022:
+  - IMC: PacketLab: tools alpha release and demo [qualifying]
+  - PAM: IRR Hygiene in the RPKI Era
+  - PAM: Quantifying Nations' Exposure to Traffic Observation and Selective Tampering
+- 2023:
+  - IMC: On the Importance of Being an AS: An Approach to Country-Level AS Rankings
+  - IMC: Poster: Empirically Testing the PacketLab Model
+  - USENIX Security Symposium: Access Denied: Assessing Physical Risks to Internet Access Networks
+- 2024:
+  - MILCOM: AVOID: Automatic Verification Of Internet Data-paths
+  - MILCOM: REVEAL: Real-time Evaluation and Verification of External Adversarial Links
+- 2025:
+  - PAM: Marionette Measurement: Measurement Support Under the PacketLab Model
+- 2026:
+  - PAM: Different Policies for Different NodeBs: Comparing Downlink Schedulers in Cellular Base Stations
+
+### Venkat Arun
+
+- DBLP pid: `204/3448`
+- Counts: baseline networking `7`, total clean `18`, post-2023 clean `8`
+- Top venues: NSDI (8), HotNets (4), SIGCOMM (2), ANRW (1), NDSS (1), MobiSys (1), NINeS (1)
+- Baseline title terms: congestion (4), control (4), internet (3), copa (2), delay-based (2), finding (1), safety (1), numbers (1)
+- Post-2023 title terms: congestion (4), control (3), video (2), streaming (2), provably (2), high (1), quality (1), real-time (1)
+
+- 2018:
+  - ANRW: Copa: Practical Delay-Based Congestion Control for the Internet
+  - NSDI: Copa: Practical Delay-Based Congestion Control for the Internet [qualifying]
+- 2020:
+  - NDSS: Finding Safety in Numbers with Secure Allegation Escrows
+  - NSDI: RFocus: Beamforming Using Thousands of Passive Antennas [qualifying]
+- 2021:
+  - MobiSys: Throughput-fairness tradeoffs in mobility platforms
+  - SIGCOMM: Toward formally verifying congestion control behavior [qualifying]
+- 2022:
+  - HotNets: Automating network heuristic design and analysis [qualifying]
+  - HotNets: The case for an internet primitive for fault localization [qualifying]
+  - NSDI: Privid: Practical, Privacy-Preserving Video Analytics Queries [qualifying]
+  - SIGCOMM: Starvation in end-to-end congestion control [qualifying]
+- 2023:
+  - NSDI: Enabling High Quality Real-Time Communications with Adaptive Frame-Rate
+- 2024:
+  - HotNets: Lightweight Automated Reasoning for Network Architectures
+  - NSDI: Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming
+  - NSDI: Towards provably performant congestion control
+- 2025:
+  - HotNets: Faster-than-light coordination for networked systems with quantum non-local games
+- 2026:
+  - NINeS: Contracts: A Unified Lens on Congestion Control Robustness, Fairness, Congestion, and Generality
+  - NSDI: FRCC: Towards Provably Fair and Robust Congestion Control
+  - NSDI: Syntra: Synthesizing Cross-Layer Controllers for Low-Latency Video Streaming
+
+### Ali Abedi 0002
+
+- DBLP pid: `33/3045-2`
+- Counts: baseline networking `7`, total clean `18`, post-2023 clean `5`
+- Top venues: HotNets (7), MobiCom (4), DySPAN (3), SIGCOMM (2), MSWiM (2)
+- Baseline title terms: wifi (9), backscatter (4), networks (4), can (3), witag (2), communication (2), poster (2), modern (2)
+- Post-2023 title terms: spectrum (3), signals (2), opportunity (2), calibration (1), crowd-sourced (1), network (1), sensors (1), indoor-outdoor (1)
+
+- 2018:
+  - HotNets: WiTAG: Rethinking Backscatter Communication for WiFi Networks [qualifying]
+  - MobiCom: Poster: Analyzing Bitrates in Modern Wi-Fi Networks
+  - MobiCom: Poster: Bringing mmWave Communications to Raspberry Pi
+- 2019:
+  - HotNets: Wi-LE: Can WiFi Replace Bluetooth? [qualifying]
+  - SIGCOMM: A millimeter wave network for billions of things [qualifying]
+- 2020:
+  - HotNets: WiFi Says "Hi!" Back to Strangers! [qualifying]
+  - MSWiM: NeuRA: Using Neural Networks to Improve WiFi Rate Adaptation
+  - MSWiM: PNOFA: Practical, Near-Optimal Frame Aggregation for Modern 802.11 Networks
+  - SIGCOMM: WiTAG: Seamless WiFi Backscatter Communication [qualifying]
+- 2021:
+  - HotNets: Can WiFi Backscatter Achieve the Range of RFID?: Nulling to the Rescue [qualifying]
+  - MobiCom: Verification: can wifi backscatter replace RFID?
+- 2022:
+  - HotNets: Bringing wifi localization to any wifi devices [qualifying]
+  - MobiCom: Non-cooperative wi-fi localization & its privacy implications
+- 2023:
+  - HotNets: Automatic Calibration in Crowd-sourced Network of Spectrum Sensors
+- 2024:
+  - DySPAN: Automatic Indoor-Outdoor Detection Using Signals of Opportunity
+  - DySPAN: Towards Data-Driven Policies in Spectrum Management
+  - DySPAN: Using Signals of Opportunity to Establish Trust in Distributed Spectrum Monitoring Systems
+  - HotNets: From Foe to Friend: The Surprising Turn of Mega Constellations in Radio Astronomy
+
+### Prateesh Goyal
+
+- DBLP pid: `153/2265`
+- Counts: baseline networking `7`, total clean `17`, post-2023 clean `5`
+- Top venues: SIGCOMM (7), NSDI (3), ANRW (2), BS (1), HotEdge (1), EuroSys (1), HotNets (1), AFT (1)
+- Baseline title terms: control (8), congestion (6), elasticity (2), detection (2), building (2), block (2), restructuring (2), endpoint (2)
+- Post-2023 title terms: estimation (2), cloud-hosted (2), financial (2), exchanges (2), tail (1), latency (1), data (1), center (1)
+
+- 2018:
+  - ANRW: Elasticity Detection: A Building Block for Delay-Sensitive Congestion Control
+  - ANRW: Restructuring Endpoint Congestion Control
+  - SIGCOMM: Restructuring endpoint congestion control [qualifying]
+- 2019:
+  - BS: Backpressure Flow Control
+  - HotEdge: Secure Incentivization for Decentralized Content Delivery
+  - SIGCOMM: End-to-end transport for video QoE fairness [qualifying]
+- 2020:
+  - NSDI: ABC: A Simple Explicit Congestion Controller for Wireless Networks [qualifying]
+  - SIGCOMM: Annulus: A Dual Congestion Control Loop for Datacenter and WAN Traffic Aggregates [qualifying]
+- 2021:
+  - EuroSys: Site-to-site internet traffic control
+- 2022:
+  - HotNets: Rethinking cloud-hosted financial exchanges for response time fairness [qualifying]
+  - NSDI: Backpressure Flow Control [qualifying]
+  - SIGCOMM: Elasticity detection: a building block for internet congestion control [qualifying]
+- 2023:
+  - NSDI: Scalable Tail Latency Estimation for Data Center Networks
+  - SIGCOMM: DBO: Fairness for Cloud-Hosted Financial Exchanges
+- 2024:
+  - SIGCOMM: Efficient Policy-Rich Rate Enforcement with Phantom Queues
+  - SIGCOMM: m3: Accurate Flow-Level Performance Estimation using Machine Learning
+- 2025:
+  - AFT: Cuttlefish: A Fair, Predictable Execution Environment for Cloud-Hosted Financial Exchanges
+
+### Bruce M. Maggs
+
+- DBLP pid: `m/BruceMMaggs`
+- Counts: baseline networking `7`, total clean `17`, post-2023 clean `3`
+- Top venues: Internet Measurement Conference (4), ICALP (3), HotNets (2), NSDI (2), SODA (1), CRYPTO (4) (1), HotMobile (1), SIGCOMM (1)
+- Baseline title terms: web (3), algorithms (3), rpki (2), gearing (1), century (1), space (1), race (1), ready (1)
+- Post-2023 title terms: root (1), store (1), left (1), behind (1), dchannel (1), accelerating (1), mobile (1), applications (1)
+
+- 2018:
+  - HotNets: Gearing up for the 21st century space race [qualifying]
+  - Internet Measurement Conference: Is the Web Ready for OCSP Must-Staple?
+- 2019:
+  - ICALP: Retracting Graphs to Cycles
+  - Internet Measurement Conference: RPKI is Coming of Age: A Longitudinal Study of RPKI Deployment and Invalid Route Origins
+  - SODA: Foundations of Differentially Oblivious Algorithms
+- 2020:
+  - ICALP: Robust Algorithms for TSP and Steiner Tree
+  - Internet Measurement Conference: A Bird's Eye View of the World's Fastest Networks
+  - Internet Measurement Conference: On Landing and Internal Web Pages: The Strange Case of Jekyll and Hyde in Web Performance Measurement
+- 2021:
+  - CRYPTO (4): Puncturable Pseudorandom Sets and Private Information Retrieval with Near-Optimal Online Bandwidth and Time
+  - HotMobile: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+  - ICALP: Universal Algorithms for Clustering Problems
+  - SIGCOMM: AnyOpt: predicting and optimizing IP Anycast performance [qualifying]
+- 2022:
+  - CCS: Hammurabi: A Framework for Pluggable, Logic-Based X.509 Certificate Validation Policies
+  - NSDI: cISP: A Speed-of-Light Internet Service Provider [qualifying]
+- 2023:
+  - HotNets: No Root Store Left Behind
+  - NSDI: DChannel: Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels
+- 2025:
+  - PAM: Characterizing Anycast Flipping: Prevalence and Impact
+
+### Ingmar Poese
+
+- DBLP pid: `17/9081`
+- Counts: baseline networking `7`, total clean `15`, post-2023 clean `6`
+- Top venues: Internet Measurement Conference (4), NSDI (2), PAM (2), CoNEXT (2), SIGCOMM Posters and Demos (1), ANRW (1), NFV-SDN (1), PRDC (1)
+- Baseline title terms: tracing (2), traffic (2), scale (2), covid-19 (2), dissecting (1), apple (1), meta-cdn (1), during (1)
+- Post-2023 title terms: flow (2), multi-hop (1), isp-hypergiant (1), collaboration (1), dns (1), analyser (1), dfa (1), dns-based (1)
+
+- 2018:
+  - Internet Measurement Conference: Dissecting Apple's Meta-CDN during an iOS Update
+  - Internet Measurement Conference: Tracing Cross Border Web Tracking
+  - NSDI: Stroboscope: Declarative Network Monitoring on a Budget [qualifying]
+  - PAM: A First Look at QUIC in the Wild
+- 2019:
+  - CoNEXT: Steering hyper-giants' traffic at scale [qualifying]
+  - Internet Measurement Conference: DDoS Hide & Seek: On the Effectiveness of a Booter Services Takedown
+- 2020:
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+  - SIGCOMM Posters and Demos: Corona-warn-app: tracing the start of the official COVID-19 exposure notification app for germany
+- 2022:
+  - CoNEXT: FlowDNS: correlating netflow and DNS streams at scale [qualifying]
+- 2023:
+  - ANRW: Enabling Multi-hop ISP-Hypergiant Collaboration
+  - NFV-SDN: DNS Flow Analyser (DFA): A DNS-Based Correlation System to Classify CDN Domains and OTT-Applications
+  - NSDI: Enhancing Global Network Monitoring with Magnifier
+  - PAM: Characterizing the VPN Ecosystem in the Wild
+  - PRDC: Discovery of Flow Splitting Ratios in ISP Networks with Measurement Noise
+- 2024:
+  - SIGCOMM: IPD: Detecting Traffic Ingress Points at ISPs
+
+### Debopam Bhattacherjee
+
+- DBLP pid: `203/1819`
+- Counts: baseline networking `7`, total clean `15`, post-2023 clean `7`
+- Top venues: HotNets (5), Internet Measurement Conference (2), LEO-NET (2), CoNEXT (1), ICC (1), NSDI (1), IMC (1), COMSNETS (1)
+- Baseline title terms: space (3), internet (3), networks (2), gearing (1), century (1), race (1), network (1), topology (1)
+- Post-2023 title terms: network (3), solar (2), boosting (1), application (1), heterogeneous (1), virtual (1), channels (1), challenges (1)
+
+- 2018:
+  - HotNets: Gearing up for the 21st century space race [qualifying]
+- 2019:
+  - CoNEXT: Network topology design at 27, 000 km/hour [qualifying]
+  - ICC: Watch Your Step! Detecting Stepping Stones in Programmable Networks
+- 2020:
+  - HotNets: "Internet from Space" without Inter-satellite Links [qualifying]
+  - HotNets: In-orbit Computing: An Outlandish thought Experiment? [qualifying]
+  - Internet Measurement Conference: A Bird's Eye View of the World's Fastest Networks
+  - Internet Measurement Conference: Exploring the "Internet from space" with Hypatia
+- 2022:
+  - NSDI: cISP: A Speed-of-Light Internet Service Provider [qualifying]
+- 2023:
+  - HotNets: Boosting Application Performance using Heterogeneous Virtual Channels: Challenges and Opportunities
+  - HotNets: Don't Forget the User: It's Time to Rethink Network Measurements
+  - LEO-NET: Exploring Low-Earth Orbit Network Design
+- 2024:
+  - IMC: CosmicDance: Measuring Low Earth Orbital Shifts due to Solar Radiations
+- 2025:
+  - COMSNETS: Cloud-Assisted Autonomous Driving over Wireless Network
+  - LEO-NET: An investigation of Starlink's performance during the May '24 solar superstorm
+  - USENIX ATC: LEOCraft: Towards Designing Performant LEO Networks
+
+### Christoph Dietzel
+
+- DBLP pid: `177/6606`
+- Counts: baseline networking `7`, total clean `14`, post-2023 clean `0`
+- Top venues: Internet Measurement Conference (4), PAM (3), CoNEXT (2), ANRW (1), SIGCOMM Posters and Demos (1), CCS (1), FIRA@SIGCOMM (1), SIGCOMM (1)
+- Baseline title terms: ddos (5), ixps (4), dynam-ix (3), dynamic (3), interconnection (3), exchange (3), blackholing (3), mitigation (2)
+- Post-2023 title terms: none
+
+- 2018:
+  - ANRW: Dynam-IX: a Dynamic Interconnection exchange
+  - CoNEXT: Dynam-IX: a dynamic interconnection eXchange [qualifying]
+  - CoNEXT: Stellar: network attack mitigation using advanced blackholing [qualifying]
+  - Internet Measurement Conference: O Peer, Where Art Thou?: Uncovering Remote Peering Interconnections at IXPs
+  - PAM: A First Look at QUIC in the Wild
+  - SIGCOMM Posters and Demos: Dynam-IX: a Dynamic Interconnection eXchange
+- 2019:
+  - Internet Measurement Conference: DDoS Hide & Seek: On the Effectiveness of a Booter Services Takedown
+  - Internet Measurement Conference: Down the Black Hole: Dismantling Operational Practices of BGP Blackholing at IXPs
+- 2020:
+  - Internet Measurement Conference: The Lockdown Effect: Implications of the COVID-19 Pandemic on Internet Traffic
+- 2021:
+  - CCS: United We Stand: Collaborative Detection and Mitigation of Amplification DDoS Attacks at Scale
+  - PAM: DDoS Never Dies? An IXP Perspective on DDoS Amplification Attacks
+- 2022:
+  - FIRA@SIGCOMM: P4IX: a concept for P4 programmable data planes at IXPs
+  - PAM: Peering Only? Analyzing the Reachability Benefits of Joining Large IXPs Today
+  - SIGCOMM: IXP scrubber: learning from blackholing traffic for ML-driven DDoS detection at scale [qualifying]
+
+### Stefano Vissicchio
+
+- DBLP pid: `29/7759`
+- Counts: baseline networking `7`, total clean `10`, post-2023 clean `3`
+- Top venues: SIGCOMM (4), NSDI (3), HotNets (2), CoNEXT (1)
+- Baseline title terms: routing (2), network (2), robustly (1), disjoint (1), paths (1), segment (1), hardware-accelerated (1), control (1)
+- Post-2023 title terms: taming (1), transient (1), while (1), reconfiguring (1), bgp (1), bad (1), packets (1), come (1)
+
+- 2018:
+  - CoNEXT: Robustly disjoint paths with segment routing [qualifying]
+  - HotNets: Hardware-Accelerated Network Control Planes [qualifying]
+  - NSDI: Stroboscope: Declarative Network Monitoring on a Budget [qualifying]
+  - SIGCOMM: On low-latency-capable topologies, and their impact on the design of intra-domain routing [qualifying]
+- 2019:
+  - NSDI: Blink: Fast Connectivity Recovery Entirely in the Data Plane [qualifying]
+- 2021:
+  - HotNets: Stats 101 in P4: Towards In-Switch Anomaly Detection [qualifying]
+- 2022:
+  - SIGCOMM: FAst in-network [qualifying]
+- 2023:
+  - SIGCOMM: Taming the transient while reconfiguring BGP
+- 2024:
+  - SIGCOMM: Bad Packets Come Back, Worse Ones Don't
+- 2025:
+  - NSDI: Verifying maximum link loads in a changing world
