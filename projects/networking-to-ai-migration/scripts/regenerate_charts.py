@@ -207,6 +207,9 @@ def plot_pca_trajectories(fv, group_idx):
         pca_post = r.get("pca_shared_post2023", r.get("pca_post2023", [0, 0]))
         x1, y1 = pca_xy(pca_bl)
         x2, y2 = pca_xy(pca_post)
+        # pca_shared has PC2 sign-flipped vs pca_baseline; correct to match baseline PCA orientation
+        y1 = -y1
+        y2 = -y2
 
         color = INV_Q_COLORS.get(grp, "#95A5A6")
         alpha = 0.5 if grp in ("Inv-Q4",) else 0.7
@@ -224,6 +227,7 @@ def plot_pca_trajectories(fv, group_idx):
             continue
         pca_post = r.get("pca_shared_post2023", r.get("pca_post2023", [0, 0]))
         x2, y2 = pca_xy(pca_post)
+        y2 = -y2  # correct PC2 sign flip in shared coordinates
         ax.annotate(
             name, (x2, y2), fontsize=7, alpha=0.9,
             xytext=(5, 5), textcoords="offset points",

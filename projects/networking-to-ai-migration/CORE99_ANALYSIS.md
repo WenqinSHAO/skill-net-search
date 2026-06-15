@@ -26,20 +26,20 @@ The feature-vector analysis uses a stricter stability threshold: at least 5 clea
 
 Those 12 researchers are not discarded from the project. They remain part of core-99 and matter substantively, but their post-2023 percentage vectors are too unstable: with fewer than 5 papers, one paper can move a venue-family share by 20 percentage points or more.
 
-| Researcher | Baseline papers | Post-2023 papers | Current interpretation |
-|-----------|:---:|:---:|-------|
-| Hongqiang Harry Liu | 21 | 3 | Publishing slowed |
-| Hari Balakrishnan | 29 | 4 | Reduced academic conference output |
-| Ming Zhang 0005 | 12 | 0 | Inactive after 2022 in clean conference data |
-| Ankit Singla | 25 | 1 | Near-complete publishing stop in clean conference data |
-| Alan Mislove | 28 | 3 | Reduced academic conference output |
-| Christoph Dietzel | 14 | 0 | Inactive after 2022 in clean conference data |
-| John Sonchack | 15 | 2 | Reduced output |
-| Yu Zhou 0008 | 27 | 2 | Reduced output |
-| Matt Calder | 14 | 3 | Reduced output |
-| Robert Beverly | 12 | 3 | Reduced output |
-| Bruce M. Maggs | 14 | 3 | Reduced output |
-| Stefano Vissicchio | 7 | 3 | Reduced output |
+| Researcher | Affiliation | Baseline papers | Post-2023 papers | Current interpretation |
+|-----------|------------|:---:|:---:|-------|
+| Hongqiang Harry Liu | Uber AI | 21 | 3 | Publishing slowed |
+| Hari Balakrishnan | MIT CSAIL | 29 | 4 | Reduced academic conference output |
+| Ming Zhang 0005 | Unknown (DBLP collision) | 12 | 0 | Inactive after 2022 in clean conference data |
+| Ankit Singla | Google (Switzerland) | 25 | 1 | Near-complete publishing stop in clean conference data |
+| Alan Mislove | Northeastern University | 28 | 3 | Reduced academic conference output |
+| Christoph Dietzel | MPI Informatics | 14 | 0 | Inactive after 2022 in clean conference data |
+| John Sonchack | Princeton University | 15 | 2 | Reduced output |
+| Yu Zhou 0008 | National Univ. Singapore | 27 | 2 | Reduced output |
+| Matt Calder | Unknown | 14 | 3 | Reduced output |
+| Robert Beverly | Lawrence Berkeley National Lab | 12 | 3 | Reduced output |
+| Bruce M. Maggs | Duke University | 14 | 3 | Reduced output |
+| Stefano Vissicchio | University College London | 7 | 3 | Reduced output |
 
 Open question: these 12 should later be analyzed as a separate low-post-output group, probably with career-stage, industry, retirement, and DBLP-lag checks. They should not be forced into percentage-vector PCA.
 
@@ -223,7 +223,7 @@ Representative examples, chosen to cover different Inv-Q1 mechanisms rather than
 |---|---|---|---|---|
 | Yibo Zhu 0001 | Strong systems/AI-infra substitution | NSDI/SIGCOMM plus distributed DNN training systems | EuroSys/OSDI/ATC/NSDI work on DNN training, MoE training, LLM serving | Looks like AI infrastructure/systems, not core AI migration |
 | Ihsan Ayyub Qazi | AI/HCI-adjacent growth inside falling-out group | CoNEXT/SIGCOMM networking plus WWW/CHI access work | WWW/CHI/ACL/EMNLP work on affordability, accessibility, deepfakes, healthcare LLMs | The clearest AI-adjacent case in Inv-Q1, but HCI/web framed |
-| Laurent Vanbever | Still networking-centered despite top-net decline | Network control, routing, monitoring, BGP, network verification | BGP, network monitoring, packet scheduling, privacy/security-adjacent networking | More venue redistribution than topic exit |
+| Laurent Vanbever (ETH Zurich) | Still networking-centered despite top-net decline | Network control, routing, monitoring, BGP, network verification | BGP, network monitoring, packet scheduling, privacy/security-adjacent networking | More venue redistribution than topic exit |
 | Alex C. Snoeren | Systems/security/network measurement mix | IMC/SIGCOMM, VPNs, congestion, datacenter SDN, security | SIGCOMM/IMC plus ASPLOS/SOSP/ATC on FPGA, RPCs, infrastructure | Broad systems/networking blend |
 
 A direct inspection of post-2023 paper titles for each Inv-Q1 researcher clarifies what "substitution" actually means at the individual level:
@@ -231,11 +231,11 @@ A direct inspection of post-2023 paper titles for each Inv-Q1 researcher clarifi
 | Researcher | Post-2023 topics (from titles) | Verdict |
 |---|---|---|
 | Yibo Zhu 0001 | Distributed DNN training (Espresso, Lina), LLM serving (DistServe), GPU optimization, multimodal LLM training (DistTrain) | **AI infrastructure, not core AI.** All papers at EuroSys, OSDI, NSDI — systems venues. Topic is ML systems, not ML research. |
-| Laurent Vanbever | BGP, network monitoring, packet scheduling, network verification | **Still networking.** Top-net decline is venue redistribution, not topic exit. |
+| Laurent Vanbever (ETH Zurich) | BGP, network monitoring, packet scheduling, network verification | **Still networking.** Top-net decline is venue redistribution, not topic exit. |
 | Alex C. Snoeren | FPGA offload, RPC systems, infrastructure at ASPLOS/SOSP/ATC | **Systems shift, networking-adjacent.** Retains IMC/SIGCOMM presence. |
 | Ihsan Ayyub Qazi | Web affordability, deepfake audio detection, healthcare LLMs, Urdu NLP at WWW/ACL/EMNLP/COLING | **Genuine topic exit from networking.** Now in HCI/web + applied NLP. Only 1 IMC paper post-2023. |
-| Stefan Schmid 0001 | Network algorithms, distributed systems theory (broad volume decline: 134→89) | **Still networking/theory, just less.** Volume decline, not topic shift. |
-| Kyle Jamieson | Wireless sensing, signal processing, networking systems | **Still networking/wireless.** Top-net decline is volume, not direction. |
+| Stefan Schmid 0001 (Fraunhofer SIT / TU Berlin) | Network algorithms, distributed systems theory (broad volume decline: 134→89) | **Still networking/theory, just less.** Volume decline, not topic shift. |
+| Kyle Jamieson (Princeton University) | Wireless sensing, signal processing, networking systems | **Still networking/wireless.** Top-net decline is volume, not direction. |
 | Others (9) | Varied but predominantly networking-adjacent: measurement (IMC), systems, security | **Mostly venue redistribution + volume decline.** |
 
 **The pattern:** 10 of 13 Inv-Q1 researchers are still doing networking or networking-adjacent work. The "substitution" is primarily venue-level — they publish fewer papers at SIGCOMM/NSDI/CoNEXT but continue working on related topics at adjacent venues (IMC, PAM, TMA) or systems venues (EuroSys, ATC, ASPLOS). Only 2 of 13 (Yibo Zhu, Ihsan Ayyub Qazi) show a clear research-topic shift, and even Zhu's shift is to AI infrastructure (systems for ML), not core AI research.
@@ -254,10 +254,10 @@ Representative examples:
 
 | Researcher | Why this example | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
 |---|---|---|---|---|
-| Vyas Sekar | Large broad decline but still networking/security systems | NSDI/SIGCOMM/IMC on network policies, telemetry, programmable switches, security | Fewer papers, still network telemetry, switch resource augmentation, cyber-security adjacent work | Decline is not simple field exit |
+| Vyas Sekar (Carnegie Mellon University) | Large broad decline but still networking/security systems | NSDI/SIGCOMM/IMC on network policies, telemetry, programmable switches, security | Fewer papers, still network telemetry, switch resource augmentation, cyber-security adjacent work | Decline is not simple field exit |
 | Robert Soulé | Moves toward systems/distributed protocols while output drops | Programmable data planes, traffic engineering, distributed coordination | SoCC/Middleware/CIDR/DBPL, quantum networking, OS/database systems | Looks like topic broadening plus lower volume |
-| Aaron Schulman | Wireless/security infrastructure profile with lower volume | IMC/NSDI/SIGCOMM/MobiCom/security on wireless, failures, security | MobiCom/security/PAM/ASPLOS on sensing, base stations, physical-layer security | Needs career/institution context |
-| Mohammad Alizadeh | High-profile networking/systems researcher with reduced volume | Congestion control, datacenter systems, video analytics, road-network AI/data work | Still NSDI/SIGCOMM plus ICML/ICDE/video/network systems | Lower volume, not clean migration away |
+| Aaron Schulman (Unknown) | Wireless/security infrastructure profile with lower volume | IMC/NSDI/SIGCOMM/MobiCom/security on wireless, failures, security | MobiCom/security/PAM/ASPLOS on sensing, base stations, physical-layer security | Needs career/institution context |
+| Mohammad Alizadeh (MIT CSAIL) | High-profile networking/systems researcher with reduced volume | Congestion control, datacenter systems, video analytics, road-network AI/data work | Still NSDI/SIGCOMM plus ICML/ICDE/video/network systems | Lower volume, not clean migration away |
 
 Open question: what explains broad decline among Inv-Q4? This needs institution/sector/career-stage labels and possibly non-conference output checks. (Deferred — sector labels are currently Unknown for nearly all researchers; see §12 for data quality notes.)
 
@@ -289,9 +289,7 @@ Important framing note: Inv-Q2's rising share of post-2023 top-networking author
 Inv-Q2 is 40 researchers (46.0% of analyzable core-99, after PACMNET pipeline fix). They are the largest group and the most important for understanding what stable or growing top-networking engagement looks like. The examples below are chosen to cover distinct archetypes within the group: explosive growers, AI_ML/systems expanders, stable high-volume incumbents, and industry researchers maintaining presence. Affiliations are included for institutional context.
 
 Representative examples:
-% WQ: the table has an issue, please check
-| Researcher | Archetype | Baseline (top-net → post) | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
-|---|---|---|---|---|---|
+
 | Researcher | Archetype | Affiliation | Top-net (bl→post) | Baseline pattern | Post-2023 pattern | Caution |
 |---|---|---|---|---|---|---|---|
 | Xin Jin 0008 | Explosive top-net grower | Peking University (China) | 13 → 21 | NSDI/SIGCOMM on programmable networks, distributed systems | NSDI-heavy (14 papers) on RDMA, kernel bypass, accelerators | Strongest absolute top-net increase in core-99 (+8 papers); systems-focused, not AI |
@@ -339,16 +337,16 @@ Representative examples:
 | Researcher | Why this example | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
 |---|---|---|---|---|
 | Ran Ben Basat | Extreme focusing plus AI_ML signal | Measurement algorithms, sketches, programmable-switch measurement, INFOCOM/ICNP/CoNEXT | SIGCOMM/HotNets/NSDI plus ICML/NeurIPS on distributed learning/quantization | Both concentration and AI_ML appear; needs topic review |
-| Harsha V. Madhyastha | Maintains top networking while total output falls | NSDI/IMC/HotNets style networked systems and measurement | Smaller set with continued NSDI/IMC/SIGCOMM presence | Could be focus, not growth |
-| Manya Ghobadi | Systems-heavy baseline with maintained top networking | SIGCOMM/NSDI/HotNets plus cloud/systems networking | HotNets/NSDI/SIGCOMM with more selective output | Denominator effect likely important |
+| Harsha V. Madhyastha (USC) | Maintains top networking while total output falls | NSDI/IMC/HotNets style networked systems and measurement | Smaller set with continued NSDI/IMC/SIGCOMM presence | Could be focus, not growth |
+| Manya Ghobadi (MIT CSAIL) | Systems-heavy baseline with maintained top networking | SIGCOMM/NSDI/HotNets plus cloud/systems networking | HotNets/NSDI/SIGCOMM with more selective output | Denominator effect likely important |
 
 A direct inspection of post-2023 paper titles for all 7 Inv-Q3 researchers confirms the concentration-by-subtraction reading. Of the 7, all still publish exclusively or predominantly at SIGCOMM, NSDI, CoNEXT, HotNets, or IMC post-2023. Their non-qualifying venue output has largely disappeared:
 
 | Researcher | Post-2023 papers | Topics (from titles) | Verdict |
 |---|---|---|---|
 | Ran Ben Basat | 2 (SIGCOMM, NeurIPS) | Distributed learning quantization, network measurement acceleration | Genuinely focused on top venues + AI_ML exploration |
-| Harsha V. Madhyastha | 3 (NSDI, IMC, HotNets) | Networked systems, measurement | Classic top-networking only |
-| Manya Ghobadi | 3 (HotNets, NSDI, SIGCOMM) | Optical networking, cloud infrastructure | Classic top-networking only |
+| Harsha V. Madhyastha (USC) | 3 (NSDI, IMC, HotNets) | Networked systems, measurement | Classic top-networking only |
+| Manya Ghobadi (MIT CSAIL) | 3 (HotNets, NSDI, SIGCOMM) | Optical networking, cloud infrastructure | Classic top-networking only |
 | Others (4) | 3-5 each | Varied but all predominantly at qualifying venues | Concentration, not topic exit |
 
 The evidence supports a concentration story: these researchers stopped publishing at INFOCOM, ICNP, PAM, and other adjacent venues while maintaining their presence at the five qualifying venues. They are not migrating to new fields — they are focusing their reduced output on the most selective networking venues.
@@ -443,9 +441,9 @@ Representative baseline positions:
 | Researcher | Why selected | Baseline read | Topic hint |
 |---|---|---|---|
 | Behnaz Arzani | Elite-concentrated endpoint | Very high qualifying-top-networking share | Datacenter/network reliability and systems networking |
-| Debopam Bhattacherjee | Elite-concentrated endpoint and later large trajectory move | LEO/satellite networking and top-networking concentration | Space/LEO networking and measurements |
-| Georg Carle | Broad-networking endpoint | Large adjacent-networking share | Measurement/security/network operations |
-| Stefan Schmid 0001 | Broad and high-volume endpoint | Very broad adjacent networking plus theory/distributed systems | Network algorithms, distributed systems, theory-adjacent networking |
+| Debopam Bhattacherjee (Unknown) | Elite-concentrated endpoint and later large trajectory move | LEO/satellite networking and top-networking concentration | Space/LEO networking and measurements |
+| Georg Carle (Unknown) | Broad-networking endpoint | Large adjacent-networking share | Measurement/security/network operations |
+| Stefan Schmid 0001 (Fraunhofer SIT / TU Berlin) | Broad and high-volume endpoint | Very broad adjacent networking plus theory/distributed systems | Network algorithms, distributed systems, theory-adjacent networking |
 | Ion Stoica | Systems-engaged endpoint | Large systems and AI_ML baseline component | Distributed systems, data/ML systems |
 
 This matters because a decline in qualifying venue share means different things depending on the starting point. Losing 25 percentage points from an 80% qualifying baseline is not the same as losing 25 points from a broad-networking baseline.
@@ -456,19 +454,19 @@ The shared baseline/post projection and trajectory view are best read together, 
 
 ![PCA Trajectories](figures/pca_trajectories_shared.png)
 
-**Visualization note (regenerated 2026-06-15):** `pca_trajectories_shared.png` now uses Inv-Q group colors (same scheme as baseline PCA). Arrow endpoints are labeled with the same representative researchers from §§4-6 for narrative consistency.
+**Visualization note (regenerated 2026-06-15):** `pca_trajectories_shared.png` now uses Inv-Q group colors (same scheme as baseline PCA). PC2 axis direction has been corrected to match `pca_baseline_labeled.png` — the shared PCA coordinates in `core99_feature_vectors.json` had PC2 sign-flipped relative to baseline PCA; this is now corrected in `regenerate_charts.py` by negating PC2 for shared coordinates. Arrow endpoints are labeled with the same representative researchers from §§4-6 for narrative consistency.
 
 Largest movements currently visible:
 
 | Researcher | Delta PC1 | Delta PC2 | Direction | Current read |
 |-----------|------:|------:|-----------|-------|
-| Debopam Bhattacherjee | +50 | +20 | Toward broad-networking | From highly qualifying-concentrated to more adjacent-networking mix |
-| Ingmar Poese | +47 | +22 | Toward broad-networking | Similar broadening away from qualifying concentration |
+| Debopam Bhattacherjee (Unknown) | +50 | +20 | Toward broad-networking | From highly qualifying-concentrated to more adjacent-networking mix |
+| Ingmar Poese (Unknown) | +47 | +22 | Toward broad-networking | Similar broadening away from qualifying concentration |
 | Ran Ben Basat | -51 | 0 | Toward elite-concentrated | Focuses more sharply on qualifying venues |
 | Robert Soulé | -2 | +49 | Toward systems/mobile | Moves toward systems-heavy portfolio |
-| Aaron Schulman | +36 | +29 | Broad + systems/mobile | Large qualifying drop with compensation elsewhere |
+| Aaron Schulman (Unknown) | +36 | +29 | Broad + systems/mobile | Large qualifying drop with compensation elsewhere |
 | Ihsan Ayyub Qazi | +28 | +29 | Broad + systems/mobile | Qualifying share declines while AI_ML/web_social_hci rises |
-| Ravi Netravali | -22 | -32 | Elite + networking-pure | Stronger top-networking focus |
+| Ravi Netravali (Princeton University) | -22 | -32 | Elite + networking-pure | Stronger top-networking focus |
 
 The largest movements are along networking-composition axes, not primarily along an AI_ML axis. AI_ML is visible in individual deltas, but it does not define the main low-dimensional structure.
 
@@ -492,7 +490,7 @@ Visualization note (regenerated 2026-06-15): The delta PCA biplot now uses Inv-Q
 
 ### 8.1 Regional and Sector Decomposition
 
-Core-99 researchers are not uniformly distributed across regions or sectors. Decomposing the delta profiles by region and sector reveals different movement patterns that a single aggregate view obscures. Below are mean delta vectors (percentage-point changes in portfolio composition) computed from the 87 analyzable researchers' feature vectors. Groups with fewer than 3 researchers are omitted for stability.
+Core-99 researchers are not uniformly distributed across regions or sectors. Decomposing the delta profiles by region and sector reveals different movement patterns that a single aggregate view obscures. Below are mean delta vectors (percentage-point changes in portfolio composition) computed from the 87 analyzable researchers' feature vectors. Groups with fewer than 3 researchers are omitted for stability. Regional and sector versions of the trajectory and biplot figures are available (see §15).
 
 **By region:**
 
@@ -661,5 +659,10 @@ All PCA and delta figures regenerated 2026-06-15 with Inv-Q group colors (see `s
 | `figures/pca_baseline_post_shared.png` | Baseline vs post-2023 side-by-side, Inv-Q colored | ✅ Inv-Q colors, consistent labels |
 | `figures/delta_pca_biplot.png` | Delta PCA with Inv-Q colors and venue-family loading arrows | ✅ Inv-Q colors, family loading arrows |
 | `figures/delta_by_quadrant.png` | ⛔ DEPRECATED — uses old sys/AI/storage quadrant labels | Do not use in main narrative |
+| `figures/pca_delta_by_region.png` | Delta PCA faceted by region (US/China/Europe/Other/Unknown) | ✅ Regional decomposition |
+| `figures/pca_delta_by_sector.png` | Delta PCA by sector (Academia/Industry/Unknown) | ✅ Sector decomposition |
+| `figures/pca_trajectories_by_region.png` | Arrow trajectories faceted by region | ✅ Regional decomposition, PC2 corrected |
+| `figures/pca_trajectories_by_sector.png` | Arrow trajectories faceted by sector | ✅ Sector decomposition, PC2 corrected |
+| `figures/delta_pca_biplot_by_region.png` | Delta PCA biplot faceted by region | ✅ Regional decomposition with loading arrows |
 | `figures/delta_magnitude_decomposition.png` | Supplementary venue-family shift magnitude diagnostic | Not the primary volume view |
 | `figures/delta_top20_profiles.png` | Top-20 researchers by delta magnitude | Check labels against §§4-6 examples |
