@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "description": "Total accepted papers per qualifying venue per year from DBLP TOC API",
+    "venues": [
+      "SIGCOMM",
+      "NSDI",
+      "CoNEXT",
+      "HotNets",
+      "IMC"
+    ],
+    "years_fetched": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fetched_at": "2026-06-15T20:57:41Z",
+    "null_means": "Not yet indexed, TOC key mismatch, or fetch failure",
+    "conext_note": "CoNEXT 2023+ uses a journal-integrated model: short papers in DBLP conf/conext proceedings, long papers in PACMNET journal (db/journals/pacmnet). Totals include both short and long papers with editorials excluded. PACMNET V3 (2025) may include papers from overlapping deadlines; count may be slightly inflated."
+  },
+  "totals": {
+    "2018": {
+      "SIGCOMM": 41,
+      "NSDI": 41,
+      "CoNEXT": 33,
+      "HotNets": 27,
+      "IMC": 44
+    },
+    "2019": {
+      "SIGCOMM": 33,
+      "NSDI": 50,
+      "CoNEXT": 33,
+      "HotNets": 21,
+      "IMC": 40
+    },
+    "2020": {
+      "SIGCOMM": 54,
+      "NSDI": 66,
+      "CoNEXT": 64,
+      "HotNets": 31,
+      "IMC": 55
+    },
+    "2021": {
+      "SIGCOMM": 56,
+      "NSDI": 60,
+      "CoNEXT": 51,
+      "HotNets": 32,
+      "IMC": 55
+    },
+    "2022": {
+      "SIGCOMM": 56,
+      "NSDI": 79,
+      "CoNEXT": 29,
+      "HotNets": 33,
+      "IMC": 77
+    },
+    "2023": {
+      "SIGCOMM": 108,
+      "NSDI": 97,
+      "CoNEXT": 41,
+      "HotNets": 39,
+      "IMC": 64
+    },
+    "2024": {
+      "SIGCOMM": 63,
+      "NSDI": 113,
+      "CoNEXT": 49,
+      "HotNets": 45,
+      "IMC": 85
+    },
+    "2025": {
+      "SIGCOMM": 89,
+      "NSDI": 84,
+      "CoNEXT": 78,
+      "HotNets": 51,
+      "IMC": 100
+    },
+    "2026": {
+      "SIGCOMM": null,
+      "NSDI": 151,
+      "CoNEXT": null,
+      "HotNets": null,
+      "IMC": null
+    }
+  }
+}

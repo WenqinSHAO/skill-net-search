@@ -167,16 +167,16 @@ For 2023-2026, DBLP TOC data provides approximate denominators for the five qual
 
 | Year | DBLP TOC total | Venues indexed | Notes |
 |------|---------------:|:--------------:|-------|
-| 2023 | 325 | 4/5 + PACMNET | CoNEXT 2023: short papers only (17 via `conext2023c`); long papers in PACMNET (excluded by journal filter — see caveat below) |
-| 2024 | 323 | 5/5 | — |
-| 2025 | 352 | 5/5 | — |
+| 2023 | 349 | 5/5 | CoNEXT: 17 short + 24 long (PACMNET V1, 27 minus 3 editorials) |
+| 2024 | 355 | 5/5 | CoNEXT: 17 short + 32 long (PACMNET V2, 36 minus 4 editorials) |
+| 2025 | 402 | 5/5 | CoNEXT: 28 short + 50 long (PACMNET V3, 54 minus 4 editorials); PACMNET V3 may include overlapping deadline papers |
 | 2026 | 151 | 1/5 | Only NSDI 2026 indexed (SIGCOMM, CoNEXT not yet held) |
 
 **Important caveats on post-2023 denominator data:**
 
 1. **DBLP TOC counts include workshop papers** and are inflated relative to main-conference acceptance counts (e.g., DBLP TOC reports 1,161 total for 2018-2022 vs. 1,146 in the paper cache).
 
-2. **CoNEXT 2023+ uses a journal-integrated model.** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), a journal. The DBLP `conext2023c` entry (17 papers) represents only the **short papers** companion. PACMNET long papers are classified as `journal=True` by the current pipeline and are **excluded** from clean conference paper counts. This means: (a) the CoNEXT denominator for 2023-2026 is incomplete, and (b) core-99 researchers' CoNEXT long papers are missing from the numerator as well. A spot check found 29 PACMNET papers from core-99 researchers post-2023 — these are substantive top-networking papers (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization") that should be counted. *Status: `publication_scope.py` needs an exception for PACMNET as a CoNEXT proceedings venue; pipeline regeneration required.*
+2. **CoNEXT 2023+ uses a journal-integrated model (PACMNET).** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), an ACM journal. The DBLP `conext{year}` entries from 2023 onward represent only the **short papers** (17-28 papers/year). Long papers appear in PACMNET volumes (V1: 2023, V2: 2024, V3: 2025) with 24-50 research papers per volume after excluding editorials. The denominator totals above include both short and long papers. However, PACMNET papers are classified as `journal=True` by `publication_scope.py` and are **excluded** from core-99 clean conference paper counts. A spot check found 29 PACMNET papers from core-99 researchers post-2023 (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization," "Dissecting the Performance of Satellite Network Operators"). These are substantive CoNEXT papers that should be counted as qualifying top-networking output. The effect is a systematic undercount of core-99 CoNEXT publications post-2023. *Status: `publication_scope.py` needs a PACMNET exception; `venue_family_map.json` needs a PACMNET → qualifying_top_networking mapping; pipeline regeneration required.*
 
 Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers (~113/year), nearly matching their baseline rate of ~114/year. The full core-99 appears on 456 unique post-2023 top-networking papers. So the unique-paper presence count is roughly stable. What changes is the *distribution* of who appears on those papers.
 
@@ -526,7 +526,9 @@ The following methodological limitations are acknowledged and documented here. W
 
 **DBLP coverage lag.** DBLP indexing of recent conference proceedings (especially late-2025 and 2026) may be incomplete. This affects all post-2023 metrics and is particularly relevant for the 2026 data point. Some 2025 conferences may also have incomplete indexing at the time of collection. *Status: acknowledged; inherent to DBLP as a data source.*
 
-**Conference-only scope (no journals).** The `publication_scope.py` rules deliberately exclude journals, books, theses, and non-conference records. In networking and AI/ML, top conferences are the primary venues for high-impact work, so this scope is intentional. However, researchers who shift from conference to journal publishing (common in later career stages, some regions, and some subfields) will appear to have declining output even if their total research productivity is stable. This is particularly relevant for Inv-Q4 researchers showing broad output decline. *Status: acknowledged; journal coverage is deferred as lower priority per project scope.*
+**Conference-only scope (no journals) — with one critical exception.** The `publication_scope.py` rules deliberately exclude journals, books, theses, and non-conference records. In networking and AI/ML, top conferences are the primary venues for high-impact work, so this scope is intentional. However, researchers who shift from conference to journal publishing will appear to have declining output. This is particularly relevant for Inv-Q4 researchers.
+
+**PACMNET exception.** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), an ACM journal. This is a journal-integrated conference model — PACMNET IS the CoNEXT proceedings, not a traditional journal. The current pipeline classifies PACMNET papers as `journal=True`, excluding them from clean conference counts. This systematically undercounts core-99 CoNEXT publications post-2023. A spot check found 29 PACMNET papers from core-99 researchers (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization"). *Status: `publication_scope.py` needs a PACMNET exception; pipeline regeneration required.*
 
 **Missing abstracts.** Most DBLP records lack abstracts, limiting the ability to perform topic-based classification beyond venue-family analysis. This is noted in §10 and is a constraint inherited from DBLP as a data source. *Status: acknowledged; abstract coverage audit planned before LLM topic analysis.*
 
