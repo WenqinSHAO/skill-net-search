@@ -22,21 +22,27 @@ OUTPUT_FILE = DATA_DIR / "venue_accepted_totals.json"
 PROGRESS_FILE = DATA_DIR / "fetch_venue_totals_progress.json"
 
 # Venue definitions: canonical name, DBLP TOC key prefix
+# For venues with alternate DBLP keys in some years, add year_suffix overrides.
 VENUES = [
     {
         "name": "SIGCOMM",
         "toc_prefix": "db/conf/sigcomm/sigcomm",
         "years": list(range(2018, 2027)),
+        "year_suffix_overrides": {},  # e.g., {2023: "c"} for conext2023c
     },
     {
         "name": "NSDI",
         "toc_prefix": "db/conf/nsdi/nsdi",
         "years": list(range(2018, 2027)),
+        "year_suffix_overrides": {},
     },
     {
         "name": "CoNEXT",
         "toc_prefix": "db/conf/conext/conext",
         "years": list(range(2018, 2027)),
+        "year_suffix_overrides": {
+            2023: "c",  # DBLP uses conext2023c for the main conference
+        },
     },
     {
         "name": "HotNets",
@@ -51,11 +57,13 @@ VENUES = [
 ]
 
 
-def fetch_toc_total(venue_name: str, year: int, toc_prefix: str) -> int | None:
+def fetch_toc_total(venue_name: str, year: int, toc_prefix: str, year_suffix: str = "") -> int | None:
     """Fetch @total from DBLP TOC API for a venue-year. Returns None on failure."""
+    # Build the TOC key with optional year suffix (e.g., conext2023c)
+    toc_key = f"{toc_prefix}{year}{year_suffix}"
     url = (
         f"https://dblp.org/search/publ/api"
-        f"?q=toc%3A{toc_prefix.replace('/', '%2F')}{year}.bht%3A"
+        f"?q=toc%3A{toc_key.replace('/', '%2F')}.bht%3A"
         f"&format=json&h=1"
     )
     for attempt in range(5):
@@ -111,8 +119,9 @@ def main():
                 continue
 
             year_str = str(year)
+            suffix = venue.get("year_suffix_overrides", {}).get(year, "")
             print(f"{name} {year}: fetching...", end=" ", flush=True)
-            count = fetch_toc_total(name, year, venue["toc_prefix"])
+            count = fetch_toc_total(name, year, venue["toc_prefix"], suffix)
             if count is not None:
                 print(f"{count} papers")
             else:

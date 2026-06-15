@@ -163,23 +163,22 @@ The count table below uses author-paper incidences for the 87 analyzable researc
 
 The top-networking denominator matters. During 2018-2022, the accepted-paper cache has 1,146 unique papers across SIGCOMM, NSDI, CoNEXT, HotNets, and IMC. The full core-99 appears on 589 of them, or 51.4%; the 87 analyzable researchers appear on 569, or 49.7%.
 
-For 2023-2026, DBLP TOC API data now provides approximate denominators. DBLP TOC counts include workshop and poster papers alongside main-conference proceedings and are therefore inflated relative to curated acceptance counts, but they are internally consistent with the baseline `raw_dblp_papers.json` cache (which was built from the same DBLP source and shows 1,146 papers for 2018-2022 vs. 1,161 from TOC — a 1.3% discrepancy). The post-2023 TOC denominators are:
+For 2023-2026, DBLP TOC data provides approximate denominators for the five qualifying venues:
 
 | Year | DBLP TOC total | Venues indexed | Notes |
 |------|---------------:|:--------------:|-------|
-| 2023 | 308 | 4/5 | CoNEXT 2023 not indexed by DBLP |
+| 2023 | 325 | 4/5 + PACMNET | CoNEXT 2023: short papers only (17 via `conext2023c`); long papers in PACMNET (excluded by journal filter — see caveat below) |
 | 2024 | 323 | 5/5 | — |
 | 2025 | 352 | 5/5 | — |
 | 2026 | 151 | 1/5 | Only NSDI 2026 indexed (SIGCOMM, CoNEXT not yet held) |
 
-Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers, which is 112.8 unique papers/year, almost the same as their baseline 113.8 unique papers/year. The full core-99 appears on 456 unique post-2023 top-networking papers.
+**Important caveats on post-2023 denominator data:**
 
-Two denominator-relative readings are possible with current data:
+1. **DBLP TOC counts include workshop papers** and are inflated relative to main-conference acceptance counts (e.g., DBLP TOC reports 1,161 total for 2018-2022 vs. 1,146 in the paper cache).
 
-- **Against DBLP TOC totals (inflated, but consistent with baseline cache):** For 2024 (the most complete year), core-99's 451 papers over 4 years averages to ~113/year. If the annual denominator is roughly 320-350 papers, core-99 appears on ~32-35% of top-networking papers by unique-paper count — down from 51.4% at baseline. However, this comparison is fragile because the TOC denominator mixes main-conference and workshop papers, and the workshop/main ratio may differ between periods.
-- **Against the research community:** The unique-paper count per year (112.8) is **not** the number of distinct papers published at these venues — it is the number of papers that have at least one core-99 author. Without a clean main-conference denominator, the share cannot be stated with confidence.
+2. **CoNEXT 2023+ uses a journal-integrated model.** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), a journal. The DBLP `conext2023c` entry (17 papers) represents only the **short papers** companion. PACMNET long papers are classified as `journal=True` by the current pipeline and are **excluded** from clean conference paper counts. This means: (a) the CoNEXT denominator for 2023-2026 is incomplete, and (b) core-99 researchers' CoNEXT long papers are missing from the numerator as well. A spot check found 29 PACMNET papers from core-99 researchers post-2023 — these are substantive top-networking papers (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization") that should be counted. *Status: `publication_scope.py` needs an exception for PACMNET as a CoNEXT proceedings venue; pipeline regeneration required.*
 
-*Status: A main-conference-only denominator (curated acceptance counts from conference websites) would allow a clean share comparison. The DBLP TOC data is available in `data/venue_accepted_totals.json` but should be used with the inflation caveat noted above.*
+Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers (~113/year), nearly matching their baseline rate of ~114/year. The full core-99 appears on 456 unique post-2023 top-networking papers. So the unique-paper presence count is roughly stable. What changes is the *distribution* of who appears on those papers.
 
 So the cleanest current reading is:
 
@@ -274,14 +273,23 @@ The key point is that Inv-Q2 is not a migration-away group. It is better describ
 
 Important framing note: Inv-Q2's rising share of post-2023 top-networking author-paper incidences (42.1% → 63.2%) is partly mechanical — Inv-Q1 and Inv-Q4 collectively reduce their qualifying-venue incidences by ~452, while Inv-Q2's absolute count is nearly unchanged (381 → 391, +2.6%). Inv-Q2 maintains absolute output at roughly the same level; the rising share reflects the cohort contracting around them, not an expansion of Inv-Q2's own top-networking activity. The share gain is compositional redistribution, not growth.
 
+Inv-Q2 is 37 researchers (42.5% of analyzable core-99). They are the largest group and the most important for understanding what stable or growing top-networking engagement looks like. The examples below are chosen to cover distinct archetypes within the group: explosive growers, AI_ML/systems expanders, stable high-volume incumbents, and industry researchers maintaining presence.
+
 Representative examples:
 
-| Researcher | Why this example | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
-|---|---|---|---|---|
-| Ion Stoica | AI_ML expansion from already high AI/systems base | NSDI/OSDI/ICML/MobiCom on distributed systems, analytics, RL, graph systems | ICML/MLSys/NSDI on LLM inference, DNN serving, cloud robotics, lakehouse systems | Not a new migrant; already broad and AI-heavy |
-| Aditya Akella | New AI_ML venue presence while retaining NSDI/SIGCOMM | Programmable NICs, RDMA, distributed systems, datacenter networking | ICML/NSDI/ASPLOS/MICRO on ML collective scheduling, kernels, SmartNICs | Looks like AI infrastructure plus systems |
-| Kai Chen 0005 | Strong systems increase and top-net increase | Datacenter networking, RDMA, congestion control, deep RL for DCN | NSDI/SIGCOMM/EuroSys plus LLM inference, DNN training, federated/graph learning | AI/sys growth coexists with stronger top networking |
-| Jiaqi Gao | Clear AI_ML increase from zero baseline | SIGCOMM/NSDI-heavy networking baseline | AAAI/AI_ML plus continued SIGCOMM/NSDI presence | Needs paper-level topic labeling before interpretation |
+| Researcher | Archetype | Baseline (top-net → post) | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
+|---|---|---|---|---|---|
+| Xin Jin 0008 | Explosive top-net grower | 13 → 21 | NSDI/SIGCOMM on programmable networks, distributed systems | NSDI-heavy (14 papers) on RDMA, kernel bypass, accelerators | Strongest absolute top-net increase in core-99 (+8 papers); systems-focused, not AI |
+| Ying Zhang 0022 | Highest rate-ratio in core-99 | 8 → 22 | Networking/systems measurement, datacenter | SIGCOMM-heavy (12 papers) on network verification, programmable data planes | Rate ratio 3.44 — nearly quadrupled top-net output; China-based, senior→collaborator shift suggests group growth |
+| Kai Chen 0005 | Systems + top-net dual growth | 7 → 13 | Datacenter networking, RDMA, congestion control | NSDI/SIGCOMM/EuroSys plus LLM inference, DNN training, federated learning | AI/sys growth (+12 systems papers) coexists with stronger top networking |
+| Feng Qian 0001 | Broad portfolio, networking + mobile + AI | 10 → 12 | Mobile/wireless/networking systems, video streaming | NSDI/SIGCOMM plus MobiCom/ICML on mobile AI, AR/VR networking, edge computing | Demonstrates that AI expansion and top-networking maintenance are compatible |
+| Aditya Akella | AI_ML from zero, retains top-net | 17 → 13 | Programmable NICs, RDMA, datacenter networking | ICML/NSDI/ASPLOS/MICRO on ML collective scheduling, SmartNICs | New AI_ML presence (0→10 ICML papers) from zero baseline; AI infrastructure not core ML |
+| Minlan Yu | Senior stable, mild systems shift | 16 → 14 | Network virtualization, SDN, programmable data planes | NSDI/SIGCOMM on ML for networking, cloud network management | Senior researcher maintaining high output; slight systems broadening |
+| Behnaz Arzani | Industry researcher, elite-stable | 10 → 10 | Microsoft; NSDI/SIGCOMM on network reliability, debugging | NSDI/HotNets on network verification, data-plane correctness | Exactly flat top-net count; industry (Microsoft Research), highly elite-concentrated |
+| Arvind Krishnamurthy | Senior, slight decline but still flat by rate | 19 → 14 | SIGCOMM/NSDI on distributed systems, networked systems | SIGCOMM/NSDI/MLSys on cloud systems, ML infrastructure | At Google; 14 post top-net papers still makes him one of the highest-volume; MLSys presence blurs systems/AI boundary |
+| Ion Stoica | Already AI-broad at baseline | 13 → 12 | NSDI/OSDI/ICML on distributed systems, RL, graph systems | ICML/MLSys/NSDI on LLM inference, DNN serving, cloud robotics | Not a new migrant; already broad and AI-heavy at baseline. Included for continuity with earlier examples |
+
+These nine examples span: explosive growth (Jin, Zhang), AI/systems expansion (Chen, Akella, Qian), senior stable (Yu, Krishnamurthy), industry stable (Arzani), and pre-existing AI breadth (Stoica). The key takeaway is that Inv-Q2 is internally diverse — some researchers are genuinely expanding their top-networking presence, others are maintaining it while broadening to AI/systems, and some are stable at high volume without directional change.
 
 Open question requiring paper-topic analysis: among stable top-networking researchers, are the new systems/AI_ML papers about AI infrastructure, classical distributed systems, measurement, wireless, or core ML? Venue family gives location, not topic.
 
@@ -360,7 +368,7 @@ PCA on baseline profiles explains 67% of variance in the first two components.
 
 Important limitation: PCA coordinates are computed from percentage profiles, not raw paper counts. Distance from the origin means the researcher's venue-family composition is unusual relative to the sample; it does not mean the researcher publishes more papers. Publication volume must be read from the count tables, not from PCA position or vector norm.
 
-Visualization note: this plot should be regenerated with labels aligned to the Inv-Q taxonomy or to the representative examples used in this document. Avoid sys/AI/storage quadrant legends here because that taxonomy is supplementary and can confuse the main analysis flow.
+**Visualization note (needs regeneration):** The current `pca_baseline_labeled.png` uses the supplementary sys/AI/storage quadrant labels (Q1_net+_overall+, etc.) rather than the Inv-Q1 through Inv-Q4 taxonomy used throughout this document. This creates a naming collision: "Q1" in the plot means "high networking + high overall output" (sys/AI/storage quadrant), NOT Inv-Q1 ("top-net down, clean flat/up"). The plot should be regenerated with researcher labels colored by Inv-Q group membership, or with no quadrant legend at all — labeling only the representative researchers named in the tables above.
 
 Representative baseline positions:
 
@@ -380,7 +388,7 @@ The shared baseline/post projection and trajectory view are best read together, 
 
 ![PCA Trajectories](figures/pca_trajectories_shared.png)
 
-Visualization note: the next version of this figure should label the same representative researchers used in Sections 4-6, so the reader can follow the same characters through the narrative rather than seeing a fresh cherry-picked set at each plot.
+**Visualization note (needs regeneration):** The current `pca_trajectories_shared.png` has two issues: (1) it uses the sys/AI/storage quadrant color scheme which creates the same Q1/Q2/Q3/Q4 naming collision flagged above (§7.1), and (2) the labeled researchers are a different set than the representative examples used in §§4-6. The next version should use Inv-Q group colors (Inv-Q1=red/orange for falling-out, Inv-Q2=blue/green for stable core) and label the same 15-20 representative researchers named throughout this document, so the reader follows consistent characters.
 
 Largest movements currently visible:
 
@@ -441,6 +449,31 @@ These questions should shape the next work. Some require new derived data and sh
 | Are the newcomers first authors, senior authors, or collaborators? | Distinguishes student/junior entry from PI/lab expansion | Author-position features for the new cohort |
 | How much of Inv-Q3 is denominator artifact? | Prevents overstating concentration | Raw-count sensitivity, not only rate ratios and percentages |
 | Does conference-level topic composition change in parallel? | Researcher movement may reflect venue trend shifts | Per-conference, per-year topic profiles |
+
+### 10.1 Preliminary Paper-Topic Evidence from Researcher Itineraries
+
+Before committing to new derived data, a direct inspection of paper titles in the existing `researcher_itineraries.json` already sharpens several open questions. Below are concrete title-level observations for the representative researchers discussed in §§4-6.
+
+**Inv-Q1 (falling out of top networking): where did they go?**
+
+| Researcher | Post-2023 paper topics (from titles) | Verdict |
+|---|---|---|
+| Yibo Zhu 0001 | Distributed DNN training (Espresso, Lina), LLM serving (DistServe), GPU optimization (BGL), multimodal LLM training (DistTrain) | **AI infrastructure, not core AI.** Every paper is about systems for ML training/inference. Publishes at EuroSys, OSDI, NSDI — systems venues, not AI venues. |
+| Ihsan Ayyub Qazi | Web affordability, deepfake audio detection, YouTube ad analysis, Urdu NLP, healthcare LLMs, image compression | **HCI/web + applied ML, not networking.** Venues: WWW, ACL, EMNLP, COLING. Only 1 IMC paper post-2023. This is a genuine topic exit from networking. |
+
+**Inv-Q2 (stable core): are they doing classical networking or AI infrastructure?**
+
+| Researcher | Post-2023 paper topics (from titles) | Verdict |
+|---|---|---|
+| Ying Zhang 0022 | Network routing configuration (EBB, FlexWAN, Netcastle), eBPF orchestration (NetEdit), datacenter network management, collective communication for multi-tenant cloud | **Classical networking + network management.** SIGCOMM/NSDI papers are about network reliability, topology, and configuration. One paper (TopoOpt) co-optimizes network topology for distributed training — networking FOR ML, not ML itself. |
+| Xin Jin 0008 | DNN serving (AlpaServe), GPU sharing for DL workloads, serverless DL training (ElasticFlow), RDMA storage, DNS verification, video conferencing overlay | **AI infrastructure + distributed systems.** Even his SIGCOMM papers (Ditto, Klotski, XRON) are about serverless analytics, datacenter migration, and cloud overlays — systems work at networking venues. |
+| Kai Chen 0005 | RDMA NIC architecture (SRNIC, Aquarius), LLM inference (Tabi), federated learning, graph learning for traffic/IP geolocation, datacenter flow control | **Dual-track: networking systems + applied ML.** KDD/IJCAI papers are applied ML (graph learning for geo/traffic). NSDI/EuroSys papers are networking systems (RDMA, flow control). The two tracks coexist. |
+| Mosharaf Chowdhury | DNN training efficiency (Zeus, Egeria, Oobleck), GPU energy, federated learning (FLINT, Auxo), CXL memory, embedding systems | **AI infrastructure, almost exclusively.** Nearly every paper is about making ML training/inference faster or more efficient. Publishes at MLSys, OSDI, NSDI, EuroSys. |
+| Aditya Akella | ML-assisted kernels (LAKE), SmartNICs (LogNIC), ML scheduling (SYNDICATE, Shockwave), CDN caching (Darwin), federated learning | **AI infrastructure + networking systems.** ICML paper is about distributed training optimization (systems work at ML venue). Most papers are about applying ML to systems problems OR building systems for ML. |
+
+**Key takeaway from title evidence:** Among the AI_ML and systems "expanders," the vast majority are doing **AI infrastructure** (distributed training, LLM serving, GPU optimization, federated learning systems) rather than core AI/ML research (new model architectures, learning theory, NLP/CV advances). The one clear exception is Ihsan Ayyub Qazi (Inv-Q1), who has genuinely moved into HCI/web + applied ML topics and away from networking.
+
+This title-level inspection does not replace systematic topic classification, but it already tells us that **"AI migration" for most core-99 researchers means building the distributed systems that make AI work, not becoming AI researchers.** The venue-family signal (AI_ML share rising) is picking up ICML/NeurIPS papers about systems/infrastructure topics — exactly the MLSys/ICML boundary issue flagged in §12.3.
 
 ## 11. Next Steps
 
@@ -518,13 +551,17 @@ The following methodological limitations are acknowledged and documented here. W
 
 ## 15. Figures
 
-| Figure | Content |
-|--------|---------|
-| `figures/aggregate_portfolio.png` | Mean baseline vs post-2023 portfolio |
-| `figures/delta_magnitude_decomposition.png` | Supplementary venue-family shift magnitude diagnostic; not the primary volume view |
-| `figures/delta_by_inv_group.png` | Mean delta vectors by investigation group |
-| `figures/pca_baseline_labeled.png` | Baseline PCA with researcher labels at extremes; should be regenerated with consistent labels |
-| `figures/pca_trajectories_shared.png` | Arrow trajectories from baseline to post-2023; primary PCA movement figure |
-| `figures/pca_baseline_post_shared.png` | Baseline vs post-2023 in shared PCA space; supplementary after trajectory figure |
-| `figures/delta_heatmap.png` | All 87 researchers by 10 family deltas |
-| `figures/delta_pca_biplot.png` | Delta PCA diagnostic; needs clearer labels if retained |
+**⚠️ Regeneration needed:** Several figures currently use the supplementary sys/AI/storage quadrant labels (Q1/Q2/Q3/Q4) which conflict with the Inv-Q1 through Inv-Q4 investigation group taxonomy. See §7.1, §7.2, and §8 for specific notes on each affected figure.
+
+| Figure | Content | Label status |
+|--------|---------|-------------|
+| `figures/aggregate_portfolio.png` | Mean baseline vs post-2023 portfolio | ✅ Uses venue-family names, no quadrant confusion |
+| `figures/delta_by_inv_group.png` | Mean delta vectors by investigation group | ✅ Uses Inv-Q labels |
+| `figures/delta_by_quadrant.png` | Delta vectors by sys/AI/storage quadrant | ⚠️ Uses sys/AI/storage quadrant labels — do not use in main narrative; supplementary only |
+| `figures/delta_heatmap.png` | All 87 researchers by 10 family deltas | ✅ Uses venue-family names |
+| `figures/pca_baseline_labeled.png` | Baseline PCA with researcher labels | ❌ Uses sys/AI/storage quadrant colors — regenerate with Inv-Q group colors or researcher names only |
+| `figures/pca_trajectories_shared.png` | Arrow trajectories from baseline to post-2023 | ❌ Uses sys/AI/storage quadrant colors; labels inconsistent with §§4-6 representative examples |
+| `figures/pca_baseline_post_shared.png` | Baseline vs post-2023 in shared PCA space | Same quadrant color issue as trajectory figure |
+| `figures/delta_pca_biplot.png` | Delta PCA diagnostic | ⚠️ Needs clearer researcher labels; if kept, use Inv-Q group colors |
+| `figures/delta_magnitude_decomposition.png` | Supplementary venue-family shift magnitude diagnostic | Not the primary volume view |
+| `figures/delta_top20_profiles.png` | Top-20 researchers by delta magnitude | Check labels against §§4-6 examples |
