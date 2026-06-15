@@ -289,7 +289,7 @@ Important framing note: Inv-Q2's rising share of post-2023 top-networking author
 Inv-Q2 is 40 researchers (46.0% of analyzable core-99, after PACMNET pipeline fix). They are the largest group and the most important for understanding what stable or growing top-networking engagement looks like. The examples below are chosen to cover distinct archetypes within the group: explosive growers, AI_ML/systems expanders, stable high-volume incumbents, and industry researchers maintaining presence. Affiliations are included for institutional context.
 
 Representative examples:
-
+% WQ: the table has an issue, please check
 | Researcher | Archetype | Baseline (top-net → post) | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
 |---|---|---|---|---|---|
 | Researcher | Archetype | Affiliation | Top-net (bl→post) | Baseline pattern | Post-2023 pattern | Caution |
@@ -436,16 +436,7 @@ PCA on baseline profiles explains 67% of variance in the first two components.
 
 Important limitation: PCA coordinates are computed from percentage profiles, not raw paper counts. Distance from the origin means the researcher's venue-family composition is unusual relative to the sample; it does not mean the researcher publishes more papers. Publication volume must be read from the count tables, not from PCA position or vector norm.
 
-**Visualization note (needs regeneration):** The current `pca_baseline_labeled.png` uses the supplementary sys/AI/storage quadrant labels which collide with the Inv-Q taxonomy. The exact label conflict:
-
-| Plot label (current) | Meaning (sys/AI/storage quadrant) | Conflicts with |
-|---|---|---|
-| Q1 | High networking + high overall output | Inv-Q1 = "top-net down, clean flat/up" |
-| Q2 | High networking, lower overall output | Inv-Q2 = "top-net flat/up, clean flat/up" |
-| Q3 | Lower networking, high AI/systems | Inv-Q3 = "top-net flat/up, clean down" |
-| Q4 | Lower networking, lower overall output | Inv-Q4 = "top-net down, clean down" |
-
-**Fix:** Regenerate with researcher markers colored by Inv-Q group (Inv-Q1=red/orange, Inv-Q2=blue/green, Inv-Q3=yellow, Inv-Q4=gray, excluded=black). Label only the 15-20 representative researchers from §§4-6. Remove the sys/AI/storage quadrant legend. The `delta_by_quadrant.png` figure should not appear in the main narrative — it uses the conflicting taxonomy and belongs in supplementary materials only.
+**Visualization note (regenerated 2026-06-15):** `pca_baseline_labeled.png` now uses Inv-Q group colors (Inv-Q1=red, Inv-Q2=green, Inv-Q3=orange, Inv-Q4=gray, excluded=dark). Representative researchers from §§4-6 are labeled. The old sys/AI/storage quadrant legend has been removed. See `scripts/regenerate_charts.py`.
 
 Representative baseline positions:
 
@@ -465,7 +456,7 @@ The shared baseline/post projection and trajectory view are best read together, 
 
 ![PCA Trajectories](figures/pca_trajectories_shared.png)
 
-**Visualization note (needs regeneration):** The current `pca_trajectories_shared.png` has two issues: (1) it uses the sys/AI/storage quadrant color scheme which creates the same Q1/Q2/Q3/Q4 naming collision flagged above (§7.1), and (2) the labeled researchers are a different set than the representative examples used in §§4-6. The next version should use Inv-Q group colors (Inv-Q1=red/orange for falling-out, Inv-Q2=blue/green for stable core) and label the same 15-20 representative researchers named throughout this document, so the reader follows consistent characters.
+**Visualization note (regenerated 2026-06-15):** `pca_trajectories_shared.png` now uses Inv-Q group colors (same scheme as baseline PCA). Arrow endpoints are labeled with the same representative researchers from §§4-6 for narrative consistency.
 
 Largest movements currently visible:
 
@@ -497,7 +488,7 @@ Delta PCA is retained as a secondary diagnostic, not as a central narrative figu
 
 ![Delta PCA Biplot](figures/delta_pca_biplot.png)
 
-Visualization note: the current biplot is harder to interpret than the group tables and trajectory figure. If kept, it should be regenerated to highlight the same representative researchers or to explicitly highlight different movement patterns such as top-net substitution, broad decline, AI_ML expansion, and systems expansion.
+Visualization note (regenerated 2026-06-15): The delta PCA biplot now uses Inv-Q group colors with venue-family loading arrows. Representative researchers from §§4-6 are labeled.
 
 ### 8.1 Regional and Sector Decomposition
 
@@ -658,17 +649,17 @@ The following methodological limitations are acknowledged and documented here. W
 
 ## 15. Figures
 
-**⚠️ Regeneration needed:** Several figures currently use the supplementary sys/AI/storage quadrant labels (Q1/Q2/Q3/Q4) which conflict with the Inv-Q1 through Inv-Q4 investigation group taxonomy. See §7.1, §7.2, and §8 for specific notes on each affected figure.
+All PCA and delta figures regenerated 2026-06-15 with Inv-Q group colors (see `scripts/regenerate_charts.py`). Inv-Q1 = red, Inv-Q2 = green, Inv-Q3 = orange, Inv-Q4 = gray, excluded = dark.
 
 | Figure | Content | Label status |
 |--------|---------|-------------|
-| `figures/aggregate_portfolio.png` | Mean baseline vs post-2023 portfolio | ✅ Uses venue-family names, no quadrant confusion |
-| `figures/delta_by_inv_group.png` | Mean delta vectors by investigation group | ✅ Uses Inv-Q labels |
-| `figures/delta_by_quadrant.png` | Delta vectors by sys/AI/storage quadrant | ⚠️ Uses sys/AI/storage quadrant labels — do not use in main narrative; supplementary only |
-| `figures/delta_heatmap.png` | All 87 researchers by 10 family deltas | ✅ Uses venue-family names |
-| `figures/pca_baseline_labeled.png` | Baseline PCA with researcher labels | ❌ Uses sys/AI/storage quadrant colors — regenerate with Inv-Q group colors or researcher names only |
-| `figures/pca_trajectories_shared.png` | Arrow trajectories from baseline to post-2023 | ❌ Uses sys/AI/storage quadrant colors; labels inconsistent with §§4-6 representative examples |
-| `figures/pca_baseline_post_shared.png` | Baseline vs post-2023 in shared PCA space | Same quadrant color issue as trajectory figure |
-| `figures/delta_pca_biplot.png` | Delta PCA diagnostic | ⚠️ Needs clearer researcher labels; if kept, use Inv-Q group colors |
+| `figures/aggregate_portfolio.png` | Mean baseline vs post-2023 portfolio shares | ✅ Venue-family names |
+| `figures/delta_by_inv_group.png` | Mean delta vectors by investigation group (4-panel) | ✅ Inv-Q labels |
+| `figures/delta_heatmap.png` | All 87 researchers by 10 family deltas, sorted by Inv-Q group | ✅ Inv-Q group color bar + venue-family names |
+| `figures/pca_baseline_labeled.png` | Baseline PCA with Inv-Q group colors, representative researcher labels | ✅ Inv-Q colors, consistent labels from §§4-6 |
+| `figures/pca_trajectories_shared.png` | Arrow trajectories baseline→post-2023, Inv-Q colored | ✅ Inv-Q colors, consistent labels |
+| `figures/pca_baseline_post_shared.png` | Baseline vs post-2023 side-by-side, Inv-Q colored | ✅ Inv-Q colors, consistent labels |
+| `figures/delta_pca_biplot.png` | Delta PCA with Inv-Q colors and venue-family loading arrows | ✅ Inv-Q colors, family loading arrows |
+| `figures/delta_by_quadrant.png` | ⛔ DEPRECATED — uses old sys/AI/storage quadrant labels | Do not use in main narrative |
 | `figures/delta_magnitude_decomposition.png` | Supplementary venue-family shift magnitude diagnostic | Not the primary volume view |
 | `figures/delta_top20_profiles.png` | Top-20 researchers by delta magnitude | Check labels against §§4-6 examples |
