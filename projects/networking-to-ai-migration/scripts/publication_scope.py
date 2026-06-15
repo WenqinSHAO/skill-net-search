@@ -20,7 +20,14 @@ EXCLUDED_RECORD_TYPES = {
 
 INCLUDED_RECORD_TYPES = {"inproceedings"}
 EXCLUDED_VENUES = {"CoRR"}
+
+# ACM journal-integrated conference proceedings: these venues ARE conferences
+# published through ACM's PACM model. Papers here should NOT be excluded as
+# journal articles. Examples: PACMNET = CoNEXT long papers, PACMI = PACM on
+# Interactive/Mobile (including PACMI@SOSP).
+CONFERENCE_JOURNALS = {"PACMNET", "PACMI", "PACMPL", "PACMHCI"}
 PROCEEDINGS_TITLE_RE = re.compile(r"^\s*proceedings\s+of\b", re.IGNORECASE)
+EDITORIAL_TITLE_RE = re.compile(r"\beditorial\b", re.IGNORECASE)
 CONF_VOLUME_WORD_RE = re.compile(r"\b(proceedings|conference|symposium|workshop)\b", re.IGNORECASE)
 CONF_VOLUME_YEAR_RE = re.compile(r"\b(20\d{2}|'\d{2})\b")
 ACRONYM_VOLUME_RE = re.compile(r"^\s*[A-Z][A-Za-z0-9&.+ -]+\s+'\d{2}:")
@@ -76,8 +83,19 @@ def exclusion_reason(paper: dict[str, Any]) -> str | None:
     title = paper.get("title", "")
     record_type = (paper.get("record_type") or "").strip().lower()
 
+    # Editorials are not research papers — exclude them regardless of venue.
+    if EDITORIAL_TITLE_RE.search(title):
+        return "editorial"
+
     if paper.get("is_journal"):
-        return "journal_article"
+        # ACM journal-integrated conference proceedings (PACMNET, PACMI, etc.)
+        # are conferences, not traditional journals — do not exclude them.
+        venue_cf = venue.strip().casefold()
+        for cj in CONFERENCE_JOURNALS:
+            if cj.casefold() in venue_cf:
+                break
+        else:
+            return "journal_article"
     if record_type in EXCLUDED_RECORD_TYPES:
         return f"record_type:{record_type}"
     if record_type and record_type not in INCLUDED_RECORD_TYPES:

@@ -25,7 +25,7 @@ BASELINE_YEARS = list(range(2018, 2023))
 POST_YEARS = list(range(2023, 2027))
 OBSERVATION_YEARS = list(range(2018, 2027))
 NETWORK_THRESHOLD = 6
-QUALIFYING_VENUES = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC"}
+QUALIFYING_VENUES = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC", "PACMNET"}
 
 # When True, annualized rates use the count of years with actual papers
 # rather than the full period length. This corrects for 2026 incompleteness.

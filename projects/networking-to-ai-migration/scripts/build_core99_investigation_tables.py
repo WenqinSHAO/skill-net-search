@@ -25,7 +25,7 @@ SUMMARY_MD = PROJECT_DIR / "CORE99_INVESTIGATION_TABLES.md"
 
 BASELINE_YEARS = set(range(2018, 2023))
 POST_YEARS = set(range(2023, 2027))
-QUALIFYING_VENUES = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC"}
+QUALIFYING_VENUES = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC", "PACMNET"}
 
 def _load_venue_family_map():
     """Load venue family map from JSON (single source of truth)."""

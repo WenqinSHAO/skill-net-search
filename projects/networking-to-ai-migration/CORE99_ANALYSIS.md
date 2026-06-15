@@ -117,19 +117,15 @@ The main investigation grouping uses the two rate features:
 
 Naming rule: this document uses **Inv-Q1** through **Inv-Q4** for the main investigation groups. The sys/AI/storage file `data/core99_sys_ai_storage_quadrants.csv` is a supplementary, orthogonal label set; it should not introduce another unqualified Q1/Q2/Q3/Q4 vocabulary in the main narrative.
 
-## 3. Shallow Observation: Three Ways to Read the Movement
+## 3. Shallow Observation: What the Aggregate Shows
 
-Before PCA or trajectory analysis, the simple aggregate picture is already informative. The gut-level hypothesis might be: top networking researchers are migrating to AI. The first deterministic observation is more cautious: among the analyzable core-99, top-networking participation is not disappearing as a collective, but visibility is being redistributed across researchers and venue families.
+Before PCA or group-level decomposition, three simple measurements give the aggregate picture. This section presents them in order of increasing detail: (1) how each researcher's internal portfolio mix changed, (2) how much total author participation moved across venue families, and (3) what share of top-networking venues the core-99 represents.
 
-There are three measurements to keep separate:
+The gut-level hypothesis might be "top networking researchers are migrating to AI." The data tells a more cautious story: among the analyzable core-99, top-networking participation is not disappearing as a collective, but visibility is being redistributed across researchers and venue families.
 
-| Measurement | What it answers | What it does not answer |
-|---|---|---|
-| Unique top-networking papers | How many accepted top-networking papers include at least one core-99 author | It does not count multiple core-99 authors on the same paper |
-| Author-paper incidences | How much core-99 author participation appears across papers | It can double-count papers with multiple core-99 authors |
-| Normalized portfolio shares | How each researcher's own publication mix changes | It loses absolute publication volume |
+### 3.1 Researcher-Internal Portfolio Shares
 
-### 3.1 Percent Share Movement
+**What this measures:** For each researcher, what percentage of their own papers falls into each venue family. The table below shows the cohort mean and median of these per-researcher percentages, before and after 2022. This is the "normalized portfolio share" measurement — it controls for different publication volumes but loses absolute scale.
 
 | Family | Baseline mean | Post-2023 mean | Mean delta | Baseline median | Post-2023 median |
 |--------|:------------:|:-------------:|:------:|:--------------:|:----------------:|
@@ -141,15 +137,15 @@ There are three measurements to keep separate:
 | mobile_wireless_iot | 6.3% | 6.4% | +0.0pp | 0.0% | 0.0% |
 | web_social_hci | 2.0% | 4.1% | +2.1pp | 0.0% | 0.0% |
 
-Three families (`data_management`, `theory_distributed`, `programming_languages`) each account for <2% of mean baseline and post-2023 portfolio share and are omitted above for readability. Full 10-family data is available in `data/core99_feature_vectors.json`.
+Three families (`data_management`, `theory_distributed`, `programming_languages`) each account for <2% of mean portfolio share and are omitted for readability. Full data in `data/core99_feature_vectors.json`.
 
 ![Aggregate Portfolio](figures/aggregate_portfolio.png)
 
-The median researcher has zero AI_ML papers in both periods. AI_ML expansion exists, but it is concentrated in a minority rather than a cohort-wide shift.
+**What this tells us:** The median researcher has zero AI_ML papers in both periods. The mean AI_ML share rose from 2.4% to 4.4%, but the median stayed at 0%. AI_ML expansion is real but concentrated in a minority — it is not a cohort-wide shift. The largest composition changes are within networking itself: qualifying top-networking declined modestly (-3.1pp mean), while other-networking dropped more (-4.2pp). Systems and web/HCI grew modestly.
 
-### 3.2 Absolute Paper Counts and Core-99 Coverage
+### 3.2 Absolute Author-Paper Incidences
 
-The count table below uses author-paper incidences for the 87 analyzable researchers. It answers: how much author participation from these researchers appears in each venue family?
+**What this measures:** Total author-paper incidences across all 87 analyzable researchers, summed by venue family. Each author on each paper counts as one incidence. This measurement preserves volume but double-counts papers with multiple core-99 co-authors.
 
 | Family | Baseline incidences | Post-2023 incidences | Change | Annualized baseline | Annualized post |
 |---|---:|---:|---:|---:|---:|
@@ -161,31 +157,36 @@ The count table below uses author-paper incidences for the 87 analyzable researc
 | mobile_wireless_iot | 161 | 102 | -59 | 32.2/year | 25.5/year |
 | web_social_hci | 65 | 93 | +28 | 13.0/year | 23.2/year |
 
-The top-networking denominator matters. During 2018-2022, the accepted-paper cache has 1,146 unique papers across SIGCOMM, NSDI, CoNEXT, HotNets, and IMC. The full core-99 appears on 589 of them, or 51.4%; the 87 analyzable researchers appear on 569, or 49.7%.
+**What this tells us:** The volume story is sharper than the percentage story. Qualifying top-networking incidences dropped by 287 (906→619), and adjacent-networking dropped by 348 (655→307). Together these two networking families account for 635 fewer author incidences. AI_ML (+31) and web/HCI (+28) gains are real but small in absolute terms — they offset less than 10% of the networking decline. The post window is shorter (4 years vs. 5), so the annualized comparison in the last two columns is the fairer baseline-vs-post read.
 
-For 2023-2026, DBLP TOC data provides approximate denominators for the five qualifying venues:
+### 3.3 Core-99's Share of Top-Networking Venues
 
-| Year | DBLP TOC total | Venues indexed | Notes |
-|------|---------------:|:--------------:|-------|
-| 2023 | 349 | 5/5 | CoNEXT: 17 short + 24 long (PACMNET V1, 27 minus 3 editorials) |
-| 2024 | 355 | 5/5 | CoNEXT: 17 short + 32 long (PACMNET V2, 36 minus 4 editorials) |
-| 2025 | 402 | 5/5 | CoNEXT: 28 short + 50 long (PACMNET V3, 54 minus 4 editorials); PACMNET V3 may include overlapping deadline papers |
-| 2026 | 151 | 1/5 | Only NSDI 2026 indexed (SIGCOMM, CoNEXT not yet held) |
+**What this measures:** Of all papers published at SIGCOMM, NSDI, CoNEXT, HotNets, and IMC (plus PACMNET from 2023 onward), what fraction include at least one core-99 author? This is the "unique-paper denominator" measurement — it answers whether core-99 is a bigger or smaller part of these venues over time.
 
-**Important caveats on post-2023 denominator data:**
+The denominator table below unifies the baseline and post-baseline view. Per-year totals come from the DBLP TOC API and are approximate (include workshop papers). PACMNET is the journal-integrated proceedings for CoNEXT long papers starting in 2023; totals include it from 2023 onward. See §12 for data quality caveats.
 
-1. **DBLP TOC counts include workshop papers** and are inflated relative to main-conference acceptance counts (e.g., DBLP TOC reports 1,161 total for 2018-2022 vs. 1,146 in the paper cache).
+| Year | SIGCOMM | NSDI | CoNEXT | HotNets | IMC | **Total** | Core-99 unique papers |
+|------|--------:|-----:|-------:|--------:|----:|----------:|---------------------:|
+| 2018 | 41 | 41 | 33 | 27 | 44 | **186** | — |
+| 2019 | 33 | 50 | 33 | 21 | 40 | **177** | — |
+| 2020 | 54 | 66 | 64 | 31 | 55 | **270** | — |
+| 2021 | 56 | 60 | 51 | 32 | 55 | **254** | — |
+| 2022 | 56 | 79 | 29 | 33 | 77 | **274** | — |
+| **BL total** | **240** | **296** | **210** | **144** | **271** | **1,161** | **589** (51%) |
+| 2023 | 108 | 97 | 41† | 39 | 64 | **349** | — |
+| 2024 | 63 | 113 | 49† | 45 | 85 | **355** | — |
+| 2025 | 89 | 84 | 78† | 51 | 100 | **402** | — |
+| 2026 | — | 151 | — | — | — | **151** | — |
+| **Post total** | **260** | **445** | **168** | **135** | **249** | **1,257** | **456** (~36%) |
 
-2. **CoNEXT 2023+ uses a journal-integrated model (PACMNET).** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), an ACM journal. The DBLP `conext{year}` entries from 2023 onward represent only the **short papers** (17-28 papers/year). Long papers appear in PACMNET volumes (V1: 2023, V2: 2024, V3: 2025) with 24-50 research papers per volume after excluding editorials. The denominator totals above include both short and long papers. However, PACMNET papers are classified as `journal=True` by `publication_scope.py` and are **excluded** from core-99 clean conference paper counts. A spot check found 29 PACMNET papers from core-99 researchers post-2023 (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization," "Dissecting the Performance of Satellite Network Operators"). These are substantive CoNEXT papers that should be counted as qualifying top-networking output. The effect is a systematic undercount of core-99 CoNEXT publications post-2023. *Status: `publication_scope.py` needs a PACMNET exception; `venue_family_map.json` needs a PACMNET → qualifying_top_networking mapping; pipeline regeneration required.*
+† CoNEXT 2023+ includes PACMNET long papers (short papers: 17-28/year; long: 24-50/year after excluding editorials).
+2026 denominator is incomplete (only NSDI indexed; SIGCOMM and CoNEXT not yet held).
 
-Within the itinerary data, the 87 analyzable researchers appear on 451 unique post-2023 top-networking papers (~113/year), nearly matching their baseline rate of ~114/year. The full core-99 appears on 456 unique post-2023 top-networking papers. So the unique-paper presence count is roughly stable. What changes is the *distribution* of who appears on those papers.
+**What this tells us:**
 
-So the cleanest current reading is:
-
-- As a collective, core-99 still appears on many top-networking papers after 2022.
-- The author-paper incidence rate drops, suggesting fewer repeated/core-99 author participations per year.
-- The distribution shifts: some researchers fall out sharply, while the stable core accounts for a larger share of post-2023 top-networking participation.
-- AI_ML and web/HCI grow in absolute count; systems grows in annualized count but not total count because the post window is shorter.
+- **Baseline (2018-2022):** Core-99 researchers appeared on 589 of ~1,161 unique top-networking papers, or roughly 51%. They were a major presence at these venues.
+- **Post-2023:** Core-99 appears on 456 unique papers. The raw count per year (~113) is nearly the same as baseline (~114/year). But the denominator has grown (2024-2025 average ~378 papers/year vs. baseline ~232/year — though this includes workshop inflation and the CoNEXT PACMNET expansion, which partly reflects DBLP coverage differences rather than real venue growth). If we take the DBLP TOC numbers at face value, core-99's share drops from ~51% to ~36%. However, this decline is partly a denominator artifact — the post-2023 DBLP TOC totals are inflated differently than baseline TOC totals because workshop indexing practices changed.
+- **The cleaner read:** Unique-paper presence is stable in raw count (~113 papers/year in both periods). What changes is the *distribution* of who appears on those papers — author-paper incidence drops (906→619) while unique-paper count holds steady, meaning core-99 researchers appear on roughly the same number of papers but with fewer repeated/core-99 co-author overlaps per paper.
 
 This is why the analysis below focuses on redistribution and group mechanisms, not just total decline.
 
