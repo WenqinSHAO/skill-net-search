@@ -4,37 +4,37 @@ Deterministic tables for the first three investigation questions. No LLM interpr
 
 ## Question 1: Top-Net Decrease, Overall Flat/Increase
 
-- Researchers in slice: 15
+- Researchers in slice: 13
 - Slice rule: `top_networking_rate_change = decreased` and `clean_publication_rate_change in {flat, increased}`.
 
 ### Aggregate Venue-Family Shift
 
-- Baseline families: qualifying_top_networking (160), other_networking (115), theory_distributed (39), systems (30), security_privacy (24), mobile_wireless_iot (16), AI_ML (6), programming_languages (4), web_social_hci (4), unknown (3)
-- Post-2023 families: other_networking (92), qualifying_top_networking (72), theory_distributed (38), systems (37), security_privacy (21), web_social_hci (16), mobile_wireless_iot (13), AI_ML (9), programming_languages (3), data_management (1)
+- Baseline families: other_networking (173), qualifying_top_networking (142), theory_distributed (39), systems (29), security_privacy (22), unknown (18), mobile_wireless_iot (9), AI_ML (6), web_social_hci (4), programming_languages (3)
+- Post-2023 families: other_networking (115), qualifying_top_networking (59), theory_distributed (38), systems (36), security_privacy (22), web_social_hci (16), unknown (13), mobile_wireless_iot (10), AI_ML (8)
 
 Top post-2023 venues in this slice:
 
 | Venue | Papers |
 |---|---:|
-| NSDI | 25 |
-| IMC | 23 |
-| SIGCOMM | 16 |
+| NSDI | 21 |
+| IMC | 18 |
+| SIGCOMM | 14 |
 | TMA | 12 |
-| PAM | 11 |
-| ANRW | 9 |
-| HotNets | 8 |
+| IFIP Networking | 12 |
+| ANRW | 11 |
+| NOMS | 8 |
 | INFOCOM | 8 |
+| PAM | 7 |
 | OPODIS | 7 |
-| IFIP Networking | 6 |
+| HotNets | 6 |
 | SIGCOMM Posters and Demos | 5 |
 | USENIX Security | 5 |
 | SPAA | 5 |
 | WWW | 5 |
-| MobiCom | 5 |
 
 ## Question 2: Top-Net Flat/Increase Profiles
 
-- Researchers in slice: 44
+- Researchers in slice: 47
 - Slice rule: `top_networking_rate_change in {flat, increased}`.
 
 ### Profile Distributions
@@ -43,15 +43,15 @@ Top post-2023 venues in this slice:
 
 | Label | Researchers |
 |---|---:|
-| flat | 28 |
+| flat | 31 |
 | increased | 16 |
 
 #### Qualifying venue mix
 
 | Label | Researchers |
 |---|---:|
-| mixed_3plus | 26 |
-| IMC_heavy | 6 |
+| mixed_3plus | 28 |
+| IMC_heavy | 7 |
 | SIGCOMM_heavy | 6 |
 | NSDI_heavy | 4 |
 | mixed_2 | 1 |
@@ -61,8 +61,8 @@ Top post-2023 venues in this slice:
 
 | Label | Researchers |
 |---|---:|
-| mostly_collaborator | 25 |
-| mostly_senior | 14 |
+| mostly_collaborator | 27 |
+| mostly_senior | 15 |
 | mixed | 3 |
 | mostly_lead | 2 |
 
@@ -70,24 +70,24 @@ Top post-2023 venues in this slice:
 
 | Label | Researchers |
 |---|---:|
-| mostly_collaborator | 22 |
-| mostly_senior | 22 |
+| mostly_senior | 24 |
+| mostly_collaborator | 23 |
 
 #### Region
 
 | Label | Researchers |
 |---|---:|
-| US | 23 |
+| US | 24 |
 | China | 7 |
-| Unknown | 6 |
+| Unknown | 7 |
 | Europe | 6 |
-| Other | 2 |
+| Other | 3 |
 
 #### Sector
 
 | Label | Researchers |
 |---|---:|
-| Unknown | 44 |
+| Unknown | 47 |
 
 ## Question 3: Baseline Top-Venue Author Concentration
 
