@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>核心 99 人分析报告：顶级网络会议研究者的发表轨迹（2018–2026）</title>
+<style>
+  :root {
+    --bg: #fefefe;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --accent: #2a5c8a;
+    --accent-light: #e8f0f8;
+    --callout-info: #e6f2f0;
+    --callout-warn: #fdf3e0;
+    --callout-finding: #f0f0f8;
+    --border: #e0e0e0;
+    --sidebar-bg: #f7f8fa;
+    --sidebar-width: 260px;
+    --content-max: 820px;
+    --line-height: 1.78;
+    --font-size: 16px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--text);
+    background: var(--bg);
+  }
+
+  /* ── Sidebar ── */
+  nav#toc {
+    position: fixed; left: 0; top: 0; bottom: 0; width: var(--sidebar-width);
+    background: var(--sidebar-bg); border-right: 1px solid var(--border);
+    overflow-y: auto; padding: 28px 18px 40px; z-index: 100;
+    font-size: 14px; line-height: 1.55;
+  }
+  nav#toc h2 { font-size: 15px; margin-bottom: 12px; color: var(--accent); }
+  nav#toc ol { list-style: none; padding: 0; }
+  nav#toc ol ol { padding-left: 14px; }
+  nav#toc li { margin-bottom: 4px; }
+  nav#toc a { color: #444; text-decoration: none; display: block; padding: 2px 6px; border-radius: 4px; transition: background .15s; }
+  nav#toc a:hover { background: #e0e6ee; }
+  nav#toc a.active { color: var(--accent); font-weight: 600; }
+
+  /* ── Main ── */
+  main {
+    margin-left: var(--sidebar-width);
+    max-width: var(--content-max);
+    padding: 40px 52px 80px 52px;
+  }
+  h1 { font-size: 2rem; margin-bottom: 6px; color: #111; line-height: 1.3; }
+  h1 .subtitle { display: block; font-size: 1.1rem; font-weight: 400; color: #666; margin-top: 4px; }
+  h2 { font-size: 1.45rem; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); color: #222; }
+  h3 { font-size: 1.18rem; margin: 32px 0 12px; color: #333; }
+  h4 { font-size: 1.05rem; margin: 24px 0 8px; color: #444; }
+  p { margin: 12px 0; }
+  strong { color: #222; }
+
+  /* ── Figures ── */
+  figure { margin: 28px 0; text-align: center; }
+  figure img { max-width: 100%; height: auto; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+  figcaption { margin-top: 10px; font-size: 14px; color: var(--text-secondary); text-align: left; line-height: 1.6; }
+  figcaption .fig-title { display: block; font-weight: 700; color: #222; margin-bottom: 4px; }
+  figcaption .fig-q     { color: var(--accent); font-weight: 600; }
+  figcaption .fig-obs   { color: #6b4e16; }
+  figcaption .fig-note  { font-size: 13px; color: #999; }
+
+  /* ── Callouts ── */
+  .callout {
+    margin: 20px 0; padding: 16px 20px; border-radius: 6px; border-left: 4px solid;
+    font-size: 0.96em;
+  }
+  .callout-info  { background: var(--callout-info); border-color: #3a9d8f; }
+  .callout-warn  { background: var(--callout-warn); border-color: #d4a03c; }
+  .callout-finding { background: var(--callout-finding); border-color: #5a6eb0; }
+  .callout-info::before  { content: "💡 "; }
+  .callout-warn::before  { content: "⚠️ "; }
+  .callout-finding::before { content: "🔍 "; }
+
+  /* ── Tags ── */
+  .tag {
+    display: inline-block; padding: 1px 8px; border-radius: 3px;
+    font-size: 0.82em; font-weight: 600; margin: 0 2px;
+  }
+  .tag-finding { background: #e8e8f8; color: #3a3a8a; }
+  .tag-caveat  { background: #fef0d0; color: #8a6a1a; }
+  .tag-method  { background: #e0f0e8; color: #2a6a4a; }
+  .tag-open    { background: #f8e0e0; color: #8a3a3a; }
+
+  /* ── Tables ── */
+  table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.92em; }
+  th, td { padding: 8px 10px; border: 1px solid var(--border); text-align: left; }
+  th { background: #f2f4f6; font-weight: 600; }
+  tr:nth-child(even) td { background: #fafbfc; }
+
+  /* ── Details ── */
+  details { margin: 16px 0; border: 1px solid var(--border); border-radius: 6px; padding: 12px 16px; background: #fafbfc; }
+  details[open] { padding-bottom: 16px; }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); margin: -12px -16px; padding: 12px 16px; border-radius: 6px; }
+  summary:hover { background: #eef2f6; }
+  details .detail-content { margin-top: 12px; }
+
+  /* ── Finding blocks ── */
+  .finding-list { counter-reset: finding; list-style: none; padding: 0; }
+  .finding-list li { counter-increment: finding; margin: 14px 0; padding: 14px 18px; background: #f8f9fc; border-radius: 6px; border: 1px solid #e8eaf0; }
+  .finding-list li::before { content: "发现 " counter(finding); display: block; font-weight: 700; color: var(--accent); font-size: 0.85em; margin-bottom: 4px; }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    nav#toc { display: none; }
+    main { margin-left: 0; padding: 24px 20px 60px; }
+  }
+
+  /* ── Summary header ── */
+  .exec-summary { background: linear-gradient(135deg, #f0f4f8 0%, #e8ecf4 100%); padding: 24px 28px; border-radius: 8px; margin: 24px 0; }
+  .exec-summary h3 { margin-top: 0; }
+  .exec-summary ul { padding-left: 20px; }
+  .exec-summary li { margin: 8px 0; }
+
+  /* ── Meta ── */
+  .meta-line { color: #888; font-size: 0.88em; margin-top: 8px; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+  .back-top { display: block; text-align: right; font-size: 0.85em; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ SIDEBAR ═══════════════ -->
+<nav id="toc">
+  <h2>📋 目录</h2>
+  <ol>
+    <li><a href="#s0">执行摘要</a></li>
+    <li><a href="#s1">1. 分析背景与核心问题</a></li>
+    <li><a href="#s2">2. 数据范围与分析队列</a>
+      <ol>
+        <li><a href="#s2-1">2.1 核心 99 人定义</a></li>
+        <li><a href="#s2-2">2.2 特征构建</a></li>
+        <li><a href="#s2-3">2.3 研究分组</a></li>
+      </ol>
+    </li>
+    <li><a href="#s3">3. 第一层观察：整体图景</a>
+      <ol>
+        <li><a href="#s3-1">3.1 研究者内部组合份额</a></li>
+        <li><a href="#s3-2">3.2 绝对作者-论文参与量</a></li>
+        <li><a href="#s3-3">3.3 核心 99 在顶级网络会议中的份额</a></li>
+      </ol>
+    </li>
+    <li><a href="#s4">4. 第二层探索：谁在退出顶级网络会议？</a>
+      <ol>
+        <li><a href="#s4-1">4.1 Inv-Q1：替代而非简单退出</a></li>
+        <li><a href="#s4-2">4.2 Inv-Q4：广泛衰退</a></li>
+      </ol>
+    </li>
+    <li><a href="#s5">5. 谁在顶级网络会议保持强劲？</a>
+      <ol>
+        <li><a href="#s5-1">5.1 Inv-Q2：稳定核心</a></li>
+        <li><a href="#s5-2">5.2 Inv-Q3：减法式集中</a></li>
+      </ol>
+    </li>
+    <li><a href="#s6">6. 第三层追问：AI/ML 与系统方向的迁移信号</a>
+      <ol>
+        <li><a href="#s6-1">6.1 AI/ML 扩张</a></li>
+        <li><a href="#s6-2">6.2 系统方向扩张</a></li>
+      </ol>
+    </li>
+    <li><a href="#s7">7. 深层结构：静态画像与轨迹</a>
+      <ol>
+        <li><a href="#s7-1">7.1 基线静态画像</a></li>
+        <li><a href="#s7-2">7.2 共享 PCA 空间中的轨迹</a></li>
+      </ol>
+    </li>
+    <li><a href="#s8">8. Delta 诊断与分解</a>
+      <ol>
+        <li><a href="#s8-1">8.1 地区与行业分解</a></li>
+      </ol>
+    </li>
+    <li><a href="#s9">9. 当前发现</a></li>
+    <li><a href="#s10">10. 方法与口径说明</a></li>
+    <li><a href="#s11">11. 开放问题与后续方向</a></li>
+    <li><a href="#s12">12. 附录：图表清单与数据制品</a></li>
+  </ol>
+</nav>
+
+<!-- ═══════════════ MAIN CONTENT ═══════════════ -->
+<main>
+
+<h1>
+  核心 99 人分析报告
+  <span class="subtitle">顶级网络会议研究者的发表轨迹（2018–2026）</span>
+</h1>
+
+<p class="meta-line">分析窗口：基线期 2018–2022 · 后期 2023–2026 · 报告生成于 2026 年 6 月</p>
+
+<!-- ──────── 0. EXECUTIVE SUMMARY ──────── -->
+<section id="s0">
+<h2>执行摘要</h2>
+
+<div class="exec-summary">
+
+<h3>核心发现</h3>
+<ol>
+  <li><strong>顶级网络会议参与并非整体消失，而是在研究者之间重新分配。</strong>
+  核心 99 人每年参与的独特论文数量基本稳定（基线期 ~113 篇/年 vs 后期 ~114 篇/年），但作者-论文参与量从 906 次降至 619 次，说明同一论文上多位核心 99 人共同署名的密度在下降。</li>
+
+  <li><strong>49% 的可分析研究者正在退出顶级网络会议。</strong>
+  87 位可分析研究者中，43 位（Inv-Q1 + Inv-Q4）在 SIGCOMM、NSDI、CoNEXT、HotNets、IMC 这五个顶级会议上的参与率显著下降。其中 Inv-Q1（15 人）在其他方向有替代性发表，Inv-Q4（28 人）则呈现全面衰退。</li>
+
+  <li><strong>稳定核心（Inv-Q2，40 人）维持了绝对顶级网络会议产出。</strong>
+  他们在顶级网络会议上的作者-论文参与量几乎不变（381→391），但其占后期总参与量的份额从 42% 升至 63%——这主要是其他组退出造成的份额重分配，而非 Inv-Q2 自身的扩张。</li>
+
+  <li><strong>AI/ML 和系统方向的扩张是真实的，但高度集中且主要面向 AI 基础设施，而非核心 AI 研究。</strong>
+  仅 9 位研究者的 AI/ML 会议份额增长超过 10 个百分点。这些人的论文绝大多数是关于分布式训练、LLM 推理、GPU 优化等<b>为 AI 服务的系统工作</b>，而不是模型架构或学习理论。唯一的明确例外是 Ihsan Ayyub Qazi，他从网络研究迁移到了应用 NLP/HCI。</li>
+
+  <li><strong>中国研究者（n=4）展现出最强的顶级网络会议集中趋势，而非退出。</strong>
+  人均顶级网络会议份额上升 14.4 个百分点，同时放弃低层级会议。美国研究者（n=58）的变化温和且分散；"其他"地区（n=5）展现出最大的 AI/ML 和 Web/HCI 扩张。</li>
+
+  <li><strong>行业研究者（n=10）展现出以系统方向为主的增长模式。</strong>
+  人均系统会议份额增长 8.2 个百分点，顶级网络会议份额基本持平，主要以 AI 基础设施工作为主。</li>
+</ol>
+
+<h3>关键解释</h3>
+<ul>
+  <li>所谓的"AI 迁移"对大多数核心 99 人而言，<strong>意味着为 AI 构建分布式系统</strong>（训练、推理、调度），而非成为 AI 研究者。这个信号更多被系统会议（EuroSys、OSDI、ASPLOS）和 MLSys 捕获，而非被 NeurIPS/ICML 捕获。</li>
+  <li>观察到的相当一部分"衰退"可能反映了<b>职业生涯阶段变化、行业转型、期刊发表转向</b>或<b>DBLP 索引滞后</b>，而非真正的研究方向退出。12 位被排除的低产出研究者中包括一些领域内最有影响力的名字。</li>
+  <li>顶级网络会议整体规模在扩大（DBLP 收录量增长），但核心 99 人的独特论文数持平，这意味着<b>新研究者在填补空间</b>——这一代际更替尚未在本分析中量化。</li>
+</ul>
+
+<h3>主要不确定性</h3>
+<ul>
+  <li>2026 年 DBLP 数据不完整，系统性地压低了后期年化产出率。</li>
+  <li>缺乏系统性的论文主题分类——目前仅基于会议归属，无法区分"发表在 ML 会议上的系统论文"和"核心 ML 研究"。</li>
+  <li>12 位低产出排除者的故事（退休、行业、数据滞后）尚未被系统分析。</li>
+  <li>尚无回归均值检验——核心 99 是在其顶峰期（≥7 篇顶级网络论文）被选出的，部分后续下降是统计预期内的。</li>
+</ul>
+</div>
+</section>
+
+<!-- ──────── 1. BACKGROUND ──────── -->
+<section id="s1">
+<h2>1. 分析背景与核心问题</h2>
+
+<p>2018 至 2022 年间，有一批研究者在 SIGCOMM、NSDI、CoNEXT、HotNets、IMC 这五个顶级计算机网络会议上持续发表。随着 2023 年后 AI 和系统领域的快速扩张，一个自然的问题浮现：<strong>这些曾经活跃的顶级网络会议研究者，现在去了哪里？</strong></p>
+
+<p>这个问题可以拆解为若干更具体的追问：</p>
+<ol>
+  <li>他们的顶级网络会议参与是否在整体下降？</li>
+  <li>如果是，下降是均匀分布还是集中在某些人身上？</li>
+  <li>那些退出顶级网络会议的人，在其他方向的发表是否能解释这种退出？</li>
+  <li>那些保持或增强顶级网络会议参与的人有什么特征？</li>
+  <li>是否存在向 AI/ML、系统或其他方向的迁移？如果有，这种迁移是"成为 AI 研究者"还是"为 AI 构建系统"？</li>
+  <li>中国、美国、欧洲等不同地区的研究者是否有不同的轨迹？</li>
+</ol>
+
+<p>本报告以数据驱动的方式逐步回答这些问题。它首先定义分析对象和测量方法，然后从最宏观的聚合模式出发，逐步深入到分组差异、个体轨迹、以及需要谨慎解读的边界情况。</p>
+
+<div class="callout callout-info">
+本报告的分析哲学是：<strong>先建立可审计的证据基础，再进行解释</strong>。在数据不足以支撑强结论的地方，报告会明确标注不确定性，而不是用推测填充空白。
+</div>
+</section>
+
+<!-- ──────── 2. DATA SCOPE ──────── -->
+<section id="s2">
+<h2>2. 数据范围与分析队列</h2>
+
+<section id="s2-1">
+<h3>2.1 核心 99 人定义</h3>
+
+<p>分析对象是从 3,571 位曾在 2018–2022 年间至少在 SIGCOMM、NSDI、CoNEXT、HotNets 或 IMC 上发表过一篇论文的研究者中筛选出的高信号子集。</p>
+
+<p><strong>核心 99 人的入选标准：</strong>在 2018–2022 年基线期内，在上述五个会议（合称"合格顶级网络会议"）上的论文数 ≥ 7。</p>
+
+<p>这 99 人按分析可用性进一步划分为：</p>
+
+<table>
+  <tr><th>类别</th><th>人数</th><th>说明</th></tr>
+  <tr><td>可分析核心</td><td><strong>87 人</strong></td><td>在两个时期均有 ≥ 5 篇干净会议论文，可构建稳定的百分比向量</td></tr>
+  <tr><td>低后期产出的排除者</td><td><strong>12 人</strong></td><td>2023–2026 年干净会议论文少于 5 篇，百分比向量不稳定（一篇论文可改变 20pp 以上的份额）</td></tr>
+</table>
+
+<div class="callout callout-warn">
+12 位被排除的研究者并非无关紧要。他们包括 Hari Balakrishnan（MIT CSAIL，29→4）、Ankit Singla（Google，25→1）、Alan Mislove（Northeastern，28→3）等领域的标志性人物。他们的"消失"可能反映退休、行业转型、DBLP 覆盖滞后或真正的产出下降。这些案例需要在单独的低产出群体分析中被严肃对待，而不是被丢弃。
+</div>
+</section>
+
+<section id="s2-2">
+<h3>2.2 特征构建</h3>
+
+<p>每位可分析研究者被赋予两个核心特征层：</p>
+
+<h4>静态组合特征</h4>
+<p>每个研究者的发表组合被映射为一个 10 维的会议家族百分比向量。会议被归入以下家族：</p>
+
+<table>
+  <tr><th>家族</th><th>示例会议</th></tr>
+  <tr><td><code>qualifying_top_networking</code></td><td>SIGCOMM、NSDI、CoNEXT、HotNets、IMC</td></tr>
+  <tr><td><code>other_networking</code></td><td>INFOCOM、ICNP、PAM、TMA、ANRW、APNet</td></tr>
+  <tr><td><code>systems</code></td><td>OSDI、SOSP、EuroSys、USENIX ATC、ASPLOS、SoCC、MLSys</td></tr>
+  <tr><td><code>AI_ML</code></td><td>ICML、ICLR、NeurIPS、AAAI、CVPR、ACL</td></tr>
+  <tr><td><code>security_privacy</code></td><td>USENIX Security、IEEE S&P、CCS、NDSS</td></tr>
+  <tr><td><code>mobile_wireless_iot</code></td><td>MobiCom、MobiSys、SenSys、IPSN</td></tr>
+  <tr><td><code>web_social_hci</code></td><td>WWW、CHI、ICWSM</td></tr>
+  <tr><td><code>data_management</code></td><td>SIGMOD、VLDB、ICDE</td></tr>
+  <tr><td><code>theory_distributed</code></td><td>PODC、DISC、SPAA、ICDCS</td></tr>
+  <tr><td><code>programming_languages</code></td><td>PLDI、POPL、OOPSLA</td></tr>
+</table>
+
+<p>每个时期每个家族的份额 = 该家族论文数 / 该时期总干净会议论文数 × 100。这一归一化处理使不同产出量的研究者可比。</p>
+
+<span class="tag tag-method">方法</span> 使用百分比而非原始计数，是因为研究者的发表量差异巨大（从十几篇到上百篇）。一篇系统论文对一位 10 篇论文的研究者而言是 10pp 的变化，对一位 100 篇论文的研究者而言只有 1pp。百分比控制了体量，使组合变化可比。
+
+<h4>动态特征与研究分组</h4>
+<p>针对每位研究者计算两个年化率比：</p>
+
+<ul>
+  <li><strong>顶级网络率比</strong> = (后期顶级网络论文数 / 4) / (基线顶级网络论文数 / 5)</li>
+  <li><strong>干净发表率比</strong> = (后期干净论文数 / 4) / (基线干净论文数 / 5)</li>
+</ul>
+
+<p>趋势标签使用确定性阈值：ratio ≥ 1.25 为"增长"，≤ 0.75 为"下降"，介于之间为"持平"，后期计数为 0 则为"2022 年后无活动"。</p>
+
+<span class="tag tag-caveat">注意</span> 后期分母统一为 4（2023–2026），但 2026 年数据尚不完整。这系统性地压低了后期年化率——对于 2026 年无论文的研究者，实际观测年数为 3 却除以 4，导致率值偏低约 25%。
+
+<details>
+<summary>📐 技术细节：年化率计算与阈值</summary>
+<div class="detail-content">
+<p>选择 1.25/0.75 阈值（而非 1.0）是为了将小幅波动归类为"持平"而非"增长/下降"。这些阈值尚未针对队列中率比的分布进行校准。接近边界的值（如 0.76 vs 0.74）会产生不同分组——应将这些边界附近的研究者视为分组不稳定的。</p>
+<p>固定 4 年后期分母是当前限制：2026 年 DBLP 索引尚不完整（SIGCOMM 2026 和 CoNEXT 2026 尚未举行）。计划采用动态年份校正，以每位研究者实际可用的观测年数为分母。</p>
+</div>
+</details>
+</section>
+
+<section id="s2-3">
+<h3>2.3 研究分组</h3>
+
+<p>以两个率特征为轴，将 87 位可分析研究者分为四个研究组（Inv-Q1 至 Inv-Q4）：</p>
+
+<table>
+  <tr><th>组</th><th>顶级网络率</th><th>干净发表率</th><th>通俗含义</th><th>人数</th></tr>
+  <tr><td><strong>Inv-Q1</strong></td><td>下降</td><td>持平或增长</td><td>顶级网络下降速度快于整体产出</td><td>15</td></tr>
+  <tr><td><strong>Inv-Q2</strong></td><td>持平或增长</td><td>持平或增长</td><td>强劲或稳定的可见会议存在</td><td>40</td></tr>
+  <tr><td><strong>Inv-Q3</strong></td><td>持平或增长</td><td>下降</td><td>顶级网络相对于其他产出得到维持</td><td>7</td></tr>
+  <tr><td><strong>Inv-Q4</strong></td><td>下降</td><td>下降</td><td>可见会议产出的广泛衰退</td><td>28</td></tr>
+</table>
+
+<div class="callout callout-info">
+<strong>直观理解：</strong>Inv-Q1 和 Inv-Q4 是我们主要关心的"退出"现象。区别在于 Inv-Q1 在其他地方有补偿性发表（他们的整体产出没减少，只是不在顶级网络会议发了），而 Inv-Q4 是全面地减少了会议发表。Inv-Q2 是稳定核心——他们维持甚至增加了产出。Inv-Q3 是在收缩中保持顶级网络会议焦点的小群体。
+</div>
+</section>
+</section>
+
+<!-- ──────── 3. FIRST LAYER ──────── -->
+<section id="s3">
+<h2>3. 第一层观察：整体图景</h2>
+
+<p>在进入分组分析之前，先看三个最直接的聚合测量。它们按细节递增排列：内部组合份额 → 绝对参与量 → 在顶级会议中的代表性。</p>
+
+<section id="s3-1">
+<h3>3.1 研究者内部组合份额</h3>
+
+<p><strong>这张图帮助我们判断：</strong>平均而言，一位核心研究者的发表组合是否发生了显著变化？变化发生在哪些方向？</p>
+
+<figure>
+  <img src="figures/aggregate_portfolio.png" alt="聚合组合份额图">
+  <figcaption>
+    <span class="fig-title">图 1：聚合发表组合（均值 ± 基线 vs 后期）</span>
+    <span class="fig-q">回答什么问题？</span> 平均而言，核心 99 人自己的论文组合在基线和后期之间是否不同？
+    <br><span class="fig-obs">应优先观察：</span>合格顶级网络会议（深蓝）和其他网络会议（浅蓝）在后期均下降；系统（绿）和 AI/ML（橙）小幅上升；但 AI/ML 的中位数在前后期均为 0%。
+    <br><span class="fig-note">解读注意：这是人均百分比均值。AI/ML 的均值从 2.4% 升至 4.4%，但中位数保持在 0%——扩张集中在少数人身上，不是队列范围的转变。</span>
+  </figcaption>
+</figure>
+
+<table>
+  <tr><th>家族</th><th>基线均值</th><th>后期均值</th><th>均值变化</th><th>基线中位数</th><th>后期中位数</th></tr>
+  <tr><td>合格顶级网络</td><td>44.3%</td><td>41.1%</td><td>−3.1pp</td><td>44.9%</td><td>38.5%</td></tr>
+  <tr><td>其他网络</td><td>21.7%</td><td>17.6%</td><td>−4.2pp</td><td>16.7%</td><td>11.8%</td></tr>
+  <tr><td>系统</td><td>10.4%</td><td>13.0%</td><td>+2.7pp</td><td>6.7%</td><td>6.7%</td></tr>
+  <tr><td>AI/ML</td><td>2.4%</td><td>4.4%</td><td>+2.0pp</td><td>0.0%</td><td>0.0%</td></tr>
+  <tr><td>安全隐私</td><td>5.7%</td><td>7.3%</td><td>+1.6pp</td><td>2.8%</td><td>0.0%</td></tr>
+  <tr><td>移动无线IoT</td><td>6.3%</td><td>6.4%</td><td>+0.0pp</td><td>0.0%</td><td>0.0%</td></tr>
+  <tr><td>Web/社交/HCI</td><td>2.0%</td><td>4.1%</td><td>+2.1pp</td><td>0.0%</td><td>0.0%</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>这意味着什么？</strong> 网络会议整体的份额在收缩（合计 −7.3pp），但系统、AI/ML、安全的增长（合计 +6.3pp）部分抵消了这一收缩。最重要的是<b>中位数</b>：多数家族的中位数为 0%，意味着大多数研究者的发表集中在少数几个家族中——组合变化是少数人的故事，而非整体迁移。
+</div>
+</section>
+
+<section id="s3-2">
+<h3>3.2 绝对作者-论文参与量</h3>
+
+<p><strong>这张表帮助我们判断：</strong>百分比变化背后是真实的体量转移还是分母效应？如果网络论文的绝对数量在减少，那么百分比下降反映的是真实的撤退。</p>
+
+<table>
+  <tr><th>家族</th><th>基线参与量</th><th>后期参与量</th><th>变化</th><th>年化基线</th><th>年化后期</th></tr>
+  <tr><td>合格顶级网络</td><td>906</td><td>619</td><td><strong>−287</strong></td><td>181.2/年</td><td>154.8/年</td></tr>
+  <tr><td>其他网络</td><td>655</td><td>307</td><td><strong>−348</strong></td><td>131.0/年</td><td>76.8/年</td></tr>
+  <tr><td>系统</td><td>270</td><td>253</td><td>−17</td><td>54.0/年</td><td>63.2/年</td></tr>
+  <tr><td>AI/ML</td><td>78</td><td>109</td><td>+31</td><td>15.6/年</td><td>27.2/年</td></tr>
+  <tr><td>安全隐私</td><td>148</td><td>110</td><td>−38</td><td>29.6/年</td><td>27.5/年</td></tr>
+  <tr><td>移动无线IoT</td><td>161</td><td>102</td><td>−59</td><td>32.2/年</td><td>25.5/年</td></tr>
+  <tr><td>Web/社交/HCI</td><td>65</td><td>93</td><td>+28</td><td>13.0/年</td><td>23.2/年</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>这意味着什么？</strong> 体量故事比百分比故事更尖锐。两个网络家族合计减少了 635 次作者-论文参与（合格顶级网络 −287 + 其他网络 −348）。AI/ML（+31）和 Web/HCI（+28）的增长是真实的但体量很小——它们只能弥补网络方向缩减的不到 10%。<b>整体可见会议产出在收缩，而重新分配发生在少数方向上。</b>
+</div>
+</section>
+
+<section id="s3-3">
+<h3>3.3 核心 99 人在顶级网络会议中的份额</h3>
+
+<p><strong>这张表帮助我们判断：</strong>核心 99 人是仍在顶级网络会议中占据重要位置，还是正在被新来者替代？</p>
+
+<table>
+  <tr><th>年份</th><th>SIGCOMM</th><th>NSDI</th><th>CoNEXT</th><th>HotNets</th><th>IMC</th><th>合计</th><th>核心 99 独特论文</th></tr>
+  <tr><td>2018</td><td>41</td><td>41</td><td>33</td><td>27</td><td>44</td><td>186</td><td>—</td></tr>
+  <tr><td>2019</td><td>33</td><td>50</td><td>33</td><td>21</td><td>40</td><td>177</td><td>—</td></tr>
+  <tr><td>2020</td><td>54</td><td>66</td><td>64</td><td>31</td><td>55</td><td>270</td><td>—</td></tr>
+  <tr><td>2021</td><td>56</td><td>60</td><td>51</td><td>32</td><td>55</td><td>254</td><td>—</td></tr>
+  <tr><td>2022</td><td>56</td><td>79</td><td>29</td><td>33</td><td>77</td><td>274</td><td>—</td></tr>
+  <tr><td><strong>基线合计</strong></td><td><strong>240</strong></td><td><strong>296</strong></td><td><strong>210</strong></td><td><strong>144</strong></td><td><strong>271</strong></td><td><strong>1,161</strong></td><td><strong>589 (51%)</strong></td></tr>
+  <tr><td>2023</td><td>108</td><td>97</td><td>41†</td><td>39</td><td>64</td><td>349</td><td>—</td></tr>
+  <tr><td>2024</td><td>63</td><td>113</td><td>49†</td><td>45</td><td>85</td><td>355</td><td>—</td></tr>
+  <tr><td>2025</td><td>89</td><td>84</td><td>78†</td><td>51</td><td>100</td><td>402</td><td>—</td></tr>
+  <tr><td>2026</td><td>—</td><td>151</td><td>—</td><td>—</td><td>—</td><td>151</td><td>—</td></tr>
+  <tr><td><strong>后期合计</strong></td><td><strong>260</strong></td><td><strong>445</strong></td><td><strong>168</strong></td><td><strong>135</strong></td><td><strong>249</strong></td><td><strong>1,257</strong></td><td><strong>~456</strong></td></tr>
+</table>
+
+<p>† CoNEXT 2023+ 包括 PACMNET 长论文。2026 年仅 NSDI 已被索引。</p>
+
+<div class="callout callout-finding">
+<strong>关键解读：</strong>
+<ul>
+  <li><b>核心 99 人的独特论文数基本稳定：</b>基线期年均 ~118 篇，后期年均 ~114 篇。每年出现在顶级网络会议论文上的核心 99 人面孔数量大致相同。</li>
+  <li><b>但分母在增长：</b>DBLP 收录的顶级网络会议总论文数从基线期年均 ~232 篇增长到后期（2024-25）年均 ~378 篇。核心 99 人的份额从 ~51% 降至 ~36%。但这个下降部分是分母膨胀的产物——DBLP 后期收录了更多 workshop 论文，且 2023 年起 CoNEXT 增加了 PACMNET 卷。</li>
+  <li><b>更干净的解读：</b>独特论文存在度稳定在 ~114 篇/年的原始数量。变化的是<b>谁</b>出现在这些论文上——作者-论文参与量下降（906→619）而独特论文数不变，意味着每篇论文上核心 99 合作者的重叠度在降低。论文总数在增加，新研究者正在填补论文，但核心 99 的联合密度在稀释。</li>
+</ul>
+</div>
+
+<span class="tag tag-caveat">分母数据质量</span> 后期 DBLP TOC 总数包含比基线期更多的 workshop 论文和 PACMNET 卷，因此基线/后期的分母不完全可比。截至报告撰写时（2026 年 6 月），SIGCOMM 2026 和 CoNEXT 2026 尚未举行。
+</section>
+</section>
+
+<!-- ──────── 4. WHO IS FALLING OUT ──────── -->
+<section id="s4">
+<h2>4. 第二层探索：谁在退出顶级网络会议？</h2>
+
+<p>聚合图景已经显示整体顶级网络参与在下降。现在分解到研究者层面，看这种下降如何在不同群体中分布。</p>
+
+<p>87 位可分析研究者中有 <strong>43 位（49.4%）</strong>的顶级网络率出现下降（Inv-Q1 + Inv-Q4）。他们在基线期贡献了 50.2% 的顶级网络作者-论文参与量，但后期只贡献了 28.1%。这是分析中最显著的重分配信号。</p>
+
+<figure>
+  <img src="figures/delta_by_inv_group.png" alt="按研究组的 Delta 组合变化">
+  <figcaption>
+    <span class="fig-title">图 2：按研究组划分的发表组合变化（Delta）</span>
+    <span class="fig-q">回答什么问题？</span> 四个研究组各自的发表组合如何变化？变化模式是否不同？
+    <br><span class="fig-obs">应优先观察：</span>Inv-Q1（左上）显示出最清晰的组合转移模式：合格顶级网络大幅下降（深蓝负值），同时在其他网络、系统和 Web/HCI 上有正补偿。Inv-Q4（右下）的下降面更广，较少方向性补偿。Inv-Q2（右上）变化最小。Inv-Q3（左下）在合格顶级网络上出现正向集中。
+  </figcaption>
+</figure>
+
+<section id="s4-1">
+<h3>4.1 Inv-Q1：替代而非简单退出</h3>
+
+<p>Inv-Q1 研究者（n=15）展现的特征是：顶级网络率在下降，但整体干净发表率持平或增长。这意味着他们<strong>仍然在积极发表</strong>，只是发表的场所从顶级网络会议转移到了其他地方。</p>
+
+<table>
+  <tr><th>指标</th><th>数值</th></tr>
+  <tr><td>人均合格顶级网络 Delta</td><td><strong>−24.6pp</strong></td></tr>
+  <tr><td>合格顶级网络体量变化</td><td>160 → 72 次参与</td></tr>
+  <tr><td>其他网络 Delta</td><td>+8.7pp</td></tr>
+  <tr><td>系统 Delta</td><td>+8.0pp</td></tr>
+  <tr><td>Web/HCI 体量变化</td><td>4 → 16 次参与</td></tr>
+</table>
+
+<p>对 Inv-Q1 研究者后期论文标题的直接检视揭示了一个清晰的模式：</p>
+
+<table>
+  <tr><th>研究者</th><th>后期论文主题</th><th>判断</th></tr>
+  <tr><td>Yibo Zhu 0001（ByteDance）</td><td>分布式 MoE 训练、LLM 推理服务、GPU 优化</td><td><strong>AI 基础设施，非核心 AI。</strong>所有论文发表在 EuroSys、OSDI、NSDI 等系统会议上。</td></tr>
+  <tr><td>Laurent Vanbever（ETH Zurich）</td><td>BGP、网络监控、数据包调度、网络验证</td><td><strong>仍然是网络研究。</strong>顶级网络会议的下降是场所重分配，不是主题退出。</td></tr>
+  <tr><td>Alex C. Snoeren（UC San Diego）</td><td>FPGA 卸载、RPC 系统、基础设施</td><td><strong>系统方向转移，网络邻近。</strong>保留了 IMC/SIGCOMM 存在。</td></tr>
+  <tr><td>Ihsan Ayyub Qazi（LUMS，巴基斯坦）</td><td>Web 可负担性、深度伪造检测、医疗 LLM、乌尔都语 NLP</td><td><strong>真正的主题退出。</strong>从网络转向 HCI/Web + 应用 NLP。后期仅 1 篇 IMC 论文。</td></tr>
+  <tr><td>Stefan Schmid 0001（Fraunhofer/TU Berlin）</td><td>网络算法、分布式系统理论</td><td><strong>仍是网络/理论，只是更少。</strong>体量下降（134→89），不是方向改变。</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>核心发现：</strong>15 位 Inv-Q1 研究者中，<strong>10 位仍在从事网络研究或网络邻近工作</strong>。"替代"主要是场所层面的——他们减少了在 SIGCOMM/NSDI/CoNEXT 的发表，但在邻近系统会议（EuroSys、ATC、ASPLOS）或次级网络会议（IMC、PAM、TMA）中继续发表。只有 2 位（Yibo Zhu 和 Ihsan Ayyub Qazi）展现出明确的研究主题转移，即使 Zhu 的转移也是到 AI 基础设施（为 ML 服务的系统），而非核心 AI 研究。
+</div>
+</section>
+
+<section id="s4-2">
+<h3>4.2 Inv-Q4：广泛衰退，方向不明</h3>
+
+<p>Inv-Q4 研究者（n=28）是最大的单组，在顶级网络和整体产出方面都在下降：</p>
+
+<table>
+  <tr><th>指标</th><th>数值</th></tr>
+  <tr><td>人均合格顶级网络 Delta</td><td>−5.8pp</td></tr>
+  <tr><td>干净发表总体量变化</td><td>866 → 360 次参与</td></tr>
+  <tr><td>合格顶级网络体量变化</td><td>294 → 102 次参与</td></tr>
+  <tr><td>其他网络体量变化</td><td>292 → 105 次参与</td></tr>
+</table>
+
+<p>Inv-Q4 的组合变化幅度小于 Inv-Q1（人均百分比移动更小），但原因不同：该组的<b>所有方向都在缩减</b>，因此组合份额的相对变化反而不那么剧烈。绝对体量的下降才是关键信号。</p>
+
+<div class="callout callout-warn">
+<strong>需要谨慎解读：</strong>Inv-Q4 不应被自动标记为"迁移"。可见的模式是会议发表体量下降，但这可能是由多种因素驱动：行业转型（如 Amin Vahdat 在 Google）、职业生涯阶段变化（资历增长后转向期刊或管理角色）、2026 年数据不完整、或真正的研究兴趣转变。在没有行业标签、职业生涯阶段信息和非会议产出数据的情况下，Inv-Q4 的"目标地"仍不明确。
+</div>
+</section>
+</section>
+
+<!-- ──────── 5. WHO REMAINS STRONG ──────── -->
+<section id="s5">
+<h2>5. 谁在顶级网络会议保持强劲？</h2>
+
+<section id="s5-1">
+<h3>5.1 Inv-Q2：稳定核心，轻度扩张</h3>
+
+<p>Inv-Q2（n=40，占可分析核心的 46.0%）是最大的组，也是最重要的组——这些研究者在顶级网络和整体产出方面都保持稳定或增长。他们是理解"什么构成了持续顶级网络参与"的关键。</p>
+
+<table>
+  <tr><th>指标</th><th>数值</th></tr>
+  <tr><td>合格顶级网络体量变化</td><td>381 → 391 次参与（+2.6%）</td></tr>
+  <tr><td>AI/ML 体量变化</td><td>51 → 89 次参与</td></tr>
+  <tr><td>系统体量变化</td><td>186 → 189 次参与（持平）</td></tr>
+  <tr><td>占后期顶级网络参与量份额</td><td>42.1% → <strong>63.2%</strong></td></tr>
+</table>
+
+<div class="callout callout-info">
+<strong>重要框架说明：</strong>Inv-Q2 在后期顶级网络会议参与量中的份额从 42.1% 升至 63.2%，但这主要是<b>组合效应</b>——Inv-Q1 和 Inv-Q4 合计减少了约 452 次顶级网络参与，使 Inv-Q2 的相对份额被动提升。Inv-Q2 自身的绝对顶级网络产出几乎不变（+2.6%）。这意味着<b>Inv-Q2 不是一个"增长"故事，而是一个"坚守"故事</b>——他们在其他人撤退时保持了阵地。
+</div>
+
+<p>Inv-Q2 内部的多样性很大。对代表性研究者的论文标题检视揭示了几个清晰的原型：</p>
+
+<table>
+  <tr><th>研究者</th><th>原型</th><th>顶级网络(基→后)</th><th>关键特征</th></tr>
+  <tr><td>Xin Jin 0008（北京大学）</td><td>爆发式增长者</td><td>13→21</td><td>核心 99 中绝对顶级网络增长最大（+8 篇）；系统导向（RDMA、内核旁路、DNN 推理）</td></tr>
+  <tr><td>Ying Zhang 0022（Meta）</td><td>最高率比</td><td>8→22</td><td>率比 3.44；网络验证、可编程数据平面、骨干网设计——经典网络主题，在 Meta 产出激增</td></tr>
+  <tr><td>Kai Chen 0005（HKUST）</td><td>系统+网络双增长</td><td>7→13</td><td>RDMA NIC 架构 + LLM 推理 + 联邦学习；双轨道并存</td></tr>
+  <tr><td>Aditya Akella（UT Austin/Google）</td><td>AI/ML 从零崛起</td><td>17→13</td><td>从零到 10 篇 ICML 论文（ML 调度、SmartNICs）；均为 AI 基础设施，非核心 ML</td></tr>
+  <tr><td>Mosharaf Chowdhury（Michigan）</td><td>AI 基础设施专家</td><td>8→5</td><td>几乎全部产出是 AI 基础设施（DNN 训练效率、GPU 能源、嵌入系统）</td></tr>
+  <tr><td>Behnaz Arzani（Microsoft Research）</td><td>行业稳定者</td><td>10→10</td><td>顶级网络数量精确持平；精英集中型</td></tr>
+  <tr><td>Ion Stoica（UC Berkeley/Databricks）</td><td>前期已 AI-广泛</td><td>13→12</td><td>不是新迁移者；在基线期就已 AI/系统广泛</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>核心发现：</strong>Inv-Q2 的系统/AI_ML 论文压倒性地关于<b>AI 基础设施</b>（分布式训练、LLM 推理服务、GPU 优化、ML 调度），而非核心 AI/ML 研究。他们发表在 ICML/NeurIPS 上的论文是关于训练/推理系统的，不是关于新模型架构或学习理论的。同时，他们的顶级网络论文仍然关于网络主题（RDMA、流控、骨干设计、网络验证、CDN 缓存、SmartNIC）。<b>Inv-Q2 不是"转向 AI 的网络研究者"——他们是"同时构建 AI 基础设施的网络研究者"。</b>
+</div>
+</section>
+
+<section id="s5-2">
+<h3>5.2 Inv-Q3：减法式集中</h3>
+
+<p>Inv-Q3 在表面上看似正向：合格顶级网络会议份额在上升。但体量数据给出完全不同的画面：</p>
+
+<table>
+  <tr><th>指标</th><th>数值</th></tr>
+  <tr><td>人数</td><td>7</td></tr>
+  <tr><td>人均合格顶级网络 Delta</td><td><strong>+22.7pp</strong></td></tr>
+  <tr><td>干净发表总体量变化</td><td>213 → 96（−55%）</td></tr>
+  <tr><td>合格顶级网络体量变化</td><td>71 → 54（−24%）</td></tr>
+  <tr><td>其他网络体量变化</td><td>63 → 13（−79%）</td></tr>
+</table>
+
+<p>合格顶级网络份额上升是因为<b>其他产出收缩得更快</b>——这些研究者停止了在 INFOCOM、ICNP、PAM 等场所的发表，但在 SIGCOMM/NSDI/CoNEXT/HotNets/IMC 上的发表虽然也减少了，减少得比整体慢。这不是"变得更强"，而是"其他部分消失了，剩下的大部分在顶级网络会议"。</p>
+
+<span class="tag tag-caveat">分母效应</span> Inv-Q3 是百分比可以产生误导的典型案例。份额 +22.7pp 看起来像是精英集中化，但绝对计数从 71 降至 54。当总产出收缩超过一半时，份额上升反映的是收缩的不均匀性，而非增长。
+</section>
+</section>
+
+<!-- ──────── 6. AI/ML & SYSTEMS MIGRATION ──────── -->
+<section id="s6">
+<h2>6. 第三层追问：AI/ML 与系统方向的迁移信号</h2>
+
+<p>如果存在"向 AI 迁移"的现象，它应该出现在 AI/ML 会议家族的份额增长中。本节聚焦于 AI/ML 和系统家族扩张最明显的个体，并追问：这些人在 AI/ML 会议上<b>做了什么</b>工作？</p>
+
+<section id="s6-1">
+<h3>6.1 AI/ML 扩张：集中在少数人，主要是 AI 基础设施</h3>
+
+<p>87 位可分析研究者中，仅 <strong>9 位</strong>的 AI/ML 份额增长超过 10 个百分点：</p>
+
+<table>
+  <tr><th>研究者</th><th>Delta AI/ML</th><th>AI/ML 论文(基→后)</th><th>组</th><th>他们在 AI/ML 会议上做了什么？</th></tr>
+  <tr><td>Aditya Akella</td><td>+29pp</td><td>0→10</td><td>Inv-Q2</td><td>分布式训练优化、ML 调度</td></tr>
+  <tr><td>Daehyeok Kim</td><td>+25pp</td><td>0→4</td><td>Inv-Q2</td><td>分布式 ML 训练系统</td></tr>
+  <tr><td>Jiaqi Gao</td><td>+25pp</td><td>0→5</td><td>Inv-Q2</td><td>ML 应用，需要论文级审查</td></tr>
+  <tr><td>Ihsan Ayyub Qazi</td><td>+24pp</td><td>3→7</td><td>Inv-Q1</td><td><strong>真正的主题转移</strong>：医疗 LLM、深度伪造检测、乌尔都语 NLP</td></tr>
+  <tr><td>John Heidemann</td><td>+23pp</td><td>0→3</td><td>Inv-Q4</td><td>以 ML 为工具做网络测量</td></tr>
+  <tr><td>Ion Stoica</td><td>+22pp</td><td>24→37</td><td>Inv-Q2</td><td>基线期就已 AI 广泛，继续扩展</td></tr>
+  <tr><td>Dongsu Han</td><td>+17pp</td><td>1→4</td><td>Inv-Q2</td><td>ML 系统和应用</td></tr>
+  <tr><td>Jianping Wu</td><td>+14pp</td><td>2→6</td><td>Inv-Q2</td><td>网络 AI/ML 应用</td></tr>
+  <tr><td>Ran Ben Basat</td><td>+13pp</td><td>2→2</td><td>Inv-Q3</td><td>AI/ML 计数持平，份额因分母缩小而上升</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>核心发现：</strong>9 位 AI/ML 扩张者中，<strong>7 位</strong>是在将他们既有的系统/网络专长应用到 ML 基础设施问题上（分布式训练、推理服务、调度）。只有 <strong>Ihsan Ayyub Qazi</strong> 展现出真正的主题迁移——从网络可访问性转向应用 NLP/ML（深度伪造检测、医疗 LLM、乌尔都语 NLP）。Ran Ben Basat 的 AI/ML 份额上升是分母效应（总产出缩减，AI/ML 论文绝对数持平）。<b>AI/ML 会议信号主要捕捉到的是"系统人为 ML 服务"的工作，而非"网络人变成了 AI 科学家"。</b>
+</div>
+</section>
+
+<section id="s6-2">
+<h3>6.2 系统方向扩张：同一种模式，更大的体量</h3>
+
+<p>系统家族扩张超过 10pp 的研究者有 7 位：</p>
+
+<table>
+  <tr><th>研究者</th><th>Delta 系统</th><th>系统论文(基→后)</th><th>他们的系统论文关于什么？</th></tr>
+  <tr><td>Yibo Zhu 0001</td><td>+36pp</td><td>6→10</td><td><strong>AI 基础设施独占：</strong>MoE 训练、LLM 推理服务、GPU GNN 训练、多模态 LLM 训练</td></tr>
+  <tr><td>Robert Soulé</td><td>+34pp</td><td>4→5</td><td>系统拓展（量子网络、OS/数据库系统），不是 AI</td></tr>
+  <tr><td>Alex C. Snoeren</td><td>+25pp</td><td>2→5</td><td>硬件/系统基础设施（FPGA 卸载、RPC）</td></tr>
+  <tr><td>Kai Chen 0005</td><td>+20pp</td><td>5→17</td><td><strong>双轨：</strong>网络系统（RDMA NIC）+ AI 基础设施（LLM 推理、联邦学习）</td></tr>
+  <tr><td>Mosharaf Chowdhury</td><td>+20pp</td><td>9→12</td><td><strong>AI 基础设施几乎独占：</strong>DNN 训练（Zeus、Oobleck）、嵌入系统（AdaEmbed）、GPU 能源</td></tr>
+  <tr><td>Gianni Antichi</td><td>+16pp</td><td>2→6</td><td>FPGA/SmartNIC 系统，网络加速</td></tr>
+  <tr><td>Arvind Krishnamurthy</td><td>+14pp</td><td>13→15</td><td>云系统、ML 基础设施</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>模式与 AI/ML 扩张者一致：</strong>系统增长同样由<b>AI 基础设施</b>工作驱动。Mosharaf Chowdhury 几乎全部论文都是关于让 ML 训练更高效；Yibo Zhu 的每一篇系统论文都涉及 ML 训练或推理系统。Kai Chen 0005 是网络系统（RDMA NIC）+ AI 基础设施的双轨并行。系统扩张在体量上是真实的，但它代表的是一种<b>新的系统研究方向（ML 基础设施）</b>，而非脱离系统专长。
+</div>
+
+<details>
+<summary>📐 MLSys 分类敏感性</summary>
+<div class="detail-content">
+<p>在当前 venue_family_map.json 中，MLSys 被归类在 <code>systems</code> 下。如果将其重新归入 <code>AI_ML</code>，13 位研究者的 AI_ML 份额将出现 >2pp 的变化——最显著的是 Mosharaf Chowdhury（+6pp AI_ML, −6pp 系统）、Arvind Krishnamurthy（+4.4pp AI_ML, −4.4pp 系统）和 Minlan Yu（+4.3pp AI_ML, −4.3pp 系统）。这一重新分类不会改变组级叙事（AI_ML 扩张仍然集中在少数人），但会移动个体研究者的系统/AI_ML 边界。完整敏感性数据见 <code>data/mlsys_sensitivity_check.json</code>。</p>
+</div>
+</details>
+</section>
+</section>
+
+<!-- ──────── 7. DEEPER STRUCTURE ──────── -->
+<section id="s7">
+<h2>7. 深层结构：静态画像与轨迹</h2>
+
+<p>前面的分析按研究组划分，但同一组内的研究者可能来自非常不同的起点。PCA 提供了补充视角：它展示了研究者的基线画像如何不同，以及相同的后期运动可能意味着不同的事。</p>
+
+<section id="s7-1">
+<h3>7.1 基线静态画像</h3>
+
+<p><strong>这张图帮助我们判断：</strong>核心 99 人在基线期是否具有不同的"研究者类型"？这些类型如何与后来的分组相关？</p>
+
+<figure>
+  <img src="figures/pca_baseline_labeled.png" alt="基线 PCA 散点图">
+  <figcaption>
+    <span class="fig-title">图 3：基线发表组合的 PCA（按研究组着色）</span>
+    <span class="fig-q">回答什么问题？</span> 核心 99 人在基线期是一个同质群体还是有不同的子类型？
+    <br><span class="fig-obs">应优先观察：</span>PC1（水平轴）从左（精英集中）到右（广泛网络）。PC2（垂直轴）从上（网络纯净）到下（系统/移动/AI 参与）。PC1 解释了最大方差——精英集中型 vs 广泛网络型是最大的结构分化。Inv-Q2（绿点）是最常见的组（40/87），因此在所有区域都有分布。代表研究者标签标示了一些极端位置。
+    <br><span class="fig-note">解读注意：PCA 坐标来自百分比画像，非原始计数。距离原点表示研究者的会议家族组成异常程度，而非发表更多论文。</span>
+  </figcaption>
+</figure>
+
+<p>PCA 前两个主成分解释了 67% 的方差。代表性的基线位置：</p>
+
+<table>
+  <tr><th>研究者</th><th>基线位置</th><th>含义</th></tr>
+  <tr><td>Behnaz Arzani（Microsoft Research）</td><td>精英集中端点</td><td>非常高的合格顶级网络份额</td></tr>
+  <tr><td>Debopam Bhattacherjee（MSR India/ETH）</td><td>精英集中端点</td><td>LEO/卫星网络和顶级网络集中</td></tr>
+  <tr><td>Georg Carle（TU Munich）</td><td>广泛网络端点</td><td>大的邻近网络份额</td></tr>
+  <tr><td>Stefan Schmid 0001（Fraunhofer/TU Berlin）</td><td>广泛且高体量</td><td>非常广泛的邻近网络加理论/分布式系统</td></tr>
+  <tr><td>Ion Stoica（UC Berkeley/Databricks）</td><td>系统参与端点</td><td>基线期就有大的系统和 AI/ML 份额</td></tr>
+</table>
+
+<div class="callout callout-info">
+<strong>这意味着什么？</strong> 合格顶级网络份额下降 25pp 对一名基线期 80% 份额都在顶级网络的研究者和对一名基线期只有 30% 份额的研究者意味着完全不同的事。前者是核心身份的弱化，后者可能只是广泛组合中的正常波动。<b>轨迹必须结合起点来理解。</b>
+</div>
+</section>
+
+<section id="s7-2">
+<h3>7.2 共享 PCA 空间中的轨迹</h3>
+
+<p><strong>这张图帮助我们判断：</strong>不同研究组的运动方向是否有系统性差异？</p>
+
+<figure>
+  <img src="figures/pca_baseline_with_trajectories.png" alt="PCA 基线散点图含轨迹箭头">
+  <figcaption>
+    <span class="fig-title">图 4：PCA 基线散点 + 轨迹箭头（合并视图）</span>
+    <span class="fig-q">回答什么问题？</span> 研究者从基线期到后期如何移动？不同研究组的运动方向是否不同？
+    <br><span class="fig-obs">应优先观察：</span>每个点代表一位研究者的基线位置，箭头指向后期位置。箭头颜色对应研究组。最长的箭头标注了研究者姓名。Inv-Q1（红箭头）的运动方向多样——有些向右（向广泛网络），有些向下（向系统/移动）。Inv-Q2（绿箭头）大多较短——他们移动不大。最大的运动沿着网络构成轴，而非 AI/ML 轴。
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="figures/pca_trajectories_shared.png" alt="PCA 轨迹箭头">
+  <figcaption>
+    <span class="fig-title">图 5：PCA 轨迹（纯箭头视图）</span>
+    <span class="fig-q">回答什么问题？</span> 只看运动方向和幅度，去掉基线位置的干扰。
+    <br><span class="fig-obs">应优先观察：</span>箭头长度和方向。最长箭头属于 Debopam Bhattacherjee（+50 PC1，+20 PC2）、Ingmar Poese（+47 PC1，+22 PC2）、Ran Ben Basat（−51 PC1）和 Robert Soulé（+49 PC2）。轨迹方向各异，没有统一"向 AI"的箭头群。
+  </figcaption>
+</figure>
+
+<p>最大的轨迹移动：</p>
+
+<table>
+  <tr><th>研究者</th><th>Δ PC1</th><th>Δ PC2</th><th>方向</th><th>解释</th></tr>
+  <tr><td>Debopam Bhattacherjee</td><td>+50</td><td>+20</td><td>向广泛网络</td><td>从高度精英集中转向更多邻近网络会议组合</td></tr>
+  <tr><td>Ingmar Poese</td><td>+47</td><td>+22</td><td>向广泛网络</td><td>类似的精英→广泛的拓展</td></tr>
+  <tr><td>Ran Ben Basat</td><td>−51</td><td>0</td><td>向精英集中</td><td>更集中于合格顶级网络</td></tr>
+  <tr><td>Robert Soulé</td><td>−2</td><td>+49</td><td>向系统/移动</td><td>向系统密集型组合转变</td></tr>
+  <tr><td>Aaron Schulman</td><td>+36</td><td>+29</td><td>广泛 + 系统/移动</td><td>大的顶级网络下降，其他方向有补偿</td></tr>
+  <tr><td>Ihsan Ayyub Qazi</td><td>+28</td><td>+29</td><td>广泛 + 系统/移动</td><td>顶级网络份额下降，AI_ML/web_social_hci 上升</td></tr>
+</table>
+
+<div class="callout callout-finding">
+<strong>关键观察：</strong>最大的运动沿着网络构成轴（PC1 和 PC2），而非主要沿着 AI_ML 方向。AI_ML 在个体 delta 中可见，但它不是 PCA 前两个主成分的主要结构——因为 AI_ML 在大多数研究者中稀疏，对总体方差的贡献小。这验证了前面的发现：<b>网络研究者的主要结构分化是网络内部的（精英集中 vs 广泛），而不是网络 vs AI。</b>
+</div>
+</section>
+</section>
+
+<!-- ──────── 8. DELTA DIAGNOSTICS ──────── -->
+<section id="s8">
+<h2>8. Delta 诊断与分解</h2>
+
+<p>PCA 轨迹图在展示两个主导维度上的运动方面很好，但它有三重不足：(1) PCA 隐藏了小但重要的家族，(2) 两个研究者在 PCA 空间中运动相似但可能通过不同家族转移，(3) AI_ML、安全和 Web/HCI 因稀疏在前两个 PC 中可见度低。</p>
+
+<p>因此，Delta 热力图（全部 10 个家族的个体级变化）仍然对研究者层面的检视至关重要：</p>
+
+<figure>
+  <img src="figures/delta_heatmap.png" alt="Delta 热力图">
+  <figcaption>
+    <span class="fig-title">图 6：Delta 热力图（87 位研究者 × 10 个会议家族）</span>
+    <span class="fig-q">回答什么问题？</span> 每位研究者的组合变化在 10 个维度上具体如何？谁在哪些家族上变化最大？
+    <br><span class="fig-obs">应优先观察：</span>y 轴按 Inv-Q 分组排序（颜色条在左侧），x 轴是 10 个会议家族。红色 = 份额增长，蓝色 = 下降。Inv-Q1（红色组条）展现出合格顶级网络（第一列）的系统性蓝色。Inv-Q2（绿色）变化总体较小。右下角的系统、AI_ML、Web/HCI 列有一些孤立的红色块。
+  </figcaption>
+</figure>
+
+<p>Delta PCA 双标图作为补充诊断，可揭示哪些会议家族驱动 delta 的变化方向：</p>
+
+<figure>
+  <img src="figures/delta_pca_biplot.png" alt="Delta PCA 双标图">
+  <figcaption>
+    <span class="fig-title">图 7：Delta PCA 双标图</span>
+    <span class="fig-q">回答什么问题？</span> 哪些会议家族的变化共同发生？加载箭头指向共同变化的方向。
+    <br><span class="fig-obs">应优先观察：</span>箭头方向表示家族 delta 对 PC 的贡献。同向箭头表示家族倾向于一起变动。合格顶级网络和其他网络的加载方向不同，说明它们倾向于反向变动（一个上升时另一个下降），与替代假设一致。
+  </figcaption>
+</figure>
+
+<section id="s8-1">
+<h3>8.1 地区与行业分解</h3>
+
+<p>将 delta 按地区和行业分解揭示了聚合视图中被掩盖的模式：</p>
+
+<table>
+  <tr><th>地区</th><th>人数</th><th>主要 Delta</th><th>模式</th></tr>
+  <tr><td><strong>美国</strong></td><td>58</td><td>合格 −1.8pp，其他 −5.2pp，系统 +2.3pp，AI_ML +2.1pp</td><td>广泛而温和的重分配，接近队列均值；最大群体</td></tr>
+  <tr><td><strong>中国</strong></td><td>4</td><td><strong>合格 +14.4pp</strong>，其他 −16.3pp，系统 +6.6pp</td><td><strong>最强的顶级网络集中</strong>；放弃低层级会议，聚焦精英场所</td></tr>
+  <tr><td><strong>欧洲</strong></td><td>20</td><td>合格 −7.9pp，其他 +1.3pp，系统 +2.4pp，安全 +2.7pp</td><td>合格顶级网络下降幅度超过美国；部分替代到系统和安全方向</td></tr>
+  <tr><td><strong>其他</strong></td><td>5</td><td>合格 −13.3pp，<strong>AI_ML +7.5pp，Web/HCI +7.6pp</strong></td><td>最大的 AI_ML 和 Web/HCI 扩张；最多元化的网络撤退</td></tr>
+</table>
+
+<figure>
+  <img src="figures/pca_delta_by_region.png" alt="按地区的 Delta PCA">
+  <figcaption>
+    <span class="fig-title">图 8：按地区分面的 Delta PCA 双标图</span>
+    <span class="fig-q">回答什么问题？</span> 不同地区的研究者的 delta 运动是否呈现不同的模式？
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="figures/pca_trajectories_by_region.png" alt="按地区的 PCA 轨迹">
+  <figcaption>
+    <span class="fig-title">图 9：按地区分面的 PCA 轨迹</span>
+    <span class="fig-q">回答什么问题？</span> 不同地区的研究者在 PCA 空间中的移动方向是否有系统差异？
+    <br><span class="fig-obs">应优先观察：</span>"中国"面板（n=4）的箭头整体向左/向下——向精英集中和系统/AI 方向移动。"其他"面板展现出最大的向右位移——向广泛网络和 Web/HCI 方向。
+  </figcaption>
+</figure>
+
+<p><strong>按行业：</strong></p>
+
+<table>
+  <tr><th>行业</th><th>人数</th><th>主要 Delta</th><th>模式</th></tr>
+  <tr><td><strong>学术界</strong></td><td>77</td><td>合格 −3.7pp，其他 −4.4pp，AI_ML +2.2pp，系统 +1.9pp</td><td>接近队列均值</td></tr>
+  <tr><td><strong>工业界</strong></td><td>10</td><td>合格 +1.2pp，<strong>系统 +8.2pp</strong>，其他 −2.5pp</td><td><strong>以系统为主导的增长</strong>；维持顶级网络；主要是在美国科技公司做 AI 基础设施</td></tr>
+</table>
+
+<figure>
+  <img src="figures/pca_delta_by_sector.png" alt="按行业的 Delta PCA">
+  <figcaption>
+    <span class="fig-title">图 10：按行业分面的 Delta PCA 双标图</span>
+    <span class="fig-q">回答什么问题？</span> 学术界和工业界研究者是否有不同的 delta 模式？
+  </figcaption>
+</figure>
+
+<div class="callout callout-finding">
+<strong>关键观察：</strong>中国研究者（n=4）展现出最强的顶级网络集中趋势——他们并未退出网络，而是<b>将产出集中在最精英的场所</b>，放弃了低层级会议。工业界研究者（n=10）展现出独特的<b>系统方向增长</b>（+8.2pp），主要是 AI 基础设施工作。"其他"地区（韩国、巴基斯坦、印度、巴西、香港）展现出最大的 AI_ML 和 Web/HCI 扩张，主要由 Ihsan Ayyub Qazi 的主题转移驱动。
+</div>
+
+<span class="tag tag-caveat">小样本警告</span> 中国（n=4）和"其他"（n=5）地区的研究者数量极少，均值对个体波动敏感。不应将地区级差异推广为系统性结论。
+</section>
+</section>
+
+<!-- ──────── 9. CURRENT FINDINGS ──────── -->
+<section id="s9">
+<h2>9. 当前发现</h2>
+
+<p>以下发现基于当前可用的会议归属级数据。它们被表述为可检验的命题，而非最终结论。</p>
+
+<ol class="finding-list">
+  <li><strong>核心 99 人并非铁板一块。</strong>基线画像从精英集中型（~80% 论文在五个顶级网络会议）到广泛网络型（论文散布在数十个会议中）到系统参与型（已有显著的系统和 AI/ML 份额）。没有单一的"网络研究者"画像。</li>
+
+  <li><strong>首要聚合信号不是队列范围的 AI/ML 或系统迁移。</strong>更大的信号是重分配：核心 99 人在顶级网络会议上的独特论文存在度在原始年化数量上大致稳定（~114 篇/年）。顶级网络作者-论文参与量和邻近网络参与量大幅下降，而 AI/ML、系统份额和 Web/HCI 的增长较小且集中。</li>
+
+  <li><strong>大的个体退出现象存在：</strong>87 位可分析研究者中有 43 位失去了顶级网络存在感。Inv-Q1（15 人）表现为从顶级网络的替代性撤退（在其他方向继续发表）；Inv-Q4（28 人）表现为广泛的发表体量下降，方向不明确。</li>
+
+  <li><strong>退出模式目前应被描述为旧核心部分研究者顶级网络能见度的退化或重分配</strong>，而非已证实的主题迁移或集体消失。</li>
+
+  <li><strong>Inv-Q2 在队列收缩的同时维持了绝对顶级网络产出：</strong>381→391 次参与（+2.6%）。其后期顶级网络参与份额上升（42.1%→63.2%）是组合性的——由 Inv-Q1 和 Inv-Q4 减持约 452 次参与驱动。AI_ML 数量增长，系统保持大规模。</li>
+
+  <li><strong>Inv-Q3 最好被谨慎解读为收缩中的集中，而非自动增强，</strong>因为其原始干净产出急剧下降。</li>
+
+  <li><strong>AI_ML 扩张对 9 位研究者是真实的，系统份额移动对 7 位研究者是显著的。</strong>论文标题级检视显示，绝大多数 AI_ML/系统会议论文是关于 AI 基础设施（分布式训练、LLM 推理、GPU 优化），而非核心 AI 研究。唯一的明确例外是 Ihsan Ayyub Qazi，他从网络转向了应用 NLP 和 HCI。</li>
+</ol>
+</section>
+
+<!-- ──────── 10. METHODS & CAVEATS ──────── -->
+<section id="s10">
+<h2>10. 方法与口径说明</h2>
+
+<p>以下限制是有意记录在案的。它们定义了当前证据能说什么、不能说什么。</p>
+
+<details open>
+<summary>📐 时期长度与年化率</summary>
+<div class="detail-content">
+<p>基线期为 5 年（2018–2022），后期为 4 年（2023–2026）。率特征通过除以固定分母（5 和 4）进行年化。但 2026 年数据不完整——截至 2026 年 6 月，SIGCOMM 2026 和 CoNEXT 2026 尚未举行或索引。2026 年无论文的研究者实际上被观测了 3 年但除以 4，导致率值偏低约 25%。动态年份校正已计划但尚未实施。</p>
+</div>
+</details>
+
+<details>
+<summary>📐 率阈值（1.25/0.75）</summary>
+<div class="detail-content">
+<p>增长/持平/下降的标签使用确定性阈值（率比 ≥ 1.25 为增长，≤ 0.75 为下降）。这些阈值未针对队列中率比的分布进行校准。接近边界的研究者（如 0.76 vs 0.74）组归属不稳定。建议用替代边界（如 1.15/0.85 或 1.35/0.65）进行敏感性分析，但尚未完成。</p>
+</div>
+</details>
+
+<details>
+<summary>📐 会议分类限制</summary>
+<div class="detail-content">
+<p><strong>MLSys 分类：</strong>当前归类在 <code>systems</code> 下。如果归入 <code>AI_ML</code>，13 位研究者的画像将发生变化。敏感性检查已完成但未纳入主导分析。</p>
+<p><strong>ICML-to-系统边界：</strong>在 ML 会议（ICML、NeurIPS、ICLR）上发表的关于分布式训练、LLM 推理或 GPU 集群网络的论文，被会议归属分类为 AI_ML，但实质上是系统/基础设施工作。这是基于会议的分类的已知限制——它回答论文出现在<b>哪里</b>，而不是论文<b>关于什么</b>。需要论文主题分析（超出当前范围）来解决。</p>
+<p><strong>PACMNET 问题：</strong>自 2023 年起，CoNEXT 长论文在 PACMNET 发表（ACM 期刊集成会议模型）。当前管道将 PACMNET 归类为期刊（journal=True），将其从干净会议计数中排除，系统性地低报了核心 99 人 2023 年后的 CoNEXT 论文。修补方案已计划。</p>
+</div>
+</details>
+
+<details>
+<summary>📐 队列构建与选择偏差</summary>
+<div class="detail-content">
+<p><strong>12 位低后期产出排除者：</strong>12 位被排除的研究者（包括 Hari Balakrishnan、Ankit Singla、Alan Mislove 等）代表了真实且可能至关重要的案例——退休、行业退出、或数据滞后。他们不应被忽视，需要在单独分析中处理。</p>
+<p><strong>无回归均值检验：</strong>核心 99 是在其顶峰期（≥7 篇论文在五个顶级网络会议）被选出的。即使在零行为变化假设下，后选计数也应预期向均值回归。一部分观察到的"衰退"是统计假象。需要一个来自更早时期的比较队列（如 2013–17 年 ≥7 篇论文）来区分领域特定变化和统计效应。</p>
+<p><strong>COVID 扭曲：</strong>基线期跨越 COVID-19。2020–2021 年的会议取消、虚拟格式和投稿中断对不同子领域的影响不同。系统和 AI 会议可能与网络会议有不同的中断和恢复模式。</p>
+</div>
+</details>
+
+<details>
+<summary>📐 覆盖范围与数据质量</summary>
+<div class="detail-content">
+<p><strong>DBLP 覆盖滞后：</strong>近期会议（尤其是 2025 年底和 2026 年）的 DBLP 索引可能不完整。这影响所有后期度量。</p>
+<p><strong>仅会议范围：</strong>本分析有意排除期刊、书籍和学位论文。在网络和 AI/ML 领域，顶级会议是主要的高影响力发表渠道，这一范围选择是合理的。但转向期刊发表的研究者将显得产出下降。这对 Inv-Q4 的解释尤为关键。</p>
+<p><strong>缺失摘要：</strong>大多数 DBLP 记录缺乏摘要，限制了基于主题分类的能力。这是 DBLP 作为数据源的固有约束。</p>
+<p><strong>无作者贡献权重：</strong>所有合著者获得同等权重（每篇论文每位作者一次参与）。这在大作者列表的 AI/ML 论文中夸大了中等/资深作者的表面参与。分数计数（1/N 对 N 位作者的论文）或第一作者加权将改变个体画像。</p>
+</div>
+</details>
+</section>
+
+<!-- ──────── 11. OPEN QUESTIONS ──────── -->
+<section id="s11">
+<h2>11. 开放问题与后续方向</h2>
+
+<p>以下问题塑造了后续分析的方向。部分需要新的衍生数据，不应仅凭会议家族向量回答。</p>
+
+<table>
+  <tr><th>问题</th><th>为什么重要</th><th>需要什么</th></tr>
+  <tr><td>Inv-Q1 退出顶级网络后实际在做什么？</td><td>区分主题迁移和会议/声望漂移</td><td>论文标题/摘要，可能需 LLM 辅助的主题总结</td></tr>
+  <tr><td>Inv-Q2 在顶级网络会议上维持强劲的主题是什么？</td><td>检验稳定核心是经典网络、AI 基础设施、系统还是混合型</td><td>顶级网络论文的主题级分析</td></tr>
+  <tr><td>Inv-Q1 和 Inv-Q2 的主题画像是否不同，还是主要是会议场所不同？</td><td>这是实质性的迁移问题</td><td>按组和时期的可比主题向量</td></tr>
+  <tr><td>AI_ML 和系统扩张者的工作是核心 AI、AI 基础设施、网络系统还是经典系统？</td><td>仅凭会议家族无法区分</td><td>标题/摘要级分类</td></tr>
+  <tr><td>鉴于退出规模较大，谁是新的 2023–2026 年顶级网络核心研究者？</td><td>即使旧核心成员衰退，领域可能正在更新</td><td>构建 2023–2026 顶级网络队列并与 2018–2022 核心比较</td></tr>
+  <tr><td>新顶级网络核心研究者在 2018–2022 年间在哪里？</td><td>区分初级新人和晚期迁入网络者</td><td>回溯历程和作者位置</td></tr>
+  <tr><td>Inv-Q3 有多少是分母效应？</td><td>防止夸大集中</td><td>原始计数敏感性分析</td></tr>
+  <tr><td>会议级主题构成是否同步变化？</td><td>研究者运动可能反映会议趋势变化</td><td>每个会议每年的主题画像</td></tr>
+</table>
+
+<p>后续优先工作应为：</p>
+<ol>
+  <li>为关键组（Inv-Q1、Inv-Q2、AI_ML 扩张者、系统扩张者）构建论文主题包。</li>
+  <li>在依赖 LLM 摘要之前进行摘要覆盖审计。</li>
+  <li>运行 Inv-Q1 至 Inv-Q4 的原始计数敏感性分析。</li>
+  <li>构建 2023–2026 顶级网络核心并与当前核心 99 进行比较。</li>
+  <li>为新人增加作者位置总结。</li>
+</ol>
+
+<span class="tag tag-open">开放</span> LLM 驱动的历程分析应在主题包和证据问题明确后再进入。第一项 LLM 任务应为带有标题/会议引用的描述性总结，而非最终迁移标签。
+</section>
+
+<!-- ──────── 12. APPENDIX ──────── -->
+<section id="s12">
+<h2>12. 附录：图表清单与数据制品</h2>
+
+<h3>图表清单</h3>
+<table>
+  <tr><th>图表文件</th><th>内容</th></tr>
+  <tr><td><code>figures/aggregate_portfolio.png</code></td><td>聚合组合份额（均值基线 vs 后期，含 delta 标注）</td></tr>
+  <tr><td><code>figures/delta_by_inv_group.png</code></td><td>按研究组的 Delta 组合变化（4 面板）</td></tr>
+  <tr><td><code>figures/delta_heatmap.png</code></td><td>87 位研究者 × 10 家族 Delta，按 Inv-Q 组排序</td></tr>
+  <tr><td><code>figures/pca_baseline_labeled.png</code></td><td>基线 PCA + Inv-Q 颜色 + 代表研究者标签</td></tr>
+  <tr><td><code>figures/pca_baseline_with_trajectories.png</code></td><td>基线 PCA 散点 + 轨迹箭头合并视图</td></tr>
+  <tr><td><code>figures/pca_trajectories_shared.png</code></td><td>纯箭头轨迹（基线→后期），按 Inv-Q 着色</td></tr>
+  <tr><td><code>figures/delta_pca_biplot.png</code></td><td>Delta PCA 双标图 + 会议家族加载箭头</td></tr>
+  <tr><td><code>figures/pca_delta_by_region.png</code></td><td>Delta PCA 按地区分面</td></tr>
+  <tr><td><code>figures/pca_delta_by_sector.png</code></td><td>Delta PCA 按行业分面</td></tr>
+  <tr><td><code>figures/pca_trajectories_by_region.png</code></td><td>PCA 轨迹按地区分面</td></tr>
+  <tr><td><code>figures/pca_trajectories_by_sector.png</code></td><td>PCA 轨迹按行业分面</td></tr>
+</table>
+
+<h3>关键数据制品</h3>
+<table>
+  <tr><th>制品</th><th>说明</th></tr>
+  <tr><td><code>data/core99_feature_vectors.json</code></td><td>87 位可分析研究者：基线/后期/delta 画像 + PCA/t-SNE 坐标</td></tr>
+  <tr><td><code>data/core99_researcher_attributes.json</code></td><td>全部 99 位研究者的确定性属性</td></tr>
+  <tr><td><code>data/core99_investigation_summary.json</code></td><td>研究组级聚合</td></tr>
+  <tr><td><code>data/venue_family_map.json</code></td><td>会议到家族的映射和别名（343 条映射，24 条别名）</td></tr>
+</table>
+
+<h3>相关文档</h3>
+<ul>
+  <li><a href="CORE99_INVESTIGATION.md">CORE99_INVESTIGATION.md</a> — 详细研究表、分解和研究者级注释</li>
+  <li><a href="CORE99_RESEARCHER_ATTRIBUTES.md">CORE99_RESEARCHER_ATTRIBUTES.md</a> — 每位研究者的确定性属性定义</li>
+  <li><a href="ANALYSIS_PLAN.md">ANALYSIS_PLAN.md</a> — 完整项目计划和 TODO 列表</li>
+  <li><a href="README.md">README.md</a> — 主项目索引</li>
+</ul>
+
+<hr>
+<p style="text-align:center;color:#999;font-size:0.88em;margin-top:40px;">
+  本报告由原始分析笔记 <code>CORE99_ANALYSIS.md</code> 和关联数据制品生成。<br>
+  所有数字均来自确定性数据管道，未经 LLM 增强。报告中的解释性陈述均基于已记录的证据。<br>
+  生成日期：2026 年 6 月 16 日。
+</p>
+
+</section>
+
+</main>
+</body>
+</html>
