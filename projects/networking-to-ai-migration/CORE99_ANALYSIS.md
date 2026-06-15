@@ -30,13 +30,13 @@ Those 12 researchers are not discarded from the project. They remain part of cor
 |-----------|------------|:---:|:---:|-------|
 | Hongqiang Harry Liu | Uber AI | 21 | 3 | Publishing slowed |
 | Hari Balakrishnan | MIT CSAIL | 29 | 4 | Reduced academic conference output |
-| Ming Zhang 0005 | Unknown (DBLP collision) | 12 | 0 | Inactive after 2022 in clean conference data |
+| Ming Zhang 0005 | Alibaba (China) | 12 | 0 | Inactive after 2022 (moved to Alibaba) |
 | Ankit Singla | Google (Switzerland) | 25 | 1 | Near-complete publishing stop in clean conference data |
 | Alan Mislove | Northeastern University | 28 | 3 | Reduced academic conference output |
 | Christoph Dietzel | MPI Informatics | 14 | 0 | Inactive after 2022 in clean conference data |
 | John Sonchack | Princeton University | 15 | 2 | Reduced output |
 | Yu Zhou 0008 | National Univ. Singapore | 27 | 2 | Reduced output |
-| Matt Calder | Unknown | 14 | 3 | Reduced output |
+| Matt Calder | Meta (US) | 14 | 3 | Reduced output (industry — Meta) |
 | Robert Beverly | Lawrence Berkeley National Lab | 12 | 3 | Reduced output |
 | Bruce M. Maggs | Duke University | 14 | 3 | Reduced output |
 | Stefano Vissicchio | University College London | 7 | 3 | Reduced output |
@@ -302,6 +302,8 @@ Representative examples:
 | Arvind Krishnamurthy | Senior, slight decline but flat by rate | Google / U. Washington (US) | 19 → 14 | SIGCOMM/NSDI on distributed systems, networked systems | SIGCOMM/NSDI/MLSys on cloud systems, ML infrastructure | At Google; 14 post top-net papers still makes him one of the highest-volume |
 | Ion Stoica | Already AI-broad at baseline | UC Berkeley / Databricks (US) | 13 → 12 | NSDI/OSDI/ICML on distributed systems, RL, graph systems | ICML/MLSys/NSDI on LLM inference, DNN serving, cloud robotics | Not a new migrant; already broad and AI-heavy at baseline |
 
+% WQ: the above table seems still broken, double check?
+
 These nine examples span: explosive growth (Jin, Zhang), AI/systems expansion (Chen, Akella, Qian), senior stable (Yu, Krishnamurthy), industry stable (Arzani), and pre-existing AI breadth (Stoica). Chinese-affiliated researchers (Jin, Chen) show strong top-networking growth; US industry researchers (Arzani, Zhang at Meta) show stable or growing presence. The key takeaway is that Inv-Q2 is internally diverse — some researchers are genuinely expanding their top-networking presence, others are maintaining it while broadening to AI/systems, and some are stable at high volume without directional change.
 
 A title-level inspection of the 9 Inv-Q2 representative examples answers this directly:
@@ -432,6 +434,8 @@ PCA on baseline profiles explains 67% of variance in the first two components.
 
 ![PCA Baseline Labeled](figures/pca_baseline_labeled.png)
 
+% WQ: please double check the plot, it is predominantly green, and no need to use black for excluded, as they will not show on the figure.
+
 Important limitation: PCA coordinates are computed from percentage profiles, not raw paper counts. Distance from the origin means the researcher's venue-family composition is unusual relative to the sample; it does not mean the researcher publishes more papers. Publication volume must be read from the count tables, not from PCA position or vector norm.
 
 **Visualization note (regenerated 2026-06-15):** `pca_baseline_labeled.png` now uses Inv-Q group colors (Inv-Q1=red, Inv-Q2=green, Inv-Q3=orange, Inv-Q4=gray, excluded=dark). Representative researchers from §§4-6 are labeled. The old sys/AI/storage quadrant legend has been removed. See `scripts/regenerate_charts.py`.
@@ -453,6 +457,8 @@ This matters because a decline in qualifying venue share means different things 
 The shared baseline/post projection and trajectory view are best read together, so the trajectory figure is the primary visualization here. Each arrow shows one researcher's movement from baseline to post-2023 using the baseline PCA axes.
 
 ![PCA Trajectories](figures/pca_trajectories_shared.png)
+
+% WQ: you bugged the plot, it looks now empty
 
 **Visualization note (regenerated 2026-06-15):** `pca_trajectories_shared.png` now uses Inv-Q group colors (same scheme as baseline PCA). PC2 axis direction has been corrected to match `pca_baseline_labeled.png` — the shared PCA coordinates in `core99_feature_vectors.json` had PC2 sign-flipped relative to baseline PCA; this is now corrected in `regenerate_charts.py` by negating PC2 for shared coordinates. Arrow endpoints are labeled with the same representative researchers from §§4-6 for narrative consistency.
 
