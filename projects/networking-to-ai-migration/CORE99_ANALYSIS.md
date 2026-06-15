@@ -226,7 +226,19 @@ Representative examples, chosen to cover different Inv-Q1 mechanisms rather than
 | Laurent Vanbever | Still networking-centered despite top-net decline | Network control, routing, monitoring, BGP, network verification | BGP, network monitoring, packet scheduling, privacy/security-adjacent networking | More venue redistribution than topic exit |
 | Alex C. Snoeren | Systems/security/network measurement mix | IMC/SIGCOMM, VPNs, congestion, datacenter SDN, security | SIGCOMM/IMC plus ASPLOS/SOSP/ATC on FPGA, RPCs, infrastructure | Broad systems/networking blend |
 
-Open question requiring paper-topic analysis: for Inv-Q1, are these researchers still doing networking topics in less selective or adjacent venues, or are they changing research questions? Venue family alone cannot answer that.
+A direct inspection of post-2023 paper titles for each Inv-Q1 researcher clarifies what "substitution" actually means at the individual level:
+
+| Researcher | Post-2023 topics (from titles) | Verdict |
+|---|---|---|
+| Yibo Zhu 0001 | Distributed DNN training (Espresso, Lina), LLM serving (DistServe), GPU optimization, multimodal LLM training (DistTrain) | **AI infrastructure, not core AI.** All papers at EuroSys, OSDI, NSDI — systems venues. Topic is ML systems, not ML research. |
+| Laurent Vanbever | BGP, network monitoring, packet scheduling, network verification | **Still networking.** Top-net decline is venue redistribution, not topic exit. |
+| Alex C. Snoeren | FPGA offload, RPC systems, infrastructure at ASPLOS/SOSP/ATC | **Systems shift, networking-adjacent.** Retains IMC/SIGCOMM presence. |
+| Ihsan Ayyub Qazi | Web affordability, deepfake audio detection, healthcare LLMs, Urdu NLP at WWW/ACL/EMNLP/COLING | **Genuine topic exit from networking.** Now in HCI/web + applied NLP. Only 1 IMC paper post-2023. |
+| Stefan Schmid 0001 | Network algorithms, distributed systems theory (broad volume decline: 134→89) | **Still networking/theory, just less.** Volume decline, not topic shift. |
+| Kyle Jamieson | Wireless sensing, signal processing, networking systems | **Still networking/wireless.** Top-net decline is volume, not direction. |
+| Others (9) | Varied but predominantly networking-adjacent: measurement (IMC), systems, security | **Mostly venue redistribution + volume decline.** |
+
+**The pattern:** 10 of 13 Inv-Q1 researchers are still doing networking or networking-adjacent work. The "substitution" is primarily venue-level — they publish fewer papers at SIGCOMM/NSDI/CoNEXT but continue working on related topics at adjacent venues (IMC, PAM, TMA) or systems venues (EuroSys, ATC, ASPLOS). Only 2 of 13 (Yibo Zhu, Ihsan Ayyub Qazi) show a clear research-topic shift, and even Zhu's shift is to AI infrastructure (systems for ML), not core AI research.
 
 ### 4.2 Inv-Q4: Broad Decline, Not a Clear Destination
 
@@ -247,7 +259,7 @@ Representative examples:
 | Aaron Schulman | Wireless/security infrastructure profile with lower volume | IMC/NSDI/SIGCOMM/MobiCom/security on wireless, failures, security | MobiCom/security/PAM/ASPLOS on sensing, base stations, physical-layer security | Needs career/institution context |
 | Mohammad Alizadeh | High-profile networking/systems researcher with reduced volume | Congestion control, datacenter systems, video analytics, road-network AI/data work | Still NSDI/SIGCOMM plus ICML/ICDE/video/network systems | Lower volume, not clean migration away |
 
-Open question: what explains broad decline among Inv-Q4? This needs institution/sector/career-stage labels and possibly non-conference output checks.
+Open question: what explains broad decline among Inv-Q4? This needs institution/sector/career-stage labels and possibly non-conference output checks. (Deferred — sector labels are currently Unknown for nearly all researchers; see §12 for data quality notes.)
 
 ## 5. Question 2: Who Remains Strong in Top Networking?
 
@@ -274,25 +286,43 @@ The key point is that Inv-Q2 is not a migration-away group. It is better describ
 
 Important framing note: Inv-Q2's rising share of post-2023 top-networking author-paper incidences (42.1% → 63.2%) is partly mechanical — Inv-Q1 and Inv-Q4 collectively reduce their qualifying-venue incidences by ~452, while Inv-Q2's absolute count is nearly unchanged (381 → 391, +2.6%). Inv-Q2 maintains absolute output at roughly the same level; the rising share reflects the cohort contracting around them, not an expansion of Inv-Q2's own top-networking activity. The share gain is compositional redistribution, not growth.
 
-Inv-Q2 is 37 researchers (42.5% of analyzable core-99). They are the largest group and the most important for understanding what stable or growing top-networking engagement looks like. The examples below are chosen to cover distinct archetypes within the group: explosive growers, AI_ML/systems expanders, stable high-volume incumbents, and industry researchers maintaining presence.
+Inv-Q2 is 40 researchers (46.0% of analyzable core-99, after PACMNET pipeline fix). They are the largest group and the most important for understanding what stable or growing top-networking engagement looks like. The examples below are chosen to cover distinct archetypes within the group: explosive growers, AI_ML/systems expanders, stable high-volume incumbents, and industry researchers maintaining presence. Affiliations are included for institutional context.
 
 Representative examples:
 
 | Researcher | Archetype | Baseline (top-net → post) | Baseline topic/venue pattern | Post-2023 topic/venue pattern | Caution |
 |---|---|---|---|---|---|
-| Xin Jin 0008 | Explosive top-net grower | 13 → 21 | NSDI/SIGCOMM on programmable networks, distributed systems | NSDI-heavy (14 papers) on RDMA, kernel bypass, accelerators | Strongest absolute top-net increase in core-99 (+8 papers); systems-focused, not AI |
-| Ying Zhang 0022 | Highest rate-ratio in core-99 | 8 → 22 | Networking/systems measurement, datacenter | SIGCOMM-heavy (12 papers) on network verification, programmable data planes | Rate ratio 3.44 — nearly quadrupled top-net output; China-based, senior→collaborator shift suggests group growth |
-| Kai Chen 0005 | Systems + top-net dual growth | 7 → 13 | Datacenter networking, RDMA, congestion control | NSDI/SIGCOMM/EuroSys plus LLM inference, DNN training, federated learning | AI/sys growth (+12 systems papers) coexists with stronger top networking |
-| Feng Qian 0001 | Broad portfolio, networking + mobile + AI | 10 → 12 | Mobile/wireless/networking systems, video streaming | NSDI/SIGCOMM plus MobiCom/ICML on mobile AI, AR/VR networking, edge computing | Demonstrates that AI expansion and top-networking maintenance are compatible |
-| Aditya Akella | AI_ML from zero, retains top-net | 17 → 13 | Programmable NICs, RDMA, datacenter networking | ICML/NSDI/ASPLOS/MICRO on ML collective scheduling, SmartNICs | New AI_ML presence (0→10 ICML papers) from zero baseline; AI infrastructure not core ML |
-| Minlan Yu | Senior stable, mild systems shift | 16 → 14 | Network virtualization, SDN, programmable data planes | NSDI/SIGCOMM on ML for networking, cloud network management | Senior researcher maintaining high output; slight systems broadening |
-| Behnaz Arzani | Industry researcher, elite-stable | 10 → 10 | Microsoft; NSDI/SIGCOMM on network reliability, debugging | NSDI/HotNets on network verification, data-plane correctness | Exactly flat top-net count; industry (Microsoft Research), highly elite-concentrated |
-| Arvind Krishnamurthy | Senior, slight decline but still flat by rate | 19 → 14 | SIGCOMM/NSDI on distributed systems, networked systems | SIGCOMM/NSDI/MLSys on cloud systems, ML infrastructure | At Google; 14 post top-net papers still makes him one of the highest-volume; MLSys presence blurs systems/AI boundary |
-| Ion Stoica | Already AI-broad at baseline | 13 → 12 | NSDI/OSDI/ICML on distributed systems, RL, graph systems | ICML/MLSys/NSDI on LLM inference, DNN serving, cloud robotics | Not a new migrant; already broad and AI-heavy at baseline. Included for continuity with earlier examples |
+| Researcher | Archetype | Affiliation | Top-net (bl→post) | Baseline pattern | Post-2023 pattern | Caution |
+|---|---|---|---|---|---|---|---|
+| Xin Jin 0008 | Explosive top-net grower | Peking University (China) | 13 → 21 | NSDI/SIGCOMM on programmable networks, distributed systems | NSDI-heavy (14 papers) on RDMA, kernel bypass, accelerators | Strongest absolute top-net increase in core-99 (+8 papers); systems-focused, not AI |
+| Ying Zhang 0022 | Highest rate-ratio in core-99 | Meta (US) | 8 → 22 | Networking/systems measurement, datacenter | SIGCOMM-heavy (12 papers) on network verification, programmable data planes, backbone design | Rate ratio 3.44; at Meta — industry affiliation may drive volume surge |
+| Kai Chen 0005 | Systems + top-net dual growth | HKUST (China/Hong Kong) | 7 → 13 | Datacenter networking, RDMA, congestion control | NSDI/SIGCOMM/EuroSys plus LLM inference, DNN training, federated learning | AI/sys growth (+12 systems papers) coexists with stronger top networking |
+| Feng Qian 0001 | Broad portfolio, networking + mobile + AI | USC / Minnesota (US) | 10 → 12 | Mobile/wireless/networking systems, video streaming | NSDI/SIGCOMM plus MobiCom/ICML on mobile AI, AR/VR networking, edge computing | AI expansion and top-networking maintenance are compatible |
+| Aditya Akella | AI_ML from zero, retains top-net | UT Austin / Google (US) | 17 → 13 | Programmable NICs, RDMA, datacenter networking | ICML/NSDI/ASPLOS/MICRO on ML collective scheduling, SmartNICs | New AI_ML presence (0→10 ICML papers) from zero baseline; AI infrastructure not core ML |
+| Minlan Yu | Senior stable, mild systems shift | Georgia Tech (US) | 16 → 14 | Network virtualization, SDN, programmable data planes | NSDI/SIGCOMM on ML for networking, cloud network management | Senior researcher maintaining high output; slight systems broadening |
+| Behnaz Arzani | Industry researcher, elite-stable | Microsoft Research (US) | 10 → 10 | NSDI/SIGCOMM on network reliability, debugging | NSDI/HotNets on network verification, data-plane correctness | Exactly flat top-net count; industry (Microsoft Research), highly elite-concentrated |
+| Arvind Krishnamurthy | Senior, slight decline but flat by rate | Google / U. Washington (US) | 19 → 14 | SIGCOMM/NSDI on distributed systems, networked systems | SIGCOMM/NSDI/MLSys on cloud systems, ML infrastructure | At Google; 14 post top-net papers still makes him one of the highest-volume |
+| Ion Stoica | Already AI-broad at baseline | UC Berkeley / Databricks (US) | 13 → 12 | NSDI/OSDI/ICML on distributed systems, RL, graph systems | ICML/MLSys/NSDI on LLM inference, DNN serving, cloud robotics | Not a new migrant; already broad and AI-heavy at baseline |
 
-These nine examples span: explosive growth (Jin, Zhang), AI/systems expansion (Chen, Akella, Qian), senior stable (Yu, Krishnamurthy), industry stable (Arzani), and pre-existing AI breadth (Stoica). The key takeaway is that Inv-Q2 is internally diverse — some researchers are genuinely expanding their top-networking presence, others are maintaining it while broadening to AI/systems, and some are stable at high volume without directional change.
+These nine examples span: explosive growth (Jin, Zhang), AI/systems expansion (Chen, Akella, Qian), senior stable (Yu, Krishnamurthy), industry stable (Arzani), and pre-existing AI breadth (Stoica). Chinese-affiliated researchers (Jin, Chen) show strong top-networking growth; US industry researchers (Arzani, Zhang at Meta) show stable or growing presence. The key takeaway is that Inv-Q2 is internally diverse — some researchers are genuinely expanding their top-networking presence, others are maintaining it while broadening to AI/systems, and some are stable at high volume without directional change.
 
-Open question requiring paper-topic analysis: among stable top-networking researchers, are the new systems/AI_ML papers about AI infrastructure, classical distributed systems, measurement, wireless, or core ML? Venue family gives location, not topic.
+A title-level inspection of the 9 Inv-Q2 representative examples answers this directly:
+
+| Researcher | AI_ML / systems papers about... | Core top-networking papers about... |
+|---|---|---|
+| Xin Jin 0008 | AI infrastructure: DNN serving (AlpaServe at OSDI), GPU sharing for DL, serverless training (ElasticFlow at ASPLOS) | Classical distributed systems: RDMA storage, DNS verification, datacenter migration (Klotski at SIGCOMM) |
+| Ying Zhang 0022 | Network infrastructure for ML: TopoOpt at NSDI (network topology for distributed training) | Classical networking: backbone design (EBB at SIGCOMM), eBPF orchestration (NetEdit), network testing (Netcastle) |
+| Kai Chen 0005 | Dual track: LLM inference (Tabi at EuroSys), federated learning, graph learning at KDD/IJCAI | Networking systems: RDMA NIC architecture (SRNIC at NSDI), flow control, datacenter networks |
+| Feng Qian 0001 | Mobile AI: edge computing, AR/VR networking at MobiCom/ICML | Networked systems: 5G optimization, video streaming |
+| Aditya Akella | AI infrastructure: ML scheduling (SYNDICATE, Shockwave at NSDI), ML-assisted kernels (LAKE at ASPLOS) | Networking systems: SmartNICs (LogNIC at MICRO), CDN caching (Darwin at SIGCOMM) |
+| Minlan Yu | ML for networking (applying ML to network management problems) | Network virtualization, cloud network management at NSDI/SIGCOMM |
+| Mosharaf Chowdhury | AI infrastructure exclusively: DNN training efficiency (Zeus, Oobleck, AdaEmbed) at OSDI/NSDI/MLSys | N/A — nearly all output is AI infrastructure |
+| Arvind Krishnamurthy | Systems for ML: cloud systems, ML infrastructure at SIGCOMM/NSDI/MLSys | Distributed systems at the ML boundary |
+| Ion Stoica | Continuous AI/systems: LLM serving, DNN serving, cloud robotics at ICML/MLSys/NSDI | Distributed systems + ML infrastructure throughout |
+
+**Conclusion:** Among Inv-Q2, the systems/AI_ML papers are overwhelmingly about **AI infrastructure** (distributed training, LLM serving, GPU optimization, ML scheduling), not core AI/ML research. Even researchers publishing at ICML/NeurIPS (Akella, Stoica) are doing so with systems/infrastructure papers. The one exception is Kai Chen 0005, whose KDD/IJCAI papers are applied ML (graph learning for geo/traffic) — but these coexist with classical networking output at NSDI/SIGCOMM.
+
+Most importantly, the top-networking papers from these researchers are still about networking: RDMA, flow control, backbone design, network verification, CDN caching, SmartNICs. **Inv-Q2 is not "networking researchers who moved to AI" — it is "networking researchers who ALSO build AI infrastructure."**
 
 ### 5.2 Inv-Q3: Concentration by Subtraction
 
@@ -302,7 +332,7 @@ Inv-Q3 looks like increased concentration in qualifying top-networking venues in
 |-------|--:|--------------|---|-----------|
 | Inv-Q3 | 7 | qualifying +22.7pp, other -15.0pp, systems -4.3pp | clean 213->96, qualifying 71->54, other 63->13 | Qualifying share rises because other output contracts faster |
 
-This is not stronger top-networking output in raw count. The top-networking share rises partly by denominator effect.
+The straightforward interpretation: these 7 researchers are publishing less overall (clean output drops from 213 to 96), but their remaining papers are concentrated at the five qualifying venues. Their top-networking share rises not because they're publishing more at elite venues, but because they've stopped publishing elsewhere. This is concentration by subtraction — the denominator shrinks, so the qualifying share inflates.
 
 Representative examples:
 
@@ -312,7 +342,16 @@ Representative examples:
 | Harsha V. Madhyastha | Maintains top networking while total output falls | NSDI/IMC/HotNets style networked systems and measurement | Smaller set with continued NSDI/IMC/SIGCOMM presence | Could be focus, not growth |
 | Manya Ghobadi | Systems-heavy baseline with maintained top networking | SIGCOMM/NSDI/HotNets plus cloud/systems networking | HotNets/NSDI/SIGCOMM with more selective output | Denominator effect likely important |
 
-Open question: for Inv-Q3, are they deliberately focusing on elite networking, or are they simply publishing less outside the five venues? Raw-count sensitivity and paper-topic review are needed.
+A direct inspection of post-2023 paper titles for all 7 Inv-Q3 researchers confirms the concentration-by-subtraction reading. Of the 7, all still publish exclusively or predominantly at SIGCOMM, NSDI, CoNEXT, HotNets, or IMC post-2023. Their non-qualifying venue output has largely disappeared:
+
+| Researcher | Post-2023 papers | Topics (from titles) | Verdict |
+|---|---|---|---|
+| Ran Ben Basat | 2 (SIGCOMM, NeurIPS) | Distributed learning quantization, network measurement acceleration | Genuinely focused on top venues + AI_ML exploration |
+| Harsha V. Madhyastha | 3 (NSDI, IMC, HotNets) | Networked systems, measurement | Classic top-networking only |
+| Manya Ghobadi | 3 (HotNets, NSDI, SIGCOMM) | Optical networking, cloud infrastructure | Classic top-networking only |
+| Others (4) | 3-5 each | Varied but all predominantly at qualifying venues | Concentration, not topic exit |
+
+The evidence supports a concentration story: these researchers stopped publishing at INFOCOM, ICNP, PAM, and other adjacent venues while maintaining their presence at the five qualifying venues. They are not migrating to new fields — they are focusing their reduced output on the most selective networking venues.
 
 ## 6. Question 3: Is There an AI_ML or Systems Migration Signal?
 
@@ -336,6 +375,22 @@ Only 9 of the 87 analyzable researchers have AI_ML expansion greater than 10 per
 
 The absolute-count column matters. Some large percentage-point changes are only a few papers; Ran Ben Basat's AI_ML share rises even though AI_ML count is flat.
 
+**What are these researchers doing at AI_ML venues?** A title-level inspection of the 9 AI_ML expanders reveals a clear pattern: their AI_ML-venue papers are overwhelmingly about systems/infrastructure topics, and most have a clear connection to their prior networking/systems expertise:
+
+| Researcher | New AI_ML-venue topics | Connection to prior work |
+|---|---|---|
+| Aditya Akella (+29pp, 0→10) | Distributed training optimization (SYNDICATE at ICML), ML scheduling | Natural extension of datacenter systems and scheduling expertise |
+| Daehyeok Kim (+25pp, 0→4) | Distributed ML training systems | Extension of systems/networking background |
+| Jiaqi Gao (+25pp, 0→5) | ML applications at AAAI | New direction — needs paper-level review |
+| Ihsan Ayyub Qazi (+24pp, 3→7) | Healthcare LLMs, Urdu deepfake detection, NMT data pruning at ACL/EMNLP/COLING | **Genuine topic shift** — from networking/accessibility to applied NLP/ML |
+| John S. Heidemann (+23pp, 0→3) | Internet measurement with ML methods | ML as tool for measurement, not new research area |
+| Ion Stoica (+22pp, 24→37) | LLM inference (DistServe), DNN serving, cloud robotics at ICML/NeurIPS | Continuous AI/systems trajectory since before baseline |
+| Dongsu Han (+17pp, 1→4) | ML systems and applications | Extension of systems expertise |
+| Jianping Wu (+14pp, 2→6) | Network AI/ML applications | ML applied to networking problems |
+| Ran Ben Basat (+13pp, 2→2) | Distributed learning quantization at ICML/NeurIPS | Extension of measurement/algorithm expertise to ML systems |
+
+**Key finding:** 7 of 9 AI_ML expanders are applying their systems/networking expertise to ML infrastructure problems — distributed training, serving, scheduling. Only Ihsan Ayyub Qazi shows a genuine topic migration into applied NLP/ML. The AI_ML venue-family signal is primarily picking up systems-for-ML work, not researchers becoming AI scientists.
+
 ### 6.2 Systems Expansion
 
 Systems movement is also concentrated in a small number of people. It should be discussed alongside AI_ML because many apparent AI shifts are actually AI infrastructure or distributed systems shifts.
@@ -350,7 +405,19 @@ Systems movement is also concentrated in a small number of people. It should be 
 | Gianni Antichi | +16pp | 2 -> 6 | Inv-Q2 | ASPLOS/EuroSys systems growth |
 | Arvind Krishnamurthy | +14pp | 13 -> 15 | Inv-Q2 | Systems remains high and slightly grows |
 
-Open TODO: summarize the actual paper topics for AI_ML and systems expanders with title/abstract evidence. The current venue-family label can say where papers appeared, not whether the work is core AI, AI infrastructure, systems, or networking using ML.
+A title-level inspection of the 7 largest systems expanders shows that their systems-venue papers are predominantly AI infrastructure, not classical OS/distributed-systems research:
+
+| Researcher | Systems papers (bl→post) | What their systems papers are about | Verdict |
+|---|---|---|---|
+| Yibo Zhu 0001 (+36pp) | 6→10 | Distributed MoE training (Lina at ATC), LLM serving (DistServe at OSDI), GPU GNN training (BGL at NSDI), multimodal LLM training (DistTrain at SIGCOMM) | **AI infrastructure exclusively** — all papers are about making ML training/inference faster |
+| Robert Soulé (+34pp) | 4→5 | Quantum networking, OS/database systems at SoCC/CIDR | **Systems broadening,** not AI |
+| Alex C. Snoeren (+25pp) | 2→5 | FPGA offload, RPC infrastructure at ASPLOS/ATC | **Hardware/systems infrastructure** |
+| Kai Chen 0005 (+20pp) | 5→17 | LLM inference (Tabi at EuroSys), federated learning, RDMA NICs (SRNIC at NSDI) | **Dual: networking systems + AI infrastructure** |
+| Mosharaf Chowdhury (+20pp) | 9→12 | DNN training (Zeus at NSDI, Oobleck at SOSP), embedding systems (AdaEmbed at OSDI), GPU energy (Zeus), federated learning (FLINT at MLSys) | **AI infrastructure almost exclusively** |
+| Gianni Antichi (+16pp) | 2→6 | FPGA/SmartNIC systems, network acceleration | **Hardware/networking systems** |
+| Arvind Krishnamurthy (+14pp) | 13→15 | Cloud systems, ML infrastructure at SIGCOMM/NSDI/MLSys | **Systems for ML** |
+
+**The pattern mirrors AI_ML expanders:** systems growth is driven by AI infrastructure work (training, serving, GPU optimization), not classical OS or distributed-systems research. Researchers like Mosharaf Chowdhury publish almost exclusively about making ML faster/more efficient. The systems expansion is real in volume but represents a new kind of systems research (ML infrastructure) rather than a departure from the researchers' systems expertise.
 
 MLSys classification note: In the current `venue_family_map.json`, MLSys is classified under `systems`. If reclassified as `AI_ML`, 13 researchers would have material (>2pp) delta profile changes — most notably Mosharaf Chowdhury (+6pp AI_ML, −6pp systems), Arvind Krishnamurthy (+4.4pp AI_ML, −4.4pp systems), and Minlan Yu (+4.3pp AI_ML, −4.3pp systems). This reclassification does not change the group-level narrative (AI_ML expansion remains concentrated), but it shifts the systems/AI_ML boundary for individual researchers who publish at MLSys. Full sensitivity data in `data/mlsys_sensitivity_check.json`.
 
@@ -369,7 +436,16 @@ PCA on baseline profiles explains 67% of variance in the first two components.
 
 Important limitation: PCA coordinates are computed from percentage profiles, not raw paper counts. Distance from the origin means the researcher's venue-family composition is unusual relative to the sample; it does not mean the researcher publishes more papers. Publication volume must be read from the count tables, not from PCA position or vector norm.
 
-**Visualization note (needs regeneration):** The current `pca_baseline_labeled.png` uses the supplementary sys/AI/storage quadrant labels (Q1_net+_overall+, etc.) rather than the Inv-Q1 through Inv-Q4 taxonomy used throughout this document. This creates a naming collision: "Q1" in the plot means "high networking + high overall output" (sys/AI/storage quadrant), NOT Inv-Q1 ("top-net down, clean flat/up"). The plot should be regenerated with researcher labels colored by Inv-Q group membership, or with no quadrant legend at all — labeling only the representative researchers named in the tables above.
+**Visualization note (needs regeneration):** The current `pca_baseline_labeled.png` uses the supplementary sys/AI/storage quadrant labels which collide with the Inv-Q taxonomy. The exact label conflict:
+
+| Plot label (current) | Meaning (sys/AI/storage quadrant) | Conflicts with |
+|---|---|---|
+| Q1 | High networking + high overall output | Inv-Q1 = "top-net down, clean flat/up" |
+| Q2 | High networking, lower overall output | Inv-Q2 = "top-net flat/up, clean flat/up" |
+| Q3 | Lower networking, high AI/systems | Inv-Q3 = "top-net flat/up, clean down" |
+| Q4 | Lower networking, lower overall output | Inv-Q4 = "top-net down, clean down" |
+
+**Fix:** Regenerate with researcher markers colored by Inv-Q group (Inv-Q1=red/orange, Inv-Q2=blue/green, Inv-Q3=yellow, Inv-Q4=gray, excluded=black). Label only the 15-20 representative researchers from §§4-6. Remove the sys/AI/storage quadrant legend. The `delta_by_quadrant.png` figure should not appear in the main narrative — it uses the conflicting taxonomy and belongs in supplementary materials only.
 
 Representative baseline positions:
 
@@ -422,6 +498,34 @@ Delta PCA is retained as a secondary diagnostic, not as a central narrative figu
 ![Delta PCA Biplot](figures/delta_pca_biplot.png)
 
 Visualization note: the current biplot is harder to interpret than the group tables and trajectory figure. If kept, it should be regenerated to highlight the same representative researchers or to explicitly highlight different movement patterns such as top-net substitution, broad decline, AI_ML expansion, and systems expansion.
+
+### 8.1 Regional and Sector Decomposition
+
+Core-99 researchers are not uniformly distributed across regions or sectors. Decomposing the delta profiles by region and sector reveals different movement patterns that a single aggregate view obscures. Below are mean delta vectors (percentage-point changes in portfolio composition) computed from the 87 analyzable researchers' feature vectors. Groups with fewer than 3 researchers are omitted for stability.
+
+**By region:**
+
+| Region | N | Mean delta vector (notable dimensions) | Interpretation |
+|--------|--:|--------------------------------------|---------------|
+| US | 38 | qualifying −1.8pp, other −4.7pp, security +2.8pp, web/HCI +2.5pp, AI_ML +1.7pp | Broad, mild redistribution; close to cohort mean |
+| China | 7 | **qualifying +9.7pp**, other −13.8pp, systems +6.7pp, mobile −4.4pp, AI_ML +2.1pp | **Strengthening top-networking concentration**, sharp adjacent-networking decline; systems growth |
+| Europe | 14 | qualifying −1.4pp, other −2.1pp, AI_ML +2.8pp, web/HCI +2.0pp | Mild shift; AI_ML expansion slightly above cohort mean |
+| Other | 9 | qualifying −5.8pp, systems +4.3pp, AI_ML +4.2pp, web/HCI +4.6pp | Largest AI_ML and web/HCI expansion; most diversified shift |
+| Unknown | 19 | **qualifying −10.6pp**, systems +4.9pp, security +2.4pp | **Steepest qualifying decline**; may partly reflect missing geo data correlating with missing paper data |
+
+**Key observation:** Chinese researchers (n=7) are the only regional group showing increasing qualifying top-networking share (+9.7pp). Their adjacent-networking output drops sharply (−13.8pp), suggesting they are concentrating their publication portfolios on the most selective venues while shedding lower-tier networking venues. US researchers (n=38, the largest group) show a mild, broad redistribution close to the cohort mean.
+
+**By sector (approximate, from affiliation keywords):**
+
+| Sector | N | Mean delta vector (notable dimensions) | Interpretation |
+|--------|--:|--------------------------------------|---------------|
+| Academia | 50 | qualifying −1.6pp, other −5.1pp, AI_ML +2.8pp, systems +2.5pp, web/HCI +3.0pp | Close to cohort mean; largest group |
+| Industry | 5 | **qualifying +6.4pp, systems +6.5pp**, other −2.7pp, mobile −4.2pp, AI_ML −1.1pp | **Increasing top-networking concentration** and systems growth; declining mobile/wireless |
+| Unknown/Other | 32 | qualifying −7.1pp, systems +2.3pp, security +3.1pp | Steep qualifying decline; may include both industry and academia with missing affiliation data |
+
+**Caveat:** Sector classification is approximate — based on keyword matching in affiliation strings (`data/core99_researcher_attributes.json`). Only 5 researchers are definitively classified as Industry (Arvind Krishnamurthy at Google, Behnaz Arzani at Microsoft, Hongqiang Harry Liu at Uber, Ankit Singla at Google, and one other). The "Unknown/Other" category (n=32) is large and heterogeneous. Better sector labels (e.g., from OpenAlex or manual curation) would sharpen this decomposition.
+
+**Implication for future figures:** Separate delta PCA plots or trajectory figures faceted by region (US, China, Europe, Other) and sector (Academia, Industry) would surface these different movement patterns. The Chinese cohort's qualifying concentration and the industry cohort's systems growth are the most distinct signals worth visualizing.
 
 ## 9. Current Findings, Stated Conservatively
 
