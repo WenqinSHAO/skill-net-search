@@ -5,5 +5,9 @@ projects/networking-to-ai-migration/data/
 __pycache__/
 *.pyc
 
+# Agent/project instruction files
+CLAUDE.md
+AGENT.md
+
 # Misc
 =1
