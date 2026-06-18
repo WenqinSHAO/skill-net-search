@@ -10,10 +10,16 @@ The taxonomy is designed to distinguish:
   - ML for networking (applying ML to networking problems)
   - Network security, wireless, systems, and other areas
 
+Reads from data/new_core_clean_papers.json (the canonical clean paper table).
+
 Outputs:
-  - data/paper_topic_labels.json — per-paper topic labels
-  - data/venue_topic_vectors.json — venue-year topic feature vectors
-  - data/venue_topic_evolution.csv — CSV for charting
+  - data/paper_topic_labels_v2.json — per-paper topic labels
+  - data/venue_topic_vectors_v2.json — venue-year topic feature vectors
+  - data/venue_topic_evolution_v2.csv — CSV for charting
+
+Old v1 outputs (paper_topic_labels.json, venue_topic_vectors.json,
+venue_topic_evolution.csv) based on post_gpt_venue_papers.json are retained
+for comparison but should not be treated as validated.
 """
 
 import json
@@ -25,9 +31,9 @@ from collections import Counter, defaultdict
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR / "data"
 
-OUTPUT_PAPER_LABELS = DATA_DIR / "paper_topic_labels.json"
-OUTPUT_VENUE_VECTORS = DATA_DIR / "venue_topic_vectors.json"
-OUTPUT_VENUE_EVOLUTION = DATA_DIR / "venue_topic_evolution.csv"
+OUTPUT_PAPER_LABELS = DATA_DIR / "paper_topic_labels_v2.json"
+OUTPUT_VENUE_VECTORS = DATA_DIR / "venue_topic_vectors_v2.json"
+OUTPUT_VENUE_EVOLUTION = DATA_DIR / "venue_topic_evolution_v2.csv"
 
 # ── Topic Taxonomy ──
 
@@ -303,43 +309,42 @@ def classify_title(title: str) -> dict:
 
 def main():
     print("=" * 60)
-    print("Paper Topic Classifier")
+    print("Paper Topic Classifier (v2 — repaired new-core data)")
     print("=" * 60)
     print(f"Topics: {len(TOPICS)} categories")
     for k, v in TOPICS.items():
         print(f"  {k}: {v['label']}")
     print()
 
-    # ── Load venue papers ──
-    venue_papers_file = DATA_DIR / "post_gpt_venue_papers.json"
-    if not venue_papers_file.exists():
-        print(f"ERROR: {venue_papers_file} not found. Run build_post_gpt_core.py first.")
+    # ── Load canonical clean paper table ──
+    clean_papers_file = DATA_DIR / "new_core_clean_papers.json"
+    if not clean_papers_file.exists():
+        print(f"ERROR: {clean_papers_file} not found. Run build_new_core.py first.")
         sys.exit(1)
 
-    with open(venue_papers_file) as f:
-        papers_data = json.load(f)
+    with open(clean_papers_file) as f:
+        clean_data = json.load(f)
 
-    all_papers = papers_data.get("papers", [])
-    print(f"Loaded {len(all_papers)} papers from {venue_papers_file}")
+    all_papers = clean_data.get("papers", [])
+    print(f"Loaded {len(all_papers)} total records from {clean_papers_file}")
 
-    # ── Also load researcher itineraries for researcher-level topic profiles ──
-    itins_file = DATA_DIR / "researcher_itineraries.json"
-    if itins_file.exists():
-        with open(itins_file) as f:
-            itins_data = json.load(f)
-        print(f"Loaded researcher itineraries ({len(itins_data.get('researchers', []))} researchers)")
-    else:
-        itins_data = None
+    # Filter to included (clean main) papers only
+    clean_papers = [p for p in all_papers if p.get("included_in_new_core_scope")]
+    excluded_count = len(all_papers) - len(clean_papers)
+    print(f"  {len(clean_papers)} clean main papers, {excluded_count} excluded")
 
-    # ── Classify all venue papers ──
+    # ── Classify clean papers ──
     print("\nClassifying papers...")
     paper_labels = {}
     topic_counter = Counter()
     venue_year_topics = defaultdict(lambda: defaultdict(float))  # {venue_year: {topic: share}}
 
-    for paper in all_papers:
+    # Use venue_group for venue-year keys (maps PACMNET → CoNEXT)
+    QUALIFYING = {"SIGCOMM", "NSDI", "CoNEXT", "HotNets", "IMC"}
+
+    for paper in clean_papers:
         title = paper.get("title", "")
-        venue = paper.get("venue", "")
+        venue = paper.get("venue_group", paper.get("venue", ""))  # venue_group preferred
         year = paper.get("year", 0)
 
         # Dedup by title+venue+year
@@ -356,15 +361,16 @@ def main():
         }
         topic_counter[classification["primary_topic"]] += 1
 
-        # Accumulate for venue-year vectors
-        vy_key = f"{venue}|{year}"
-        for topic, conf in classification["all_topics"].items():
-            venue_year_topics[vy_key][topic] += conf
+        # Accumulate for venue-year vectors (only for qualifying venues)
+        if venue in QUALIFYING:
+            vy_key = f"{venue}|{year}"
+            for topic, conf in classification["all_topics"].items():
+                venue_year_topics[vy_key][topic] += conf
 
-    print(f"  Classified {len(paper_labels)} unique papers")
+    print(f"  Classified {len(paper_labels)} unique clean papers")
 
     # ── Topic distribution summary ──
-    print("\nTopic distribution across all venue papers:")
+    print("\nTopic distribution across all clean qualifying-venue papers:")
     total = sum(topic_counter.values())
     for topic, count in topic_counter.most_common():
         pct = count / total * 100 if total > 0 else 0
@@ -399,12 +405,13 @@ def main():
         })
 
     # ── Save paper-level labels ──
-    print(f"\nSaving paper topic labels...")
+    print(f"\nSaving paper topic labels (v2)...")
     with open(OUTPUT_PAPER_LABELS, "w") as f:
         json.dump({
             "metadata": {
-                "phase": "topic_classification",
+                "phase": "topic_classification_v2",
                 "method": "keyword_matching",
+                "input_source": "data/new_core_clean_papers.json",
                 "topics": {k: v["label"] for k, v in TOPICS.items()},
                 "total_papers": len(paper_labels),
             },
@@ -414,11 +421,12 @@ def main():
     print(f"  Wrote {OUTPUT_PAPER_LABELS}")
 
     # ── Save venue-year topic vectors ──
-    print(f"Saving venue-year topic vectors...")
+    print(f"Saving venue-year topic vectors (v2)...")
     with open(OUTPUT_VENUE_VECTORS, "w") as f:
         json.dump({
             "metadata": {
-                "phase": "topic_classification",
+                "phase": "topic_classification_v2",
+                "input_source": "data/new_core_clean_papers.json",
                 "topics": {k: v["label"] for k, v in TOPICS.items()},
                 "venue_years": len(venue_vectors),
             },
@@ -436,7 +444,7 @@ def main():
             row.extend([str(vv["topic_shares"].get(t, 0)) for t in topic_list])
             row.append(str(vv["paper_count"]))
             f.write(",".join(row) + "\n")
-    print(f"  Wrote {OUTPUT_VENUE_EVOLUTION}")
+    print(f"  Wrote {OUTPUT_VENUE_EVOLUTION} (v2)")
 
     # ── By-venue topic evolution summary ──
     print("\n=== By-Venue Topic Evolution ===")

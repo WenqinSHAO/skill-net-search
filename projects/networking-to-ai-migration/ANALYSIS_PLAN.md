@@ -110,29 +110,17 @@ Remaining foundation caveat: 2026 is still observed-as-available, with only NSDI
 
 ### Immediate New-Core TODOs
 
-1. Build `scripts/build_new_core.py`.
-   - Input: existing venue-paper artifacts, `researcher_itineraries.json`,
-     `raw_dblp_papers.json`, and `core99_researcher_attributes.json`.
-   - Output: `data/new_core_clean_papers.json` and `data/new_core.json`.
-   - The clean paper table must include inclusion/exclusion reason, source, and
-     venue-year coverage flags.
-2. Rebuild new-core membership from the canonical clean paper table.
-   - Report stayers, newcomers, and dropouts relative to core-99.
-   - Report complete-newcomer coverage separately; do not let DBLP-only
-     researchers disappear from researcher-profile aggregates.
-3. Reconcile CoNEXT/PACMNET explicitly.
-   - Main CoNEXT short-paper records can come from DBLP conference TOCs.
-   - PACMNET long-paper records should be carried through the existing
-     PACMNET-aware itinerary path where available.
-   - Any partial-author limitation in PACMNET enrichment must be visible in the
-     artifact metadata.
-4. Replace the old `post-GPT core` wording in docs with `new-core`.
-   - The old artifacts may remain as exploratory/provisional, but analysis text
-     must not treat them as validated.
-5. Upgrade topic vectors after the clean new-core table is stable.
-   - Start with deterministic, auditable title features.
-   - Later LLM-assisted classification can use title plus abstract where
-     available, with explicit uncertainty.
+1. ✅ Build `scripts/build_new_core.py` — **DONE** (commit `5b39975`).
+2. ✅ Rebuild new-core membership from canonical clean paper table — **DONE** (115: 43/72/56).
+3. ✅ Reconcile CoNEXT/PACMNET explicitly — **DONE** (PACMNET TOC via `fetch_pacmnet_tocs.py`).
+4. ✅ Replace old `post-GPT core` wording — **DONE** (docs updated to `new-core`).
+5. ✅ Upgrade topic vectors on clean new-core table — **DONE** (June 2026).
+   - `classify_paper_topics.py` updated to read `new_core_clean_papers.json`
+   - Outputs: `paper_topic_labels_v2.json`, `venue_topic_vectors_v2.json`, `venue_topic_evolution_v2.csv`
+   - `build_new_core_topic_profiles.py` created: profiles for all 171 researchers
+   - Outputs: `new_core_topic_profiles.json`, `new_core_topic_profiles.csv`
+   - CORE99_ANALYSIS.md §11 updated with corrected counts and topic shares
+   - Taxonomy refinement (Repair Principle 5: split `classical_networking`) deferred
 
 ## Guiding Principle
 
@@ -880,13 +868,13 @@ Status of the immediate next batch:
 4. ✅ Venue aliases normalized; venue-family mapping built (still has `unknown` entries).
 5. ✅ Deterministic core-99 investigation tables for questions Q1-Q3.
 5b. ✅ Core-99 quadrant analysis (Q1-Q4) for elite sys/AI/storage venues.
-6. ✅ Paper-topic classification implemented (keyword-based, 11 categories, 35% "Other" rate). LLM-based refinement still needed.
-7. ✅ Researcher topic profiles built for stayers/newcomers/dropouts. Formal clustering deferred.
+6. ✅ Paper-topic classification rebuilt on repaired data (v2: keyword-based, 11 categories, 34.5% "Other" rate). LLM-based refinement still needed.
+7. ✅ Researcher topic profiles rebuilt for all 171 stayers/newcomers/dropouts from canonical clean table. Formal clustering deferred.
 8. ⬜ Abstract-coverage fields — needed before LLM topic classification.
 9. ⬜ Outlier/data-quality tables for broad-cohort validation.
 10. ⬜ Parameterized top-k and threshold slices after core-99 attributes are stable.
 11. ⬜ Comparison groups reusing the same preprocessing pipeline.
-12. ✅ Conference itineraries for the five qualifying venues (2018-2026 paper data with authors fetched via DBLP TOC API; CoNEXT 2023-2025 incomplete due to PACMNET).
+12. ✅ Conference itineraries for the five qualifying venues (2018-2026 paper data with authors; CoNEXT 2023-2025 now complete via PACMNET TOC integration).
 
 ## Adjusted Immediate Priorities
 
@@ -923,13 +911,13 @@ What we know from the core-99 analysis (87 analyzable researchers):
 
 The analysis has been consolidated into CORE99_ANALYSIS.md as the primary narrative doc, with CORE99_INVESTIGATION.md as the detailed reference. Sys/AI quadrant analysis is deprecated as a primary grouping.
 
-### Phase B: Paper-Topic Analysis for Key Subgroups ✅ COMPLETE (keyword-based)
+### Phase B: Paper-Topic Analysis for Key Subgroups ✅ COMPLETE (keyword-based, v2 rebuilt)
 
-Paper-topic classification implemented for all 2,248 venue papers across 11 categories. Title-level inspection confirmed that AI-infra expanders are doing systems-for-ML, not core AI research. Keyword classifier has 35% "Other" rate — LLM-based refinement planned.
+Paper-topic classification rebuilt on the repaired canonical clean paper table (2,170 main papers, was 2,248 with non-main-paper noise in v1). Keyword classifier has 34.5% "Other" rate — LLM-based refinement planned. v2 outputs: `paper_topic_labels_v2.json`, `venue_topic_vectors_v2.json`, `venue_topic_evolution_v2.csv`.
 
-### Phase C: Recompute Profiles for 2023-2026 ✅ COMPLETE
+### Phase C: Recompute Profiles for 2023-2026 ✅ COMPLETE (v2 rebuilt)
 
-Post-GPT core built: 113 researchers (40 stayers, 73 newcomers, 59 dropouts). Cross-referenced with core-99. Conference-level topic evolution quantified. Researcher topic profiles built for all three groups. See CORE99_ANALYSIS.md §11 for full findings.
+New-core built: 115 researchers (43 stayers, 72 newcomers, 56 dropouts). The old Phase C numbers (113/40/73/59) were based on incomplete venue-paper data (missing PACMNET, non-main-paper noise). Topic profiles rebuilt for all 171 researchers from the canonical clean paper table (`new_core_topic_profiles.json`). Key revision: newcomers show dual growth in both classical networking (+7.7pp) and AI infra (+7.9pp), not a zero-sum shift. See CORE99_ANALYSIS.md §11 for corrected findings.
 
 ### Phase D: Additional Suggestions — Partially Complete
 
