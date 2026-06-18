@@ -128,34 +128,47 @@ Key data artifacts:
   - `data/selected_sample_network_gt6_packet.json` — full title-level evidence for core-99
   - `data/venue_family_map.json` — venue→family mapping (343 mappings, 24 aliases; Q1: 0% unknown, Q2: 2.2%, core-99: 3.6%)
 
-### 6. Post-GPT Forward-Looking Analysis (June 2026) 🆕
+### 6. New-Core Forward-Looking Data Repair (Active, June 2026)
 
-The forward-looking analysis inverts the perspective: starting from 2023-2026 and asking what the field looks like now.
+The future-looking direction is active, but the first `post-GPT core` outputs are
+now treated as exploratory/provisional. The validated direction is renamed
+**new-core**: current leading researchers with at least 7 clean qualifying
+top-networking papers in the observed 2023-2026 window.
 
-- **Analysis**: [CORE99_ANALYSIS.md §11](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md#11-forward-looking-the-post-gpt-landscape-june-2026)
+Why this repair exists:
+- the old `post_gpt_core` builder mixed itinerary counts with raw DBLP TOC counts,
+- DBLP TOC records included posters, demos, proceedings-volume records, and
+  workshops,
+- CoNEXT/PACMNET needs the same conference-integrated exception used by the
+  core-99 pipeline,
+- researcher topic profiles silently skipped DBLP-only complete newcomers,
+- 2026 is intentionally included as observed data but remains incomplete.
 
-Key findings:
-- **Post-GPT core**: 113 researchers (40 stayers, 73 newcomers). 64.6% renewal rate.
-- **AI Infrastructure at NSDI**: 2-3% → 10-11% of papers (3-5x growth)
-- **AI Infrastructure at SIGCOMM**: 0-2% → 10% of papers
-- **Who writes AI-infra papers**: 60% involve core-99 stayers, 42% involve newcomers. Collaboration is the dominant pattern.
-- **Stayer AI-infra share**: 8.1% post-2023 (+6.2pp delta)
-- **Newcomer AI-infra share**: 9.0% post-2023 (+7.8pp delta)
-- **Dropout AI-infra share**: 2.8% (negligible) — dropouts are in wireless/measurement/security, not AI
+Current repaired artifacts:
+  - `data/pacmnet_toc_papers.json` — PACMNET DBLP TOC records for CoNEXT long-paper evidence
+  - `data/new_core_clean_papers.json` — canonical clean-paper table with
+    inclusion/exclusion reasons, source tags, and venue-year coverage diagnostics
+  - `data/new_core.json` — repaired new-core/stayer/newcomer/dropout split
+  - `data/new_core_researcher_profiles.json` / `.csv` — descriptive profiles for all stayers/newcomers/dropouts from the clean table
 
-New data artifacts:
-  - `data/post_gpt_core.json` — tripartite split with per-researcher counts
-  - `data/post_gpt_venue_papers.json` — all papers at 5 qualifying venues 2018-2026
-  - `data/paper_topic_labels.json` — per-paper topic classification (11 categories)
-  - `data/venue_topic_vectors.json` — venue-year topic feature vectors
-  - `data/venue_topic_evolution.csv` — CSV for charting
-  - `data/researcher_topic_profiles.json` — per-researcher topic vectors
-  - `data/post_gpt_core_profiles.csv` — CSV comparison of stayer/newcomer/dropout profiles
+Current repaired count snapshot from `scripts/fetch_pacmnet_tocs.py` plus
+`scripts/build_new_core.py`:
+- **new-core**: 115 researchers
+- **stayers**: 43 researchers also in core-99
+- **newcomers**: 72 researchers not in core-99
+- **dropouts**: 56 core-99 researchers below the new-core threshold
+- **complete newcomers outside broad cohort**: 9
 
-New scripts:
-  - `scripts/build_post_gpt_core.py` — build post-GPT core with DBLP TOC API
-  - `scripts/classify_paper_topics.py` — keyword-based paper topic classifier
-  - `scripts/build_researcher_topic_profiles.py` — per-researcher topic profiles
+Important caveat remains: 2026 venue coverage is observed-as-available rather
+than complete. Treat these artifacts as the active data foundation under repair,
+not as final interpretation.
+
+Old exploratory artifacts retained for comparison:
+  - `data/post_gpt_core.json`
+  - `data/post_gpt_venue_papers.json`
+  - `data/paper_topic_labels.json`
+  - `data/venue_topic_vectors.json`
+  - `data/researcher_topic_profiles.json`
 
 ### 7. Project Plan And Status
 
@@ -181,9 +194,12 @@ The main scripts and their current roles are:
 | `scripts/audit_core99_author_positions.py` | Audit author-position match coverage and alias issues |
 | `scripts/build_core99_investigation_tables.py` | Build deterministic tables for the first core-99 investigation questions |
 | `scripts/build_comparison_cohort.py` | Build 2013-2017 comparison cohort for regression-to-the-mean check |
-| `scripts/build_post_gpt_core.py` | 🆕 Build post-GPT core (2023-2026) with stayers/newcomers/dropouts split |
-| `scripts/classify_paper_topics.py` | 🆕 Keyword-based paper topic classification (11 categories) and venue-year topic vectors |
-| `scripts/build_researcher_topic_profiles.py` | 🆕 Per-researcher topic profiles for stayers/newcomers/dropouts |
+| `scripts/fetch_pacmnet_tocs.py` | Fetch PACMNET TOC records for CoNEXT long-paper evidence |
+| `scripts/build_new_core.py` | Build repaired new-core cohort from clean paper table with coverage diagnostics |
+| `scripts/build_new_core_profiles.py` | Build descriptive profiles for all repaired new-core split researchers |
+| `scripts/build_post_gpt_core.py` | Provisional old post-GPT core builder; retained for comparison, not authoritative |
+| `scripts/classify_paper_topics.py` | Exploratory keyword-based paper topic classification; taxonomy needs refinement |
+| `scripts/build_researcher_topic_profiles.py` | Exploratory topic profiles; currently depends on itinerary coverage |
 | `scripts/classify_zones.py` | Legacy/auxiliary conservative paper tagging, not current analytical foundation |
 | `scripts/compute_metrics.py` | Legacy/auxiliary aggregate metrics |
 | `scripts/generate_charts.py` | Legacy chart/report generation |

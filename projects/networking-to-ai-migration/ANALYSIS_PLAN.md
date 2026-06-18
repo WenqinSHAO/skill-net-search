@@ -38,6 +38,102 @@ fields are still weak or missing:
   systematically normalized,
 - recent 2023-2026 conference completeness still needs official-page checks.
 
+## Active Repair Track: New-Core Data Foundation
+
+The forward-looking question is valid and should remain part of the project:
+what does the current leading activity in top networking venues look like, who
+is leading it, and how does it relate to the 2018-2022 core-99?
+
+However, the first post-2023 analysis used a `post-GPT core` pipeline whose
+data scope is not yet comparable with the core-99 pipeline. We are replacing
+that with a neutral **new-core** data track.
+
+### Naming And Scope
+
+- **core-99**: researchers with at least 7 clean qualifying top-networking
+  papers during 2018-2022.
+- **new-core**: researchers with at least 7 clean qualifying top-networking
+  papers during the observed 2023-2026 window.
+- **Observed 2023-2026** means exactly the data currently available. 2026 is
+  incomplete, but we will not split the main line into separate 2023-2025 and
+  2023-2026 definitions unless later sensitivity checks require it.
+- **Qualifying venues** remain SIGCOMM, NSDI, CoNEXT, HotNets, and IMC. The
+  existing PACMNET exception must be reused because CoNEXT long papers moved to
+  ACM's journal-integrated proceedings model after 2023.
+
+### Repair Principles
+
+1. Use the same clean-paper scope as the core-99 pipeline.
+   - Executable source of truth: `scripts/publication_scope.py`.
+   - PACMNET is conference-integrated CoNEXT evidence, not a normal journal.
+   - Posters, demos, proceedings-volume records, workshops, editorials, and
+     other non-main-paper records must not count toward new-core membership.
+2. Do not silently mix count sources.
+   - If DBLP TOC, itinerary, PACMNET enrichment, or official-page data disagree,
+     keep source-specific counts and diagnostic flags.
+   - A cohort-defining count should come from one canonical clean-paper table.
+3. Preserve incompleteness instead of hiding it.
+   - 2026 remains in the observed window.
+   - Venue-year coverage flags must show which 2026 venues are unavailable.
+4. Keep future-looking interpretation broad.
+   - AI infrastructure and systems-for-ML are valid current trends to study.
+   - The project should also preserve other emerging/stable trajectories rather
+     than forcing a narrow "AI migration" story.
+5. Improve semantic feature space before strong topic claims.
+   - `classical_networking` is too broad as a durable feature.
+   - Topic vectors should distinguish at least routing/control, WAN/datacenter,
+     congestion/transport, SDN/NFV/programming, verification/formal methods,
+     measurement/telemetry, video/QoE/streaming, security/privacy,
+     wireless/mobile/IoT/sensing, cloud/networked systems, AI infrastructure,
+     ML for networking, and other/uncertain.
+
+### New-Core Progress Snapshot
+
+Current implemented artifacts:
+
+- `scripts/fetch_pacmnet_tocs.py` fetches PACMNET DBLP TOC records for CoNEXT
+  long-paper evidence. Local output: `data/pacmnet_toc_papers.json`.
+- `scripts/build_new_core.py` builds the canonical clean-paper table and
+  repaired cohort split. Local outputs: `data/new_core_clean_papers.json` and
+  `data/new_core.json`.
+
+Current repaired count snapshot after PACMNET TOC integration:
+
+- new-core: 115 researchers
+- stayers: 43
+- newcomers: 72
+- dropouts: 56
+- complete newcomers outside the broad 2018-2022 cohort: 9
+
+Remaining foundation caveat: 2026 is still observed-as-available, with only NSDI
+2026 currently present among the five qualifying venues.
+
+### Immediate New-Core TODOs
+
+1. Build `scripts/build_new_core.py`.
+   - Input: existing venue-paper artifacts, `researcher_itineraries.json`,
+     `raw_dblp_papers.json`, and `core99_researcher_attributes.json`.
+   - Output: `data/new_core_clean_papers.json` and `data/new_core.json`.
+   - The clean paper table must include inclusion/exclusion reason, source, and
+     venue-year coverage flags.
+2. Rebuild new-core membership from the canonical clean paper table.
+   - Report stayers, newcomers, and dropouts relative to core-99.
+   - Report complete-newcomer coverage separately; do not let DBLP-only
+     researchers disappear from researcher-profile aggregates.
+3. Reconcile CoNEXT/PACMNET explicitly.
+   - Main CoNEXT short-paper records can come from DBLP conference TOCs.
+   - PACMNET long-paper records should be carried through the existing
+     PACMNET-aware itinerary path where available.
+   - Any partial-author limitation in PACMNET enrichment must be visible in the
+     artifact metadata.
+4. Replace the old `post-GPT core` wording in docs with `new-core`.
+   - The old artifacts may remain as exploratory/provisional, but analysis text
+     must not treat them as validated.
+5. Upgrade topic vectors after the clean new-core table is stable.
+   - Start with deterministic, auditable title features.
+   - Later LLM-assisted classification can use title plus abstract where
+     available, with explicit uncertainty.
+
 ## Guiding Principle
 
 Do not start from rigid migration labels.

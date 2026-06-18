@@ -597,7 +597,20 @@ Before committing to new derived data, a direct inspection of paper titles in th
 
 This title-level inspection does not replace systematic topic classification, but it already tells us that **"AI migration" for most core-99 researchers means building the distributed systems that make AI work, not becoming AI researchers.** The venue-family signal (AI_ML share rising) is picking up ICML/NeurIPS papers about systems/infrastructure topics — exactly the MLSys/ICML boundary issue flagged in §12.3.
 
-## 11. Forward-Looking: The Post-GPT Landscape (June 2026)
+## 11. Forward-Looking: New-Core Landscape (Under Data Repair, June 2026)
+
+**Status note, June 2026:** this section records an exploratory first pass and
+should not yet be read as validated findings. The old `post-GPT core` pipeline
+used raw DBLP TOC records, mixed count sources, and skipped some complete
+newcomers in researcher topic profiles. The active repair track is now called
+**new-core** and is documented in `ANALYSIS_PLAN.md`. Repaired artifacts are
+`data/new_core_clean_papers.json` and `data/new_core.json`, built by
+`scripts/fetch_pacmnet_tocs.py` and `scripts/build_new_core.py`. Current
+repaired snapshot: new-core 115, stayers 43, newcomers 72, dropouts 56.
+Incomplete 2026 venue coverage remains an explicit caveat.
+
+The paragraphs below are retained as exploratory hypotheses and comparison
+context until the new-core topic/profile pipeline is rebuilt.
 
 The analysis in §§1-10 started from the 2018-2022 core-99 and tracked where they went. This section inverts the perspective: it starts from the present (2023-2026) and asks what the field looks like now, who the key players are, and what profiles characterize the post-GPT era.
 
@@ -811,7 +824,7 @@ The following methodological limitations are acknowledged and documented here. W
 
 **Conference-only scope (no journals) — with one critical exception.** The `publication_scope.py` rules deliberately exclude journals, books, theses, and non-conference records. In networking and AI/ML, top conferences are the primary venues for high-impact work, so this scope is intentional. However, researchers who shift from conference to journal publishing will appear to have declining output. This is particularly relevant for Inv-Q4 researchers.
 
-**PACMNET exception.** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), an ACM journal. This is a journal-integrated conference model — PACMNET IS the CoNEXT proceedings, not a traditional journal. The current pipeline classifies PACMNET papers as `journal=True`, excluding them from clean conference counts. This systematically undercounts core-99 CoNEXT publications post-2023. A spot check found 29 PACMNET papers from core-99 researchers (e.g., "F3: Fast and Flexible Network Telemetry," "Flock: Accurate Network Fault Localization"). *Status: `publication_scope.py` needs a PACMNET exception; pipeline regeneration required.*
+**PACMNET exception.** Starting in 2023, CoNEXT long papers are published in PACMNET (Proceedings of the ACM on Networking), an ACM journal-integrated conference model. PACMNET should be counted as CoNEXT evidence, not as an ordinary journal article. The repaired new-core path now fetches PACMNET TOCs separately and merges them into the canonical clean-paper table. Remaining caveat: 2026 PACMNET/CoNEXT coverage is still unavailable in the local artifacts.
 
 **Missing abstracts.** Most DBLP records lack abstracts, limiting the ability to perform topic-based classification beyond venue-family analysis. This is noted in §10 and is a constraint inherited from DBLP as a data source. *Status: acknowledged; abstract coverage audit planned before LLM topic analysis.*
 
@@ -828,7 +841,10 @@ The following methodological limitations are acknowledged and documented here. W
 
 | Script | Role |
 |--------|------|
-| `scripts/build_post_gpt_core.py` | Build post-GPT core (2023-2026) with stayers/newcomers/dropouts split |
+| `scripts/fetch_pacmnet_tocs.py` | Fetch PACMNET TOC records for CoNEXT long-paper evidence |
+| `scripts/build_new_core.py` | Build repaired new-core clean-paper table and cohort split |
+| `scripts/build_new_core_profiles.py` | Build descriptive profiles for all repaired new-core split researchers |
+| `scripts/build_post_gpt_core.py` | Provisional old post-GPT core builder; retained for comparison only |
 | `scripts/classify_paper_topics.py` | Keyword-based paper topic classification (11 categories) and venue-year topic vectors |
 | `scripts/build_researcher_topic_profiles.py` | Per-researcher topic profiles for stayers/newcomers/dropouts |
 
@@ -841,8 +857,12 @@ The following methodological limitations are acknowledged and documented here. W
 | `data/core99_investigation_summary.json` | Investigation Q1-Q3 aggregates |
 | `data/core99_sys_ai_storage_quadrants.csv` | Supplementary top-tier systems/AI/storage venue quadrant analysis |
 | `data/venue_family_map.json` | Venue-to-family mappings and aliases |
-| `data/post_gpt_core.json` | **NEW** Post-GPT core (2023-2026) with stayers/newcomers/dropouts tripartite split |
-| `data/post_gpt_venue_papers.json` | **NEW** All papers at 5 qualifying venues 2018-2026 with authors, for topic analysis |
+| `data/pacmnet_toc_papers.json` | **ACTIVE** PACMNET DBLP TOC records for CoNEXT long-paper evidence |
+| `data/new_core.json` | **ACTIVE** Repaired new-core tripartite split with coverage diagnostics |
+| `data/new_core_clean_papers.json` | **ACTIVE** Canonical clean qualifying-venue paper table for new-core construction |
+| `data/new_core_researcher_profiles.json` | **ACTIVE** Descriptive profiles for all repaired new-core split researchers |
+| `data/post_gpt_core.json` | Provisional old post-GPT core split; retained for comparison only |
+| `data/post_gpt_venue_papers.json` | Provisional raw venue-paper table feeding repaired new-core cleaning |
 | `data/paper_topic_labels.json` | **NEW** Per-paper topic classification (keyword-based, 11 categories) |
 | `data/venue_topic_vectors.json` | **NEW** Venue-year topic feature vectors for conference evolution analysis |
 | `data/venue_topic_evolution.csv` | **NEW** CSV of venue-year topic shares for charting |
