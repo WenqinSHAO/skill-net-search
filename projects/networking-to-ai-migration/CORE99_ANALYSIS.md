@@ -597,18 +597,179 @@ Before committing to new derived data, a direct inspection of paper titles in th
 
 This title-level inspection does not replace systematic topic classification, but it already tells us that **"AI migration" for most core-99 researchers means building the distributed systems that make AI work, not becoming AI researchers.** The venue-family signal (AI_ML share rising) is picking up ICML/NeurIPS papers about systems/infrastructure topics — exactly the MLSys/ICML boundary issue flagged in §12.3.
 
-## 11. Next Steps
+## 11. Forward-Looking: The Post-GPT Landscape (June 2026)
 
-Near-term work should be question-driven:
+The analysis in §§1-10 started from the 2018-2022 core-99 and tracked where they went. This section inverts the perspective: it starts from the present (2023-2026) and asks what the field looks like now, who the key players are, and what profiles characterize the post-GPT era.
 
-1. Build paper-topic packets for Inv-Q1, Inv-Q2, Inv-Q3, AI_ML expanders, and systems expanders.
-2. Add an abstract coverage audit before relying on LLM topic summaries.
-3. Run raw-count sensitivity for Inv-Q1 to Inv-Q4.
-4. Construct the 2023-2026 top-networking core and compare it against the current core-99.
-5. Add authorship-placement summaries for newcomers, not just incumbent core-99 researchers.
-6. Regenerate the PCA/trajectory figures with consistent labels for the representative researchers used in this document.
+### 11.1 The Post-GPT Core: A New Generation
 
-LLM-driven itinerary analysis should enter after the topic packets and evidence questions are explicit. The first LLM task should be descriptive summarization with citations to titles/venues, not final migration labeling.
+Applying the same selection threshold (≥7 papers at the five qualifying venues) to 2023-2026 produces a **post-GPT core of 113 researchers**, compared to 99 in the 2018-2022 core. The overlap is partial — a substantial renewal has occurred:
+
+| Group | Count | Definition |
+|-------|------:|------------|
+| **Stayers** | 40 | ≥7 top-networking papers in BOTH 2018-2022 and 2023-2026 |
+| **Newcomers** | 73 | ≥7 in 2023-2026 but NOT in core-99 (65 from within broad cohort + 8 complete newcomers) |
+| **Dropouts** | 59 | Core-99 researchers who fell below the threshold in 2023-2026 |
+
+**Key metrics:**
+- **Core-99 overlap rate**: 40.4% (40/99). Only 2 in 5 core-99 researchers maintain elite-level top-networking presence.
+- **Post-GPT core renewal rate**: 64.6% (73/113). Nearly two-thirds of the post-GPT core are new faces.
+- **Complete newcomers**: 8 researchers with 0 top-networking papers in 2018-2022 but ≥7 in 2023-2026 — researchers who entered the field after the GPT era began.
+
+The post-GPT core is both larger (113 vs. 99) and substantially different in composition. The field is not simply experiencing decline among the old guard — it is undergoing a significant renewal with new researchers entering at elite levels.
+
+Data artifact: `data/post_gpt_core.json` contains the full tripartite split with per-researcher counts and cross-reference flags.
+
+### 11.2 Conference Content Evolution: The AI Infrastructure Wave
+
+Paper-topic classification of all 2,248 papers at the five qualifying venues (2018-2026) reveals a clear shift in what these venues publish. Using a keyword-based classifier with 11 topic categories (see `scripts/classify_paper_topics.py` for the taxonomy), the most significant change is the growth of AI Infrastructure content:
+
+**AI Infrastructure share at NSDI:**
+
+| Period | AI Infra Share | Trend |
+|--------|:-------------:|-------|
+| 2018-2022 | 2.0–3.8% | Stable, low |
+| 2023 | 6.2% | First significant increase |
+| 2024 | 6.5% | Sustained |
+| 2025 | **10.7%** | Sharp jump |
+| 2026 | **10.0%** | Sustained at new level |
+
+**AI Infrastructure share at SIGCOMM:**
+
+| Period | AI Infra Share | Trend |
+|--------|:-------------:|-------|
+| 2018-2022 | 0.0–2.2% | Near zero |
+| 2023 | 2.5% | Modest start |
+| 2024 | **10.6%** | Sharp jump |
+| 2025 | **9.4%** | Sustained |
+
+At NSDI 2025-2026 and SIGCOMM 2024-2025, roughly 1 in 10 papers concerns AI infrastructure — distributed training, LLM serving, GPU cluster networking, or collective communication for ML. This represents a **3-5x increase** from the pre-GPT baseline.
+
+HotNets shows a milder increase (3% → 6-7% in 2023-2024), while IMC and CoNEXT remain largely unaffected (AI infra at 0-3% throughout).
+
+**What kind of AI infrastructure?** A title-level inspection of the 53 AI-infra papers at SIGCOMM/NSDI post-2023 shows the work is exclusively systems-for-ML:
+- Distributed training systems: "MegaScale: Scaling LLM Training to More Than 10,000 GPUs" (NSDI 2024), "DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training" (SIGCOMM 2025)
+- LLM serving/inference: "CacheGen: KV Cache Compression and Streaming for Fast LLM Serving" (SIGCOMM 2024), "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving" (NSDI 2026)
+- GPU cluster networking: "Alibaba HPN: A Data Center Network for LLM Training" (SIGCOMM 2024)
+- Collective communication: "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters" (NSDI 2026)
+
+These are not core AI/ML research papers — they are distributed systems and networking papers where the application is machine learning. They fit naturally at SIGCOMM and NSDI because the core technical problems (communication scheduling, topology optimization, bandwidth allocation, resource management) are networking and systems problems.
+
+Data artifacts: `data/post_gpt_venue_papers.json` (venue-year paper data), `data/paper_topic_labels.json` (per-paper topic labels), `data/venue_topic_vectors.json` (venue-year topic feature vectors), `data/venue_topic_evolution.csv` (CSV for charting).
+
+### 11.3 Who Is Producing the AI Infrastructure Content?
+
+Cross-referencing the 53 AI-infra papers at SIGCOMM/NSDI post-2023 with author identities reveals a nuanced authorship picture:
+
+| Author group | % of AI-infra papers with ≥1 author from this group |
+|-------------|:--------------------------------------------------:|
+| Any core-99 researcher | **64%** |
+| └ Core-99 stayers | **60%** |
+| └ Core-99 dropouts | 13% |
+| Any post-GPT core researcher | **66%** |
+| └ Newcomers (not in core-99) | **42%** |
+| Neither core-99 nor post-GPT core | 30% |
+
+**Key findings:**
+
+1. **Core-99 researchers, especially stayers, are the primary producers of AI-infra content at top venues** (60% of papers involve at least one stayer). The AI infrastructure wave at SIGCOMM/NSDI is not a newcomer takeover — it is core-99 researchers applying their networking/systems expertise to ML infrastructure problems.
+
+2. **Newcomers are heavily involved but mostly as collaborators** (42% involvement). Only 6% of AI-infra papers have newcomers without any core-99 co-author, while 25% have stayers without any newcomer. Newcomers are entering the field in collaboration with established researchers, not independently.
+
+3. **A significant "neither" group exists** (30%) — researchers outside both the 2018-2022 and 2023-2026 elite cohorts who are publishing AI-infra work at these venues. These may be AI/systems researchers who publish occasionally at networking venues, or industry researchers at companies (Meta, Alibaba, Google) that operate at the AI-networking boundary.
+
+4. **Collaboration between old and new guard is the dominant pattern** (36% of papers involve both stayers and newcomers). The AI-infra space at top networking venues is characterized by cross-generational collaboration, not competition.
+
+### 11.4 Post-GPT Researcher Profiles: Stayers, Newcomers, and Dropouts
+
+Researcher-level topic profiles (computed by classifying each researcher's full publication record) reveal distinct archetypes for the three groups.
+
+**Group-level post-2023 topic shares:**
+
+| Topic | Stayers (n=40) | Newcomers (n=65) | Dropouts (n=59) |
+|-------|:------------:|:---------------:|:--------------:|
+| AI Infrastructure | **8.1%** | **9.0%** | 2.8% |
+| Classical Networking | 13.3% | 18.4% | 14.2% |
+| Network Measurement | 12.1% | 9.1% | 15.1% |
+| Wireless/Mobile/Sensing | 7.4% | 12.7% | 15.2% |
+| Programmable Data Planes | 5.4% | 4.5% | 3.2% |
+| Networked Systems | 4.8% | 6.1% | 4.0% |
+| Network Security | 3.9% | 2.5% | 6.0% |
+| Other | 41.6% | 29.1% | 36.5% |
+
+**Delta from baseline (percentage-point change in topic share):**
+
+| Topic | Stayers | Newcomers | Dropouts |
+|-------|:------:|:--------:|:-------:|
+| AI Infrastructure | **+6.2pp** | **+7.8pp** | +2.2pp |
+| Classical Networking | −4.0pp | −2.4pp | **−5.1pp** |
+
+**Profile interpretations:**
+
+- **Stayers** have the second-highest AI-infra share (8.1%) and the largest classical networking decline (−4.0pp). They are shifting their portfolios toward AI infrastructure while maintaining high output at top venues. Representative: Xin Jin 0008 (AI infra 7%→39%, top-net 13→21), Arvind Krishnamurthy (AI infra 11%→25%, top-net 19→14).
+
+- **Newcomers** have the highest AI-infra share (9.0%) and the largest AI-infra delta (+7.8pp). They are entering top networking venues with AI-infra work. However, they also have the highest classical networking share (18.4%) — they are not exclusively AI-infra specialists. Representative: Dennis Cai (AI infra 0%→25%, top-net 6→17), Xuanzhe Liu (AI infra 6%→28%, top-net 3→13).
+
+- **Dropouts** have very low AI-infra engagement (2.8%, negligible delta). They are concentrated in wireless/mobile (15.2%), measurement (15.1%), and security (6.0%). Their declining presence at top venues is not because they moved to AI — it is because they remained in topics that are losing share at top venues. Representative: many of the 59 dropouts are in wireless/sensing (Fadel Adib, Haitham Hassanieh, Kyle Jamieson, Deepak Vasisht) or security/privacy (David R. Choffnes, Dave Levin).
+
+**The "AI-infra pivot" is a stayer+newcomer phenomenon.** Dropouts are not participating in it, and their declining top-venue presence may partly reflect that the venues' topical center of gravity is shifting away from their areas.
+
+### 11.5 Archetypes of the Post-GPT Era
+
+Synthesizing the venue-family analysis (§§4-6), paper-topic evidence (§10.1), and researcher topic profiles (§11.4), six post-GPT researcher archetypes emerge:
+
+| Archetype | Description | Examples | Approx. count |
+|-----------|-------------|----------|:------------:|
+| **AI-Infra Pivoters** | Classical networking researchers who now primarily publish AI infrastructure (distributed training, LLM serving) at systems and networking venues. Retain elite top-networking presence. | Xin Jin 0008, Kai Chen 0005, Mosharaf Chowdhury, Junchen Jiang | ~10-15 |
+| **Dual-Track Expanders** | Maintain classical networking output while adding substantial AI-infra work. Top-networking output stable or growing. | Aditya Akella, Arvind Krishnamurthy, Minlan Yu, Ying Zhang 0022 | ~15-20 |
+| **Classical Networking Core** | Still doing classical networking (routing, measurement, programmable data planes) at top venues. Minimal AI-infra engagement. Top-networking stable. | Ravi Netravali, Laurent Vanbever, Behnaz Arzani, Sylvia Ratnasamy | ~15-20 |
+| **Newcomer AI-Infra Specialists** | Entered top networking venues in 2023-2026 with AI-infra work. Often collaborate with established researchers. High AI-infra share (25-67%). | Dennis Cai, Kun Qian 0021, Binzhang Fu, Jiamin Cao, Yu Guan 0005 | ~10-15 |
+| **Newcomer Classical Networkers** | Entered top venues with classical networking/systems work. Strong Chinese cohort (Tian Pan, Li Chen, Mingwei Xu, Jilong Wang). | Dennis Cai (both), Tian Pan 0001, Li Chen 0008 | ~40-50 |
+| **Topic Exit / Volume Decline** | Reduced top-networking output. Staying in wireless, security, or measurement — topics that are not the growth areas at top venues. | Fadel Adib, Kyle Jamieson, Vyas Sekar, many Inv-Q4 researchers | ~50-60 |
+
+*Note: Archetype counts are approximate ranges based on topic profile inspection. Formal clustering of researcher topic vectors is deferred to later work.*
+
+**The dominant post-GPT profile is cross-generational and AI-infra-engaged.** The field is not splitting into "AI people" and "networking people" — it is producing researchers who do both, with AI infrastructure becoming a core competency alongside classical networking.
+
+### 11.6 Regional and Sector Dimensions
+
+The newcomer cohort has a strong Chinese presence. Of the 73 newcomers, a substantial fraction are at Chinese institutions (Tsinghua, Peking, HKUST, Alibaba, Huawei). Combined with the earlier finding that Chinese stayers show the strongest top-networking concentration (+14.4pp qualifying share in §8.1), this suggests Chinese researchers are a growing force in top networking venues, particularly in the AI-infra and networked-systems areas.
+
+Industry newcomers (Dennis Cai at Alibaba, several at Meta/Google) are also prominent, consistent with the earlier finding that industry researchers show systems-heavy growth (§8.1).
+
+Data artifact: `data/researcher_topic_profiles.json` (per-researcher topic vectors for all three groups), `data/post_gpt_core_profiles.csv` (CSV for comparison).
+
+### 11.7 Synthesis: What the Post-GPT Landscape Tells Us
+
+The forward-looking analysis modifies and extends the conservative claims from §9:
+
+1. **The post-GPT core is substantially renewed** (64.6% newcomers). The field is not simply experiencing decline — it is undergoing generational turnover with new researchers entering at elite levels.
+
+2. **AI infrastructure is now a first-class topic at SIGCOMM and NSDI** (10% of papers in 2024-2026, 3-5x increase from baseline). It is not a fringe interest — it is a significant and growing share of the top venues' content.
+
+3. **Core-99 stayers are driving the AI-infra wave** (60% of AI-infra papers involve them), but they are doing so in collaboration with newcomers (36% of papers involve both). The pattern is cross-generational collaboration, not displacement.
+
+4. **Dropouts are not "moving to AI."** They are staying in wireless, measurement, and security — areas that are a shrinking share of top-venue content. Their declining presence may partly reflect venues' topical evolution, not just individual output changes.
+
+5. **Newcomers are not "AI researchers invading networking."** They are systems/networking researchers whose work happens to be about ML infrastructure. Their topic profiles show significant classical networking engagement (18.4% classical networking share).
+
+6. **The field's center of gravity is shifting** from a pure-networking identity toward a networking+AI-infrastructure hybrid. Researchers who do both (like Xin Jin, Kai Chen, Aditya Akella) are the strongest performers. Researchers who do only classical networking can still thrive (like Ravi Netravali, Behnaz Arzani), but they represent a shrinking share.
+
+### 11.8 Next Steps (Updated)
+
+Immediate next steps:
+
+1. **LLM-based topic classification**. The keyword classifier has a 35% "Other" rate and misses nuanced cases. An LLM-based classifier (using paper titles and available abstracts) would substantially improve accuracy, especially for distinguishing AI-infra from classical systems and for identifying ML-for-networking papers.
+
+2. **Formal clustering of researcher topic profiles**. The archetypes in §11.5 are approximate; formal clustering (PCA on topic vectors, k-means or HDBSCAN) would produce more robust groupings.
+
+3. **Career-stage and author-role analysis for newcomers**. Understanding whether newcomers are early-career (PhD students, postdocs) or established researchers entering networking from adjacent fields would sharpen the renewal story.
+
+4. **Conference-level topic evolution charts**. Stacked area charts showing topic shares over time per venue would make the AI-infra growth visually compelling.
+
+5. **Comparison with the 2013-2017 cohort** (regression-to-the-mean check). The `build_comparison_cohort.py` script is ready; running it would distinguish field-specific change from statistical artifact.
+
+6. **Deep-dive case studies** for each archetype (2-3 researchers per archetype, with full paper-title evidence).
 
 ## 12. Caveats and Limitations
 
@@ -663,6 +824,14 @@ The following methodological limitations are acknowledged and documented here. W
 - [ANALYSIS_PLAN.md](ANALYSIS_PLAN.md) - Full project plan and TODO list
 - [README.md](README.md) - Master project index
 
+## 13b. New Scripts (Post-GPT Analysis Phase, June 2026)
+
+| Script | Role |
+|--------|------|
+| `scripts/build_post_gpt_core.py` | Build post-GPT core (2023-2026) with stayers/newcomers/dropouts split |
+| `scripts/classify_paper_topics.py` | Keyword-based paper topic classification (11 categories) and venue-year topic vectors |
+| `scripts/build_researcher_topic_profiles.py` | Per-researcher topic profiles for stayers/newcomers/dropouts |
+
 ## 14. Data Artifacts
 
 | Artifact | Description |
@@ -672,6 +841,13 @@ The following methodological limitations are acknowledged and documented here. W
 | `data/core99_investigation_summary.json` | Investigation Q1-Q3 aggregates |
 | `data/core99_sys_ai_storage_quadrants.csv` | Supplementary top-tier systems/AI/storage venue quadrant analysis |
 | `data/venue_family_map.json` | Venue-to-family mappings and aliases |
+| `data/post_gpt_core.json` | **NEW** Post-GPT core (2023-2026) with stayers/newcomers/dropouts tripartite split |
+| `data/post_gpt_venue_papers.json` | **NEW** All papers at 5 qualifying venues 2018-2026 with authors, for topic analysis |
+| `data/paper_topic_labels.json` | **NEW** Per-paper topic classification (keyword-based, 11 categories) |
+| `data/venue_topic_vectors.json` | **NEW** Venue-year topic feature vectors for conference evolution analysis |
+| `data/venue_topic_evolution.csv` | **NEW** CSV of venue-year topic shares for charting |
+| `data/researcher_topic_profiles.json` | **NEW** Per-researcher topic vectors for stayers/newcomers/dropouts |
+| `data/post_gpt_core_profiles.csv` | **NEW** CSV comparison of stayer/newcomer/dropout topic profiles |
 
 ## 15. Figures
 

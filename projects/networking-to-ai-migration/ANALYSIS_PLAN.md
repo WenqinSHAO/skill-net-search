@@ -784,13 +784,13 @@ Status of the immediate next batch:
 4. ✅ Venue aliases normalized; venue-family mapping built (still has `unknown` entries).
 5. ✅ Deterministic core-99 investigation tables for questions Q1-Q3.
 5b. ✅ Core-99 quadrant analysis (Q1-Q4) for elite sys/AI/storage venues.
-6. ⬜ Core-99 baseline/post-2023 topic-discovery packet — deferred until abstract coverage is known.
-7. ⬜ Auditable core-99 researcher characterization fields — deferred until topic clusters exist.
-8. ⬜ Abstract-coverage fields — needed before any topic discovery.
+6. ✅ Paper-topic classification implemented (keyword-based, 11 categories, 35% "Other" rate). LLM-based refinement still needed.
+7. ✅ Researcher topic profiles built for stayers/newcomers/dropouts. Formal clustering deferred.
+8. ⬜ Abstract-coverage fields — needed before LLM topic classification.
 9. ⬜ Outlier/data-quality tables for broad-cohort validation.
 10. ⬜ Parameterized top-k and threshold slices after core-99 attributes are stable.
 11. ⬜ Comparison groups reusing the same preprocessing pipeline.
-12. ⬜ Initial conference itineraries for the five qualifying venues.
+12. ✅ Conference itineraries for the five qualifying venues (2018-2026 paper data with authors fetched via DBLP TOC API; CoNEXT 2023-2025 incomplete due to PACMNET).
 
 ## Adjusted Immediate Priorities
 
@@ -823,65 +823,21 @@ What we know from the core-99 analysis (87 analyzable researchers):
 - **AI_ML expansion**: Concentrated in 9 individuals, not a broad trend. Half are new entrants from zero base.
 - **PCA/delta resolved**: Correlation 0.88. Disagreement fully explained by family-level PCA loadings.
 
-### Phase A: Simplify and Unify the Core-99 Analysis
+### Phase A: Simplify and Unify the Core-99 Analysis ✅ COMPLETE
 
-The current CORE99_INVESTIGATION.md has grown organically with multiple overlapping lenses (investigation groups, sys/AI quadrants, shared PCA, delta vectors, cross-method synthesis). This needs consolidation.
+The analysis has been consolidated into CORE99_ANALYSIS.md as the primary narrative doc, with CORE99_INVESTIGATION.md as the detailed reference. Sys/AI quadrant analysis is deprecated as a primary grouping.
 
-**A1. Reorganize CORE99_INVESTIGATION.md around three sequential views:**
+### Phase B: Paper-Topic Analysis for Key Subgroups ✅ COMPLETE (keyword-based)
 
-| View | What it answers | Method |
-|------|----------------|--------|
-| **Static baseline profile** | Who are the core-99? What did their portfolios look like in 2018-2022? | Baseline PCA (shared eigenvectors) + aggregate portfolio table |
-| **Static post-2023 profile** | Where did they land? | Post-2023 projected through baseline PCA |
-| **Delta / migration** | How did they change? What are the patterns? | Delta vectors + delta PCA + delta heatmap + investigation group profiles |
+Paper-topic classification implemented for all 2,248 venue papers across 11 categories. Title-level inspection confirmed that AI-infra expanders are doing systems-for-ML, not core AI research. Keyword classifier has 35% "Other" rate — LLM-based refinement planned.
 
-This three-view narrative (where they started → where they landed → how they moved) is the natural structure. The sys/AI quadrant analysis becomes an appendix or supplementary lens, not the primary taxonomy.
+### Phase C: Recompute Profiles for 2023-2026 ✅ COMPLETE
 
-**A2. Deprecate the sys/AI quadrant taxonomy as a primary grouping.** It served its purpose during exploration but has been superseded by the more informative investigation groups (Inv-Q1 through Inv-Q4) and the delta vector analysis. The quadrant analysis should remain as a supplementary data artifact (`data/core99_sys_ai_storage_quadrants.csv`) but not drive the main narrative.
+Post-GPT core built: 113 researchers (40 stayers, 73 newcomers, 59 dropouts). Cross-referenced with core-99. Conference-level topic evolution quantified. Researcher topic profiles built for all three groups. See CORE99_ANALYSIS.md §11 for full findings.
 
-**A3. Add a "Profile Types" summary**: Using the baseline PCA and delta vector, define a small set of researcher profile types (e.g., "elite-concentrated stayer," "broad-networker focusing," "systems pivoter," "AI entrant"). These should be derived from the PCA/clustering, not imposed manually.
+### Phase D: Additional Suggestions — Partially Complete
 
-### Phase B: Paper-Topic Analysis for Key Subgroups
-
-The venue-family analysis tells us WHERE researchers publish but not WHAT they work on. We need paper-title (and where available, abstract) evidence for the key subgroups identified in the cross-method synthesis.
-
-**B1. The "falling out" group (Inv-Q1, n=15).** What are their post-2023 paper topics? Are they continuing classical networking research at lower-tier venues, or changing research topics? Key question: is the venue decline accompanied by a topic shift, or is it purely a prestige decline?
-
-**B2. The "strengthening" group (Inv-Q3, n=7).** What topics are they publishing at the elite venues? Are they working on classical networking, AI infrastructure, or measurement? Since their concentration is partly a denominator artifact, understanding their actual topics is crucial.
-
-**B3. The "AI_ML expanders" (n=9).** For the 9 researchers with AI_ML expansion >10pp, what kind of AI/ML work are they doing? Distinguish: AI infrastructure/systems (MLSys, distributed training) vs. core AI/ML research (new architectures, learning algorithms). This directly addresses the original project question about "moving to AI."
-
-**B4. The "systems pivoters" (Yibo Zhu +36pp, Kai Chen +20pp, Robert Soulé +34pp).** What systems topics are they working on? Are they doing AI infrastructure or classical distributed systems?
-
-**Method**: Build a topic-discovery packet (per TODO 6) for these subgroups. For each paper: title, venue, year, venue family, abstract availability flag. For subgroups small enough (B1-B4 total ~35 researchers), manual title review is feasible. LLM summarization should wait until abstract coverage is audited.
-
-### Phase C: Recompute Profiles for 2023-2026 (Newcomers and Dropouts)
-
-The core-99 is defined by baseline_top_networking_count > 6 during **2018-2022**. What if we recompute the same threshold for **2023-2026**?
-
-**C1. Newcomers**: Researchers with ≥7 qualifying papers during 2023-2026 who had <7 during 2018-2022. Who are they? What do they work on? Are they rising stars in classical networking, or are they publishing AI infrastructure papers at NSDI/SIGCOMM?
-
-**C2. Dropouts**: Core-99 researchers who fell below the threshold in 2023-2026 (had >6 in 2018-2022 but ≤6 in 2023-2026). How many? Is this the same set as Inv-Q1 + Inv-Q4, or different?
-
-**C3. Stayers**: Researchers who meet the threshold in BOTH periods. How many? What characterizes them?
-
-**C4. Conference-level newcomer analysis**: For the five qualifying venues in 2023-2026, what fraction of papers come from newcomers vs. established core-99 researchers? Is the "new guard" different from the "old guard" in research topics?
-
-**Method**: Re-run the cohort identification pipeline for 2023-2026. Cross-reference with the 2018-2022 core-99. Build static profiles (baseline PCA projection) for the 2023-2026 cohort.
-
-### Phase D: Additional Suggestions
-
-**D1. Raw-count sensitivity analysis.** The Inv-Q3 concentration pattern raised a concern: rate-ratio "flat/increased" can mask denominator-driven share changes. Re-classify researchers using raw-count deltas (post_count − bl_count) instead of rate ratios, and compare the resulting groups.
-
-**D2. Career-stage proxy.** Add first-publication-year and first-qualifying-paper-year fields to researcher attributes. Test whether the "falling out" pattern correlates with career stage (are senior researchers declining more? are mid-career researchers pivoting more?).
-
-**D3. Conference-level topic evolution.** (Per original TODO 14.) For the five qualifying venues, track paper-title themes over 2018-2026. This would help distinguish "researcher migration" from "conference evolution" — are NSDI and SIGCOMM themselves changing, and researchers are just following?
-
-**D4. Comparison groups.** (Per original TODO 12.) Build the near-core sample (3 ≤ baseline_top_networking_count ≤ 6) and test whether the core-99 patterns (falling out, concentration, AI expansion) also appear in the broader researcher population.
-
-### Recommended Execution Order
-
-1. **A1-A2** (simplify/unify CORE99_INVESTIGATION.md) — documentation work, can be done immediately
-2. **B1-B4** (paper-topic analysis for subgroups) — requires abstract coverage audit first (Priority 3)
-3. **C1-C4** (recompute 2023-2026 profiles) — requires re-running cohort identification pipeline
-4. **D1-D4** (sensitivity, career stage, conference evolution, comparison groups) — lower priority, depends on A-C stabilizing
+- **D1** (raw-count sensitivity): ⬜ Deferred.
+- **D2** (career-stage proxy): ⬜ Deferred.
+- **D3** (conference-level topic evolution): ✅ Complete — venue-year topic vectors built, AI infra growth at NSDI (2-3% → 10-11%) and SIGCOMM (0-2% → 10%) quantified.
+- **D4** (comparison groups): ⬜ Deferred.

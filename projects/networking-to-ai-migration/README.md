@@ -114,7 +114,7 @@ This is where the provisional `baseline_top_networking_count > 6` working slice 
 
 The core-99 is the current microscope sample. All analysis is consolidated in one document.
 
-- **Primary analysis**: [CORE99_ANALYSIS.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md) — unified narrative: static baseline → static post-2023 → delta/migration
+- **Primary analysis**: [CORE99_ANALYSIS.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md) — unified narrative: static baseline → static post-2023 → delta/migration → **forward-looking post-GPT landscape (§11)**
 - **Detailed investigation**: [CORE99_INVESTIGATION.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_INVESTIGATION.md) — full decompositions, cross-method synthesis, all tables
 - **Detailed attributes**: [CORE99_RESEARCHER_ATTRIBUTES.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_RESEARCHER_ATTRIBUTES.md)
 - **Deterministic Q1-Q3 tables**: [CORE99_INVESTIGATION_TABLES.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_INVESTIGATION_TABLES.md)
@@ -128,20 +128,36 @@ Key data artifacts:
   - `data/selected_sample_network_gt6_packet.json` — full title-level evidence for core-99
   - `data/venue_family_map.json` — venue→family mapping (343 mappings, 24 aliases; Q1: 0% unknown, Q2: 2.2%, core-99: 3.6%)
 
-#### Quadrant Analysis
+### 6. Post-GPT Forward-Looking Analysis (June 2026) 🆕
 
-Core-99 researchers publishing in top-tier systems (OSDI/SOSP/EuroSys/ATC/ASPLOS/SoCC/MLSys), AI (ICML/ICLR/NeurIPS/AAAI/AISTATS/CVPR/ICCV/ECCV), and storage (FAST) venues are split by two axes: top-networking direction × overall clean-publication direction.
+The forward-looking analysis inverts the perspective: starting from 2023-2026 and asking what the field looks like now.
 
-| Quadrant | Definition | N | Signal |
-|----------|-----------|----|--------|
-| Q1: net+ overall+ | Top-net flat/inc, clean-pub flat/inc | 30 | Strong all-around; anchored in networking while engaging sys/AI venues |
-| Q2: net- overall+ | Top-net dec/inact, clean-pub flat/inc | 8 | Portfolio shift candidates — still productive, less at top networking |
-| Q3: net+ overall- | Top-net flat/inc, clean-pub dec/inact | 4 | Concentrating — maintaining networking share while shrinking overall |
-| Q4: net- overall- | Top-net dec/inact, clean-pub dec/inact | 18 | Broad decline group |
+- **Analysis**: [CORE99_ANALYSIS.md §11](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md#11-forward-looking-the-post-gpt-landscape-june-2026)
 
-Data: `data/core99_sys_ai_storage_quadrants.csv`. See [CORE99_INVESTIGATION.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_INVESTIGATION.md#quadrant-analysis-top-tier-sys-ai-storage-venues) for full analysis.
+Key findings:
+- **Post-GPT core**: 113 researchers (40 stayers, 73 newcomers). 64.6% renewal rate.
+- **AI Infrastructure at NSDI**: 2-3% → 10-11% of papers (3-5x growth)
+- **AI Infrastructure at SIGCOMM**: 0-2% → 10% of papers
+- **Who writes AI-infra papers**: 60% involve core-99 stayers, 42% involve newcomers. Collaboration is the dominant pattern.
+- **Stayer AI-infra share**: 8.1% post-2023 (+6.2pp delta)
+- **Newcomer AI-infra share**: 9.0% post-2023 (+7.8pp delta)
+- **Dropout AI-infra share**: 2.8% (negligible) — dropouts are in wireless/measurement/security, not AI
 
-### 8. Project Plan And Status
+New data artifacts:
+  - `data/post_gpt_core.json` — tripartite split with per-researcher counts
+  - `data/post_gpt_venue_papers.json` — all papers at 5 qualifying venues 2018-2026
+  - `data/paper_topic_labels.json` — per-paper topic classification (11 categories)
+  - `data/venue_topic_vectors.json` — venue-year topic feature vectors
+  - `data/venue_topic_evolution.csv` — CSV for charting
+  - `data/researcher_topic_profiles.json` — per-researcher topic vectors
+  - `data/post_gpt_core_profiles.csv` — CSV comparison of stayer/newcomer/dropout profiles
+
+New scripts:
+  - `scripts/build_post_gpt_core.py` — build post-GPT core with DBLP TOC API
+  - `scripts/classify_paper_topics.py` — keyword-based paper topic classifier
+  - `scripts/build_researcher_topic_profiles.py` — per-researcher topic profiles
+
+### 7. Project Plan And Status
 
 For the evolving TODO list and sequencing logic, read:
 
@@ -164,9 +180,14 @@ The main scripts and their current roles are:
 | `scripts/build_core99_attributes.py` | Build deterministic observable attributes for the core-99 |
 | `scripts/audit_core99_author_positions.py` | Audit author-position match coverage and alias issues |
 | `scripts/build_core99_investigation_tables.py` | Build deterministic tables for the first core-99 investigation questions |
+| `scripts/build_comparison_cohort.py` | Build 2013-2017 comparison cohort for regression-to-the-mean check |
+| `scripts/build_post_gpt_core.py` | 🆕 Build post-GPT core (2023-2026) with stayers/newcomers/dropouts split |
+| `scripts/classify_paper_topics.py` | 🆕 Keyword-based paper topic classification (11 categories) and venue-year topic vectors |
+| `scripts/build_researcher_topic_profiles.py` | 🆕 Per-researcher topic profiles for stayers/newcomers/dropouts |
 | `scripts/classify_zones.py` | Legacy/auxiliary conservative paper tagging, not current analytical foundation |
 | `scripts/compute_metrics.py` | Legacy/auxiliary aggregate metrics |
 | `scripts/generate_charts.py` | Legacy chart/report generation |
+| `scripts/regenerate_charts.py` | Regenerate PCA/delta figures with consistent styling |
 
 ## Main Artifacts
 
@@ -252,11 +273,23 @@ In practice, the current work has also been using targeted rebuilds of specific 
 
 Near-term open work:
 
-- improve venue-family normalization where `unknown` remains too large,
+- refine paper topic classification with LLM (keyword classifier has 35% "Other" rate),
+- run formal clustering of researcher topic profiles (PCA + k-means on topic vectors),
+- run regression-to-the-mean check with 2013-2017 comparison cohort (`build_comparison_cohort.py`),
+- add career-stage proxy and author-role analysis for newcomers,
 - strengthen geo and especially sector labels,
-- define and build a comparison group beyond the core-99,
-- verify whether core-99 findings generalize beyond the high-signal slice,
-- only then pilot LLM-driven itinerary summarization and archetype discovery.
+- build comparison groups beyond the core-99 (near-core sample, broad cohort),
+- audit abstract coverage before LLM-based topic classification,
+- build conference evolution charts (stacked area plots of topic shares over time).
+
+Completed June 2026:
+
+- ✅ Post-GPT core built (113 researchers, 40 stayers, 73 newcomers, 59 dropouts)
+- ✅ Conference-level topic evolution quantified (AI infra at NSDI: 2-3% → 10-11%; SIGCOMM: 0-2% → 10%)
+- ✅ AI-infra paper authorship analyzed (60% involve core-99 stayers, 42% involve newcomers)
+- ✅ Researcher topic profiles built for all three groups
+- ✅ Forward-looking analysis written (CORE99_ANALYSIS.md §11)
+- ✅ New scripts and data artifacts documented
 
 Deferred on purpose:
 
