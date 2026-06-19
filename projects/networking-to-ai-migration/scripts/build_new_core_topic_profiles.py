@@ -74,7 +74,7 @@ def compute_topic_profile(
         venue_filter: if set, only include papers whose venue is in this set
 
     Returns:
-        {topic_shares: {topic: pct}, total_papers: int, primary_topic: str}
+        {topic_shares: {topic: pct}, qualifying_papers: int, primary_topic: str}
     """
     topic_counts = defaultdict(float)
     total = 0
@@ -104,7 +104,7 @@ def compute_topic_profile(
     primary = max(shares, key=shares.get) if shares else "other"
 
     return {
-        "total_papers": total,
+        "qualifying_papers": total,
         "topic_shares": shares,
         "primary_topic": primary,
     }
@@ -197,11 +197,13 @@ def main():
             pid = r["dblp_pid"]
             papers = pid_papers.get(pid, [])
 
-            # All-papers topic profile
+            # Qualifying-venue topic profile. The canonical clean paper table
+            # contains only qualifying venues, so this is not a full publication
+            # portfolio for the researcher.
             baseline_profile = compute_topic_profile(papers, years=BASELINE_YEARS)
             post_profile = compute_topic_profile(papers, years=POST_YEARS)
 
-            # Top-networking-only topic profile
+            # Same computation with an explicit venue filter kept for diagnostics.
             topnet_baseline = compute_topic_profile(
                 papers, years=BASELINE_YEARS, venue_filter=QUALIFYING_VENUES
             )
@@ -218,11 +220,11 @@ def main():
                 "in_core99": r["in_core99"],
                 "in_broad_cohort": r["in_broad_cohort"],
                 # Baseline
-                "baseline_total_papers": baseline_profile["total_papers"],
+                "baseline_qualifying_papers": baseline_profile["qualifying_papers"],
                 "baseline_topic_shares": baseline_profile["topic_shares"],
                 "baseline_primary_topic": baseline_profile["primary_topic"],
                 # Post-2023
-                "post_total_papers": post_profile["total_papers"],
+                "post_qualifying_papers": post_profile["qualifying_papers"],
                 "post_topic_shares": post_profile["topic_shares"],
                 "post_primary_topic": post_profile["primary_topic"],
                 # Delta
@@ -236,12 +238,12 @@ def main():
                 },
                 # Top-networking only
                 "topnet_baseline": {
-                    "total_papers": topnet_baseline["total_papers"],
+                    "qualifying_papers": topnet_baseline["qualifying_papers"],
                     "topic_shares": topnet_baseline["topic_shares"],
                     "primary_topic": topnet_baseline["primary_topic"],
                 },
                 "topnet_post": {
-                    "total_papers": topnet_post["total_papers"],
+                    "qualifying_papers": topnet_post["qualifying_papers"],
                     "topic_shares": topnet_post["topic_shares"],
                     "primary_topic": topnet_post["primary_topic"],
                 },
@@ -269,7 +271,7 @@ def main():
         return {topic: round(v / n, 2) for topic, v in means.items()}
 
     print(f"\n{'=' * 60}")
-    print("GROUP SUMMARIES (Post-2023 Topic Shares, all papers)")
+    print("GROUP SUMMARIES (Post-2023 Topic Shares, qualifying-venue papers)")
     print(f"{'=' * 60}")
 
     group_summaries = {}
@@ -327,7 +329,7 @@ def main():
         # Mean of topnet_post topic shares
         topnet_means = defaultdict(float)
         for p in profiles:
-            if p["topnet_post"]["total_papers"] > 0:
+            if p["topnet_post"]["qualifying_papers"] > 0:
                 for topic, share in p["topnet_post"]["topic_shares"].items():
                     topnet_means[topic] += share
         topnet_means = {t: round(v / n, 2) for t, v in topnet_means.items()}
@@ -336,6 +338,49 @@ def main():
             print(f"  {TOPICS[topic]['label']}: {share:.1f}%")
         ai_share = topnet_means.get("ai_infrastructure", 0)
         print(f"  → AI Infrastructure: {ai_share:.1f}%")
+
+    # ── Baseline sufficiency diagnostics ──
+    baseline_sufficiency = {}
+    for label in ["stayer", "newcomer", "dropout"]:
+        profiles = [p for p in all_profiles if p["group"] == label]
+        baseline_sufficiency[label] = {
+            "n": len(profiles),
+            "baseline_zero": sum(1 for p in profiles if p["baseline_qualifying_papers"] == 0),
+            "baseline_lt5": sum(1 for p in profiles if p["baseline_qualifying_papers"] < 5),
+            "baseline_ge5": sum(1 for p in profiles if p["baseline_qualifying_papers"] >= 5),
+        }
+
+    def group_delta_for_subset(profiles: list[dict]) -> dict:
+        n = len(profiles)
+        if n == 0:
+            return {topic: None for topic in TOPIC_KEYS}
+        out = {}
+        for topic in TOPIC_KEYS:
+            out[topic] = round(sum(p["delta_topic_shares"].get(topic, 0) for p in profiles) / n, 2)
+        return out
+
+    delta_sensitivity = {}
+    for label in ["stayer", "newcomer", "dropout"]:
+        profiles = [p for p in all_profiles if p["group"] == label]
+        subsets = {
+            "all": profiles,
+            "baseline_ge1": [p for p in profiles if p["baseline_qualifying_papers"] >= 1],
+            "baseline_ge5": [p for p in profiles if p["baseline_qualifying_papers"] >= 5],
+        }
+        delta_sensitivity[label] = {
+            name: {
+                "n": len(subset),
+                "mean_delta_topic_shares": group_delta_for_subset(subset),
+            }
+            for name, subset in subsets.items()
+        }
+
+    print("\nBaseline sufficiency diagnostics:")
+    for label, stats in baseline_sufficiency.items():
+        print(
+            f"  {label}: n={stats['n']}, baseline_zero={stats['baseline_zero']}, "
+            f"baseline_lt5={stats['baseline_lt5']}, baseline_ge5={stats['baseline_ge5']}"
+        )
 
     # ── Save JSON output ──
     output = {
@@ -352,9 +397,11 @@ def main():
                 label: len([p for p in all_profiles if p["group"] == label])
                 for label in ["stayer", "newcomer", "dropout"]
             },
-            "coverage_note": "All 171 stayers/newcomers/dropouts have profiles, including 9 DBLP-only complete newcomers. Researchers with zero papers in both periods have zero-valued topic shares.",
+            "coverage_note": "All 171 stayers/newcomers/dropouts have profiles, including 9 DBLP-only complete newcomers. Profiles are qualifying-venue only. Researchers with zero baseline qualifying papers have zero-valued baseline topic shares, so delta claims must be read with baseline sufficiency diagnostics.",
         },
         "group_summaries": group_summaries,
+        "baseline_sufficiency": baseline_sufficiency,
+        "delta_sensitivity": delta_sensitivity,
         "researchers": sorted(
             all_profiles,
             key=lambda p: ({"stayer": 0, "newcomer": 1, "dropout": 2}[p["group"]], p["name"]),
@@ -377,8 +424,8 @@ def main():
                 "new_core_observed_top_networking_count",
                 "in_core99",
                 "in_broad_cohort",
-                "baseline_total_papers",
-                "post_total_papers",
+                "baseline_qualifying_papers",
+                "post_qualifying_papers",
                 "bl_ai_infra_pct",
                 "post_ai_infra_pct",
                 "delta_ai_infra_pp",
@@ -407,8 +454,8 @@ def main():
                     ],
                     "in_core99": p["in_core99"],
                     "in_broad_cohort": p["in_broad_cohort"],
-                    "baseline_total_papers": p["baseline_total_papers"],
-                    "post_total_papers": p["post_total_papers"],
+                    "baseline_qualifying_papers": p["baseline_qualifying_papers"],
+                    "post_qualifying_papers": p["post_qualifying_papers"],
                     "bl_ai_infra_pct": p["baseline_topic_shares"].get("ai_infrastructure", 0),
                     "post_ai_infra_pct": p["post_topic_shares"].get("ai_infrastructure", 0),
                     "delta_ai_infra_pp": p["delta_topic_shares"].get("ai_infrastructure", 0),
@@ -429,14 +476,14 @@ def main():
 
     # ── Coverage diagnostics ──
     zero_baseline = sum(
-        1 for p in all_profiles if p["baseline_total_papers"] == 0
+        1 for p in all_profiles if p["baseline_qualifying_papers"] == 0
     )
     zero_post = sum(
-        1 for p in all_profiles if p["post_total_papers"] == 0
+        1 for p in all_profiles if p["post_qualifying_papers"] == 0
     )
     print(f"\nCoverage diagnostics:")
-    print(f"  Researchers with zero baseline papers: {zero_baseline}")
-    print(f"  Researchers with zero post-2023 papers: {zero_post}")
+    print(f"  Researchers with zero baseline qualifying papers: {zero_baseline}")
+    print(f"  Researchers with zero post-2023 qualifying papers: {zero_post}")
     print(f"  DBLP-only (not in broad cohort): {sum(1 for p in all_profiles if not p['in_broad_cohort'])}")
 
     print("\nDone.")

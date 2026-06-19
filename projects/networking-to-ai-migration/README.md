@@ -114,7 +114,7 @@ This is where the provisional `baseline_top_networking_count > 6` working slice 
 
 The core-99 is the current microscope sample. All analysis is consolidated in one document.
 
-- **Primary analysis**: [CORE99_ANALYSIS.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md) — unified narrative: static baseline → static post-2023 → delta/migration → **forward-looking post-GPT landscape (§11)**
+- **Primary analysis**: [CORE99_ANALYSIS.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_ANALYSIS.md) — unified narrative: static baseline → static post-2023 → delta/migration → **forward-looking new-core landscape (§11)**
 - **Detailed investigation**: [CORE99_INVESTIGATION.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_INVESTIGATION.md) — full decompositions, cross-method synthesis, all tables
 - **Detailed attributes**: [CORE99_RESEARCHER_ATTRIBUTES.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_RESEARCHER_ATTRIBUTES.md)
 - **Deterministic Q1-Q3 tables**: [CORE99_INVESTIGATION_TABLES.md](/home/wenqin/net-search/projects/networking-to-ai-migration/CORE99_INVESTIGATION_TABLES.md)
@@ -165,12 +165,12 @@ Current repaired count snapshot from `scripts/fetch_pacmnet_tocs.py` plus
 
 Key corrected findings (replacing old exploratory numbers from incomplete data):
 - **Stay AI infra share**: 7.5% (+7.0pp delta) at qualifying venues
-- **Newcomer AI infra share**: 8.9% (+7.9pp delta) — with simultaneous classical networking growth (+7.7pp)
+- **Newcomer current top-venue mix**: 8.9% AI infra and 23.6% classical networking; deltas are baseline-fragile because 52/72 newcomers have fewer than 5 baseline qualifying papers
 - **Dropout AI infra share**: 2.4% (+1.8pp delta)
 - **AI infra at NSDI**: 1-4% (2018-2022) → 6-11% (2023-2026)
 - **AI infra at SIGCOMM**: 0-2% (2018-2022) → 10-11% (2024-2025)
-- **Who writes AI-infra papers**: 55% involve stayers, 39% involve newcomers, 39% involve researchers outside both groups
-- **Newcomers are NOT "AI researchers invading networking"** — they grow classical networking (+7.7pp) and AI infra (+7.9pp) simultaneously
+- **Who writes AI-infra papers**: 55% involve stayers, 39% involve newcomers, 34% involve researchers outside both groups
+- **Newcomers are NOT simply "AI researchers invading networking"** — their current qualifying-venue portfolios contain substantial classical networking as well as AI infra
 
 Important caveat remains: 2026 venue coverage is observed-as-available rather
 than complete (only NSDI 2026 present). Topic classification is keyword-based with 34.5% "Other" rate.
@@ -320,7 +320,7 @@ Completed June 2026:
 - ✅ Researcher topic profiles rebuilt for all 171 stayers/newcomers/dropouts (including 9 DBLP-only complete newcomers)
 - ✅ Conference-level topic evolution re-quantified (NSDI: 1-4% → 6-11% AI infra; SIGCOMM: 0-2% → 10-11%)
 - ✅ AI-infra authorship re-analyzed (55% involve stayers, 39% involve newcomers, 31% cross-generational collaboration)
-- ✅ Newcomer dual-growth pattern discovered (classical networking +7.7pp AND AI infra +7.9pp — not zero-sum)
+- ✅ Newcomer mixed current-portfolio pattern identified (substantial classical networking and AI infra in post-2023 qualifying venues; longitudinal deltas are baseline-fragile)
 - ✅ CORE99_ANALYSIS.md §11 updated with repaired counts and corrected findings
 - ✅ Documentation consistency restored (README.md, ANALYSIS_PLAN.md, CORE99_ANALYSIS.md)
 

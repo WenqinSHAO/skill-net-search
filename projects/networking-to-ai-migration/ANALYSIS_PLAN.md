@@ -917,7 +917,7 @@ Paper-topic classification rebuilt on the repaired canonical clean paper table (
 
 ### Phase C: Recompute Profiles for 2023-2026 ✅ COMPLETE (v2 rebuilt)
 
-New-core built: 115 researchers (43 stayers, 72 newcomers, 56 dropouts). The old Phase C numbers (113/40/73/59) were based on incomplete venue-paper data (missing PACMNET, non-main-paper noise). Topic profiles rebuilt for all 171 researchers from the canonical clean paper table (`new_core_topic_profiles.json`). Key revision: newcomers show dual growth in both classical networking (+7.7pp) and AI infra (+7.9pp), not a zero-sum shift. See CORE99_ANALYSIS.md §11 for corrected findings.
+New-core built: 115 researchers (43 stayers, 72 newcomers, 56 dropouts). The old Phase C numbers (113/40/73/59) were based on incomplete venue-paper data (missing PACMNET, non-main-paper noise). Topic profiles rebuilt for all 171 researchers from the canonical clean paper table (`new_core_topic_profiles.json`). Key revision: newcomers have mixed current top-venue portfolios with substantial classical networking and AI infra; all-newcomer longitudinal deltas are baseline-fragile because many newcomers have sparse baseline qualifying-venue evidence. See CORE99_ANALYSIS.md §11 for corrected findings.
 
 ### Phase D: Additional Suggestions — Partially Complete
 
