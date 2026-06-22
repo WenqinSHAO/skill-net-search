@@ -93,46 +93,147 @@ is to make all later analyses comparable and auditable.
 
 ### I.1 Paper Scope
 
-Define each paper universe explicitly:
+Use simple paper-scope names that match how readers will reason about an
+author's publication record. Avoid using `clean` as a scope name: cleaning is a
+processing step that applies to every scope, not a substantive comparison set.
 
-- **Qualifying top-networking papers**: clean main papers at SIGCOMM, NSDI,
-  CoNEXT, HotNets, and IMC.
-- **Broad clean conference papers**: deduplicated conference papers used for
-  venue-family portfolio analysis.
-- **Networking-related papers**: papers in networking venues or system papers
+For an individual researcher, define three paper sets:
+
+- **Total papers**: all in-scope conference papers attached to the researcher
+  after deduplication and record cleaning. This is the broad activity universe
+  for volume and broad venue-family analysis.
+- **Net papers**: the subset of total papers that are networking-related. This
+  includes papers in networking venues and papers in adjacent systems venues
   whose title/abstract indicates a networking problem.
-- **Excluded records**: posters, demos, proceedings-volume records, workshops,
-  editorials, keynotes, and other non-main-paper records.
+- **Top-net papers**: the subset of net papers in the five qualifying
+  top-networking venues: SIGCOMM, NSDI, CoNEXT, HotNets, and IMC.
 
-Required outputs:
+For a group of researchers, use the same terms with an explicit aggregation
+rule:
 
-- A short scope table in `README.md`.
-- A machine-readable scope manifest, likely
-  `data/analysis_scope_manifest.json`.
-- A check script or report that counts included/excluded records by source,
-  venue, and year.
+- **author-summed count**: sum of per-researcher paper incidences. If two scoped
+  researchers coauthor the same paper, it counts twice.
+- **unique-paper count**: union of papers across the group. If two scoped
+  researchers coauthor the same paper, it counts once.
+
+Both are useful and answer different questions. Author-summed counts measure
+researcher activity; unique-paper counts measure venue/paper coverage. Every
+artifact should state which denominator it uses.
+
+Excluded records remain a separate processing category:
+
+- posters,
+- demos,
+- proceedings-volume records,
+- workshops,
+- editorials,
+- keynotes,
+- other non-main-paper records.
+
+Immediate materialization for I.1:
+
+1. Create `data/analysis_scope_manifest.json` with the canonical definitions:
+   `total_papers`, `net_papers`, `top_net_papers`, excluded-record classes,
+   source fields, and aggregation modes.
+2. Create a scope audit table with counts by source, venue, year, inclusion
+   status, and exclusion reason.
+3. Update `README.md` with a short scope table so future agents/readers use the
+   same names.
+4. Keep legacy terms such as `clean_papers` only as implementation-history
+   notes when existing filenames require them.
 
 ### I.2 Venue Scope And Venue-Year Background
 
-Venue analysis should precede researcher analysis. For each qualifying venue
-and year, compute:
+Venue analysis should precede researcher analysis. First build venue-year
+background for top-net venues without relying on researcher cohort labels. This
+creates the field-level baseline for later researcher interpretation.
 
-- total clean paper count,
-- author count and repeat-author concentration,
-- topic vector over the fine networking taxonomy,
-- old-core/new-core/stayer/newcomer/dropout authorship incidence,
-- coverage status, especially for 2026.
+Layered outputs should be computed in this order:
 
-This gives the "inflation baseline": a researcher-level change should be read
-relative to what the venue itself is doing.
+1. **All top-net combined by year**
+   - one topic vector per year across SIGCOMM + NSDI + CoNEXT + HotNets + IMC,
+   - total unique-paper count per year,
+   - total author count per year,
+   - concentration metrics per year.
 
-Required outputs:
+2. **Each top-net venue by year**
+   - one topic vector per venue-year,
+   - unique-paper count per venue-year,
+   - author count and concentration per venue-year,
+   - source/coverage flags, especially for 2026.
+
+3. **Venue-vs-field comparison**
+   - compare each venue-year vector to the all-top-net yearly vector,
+   - identify whether a topic shift is field-wide or venue-specific,
+   - only then compare researcher profiles to venue background.
+
+#### Author Concentration Metrics
+
+Use several standard, interpretable metrics rather than one opaque score:
+
+- **unique authors**: number of distinct authors in the venue-year.
+- **repeat-author share**: share of papers with at least one author who appears
+  in another paper at the same venue-year.
+- **top-k author paper share**: share of author-paper incidences contributed by
+  the top 5 and top 10 authors in that venue-year.
+- **Gini coefficient over author paper counts**: standard inequality metric for
+  concentration. Higher means author participation is more concentrated.
+- **Herfindahl-Hirschman Index (HHI)** over author paper-count shares: another
+  standard concentration metric; useful as a robustness check against Gini.
+
+For small venue-years, report raw counts alongside all concentration metrics.
+Do not interpret concentration from a single metric.
+
+#### Topic Vector Computation
+
+The current keyword classifier is not strong enough for final claims because
+many papers fall into `Other`. I.2 should still produce a first venue-year
+background, but with an explicit two-stage design:
+
+1. **Stage 1: auditable baseline classifier**
+   - use a refined networking-topic taxonomy,
+   - allow multi-label assignment,
+   - expose `other_or_uncertain` rather than forcing a label,
+   - save matched keywords/rules for every assigned label,
+   - produce representative-title samples per topic for manual audit.
+
+2. **Stage 2: reviewed/LLM-assisted classifier**
+   - run only after Stage 1 exposes failure modes,
+   - use title + abstract when available and title-only when not,
+   - preserve an evidence-mode flag for each paper,
+   - compare LLM labels against Stage 1 labels and manually inspect
+     disagreements on a sample.
+
+The first materialized venue-year vectors may be Stage 1, but the plan should
+not present them as final semantic truth.
+
+#### Cohort Incidence Timing
+
+Do **not** make core-99/new-core/stayer/newcomer/dropout incidence part of the
+first I.2 materialization. That would pull author-centric labels into the venue
+background too early.
+
+Instead:
+
+- I.2 first builds cohort-neutral venue-year background.
+- After I.1/I.2 are reviewed, add an optional overlay with cohort incidence:
+  core-99, new-core, stayers, newcomers, dropouts, and neither.
+- The overlay should be clearly marked as a researcher-cohort comparison, not
+  as part of the venue baseline itself.
+
+Required outputs for the first I.2 materialization:
 
 - `data/venue_year_background.json`
 - `data/venue_year_background.csv`
-- venue-year figures for paper counts, topic shares, and author concentration
+- `data/venue_year_topic_vectors_stage1.json`
+- `data/venue_year_author_concentration.csv`
+- figures for all-top-net yearly topic shares, per-venue yearly topic shares,
+  and author concentration metrics
 
 ### I.3 Broad Researcher Profile Vector
+
+Status: provisional. Do not implement or further specify I.3+ until I.1 paper
+scope and I.2 venue-year background are materialized and reviewed.
 
 This vector describes the researcher's overall venue-family composition. It is
 useful for broad cross-domain movement, not for fine networking-topic claims.
@@ -145,7 +246,7 @@ Candidate dimensions:
 - AI_ML,
 - security_privacy,
 - data_management,
-- hardware_architecture,
+- hardware_architecture, 
 - mobile_wireless,
 - HCI,
 - theory,
@@ -330,25 +431,20 @@ among several, and is often a networking/systems problem rather than core AI.
 
 ## Immediate Next Work
 
-1. **Write the detailed Part I implementation plan for review.**
-   - Define exact artifacts, schemas, and validation checks.
-   - Decide what can be built from existing artifacts and what requires new
-     enrichment.
+1. **Materialize I.1 paper scope.**
+   - Create the scope manifest.
+   - Produce inclusion/exclusion counts by source, venue, and year.
+   - Update README terminology to use total/net/top-net papers.
 
-2. **Refactor report/narrative structure after Part I is accepted.**
-   - Venue evolution should come before researcher evolution.
-   - core-99 and new-core should reuse the same feature spaces.
-   - Migration should become a later section.
+2. **Materialize I.2 venue-year background.**
+   - Build cohort-neutral venue-year counts, topic vectors, and author concentration metrics.
+   - Produce all-top-net yearly and per-venue yearly views.
+   - Keep cohort incidence as a later overlay.
 
-3. **Build the fine networking-topic taxonomy.**
-   - Start with keyword/regex + manual audit.
-   - Prepare for LLM classification once abstract coverage is known.
-
-4. **Add venue-year background artifacts.**
-   - Topic mix, paper count, author concentration, cohort incidence.
-
-5. **Add volume/authorship companion views for every composition vector.**
-   - Prevent percentage-only interpretations.
+3. **Stop and review before I.3+.**
+   - Do not implement researcher broad-profile vectors yet.
+   - Do not introduce cohort-incidence overlays into venue analysis yet.
+   - Revisit the rest of Part I after the scope manifest and venue-year background artifacts exist.
 
 ## Historical Completed Work Index
 
