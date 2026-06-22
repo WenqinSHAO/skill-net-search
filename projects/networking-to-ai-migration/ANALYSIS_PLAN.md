@@ -1,274 +1,149 @@
 # Analysis Plan
 
-This document is a working plan for the next phase. The emphasis is to make the
-data foundation solid and auditable first, so later analysis is less likely to
-inherit a hidden bias from premature categories, thresholds, or hypotheses.
+This document is the project planning surface for the next phase. The project
+has moved beyond the initial narrow question of "did top networking researchers
+migrate to AI?" The broader empirical goal is now:
 
-The plan intentionally separates:
+> Understand how top-tier networking research activity is changing, and how
+> old and current leading researchers are positioned within that change.
 
-1. **Immediate TODOs**: concrete data checks and artifact improvements.
-2. **Near-term descriptive analyses**: neutral summaries that reveal cohort
-   shape and data problems.
-3. **Later interpretive analyses**: trajectory discovery, conference trend
-   discovery, and researcher-field alignment.
-4. **Speculative brainstorming**: possible future-looking questions, clearly
-   separated from fact-grounded analysis.
+The plan below intentionally separates the data apparatus, venue background
+analysis, researcher cohort analysis, and migration/directional-change analysis.
+This should reduce hidden bias from premature trajectory labels, fragile
+quadrants, or topic categories that are too coarse for a networking audience.
 
-## Current Data Foundation
+## Current Status Snapshot
 
-We now have:
+### Stable Cohort Definitions
 
-1. **Researcher cohort**
-   - Rule: at least one paper in SIGCOMM, NSDI, CoNEXT, HotNets, or IMC during
-     2018-2022.
-   - Current cohort size: 3,571 researchers.
-
-2. **Researcher itineraries**
-   - Full clean conference-publication histories for the cohort from 2018-2026.
-   - Primary artifact: `data/researcher_itineraries.json`.
-   - Discovery subset artifact: `data/top100_itineraries.json`.
-
-The current itinerary file is complete for the defined cohort, but several
-fields are still weak or missing:
-
-- abstracts are mostly absent,
-- geo/sector labels are incomplete,
-- author-role information is now exposed in regenerated itinerary records, but still needs review as a proxy,
-- venue families beyond the five qualifying networking venues are not yet
-  systematically normalized,
-- recent 2023-2026 conference completeness still needs official-page checks.
-
-## Active Repair Track: New-Core Data Foundation
-
-The forward-looking question is valid and should remain part of the project:
-what does the current leading activity in top networking venues look like, who
-is leading it, and how does it relate to the 2018-2022 core-99?
-
-However, the first post-2023 analysis used a `post-GPT core` pipeline whose
-data scope is not yet comparable with the core-99 pipeline. We are replacing
-that with a neutral **new-core** data track.
-
-### Naming And Scope
-
+- **Broad baseline cohort**: all researchers with at least one paper in
+  SIGCOMM, NSDI, CoNEXT, HotNets, or IMC during 2018-2022.
 - **core-99**: researchers with at least 7 clean qualifying top-networking
   papers during 2018-2022.
 - **new-core**: researchers with at least 7 clean qualifying top-networking
   papers during the observed 2023-2026 window.
-- **Observed 2023-2026** means exactly the data currently available. 2026 is
-  incomplete, but we will not split the main line into separate 2023-2025 and
-  2023-2026 definitions unless later sensitivity checks require it.
-- **Qualifying venues** remain SIGCOMM, NSDI, CoNEXT, HotNets, and IMC. The
-  existing PACMNET exception must be reused because CoNEXT long papers moved to
-  ACM's journal-integrated proceedings model after 2023.
+- **Qualifying top-networking venues**: SIGCOMM, NSDI, CoNEXT, HotNets, IMC.
+  CoNEXT 2023 onward uses PACMNET long-paper evidence where appropriate.
 
-### Repair Principles
+### Completed Data Foundation
 
-1. Use the same clean-paper scope as the core-99 pipeline.
-   - Executable source of truth: `scripts/publication_scope.py`.
-   - PACMNET is conference-integrated CoNEXT evidence, not a normal journal.
-   - Posters, demos, proceedings-volume records, workshops, editorials, and
-     other non-main-paper records must not count toward new-core membership.
-2. Do not silently mix count sources.
-   - If DBLP TOC, itinerary, PACMNET enrichment, or official-page data disagree,
-     keep source-specific counts and diagnostic flags.
-   - A cohort-defining count should come from one canonical clean-paper table.
-3. Preserve incompleteness instead of hiding it.
-   - 2026 remains in the observed window.
-   - Venue-year coverage flags must show which 2026 venues are unavailable.
-4. Keep future-looking interpretation broad.
-   - AI infrastructure and systems-for-ML are valid current trends to study.
-   - The project should also preserve other emerging/stable trajectories rather
-     than forcing a narrow "AI migration" story.
-5. Improve semantic feature space before strong topic claims.
-   - `classical_networking` is too broad as a durable feature.
-   - Topic vectors should distinguish at least routing/control, WAN/datacenter,
-     congestion/transport, SDN/NFV/programming, verification/formal methods,
-     measurement/telemetry, video/QoE/streaming, security/privacy,
-     wireless/mobile/IoT/sensing, cloud/networked systems, AI infrastructure,
-     ML for networking, and other/uncertain.
+- Per-venue/per-year paper counts for 2018-2022 were checked; CoNEXT 2022's
+  28-paper count was manually confirmed from the official program.
+- Researcher itineraries exist for the broad baseline cohort.
+- `data/venue_family_map.json` is the source of truth for broad venue-family
+  normalization.
+- `data/core99_researcher_attributes.json` / `.csv` contain deterministic
+  core-99 researcher attributes, including author-position summaries.
+- `data/new_core_clean_papers.json` is the repaired canonical clean-paper table
+  for new-core work.
+- `data/new_core.json` contains the repaired new-core split:
+  - new-core: 115
+  - stayers: 43
+  - newcomers: 72
+  - dropouts: 56
+  - complete newcomers outside the broad baseline cohort: 9
+- `data/paper_topic_labels_v2.json`, `data/venue_topic_vectors_v2.json`, and
+  `data/venue_topic_evolution_v2.csv` contain the first keyword-based
+  top-networking paper-topic vectors.
+- `data/new_core_topic_profiles.json` / `.csv` contain topic profiles for all
+  171 stayers/newcomers/dropouts.
 
-### New-Core Progress Snapshot
+### Important Caveats That Remain
 
-Current implemented artifacts:
+- 2026 is observed-as-available and incomplete.
+- Current paper-topic labels are keyword-based; the "Other" rate is high enough
+  that the taxonomy should be treated as a first pass, not a final ontology.
+- `classical_networking` is too broad for the next phase. A networking audience
+  needs finer categories such as routing, congestion/transport, measurement,
+  datacenter/WAN, wireless/mobile, security, verification, programmable
+  dataplanes, video/QoE, and AI infrastructure.
+- Region/sector labels are context labels, not causal explanations. Coverage
+  and confidence need explicit tracking.
+- Quadrant definitions based on rate-ratio thresholds are now deprecated as a
+  primary narrative device. They may remain as diagnostic artifacts.
 
-- `scripts/fetch_pacmnet_tocs.py` fetches PACMNET DBLP TOC records for CoNEXT
-  long-paper evidence. Local output: `data/pacmnet_toc_papers.json`.
-- `scripts/build_new_core.py` builds the canonical clean-paper table and
-  repaired cohort split. Local outputs: `data/new_core_clean_papers.json` and
-  `data/new_core.json`.
+## Re-Oriented Analysis Structure
 
-Current repaired count snapshot after PACMNET TOC integration:
+The analysis should proceed in this order:
 
-- new-core: 115 researchers
-- stayers: 43
-- newcomers: 72
-- dropouts: 56
-- complete newcomers outside the broad 2018-2022 cohort: 9
+1. **Part I: Data Apparatus And Feature Spaces**
+   Define the paper scope, venue scope, feature vectors, count features, and
+   topic taxonomy. This is the methodological foundation.
 
-Remaining foundation caveat: 2026 is still observed-as-available, with only NSDI
-2026 currently present among the five qualifying venues.
+2. **Part II: Venue Evolution Before Researcher Evolution**
+   Analyze how top networking venues changed by year and venue. This provides
+   the background drift against which researcher trajectories should be read.
 
-### Immediate New-Core TODOs
+3. **Part III: Researcher Cohorts And Profiles**
+   Analyze core-99, new-core, stayers, newcomers, and dropouts using the same
+   feature definitions. Keep "who", "what", and "how" separate.
 
-1. ✅ Build `scripts/build_new_core.py` — **DONE** (commit `5b39975`).
-2. ✅ Rebuild new-core membership from canonical clean paper table — **DONE** (115: 43/72/56).
-3. ✅ Reconcile CoNEXT/PACMNET explicitly — **DONE** (PACMNET TOC via `fetch_pacmnet_tocs.py`).
-4. ✅ Replace old `post-GPT core` wording — **DONE** (docs updated to `new-core`).
-5. ✅ Upgrade topic vectors on clean new-core table — **DONE** (June 2026).
-   - `classify_paper_topics.py` updated to read `new_core_clean_papers.json`
-   - Outputs: `paper_topic_labels_v2.json`, `venue_topic_vectors_v2.json`, `venue_topic_evolution_v2.csv`
-   - `build_new_core_topic_profiles.py` created: profiles for all 171 researchers
-   - Outputs: `new_core_topic_profiles.json`, `new_core_topic_profiles.csv`
-   - CORE99_ANALYSIS.md §11 updated with corrected counts and topic shares
-   - Taxonomy refinement (Repair Principle 5: split `classical_networking`) deferred
+4. **Part IV: Directional Movement / Migration**
+   Treat migration as one downstream analysis, not the frame for the entire
+   project. Include both moving-out and moving-in views.
 
-## Guiding Principle
+5. **Part V: Synthesis And Open Questions**
+   Separate data-supported observations, evidence-based interpretations, and
+   unresolved questions.
 
-Do not start from rigid migration labels.
+## Part I: Data Apparatus And Feature Spaces
 
-The first task is to organize observable evidence:
+Part I should be completed before adding more interpretive narrative. Its job
+is to make all later analyses comparable and auditable.
 
-- who is in the cohort,
-- how strongly each researcher is anchored in the five qualifying networking
-  venues,
-- what each researcher published year by year,
-- what each top networking conference published year by year,
-- where the data is incomplete or ambiguous.
+### I.1 Paper Scope
 
-Only after that should we derive labels such as trajectory archetypes.
+Define each paper universe explicitly:
 
-## Immediate TODOs
+- **Qualifying top-networking papers**: clean main papers at SIGCOMM, NSDI,
+  CoNEXT, HotNets, and IMC.
+- **Broad clean conference papers**: deduplicated conference papers used for
+  venue-family portfolio analysis.
+- **Networking-related papers**: papers in networking venues or system papers
+  whose title/abstract indicates a networking problem.
+- **Excluded records**: posters, demos, proceedings-volume records, workshops,
+  editorials, keynotes, and other non-main-paper records.
 
-These are the next concrete implementation tasks.
+Required outputs:
 
-### TODO 1. Produce Cohort Shape Tables
+- A short scope table in `README.md`.
+- A machine-readable scope manifest, likely
+  `data/analysis_scope_manifest.json`.
+- A check script or report that counts included/excluded records by source,
+  venue, and year.
 
-Create a descriptive artifact, for example
-`data/cohort_shape_summary.json` and a readable Markdown/CSV export.
+### I.2 Venue Scope And Venue-Year Background
 
-Include:
+Venue analysis should precede researcher analysis. For each qualifying venue
+and year, compute:
 
-- distribution of `baseline_top_networking_count`,
-- distribution of total clean publication count,
-- distribution of clean baseline publication count,
-- distribution of clean post-2023 publication count,
-- cross-tab of baseline top-networking count versus total clean publication
-  count,
-- counts by qualifying venue combination.
+- total clean paper count,
+- author count and repeat-author concentration,
+- topic vector over the fine networking taxonomy,
+- old-core/new-core/stayer/newcomer/dropout authorship incidence,
+- coverage status, especially for 2026.
 
-Important: do not define "core networking researcher" yet. Use these tables to
-decide whether any threshold such as `>=3`, `>=5`, or top-k is defensible.
-Any threshold should first be represented as a derived slice, not as a rewrite
-of the raw cohort.
+This gives the "inflation baseline": a researcher-level change should be read
+relative to what the venue itself is doing.
 
-Current discussion flags from the first cohort-shape run:
+Required outputs:
 
-- `total clean publications == 1` is a proposed sparse-evidence exclusion for
-  trajectory analysis, but the researchers remain in the raw cohort and derived
-  CSVs.
-- `baseline_top_networking_count > 6` is a provisional candidate core slice for
-  inspection. It contains 99 researchers and 5 researchers with total clean
-  publications `>100`, so the high-volume profiles are few enough for manual
-  review but still not automatically safe.
+- `data/venue_year_background.json`
+- `data/venue_year_background.csv`
+- venue-year figures for paper counts, topic shares, and author concentration
 
-A derived selected-sample packet now exists for this provisional slice:
+### I.3 Broad Researcher Profile Vector
 
-- `data/selected_sample_network_gt6_packet.json` contains the full title-level
-  evidence grouped by researcher and year.
-- `data/selected_sample_network_gt6_summary.csv` contains one compact row per
-  researcher.
-- `SELECTED_SAMPLE_NETWORK_GT6.md` is a readable review packet.
+This vector describes the researcher's overall venue-family composition. It is
+useful for broad cross-domain movement, not for fine networking-topic claims.
 
-The packet is title-based only. Before using it for substantive trajectory
-claims, venue aliases and noisy title vocabulary should be normalized further.
-
-### TODO 2. Build Core-99 Researcher Attribute Table
-
-For the provisional selected sample `baseline_top_networking_count > 6`, create
-one auditable row per researcher. This is the next immediate implementation
-step.
-
-Output target:
-
-- `data/core99_researcher_attributes.csv`
-- `data/core99_researcher_attributes.json`
-
-Start with observable or directly derived attributes, not migration labels:
-
-- baseline top-networking count,
-- post-2023 top-networking count,
-- top-networking count by year,
-- top-networking trend after baseline: increasing / decreasing / flat /
-  inactive,
-- baseline clean publication count,
-- post-2023 clean publication count,
-- total clean publication count,
-- active years in baseline and post-2023,
-- qualifying venue mix: SIGCOMM-heavy, NSDI-heavy, IMC-heavy, CoNEXT-heavy,
-  HotNets-heavy, or mixed,
-- venue portfolio by period,
-- venue-family portfolio by period once TODO 4 exists,
-- publication-volume change from baseline to post-2023.
-
-Treat these as descriptive attributes. They should help us inspect the core-99
-sample without yet deciding who "migrated".
-
-Current artifacts:
-
-- `data/core99_researcher_attributes.json`
-- `data/core99_researcher_attributes.csv`
-- `CORE99_RESEARCHER_ATTRIBUTES.md`
-
-The first build includes selection-vs-clean baseline count checks,
-top-networking count trends, activity patterns, qualifying venue mix, and
-author-role summaries where author positions are available.
-
-### TODO 3. Add Author-Role Fields To Itineraries
-
-DBLP publication histories include ordered author lists. The itinerary artifact
-should expose the scoped researcher's role per paper:
-
-- author position,
-- author count,
-- first-author flag,
-- last-author flag,
-- single-author flag,
-- whether the paper is one of the qualifying baseline top-networking papers,
-- whether the paper is a post-2023 top-networking paper.
-
-Then derive per-researcher period summaries:
-
-- first-author count/share in baseline,
-- last-author count/share in baseline,
-- middle-author count/share in baseline,
-- first-author count/share post-2023,
-- last-author count/share post-2023,
-- author-role profile: mostly lead, mostly senior, mixed, mostly collaborator.
-
-This helps distinguish possible students, PIs, middle-author collaborators, and
-one-off contributors. It is still only a proxy and should be caveated.
-
-Current status: the itinerary builder now enriches clean paper records with
-ordered authors, author count, scoped-author position, first/last/single-author
-flags, and author-match confidence. Core-99 attributes already summarize these
-fields by baseline and post-2023 periods.
-
-The core-99 author-position audit now has zero unresolved rows after excluding
-proceedings-volume records and adding conservative aliases for known name
-variants.
-
-### TODO 4. Normalize Venue Families Without Topic Claims
-
-Create a venue-family map that is factual and conservative. This is a
-prerequisite for interpreting venue broadening in the core-99 sample.
-
-Examples:
+Candidate dimensions:
 
 - qualifying_top_networking,
 - other_networking,
 - systems,
-- security_privacy,
 - AI_ML,
+- security_privacy,
 - data_management,
 - hardware_architecture,
 - mobile_wireless,
@@ -276,652 +151,236 @@ Examples:
 - theory,
 - unknown.
 
-This is not a topic trajectory label. It is a venue-context label that helps
-structure itineraries and identify venue-portfolio changes.
+For each researcher and period compute:
 
-The map should be manual, inspectable, and allowed to contain `unknown`. Venue
-aliases must be normalized before counting, for example `IMC` and `Internet
-Measurement Conference` should not silently appear as separate venues.
+- baseline vector: 2018-2022 normalized shares,
+- post vector: observed 2023-2026 normalized shares,
+- delta vector: post minus baseline,
+- absolute counts by dimension,
+- evidence sufficiency flags.
 
-Current investigation use cases for TODO 4:
+Important rule: keep composition vectors separate from absolute volume. A
+researcher can have a large compositional change with small absolute volume, or
+a stable composition with large absolute growth.
 
-1. For researchers whose top-networking rate decreases while all-clean
-   publication rate is flat or increasing, identify whether their post-2023
-   output moves to adjacent networking, systems, AI/ML, security/privacy,
-   mobile/wireless, HCI, data management, or unknown venues.
-2. For researchers whose top-networking rate is flat or increasing, summarize
-   their venue-family profile, authorship placement profile, and available
-   region/sector labels.
-3. Quantify whether the five qualifying venues differ in author concentration,
-   especially whether IMC is more concentrated than SIGCOMM/NSDI/CoNEXT/HotNets.
+### I.4 Volume And Authorship Feature Set
 
-Outputs should be deterministic tables first; LLM itinerary interpretation is
-explicitly postponed until these descriptive tables are reviewed.
+Volume and role features should not be hidden inside composition vectors.
 
-### TODO 5. Core-99 Investigation Tables For Questions 1-3 ✅ COMPLETE
+Core features:
 
-Deterministic investigation tables have been generated for Q1-Q3.
+- total clean paper count by period,
+- qualifying top-networking paper count by period,
+- broad clean conference paper count by period,
+- active years by period,
+- first-author, middle-author, last-author, and single-author counts/shares,
+- average author-list size,
+- coauthor overlap and repeated-collaboration counts.
 
-Q1 (top-net decrease, overall flat/increase): 15 researchers. Their post-2023
-output shifts partly to adjacent networking venues (TMA, PAM, ANRW), partly to
-systems venues, and partly to `unknown` venue-family venues (needs inspection).
+These features answer "how much activity and what role", not "what topic".
 
-Q2 (top-net flat/increase): 44 researchers. US-dominant (23/44), mostly
-collaborator roles, mixed venue profiles.
+### I.5 Fine Networking-Topic Vector
 
-Q3 (author concentration): IMC has highest repeat-author share (24%) and Gini
-(0.31). Core-99 accounts for 52% of IMC papers. SIGCOMM and NSDI are less
-concentrated.
+This is the largest missing apparatus piece. It should classify networking
+research topics at a granularity meaningful to networking researchers.
 
-Full tables in `CORE99_INVESTIGATION_TABLES.md` and `CORE99_INVESTIGATION.md`.
+Initial taxonomy candidates:
 
-### TODO 5b. Core-99 Quadrant Analysis ✅ COMPLETE
+- routing/control plane,
+- congestion/transport,
+- datacenter/WAN/cloud networking,
+- measurement/telemetry,
+- wireless/mobile/IoT/sensing,
+- security/privacy/censorship,
+- verification/formal methods/configuration,
+- programmable dataplanes/SmartNIC/RDMA,
+- video/QoE/streaming/content delivery,
+- networked systems and distributed infrastructure,
+- AI infrastructure / systems for ML,
+- ML for networking,
+- other/uncertain.
 
-60 of 99 core-99 researchers publish in top-tier systems (OSDI/SOSP/EuroSys/
-ATC/ASPLOS/SoCC/MLSys), AI (ICML/ICLR/NeurIPS/AAAI/AISTATS/CVPR/ICCV/ECCV),
-and storage (FAST) venues. Split into four quadrants by two axes:
+Design principles:
 
-- Q1 (net+ overall+): 30 researchers — strong all-around
-- Q2 (net- overall+): 8 researchers — portfolio shift candidates
-- Q3 (net+ overall-): 4 researchers — concentrating on networking
-- Q4 (net- overall-): 18 researchers — broad decline
+- Prefer multi-label topic vectors over single hard labels.
+- Keep `other/uncertain` explicit rather than forcing classification.
+- Use title-only labels only when abstracts are unavailable, and expose that
+  evidence mode.
+- Evaluate the taxonomy by inspecting representative papers per class and
+  venue-year distributions.
 
-Data: `data/core99_sys_ai_storage_quadrants.csv`.
-Analysis: `CORE99_INVESTIGATION.md#quadrant-analysis`.
+Required outputs:
 
-### TODO 6. Core-99 Baseline/Post-2023 Topic Discovery Packet
+- `data/network_topic_taxonomy.json`
+- `data/network_paper_topic_labels.json`
+- `data/researcher_network_topic_vectors.json`
+- `data/venue_network_topic_vectors.json`
+- an audit report with examples, uncertain cases, and confusion risks
 
-Build a topic-discovery packet for the core-99 sample. The goal is to discover
-research nature clusters from evidence, not to impose fixed labels.
+### I.6 Evidence Quality Flags
 
-Output target:
+Every vector should carry enough quality metadata to prevent over-reading:
 
-- `data/core99_topic_discovery_packet.json`
-- `CORE99_TOPIC_DISCOVERY.md`
+- paper count denominator,
+- abstract coverage,
+- 2026 coverage status,
+- topic classification method,
+- confidence / uncertain-topic share,
+- source mixture: DBLP, PACMNET, official page, manual correction,
+- author-position match confidence.
 
-Paper-level evidence should be grouped by period:
+## Part II: Venue Evolution
 
-- baseline: 2018-2022,
-- post-2023: 2023-2026.
+Questions:
 
-For each paper include:
+- How did each qualifying top-networking venue's topic mix change from
+  2018-2026?
+- Is 2023 a visible break point, or is the change gradual?
+- Is AI infrastructure broad across venues or concentrated in SIGCOMM/NSDI?
+- Are changes driven by new authors, recurring authors, or both?
+- Are some venues more concentrated communities than others, such as IMC?
 
-- title,
-- abstract if available,
-- venue and normalized venue family,
-- year,
-- author-role flags for the scoped researcher,
-- whether it is a qualifying top-networking paper.
+This part should be written before researcher trajectory claims so that
+researcher changes can be interpreted relative to venue drift.
 
-Discovery procedure:
+## Part III: Researcher Cohorts And Profiles
 
-1. Build paper-level text features from baseline titles/abstracts.
-2. Cluster or LLM-summarize papers into tentative nature clusters.
-3. Name clusters manually from representative titles.
-4. Repeat for post-2023 papers.
-5. Represent each researcher as a distribution over clusters by period.
+### Who
 
-Candidate cluster names may include routing/control, measurement, programmable
-networks, cloud/datacenter, wireless/IoT, video/streaming, security/privacy,
-ML-for-networking, AI/LLM systems, and pure AI/ML. These names are hypotheses
-to validate, not fixed ontology at the start.
+For each cohort/slice, describe who the researchers are:
 
-### TODO 7. Core-99 Researcher Characterization Table
+- name and DBLP PID,
+- institution/region/sector where available,
+- career-stage proxy,
+- baseline and post activity volume,
+- author-role profile,
+- evidence sufficiency.
 
-After TODO 2-5 exist, derive auditable researcher-level characterizations for
-core-99.
+Needed artifact:
 
-Possible fields:
+- a reusable researcher-introduction template for core-99 and new-core.
 
-- baseline primary nature cluster,
-- baseline secondary nature clusters,
-- post-2023 primary nature cluster,
-- post-2023 secondary nature clusters,
-- cluster distribution delta,
-- continued top-networking presence,
-- venue-family broadening,
-- AI/ML presence during baseline,
-- AI/ML or LLM-systems presence post-2023,
-- confidence / evidence sufficiency.
+### What
 
-Avoid single hard labels like "AI migrant" at this stage. Prefer profile and
-delta fields such as `baseline_profile`, `post2023_profile`, and
-`profile_delta`.
+Use the broad profile vector and fine networking-topic vector:
 
-### TODO 8. Track Abstract Availability Explicitly
+- baseline profile,
+- post profile,
+- delta profile,
+- absolute-volume companion table,
+- comparison to venue background.
 
-Because abstracts may be missing unevenly, every paper and every itinerary
-packet should expose:
+This replaces the current tendency to overuse quadrant labels.
 
-- `has_abstract`,
-- abstract source,
-- abstract coverage by researcher,
-- abstract coverage by venue-year.
+### How
 
-LLM summaries should be told when they are title-only. Do not mix title-only and
-title-plus-abstract cases silently.
+Analyze collaboration and authorship:
 
-### TODO 9. Build Outlier / Data-Quality Tables
+- do core people publish separate papers or clustered papers?
+- are stayers and newcomers coauthoring?
+- are AI-infrastructure papers concentrated in labs or broadly distributed?
+- does first-author vs last-author position change the interpretation?
 
-Use data-driven cutoffs from TODO 1 rather than hard-coded definitions.
+## Part IV: Directional Movement / Migration
 
-Candidate outlier views:
+Migration should be a separate downstream analysis.
 
-- low baseline top-networking count plus high total clean publication count,
-- very high DBLP publication count,
-- very high excluded-record count,
-- suspicious generic names or DBLP names that look non-personal,
-- researchers whose clean itinerary is too sparse for interpretation,
-- researchers with missing or weak geo/sector data.
+It should include:
 
-These tables support manual review before broad-cohort interpretation. For the
-core-99 slice, the five high-total `>100` researchers have been manually
-confirmed as legitimate networking researchers and should remain included.
+- moving-out view: where core-99 activity went after 2023,
+- moving-in view: where new-core researchers were before 2023,
+- directional vector changes after venue-background adjustment,
+- cases of stable networking, adjacent-networking substitution, AI
+  infrastructure expansion, systems broadening, broad output decline, and
+  low-evidence ambiguity.
 
-### TODO 10. Replace Fixed Top-100 Assumption With Parameterized Slices
+Avoid hard labels such as "AI migrant" unless the evidence is strong and the
+definition is explicit.
 
-The current `top100_itineraries.json` is useful as a temporary discovery file,
-but "top 100" should not be treated as a methodological commitment.
+## Deprecated Or Demoted Items
 
-Create parameterized slices:
+### Quadrant Taxonomies
 
-- top `N` by baseline top-networking count,
-- top `N` by total clean publication count,
-- top `N` by post-2023 clean publication count,
-- researchers above candidate baseline-count thresholds.
+The Inv-Q1/Q2/Q3/Q4 and sys/AI/storage quadrants were useful exploratory
+scaffolds, but they should not lead the next narrative. Problems:
 
-Recommended initial `N` values for exploration:
+- `top_networking_rate_ratio` is sensitive to 2026 incompleteness and period
+  denominator choices.
+- Quadrants conflate volume, composition, and venue-background drift.
+- Thresholds create sharp labels near arbitrary boundaries.
 
-- 50,
-- 100,
-- 200.
+Keep these artifacts as diagnostics:
 
-These are convenience slices for review and LLM context management, not claims
-about who is "top" in a substantive sense.
+- `CORE99_INVESTIGATION_TABLES.md`
+- `data/core99_sys_ai_storage_quadrants.csv`
 
-### TODO 11. Build Top-List Overlap Tables
+But use vector + volume + venue-background-adjusted views as the main line.
 
-Compare overlap among parameterized slices.
+### Top-100 As Method
 
-At minimum:
+Top-100 slices are convenience samples for inspection or LLM context, not a
+substantive scoping principle. Prefer explicit thresholds, parameterized slices,
+or cohort definitions tied to the analysis question.
 
-- baseline-networking-count rank versus total-clean-publication rank,
-- baseline-networking-count rank versus post-2023-clean-publication rank,
-- total-clean-publication rank versus post-2023-clean-publication rank.
+### Narrow AI-Migration Framing
 
-Outputs should include:
+"AI migration" remains one useful entry question, but the main project now
+studies top-networking research evolution. AI infrastructure is one trajectory
+among several, and is often a networking/systems problem rather than core AI.
 
-- overlap counts,
-- Jaccard overlap,
-- names unique to each list,
-- researchers with low baseline networking count but very high total
-  publication count.
+## Immediate Next Work
 
-This directly addresses the concern that some researchers have only one
-qualifying networking paper but hundreds of total publications.
+1. **Write the detailed Part I implementation plan for review.**
+   - Define exact artifacts, schemas, and validation checks.
+   - Decide what can be built from existing artifacts and what requires new
+     enrichment.
 
-### TODO 12. Construct Comparison Groups After Core-99 Stabilizes
+2. **Refactor report/narrative structure after Part I is accepted.**
+   - Venue evolution should come before researcher evolution.
+   - core-99 and new-core should reuse the same feature spaces.
+   - Migration should become a later section.
 
-After the core-99 preprocessing and labels are reviewed, construct comparison
-groups to test whether observed patterns are specific to the high-signal core or
-appear more broadly. Candidate comparison groups:
+3. **Build the fine networking-topic taxonomy.**
+   - Start with keyword/regex + manual audit.
+   - Prepare for LLM classification once abstract coverage is known.
 
-- inclusive networking sample: all researchers with `baseline_top_networking_count >= 1`
-  after sparse-evidence filtering,
-- near-core sample: researchers just below the core threshold, for example
-  `3 <= baseline_top_networking_count <= 6`,
-- complementary sample: broad cohort excluding core-99,
-- alternative scoping sample: researchers with repeated top-networking activity
-  plus post-2023 publication activity,
-- high-total low-networking sample: possible broad systems/AI researchers who
-  touched networking once.
+4. **Add venue-year background artifacts.**
+   - Topic mix, paper count, author concentration, cohort incidence.
 
-The comparison groups should reuse the same preprocessing pipeline: clean count
-attributes, top-networking trends, author-role summaries, venue-family counts,
-and topic-discovery profiles. Do not compare groups until the core-99 attribute
-definitions are stable.
+5. **Add volume/authorship companion views for every composition vector.**
+   - Prevent percentage-only interpretations.
 
-### TODO 13. Clarify Geo And Sector Feasibility
+## Historical Completed Work Index
 
-Geo and sector should be treated as optional first-order context labels, not as
-required for early itinerary analysis.
+Primary documents:
 
-Need to decide:
+- `README.md` — project index and artifact chain.
+- `CORE99_ANALYSIS.md` — current primary narrative, including repaired
+  new-core §11.
+- `CORE99_INVESTIGATION.md` — detailed reference tables and diagnostics.
+- `CORE99_INVESTIGATION_TABLES.md` — deterministic Q1-Q3 tables.
+- `CORE99_RESEARCHER_ATTRIBUTES.md` — core-99 attribute table explanation.
+- `CORE99_REPORT_zh_reader_facing.html` — Chinese reader-facing report.
 
-- whether region is based on current/last-known affiliation only,
-- whether any affiliation history is available or feasible,
-- whether sector labels are reliable enough to use,
-- what confidence levels to attach.
+Key scripts:
 
-If no reliable source exists for sector, keep `sector = Unknown` rather than
-forcing a label.
+- `scripts/publication_scope.py`
+- `scripts/build_core99_attributes.py`
+- `scripts/build_core99_investigation_tables.py`
+- `scripts/fetch_pacmnet_tocs.py`
+- `scripts/build_new_core.py`
+- `scripts/classify_paper_topics.py`
+- `scripts/build_new_core_topic_profiles.py`
 
-### TODO 14. Build Conference Itineraries
+Key artifacts:
 
-Create venue-year itinerary artifacts for the five qualifying top networking
-venues:
-
-- SIGCOMM,
-- NSDI,
-- CoNEXT,
-- HotNets,
-- IMC.
-
-Each venue-year should include:
-
-- paper title,
-- authors,
-- abstract if available,
-- source URL,
-- whether the record came from DBLP or official conference pages.
-
-Start with 2018-2022, where venue-year paper counts have been checked. Then
-extend to 2023-2026 with official-page validation.
-
-### TODO 15. Do Not Regenerate Narrative Conclusions Yet
-
-Do not update `REPORT.md` as a substantive findings report until:
-
-- core-99 attribute tables exist,
-- author-role fields are added,
-- venue-family mapping is audited,
-- topic-discovery clusters are reviewed,
-- abstract coverage is known,
-- broader-cohort validation strategy is clear,
-- conference itinerary completeness is checked.
-
-## Analytical Objects
-
-The project should analyze three related objects.
-
-### Researchers
-
-Neutral questions:
-
-- Who entered the cohort?
-- How strongly are they anchored in the qualifying networking venues?
-- What did they publish year by year?
-- How broad is their venue portfolio?
-- How much evidence is available for each researcher?
-
-Avoid deciding upfront whether a researcher is a "stayer", "migrant", or
-"AI embracer".
-
-### Conferences
-
-Neutral questions:
-
-- How did each qualifying venue's paper-title/abstract themes evolve over time?
-- Which themes appear, disappear, grow, shrink, split, or merge?
-- Do different venues evolve differently?
-- Are changes driven by recurring authors, new entrants, or both?
-
-Avoid hypothesis-loaded questions at this stage, such as "Did NSDI become
-AI-infrastructure-heavy?" Those can be revisited later as validation questions
-if a discovered pattern suggests them.
-
-### Researcher-Field Alignment
-
-Neutral questions:
-
-- How do researcher itineraries compare with the venue-year itineraries?
-- Are individual researchers moving differently from the conference trend?
-- Are recurring authors associated with emerging venue themes?
-- Are some researchers consistently present in stable themes?
-
-The point is to distinguish possible individual movement from conference scope
-change.
-
-## Itinerary Data Model
-
-The current itinerary structure should evolve toward a unified paper-count and
-paper-evidence model rather than separate "baseline anchor" and "activity"
-sections.
-
-### Researcher Identity
-
-Keep factual fields:
-
-- `name`,
-- `dblp_pid`,
-- `affiliation`,
-- `country_code`,
-- `region`,
-- `sector`,
-- confidence/source fields for geo and sector.
-
-Notes:
-
-- Current DBLP data does not provide affiliation history.
-- Current geo labels are last-known/current affiliation proxies from OpenAlex or
-  manual carry-forward.
-- Region may change over time in reality; unless affiliation history is added,
-  do not interpret it as historical region.
-- Sector should remain `Unknown` unless source quality is acceptable.
-
-### Paper Counts And Venue Counts
-
-Use a unified count structure:
-
-```json
-{
-  "paper_counts": {
-    "by_year": {"2018": 3, "2019": 4},
-    "by_venue": {"SIGCOMM": 2, "NSDI": 1},
-    "by_venue_family": {"qualifying_top_networking": 3, "systems": 2},
-    "by_year_and_venue_family": {
-      "2018": {"qualifying_top_networking": 2, "systems": 1}
-    }
-  }
-}
-```
-
-Definitions:
-
-- **Qualifying venues** means only the five cohort-defining venues:
-  SIGCOMM, NSDI, CoNEXT, HotNets, IMC.
-- **Qualifying papers** means papers in those five venues during 2018-2022.
-- **Baseline years active** means the set/count of years from 2018-2022 in
-  which the researcher had at least one qualifying paper. This differs from
-  `baseline_top_networking_count`, which is the number of qualifying papers.
-- **Venue distribution** means a dictionary of venue or venue-family counts,
-  optionally broken down by year.
-
-### Raw Evidence
-
-Each itinerary should include raw paper evidence:
-
-- title,
-- venue,
-- year,
-- authors,
-- author role,
-- abstract when available,
-- source URL,
-- abstract/source coverage flags.
-
-Abstracts must be handled carefully. If only some papers have abstracts, LLM or
-manual reviewers must know which evidence is title-only.
-
-### Derived Later
-
-Do not store these as first-order labels until the evidence review supports
-them:
-
-- trajectory summary,
-- trajectory archetype,
-- researcher-field alignment type,
-- speculative future direction,
-- confidence / ambiguity notes.
-
-## Researcher-Level Review Questions
-
-These can be asked together in a single LLM/manual trajectory-summary call, but
-the prompt should remain evidence-grounded and neutral.
-
-For each researcher:
-
-- What are the main recurring publication themes visible in the itinerary?
-- Which themes appear continuous across years?
-- Which themes appear newly introduced or reduced?
-- Does publication activity change after 2023?
-- Does venue-family breadth change after 2023?
-- Are changes sustained across multiple years or one-off?
-- Is there enough evidence to infer a trajectory?
-- What are the main ambiguity or data-quality caveats?
-
-The prompt should not ask "is this person migrating to AI?" at the discovery
-stage.
-
-## Conference-Level Review Questions
-
-For each venue-year and venue over time:
-
-- What themes are visible from titles/abstracts?
-- Which themes recur across multiple years?
-- Which themes newly appear?
-- Which themes fade?
-- Are changes gradual or abrupt?
-- Are changes concentrated in a few authors/labs/institutions or broad across
-  many authors?
-- Is the evidence title-only or title-plus-abstract?
-
-Specific hypotheses can be tested later, but initial discovery should avoid
-leading labels.
-
-## First-Order Researcher Labels
-
-First-order labels should be factual or low-inference.
-
-### Already Present Or Planned
-
-- `name`,
-- `dblp_pid`,
-- `baseline_top_networking_count`,
-- `clean_publication_count`,
-- `clean_publication_count_by_year`,
-- `qualifying_venues`,
-- `qualifying_papers`,
-- `affiliation`,
-- `country_code`,
-- `region`,
-- `sector`.
-
-### Candidate Low-Inference Labels
-
-These should be computed only after the descriptive distributions are reviewed.
-
-#### Networking Anchor Strength
-
-Based on `baseline_top_networking_count`, but bins should be chosen after TODO
-1. Possible bins may be:
-
-- one-off,
-- recurring,
-- core,
-- elite.
-
-Do not hard-code these until the observed distribution is known.
-
-#### Networking Publication Share
-
-Baseline qualifying papers divided by all clean baseline papers.
-
-This helps distinguish:
-
-- networking-centered researchers,
-- broad prolific researchers with some networking presence,
-- one-off collaborators.
-
-#### Career-Stage Proxy
-
-Approximate from:
-
-- first DBLP publication year,
-- first clean conference publication year,
-- first qualifying top-networking paper year.
-
-This is useful but must be caveated.
-
-#### Author-Role Proxy
-
-Use author order in qualifying papers and possibly all clean papers:
-
-- first-author share,
-- last-author share,
-- middle-author share,
-- single-author count.
-
-This is imperfect but may help separate junior researchers, senior PIs, and
-collaborators.
-
-#### Institution Type / Sector
-
-Values may include:
-
-- academia,
-- industry,
-- government lab,
-- nonprofit,
-- mixed,
-- unknown.
-
-Only use sector labels if source quality is acceptable. Otherwise, keep sector
-unknown and proceed without sector analysis.
-
-#### Mobility
-
-Institution or sector changes over time.
-
-This is desirable but likely later work because affiliation history is not
-available from DBLP.
-
-## Expected Data Gaps
-
-### Abstracts
-
-Current itineraries are mostly title/venue based. Abstract enrichment may be
-needed for:
-
-- selected researcher itinerary summaries,
-- conference-year itinerary summaries,
-- ambiguous or high-impact cases.
-
-Track coverage explicitly to avoid bias from uneven abstract availability.
-
-### Geography And Sector
-
-Geo labels currently cover only the original core subset unless a new broad
-geo-enrichment pass is run. Sector is not yet reliable.
-
-Regional or sector analysis should wait until coverage and confidence improve.
-
-### Author Order
-
-DBLP has ordered author lists, but the itinerary artifact should expose the
-scoped researcher's position and role flags.
-
-### 2023-2026 Conference Completeness
-
-DBLP may lag for recent conference years. Conference-level trend analysis should
-compare DBLP against official program pages.
-
-### DBLP Disambiguation And Common-Name Anomalies
-
-Some researchers have one qualifying networking paper but hundreds of total
-papers. These may be legitimate broad researchers, common-name disambiguation
-issues, or collaboration artifacts.
-
-Outlier tables should be reviewed before interpretation.
-
-## Further Analysis Directions
-
-These are directional questions for later. They should not dictate the immediate
-data foundation work.
-
-### Trajectory Discovery
-
-After descriptive tables and itinerary packets exist:
-
-1. Summarize researcher itineraries without predefined migration labels.
-2. Compare summaries to discover candidate trajectory archetypes.
-3. Validate candidate archetypes on larger slices.
-4. Track uncertainty and ambiguous cases.
-
-### Conference Trend Discovery
-
-After conference itineraries and abstract coverage are sufficient:
-
-1. Summarize each venue-year.
-2. Compare across years within a venue.
-3. Compare across venues.
-4. Identify whether changes are broad field shifts, venue-specific shifts, or
-   author-composition shifts.
-
-### Researcher-Field Alignment
-
-After researcher and conference summaries exist:
-
-1. Compare individual itineraries with venue trends.
-2. Identify researchers who appear earlier than a venue-level pattern.
-3. Identify researchers whose work remains stable while venue themes change.
-4. Separate individual movement from conference scope drift where possible.
-
-### Speculative Future-Looking Work
-
-It may be interesting later to ask:
-
-- which researchers to watch in 2027,
-- which themes may continue growing,
-- what a researcher or venue might work on next.
-
-This should be explicitly labeled as speculative and separated from
-fact-grounded analysis. It should not be part of the core empirical claims.
-
-## Practical First Analysis Batch
-
-Status of the immediate next batch:
-
-1. ✅ Cohort shape artifacts as broad baseline context.
-2. ✅ `core99_researcher_attributes` with count, trend, venue, and activity attributes.
-3. ✅ Author-role fields added to researcher itineraries; first/last/middle-author patterns summarized for core-99.
-4. ✅ Venue aliases normalized; venue-family mapping built (still has `unknown` entries).
-5. ✅ Deterministic core-99 investigation tables for questions Q1-Q3.
-5b. ✅ Core-99 quadrant analysis (Q1-Q4) for elite sys/AI/storage venues.
-6. ✅ Paper-topic classification rebuilt on repaired data (v2: keyword-based, 11 categories, 34.5% "Other" rate). LLM-based refinement still needed.
-7. ✅ Researcher topic profiles rebuilt for all 171 stayers/newcomers/dropouts from canonical clean table. Formal clustering deferred.
-8. ⬜ Abstract-coverage fields — needed before LLM topic classification.
-9. ⬜ Outlier/data-quality tables for broad-cohort validation.
-10. ⬜ Parameterized top-k and threshold slices after core-99 attributes are stable.
-11. ⬜ Comparison groups reusing the same preprocessing pipeline.
-12. ✅ Conference itineraries for the five qualifying venues (2018-2026 paper data with authors; CoNEXT 2023-2025 now complete via PACMNET TOC integration).
-
-## Adjusted Immediate Priorities
-
-### Priority 1: Investigate Unknown Venue Families ✅ COMPLETE
-
-343 venue mappings and 24 aliases. Q1: 0% unknown, Q2: 2.2% unknown, core-99: 3.6% unknown. Script loads from `data/venue_family_map.json`.
-
-### Priority 2: Q2 Researcher-Level Venue-Family Tracing ✅ COMPLETE (via PCA + delta)
-
-Superseded by the feature vector analysis. The PCA/delta analysis covers all 87 analyzable core-99 researchers and decomposes Q2 patterns (Inv-Q2: top-net →/↑, clean →/↑) in detail. The mean Q2 delta vector shows mild other_networking shedding (−6.5pp) with AI_ML expansion (+3.7pp) and qualifying_top_networking concentration (+2.6pp).
-
-### Priority 3: Abstract Coverage Audit
-
-Flag which core-99 papers have abstracts vs title-only. Track coverage by researcher and by venue-year. Prerequisite for topic discovery. **Still needed** — abstract availability is unknown.
-
----
-
-## Next Phase: Core-99 Deepening (June 2026)
-
-The PCA + delta vector analysis has proven more informative and efficient than the manually crafted four-quadrant taxonomy for understanding researcher trajectories. The next phase should consolidate around this approach and extend it in three directions.
-
-### Current State Summary
-
-What we know from the core-99 analysis (87 analyzable researchers):
-
-- **Dominant story**: The primary variation is networking venue composition (qualifying_top_networking vs. other_networking). 62.5% of total shift energy is in this axis.
-- **Falling out (49%)**: 43 researchers (Inv-Q1 + Inv-Q4) are losing presence at the five elite qualifying venues. Two mechanisms: substitution down to adjacent venues (Inv-Q1) and proportional decline (Inv-Q4).
-- **Concentrating (8%)**: 7 researchers (Inv-Q3) are increasing qualifying_top_networking share, but mostly by cutting everything else — denominator artifact, not genuine increase.
-- **Stable (43%)**: 37 researchers (Inv-Q2) maintain both top-net and overall output with mild portfolio adjustments.
-- **AI_ML expansion**: Concentrated in 9 individuals, not a broad trend. Half are new entrants from zero base.
-- **PCA/delta resolved**: Correlation 0.88. Disagreement fully explained by family-level PCA loadings.
-
-### Phase A: Simplify and Unify the Core-99 Analysis ✅ COMPLETE
-
-The analysis has been consolidated into CORE99_ANALYSIS.md as the primary narrative doc, with CORE99_INVESTIGATION.md as the detailed reference. Sys/AI quadrant analysis is deprecated as a primary grouping.
-
-### Phase B: Paper-Topic Analysis for Key Subgroups ✅ COMPLETE (keyword-based, v2 rebuilt)
-
-Paper-topic classification rebuilt on the repaired canonical clean paper table (2,170 main papers, was 2,248 with non-main-paper noise in v1). Keyword classifier has 34.5% "Other" rate — LLM-based refinement planned. v2 outputs: `paper_topic_labels_v2.json`, `venue_topic_vectors_v2.json`, `venue_topic_evolution_v2.csv`.
-
-### Phase C: Recompute Profiles for 2023-2026 ✅ COMPLETE (v2 rebuilt)
-
-New-core built: 115 researchers (43 stayers, 72 newcomers, 56 dropouts). The old Phase C numbers (113/40/73/59) were based on incomplete venue-paper data (missing PACMNET, non-main-paper noise). Topic profiles rebuilt for all 171 researchers from the canonical clean paper table (`new_core_topic_profiles.json`). Key revision: newcomers have mixed current top-venue portfolios with substantial classical networking and AI infra; all-newcomer longitudinal deltas are baseline-fragile because many newcomers have sparse baseline qualifying-venue evidence. See CORE99_ANALYSIS.md §11 for corrected findings.
-
-### Phase D: Additional Suggestions — Partially Complete
-
-- **D1** (raw-count sensitivity): ⬜ Deferred.
-- **D2** (career-stage proxy): ⬜ Deferred.
-- **D3** (conference-level topic evolution): ✅ Complete — venue-year topic vectors built, AI infra growth at NSDI (2-3% → 10-11%) and SIGCOMM (0-2% → 10%) quantified.
-- **D4** (comparison groups): ⬜ Deferred.
+- `data/researcher_itineraries.json`
+- `data/core99_researcher_attributes.json`
+- `data/core99_investigation_summary.json`
+- `data/venue_family_map.json`
+- `data/new_core_clean_papers.json`
+- `data/new_core.json`
+- `data/paper_topic_labels_v2.json`
+- `data/venue_topic_vectors_v2.json`
+- `data/venue_topic_evolution_v2.csv`
+- `data/new_core_topic_profiles.json`
