@@ -1,10 +1,16 @@
 ---
-id: icra-0016
+id: "icra-0016"
 title: "ProgPrompt: Generating Situated Robot Task Plans Using Large Language Models"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Ishika Singh"
+    affiliation: "University of Southern California"
+    is_industry: false
   - name: "Valts Blukis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arsalan Mousavian"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ankit Goyal"
@@ -16,26 +22,19 @@ authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ishika Singh"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jesse Thomason"
-    affiliation: ""
+    affiliation: "University of Southern California"
     is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://progprompt.github.io/"
 abstract: "Task planning can require defining myriad domain knowledge about the world in which a robot needs to act. To ameliorate that effort, large language models (LLMs) can be used to score potential next actions during task planning, and even generate action sequences directly, given an instruction in nat"
 url: "https://research.nvidia.com/publication/2023-05_progprompt-generating-situated-robot-task-plans-using-large-language-models"
-status: new
+status: "new"
 ---
 
 # ProgPrompt: Generating Situated Robot Task Plans Using Large Language Models

@@ -1,31 +1,30 @@
 ---
-id: icra-0004
+id: "icra-0004"
 title: "SynH2R: Synthesizing Hand-Object Motions for Learning Human-to-Robot Handovers"
-conference: ICRA 2024
-date: 2024-05
+conference: "ICRA 2024"
+date: "2024-05"
 authors:
+  - name: "Sammy Christen"
+    affiliation: "ETH Zurich"
+    is_industry: false
+  - name: "Lan Feng"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sammy Christen"
-    affiliation: ""
-    is_industry: false
-  - name: "Lan Feng"
-    affiliation: ""
-    is_industry: false
   - name: "Otmar Hilliges"
-    affiliation: ""
+    affiliation: "ETH Zurich"
     is_industry: false
   - name: "Jie Song"
-    affiliation: ""
+    affiliation: "ETH Zurich"
     is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://eth-ait.github.io/synthetic-handovers"
 abstract: "Vision-based human-to-robot handover is an important and challenging task in human-robot interaction. Recent work has attempted to train robot policies by interacting with dynamic virtual humans in simulated environments, where the policies can later be transferred to the real world. However, a majo"
 url: "https://research.nvidia.com/publication/2024-05_synh2r-synthesizing-hand-object-motions-learning-human-robot-handovers"
-status: new
+status: "new"
 ---
 
 # SynH2R: Synthesizing Hand-Object Motions for Learning Human-to-Robot Handovers

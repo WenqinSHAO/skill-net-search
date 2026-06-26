@@ -1,24 +1,23 @@
 ---
-id: arxiv-2715
+id: "arxiv-2715"
 title: "A Compact End-to-End Model with Local and Global Context for Spoken Language Identification"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
   - name: "Fei Jia"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nithin Rao Koluguri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.15781"
 abstract: "We introduce TitaNet-LID, a compact end-to-end neural network for Spoken Language Identification (LID) that is based on the ContextNet architecture. TitaNet-LID employs 1D depth-wise separable convolutions and Squeeze-and-Excitation layers to effectively capture local and global context within an ut"
 url: "https://research.nvidia.com/publication/2022-10_compact-end-end-model-local-and-global-context-spoken-language-identification"
-status: new
+status: "new"
 ---
 
 # A Compact End-to-End Model with Local and Global Context for Spoken Language Identification

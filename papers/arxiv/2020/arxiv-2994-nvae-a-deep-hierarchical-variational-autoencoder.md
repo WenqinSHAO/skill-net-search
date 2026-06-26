@@ -1,8 +1,8 @@
 ---
-id: arxiv-2994
+id: "arxiv-2994"
 title: "NVAE: A Deep Hierarchical Variational Autoencoder"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
@@ -13,7 +13,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Normalizing flows, autoregressive models, variational autoencoders (VAEs), and deep energy-based models are among competing likelihood-based frameworks for deep generative learning. Among them, VAEs have the advantage of fast and tractable sampling and easy-to-access encoding networks. However, they"
 url: "https://research.nvidia.com/publication/2020-07_nvae-deep-hierarchical-variational-autoencoder"
-status: new
+status: "new"
 ---
 
 # NVAE: A Deep Hierarchical Variational Autoencoder

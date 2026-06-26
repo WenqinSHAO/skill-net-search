@@ -1,29 +1,28 @@
 ---
-id: neurips-0044
+id: "neurips-0044"
 title: "Don’t Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence"
-conference: NeurIPS 2021
-date: 2021-11
+conference: "NeurIPS 2021"
+date: "2021-11"
 authors:
-  - name: "Arash Vahdat"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Karsten Kreis"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Tianshi Cao"
     affiliation: ""
     is_industry: false
   - name: "Alex Bie"
     affiliation: ""
     is_industry: false
+  - name: "Arash Vahdat"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karsten Kreis"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Generative AI"
 abstract: "Although machine learning models trained on massive data have led to break-throughs in several areas, their deployment in privacy-sensitive domains remains limited due to restricted access to data. Generative models trained with privacy constraints on private data can sidestep this challenge, provid"
 url: "https://research.nvidia.com/publication/2021-11_don-t-generate-me-training-differentially-private-generative-models-sinkhorn"
-status: new
+status: "new"
 ---
 
 # Don’t Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence

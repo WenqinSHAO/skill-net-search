@@ -1,47 +1,46 @@
 ---
-id: neurips-0013
+id: "neurips-0013"
 title: "L4GM: Large 4D Gaussian Reconstruction Model"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Jiawei Ren"
+    affiliation: "NVIDIA, S-Lab, Nanyang Technological University"
+    is_industry: true
+  - name: "Kevin Xie"
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
+  - name: "Ashkan Mirzaei"
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
+  - name: "Hanxue Liang"
+    affiliation: "NVIDIA, University of Cambridge"
+    is_industry: true
+  - name: "Xiaohui Zeng"
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiawei Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Kevin Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Ashkan Mirzaei"
-    affiliation: ""
-    is_industry: false
-  - name: "Hanxue Liang"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
   - name: "Ziwei Liu"
-    affiliation: ""
+    affiliation: "S-Lab, Nanyang Technological University"
     is_industry: false
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
   - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -54,7 +53,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/l4gm/"
 abstract: "We present L4GM, the first 4D Large Reconstruction Model that produces animated objects from a single-view video input -- in a single feed-forward pass that takes only a second. Key to our success is a novel dataset of multiview videos containing curated, rendered animated objects from Objaverse. Th"
 url: "https://research.nvidia.com/publication/2024-12_l4gm-large-4d-gaussian-reconstruction-model"
-status: new
+status: "new"
 ---
 
 # L4GM: Large 4D Gaussian Reconstruction Model

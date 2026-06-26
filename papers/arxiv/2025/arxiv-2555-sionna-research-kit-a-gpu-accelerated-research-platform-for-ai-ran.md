@@ -1,8 +1,8 @@
 ---
-id: arxiv-2555
+id: "arxiv-2555"
 title: "Sionna Research Kit: A GPU-Accelerated Research Platform for AI-RAN"
-conference: arXiv 2025
-date: 2025-05
+conference: "arXiv 2025"
+date: "2025-05"
 authors:
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
@@ -27,7 +27,6 @@ authors:
     is_industry: true
 topics:
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Telecommunications"
 abstract: "We introduce the NVIDIA Sionna Research Kit, a GPU-accelerated research platform for developing and testing AI/ML algorithms in 5G NR cellular networks.&nbsp;"
 url: "https://research.nvidia.com/publication/2025-05_sionna-research-kit-gpu-accelerated-research-platform-ai-ran"
-status: new
+status: "new"
 ---
 
 # Sionna Research Kit: A GPU-Accelerated Research Platform for AI-RAN

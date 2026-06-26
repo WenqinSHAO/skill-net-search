@@ -1,59 +1,58 @@
 ---
-id: arxiv-2539
+id: "arxiv-2539"
 title: "Huge ensembles – Part 2: Properties of a huge ensemble of hindcasts generated with spherical Fourier neural operators"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
+  - name: "Ankur Mahesh"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "William D. Collins"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
   - name: "Boris Bonev"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Noah Brenowitz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yair Cohen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Peter Harrington"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "Karthik Kashinath"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thorsten Kurth"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Joshua North"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "Travis O'Brian"
+    affiliation: "Indiana University"
+    is_industry: false
   - name: "Mike Pritchard"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ankur Mahesh"
-    affiliation: ""
-    is_industry: false
-  - name: "William D. Collins"
-    affiliation: ""
-    is_industry: false
-  - name: "Yair Cohen"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Harrington"
-    affiliation: ""
-    is_industry: false
-  - name: "Karthik Kashinath"
-    affiliation: ""
-    is_industry: false
-  - name: "Thorsten Kurth"
-    affiliation: ""
-    is_industry: false
-  - name: "Joshua North"
-    affiliation: ""
-    is_industry: false
-  - name: "Travis O'Brian"
-    affiliation: ""
-    is_industry: false
   - name: "David Pruitt"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Risser"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Shashank Subramanian"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Jared Willard"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -67,7 +66,7 @@ external_links:
     url: "https://gmd.copernicus.org/articles/18/5605/2025/"
 abstract: "In Part&nbsp;1, we created an ensemble based on spherical Fourier neural operators. As initial condition perturbations, we used bred vectors, and as model perturbations, we used multiple checkpoints trained independently from scratch. Based on diagnostics that assess the ensemble's physical fidelity"
 url: "https://research.nvidia.com/publication/2025-09_huge-ensembles-part-2-properties-huge-ensemble-hindcasts-generated-spherical"
-status: new
+status: "new"
 ---
 
 # Huge ensembles – Part 2: Properties of a huge ensemble of hindcasts generated with spherical Fourier neural operators

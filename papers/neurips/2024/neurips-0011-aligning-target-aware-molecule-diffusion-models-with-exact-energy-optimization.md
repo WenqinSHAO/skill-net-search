@@ -1,40 +1,39 @@
 ---
-id: neurips-0011
+id: "neurips-0011"
 title: "Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Siyi Gu"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Minkai Xu"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Alexander Powers"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jure Leskovec"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Siyi Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Minkai Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Powers"
-    affiliation: ""
-    is_industry: false
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
-  - name: "Jure Leskovec"
-    affiliation: ""
-    is_industry: false
   - name: "Stefano Ermon"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://arxiv.org/abs/2407.01648"
 abstract: "Generating ligand molecules for specific protein targets, known as structure-based drug design, is a fundamental problem in therapeutics development and biological discovery. Recently, target-aware generative models, especially diffusion models, have shown great promise in modeling protein-ligand in"
 url: "https://research.nvidia.com/publication/2024-12_aligning-target-aware-molecule-diffusion-models-exact-energy-optimization"
-status: new
+status: "new"
 ---
 
 # Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization

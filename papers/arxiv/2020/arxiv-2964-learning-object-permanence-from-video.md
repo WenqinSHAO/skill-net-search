@@ -1,25 +1,24 @@
 ---
-id: arxiv-2964
+id: "arxiv-2964"
 title: "Learning Object Permanence from Video"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Aviv Shamsian"
+    affiliation: "Bar Ilan University"
+    is_industry: false
+  - name: "Ofri Kleinfeld"
+    affiliation: "Bar Ilan University"
+    is_industry: false
+  - name: "Amir Globerson"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aviv Shamsian"
-    affiliation: ""
-    is_industry: false
-  - name: "Ofri Kleinfeld"
-    affiliation: ""
-    is_industry: false
-  - name: "Amir Globerson"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://github.com/ofrikleinfeld/ObjectPermanence"
 abstract: "Object Permanence allows people to reason about the location of non-visible objects, by understanding that they continue to exist even when not perceived directly. Object Permanence is critical for building a model of the world, since objects in natural visual scenes dynamically occlude and contain "
 url: "https://research.nvidia.com/publication/2020-10_learning-object-permanence-video"
-status: new
+status: "new"
 ---
 
 # Learning Object Permanence from Video

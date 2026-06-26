@@ -1,28 +1,27 @@
 ---
-id: arxiv-2975
+id: "arxiv-2975"
 title: "Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Yang Zou"
+    affiliation: "CMU"
+    is_industry: false
+  - name: "Xiaodong Yang"
+    affiliation: "QCraft"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "B. V. K. Vijaya Kumar"
+    affiliation: "CMU"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yang Zou"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaodong Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "B. V. K. Vijaya Kumar"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://github.com/NVlabs/DG-Net-PP"
 abstract: "Although a significant progress has been witnessed in supervised person re-identification (re-id), it remains challenging to generalize re-id models to new domains due to the huge domain gaps. Recently, there has been a growing interest in using unsupervised domain adaptation to address this scalabi"
 url: "https://research.nvidia.com/publication/2020-08_joint-disentangling-and-adaptation-cross-domain-person-re-identification"
-status: new
+status: "new"
 ---
 
 # Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification

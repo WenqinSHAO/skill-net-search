@@ -1,21 +1,20 @@
 ---
-id: icra-0005
+id: "icra-0005"
 title: "SKT-Hang: Hanging Everyday Objects via Object-Agnostic Semantic Keypoint Trajectory Generation"
-conference: ICRA 2024
-date: 2024-05
+conference: "ICRA 2024"
+date: "2024-05"
 authors:
+  - name: "Chia-Liang Kuo"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chia-Liang Kuo"
-    affiliation: ""
-    is_industry: false
   - name: "Yi-Ting Chen"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://hcis-lab.github.io/SKT-Hang"
 abstract: "We study the problem of hanging a wide range of grasped objects on diverse supporting items. Hanging objects is a ubiquitous task that is encountered in numerous aspects of our everyday lives. However, both the objects and supporting items can exhibit substantial variations in their shapes and struc"
 url: "https://research.nvidia.com/publication/2024-05_skt-hang-hanging-everyday-objects-object-agnostic-semantic-keypoint-trajectory"
-status: new
+status: "new"
 ---
 
 # SKT-Hang: Hanging Everyday Objects via Object-Agnostic Semantic Keypoint Trajectory Generation

@@ -1,9 +1,15 @@
 ---
-id: icml-0020
+id: "icml-0020"
 title: "From local structures to size generalization in graph neural networks"
-conference: ICML 2021
-date: 2021-06
+conference: "ICML 2021"
+date: "2021-06"
 authors:
+  - name: "Gilad Yehudai"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ethan Fetaya"
+    affiliation: "Bar Ilan University"
+    is_industry: false
   - name: "Eli Meirom"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,14 +19,7 @@ authors:
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Gilad Yehudai"
-    affiliation: ""
-    is_industry: false
-  - name: "Ethan Fetaya"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Graph neural networks (GNNs) can process graphs of different sizes, but their ability to generalize across sizes, specifically from small to large graphs, is still not well understood. In this paper, we identify an important type of data where generalization from small to large graphs is challenging"
 url: "https://research.nvidia.com/publication/2021-06_local-structures-size-generalization-graph-neural-networks"
-status: new
+status: "new"
 ---
 
 # From local structures to size generalization in graph neural networks

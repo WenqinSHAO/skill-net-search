@@ -1,29 +1,28 @@
 ---
-id: icra-0023
+id: "icra-0023"
 title: "Propagating State Uncertainty Through Trajectory Forecasting"
-conference: ICRA 2022
-date: 2022-05
+conference: "ICRA 2022"
+date: "2022-05"
 authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yifeng Lin"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shubham Shrivastava"
+    affiliation: "Ford Greenfield Labs"
+    is_industry: false
+  - name: "Punarjay Chakravarty"
+    affiliation: "Ford Greenfield Labs"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yifeng Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Shubham Shrivastava"
-    affiliation: ""
-    is_industry: false
-  - name: "Punarjay Chakravarty"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9811776"
 abstract: "Uncertainty pervades through the modern robotic autonomy stack, with nearly every component (e.g., sensors, detection, classification, tracking, behavior prediction) producing continuous or discrete probabilistic distributions. Trajectory forecasting, in particular, is surrounded by uncertainty as i"
 url: "https://research.nvidia.com/publication/2022-05_propagating-state-uncertainty-through-trajectory-forecasting"
-status: new
+status: "new"
 ---
 
 # Propagating State Uncertainty Through Trajectory Forecasting

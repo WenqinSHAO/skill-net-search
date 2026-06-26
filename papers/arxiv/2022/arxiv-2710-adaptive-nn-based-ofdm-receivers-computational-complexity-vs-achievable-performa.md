@@ -1,27 +1,26 @@
 ---
-id: arxiv-2710
+id: "arxiv-2710"
 title: "Adaptive NN-based OFDM Receivers: Computational Complexity vs. Achievable Performance"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Moritz Benedikt Fischer"
+    affiliation: "University of Stuttgart"
+    is_industry: false
+  - name: "Sebastian Dörner"
+    affiliation: "University of Stuttgart"
+    is_industry: false
+  - name: "Felix Krieg"
+    affiliation: "University of Stuttgart"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Moritz Benedikt Fischer"
-    affiliation: ""
-    is_industry: false
-  - name: "Sebastian Dörner"
-    affiliation: ""
-    is_industry: false
-  - name: "Felix Krieg"
-    affiliation: ""
-    is_industry: false
   - name: "Stephan ten Brink"
-    affiliation: ""
+    affiliation: "University of Stuttgart"
     is_industry: false
 topics:
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Telecommunications"
 abstract: "We revisit the design and retraining capabilities of neural network (NN)-based orthogonal frequency division multiplex (OFDM) receivers that combine channel estimation, equalization and soft-demapping for time-varying and frequency selective wireless channels. Attracted by the inherent advantages of"
 url: "https://research.nvidia.com/publication/2022-10_adaptive-nn-based-ofdm-receivers-computational-complexity-vs-achievable"
-status: new
+status: "new"
 ---
 
 # Adaptive NN-based OFDM Receivers: Computational Complexity vs. Achievable Performance

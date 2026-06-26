@@ -1,24 +1,23 @@
 ---
-id: arxiv-2628
+id: "arxiv-2628"
 title: "Quantum computing with subwavelength atomic arrays"
-conference: arXiv 2024
-date: 2024-01
+conference: "arXiv 2024"
+date: "2024-01"
 authors:
+  - name: "Freya Shah"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Taylor Patti"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Freya Shah"
-    affiliation: ""
-    is_industry: false
   - name: "Oriol Rubies-Bigorda"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Susanne F. Yelin"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - Quantum_computing
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Quantum Computing"
 abstract: "Photon-mediated interactions in subwavelength atomic arrays have numerous applications in quantum science. In this paper, we explore the potential of three-level quantum emitters, or “impurities” embedded in a two-dimensional atomic array to serve as a platform for quantum computation. By exploiting"
 url: "https://research.nvidia.com/publication/2024-01_quantum-computing-subwavelength-atomic-arrays"
-status: new
+status: "new"
 ---
 
 # Quantum computing with subwavelength atomic arrays

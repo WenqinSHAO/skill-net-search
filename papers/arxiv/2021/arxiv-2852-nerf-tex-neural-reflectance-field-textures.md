@@ -1,28 +1,27 @@
 ---
-id: arxiv-2852
+id: "arxiv-2852"
 title: "NeRF-Tex: Neural Reflectance Field Textures"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Hendrik Baatz"
+    affiliation: "ETH Zurich"
+    is_industry: false
+  - name: "Jonathan Granskog"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Marios Papas"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hendrik Baatz"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonathan Granskog"
-    affiliation: ""
-    is_industry: false
-  - name: "Marios Papas"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We investigate the use of neural fields for modeling diverse mesoscale structures, such as fur, fabric, and grass. Instead of using classical graphics primitives to model the structure, we propose to employ a versatile volumetric primitive represented by a neural reflectance field (NeRF-Tex), which "
 url: "https://research.nvidia.com/publication/2021-06_nerf-tex-neural-reflectance-field-textures"
-status: new
+status: "new"
 ---
 
 # NeRF-Tex: Neural Reflectance Field Textures

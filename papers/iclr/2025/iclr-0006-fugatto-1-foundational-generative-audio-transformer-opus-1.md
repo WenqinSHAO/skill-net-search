@@ -1,57 +1,56 @@
 ---
-id: iclr-0006
+id: "iclr-0006"
 title: "Fugatto 1 - Foundational Generative Audio Transformer Opus 1"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Rafael Valle"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Rohan Badlani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhifeng Kong"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sang-gil Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arushi Goel"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sungwon Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Joao Felipe Santos"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shuqi Dai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Siddharth Gururani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Aya AIJa'fari"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alex Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kevin Shih"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Wei Ping"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rafael Valle"
-    affiliation: ""
-    is_industry: false
-  - name: "Rohan Badlani"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhifeng Kong"
-    affiliation: ""
-    is_industry: false
-  - name: "Sang-gil Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Arushi Goel"
-    affiliation: ""
-    is_industry: false
-  - name: "Sungwon Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Joao Felipe Santos"
-    affiliation: ""
-    is_industry: false
-  - name: "Shuqi Dai"
-    affiliation: ""
-    is_industry: false
-  - name: "Aya AIJa'fari"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Kevin Shih"
-    affiliation: ""
-    is_industry: false
-  - name: "Wei Ping"
-    affiliation: ""
-    is_industry: false
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -63,7 +62,7 @@ external_links:
     url: "https://fugatto.github.io/"
 abstract: "Fugatto is a versatile audio synthesis and transformation model capable of followingfree-form text instructions with optional audio inputs. While large languagemodels (LLMs) trained with text on a simple next-token prediction objective canlearn to infer instructions directly from the data, models tr"
 url: "https://research.nvidia.com/publication/2025-04_fugatto-1-foundational-generative-audio-transformer-opus-1"
-status: new
+status: "new"
 ---
 
 # Fugatto 1 - Foundational Generative Audio Transformer Opus 1

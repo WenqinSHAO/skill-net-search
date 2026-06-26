@@ -1,28 +1,27 @@
 ---
-id: rss-0007
+id: "rss-0007"
 title: "Meta-Policy Learning over Plan Ensembles for Robust Articulated Object Manipulation"
-conference: RSS 2023
-date: 2023-07
+conference: "RSS 2023"
+date: "2023-07"
 authors:
+  - name: "Constantinos Chamzas"
+    affiliation: "Rice University"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Constantinos Chamzas"
-    affiliation: ""
-    is_industry: false
   - name: "Lydia Kavraki"
-    affiliation: ""
+    affiliation: "Rice University"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2023-07_meta-policy-learning-over-plan-ensembles-robust-articulated-object-manipulation"
-status: new
+status: "new"
 ---
 
 # Meta-Policy Learning over Plan Ensembles for Robust Articulated Object Manipulation

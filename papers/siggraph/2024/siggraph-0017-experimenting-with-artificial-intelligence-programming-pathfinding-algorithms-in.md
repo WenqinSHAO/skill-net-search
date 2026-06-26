@@ -1,17 +1,16 @@
 ---
-id: siggraph-0017
+id: "siggraph-0017"
 title: "Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
+  - name: "Deborah Yuen"
+    affiliation: "University of Southern California"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Deborah Yuen"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -25,7 +24,7 @@ external_links:
     url: "https://dl.acm.org/doi/fullHtml/10.1145/3641236.3664419"
 abstract: "Recent years have seen a rise in machine learning applications deployed in different technological contexts. It has shaped how we experience technology and led to new doors of innovation and a mass market interest in artificial intelligence (AI). While academic research pushes the boundaries of AI t"
 url: "https://research.nvidia.com/publication/2024-07_experimenting-artificial-intelligence-programming-pathfinding-algorithms-c"
-status: new
+status: "new"
 ---
 
 # Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5

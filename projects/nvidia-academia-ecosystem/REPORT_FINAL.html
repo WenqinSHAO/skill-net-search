@@ -179,7 +179,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <!-- ===== SIDEBAR ===== -->
 <aside class="sidebar">
   <div class="sidebar-header">
-    <div class="report-label">Tech Report · 2026-06-05</div>
+    <div class="report-label">Tech Report · 2026-06-26</div>
     <h2>NVIDIA Research<br>→ Product Pipeline</h2>
   </div>
   <nav class="sidebar-nav">
@@ -193,7 +193,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
     <a href="#s8"><span class="nav-num">8</span> Key Takeaways</a>
     <a href="#appendix" style="font-size:11px;padding-left:28px">Appendix</a>
   </nav>
-  <div class="sidebar-footer">Dataset: 891 papers<br>3,678 blog posts · 14 domains</div>
+  <div class="sidebar-footer">Dataset: 923 papers<br>3,678 blog posts · 14 domains</div>
 </aside>
 
 <!-- ===== MAIN CONTENT ===== -->
@@ -204,12 +204,12 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <h1><span class="green">NVIDIA Research</span> → Product Pipeline</h1>
   <p class="subtitle">How Academia Fuels NVIDIA's Technology Ecosystem (2020-2026)</p>
   <div class="hero-metrics">
-    <div class="hero-metric"><div class="metric-value">891</div><div class="metric-label">Research Papers</div></div>
+    <div class="hero-metric"><div class="metric-value">923</div><div class="metric-label">Research Papers</div></div>
     <div class="hero-metric"><div class="metric-value">56</div><div class="metric-label">Verified Transfers</div></div>
     <div class="hero-metric"><div class="metric-value">14</div><div class="metric-label">Research Domains</div></div>
     <div class="hero-metric"><div class="metric-value">3,678</div><div class="metric-label">Blog Posts Analyzed</div></div>
   </div>
-  <div class="hero-date">Generated 2026-06-05 · Calibrated transfer evidence via agent-reviewed three-stage pipeline</div>
+  <div class="hero-date">Generated 2026-06-26 · Corrected affiliations + calibrated transfer evidence via agent-reviewed three-stage pipeline</div>
 </header>
 
 <!-- ===== SECTION 1: METHODOLOGY ===== -->
@@ -225,7 +225,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <table>
 <thead><tr><th>Source</th><th>Description</th><th>Coverage</th></tr></thead>
 <tbody>
-<tr><td><strong>Research papers</strong></td><td>Papers scraped from <code>research.nvidia.com</code>, enriched with research areas, venues, and author affiliations</td><td>891 papers (2020-2026), tagged <code>nvidia-research</code></td></tr>
+<tr><td><strong>Research papers</strong></td><td>Papers scraped from <code>research.nvidia.com</code>, enriched with research areas, venues, and author affiliations</td><td>923 papers (2020-2026), tagged <code>nvidia-research</code></td></tr>
 <tr><td><strong>Technical blog posts</strong></td><td>All posts discovered via the NVIDIA Technical Blog Atom feed</td><td>3,678 posts (2020-2026)</td></tr>
 <tr><td><strong>Transfer evidence</strong></td><td>Paper-blog matches verified through agent-based content review</td><td>56 papers → 53 blogs → 71 verified links</td></tr>
 </tbody>
@@ -240,7 +240,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <div class="pipeline-stage">
     <div class="stage-num">1</div>
     <div class="stage-title">Heuristic Match</div>
-    <div class="stage-desc">Cross-reference 891 papers × 3,678 blogs via author overlap, title phrases, and project names.<br><strong>→ 442 candidate pairs</strong></div>
+    <div class="stage-desc">Cross-reference the NVIDIA paper corpus × 3,678 blogs via author overlap, title phrases, and project names.<br><strong>→ calibrated from June 2026 candidate matches</strong></div>
   </div>
   <div class="pipeline-arrow">→</div>
   <div class="pipeline-stage">
@@ -257,7 +257,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 </div>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val green">56</div><div class="stat-lbl">Verified Papers (6.3%)</div></div>
+  <div class="stat-card"><div class="stat-val green">56</div><div class="stat-lbl">Verified Papers (6.1%)</div></div>
   <div class="stat-card"><div class="stat-val">53</div><div class="stat-lbl">Unique Blogs</div></div>
   <div class="stat-card"><div class="stat-val teal">40</div><div class="stat-lbl">Direct Transfers</div></div>
   <div class="stat-card"><div class="stat-val" style="color:#E69F00">18</div><div class="stat-lbl">Moderate Transfers</div></div>
@@ -296,7 +296,7 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
 </div>
 
 <h3>2.1 Portfolio Composition</h3>
-<p>NVIDIA's research portfolio spans 14 domains. <strong>AI & Machine Learning</strong> dominates at 451 papers — more than the next two domains combined.</p>
+<p>NVIDIA's research portfolio spans 14 domains. <strong>AI & Machine Learning</strong> dominates at 457 papers, followed by Computer Vision, Robotics & Autonomous, and Foundation Models.</p>
 
 <figure>
   <img src="figures/domain_static_distribution.png" alt="Domain Static Distribution" loading="lazy" onclick="openLightbox(this.src)">
@@ -307,16 +307,16 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
 <table>
 <thead><tr><th>Domain</th><th class="num">Papers</th><th class="num">Share</th></tr></thead>
 <tbody>
-<tr><td>AI & Machine Learning</td><td class="num">451</td><td class="rate">50.6%</td></tr>
-<tr><td>Computer Vision</td><td class="num">246</td><td class="rate">27.6%</td></tr>
-<tr><td>Foundation Models</td><td class="num">219</td><td class="rate">24.6%</td></tr>
-<tr><td>Robotics & Autonomous</td><td class="num">219</td><td class="rate">24.6%</td></tr>
-<tr><td>Graphics & Rendering</td><td class="num">213</td><td class="rate">23.9%</td></tr>
-<tr><td>GPU Architecture</td><td class="num">158</td><td class="rate">17.7%</td></tr>
-<tr><td>CUDA Ecosystem</td><td class="num">75</td><td class="rate">8.4%</td></tr>
-<tr><td>Applied Perception</td><td class="num">73</td><td class="rate">8.2%</td></tr>
-<tr><td>Simulation & HPC</td><td class="num">47</td><td class="rate">5.3%</td></tr>
-<tr><td>Interconnect & Networking</td><td class="num">26</td><td class="rate">2.9%</td></tr>
+<tr><td>AI & Machine Learning</td><td class="num">457</td><td class="rate">49.5%</td></tr>
+<tr><td>Computer Vision</td><td class="num">247</td><td class="rate">26.8%</td></tr>
+<tr><td>Robotics & Autonomous</td><td class="num">223</td><td class="rate">24.2%</td></tr>
+<tr><td>Foundation Models</td><td class="num">222</td><td class="rate">24.1%</td></tr>
+<tr><td>Graphics & Rendering</td><td class="num">213</td><td class="rate">23.1%</td></tr>
+<tr><td>GPU Architecture</td><td class="num">160</td><td class="rate">17.3%</td></tr>
+<tr><td>CUDA Ecosystem</td><td class="num">77</td><td class="rate">8.3%</td></tr>
+<tr><td>Applied Perception</td><td class="num">73</td><td class="rate">7.9%</td></tr>
+<tr><td>Simulation & HPC</td><td class="num">48</td><td class="rate">5.2%</td></tr>
+<tr><td>Interconnect & Networking</td><td class="num">42</td><td class="rate">4.6%</td></tr>
 </tbody>
 </table>
 </div>
@@ -327,14 +327,14 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
   <img src="figures/domain_temporal_stacked_area.png" alt="Domain Temporal Stacked Area" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>Figure 2: Stacked area chart — domain composition by year, GPT-3.5/ChatGPT demarcation at 2022.5</figcaption>
 </figure>
-<p>The domain landscape shifted dramatically after late 2022. <strong>Foundation Models</strong> exploded from 58 pre-GPT papers to 161 post-GPT (+178%). <strong>GPU Architecture</strong> shows the mirror image — declining from 116 to 42. Section 2.5 shows this decline correlates with a shift toward arxiv and away from traditional architecture conferences; whether this reflects reduced investment, publication venue preference, or classification changes is not distinguishable from the data alone.</p>
+<p>The domain landscape shifted dramatically after late 2022. <strong>Foundation Models</strong> grew from 58 pre-GPT papers to 164 post-GPT (+183%). <strong>GPU Architecture</strong> shows the mirror image — declining from 116 to 44. Section 2.5 shows this decline correlates with a shift toward arxiv and away from traditional architecture conferences; whether this reflects reduced investment, publication venue preference, or classification changes is not distinguishable from the data alone.</p>
 
 <h3>2.3 GPT Moment Shift by Domain</h3>
 <figure>
   <img src="figures/domain_gpt_shift.png" alt="Domain GPT Shift Scatter" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>Figure 3: Scatter plot — each domain as a point (pre vs post-GPT count), biggest movers annotated</figcaption>
 </figure>
-<p>Foundation Models gained 103 papers between eras — the single largest domain-level shift. Applied Perception also showed strong growth (+117%), driven by latency perception and esports research. GPU Architecture was the notable decliner (-64%), alongside a modest reduction in CUDA Ecosystem work.</p>
+<p>Foundation Models gained 106 papers between eras — the single largest domain-level shift. Applied Perception also showed strong growth (+117%), driven by latency perception and esports research. GPU Architecture was the notable decliner (-62%), alongside a nearly flat CUDA Ecosystem count.</p>
 
 <h3>2.4 Key Domain Trajectories</h3>
 <figure>
@@ -342,8 +342,8 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
   <figcaption>Figure 4: Line chart — seven signature domains tracked annually</figcaption>
 </figure>
 <div class="eco-grid">
-  <div class="eco-card"><h5>Foundation Models ↗</h5><p>Hockey-stick curve — flat through 2020-2022, then steep climb to 45-52/year</p></div>
-  <div class="eco-card"><h5>GPU Architecture ↘</h5><p>Strong 2020-2022 peak (40-42/year), then sharp decline to 6-23/year</p></div>
+  <div class="eco-card"><h5>Foundation Models ↗</h5><p>Hockey-stick curve — flat through 2020-2022, then steep climb to 45-54/year</p></div>
+  <div class="eco-card"><h5>GPU Architecture ↘</h5><p>Strong 2020-2022 peak (40-42/year), then sharp decline to 4-23/year</p></div>
   <div class="eco-card"><h5>AI & ML, CV, Graphics →</h5><p>Steady, resilient — forming NVIDIA's research backbone</p></div>
   <div class="eco-card"><h5>Robotics →</h5><p>Consistent across all years without dramatic swings</p></div>
 </div>
@@ -370,19 +370,19 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
 </figure>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val green">87.9%</div><div class="stat-lbl">NVIDIA First-Authored (774/881)</div></div>
-  <div class="stat-card"><div class="stat-val" style="color:#E69F00">12.1%</div><div class="stat-lbl">Academic First-Authored (107)</div></div>
-  <div class="stat-card"><div class="stat-val">8.2%</div><div class="stat-lbl">Solo NVIDIA (72 papers)</div></div>
-  <div class="stat-card"><div class="stat-val teal">92%</div><div class="stat-lbl">With Academic Co-authors (809)</div></div>
+  <div class="stat-card"><div class="stat-val green">58.5%</div><div class="stat-lbl">NVIDIA First-Authored (538/920)</div></div>
+  <div class="stat-card"><div class="stat-val" style="color:#E69F00">41.5%</div><div class="stat-lbl">Academic First-Authored (382)</div></div>
+  <div class="stat-card"><div class="stat-val">38.3%</div><div class="stat-lbl">Solo NVIDIA (352/920)</div></div>
+  <div class="stat-card"><div class="stat-val teal">61.7%</div><div class="stat-lbl">Collaborative (568/920)</div></div>
 </div>
-<p>Only 72 papers (8.2%) are solo NVIDIA with no external co-authors — the vast majority involve academic partners, but NVIDIA overwhelmingly sets the research agenda.</p>
+<p>After correcting author affiliations from NVIDIA detail pages, NVIDIA researchers are first author on 58.5% of known-author papers, while academic collaborators lead 41.5%. The model is still NVIDIA-centered, but the corrected data shows a much larger academic lead role than the earlier incomplete-affiliation pass suggested.</p>
 
 <h3>3.2 Temporal Stability</h3>
 <figure>
   <img src="figures/collaboration_temporal_split.png" alt="Collaboration Temporal Split" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>Figure 7: Stacked bars — NVIDIA-led vs Academic-led by year</figcaption>
 </figure>
-<p>The NVIDIA-led to academic-led ratio has been stable across all seven years. The collaboration model is structural and institutionalized — not reactive to AI trends or the GPT moment.</p>
+<p>The collaboration model is structural, but the corrected first-author split is less one-sided than before. NVIDIA-led papers were 61.1% of known-author papers in 2020-2022 and 56.0% in 2023-2026; academic-led papers rose from 38.9% to 44.0%.</p>
 
 <h3>3.3 Domain Participation</h3>
 <figure>
@@ -394,15 +394,15 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
 <table>
 <thead><tr><th>Domain</th><th class="num">Academic-Led %</th></tr></thead>
 <tbody>
-<tr><td>Medical Imaging</td><td class="rate">33.3% (4/12)</td></tr>
-<tr><td>Foundation Models</td><td class="rate">25.1% (55/219)</td></tr>
-<tr><td>Graphics & Rendering</td><td class="rate">10.8% (23/213)</td></tr>
-<tr><td>Simulation & HPC</td><td class="rate">8.5% (4/47)</td></tr>
-<tr><td>CUDA Ecosystem</td><td class="rate">8.0% (6/75)</td></tr>
+<tr><td>Data Systems</td><td class="rate">100.0% (1/1)</td></tr>
+<tr><td>Quantum Computing</td><td class="rate">70.0% (7/10)</td></tr>
+<tr><td>Applied Perception</td><td class="rate">53.4% (39/73)</td></tr>
+<tr><td>Simulation & HPC</td><td class="rate">52.1% (25/48)</td></tr>
+<tr><td>Robotics & Autonomous</td><td class="rate">49.3% (110/223)</td></tr>
 </tbody>
 </table>
 </div>
-<p>Foundation Models is the domain where academia most meaningfully leads — 55 of 219 papers have an academic first author. Applied Perception, Interconnect & Networking, and Quantum Computing have <strong>zero</strong> academic-led papers; NVIDIA fully controls these research directions.</p>
+<p>Small domains can dominate the percentage ranking, so the more durable signal is that Applied Perception, Simulation & HPC, and Robotics all sit near parity or academic-majority by first author. Foundation Models remains a major collaborative arena, but its academic-led rate is 32.9% (73/222).</p>
 
 <h3>3.4 Top Academic Partners</h3>
 <figure>
@@ -414,17 +414,17 @@ This methodology captures transfers that surface on the NVIDIA Technical Blog. I
 <table>
 <thead><tr><th>Scholar</th><th class="num">Papers</th><th>Primary Domain</th></tr></thead>
 <tbody>
-<tr><td>Dieter Fox</td><td class="num">70</td><td>Robotics</td></tr>
-<tr><td>Mark Haoxing Ren</td><td class="num">48</td><td>AI & ML</td></tr>
-<tr><td>Boris Ginsburg</td><td class="num">34</td><td>Foundation Models (Speech)</td></tr>
-<tr><td>Anima Anandkumar</td><td class="num">32</td><td>AI & ML</td></tr>
-<tr><td>Timothy Tsai</td><td class="num">25</td><td>AI & ML</td></tr>
+<tr><td>Gordon Wetzstein</td><td class="num">14</td><td>Graphics & Rendering</td></tr>
+<tr><td>Daniel Cohen-Or</td><td class="num">10</td><td>Graphics & Rendering</td></tr>
+<tr><td>Yifan Peng</td><td class="num">10</td><td>Medical Imaging</td></tr>
+<tr><td>Benjamin Watson</td><td class="num">9</td><td>Applied Perception</td></tr>
+<tr><td>Tushar Krishna</td><td class="num">9</td><td>GPU Architecture</td></tr>
 </tbody>
 </table>
 </div>
 <div class="callout info">
 <strong>Note on Dual Affiliations</strong>
-Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Research director positions alongside university appointments. This reflects dual academic-industry appointments common in NVIDIA Research leadership.
+This table now excludes authors whose NVIDIA affiliation is explicit on NVIDIA Research detail pages. Dual appointments still exist, but the corrected data no longer treats NVIDIA-affiliated leaders such as Mark Haoxing Ren, Dieter Fox, or Boris Ginsburg as purely academic collaborators.
 </div>
 </section>
 
@@ -436,7 +436,7 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
 </div>
 
 <h3>4.1 Transfer Overview</h3>
-<p>After calibration, <strong>56 of 891 papers</strong> (6.3%) have verified product transfer through the NVIDIA Technical Blog. While this appears modest, it represents documented, defensible transfer — the tip of the iceberg rather than the full extent of research-to-product flow.</p>
+<p>After calibration, <strong>56 of 923 papers</strong> (6.1%) have verified product transfer through the NVIDIA Technical Blog. While this appears modest, it represents documented, defensible transfer — the tip of the iceberg rather than the full extent of research-to-product flow.</p>
 
 <figure>
   <img src="figures/transfer_evidence_types.png" alt="Transfer Evidence Types" loading="lazy" onclick="openLightbox(this.src)">
@@ -448,20 +448,20 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
 <thead><tr><th>Metric</th><th>Pre-GPT (2020-2022)</th><th>Post-GPT (2023-2026)</th></tr></thead>
 <tbody>
 <tr><td>Papers with transfer</td><td class="num">16</td><td class="num">40</td></tr>
-<tr><td>Transfer rate</td><td class="rate">3.6%</td><td class="rate">9.0%</td></tr>
-<tr><td>Direct transfers</td><td class="num">11</td><td class="num">29</td></tr>
-<tr><td>Moderate transfers</td><td class="num">5</td><td class="num">13</td></tr>
+<tr><td>Transfer rate</td><td class="rate">3.5%</td><td class="rate">8.5%</td></tr>
+<tr><td>Direct transfers</td><td class="num">12</td><td class="num">28</td></tr>
+<tr><td>Moderate transfers</td><td class="num">6</td><td class="num">12</td></tr>
 </tbody>
 </table>
 </div>
-<p>The post-GPT era shows a <strong>2.5× increase</strong> in transfer rate — more research is reaching blogs connected to products.</p>
+<p>The post-GPT era shows a <strong>2.4× increase</strong> in transfer rate — more research is reaching blogs connected to products.</p>
 
 <h3>4.2 Transfer by Domain</h3>
 <figure>
   <img src="figures/transfer_by_domain.png" alt="Transfer By Domain" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>Figure 11: Horizontal bar — domains sorted by transfer rate, stacked with/without transfer</figcaption>
 </figure>
-<p>Foundation Models has the highest absolute transfer count (24 papers) and the highest rate among major domains (11.0%). Medical Imaging shows the highest rate overall (16.7%) but from a small base (2/12 papers). <strong>GPU Architecture, despite 158 papers, has zero verified transfers</strong> — GPU research ships silently.</p>
+<p>Foundation Models has the highest absolute transfer count among major domains (24 papers) and a 10.8% transfer rate. Medical Imaging shows the highest rate overall (11.1%) but from a small base (2/18 papers). GPU Architecture now has 7 verified blog transfers out of 160 papers (4.4%), still far below model- and robotics-oriented domains.</p>
 
 <h3>4.3 Product Landscape</h3>
 <figure>
@@ -514,7 +514,7 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
     <div class="r-avatar">DF</div>
     <div>
       <div class="r-name">Dieter Fox</div>
-      <div class="r-meta">Professor, University of Washington · Sr. Director of Robotics Research, NVIDIA <span class="badge academic">Academic</span></div>
+      <div class="r-meta">Professor, University of Washington · Sr. Director of Robotics Research, NVIDIA <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge direct">7 DIRECT</span> · Senior/last author on all</div>
     </div>
   </div>
@@ -536,7 +536,7 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
     <div class="r-avatar">MR</div>
     <div>
       <div class="r-name">Mark Haoxing Ren</div>
-      <div class="r-meta">Formerly Sr. Research Scientist, NVIDIA · VLSI CAD and EDA <span class="badge academic">Academic</span></div>
+      <div class="r-meta">Formerly Sr. Research Scientist, NVIDIA · VLSI CAD and EDA <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge moderate">7 MODERATE</span> · Senior author on all</div>
     </div>
   </div>
@@ -593,7 +593,7 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
     <div class="r-avatar">BG</div>
     <div>
       <div class="r-name">Boris Ginsburg</div>
-      <div class="r-meta">NVIDIA Research Director + university appointment <span class="badge academic">Academic</span></div>
+      <div class="r-meta">NVIDIA Research Director + university appointment <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge direct">5 DIRECT</span> · Senior author on all</div>
     </div>
   </div>
@@ -653,7 +653,7 @@ Several top "academic" collaborators (Dieter Fox, Boris Ginsburg) hold NVIDIA Re
 <h3>Cross-Cutting Patterns</h3>
 <div class="eco-grid">
   <div class="eco-card"><h5>Collaboration Clusters</h5><p>Three tight research groups dominate transfer: robotics sim-to-real (Fox, Akinola, Yang, Chao), generative AI (Vahdat, Kreis, Kautz), and chip design (Ren, Ho). Boris Ginsburg's speech group is the most self-contained.</p></div>
-  <div class="eco-card"><h5>Academic-Industry Duality</h5><p>Three of the top 10 (Fox, Ren, Ginsburg) are classified as academic yet hold NVIDIA Research leadership roles. Their transferred papers blur the line between academic publication and product development.</p></div>
+  <div class="eco-card"><h5>Academic-Industry Duality</h5><p>Dual appointments still matter, but the corrected affiliation pass classifies Fox, Ren, and Ginsburg as NVIDIA-affiliated when NVIDIA appears in the source data.</p></div>
   <div class="eco-card"><h5>First-Author Dynamics</h5><p>Mark Ho is first author on all 4 of his papers — the implementation leader. Fox, Kautz, and Ginsburg serve as senior/last authors — the research directors. Vahdat, Kreis, Yang, and Chao share first-author credit across collaborative papers.</p></div>
 </div>
 </section>
@@ -759,11 +759,11 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
 
 <!-- 6.4 CUDA + GPU -->
 <h3>6.4 CUDA + GPU: The Silent Substrate <span class="badge direct" style="font-size:11px;margin-left:8px">8 papers</span></h3>
-<p>CUDA and GPU hardware are the foundation beneath every other NVIDIA product — yet they generate the fewest blog posts per paper. With <strong>158 papers on GPU Architecture but zero verified blog transfers</strong>, and 8 papers linking to CUDA/A100, this ecosystem represents the "silent" side of research transfer.</p>
+<p>CUDA and GPU hardware are the foundation beneath every other NVIDIA product — yet they generate fewer blog-visible transfers per paper than model and robotics domains. With <strong>160 papers on GPU Architecture and 7 verified blog transfers</strong>, plus 8 papers linking directly to CUDA/A100, this ecosystem represents the quieter side of research transfer.</p>
 
 <div class="synthesis-box">
-<h4>Why GPU Architecture Has Zero Blog Transfers</h4>
-<p>GPU architecture research (158 papers) publishes at architecture venues or arxiv, then ships in products like Blackwell, Hopper, and Ampere — without blog fanfare. The absence of blog evidence here is <strong>not evidence of absence</strong>. It reflects a different communication strategy: hardware ships through product launches and technical documentation, not research blogs. CUDA appears as a secondary product across every ecosystem — as the execution substrate for Isaac and NeMo workloads, as the acceleration core for DREAMPlace. The 8 papers with CUDA as a named product undercount its actual impact. <strong>CUDA is the water, not the fish.</strong></p>
+<h4>Why GPU Architecture Has Few Blog Transfers</h4>
+<p>GPU architecture research (160 papers) publishes at architecture venues or arxiv, then ships in products like Blackwell, Hopper, and Ampere with less research-blog fanfare. The low blog evidence rate is <strong>not evidence of absence</strong>. It reflects a different communication strategy: hardware ships through product launches and technical documentation, not primarily through research blogs. CUDA appears as a secondary product across every ecosystem — as the execution substrate for Isaac and NeMo workloads, as the acceleration core for DREAMPlace.</p>
 </div>
 </section>
 
@@ -776,29 +776,29 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
 <p>Comparing <strong>pre-GPT (2020-2022)</strong> to <strong>post-GPT (2023-2026)</strong>:</p>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val">449 → 442</div><div class="stat-lbl">Papers (Stable)</div></div>
-  <div class="stat-card"><div class="stat-val green">+178%</div><div class="stat-lbl">Foundation Models Growth</div></div>
-  <div class="stat-card"><div class="stat-val" style="color:#D55E00">-64%</div><div class="stat-lbl">GPU Architecture Decline</div></div>
-  <div class="stat-card"><div class="stat-val teal">2.5×</div><div class="stat-lbl">Transfer Rate Increase</div></div>
+  <div class="stat-card"><div class="stat-val">451 → 472</div><div class="stat-lbl">Papers (Near-Flat)</div></div>
+  <div class="stat-card"><div class="stat-val green">+183%</div><div class="stat-lbl">Foundation Models Growth</div></div>
+  <div class="stat-card"><div class="stat-val" style="color:#D55E00">-62%</div><div class="stat-lbl">GPU Architecture Decline</div></div>
+  <div class="stat-card"><div class="stat-val teal">2.4×</div><div class="stat-lbl">Transfer Rate Increase</div></div>
 </div>
 
 <div class="table-wrap">
 <table>
 <thead><tr><th>Dimension</th><th>Pre-GPT</th><th>Post-GPT</th><th>Δ</th></tr></thead>
 <tbody>
-<tr><td><strong>Scale</strong></td><td>449 papers</td><td>442 papers</td><td style="color:#888">Flat</td></tr>
-<tr><td><strong>Composition</strong></td><td>Hardware-focused</td><td>Model-focused</td><td style="color:#76B900">Foundation Models +178%</td></tr>
-<tr><td><strong>Collaboration</strong></td><td>88% NVIDIA-led</td><td>87% NVIDIA-led</td><td style="color:#888">Stable</td></tr>
-<tr><td><strong>Transfer Rate</strong></td><td class="rate">3.6%</td><td class="rate">9.0%</td><td style="color:#009E73">+2.5×</td></tr>
-<tr><td><strong>Direct Transfers</strong></td><td class="num">11</td><td class="num">29</td><td style="color:#009E73">+18</td></tr>
-<tr><td><strong>New Domains</strong></td><td>—</td><td>Miscellaneous (3), Data Systems (1)</td><td style="color:#76B900">Nascent diversification</td></tr>
+<tr><td><strong>Scale</strong></td><td>451 papers</td><td>472 papers</td><td style="color:#888">Near-flat</td></tr>
+<tr><td><strong>Composition</strong></td><td>Hardware-focused</td><td>Model-focused</td><td style="color:#76B900">Foundation Models +183%</td></tr>
+<tr><td><strong>Collaboration</strong></td><td>61.1% NVIDIA-led</td><td>56.0% NVIDIA-led</td><td style="color:#888">More academic-led</td></tr>
+<tr><td><strong>Transfer Rate</strong></td><td class="rate">3.5%</td><td class="rate">8.5%</td><td style="color:#009E73">+2.4×</td></tr>
+<tr><td><strong>Direct Transfers</strong></td><td class="num">12</td><td class="num">28</td><td style="color:#009E73">+16</td></tr>
+<tr><td><strong>New Domains</strong></td><td>—</td><td>Miscellaneous (4), Data Systems (1)</td><td style="color:#76B900">Nascent diversification</td></tr>
 </tbody>
 </table>
 </div>
 
 <div class="synthesis-box">
 <h4>Synthesis</h4>
-<p>The GPT moment did not cause NVIDIA to produce more research — it caused NVIDIA to produce <strong>different</strong> research. The 449-to-442 paper count is effectively flat. But beneath that surface stability lies a radical reallocation: Foundation Models absorbed 103 net-new papers while GPU Architecture shed 74. The shift is not just topical but operational — Foundation Model research transfers to products through blogs at 11.0%, while GPU Architecture transfers at 0% through the same channel. The blog, as a developer-facing medium, is naturally suited to software and model releases; hardware ships through product launches and datasheets. The post-GPT transfer rate increase (3.6% → 9.0%) is therefore partly compositional: more research now falls into blog-friendly domains, and NVIDIA has grown more systematic about blogging research-to-product connections. The stable collaboration ratio (88% → 87% NVIDIA-led) confirms that the organizational model — NVIDIA sets the agenda, academia provides expertise and co-authors — survived the GPT disruption intact.</p>
+<p>The GPT moment did not cause NVIDIA to produce dramatically more research — it caused NVIDIA to produce <strong>different</strong> research. The 451-to-472 paper count is close to flat, but beneath that surface stability lies a radical reallocation: Foundation Models absorbed 106 net-new papers while GPU Architecture shed 72. The post-GPT transfer rate increase (3.5% → 8.5%) is partly compositional: more research now falls into blog-friendly domains. Corrected affiliations also change the collaboration story: NVIDIA still leads a majority, but academic first authors account for 41.5% overall and rise post-GPT.</p>
 </div>
 </section>
 
@@ -813,17 +813,17 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
   <div class="takeaway-card">
     <div class="tk-num">1</div>
     <div class="tk-title">Real Pipeline, Selective Evidence</div>
-    <div class="tk-body">6.3% of papers have verified blog transfer — a lower bound that captures the documented, public-facing slice of transfer. GPU Architecture ships silently; Foundation Models ship loudly.</div>
+    <div class="tk-body">6.1% of papers have verified blog transfer — a lower bound that captures the documented, public-facing slice of transfer. GPU Architecture remains comparatively quiet; Foundation Models and Robotics ship more visibly through blogs.</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">2</div>
     <div class="tk-title">Redirected, Not Expanded</div>
-    <div class="tk-body">Total output held steady (449 → 442), but Foundation Models surged 178% while GPU Architecture declined 64%. NVIDIA reprioritized rather than expanded.</div>
+    <div class="tk-body">Total output stayed near-flat (451 → 472), but Foundation Models surged 183% while GPU Architecture declined 62%. NVIDIA reprioritized more than it expanded.</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">3</div>
-    <div class="tk-title">NVIDIA Leads, Academia Collaborates</div>
-    <div class="tk-body">87.9% NVIDIA first-authored, yet 92% involve academic co-authors. Foundation Models has the strongest academic participation (25% first-authored).</div>
+    <div class="tk-title">NVIDIA Leads, Academia Also Leads</div>
+    <div class="tk-body">58.5% of known-author papers are NVIDIA first-authored and 41.5% are academic first-authored. The corrected data shows an academia ecosystem with real agenda-setting power.</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">4</div>
@@ -833,12 +833,12 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
   <div class="takeaway-card">
     <div class="tk-num">5</div>
     <div class="tk-title">Transfer Accelerated Post-GPT</div>
-    <div class="tk-body">The 2.5× increase in transfer rate (3.6% → 9.0%) suggests NVIDIA became more systematic about communicating research-to-product pathways.</div>
+    <div class="tk-body">The 2.4× increase in transfer rate (3.5% → 8.5%) suggests NVIDIA became more systematic about communicating research-to-product pathways.</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">6</div>
     <div class="tk-title">The Blog Is Strategic — Not the Only Channel</div>
-    <div class="tk-body">53 blogs carry verified research transfer. GPU architecture, with zero verified blog transfers but 158 papers, ships through different channels entirely.</div>
+    <div class="tk-body">53 blogs carry verified research transfer. GPU architecture, with 160 papers but only 7 verified blog transfers, ships through different channels more often than software and model research.</div>
   </div>
 </div>
 </section>
@@ -862,7 +862,7 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
 <tr><td class="num">6</td><td>Domain academic participation ranking</td><td style="color:#76B900">✓ Yes</td><td>Section 3.3</td></tr>
 <tr><td class="num">7</td><td>Top scholar collaborators</td><td style="color:#76B900">✓ Yes</td><td>Section 3.4</td></tr>
 <tr><td class="num">8</td><td>Transfer evidence type distribution</td><td style="color:#76B900">✓ Yes</td><td>Section 4.1 (calibrated: DIRECT/MODERATE)</td></tr>
-<tr><td class="num">9</td><td>Papers with product footprints count</td><td style="color:#76B900">✓ Yes</td><td>Section 4.1: 56/891 (6.3%)</td></tr>
+<tr><td class="num">9</td><td>Papers with product footprints count</td><td style="color:#76B900">✓ Yes</td><td>Section 4.1: 56/923 (6.1%)</td></tr>
 <tr><td class="num">10</td><td>Product-level mapping (which products)</td><td style="color:#76B900">✓ Yes</td><td>Section 4.3</td></tr>
 <tr><td class="num">11</td><td>Domain-to-product landing analysis</td><td style="color:#76B900">✓ Yes</td><td>Section 4.2 (domain transfer rates)</td></tr>
 <tr><td class="num">12</td><td>Scholar contribution to product transfer</td><td style="color:#76B900">✓ Yes</td><td>Sections 4.5, 5</td></tr>
@@ -874,8 +874,8 @@ NeMo demonstrates the fastest paper-to-product turnaround: 1 month for Mamba-2-H
 
 <!-- ===== FOOTER ===== -->
 <footer class="report-footer">
-  <p>Report methodology and data quality details in <code>ANALYSIS_PLAN.md</code> and <code>analysis/validation_notes.md</code>. Calibrated transfer evidence in <code>analysis/verified_transfers.json</code>.</p>
-  <p style="margin-top:8px">Generated 2026-06-05 · 891 papers · 3,678 blog posts · 14 domains · 3-stage verified transfer pipeline</p>
+  <p>Report methodology and data quality details in <code>ANALYSIS_PLAN.md</code> and <code>analysis/validation_notes.md</code>. Corrected affiliations are produced by <code>enrich_nvidia_papers.py</code>; calibrated transfer evidence remains in <code>analysis/verified_transfers.json</code>.</p>
+  <p style="margin-top:8px">Generated 2026-06-26 · 923 papers · 3,678 blog posts · 14 domains · corrected affiliations · 3-stage verified transfer pipeline</p>
 </footer>
 
 </main>

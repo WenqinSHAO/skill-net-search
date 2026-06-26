@@ -1,8 +1,8 @@
 ---
-id: arxiv-2765
+id: "arxiv-2765"
 title: "MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Xinshuo Weng"
     affiliation: "NVIDIA"
@@ -17,7 +17,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9827273"
 abstract: "Recently, there has been tremendous progress in developing each individual module of the standard perception-planning robot autonomy pipeline, including detection, tracking, prediction of other agents’ trajectories, and ego-agent trajectory planning. Nevertheless, there has been less attention given"
 url: "https://research.nvidia.com/publication/2022-06_mtp-multi-hypothesis-tracking-and-prediction-reduced-error-propagation"
-status: new
+status: "new"
 ---
 
 # MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation

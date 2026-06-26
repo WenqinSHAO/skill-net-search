@@ -1,38 +1,37 @@
 ---
-id: arxiv-3001
+id: "arxiv-3001"
 title: "DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Yibo Lin"
+    affiliation: "Peking University"
+    is_industry: false
+  - name: "Zixuan Jiang"
+    affiliation: "UT-Austin"
+    is_industry: false
+  - name: "Jiaqi Gu"
+    affiliation: "UT-Austin"
+    is_industry: false
+  - name: "Wuxi Li"
+    affiliation: "Xilinx"
+    is_industry: false
+  - name: "Shounak Dhar"
+    affiliation: "Intel"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yibo Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Zixuan Jiang"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaqi Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Wuxi Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Shounak Dhar"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "UT-Austin"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Placement for very-large-scale integrated (VLSI) circuits is one of the most important steps for design closure. We propose a novel GPU-accelerated placement framework DREAMPlace, by casting the analytical placement problem equivalently to training a neural network. Implemented on top of a widely-ad"
 url: "https://research.nvidia.com/publication/2020-06_dreamplace-deep-learning-toolkit-enabled-gpu-acceleration-modern-vlsi-placement"
-status: new
+status: "new"
 ---
 
 # DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement

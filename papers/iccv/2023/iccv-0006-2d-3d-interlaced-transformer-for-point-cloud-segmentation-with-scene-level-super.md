@@ -1,25 +1,24 @@
 ---
-id: iccv-0006
+id: "iccv-0006"
 title: "2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision"
-conference: ICCV 2023
-date: 2023-10
+conference: "ICCV 2023"
+date: "2023-10"
 authors:
+  - name: "Cheng-Kun Yang"
+    affiliation: "National Taiwan University"
+    is_industry: false
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Cheng-Kun Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Yung-Yu Chaung"
-    affiliation: ""
+    affiliation: "National Taiwan University"
     is_industry: false
   - name: "Yen-Yu Lin"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://github.com/jimmy15923/mit"
 abstract: "We present a Multimodal Interlaced Transformer (MIT) that jointly considers 2D and 3D data for weakly supervised point cloud segmentation. Research studies have shown that 2D and 3D features are complementary for point cloud segmentation. However, existing methods require extra 2D annotations to ach"
 url: "https://research.nvidia.com/publication/2023-10_2d-3d-interlaced-transformer-point-cloud-segmentation-scene-level-supervision"
-status: new
+status: "new"
 ---
 
 # 2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision

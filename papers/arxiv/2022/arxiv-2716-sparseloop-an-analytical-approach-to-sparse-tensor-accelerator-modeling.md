@@ -1,27 +1,26 @@
 ---
-id: arxiv-2716
+id: "arxiv-2716"
 title: "Sparseloop: An Analytical Approach to Sparse Tensor Accelerator Modeling"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Yannan Nellie Wu"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Vivienne Sze"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yannan Nellie Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Vivienne Sze"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9923807"
 abstract: "In recent years, many accelerators have been proposed to efficiently process sparse tensor algebra applications (e.g., sparse neural networks). However, these proposals are single points in a large and diverse design space. The lack of systematic description and modeling support for these sparse ten"
 url: "https://research.nvidia.com/publication/2022-10_sparseloop-analytical-approach-sparse-tensor-accelerator-modeling"
-status: new
+status: "new"
 ---
 
 # Sparseloop: An Analytical Approach to Sparse Tensor Accelerator Modeling

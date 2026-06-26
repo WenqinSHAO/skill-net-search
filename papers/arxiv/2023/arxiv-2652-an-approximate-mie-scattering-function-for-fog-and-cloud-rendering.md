@@ -1,18 +1,20 @@
 ---
-id: arxiv-2652
+id: "arxiv-2652"
 title: "An Approximate Mie Scattering Function for Fog and Cloud Rendering"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
+  - name: "Johannes Jendersie"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Eugene d'Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Eugene d&#039;Eon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Johannes Jendersie"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -21,7 +23,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "The Mie phase function describes the complex shapes that arise when light is scattered by water droplets. Inconvenient tables of data are required to include Mie scattering in a path tracer. To avoid this complexity, analytic models such as Cornette-Shanks (CS) or Henyey-Greenstein (HG) mixtures are"
 url: "https://research.nvidia.com/publication/2023-08_approximate-mie-scattering-function-fog-and-cloud-rendering"
-status: new
+status: "new"
 ---
 
 # An Approximate Mie Scattering Function for Fog and Cloud Rendering

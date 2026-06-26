@@ -1,21 +1,20 @@
 ---
-id: arxiv-2648
+id: "arxiv-2648"
 title: "NeMo Forced Aligner and its application to word alignment for subtitle generation"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
   - name: "Elena Rastorgueva"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://www.isca-archive.org/interspeech_2023/rastorgueva23_interspeech.pdf"
 abstract: "We present NeMo Forced Aligner (NFA): an efficient and accurate forced aligner which is part of the NeMo conversational AI open-source toolkit. NFA can produce token, word, and segment-level alignments, and can generate subtitle files for highlighting words or tokens as they are spoken. We present a"
 url: "https://research.nvidia.com/publication/2023-08_nemo-forced-aligner-and-its-application-word-alignment-subtitle-generation"
-status: new
+status: "new"
 ---
 
 # NeMo Forced Aligner and its application to word alignment for subtitle generation

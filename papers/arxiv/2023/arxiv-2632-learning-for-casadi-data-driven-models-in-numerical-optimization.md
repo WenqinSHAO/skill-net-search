@@ -1,27 +1,26 @@
 ---
-id: arxiv-2632
+id: "arxiv-2632"
 title: "Learning for CasADi: Data-driven Models in Numerical Optimization"
-conference: arXiv 2023
-date: 2023-12
+conference: "arXiv 2023"
+date: "2023-12"
 authors:
+  - name: "Tim Salzmann"
+    affiliation: "Technical University of Munich"
+    is_industry: false
+  - name: "Jon Arrizabalaga"
+    affiliation: "Technical University of Munich"
+    is_industry: false
+  - name: "Joel Andersson"
+    affiliation: "Freelance software developer and consultant"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tim Salzmann"
-    affiliation: ""
-    is_industry: false
-  - name: "Jon Arrizabalaga"
-    affiliation: ""
-    is_industry: false
-  - name: "Joel Andersson"
-    affiliation: ""
-    is_industry: false
   - name: "Markus Ryll"
-    affiliation: ""
+    affiliation: "Technical University of Munich"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "While real-world problems are often challenging to analyze analytically, deep learning excels in modeling complex processes from data. Existing optimization frameworks like CasADi facilitate seamless usage of solvers but face challenges when integrating learned process models into numerical optimiza"
 url: "https://research.nvidia.com/publication/2023-12_learning-casadi-data-driven-models-numerical-optimization"
-status: new
+status: "new"
 ---
 
 # Learning for CasADi: Data-driven Models in Numerical Optimization

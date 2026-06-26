@@ -1,8 +1,8 @@
 ---
-id: cvpr-0043
+id: "cvpr-0043"
 title: "FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization"
-conference: CVPR 2023
-date: 2023-03
+conference: "CVPR 2023"
+date: "2023-03"
 authors:
   - name: "Heng Yang"
     affiliation: "NVIDIA"
@@ -12,7 +12,6 @@ authors:
     is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +19,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "The two-stage object pose estimation paradigm first detects semantic keypoints on the image and then estimates the 6D pose by minimizing reprojection errors. Despite performing well on standard benchmarks, existing techniques offer no provable guarantees on the quality and uncertainty of the estimat"
 url: "https://research.nvidia.com/publication/2023-03_freenerf-improving-few-shot-neural-rendering-free-frequency-regularization"
-status: new
+status: "new"
 ---
 
 # FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization

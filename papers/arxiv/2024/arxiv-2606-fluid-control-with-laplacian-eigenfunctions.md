@@ -1,21 +1,20 @@
 ---
-id: arxiv-2606
+id: "arxiv-2606"
 title: "Fluid Control with Laplacian Eigenfunctions"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
   - name: "Yixin Chen"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "David Levin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
   - name: "Timothy Langlois"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Adobe Research"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Physics-based fluid control has long been a challenging problem in balancing efficiency and accuracy. We introduce a novel physics-based fluid control pipeline using Laplacian Eigenfluids. Utilizing the adjoint method with our provided analytical gradient expressions, the derivative computation of t"
 url: "https://research.nvidia.com/publication/2024-07_fluid-control-laplacian-eigenfunctions"
-status: new
+status: "new"
 ---
 
 # Fluid Control with Laplacian Eigenfunctions

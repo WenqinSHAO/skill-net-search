@@ -1,35 +1,34 @@
 ---
-id: siggraph-0052
+id: "siggraph-0052"
 title: "Interactive AI Material Generation and Editing in NVIDIA Omniverse"
-conference: SIGGRAPH 2023
-date: 2023-07
+conference: "SIGGRAPH 2023"
+date: "2023-07"
 authors:
+  - name: "Hassan Abu Alhaija"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alex Zook"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hassan Abu Alhaija"
-    affiliation: ""
-    is_industry: false
   - name: "Michael Babcock"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "David Tyner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Rajeev Rao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maria Shugrina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3588430.3597248"
 abstract: "We present an AI-based tool for interactive material generation within the NVIDIA Omniverse environment. Our approach leverages a State-of-the-art Latent Diffusion model with some notable modifications to adapt it to the task of material generation. Specifically, we employ circular-padded convolutio"
 url: "https://research.nvidia.com/publication/2023-07_interactive-ai-material-generation-and-editing-nvidia-omniverse"
-status: new
+status: "new"
 ---
 
 # Interactive AI Material Generation and Editing in NVIDIA Omniverse

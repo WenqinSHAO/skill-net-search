@@ -1,18 +1,20 @@
 ---
-id: arxiv-2575
+id: "arxiv-2575"
 title: "High-Precision Benchmarks for the Stochastic Rod"
-conference: arXiv 2025
-date: 2025-01
+conference: "arXiv 2025"
+date: "2025-01"
 authors:
-  - name: "Eugene d&#039;Eon"
+  - name: "Eugene d'Eon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Anil Prinja"
-    affiliation: ""
+    affiliation: "University of New Mexico"
     is_industry: false
+  - name: "Eugene d&#039;Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +22,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We demonstrate a method to calculate high-precision benchmarks for the reflectance and transmittance of a finite rod with a stochastic cross section, assuming that the attenuation law has a known closed form and both the single-scattering albedo and scattering kernel are deterministic. We introduce "
 url: "https://research.nvidia.com/publication/2025-01_high-precision-benchmarks-stochastic-rod"
-status: new
+status: "new"
 ---
 
 # High-Precision Benchmarks for the Stochastic Rod

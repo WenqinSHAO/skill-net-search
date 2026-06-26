@@ -1,31 +1,30 @@
 ---
-id: iros-0005
+id: "iros-0005"
 title: "DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability"
-conference: IROS 2024
-date: 2024-10
+conference: "IROS 2024"
+date: "2024-10"
 authors:
+  - name: "Xiaolin Fang"
+    affiliation: "MIT CSAIL"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xiaolin Fang"
-    affiliation: ""
-    is_industry: false
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomás Lozano-Pérez"
-    affiliation: ""
+    affiliation: "MIT CSAIL"
     is_industry: false
   - name: "Leslie Pack Kaelbling"
-    affiliation: ""
+    affiliation: "MIT CSAIL"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2024-10_dimsam-diffusion-models-samplers-task-and-motion-planning-under-partial"
-status: new
+status: "new"
 ---
 
 # DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability

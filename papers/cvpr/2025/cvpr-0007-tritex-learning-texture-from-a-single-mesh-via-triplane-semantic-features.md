@@ -1,25 +1,24 @@
 ---
-id: cvpr-0007
+id: "cvpr-0007"
 title: "TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Dana Cohen-Bar"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Daniel Cohen-Or"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dana Cohen-Bar"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Cohen-Or"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2503.16630"
 abstract: "As 3D content creation continues to grow, transferring semantic textures between 3D meshes remains a significant challenge in computer graphics. While recent methods leverage text-to-image diffusion models for texturing, they often struggle to preserve the appearance of the source texture during tex"
 url: "https://research.nvidia.com/publication/2025-06_tritex-learning-texture-single-mesh-triplane-semantic-features"
-status: new
+status: "new"
 ---
 
 # TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features

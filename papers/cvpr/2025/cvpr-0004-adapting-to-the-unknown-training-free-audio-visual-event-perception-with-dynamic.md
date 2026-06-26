@@ -1,25 +1,24 @@
 ---
-id: cvpr-0004
+id: "cvpr-0004"
 title: "Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Eitan Shaar"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Ariel Shaulov"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Eitan Shaar"
-    affiliation: ""
-    is_industry: false
-  - name: "Ariel Shaulov"
-    affiliation: ""
-    is_industry: false
   - name: "Lior Wolf"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2503.13693"
 abstract: "Abstract: In the domain of audio-visual event perception, which focuses on the temporal localization and classification of events across distinct modalities (audio and visual), existing approaches are constrained by the vocabulary available in their training data. This limitation significantly imped"
 url: "https://research.nvidia.com/publication/2025-06_adapting-unknown-training-free-audio-visual-event-perception-dynamic-thresholds"
-status: new
+status: "new"
 ---
 
 # Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds

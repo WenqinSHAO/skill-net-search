@@ -1,28 +1,27 @@
 ---
-id: icml-0009
+id: "icml-0009"
 title: "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents"
-conference: ICML 2024
-date: 2024-07
+conference: "ICML 2024"
+date: "2024-07"
 authors:
+  - name: "Yilun Xu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Gabriele Corso"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Tommi Jaakkola"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yilun Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Gabriele Corso"
-    affiliation: ""
-    is_industry: false
-  - name: "Tommi Jaakkola"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://research.nvidia.com/labs/lpr/disco-diff/"
 abstract: "Diffusion models (DMs) have revolutionized generative learning. They utilize a diffusion process to encode data into a simple Gaussian distribution. However, encoding a complex, potentially multimodal data distribution into a single continuous Gaussian distribution arguably represents an unnecessari"
 url: "https://research.nvidia.com/publication/2024-07_disco-diff-enhancing-continuous-diffusion-models-discrete-latents"
-status: new
+status: "new"
 ---
 
 # DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents

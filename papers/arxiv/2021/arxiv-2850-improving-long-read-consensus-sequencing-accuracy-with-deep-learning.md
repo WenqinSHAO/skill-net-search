@@ -1,31 +1,30 @@
 ---
-id: arxiv-2850
+id: "arxiv-2850"
 title: "Improving Long-read Consensus Sequencing Accuracy with Deep Learning"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
   - name: "Avantika Lal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Brown"
-    affiliation: ""
+    affiliation: "Pacific Biosciences"
     is_industry: false
   - name: "Rahul Mohan"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Joyjit Daw"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Drake"
-    affiliation: ""
+    affiliation: "Pacific Biosciences"
     is_industry: false
   - name: "Johnny Israeli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://www.biorxiv.org/content/10.1101/2021.06.28.450238v1"
 abstract: "The PacBio HiFi sequencing technology combines less accurate, multi-read passes from the same molecule (subreads) to yield consensus sequencing reads that are both long (averaging 10-25 kb) and highly accurate. However, these reads can retain residual sequencing error, predominantly insertions or de"
 url: "https://research.nvidia.com/publication/2021-06_improving-long-read-consensus-sequencing-accuracy-deep-learning"
-status: new
+status: "new"
 ---
 
 # Improving Long-read Consensus Sequencing Accuracy with Deep Learning

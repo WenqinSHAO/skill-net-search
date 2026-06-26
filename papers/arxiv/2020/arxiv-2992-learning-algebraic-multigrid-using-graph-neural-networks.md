@@ -1,26 +1,25 @@
 ---
-id: arxiv-2992
+id: "arxiv-2992"
 title: "Learning Algebraic Multigrid Using Graph Neural Networks"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Ilay Luz"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
+  - name: "Meirav Galun"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ilay Luz"
-    affiliation: ""
-    is_industry: false
-  - name: "Meirav Galun"
-    affiliation: ""
-    is_industry: false
   - name: "Ronen Basri"
-    affiliation: ""
+    affiliation: "Weizmann Institute of Science"
     is_industry: false
   - name: "Irad Yavneh"
-    affiliation: ""
+    affiliation: "Technion"
     is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Efficient numerical solvers for sparse linear systems are crucial in science and engineering. One of the fastest methods for solving large-scale sparse linear systems is algebraic multigrid (AMG). The main challenge in the construction of AMG algorithms is the selection of the prolongation operator "
 url: "https://research.nvidia.com/publication/2020-07_learning-algebraic-multigrid-using-graph-neural-networks"
-status: new
+status: "new"
 ---
 
 # Learning Algebraic Multigrid Using Graph Neural Networks

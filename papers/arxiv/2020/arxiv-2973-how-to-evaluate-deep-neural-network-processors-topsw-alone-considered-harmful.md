@@ -1,24 +1,23 @@
 ---
-id: arxiv-2973
+id: "arxiv-2973"
 title: "How to Evaluate Deep Neural Network Processors: TOPS/W (Alone) Considered Harmful"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Vivienne Sze"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Yu-Hsin Chen"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Tien-Ju Yang"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vivienne Sze"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu-Hsin Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Tien-Ju Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9177369"
 abstract: "A significant amount of specialized hardware has been developed for processing deep neural networks (DNNs) in both academia and industry. This article aims to highlight the key concepts required to evaluate and compare these DNN processors. We discuss existing challenges, such as the flexibility and"
 url: "https://research.nvidia.com/publication/2020-08_how-evaluate-deep-neural-network-processors-topsw-alone-considered-harmful"
-status: new
+status: "new"
 ---
 
 # How to Evaluate Deep Neural Network Processors: TOPS/W (Alone) Considered Harmful

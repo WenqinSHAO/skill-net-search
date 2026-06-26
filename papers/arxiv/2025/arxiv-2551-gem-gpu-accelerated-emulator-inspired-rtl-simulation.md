@@ -1,21 +1,20 @@
 ---
-id: arxiv-2551
+id: "arxiv-2551"
 title: "GEM: GPU-Accelerated Emulator-Inspired RTL Simulation"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
+  - name: "Zizheng Guo"
+    affiliation: "Peking Univeristy"
+    is_industry: false
   - name: "Yanqing Zhang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zizheng Guo"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://github.com/NVlabs/GEM"
 abstract: "We present a GPU-accelerated RTL simulator addressing critical challenges in high-speed circuit verification.Traditional CPU-based RTL simulators struggle with scalability and performance, and while FPGA-based emulators offer acceleration, they are costly and less accessible. Previous GPU-based atte"
 url: "https://research.nvidia.com/publication/2025-06_gem-gpu-accelerated-emulator-inspired-rtl-simulation"
-status: new
+status: "new"
 ---
 
 # GEM: GPU-Accelerated Emulator-Inspired RTL Simulation

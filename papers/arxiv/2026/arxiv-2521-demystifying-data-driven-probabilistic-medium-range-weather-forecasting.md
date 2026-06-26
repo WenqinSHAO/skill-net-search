@@ -1,8 +1,8 @@
 ---
-id: arxiv-2521
+id: "arxiv-2521"
 title: "Demystifying Data-Driven Probabilistic Medium-Range Weather Forecasting"
-conference: arXiv 2026
-date: 2026-01
+conference: "arXiv 2026"
+date: "2026-01"
 authors:
   - name: "Jean Kossaifi"
     affiliation: "NVIDIA"
@@ -14,6 +14,24 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Daniel Leibovici"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Suman Ravuri"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ira Shokar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Edoardo Calvello"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mohammad Shoaib Abbas"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Peter Harrington"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ashay Subramaniam"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Noah Brenowitz"
@@ -40,29 +58,10 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Suman Ravuri"
-    affiliation: ""
-    is_industry: false
-  - name: "Ira Shokar"
-    affiliation: ""
-    is_industry: false
-  - name: "Edoardo Calvello"
-    affiliation: ""
-    is_industry: false
-  - name: "Mohammad Shoaib Abbas"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Harrington"
-    affiliation: ""
-    is_industry: false
-  - name: "Ashay Subramaniam"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -72,7 +71,7 @@ research_areas:
   - "Generative AI"
 abstract: "The recent revolution in data-driven methods for weather forecasting has lead to a fragmented landscape of complex, bespoke architectures and training strategies, obscuring the fundamental drivers of forecast accuracy. Here, we demonstrate that state-of-the-art probabilistic skill requires neither i"
 url: "https://research.nvidia.com/publication/2026-01%5Fdemystifying-data-driven-probabilistic-medium-range-weather-forecasting"
-status: new
+status: "new"
 ---
 
 # Demystifying Data-Driven Probabilistic Medium-Range Weather Forecasting

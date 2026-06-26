@@ -1,9 +1,15 @@
 ---
-id: neurips-0008
+id: "neurips-0008"
 title: "Seeing What Matters: Generalizable AI-generated Video Detection with Forensic-Oriented Augmentation"
-conference: NeurIPS 2025
-date: 2025-11
+conference: "NeurIPS 2025"
+date: "2025-11"
 authors:
+  - name: "Riccardo Corvi"
+    affiliation: "University Federico II of Naple"
+    is_industry: false
+  - name: "Davide Cozzolino"
+    affiliation: "University Federico II of Naple"
+    is_industry: false
   - name: "Ekta Prashnani"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +19,13 @@ authors:
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Riccardo Corvi"
-    affiliation: ""
-    is_industry: false
-  - name: "Davide Cozzolino"
-    affiliation: ""
-    is_industry: false
   - name: "Luisa Verdoliva"
-    affiliation: ""
+    affiliation: "University Federico II of Naple"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2506.16802"
 abstract: "Synthetic video generation is progressing very rapidly. The latest models can produce very realistic high-resolution videos that are virtually indistinguishable from real ones. &nbsp;Although several video forensic detectors have been recently proposed, they often exhibit poor generalization, which "
 url: "https://research.nvidia.com/publication/2025-11_seeing-what-matters-generalizable-ai-generated-video-detection-forensic"
-status: new
+status: "new"
 ---
 
 # Seeing What Matters: Generalizable AI-generated Video Detection with Forensic-Oriented Augmentation

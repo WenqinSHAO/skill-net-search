@@ -1,27 +1,26 @@
 ---
-id: arxiv-2907
+id: "arxiv-2907"
 title: "Fair and Comprehensive Benchmarking of Machine Learning Processing Chips"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
+  - name: "Geoffrey W. Burr"
+    affiliation: "IBM Research-Almaden"
+    is_industry: true
+  - name: "SukHwan Lim"
+    affiliation: "Samsung"
+    is_industry: true
+  - name: "Boris Murmann"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Rangharajan Venkatesan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Geoffrey W. Burr"
-    affiliation: ""
-    is_industry: false
-  - name: "SukHwan Lim"
-    affiliation: ""
-    is_industry: false
-  - name: "Boris Murmann"
-    affiliation: ""
-    is_industry: false
   - name: "Marian Verhelst"
-    affiliation: ""
+    affiliation: "MICAS – KU Leuven & imec"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "With the rise&nbsp;of custom silicon chips for AI acceleration, fair and comprehensive benchmarking of hardware innovations has become increasingly important. While benchmarking at the application- and system-level provides the most complete picture of tradeoffs across multiple design dimensions, th"
 url: "https://research.nvidia.com/publication/2021-03_fair-and-comprehensive-benchmarking-machine-learning-processing-chips"
-status: new
+status: "new"
 ---
 
 # Fair and Comprehensive Benchmarking of Machine Learning Processing Chips

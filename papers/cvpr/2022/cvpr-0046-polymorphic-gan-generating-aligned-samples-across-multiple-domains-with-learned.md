@@ -1,29 +1,28 @@
 ---
-id: cvpr-0046
+id: "cvpr-0046"
 title: "Polymorphic-GAN: Generating Aligned Samples across Multiple Domains with Learned Morph Maps"
-conference: CVPR 2022
-date: 2022-06
+conference: "CVPR 2022"
+date: "2022-06"
 authors:
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
   - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/PMGAN/"
 abstract: "Modern image generative models show remarkable sample quality when trained on a single domain or class of objects. In this work, we introduce a generative adversarial network that can simultaneously generate aligned image samples from multiple related domains. We leverage the fact that a variety of "
 url: "https://research.nvidia.com/publication/2022-06_polymorphic-gan-generating-aligned-samples-across-multiple-domains-learned"
-status: new
+status: "new"
 ---
 
 # Polymorphic-GAN: Generating Aligned Samples across Multiple Domains with Learned Morph Maps

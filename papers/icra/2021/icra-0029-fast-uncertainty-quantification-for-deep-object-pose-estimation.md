@@ -1,9 +1,15 @@
 ---
-id: icra-0029
+id: "icra-0029"
 title: "Fast Uncertainty Quantification for Deep Object Pose Estimation"
-conference: ICRA 2021
-date: 2021-05
+conference: "ICRA 2021"
+date: "2021-05"
 authors:
+  - name: "Guanya Shi"
+    affiliation: ""
+    is_industry: false
+  - name: "Yifeng Zhu"
+    affiliation: ""
+    is_industry: false
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +19,14 @@ authors:
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Anima Anandkumar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Guanya Shi"
-    affiliation: ""
-    is_industry: false
-  - name: "Yifeng Zhu"
-    affiliation: ""
-    is_industry: false
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://sites.google.com/view/fastuq"
 abstract: "Deep learning-based object pose estimators are often unreliable and overconfident especially when the input image is outside the training domain, for instance, with sim2real transfer. Efficient and robust uncertainty quantification (UQ) in pose estimators is critically needed in many robotic tasks. "
 url: "https://research.nvidia.com/publication/2021-05_fast-uncertainty-quantification-deep-object-pose-estimation"
-status: new
+status: "new"
 ---
 
 # Fast Uncertainty Quantification for Deep Object Pose Estimation

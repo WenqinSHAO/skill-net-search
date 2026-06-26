@@ -1,25 +1,24 @@
 ---
-id: arxiv-2983
+id: "arxiv-2983"
 title: "ParaGraph: Layout Parasitics and Device Parameter Prediction using Graph Neural Networks"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "George Kokai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "George Kokai"
-    affiliation: ""
-    is_industry: false
   - name: "Ting-Sheng Ku"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Layout-dependent parasitics and device parameters significantly impact integrated circuit performance and are often the cause of slow convergences between schematic and layout designs. Circuit designers typically estimate parasitics from past experience, resulting in variability between designers an"
 url: "https://research.nvidia.com/publication/2020-07_paragraph-layout-parasitics-and-device-parameter-prediction-using-graph-neural"
-status: new
+status: "new"
 ---
 
 # ParaGraph: Layout Parasitics and Device Parameter Prediction using Graph Neural Networks

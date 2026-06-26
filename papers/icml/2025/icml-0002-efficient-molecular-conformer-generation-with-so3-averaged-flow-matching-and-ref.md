@@ -1,40 +1,39 @@
 ---
-id: icml-0002
+id: "icml-0002"
 title: "Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow"
-conference: ICML 2025
-date: 2025-07
+conference: "ICML 2025"
+date: "2025-07"
 authors:
+  - name: "Zhonglin Cao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mario Geiger"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Allan Dos Santos Costa"
+    affiliation: "NVIDIA, MIT Center for Bits and Atoms"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhonglin Cao"
-    affiliation: ""
-    is_industry: false
-  - name: "Mario Geiger"
-    affiliation: ""
-    is_industry: false
-  - name: "Allan Dos Santos Costa"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
   - name: "Franco Pellegrini"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Guoqing Zhou"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Emine Kucukbenli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ research_areas:
   - "Generative AI"
 abstract: "Fast and accurate generation of molecular conformers is desired for downstream computational chemistry and drug discovery tasks. Currently, training and sampling state-of-the-art diffusion or flow-based models for conformer generation require significant computational resources. In this work, we bui"
 url: "https://research.nvidia.com/publication/2025-07_efficient-molecular-conformer-generation-so3-averaged-flow-matching-and-reflow"
-status: new
+status: "new"
 ---
 
 # Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow

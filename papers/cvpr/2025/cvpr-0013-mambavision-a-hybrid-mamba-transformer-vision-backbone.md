@@ -1,19 +1,18 @@
 ---
-id: cvpr-0013
+id: "cvpr-0013"
 title: "MambaVision: A Hybrid Mamba-Transformer Vision Backbone"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Hatamizadeh"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
     url: "https://arxiv.org/abs/2407.08083"
 abstract: "We propose a novel hybrid Mamba-Transformer backbone, MambaVision, specifically tailored for vision applications. Our core contribution includes redesigning the Mamba formulation to enhance its capability for efficient modeling of visual features. Through a comprehensive ablation study, we demonstra"
 url: "https://research.nvidia.com/publication/2025-06_mambavision-hybrid-mamba-transformer-vision-backbone"
-status: new
+status: "new"
 ---
 
 # MambaVision: A Hybrid Mamba-Transformer Vision Backbone

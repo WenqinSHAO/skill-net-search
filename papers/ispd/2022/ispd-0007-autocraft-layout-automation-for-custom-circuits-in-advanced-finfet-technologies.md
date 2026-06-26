@@ -1,13 +1,22 @@
 ---
-id: ispd-0007
+id: "ispd-0007"
 title: "AutoCRAFT: Layout Automation for Custom Circuits in Advanced FinFET Technologies"
-conference: ISPD 2022
-date: 2022-03
+conference: "ISPD 2022"
+date: "2022-03"
 authors:
+  - name: "Hao Chen"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Sanquan Song"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Keren Zhu"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
+  - name: "George Kokai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brian Zimmer"
@@ -19,21 +28,11 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hao Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Keren Zhu"
-    affiliation: ""
-    is_industry: false
-  - name: "George Kokai"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3505170.3511044"
 abstract: "Despite continuous efforts in layout automation for full-custom circuits, including analog/mixed-signal (AMS) designs, automated layout tools have not yet been widely adopted in current industrial full-custom design flows due to the high circuit complexity and sensitivity to layout parasitics. Never"
 url: "https://research.nvidia.com/publication/2022-03_autocraft-layout-automation-custom-circuits-advanced-finfet-technologies"
-status: new
+status: "new"
 ---
 
 # AutoCRAFT: Layout Automation for Custom Circuits in Advanced FinFET Technologies

@@ -1,22 +1,21 @@
 ---
-id: iccv-0001
+id: "iccv-0001"
 title: "Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers"
-conference: ICCV 2025
-date: 2025-10
+conference: "ICCV 2025"
+date: "2025-10"
 authors:
+  - name: "An-Lun Liu"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "An-Lun Liu"
-    affiliation: ""
-    is_industry: false
   - name: "Yi-Ting Chen"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://hcis-lab.github.io/TOHGS"
 abstract: "In this paper, we study task-oriented human grasp synthesis, a new grasp synthesis task that demands both task and context awareness. At the core of our method is the task-aware contact maps. Unlike traditional contact maps that only reason about the manipulated object and its relation with the hand"
 url: "https://research.nvidia.com/publication/2025-10_task-oriented-human-grasp-synthesis-context-and-task-aware-diffusers"
-status: new
+status: "new"
 ---
 
 # Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers

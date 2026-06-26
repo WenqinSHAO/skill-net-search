@@ -1,29 +1,28 @@
 ---
-id: arxiv-2585
+id: "arxiv-2585"
 title: "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent"
-conference: arXiv 2024
-date: 2024-11
+conference: "arXiv 2024"
+date: "2024-11"
 authors:
+  - name: "Chen-Chia Chang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chia-Tung (Mark) Ho"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chen-Chia Chang"
-    affiliation: ""
-    is_industry: false
   - name: "Yaguang Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yiran Chen"
-    affiliation: ""
+    affiliation: "Duke University"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Generative AI"
 abstract: "In the advanced technology nodes, the integrated design rule checker (DRC) is often utilized in place and route tools for fast optimization loops for power-performance-area. Implementing integrated DRC checkers to meet the standard of commercial DRC tools demands extensive human expertise to interpr"
 url: "https://research.nvidia.com/publication/2024-11_drc-coder-automated-drc-checker-code-generation-using-llm-autonomous-agent"
-status: new
+status: "new"
 ---
 
 # DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent

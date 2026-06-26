@@ -1,15 +1,14 @@
 ---
-id: arxiv-3050
+id: "arxiv-3050"
 title: "Patch scanning displays: spatiotemporal enhancement for displays"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
   - name: "Kaan Akşit"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
     url: "https://kaanaksit.com/portfolio/patch-scanning-displays-spatiotemporal-enhancement-for-displays/"
 abstract: "Emerging fields of mixed reality and electronic sports necessitate greater spatial and temporal resolutions in displays. We introduce a novel scanning display method that enhances spatiotemporal qualities of displays. Specifically, we demonstrate that scanning multiple image patches that are represe"
 url: "https://research.nvidia.com/publication/2020-01_patch-scanning-displays-spatiotemporal-enhancement-displays"
-status: new
+status: "new"
 ---
 
 # Patch scanning displays: spatiotemporal enhancement for displays

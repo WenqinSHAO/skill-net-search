@@ -1,36 +1,35 @@
 ---
-id: icra-0006
+id: "icra-0006"
 title: "Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps"
-conference: ICRA 2023
-date: 2023-11
+conference: "ICRA 2023"
+date: "2023-11"
 authors:
+  - name: "Katie Z Luo"
+    affiliation: "Cornell University"
+    is_industry: false
   - name: "Xinshuo Weng"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yan Wang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Shuang Wu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jie Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kilian Q Weinberger"
+    affiliation: "Cornell University"
+    is_industry: false
   - name: "Yue Wang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Katie Z Luo"
-    affiliation: ""
-    is_industry: false
-  - name: "Shuang Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jie Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Kilian Q Weinberger"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Autonomous driving has traditionally relied heavily on costly and labor-intensive High Definition (HD) maps, hindering scalability. In contrast, Standard Definition (SD) maps are more affordable and have worldwide coverage, offering a scalable alternative. In this work, we systematically explore the"
 url: "https://research.nvidia.com/publication/2023-11_augmenting-lane-perception-and-topology-understanding-standard-definition"
-status: new
+status: "new"
 ---
 
 # Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps

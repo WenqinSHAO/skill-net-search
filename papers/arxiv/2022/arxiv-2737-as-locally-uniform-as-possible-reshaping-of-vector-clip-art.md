@@ -1,29 +1,28 @@
 ---
-id: arxiv-2737
+id: "arxiv-2737"
 title: "As-Locally-Uniform-as-Possible Reshaping of Vector Clip Art"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Chrystiano Araujo"
+    affiliation: "University of British Columbia"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chrystiano Araujo"
-    affiliation: ""
-    is_industry: false
   - name: "Enrique Rosales"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
   - name: "Giorgio Gori"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Adobe"
+    is_industry: true
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
 topics:
   - Applied_perception
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://www.cs.ubc.ca/labs/imager/tr/2022/ALUP/"
 abstract: "Vector clip-art images consist of regions bounded by a network of vector curves. Users often wish to reshape, or rescale, existing clip-art images by changing the locations, proportions, or scales of different image elements. When reshaping images depicting synthetic content they seek to preserve gl"
 url: "https://research.nvidia.com/publication/2022-08_locally-uniform-possible-reshaping-vector-clip-art"
-status: new
+status: "new"
 ---
 
 # As-Locally-Uniform-as-Possible Reshaping of Vector Clip Art

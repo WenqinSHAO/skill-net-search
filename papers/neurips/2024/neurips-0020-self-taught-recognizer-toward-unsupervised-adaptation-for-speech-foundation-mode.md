@@ -1,33 +1,32 @@
 ---
-id: neurips-0020
+id: "neurips-0020"
 title: "Self-Taught Recognizer: Toward Unsupervised Adaptation for Speech Foundation Models"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Yuchen Hu"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
+  - name: "Chen Chen"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yuchen Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Chengwei Qin"
-    affiliation: ""
+    affiliation: "Nanyang Technological University"
     is_industry: false
   - name: "Pin-Yu Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "MIT-IBM Center"
+    is_industry: true
   - name: "Eng Siong Chng"
-    affiliation: ""
+    affiliation: "Nanyang Technological University"
     is_industry: false
   - name: "Chao Zhang"
-    affiliation: ""
+    affiliation: "Tsinghua University"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ research_areas:
   - "Speech Processing"
 abstract: "We propose an unsupervised adaptation framework, Self-TAught Recognizer (STAR), which leverages unlabeled data to enhance the robustness of automatic speech recognition (ASR) systems in diverse target domains, such as noise and accents. STAR is developed for prevalent speech foundation models based "
 url: "https://research.nvidia.com/publication/2024-12_self-taught-recognizer-toward-unsupervised-adaptation-speech-foundation-models"
-status: new
+status: "new"
 ---
 
 # Self-Taught Recognizer: Toward Unsupervised Adaptation for Speech Foundation Models

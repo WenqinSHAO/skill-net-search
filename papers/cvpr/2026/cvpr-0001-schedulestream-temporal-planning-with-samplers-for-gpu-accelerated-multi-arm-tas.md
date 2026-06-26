@@ -1,8 +1,8 @@
 ---
-id: cvpr-0001
+id: "cvpr-0001"
 title: "ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning & Scheduling"
-conference: CVPR 2026
-date: 2026-06
+conference: "CVPR 2026"
+date: "2026-06"
 authors:
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
@@ -15,7 +15,6 @@ topics:
   - CUDA_ecosystem
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ research_areas:
   - "High Performance Computing"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2026-06%5Fschedulestream-temporal-planning-samplers-gpu-accelerated-multi-arm-task-and"
-status: new
+status: "new"
 ---
 
 # ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning & Scheduling

@@ -1,27 +1,26 @@
 ---
-id: siggraph-0021
+id: "siggraph-0021"
 title: "Area ReSTIR: Resampling for Real-Time Defocus and Antialiasing"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
+  - name: "Song Zhang"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Daqi Lin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Markus Kettunen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Cem Yuksel"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Song Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Cem Yuksel"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://research.nvidia.com/labs/rtr/publication/zhang2024area/"
 abstract: "Recent advancements in spatiotemporal reservoir resampling (ReSTIR) leverage sample reuse from neighbors to efficiently evaluate the path integral.&nbsp; Like rasterization, ReSTIR methods implicitly assume a pinhole camera and evaluate the light arriving at a pixel through a single predetermined su"
 url: "https://research.nvidia.com/publication/2024-07_area-restir-resampling-real-time-defocus-and-antialiasing"
-status: new
+status: "new"
 ---
 
 # Area ReSTIR: Resampling for Real-Time Defocus and Antialiasing

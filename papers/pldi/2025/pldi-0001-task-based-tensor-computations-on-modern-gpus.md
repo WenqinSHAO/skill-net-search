@@ -1,25 +1,24 @@
 ---
-id: pldi-0001
+id: "pldi-0001"
 title: "Task-Based Tensor Computations on Modern GPUs"
-conference: PLDI 2025
-date: 2025-06
+conference: "PLDI 2025"
+date: "2025-06"
 authors:
+  - name: "Rohan Yadav"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alex Aiken"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Michael Bauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Yadav"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Aiken"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "Domain-specific, fixed-function units are becoming increasingly common in modern processors. As the computational demands of applications evolve, the capabilities and programming interfaces of these fixed-function units continue to change. NVIDIA’s Hopper GPU architecture contains multiple fixed-fun"
 url: "https://research.nvidia.com/publication/2025-06_task-based-tensor-computations-modern-gpus"
-status: new
+status: "new"
 ---
 
 # Task-Based Tensor Computations on Modern GPUs

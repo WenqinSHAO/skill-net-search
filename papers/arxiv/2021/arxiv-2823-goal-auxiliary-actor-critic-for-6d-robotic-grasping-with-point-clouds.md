@@ -1,27 +1,26 @@
 ---
-id: arxiv-2823
+id: "arxiv-2823"
 title: "Goal-Auxiliary Actor-Critic for 6D Robotic Grasping with Point Clouds"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
+  - name: "Lirui Wang"
+    affiliation: "University of Washington"
+    is_industry: false
+  - name: "Yu Xiang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Lirui Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Xiang"
-    affiliation: ""
-    is_industry: false
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://openreview.net/forum?id=jOSWHddP1fZ"
 abstract: "6D robotic grasping beyond top-down bin-picking scenarios is a challenging task. Previous solutions based on 6D grasp synthesis with robot motion planning usually operate in an open-loop setting, which are sensitive to grasp synthesis errors. In this work, we propose a new method for learning closed"
 url: "https://research.nvidia.com/publication/2021-11_goal-auxiliary-actor-critic-6d-robotic-grasping-point-clouds"
-status: new
+status: "new"
 ---
 
 # Goal-Auxiliary Actor-Critic for 6D Robotic Grasping with Point Clouds

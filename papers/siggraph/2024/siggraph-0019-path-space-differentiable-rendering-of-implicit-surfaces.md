@@ -1,33 +1,32 @@
 ---
-id: siggraph-0019
+id: "siggraph-0019"
 title: "Path-space Differentiable Rendering of Implicit Surfaces"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
   - name: "Siwei Zhou"
-    affiliation: ""
+    affiliation: "Osaka University"
     is_industry: false
   - name: "Youngha Chang"
-    affiliation: ""
+    affiliation: "Tokyo City University"
     is_industry: false
   - name: "Nobuhiko Mukai"
-    affiliation: ""
+    affiliation: "Tokyo City University"
     is_industry: false
   - name: "Hiroaki Santo"
-    affiliation: ""
+    affiliation: "Osaka University"
     is_industry: false
   - name: "Fumio Okura"
-    affiliation: ""
+    affiliation: "Osaka University"
     is_industry: false
   - name: "Yasuyuki Matsushita"
-    affiliation: ""
+    affiliation: "Osaka University"
     is_industry: false
   - name: "Shuang Zhao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, UC Irvine"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Physics-based differentiable rendering is a key ingredient for integrating forward rendering into probabilistic inference and machine learning pipelines. As a state-of-the-art formulation for differentiable rendering, differential path integrals have enabled the development of efficient Monte Carlo "
 url: "https://research.nvidia.com/publication/2024-07_path-space-differentiable-rendering-implicit-surfaces"
-status: new
+status: "new"
 ---
 
 # Path-space Differentiable Rendering of Implicit Surfaces

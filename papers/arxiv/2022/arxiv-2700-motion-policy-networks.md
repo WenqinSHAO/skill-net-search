@@ -1,32 +1,31 @@
 ---
-id: arxiv-2700
+id: "arxiv-2700"
 title: "Motion Policy Networks"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Adam Fishman"
+    affiliation: "NVIDIA, UW"
+    is_industry: true
   - name: "Adithya Murali"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Adam Fishman"
-    affiliation: ""
-    is_industry: false
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Peele"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Byron Boots"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, UW"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://github.com/NVlabs/motion-policy-networks"
 abstract: "Collision-free motion generation in unknown environments is a core building block for robot manipulation. Generating such motions is challenging due to multiple objectives; not only should the solutions be optimal, the motion generator itself must be fast enough for real-time performance and reliabl"
 url: "https://research.nvidia.com/publication/2022-12_motion-policy-networks"
-status: new
+status: "new"
 ---
 
 # Motion Policy Networks

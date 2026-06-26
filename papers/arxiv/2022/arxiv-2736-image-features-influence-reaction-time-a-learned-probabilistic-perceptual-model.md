@@ -1,28 +1,27 @@
 ---
-id: arxiv-2736
+id: "arxiv-2736"
 title: "Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
   - name: "Budmonde Duinkharjav"
-    affiliation: ""
+    affiliation: "New York University"
     is_industry: false
   - name: "Praneeth Chakravarthula"
-    affiliation: ""
+    affiliation: "Princeton University"
     is_industry: false
   - name: "Rachel Brown"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anjul Patney"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Qi Sun"
-    affiliation: ""
+    affiliation: "New York University"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2205.02437"
 abstract: "We aim to ask and answer an essential question “how quickly do we react after observing a displayed visual target?” To this end, we present psychophysical studies that characterize the remarkable disconnect between human saccadic behaviors and spatial visual acuity. Building on the results of our st"
 url: "https://research.nvidia.com/publication/2022-08_image-features-influence-reaction-time-learned-probabilistic-perceptual-model"
-status: new
+status: "new"
 ---
 
 # Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency

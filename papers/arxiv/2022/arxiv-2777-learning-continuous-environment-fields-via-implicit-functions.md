@@ -1,8 +1,8 @@
 ---
-id: arxiv-2777
+id: "arxiv-2777"
 title: "Learning Continuous Environment Fields via Implicit Functions"
-conference: arXiv 2022
-date: 2022-04
+conference: "arXiv 2022"
+date: "2022-04"
 authors:
   - name: "Xueting Li"
     affiliation: "NVIDIA"
@@ -10,21 +10,20 @@ authors:
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Xiaolong Wang"
+    affiliation: "UCSD"
+    is_industry: false
+  - name: "Ming-Hsuan Yang"
+    affiliation: "UC Merced"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ming-Hsuan Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2111.13997"
 abstract: "ABSTRACT"
 url: "https://research.nvidia.com/publication/2022-04_learning-continuous-environment-fields-implicit-functions"
-status: new
+status: "new"
 ---
 
 # Learning Continuous Environment Fields via Implicit Functions

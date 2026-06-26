@@ -1,34 +1,33 @@
 ---
-id: ispd-0001
+id: "ispd-0001"
 title: "Novel Transformer Model Based Clustering Method for Standard Cell Design Automation"
-conference: ISPD 2024
-date: 2024-03
+conference: "ISPD 2024"
+date: "2024-03"
 authors:
   - name: "Chia-Tung (Mark) Ho"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ajay Chandna"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "David Guan"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alvin Ho"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Minsoo Kim"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yaguang Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,9 +37,9 @@ research_areas:
 external_links:
   - name: "Novel Transformer Model Based Clustering Method for Standard Cell Design Automa…"
     url: "https://ispd.cc/ispd2024/index.php"
-abstract: "Standard cells are essential components of modern digital circuit designs. With process technologies advancing beyond 5nm, more routability issues have arisen due to the decreasing number of routing tracks (RTs), increasing number and complexity of design rules, and strict patterning rules. The sta"
+abstract: "Standard cells are essential components of modern digital circuit designs. With process technologies advancing beyond 5nm, more routability issues have arisen due to the decreasing number of rout\u0002ing tracks (RTs), increasing number and complexity of design rules, and strict patterning rules. The sta"
 url: "https://research.nvidia.com/publication/2024-03_novel-transformer-model-based-clustering-method-standard-cell-design-automation"
-status: new
+status: "new"
 ---
 
 # Novel Transformer Model Based Clustering Method for Standard Cell Design Automation

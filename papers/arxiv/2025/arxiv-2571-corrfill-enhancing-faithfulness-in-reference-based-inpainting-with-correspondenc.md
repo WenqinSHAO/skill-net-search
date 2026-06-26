@@ -1,23 +1,23 @@
 ---
-id: arxiv-2571
+id: "arxiv-2571"
 title: "CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models"
-conference: arXiv 2025
-date: 2025-02
+conference: "arXiv 2025"
+date: "2025-02"
 authors:
+  - name: "Kuan-Hung Liu"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
+  - name: "Cheng-Kun Yang"
+    affiliation: "National Taiwan University"
+    is_industry: false
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kuan-Hung Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Cheng-Kun Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Yu-Lun Liu"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
   - name: "Yen-Yu Lin"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
 topics:
   - AI & Machine Learning
@@ -25,7 +25,6 @@ topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://corrfill.github.io/"
 abstract: "In the task of reference-based image inpainting, an additional reference image is provided to restore a damaged target image to its original state. The advancement of diffusion models, particularly Stable Diffusion, allows for simple formulations in this task. However, existing diffusion-based metho"
 url: "https://research.nvidia.com/publication/2025-02_corrfill-enhancing-faithfulness-reference-based-inpainting-correspondence"
-status: new
+status: "new"
 ---
 
 # CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models

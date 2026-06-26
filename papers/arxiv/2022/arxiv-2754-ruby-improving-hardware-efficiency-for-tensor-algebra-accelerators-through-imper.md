@@ -1,9 +1,15 @@
 ---
-id: arxiv-2754
+id: "arxiv-2754"
 title: "Ruby: Improving Hardware Efficiency for Tensor Algebra Accelerators Through Imperfect Factorization"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Mark Horeni"
+    affiliation: "University of Notre Dame"
+    is_industry: false
+  - name: "Pooria Taheri"
+    affiliation: "University of Notre Dame"
+    is_industry: false
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,18 +19,11 @@ authors:
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Horeni"
-    affiliation: ""
-    is_industry: false
-  - name: "Pooria Taheri"
-    affiliation: ""
-    is_industry: false
   - name: "Siddharth Joshi"
-    affiliation: ""
+    affiliation: "University of Notre Dame"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9804679"
 abstract: "Finding high-quality mappings of Deep Neural Network (DNN) models onto tensor accelerators is critical for efficiency. State-of-the-art mapping exploration tools use remainderless (i.e., perfect) factorization to allocate hardware resources, through tiling the tensors, based on factors of tensor dim"
 url: "https://research.nvidia.com/publication/2022-06_ruby-improving-hardware-efficiency-tensor-algebra-accelerators-through"
-status: new
+status: "new"
 ---
 
 # Ruby: Improving Hardware Efficiency for Tensor Algebra Accelerators Through Imperfect Factorization

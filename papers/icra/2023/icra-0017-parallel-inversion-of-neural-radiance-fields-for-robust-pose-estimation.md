@@ -1,9 +1,12 @@
 ---
-id: icra-0017
+id: "icra-0017"
 title: "Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Yunzhi Lin"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,23 +19,19 @@ authors:
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alex Evans"
+    affiliation: "Midjourney"
+    is_industry: false
+  - name: "Patricio A. Vela"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yunzhi Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
-  - name: "Patricio A. Vela"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=QNsiPk6zqmU"
 abstract: "We present a parallelized optimization method based on fast Neural Radiance Fields (NeRF) for estimating 6-DoF target poses. Given a single observed RGB image of the target, we can predict the translation and rotation of the camera by minimizing the residual between pixels rendered from a fastNeRF m"
 url: "https://research.nvidia.com/publication/2023-05_parallel-inversion-neural-radiance-fields-robust-pose-estimation"
-status: new
+status: "new"
 ---
 
 # Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation

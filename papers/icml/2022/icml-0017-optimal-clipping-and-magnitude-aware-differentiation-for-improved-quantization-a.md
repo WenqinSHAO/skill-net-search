@@ -1,8 +1,8 @@
 ---
-id: icml-0017
+id: "icml-0017"
 title: "Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training"
-conference: ICML 2022
-date: 2022-07
+conference: "ICML 2022"
+date: "2022-07"
 authors:
   - name: "Charbel Sakr"
     affiliation: "NVIDIA"
@@ -25,7 +25,6 @@ authors:
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Data clipping is crucial in reducing noise in quantization operations and improving the achievable accuracy of quantization-aware training (QAT). Current practices rely on heuristics to set clipping threshold scalars and cannot be shown to be optimal. We propose Optimally Clipped Tensors And Vectors"
 url: "https://research.nvidia.com/publication/2022-07_optimal-clipping-and-magnitude-aware-differentiation-improved-quantization"
-status: new
+status: "new"
 ---
 
 # Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training

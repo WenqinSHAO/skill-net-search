@@ -1,10 +1,16 @@
 ---
-id: arxiv-2946
+id: "arxiv-2946"
 title: "Contextual Reinforcement Learning of Visuo-tactile Multi-fingered Grasping Policies"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Visak Kumar"
+    affiliation: "NVIDIA, Georgia Tech"
+    is_industry: true
   - name: "Tucker Hermans"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
@@ -13,15 +19,8 @@ authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Visak Kumar"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/1911.09233"
 abstract: "Using simulation to train robot manipulation policies holds the promise of an almost unlimited amount of training data, generated safely out of harm's way. One of the key challenges of using simulation, to date, has been to bridge the reality gap, so that policies trained in simulation can be deploy"
 url: "https://research.nvidia.com/publication/2020-11_contextual-reinforcement-learning-visuo-tactile-multi-fingered-grasping"
-status: new
+status: "new"
 ---
 
 # Contextual Reinforcement Learning of Visuo-tactile Multi-fingered Grasping Policies

@@ -1,39 +1,38 @@
 ---
-id: cvpr-0009
+id: "cvpr-0009"
 title: "Coherent 3D Portrait Video Reconstruction via Triplane Fusion"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Shengze Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xueting Li"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chao Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Henry Fuchs"
+    affiliation: "UNC Chapel Hill"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shengze Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Henry Fuchs"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
     url: "https://arxiv.org/abs/2412.08684"
 abstract: "Recent breakthroughs in single-image 3D portrait reconstruction have enabled telepresence systems to stream 3D portrait videos from a single camera in real-time, democratizing telepresence. However, per-frame 3D reconstruction exhibits temporal inconsistency and forgets the user’s appearance. On the"
 url: "https://research.nvidia.com/publication/2025-06_coherent-3d-portrait-video-reconstruction-triplane-fusion"
-status: new
+status: "new"
 ---
 
 # Coherent 3D Portrait Video Reconstruction via Triplane Fusion

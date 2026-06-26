@@ -1,31 +1,30 @@
 ---
-id: arxiv-2836
+id: "arxiv-2836"
 title: "EMOGI: Efficient Memory-access for Out-of-memory Graph-traversal in GPUs"
-conference: arXiv 2021
-date: 2021-08
+conference: "arXiv 2021"
+date: "2021-08"
 authors:
   - name: "Seung Won Min"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Vikram Sharma Mailthody"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Zaid Qureshi"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Jinjun Xiong"
-    affiliation: ""
+    affiliation: "ITM T.J. Watson Research Center"
     is_industry: false
   - name: "Eiman Ebrahimi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wen-mei Hwu"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
 topics:
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.14778/3425879.3425883"
 abstract: "Modern analytics and recommendation systems are increasingly based on graph data that capture the relations between entities being analyzed. Practical graphs come in huge sizes, offer massive parallelism, and are stored in sparse-matrix formats such as compressed sparse row (CSR). To exploit the mas"
 url: "https://research.nvidia.com/publication/2021-08_emogi-efficient-memory-access-out-memory-graph-traversal-gpus"
-status: new
+status: "new"
 ---
 
 # EMOGI: Efficient Memory-access for Out-of-memory Graph-traversal in GPUs

@@ -1,23 +1,22 @@
 ---
-id: neurips-0038
+id: "neurips-0038"
 title: "GENIE: Higher-Order Denoising Diffusion Solvers"
-conference: NeurIPS 2022
-date: 2022-11
+conference: "NeurIPS 2022"
+date: "2022-11"
 authors:
+  - name: "Tim Dockhorn"
+    affiliation: "NVIDIA, University of Waterloo, Vector Institute"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tim Dockhorn"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/GENIE/"
 abstract: "Denoising diffusion models (DDMs) have emerged as a powerful class of generative models. A forward diffusion process slowly perturbs the data, while a deep model learns to gradually denoise. Synthesis amounts to solving a differential equation (DE) defined by the learnt model. Solving the DE require"
 url: "https://research.nvidia.com/publication/2022-11_genie-higher-order-denoising-diffusion-solvers"
-status: new
+status: "new"
 ---
 
 # GENIE: Higher-Order Denoising Diffusion Solvers

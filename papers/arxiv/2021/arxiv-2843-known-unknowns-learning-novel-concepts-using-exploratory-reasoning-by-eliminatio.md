@@ -1,9 +1,12 @@
 ---
-id: arxiv-2843
+id: "arxiv-2843"
 title: "Known unknowns: Learning novel concepts using exploratory reasoning-by-elimination"
-conference: arXiv 2021
-date: 2021-07
+conference: "arXiv 2021"
+date: "2021-07"
 authors:
+  - name: "Harsh Agrawal"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Eli Meirom"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,13 +19,9 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Harsh Agrawal"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://proceedings.mlr.press/v161/agrawal21a.html"
 abstract: "People can learn new visual concepts without any samples, from information given by language or by deductive reasoning. For instance, people can use&nbsp;elimination&nbsp;to infer the meaning of novel labels from their context. While recognizing novel concepts was intensively studied in zero-shot le"
 url: "https://research.nvidia.com/publication/2021-07_known-unknowns-learning-novel-concepts-using-exploratory-reasoning-elimination"
-status: new
+status: "new"
 ---
 
 # Known unknowns: Learning novel concepts using exploratory reasoning-by-elimination

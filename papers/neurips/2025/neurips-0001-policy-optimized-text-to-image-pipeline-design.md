@@ -1,28 +1,27 @@
 ---
-id: neurips-0001
+id: "neurips-0001"
 title: "Policy Optimized Text-to-Image Pipeline Design"
-conference: NeurIPS 2025
-date: 2025-12
+conference: "NeurIPS 2025"
+date: "2025-12"
 authors:
+  - name: "Uri Gadot"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yftah Zisser"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Uri Gadot"
-    affiliation: ""
-    is_industry: false
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Yftah Zisser"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2505.21478"
 abstract: "Text-to-image generation has evolved beyond single monolithic models to complex multi-component pipelines. These combine fine-tuned generators, adapters, upscaling blocks and even editing steps, leading to significant improvements in image quality. However, their effective design requires substantia"
 url: "https://research.nvidia.com/publication/2025-12_policy-optimized-text-image-pipeline-design"
-status: new
+status: "new"
 ---
 
 # Policy Optimized Text-to-Image Pipeline Design

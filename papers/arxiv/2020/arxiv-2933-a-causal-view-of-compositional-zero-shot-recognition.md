@@ -1,25 +1,24 @@
 ---
-id: arxiv-2933
+id: "arxiv-2933"
 title: "A Causal View of Compositional Zero-Shot Recognition"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Felix Kreuk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Uri Shalit"
+    affiliation: "Technion - Israel Institute of Technology"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Felix Kreuk"
-    affiliation: ""
-    is_industry: false
-  - name: "Uri Shalit"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2006.14610"
 abstract: "People easily recognize new visual categories that are new combinations of known components. This compositional generalization capacity is critical for learning in real-world domains like vision and language because the long tail of new combinations dominates the distribution. Unfortunately, learnin"
 url: "https://research.nvidia.com/publication/2020-12_causal-view-compositional-zero-shot-recognition"
-status: new
+status: "new"
 ---
 
 # A Causal View of Compositional Zero-Shot Recognition

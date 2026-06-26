@@ -1,26 +1,25 @@
 ---
-id: siggraph-0003
+id: "siggraph-0003"
 title: "Assessing Learned Models for Phase-only Hologram Compression"
-conference: SIGGRAPH 2025
-date: 2025-08
+conference: "SIGGRAPH 2025"
+date: "2025-08"
 authors:
+  - name: "Zicong Peng"
+    affiliation: "University College London"
+    is_industry: false
+  - name: "Yicheng Zhan"
+    affiliation: "University College London"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zicong Peng"
-    affiliation: ""
-    is_industry: false
-  - name: "Yicheng Zhan"
-    affiliation: ""
-    is_industry: false
   - name: "Kaan Akşit"
-    affiliation: ""
+    affiliation: "University College London"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://doi.org/10.1145/3721250.3742993"
 abstract: "We evaluate the performance of four common learned models utilizing INR and VAE structures for compressing phase-only holograms in holographic displays. The evaluated models include a vanilla MLP, SIREN [Sitzmann et&nbsp;al. 2020], and FilmSIREN [Chan et&nbsp;al. 2021], with TAESD [Bohan 2023] as th"
 url: "https://research.nvidia.com/publication/2025-08_assessing-learned-models-phase-only-hologram-compression"
-status: new
+status: "new"
 ---
 
 # Assessing Learned Models for Phase-only Hologram Compression

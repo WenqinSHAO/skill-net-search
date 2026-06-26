@@ -1,10 +1,13 @@
 ---
-id: arxiv-2886
+id: "arxiv-2886"
 title: "GPU Domain Specialization via Composable On-Package Architecture"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Yaosheng Fu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Evgeny Bolotin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Niladrish Chatterjee"
@@ -16,12 +19,8 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Evgeny Bolotin"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Architecture"
 abstract: "As GPUs scale their low precision matrix math throughput to boost deep learning (DL) performance, they upset the balance between math throughput and memory system capabilities. We demonstrate that converged GPU design trying to address diverging architectural requirements between FP32 (or larger) ba"
 url: "https://research.nvidia.com/publication/2021-04_gpu-domain-specialization-composable-package-architecture"
-status: new
+status: "new"
 ---
 
 # GPU Domain Specialization via Composable On-Package Architecture

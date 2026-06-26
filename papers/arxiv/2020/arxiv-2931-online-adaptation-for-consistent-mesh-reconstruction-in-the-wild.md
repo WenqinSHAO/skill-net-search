@@ -1,35 +1,34 @@
 ---
-id: arxiv-2931
+id: "arxiv-2931"
 title: "Online Adaptation for Consistent Mesh Reconstruction in the Wild"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Xueting Li"
+    affiliation: "UC Merced"
+    is_industry: false
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kihwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaolong Wang"
+    affiliation: "UC San Diego"
+    is_industry: false
+  - name: "Ming-Hsuan Yang"
+    affiliation: "UC Merced"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xueting Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ming-Hsuan Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://arxiv.org/abs/2012.03196"
 abstract: "This paper presents an algorithm to reconstruct temporally consistent 3D meshes of deformable object instances from videos in the wild. Without requiring annotations of 3D mesh, 2D keypoints, or camera pose for each video frame, we pose video-based reconstruction as a self-supervised online adaptati"
 url: "https://research.nvidia.com/publication/2020-12_online-adaptation-consistent-mesh-reconstruction-wild"
-status: new
+status: "new"
 ---
 
 # Online Adaptation for Consistent Mesh Reconstruction in the Wild

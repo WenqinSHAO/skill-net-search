@@ -1,30 +1,29 @@
 ---
-id: neurips-0007
+id: "neurips-0007"
 title: "Attention on the Sphere"
-conference: NeurIPS 2025
-date: 2025-11
+conference: "NeurIPS 2025"
+date: "2025-11"
 authors:
   - name: "Boris Bonev"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Max Rietmann"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Andrea Paris"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alberto Carpentieri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Thorsten Kurth"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2505.11157"
 abstract: "We introduce a generalized attention mechanism for spherical domains, enabling Transformer architectures to natively process data defined on the two-dimensional sphere - a critical need in fields such as atmospheric physics, cosmology, and robotics, where preserving spherical symmetries and topology"
 url: "https://research.nvidia.com/publication/2025-11_attention-sphere"
-status: new
+status: "new"
 ---
 
 # Attention on the Sphere

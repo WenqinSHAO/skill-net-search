@@ -1,31 +1,30 @@
 ---
-id: arxiv-2701
+id: "arxiv-2701"
 title: "Structural Pruning via Latency-Saliency Knapsack"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
+  - name: "Maying Shen"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Maying Shen"
-    affiliation: ""
-    is_industry: false
   - name: "Lei Mao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jianna Liu"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - CUDA_ecosystem
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Structural pruning can simplify network architecture and improve inference speed. We propose Hardware-Aware Latency Pruning (HALP) that formulates structural pruning as a global resource allocation optimization problem, aiming at maximizing the accuracy while constraining latency under a predefined "
 url: "https://research.nvidia.com/publication/2022-11_structural-pruning-latency-saliency-knapsack"
-status: new
+status: "new"
 ---
 
 # Structural Pruning via Latency-Saliency Knapsack

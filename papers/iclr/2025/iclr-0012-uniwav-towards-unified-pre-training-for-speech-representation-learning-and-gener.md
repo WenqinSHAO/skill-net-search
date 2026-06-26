@@ -1,33 +1,32 @@
 ---
-id: iclr-0012
+id: "iclr-0012"
 title: "UniWav: Towards Unified Pre-training for Speech Representation Learning and Generation"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Alexander H. Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sang-gil Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yuan Gong"
+    affiliation: "XAI"
+    is_industry: false
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alexander H. Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Sang-gil Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuan Gong"
-    affiliation: ""
-    is_industry: false
   - name: "James R. Glas"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Rafael Valle"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "Speech Processing"
 abstract: "Pre-training and representation learning have been playing an increasingly important role in modern speech processing. Nevertheless, different applications have been relying on different foundation models, since predominant pre-training techniques are either designed for discriminative tasks or gene"
 url: "https://research.nvidia.com/publication/2025-04_uniwav-towards-unified-pre-training-speech-representation-learning-and"
-status: new
+status: "new"
 ---
 
 # UniWav: Towards Unified Pre-training for Speech Representation Learning and Generation

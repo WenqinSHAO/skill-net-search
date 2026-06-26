@@ -1,13 +1,31 @@
 ---
-id: cvpr-0041
+id: "cvpr-0041"
 title: "Magic3D: High-Resolution Text-to-3D Content Creation"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
   - name: "Chen-Hsuan Lin"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jun Gao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Luming Tang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Towaki Takikawa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaohui Zeng"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xun Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sanja Fidler"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ming-Yu Liu"
@@ -16,30 +34,11 @@ authors:
   - name: "Tsung-Yi Lin"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
-  - name: "Luming Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Towaki Takikawa"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
-  - name: "Xun Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -53,7 +52,7 @@ external_links:
     url: "https://research.nvidia.com/labs/dir/magic3d"
 abstract: "DreamFusion has recently demonstrated the utility of a pre-trained text-to-image diffusion model to optimize Neural Radiance Fields (NeRF), achieving remarkable text-to-3D synthesis results. However, the method has two inherent limitations: (a) extremely slow optimization of NeRF and (b) low-resolut"
 url: "https://research.nvidia.com/publication/2023-06_magic3d-high-resolution-text-3d-content-creation"
-status: new
+status: "new"
 ---
 
 # Magic3D: High-Resolution Text-to-3D Content Creation

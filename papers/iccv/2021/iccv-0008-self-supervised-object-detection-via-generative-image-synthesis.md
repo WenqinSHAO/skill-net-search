@@ -1,10 +1,16 @@
 ---
-id: iccv-0008
+id: "iccv-0008"
 title: "Self-Supervised Object Detection via Generative Image Synthesis"
-conference: ICCV 2021
-date: 2021-10
+conference: "ICCV 2021"
+date: "2021-10"
 authors:
+  - name: "Siva Karthik Mustikovela"
+    affiliation: "University of Heidelberg"
+    is_industry: false
   - name: "Shalini De Mello"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Aayush Prakash"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Umar Iqbal"
@@ -13,24 +19,17 @@ authors:
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Thu Nguyen-Phuoc"
+    affiliation: "University of Bath"
+    is_industry: false
+  - name: "Carsten Rother"
+    affiliation: "University of Heidelberg"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Siva Karthik Mustikovela"
-    affiliation: ""
-    is_industry: false
-  - name: "Aayush Prakash"
-    affiliation: ""
-    is_industry: false
-  - name: "Thu Nguyen-Phuoc"
-    affiliation: ""
-    is_industry: false
-  - name: "Carsten Rother"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We present SSOD – the first end-to-end analysis-by-synthesis framework with controllable GANs for the task of self-supervised object detection. We use collections of real-world images without bounding box annotations to learn to synthesize and detect objects. We leverage controllable GANs to synthes"
 url: "https://research.nvidia.com/publication/2021-10_self-supervised-object-detection-generative-image-synthesis"
-status: new
+status: "new"
 ---
 
 # Self-Supervised Object Detection via Generative Image Synthesis

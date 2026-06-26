@@ -1,21 +1,20 @@
 ---
-id: arxiv-2784
+id: "arxiv-2784"
 title: "Shallow Fusion of Weighted Finite-State Transducer and Language Model for Text Normalization"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ external_links:
     url: "https://arxiv.org/abs/2203.15917"
 abstract: "Text normalization (TN) systems in production are largely rule-based using weighted finite-state transducers (WFST). However, WFST-based systems struggle with ambiguous input when the normalized form is context-dependent. On the other hand, neural text normalization systems can take context into acc"
 url: "https://research.nvidia.com/publication/2022-03_shallow-fusion-weighted-finite-state-transducer-and-language-model-text"
-status: new
+status: "new"
 ---
 
 # Shallow Fusion of Weighted Finite-State Transducer and Language Model for Text Normalization

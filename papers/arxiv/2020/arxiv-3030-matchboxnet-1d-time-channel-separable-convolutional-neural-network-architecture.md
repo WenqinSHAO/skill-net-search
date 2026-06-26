@@ -1,18 +1,17 @@
 ---
-id: arxiv-3030
+id: "arxiv-3030"
 title: "MatchboxNet - 1D Time-Channel Separable Convolutional Neural Network Architecture for Speech Commands Recognition"
-conference: arXiv 2020
-date: 2020-04
+conference: "arXiv 2020"
+date: "2020-04"
 authors:
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ external_links:
     url: "https://arxiv.org/abs/2004.08531"
 abstract: "We present an MatchboxNet - an end-to-end neural network for speech command recognition. MatchboxNet is a deep residual network composed from blocks of 1D time-channel separable convolution, batch-normalization, ReLU and dropout layers. MatchboxNet reaches state-of-the-art accuracy on the Google Spe"
 url: "https://research.nvidia.com/publication/2020-04_matchboxnet-1d-time-channel-separable-convolutional-neural-network-architecture"
-status: new
+status: "new"
 ---
 
 # MatchboxNet - 1D Time-Channel Separable Convolutional Neural Network Architecture for Speech Commands Recognition

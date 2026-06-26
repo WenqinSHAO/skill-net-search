@@ -1,27 +1,26 @@
 ---
-id: arxiv-2914
+id: "arxiv-2914"
 title: "Transferable Task Execution from Pixels through Deep Planning Domain Learning"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
   - name: "Kei Kase"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Waseda University"
+    is_industry: true
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hammad Mazhar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tetsuya Ogata"
-    affiliation: ""
+    affiliation: "Waseda University"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Robotics"
 abstract: "&nbsp;While robots can learn models to solve many manipulation tasks from raw visual input, they cannot usually use these models to solve new problems. On the other hand, symbolic planning methods such as STRIPS have long been able to solve new problems given only a domain definition and a symbolic "
 url: "https://research.nvidia.com/publication/2021-02_transferable-task-execution-pixels-through-deep-planning-domain-learning"
-status: new
+status: "new"
 ---
 
 # Transferable Task Execution from Pixels through Deep Planning Domain Learning

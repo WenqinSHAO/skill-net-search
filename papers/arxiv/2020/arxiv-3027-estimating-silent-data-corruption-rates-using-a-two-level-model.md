@@ -1,16 +1,31 @@
 ---
-id: arxiv-3027
+id: "arxiv-3027"
 title: "Estimating Silent Data Corruption Rates Using a Two-Level Model"
-conference: arXiv 2020
-date: 2020-04
+conference: "arXiv 2020"
+date: "2020-04"
 authors:
   - name: "Siva Hari"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Paolo Rech"
+    affiliation: "Federal University of Rio Grande do Sul"
+    is_industry: false
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mark Stephenson"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Arslan Zulfiqar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael B. Sullivan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Philip Shirvani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Paul Racunas"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Joel Emer"
@@ -19,25 +34,9 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Paolo Rech"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
-  - name: "Arslan Zulfiqar"
-    affiliation: ""
-    is_industry: false
-  - name: "Philip Shirvani"
-    affiliation: ""
-    is_industry: false
-  - name: "Paul Racunas"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ research_areas:
   - "Resilience and Safety"
 abstract: "High-performance and safety-critical system architects must accurately evaluate the application-level silent data corruption (SDC) rates of processors to soft errors. Such an evaluation requires error propagation all the way from particle strikes on low-level state up to the program output. Existing"
 url: "https://research.nvidia.com/publication/2020-04_estimating-silent-data-corruption-rates-using-two-level-model"
-status: new
+status: "new"
 ---
 
 # Estimating Silent Data Corruption Rates Using a Two-Level Model

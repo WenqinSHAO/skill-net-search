@@ -1,32 +1,31 @@
 ---
-id: siggraph-0062
+id: "siggraph-0062"
 title: "MatBuilder: Mastering Sampling Uniformity Over Projections"
-conference: SIGGRAPH 2022
-date: 2022-05
+conference: "SIGGRAPH 2022"
+date: "2022-05"
 authors:
+  - name: "Loïs Paulin"
+    affiliation: "Université de Lyon, UCBL, CNRS, INSA Lyon, LIRIS, France"
+    is_industry: false
+  - name: "Nicolas Bonneel"
+    affiliation: "Université de Lyon, CNRS, INSA Lyon, UCBL, LIRIS, France"
+    is_industry: false
+  - name: "David Coeurjolly"
+    affiliation: "Université de Lyon, CNRS, INSA Lyon, UCBL, LIRIS, France"
+    is_industry: false
+  - name: "Jean-Claude Iehl"
+    affiliation: "Université de Lyon, UCBL, CNRS, INSA Lyon, LIRIS, France"
+    is_industry: false
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Loïs Paulin"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicolas Bonneel"
-    affiliation: ""
-    is_industry: false
-  - name: "David Coeurjolly"
-    affiliation: ""
-    is_industry: false
-  - name: "Jean-Claude Iehl"
-    affiliation: ""
-    is_industry: false
   - name: "Victor Ostromoukhov"
-    affiliation: ""
+    affiliation: "Université de Lyon, UCBL, CNRS, INSA Lyon, LIRIS, France"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://projet.liris.cnrs.fr/matbuilder/"
 abstract: "Many applications ranging from quasi-Monte Carlo integration over optimal control to neural networks benefit from high-dimensional, highly uniform samples.&nbsp;In the case of computer graphics,&nbsp; and more particularly in rendering, despite the need for uniformity, several sub-problems expose a "
 url: "https://research.nvidia.com/publication/2022-05_matbuilder-mastering-sampling-uniformity-over-projections"
-status: new
+status: "new"
 ---
 
 # MatBuilder: Mastering Sampling Uniformity Over Projections

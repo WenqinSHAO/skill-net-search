@@ -1,26 +1,25 @@
 ---
-id: arxiv-2961
+id: "arxiv-2961"
 title: "Locality-Centric Data and Threadblock Management for Massive GPUs"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Mahmoud Khairy"
+    affiliation: "Purdue University"
+    is_industry: false
+  - name: "Vadim Nikiforov"
+    affiliation: "Purdue University"
+    is_industry: false
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mahmoud Khairy"
-    affiliation: ""
-    is_industry: false
-  - name: "Vadim Nikiforov"
-    affiliation: ""
-    is_industry: false
   - name: "Timothy G. Rogers"
-    affiliation: ""
+    affiliation: "Purdue University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9251964"
 abstract: "Recent work has shown that building GPUs with hundreds of SMs in a single monolithic chip will not be practical due to slowing growth in transistor density, low chip yields, and photoreticle limitations. To maintain performance scalability, proposals exist to aggregate discrete GPUs into a larger vi"
 url: "https://research.nvidia.com/publication/2020-10_locality-centric-data-and-threadblock-management-massive-gpus"
-status: new
+status: "new"
 ---
 
 # Locality-Centric Data and Threadblock Management for Massive GPUs

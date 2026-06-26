@@ -1,8 +1,8 @@
 ---
-id: cvpr-0042
+id: "cvpr-0042"
 title: "The Best Defense is a Good Offense: Adversarial Augmentation against Adversarial Attacks"
-conference: CVPR 2023
-date: 2023-05
+conference: "CVPR 2023"
+date: "2023-05"
 authors:
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
@@ -13,7 +13,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,9 +26,9 @@ external_links:
     url: "https://github.com/NVlabs/A5"
   - name: "Arxiv paper"
     url: "https://arxiv.org/abs/2305.14188"
-abstract: "Many defenses against adversarial attacks (\eg robust classifiers, randomization, or image purification) use countermeasures put to work only after the attack has been crafted. We adopt a different perspective to introduce A5 (Adversarial Augmentation Against Adversarial Attacks), a novel framework "
+abstract: "Many defenses against adversarial attacks (\\eg robust classifiers, randomization, or image purification) use countermeasures put to work only after the attack has been crafted. We adopt a different perspective to introduce A5 (Adversarial Augmentation Against Adversarial Attacks), a novel framework "
 url: "https://research.nvidia.com/publication/2023-05_best-defense-good-offense-adversarial-augmentation-against-adversarial-attacks"
-status: new
+status: "new"
 ---
 
 # The Best Defense is a Good Offense: Adversarial Augmentation against Adversarial Attacks

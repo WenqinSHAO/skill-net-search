@@ -1,8 +1,8 @@
 ---
-id: cvpr-0010
+id: "cvpr-0010"
 title: "SimAvatar: Simulation-Ready Clothed Gaussian Avatars from Text"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
   - name: "Xueting Li"
     affiliation: "NVIDIA"
@@ -13,26 +13,25 @@ authors:
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Gilles Daviet"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jonathan Leaf"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Miles Macklin"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Gilles Daviet"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonathan Leaf"
-    affiliation: ""
-    is_industry: false
-  - name: "Miles Macklin"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=qEwBY7LBW2Y"
 abstract: "We introduce SimAvatar, a framework designed to generate simulation-ready clothed 3D human avatars from a text prompt. Current text-driven human avatar generation methods either model hair, clothing, and the human body using a unified geometry or produce hair and garments that are not easily adaptab"
 url: "https://research.nvidia.com/publication/2025-06_simavatar-simulation-ready-clothed-gaussian-avatars-text"
-status: new
+status: "new"
 ---
 
 # SimAvatar: Simulation-Ready Clothed Gaussian Avatars from Text

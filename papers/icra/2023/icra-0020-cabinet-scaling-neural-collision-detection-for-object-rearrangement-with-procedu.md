@@ -1,28 +1,27 @@
 ---
-id: icra-0020
+id: "icra-0020"
 title: "CabiNet: Scaling Neural Collision Detection for Object Rearrangement with Procedural Scene Generation"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
   - name: "Adithya Murali"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Adam Fishman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://cabinet-object-rearrangement.github.io/"
 abstract: "We address the important problem of generalizing robotic rearrangement to clutter without any explicit object models. We first generate over 650K cluttered scenes— orders of magnitude more than prior work—in diverse everyday environments, such as cabinets and shelves. We render synthetic partial poi"
 url: "https://research.nvidia.com/publication/2023-05_cabinet-scaling-neural-collision-detection-object-rearrangement-procedural"
-status: new
+status: "new"
 ---
 
 # CabiNet: Scaling Neural Collision Detection for Object Rearrangement with Procedural Scene Generation

@@ -1,23 +1,22 @@
 ---
-id: arxiv-2596
+id: "arxiv-2596"
 title: "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool"
-conference: arXiv 2024
-date: 2024-08
+conference: "arXiv 2024"
+date: "2024-08"
 authors:
   - name: "Chia-Tung (Mark) Ho"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ research_areas:
   - "Generative AI"
 abstract: "Due to the growing complexity of modern Integrated Circuits (ICs), automating hardware design can prevent a significant amount of human error from the engineering process and result in less errors. Verilog is a popular hardware description language for designing and modeling digital systems; thus, V"
 url: "https://research.nvidia.com/publication/2024-08_verilogcoder-autonomous-verilog-coding-agents-graph-based-planning-and-abstract"
-status: new
+status: "new"
 ---
 
 # VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool

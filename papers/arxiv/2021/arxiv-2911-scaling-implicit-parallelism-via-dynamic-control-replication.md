@@ -1,43 +1,42 @@
 ---
-id: arxiv-2911
+id: "arxiv-2911"
 title: "Scaling Implicit Parallelism via Dynamic Control Replication"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
   - name: "Michael Bauer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Wonchan Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Elliott Slaughter"
+    affiliation: "SLAC National Accelerator Laboratory"
+    is_industry: false
+  - name: "Zhihao Jia"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Mario Di Renzo"
+    affiliation: "Sapienza University of Rome"
+    is_industry: false
+  - name: "Manolis Papadakis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Galen Shipman"
+    affiliation: "Los Alamos National Laboratory"
+    is_industry: false
+  - name: "Patrick McCormick"
+    affiliation: "Los Alamos National Laboratory"
+    is_industry: false
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Wonchan Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Elliott Slaughter"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhihao Jia"
-    affiliation: ""
-    is_industry: false
-  - name: "Mario Di Renzo"
-    affiliation: ""
-    is_industry: false
-  - name: "Manolis Papadakis"
-    affiliation: ""
-    is_industry: false
-  - name: "Galen Shipman"
-    affiliation: ""
-    is_industry: false
-  - name: "Patrick McCormick"
-    affiliation: ""
-    is_industry: false
   - name: "Alex Aiken"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ external_links:
     url: "https://gitlab.com/StanfordLegion/legion"
 abstract: "We present dynamic control replication, a run-time program analysis that enables scalable execution of implicitly parallel programs on large machines through a distributed and efficient dynamic dependence analysis. Dynamic control replication distributes dependence analysis by executing multiple cop"
 url: "https://research.nvidia.com/publication/2021-02_scaling-implicit-parallelism-dynamic-control-replication"
-status: new
+status: "new"
 ---
 
 # Scaling Implicit Parallelism via Dynamic Control Replication

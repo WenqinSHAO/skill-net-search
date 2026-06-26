@@ -1,40 +1,39 @@
 ---
-id: arxiv-2618
+id: "arxiv-2618"
 title: "Learning to Compare Hardware Designs for High-Level Synthesis"
-conference: arXiv 2024
-date: 2024-05
+conference: "arXiv 2024"
+date: "2024-05"
 authors:
   - name: "Yunsheng Bai"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Atefeh Sohrabizadeh"
+    affiliation: "UCLA"
+    is_industry: false
+  - name: "Zijian Ding"
+    affiliation: "UCLA"
+    is_industry: false
   - name: "Rongjian Liang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Atefeh Sohrabizadeh"
-    affiliation: ""
-    is_industry: false
-  - name: "Zijian Ding"
-    affiliation: ""
-    is_industry: false
   - name: "Weikai Li"
-    affiliation: ""
+    affiliation: "UCLA"
     is_industry: false
   - name: "Ding Wang"
-    affiliation: ""
+    affiliation: "UCLA"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yizhou Sun"
-    affiliation: ""
+    affiliation: "UCLA"
     is_industry: false
   - name: "Jason Cong"
-    affiliation: ""
+    affiliation: "UCLA"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://arxiv.org/abs/2409.13138"
 abstract: "High-level synthesis (HLS) is an automated design process that transforms high-level code into optimized hardware designs, enabling the rapid development of efficient hardware accelerators for various applications such as image processing, machine learning, and signal processing. To achieve optimal "
 url: "https://research.nvidia.com/publication/2024-05_learning-compare-hardware-designs-high-level-synthesis"
-status: new
+status: "new"
 ---
 
 # Learning to Compare Hardware Designs for High-Level Synthesis

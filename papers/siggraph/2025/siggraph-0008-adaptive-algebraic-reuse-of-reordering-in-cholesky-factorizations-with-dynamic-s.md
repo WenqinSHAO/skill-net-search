@@ -1,26 +1,25 @@
 ---
-id: siggraph-0008
+id: "siggraph-0008"
 title: "Adaptive Algebraic Reuse of Reordering in Cholesky Factorizations with Dynamic Sparsity Patterns"
-conference: SIGGRAPH 2025
-date: 2025-06
+conference: "SIGGRAPH 2025"
+date: "2025-06"
 authors:
+  - name: "Behrooz Zarebavani"
+    affiliation: "University of Toronto"
+    is_industry: false
+  - name: "Danny Kaufman"
+    affiliation: "Adobe Research"
+    is_industry: true
+  - name: "David Levin"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maryam Mehri Dehnavi"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Behrooz Zarebavani"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Kaufman"
-    affiliation: ""
-    is_industry: false
-  - name: "David Levin"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "We introduce Parth, a fill-reducing ordering method for sparse Cholesky solvers with dynamic sparsity patterns (e.g., in physics simulations with contact or geometry processing with local remeshing). Parth facilitates the selective reuse of fill-reducing orderings when sparsity patterns exhibit temp"
 url: "https://research.nvidia.com/publication/2025-06_adaptive-algebraic-reuse-reordering-cholesky-factorizations-dynamic-sparsity"
-status: new
+status: "new"
 ---
 
 # Adaptive Algebraic Reuse of Reordering in Cholesky Factorizations with Dynamic Sparsity Patterns

@@ -1,9 +1,12 @@
 ---
-id: arxiv-2564
+id: "arxiv-2564"
 title: "Pushing the Limits? Frame Rate Benefits to Players for up to 500 Hz in First Person Shooter Games"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "Worcester Polytechnic Institute"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,16 +16,12 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "Worcester Polytechnic Institutute"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "VR, AR and Display Technology"
 abstract: "Computer games -- and computer game players -- often drive technology improvements, with graphics cards and monitors pushing the limits of display technologies. High frame rates, in particular, promise to provide lower latencies and smoother game visuals to gamers, especially important for competiti"
 url: "https://research.nvidia.com/publication/2025-03_pushing-limits-frame-rate-benefits-players-500-hz-first-person-shooter-games"
-status: new
+status: "new"
 ---
 
 # Pushing the Limits? Frame Rate Benefits to Players for up to 500 Hz in First Person Shooter Games

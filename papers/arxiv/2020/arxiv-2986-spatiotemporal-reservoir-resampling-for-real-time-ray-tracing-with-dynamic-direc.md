@@ -1,30 +1,29 @@
 ---
-id: arxiv-2986
+id: "arxiv-2986"
 title: "Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Benedikt Bitterli"
+    affiliation: "Dartmouth College"
+    is_industry: false
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Peter Shirley"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Aaron Lefohn"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Benedikt Bitterli"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Shirley"
-    affiliation: ""
-    is_industry: false
   - name: "Wojciech Jarosz"
-    affiliation: ""
+    affiliation: "Dartmouth College"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://research.nvidia.com/labs/rtr/publication/bitterli2020spatiotemporal/sig20_ReSTIR_supplementary.zip"
 abstract: "Efficiently rendering direct lighting from millions of dynamic light sources using Monte Carlo integration remains a challenging problem, even for off-line rendering systems. We introduce a new algorithm—ReSTIR—that renders such lighting interactively, at high quality, and without needing to maintai"
 url: "https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct"
-status: new
+status: "new"
 ---
 
 # Spatiotemporal reservoir resampling for real-time ray tracing with dynamic direct lighting

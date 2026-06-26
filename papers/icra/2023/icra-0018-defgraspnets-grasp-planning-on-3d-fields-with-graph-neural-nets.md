@@ -1,30 +1,29 @@
 ---
-id: icra-0018
+id: "icra-0018"
 title: "DefGraspNets: Grasp Planning on 3D Fields with Graph Neural Nets"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Isabella Huang"
+    affiliation: "University of California, Berkeley"
+    is_industry: false
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ruzena Bajcsy"
+    affiliation: "University of California, Berkeley"
+    is_industry: false
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Isabella Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ruzena Bajcsy"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
   - name: "DefGraspNets Research Website"
     url: "https://sites.google.com/view/defgraspnets"
 url: "https://research.nvidia.com/publication/2023-05_defgraspnets-grasp-planning-3d-fields-graph-neural-nets"
-status: new
+status: "new"
 ---
 
 # DefGraspNets: Grasp Planning on 3D Fields with Graph Neural Nets

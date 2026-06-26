@@ -1,28 +1,27 @@
 ---
-id: iclr-0027
+id: "iclr-0027"
 title: "GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation"
-conference: ICLR 2023
-date: 2023-05
+conference: "ICLR 2023"
+date: "2023-05"
 authors:
+  - name: "Chenhongyi Yang"
+    affiliation: "University of Edinburgh"
+    is_industry: false
+  - name: "Jiarui Xu"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chenhongyi Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiarui Xu"
-    affiliation: ""
-    is_industry: false
   - name: "Elliot J. Crowley"
-    affiliation: ""
+    affiliation: "University of Edinburgh"
     is_industry: false
   - name: "Xiaolong Wang"
-    affiliation: ""
+    affiliation: "University of California at San Diego"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://arxiv.org/abs/2212.06795"
 abstract: "We present the Group Propagation Vision Transformer (GPViT): a novel non- hierarchical (i.e. non-pyramidal) transformer model designed for general visual recognition with high-resolution features. High-resolution features (or tokens) are a natural fit for tasks that involve perceiving fine-grained d"
 url: "https://research.nvidia.com/publication/2023-05_gpvit-high-resolution-non-hierarchical-vision-transformer-group-propagation"
-status: new
+status: "new"
 ---
 
 # GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation

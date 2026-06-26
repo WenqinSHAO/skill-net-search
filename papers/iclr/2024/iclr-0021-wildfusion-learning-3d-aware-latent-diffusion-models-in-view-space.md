@@ -1,32 +1,31 @@
 ---
-id: iclr-0021
+id: "iclr-0021"
 title: "WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space"
-conference: ICLR 2024
-date: 2024-05
+conference: "ICLR 2024"
+date: "2024-05"
 authors:
+  - name: "Katja Schwarz"
+    affiliation: "University of Tuebingen"
+    is_industry: false
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Jun Gao"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Sanja Fidler"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Andreas Geiger"
+    affiliation: "University of Tuebingen"
+    is_industry: false
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Katja Schwarz"
-    affiliation: ""
-    is_industry: false
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
-  - name: "Andreas Geiger"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://katjaschwarz.github.io/wildfusion/"
 abstract: "Modern learning-based approaches to 3D-aware image synthesis achieve high photorealism and 3D-consistent viewpoint changes for the generated images. Existing approaches represent instances in a shared canonical space. However, for in-the-wild datasets a shared canonical system can be difficult to de"
 url: "https://research.nvidia.com/publication/2024-05_wildfusion-learning-3d-aware-latent-diffusion-models-view-space"
-status: new
+status: "new"
 ---
 
 # WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space

@@ -1,18 +1,17 @@
 ---
-id: arxiv-2849
+id: "arxiv-2849"
 title: "Rearchitecting Spatiotemporal Resampling for Production"
-conference: arXiv 2021
-date: 2021-07
+conference: "arXiv 2021"
+date: "2021-07"
 authors:
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alexey Panteleev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
     url: "https://developer.nvidia.com/nvidia-rt-denoiser"
 abstract: "Recent work by Bitterli et al. introduced a real-time, many-light algorithm for rendering dynamic direct illumination from millions of lights by iteratively applying resampled importance sampling using weighted reservoir sampling. While enabling new levels of lighting complexity in real-time, the to"
 url: "https://research.nvidia.com/publication/2021-07_rearchitecting-spatiotemporal-resampling-production"
-status: new
+status: "new"
 ---
 
 # Rearchitecting Spatiotemporal Resampling for Production

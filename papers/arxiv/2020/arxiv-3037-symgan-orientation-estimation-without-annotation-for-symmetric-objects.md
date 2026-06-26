@@ -1,29 +1,28 @@
 ---
-id: arxiv-3037
+id: "arxiv-3037"
 title: "SymGAN: Orientation Estimation without Annotation for Symmetric Objects"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
+  - name: "Phil Ammirato"
+    affiliation: "University of North Carolina at Chapel Hill"
+    is_industry: false
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Phil Ammirato"
-    affiliation: ""
-    is_industry: false
   - name: "Alexander Berg"
-    affiliation: ""
+    affiliation: "University of North Carolina at Chapel Hill"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Computer Vision"
   - "Generative AI"
 url: "https://research.nvidia.com/publication/2020-03_symgan-orientation-estimation-without-annotation-symmetric-objects"
-status: new
+status: "new"
 ---
 
 # SymGAN: Orientation Estimation without Annotation for Symmetric Objects

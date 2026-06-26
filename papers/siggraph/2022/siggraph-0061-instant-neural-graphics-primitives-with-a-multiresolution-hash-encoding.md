@@ -1,27 +1,26 @@
 ---
-id: siggraph-0061
+id: "siggraph-0061"
 title: "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding"
-conference: SIGGRAPH 2022
-date: 2022-07
+conference: "SIGGRAPH 2022"
+date: "2022-07"
 authors:
   - name: "Thomas Müller"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alex Evans"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Christoph Schied"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
-  - name: "Christoph Schied"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://nvlabs.github.io/instant-ngp"
 abstract: "Neural graphics primitives, parameterized by fully connected neural networks, can be costly to train and evaluate.&nbsp;We reduce this cost with a versatile new input encoding that permits the use of a smaller network without sacrificing quality, thus significantly reducing the number of floating po"
 url: "https://research.nvidia.com/publication/2022-07_instant-neural-graphics-primitives-multiresolution-hash-encoding"
-status: new
+status: "new"
 ---
 
 # Instant Neural Graphics Primitives with a Multiresolution Hash Encoding

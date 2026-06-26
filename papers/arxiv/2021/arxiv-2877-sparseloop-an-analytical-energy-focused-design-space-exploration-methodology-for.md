@@ -1,27 +1,26 @@
 ---
-id: arxiv-2877
+id: "arxiv-2877"
 title: "Sparseloop: An Analytical, Energy-Focused Design Space Exploration Methodology for Sparse Tensor Accelerators"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
+  - name: "Yannan Nellie Wu"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Vivienne Sze"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yannan Nellie Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Vivienne Sze"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9408213"
 abstract: "This paper presents Sparseloop, the first infrastructure that implements an analytical design space exploration methodology for sparse tensor accelerators. Sparseloop comprehends a wide set of architecture specifications including various sparse optimization features such as compressed tensor storag"
 url: "https://research.nvidia.com/publication/2021-04_sparseloop-analytical-energy-focused-design-space-exploration-methodology"
-status: new
+status: "new"
 ---
 
 # Sparseloop: An Analytical, Energy-Focused Design Space Exploration Methodology for Sparse Tensor Accelerators

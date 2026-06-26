@@ -15,6 +15,7 @@ import sys
 import hashlib
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import unquote
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 INDEX_PATH = REPO_ROOT / "index" / "all_papers.json"
@@ -68,6 +69,12 @@ VENUE_PATH_MAP = {
     "IJCAI": "ijcai", "VLDB": "vldb", "SIGMOD": "sigmod", "DAC": "dac",
     "ECCV": "eccv",
 }
+
+
+def normalize_nvidia_url(url: str) -> str:
+    if not url:
+        return ""
+    return unquote(url).replace("%5F", "_").replace("%5f", "_")
 
 
 def slugify(title: str) -> str:
@@ -155,7 +162,7 @@ def parse_html(html: str) -> list[dict]:
 
         for pub_m in pub_matches:
             title = pub_m.group(1)
-            url = f"https://research.nvidia.com{pub_m.group(2)}"
+            url = normalize_nvidia_url(f"https://research.nvidia.com{pub_m.group(2)}")
             year = int(pub_m.group(3))
             month = pub_m.group(4)
 
@@ -232,7 +239,7 @@ def create_filter_records(papers: list[dict]) -> list[dict]:
             for p in idx.get("papers", []):
                 existing_ids.add(p["id"])
                 if p.get("url"):
-                    existing_urls.add(p["url"])
+                    existing_urls.add(normalize_nvidia_url(p["url"]))
                 # Track counters
                 vid = p["id"]
                 # Handle various ID formats: nsdi26-001, arxiv-2501, arxiv23-001
@@ -251,7 +258,7 @@ def create_filter_records(papers: list[dict]) -> list[dict]:
 
     for p in papers:
         # Skip if URL already in index
-        if p["url"] in existing_urls:
+        if normalize_nvidia_url(p["url"]) in existing_urls:
             continue
 
         # Generate ID

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2684
+id: "arxiv-2684"
 title: "Beyond CPO: A Motivation and Approach for Bringing Optics onto the Silicon Interposer"
-conference: arXiv 2023
-date: 2023-02
+conference: "arXiv 2023"
+date: "2023-02"
 authors:
   - name: "Ben Lee"
     affiliation: "NVIDIA"
@@ -18,7 +18,6 @@ authors:
     is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Co-packaged optics (CPO) technology is well positioned to break through the bottlenecks that impede efficient bandwidth scaling in key near-term commercial integrated circuits. In this paper, we begin by providing some historical context for this important sea change in the optical communications in"
 url: "https://research.nvidia.com/publication/2023-02_beyond-cpo-motivation-and-approach-bringing-optics-silicon-interposer"
-status: new
+status: "new"
 ---
 
 # Beyond CPO: A Motivation and Approach for Bringing Optics onto the Silicon Interposer

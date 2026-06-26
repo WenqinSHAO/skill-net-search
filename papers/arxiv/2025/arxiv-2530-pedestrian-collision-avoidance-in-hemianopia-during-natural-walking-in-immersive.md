@@ -1,28 +1,27 @@
 ---
-id: arxiv-2530
+id: "arxiv-2530"
 title: "Pedestrian Collision Avoidance in Hemianopia during Natural Walking in Immersive Virtual Reality"
-conference: arXiv 2025
-date: 2025-10
+conference: "arXiv 2025"
+date: "2025-10"
 authors:
+  - name: "Jonathan K. Doyon"
+    affiliation: "Harvard Medical School"
+    is_industry: false
+  - name: "Sujin Kim"
+    affiliation: "Harvard Medical School"
+    is_industry: false
+  - name: "Alex D. Hwang"
+    affiliation: "Harvard Medical School"
+    is_industry: false
   - name: "Jae-Hyun Jung"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jonathan K. Doyon"
-    affiliation: ""
-    is_industry: false
-  - name: "Sujin Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex D. Hwang"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Computer Vision
   - Graphics_rendering
   - Medical_imaging
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "World Simulation"
 abstract: "Homonymous hemianopia (HH) patients report difficulties in avoiding collisions with other pedestrians. We evaluated pedestrian collision detection and avoidance behaviors in HH patients and healthy controls using a novel virtual reality (VR) walking with pedestrians, which enables natural walking be"
 url: "https://research.nvidia.com/publication/2025-10_pedestrian-collision-avoidance-hemianopia-during-natural-walking-immersive"
-status: new
+status: "new"
 ---
 
 # Pedestrian Collision Avoidance in Hemianopia during Natural Walking in Immersive Virtual Reality

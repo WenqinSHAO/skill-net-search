@@ -1,32 +1,31 @@
 ---
-id: arxiv-3021
+id: "arxiv-3021"
 title: "Self-supervised 6D Object Pose Estimation for Robot Manipulation"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Xinke Deng"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
   - name: "Yu Xiang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Timothy Bretl"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://youtu.be/W1Y0Mmh1Gd8"
 abstract: "To teach robots skills, it is crucial to obtain data with supervision. Since annotating real world data is time-consuming and expensive, enabling robots to learn in a self-supervised way is important. In this work, we introduce a robot system for self-supervised 6D object pose estimation. Starting f"
 url: "https://research.nvidia.com/publication/2020-05_self-supervised-6d-object-pose-estimation-robot-manipulation"
-status: new
+status: "new"
 ---
 
 # Self-supervised 6D Object Pose Estimation for Robot Manipulation

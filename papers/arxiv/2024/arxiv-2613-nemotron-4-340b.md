@@ -1,13 +1,12 @@
 ---
-id: arxiv-2613
+id: "arxiv-2613"
 title: "Nemotron-4 340B"
-conference: arXiv 2024
-date: 2024-06
+conference: "arXiv 2024"
+date: "2024-06"
 authors:
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -16,7 +15,7 @@ research_areas:
   - "Generative AI"
 abstract: "We release the Nemotron-4 340B model family, including Nemotron-4-340B-Base, Nemotron-4-340B-Instruct, and Nemotron-4-340B-Reward. Our models are open access under the NVIDIA Open Model License Agreement, a permissive&nbsp;model&nbsp;license&nbsp;that allows the distribution, modification, and use o"
 url: "https://research.nvidia.com/publication/2024-06_nemotron-4-340b"
-status: new
+status: "new"
 ---
 
 # Nemotron-4 340B

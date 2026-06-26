@@ -1,9 +1,15 @@
 ---
-id: arxiv-2941
+id: "arxiv-2941"
 title: "The Architectural Implications of Distributed Reinforcement Learning on CPU-GPU Systems"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Ahmet Inci"
+    affiliation: "CMU"
+    is_industry: false
+  - name: "Evgeny Bolotin"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yaosheng Fu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,18 +22,11 @@ authors:
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ahmet Inci"
-    affiliation: ""
-    is_industry: false
-  - name: "Evgeny Bolotin"
-    affiliation: ""
-    is_industry: false
   - name: "Diana Marculescu"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://www.emc2-ai.org/assets/docs/virtual-20/emc2-virtual20-paper-10.pdf"
 abstract: "With deep reinforcement learning (RL) methods achieving results that exceed human capabilities in games, robotics, and simulated environments, continued scaling of RL training is crucial to its deployment in solving complex real-world problems. However, improving the performance scalability and powe"
 url: "https://research.nvidia.com/publication/2020-12_architectural-implications-distributed-reinforcement-learning-cpu-gpu-systems"
-status: new
+status: "new"
 ---
 
 # The Architectural Implications of Distributed Reinforcement Learning on CPU-GPU Systems

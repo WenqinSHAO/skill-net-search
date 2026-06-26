@@ -1,8 +1,8 @@
 ---
-id: arxiv-2785
+id: "arxiv-2785"
 title: "Research Advances Toward Real-Time Path Tracing"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Petrik Clarberg"
     affiliation: "NVIDIA"
@@ -13,22 +13,21 @@ authors:
   - name: "Craig Kolb"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Pawel Kozlowski"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yong He"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Lifan Wu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pawel Kozlowski"
-    affiliation: ""
-    is_industry: false
-  - name: "Yong He"
-    affiliation: ""
-    is_industry: false
   - name: "Edward Liu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://schedule.gdconf.com/session/research-advances-toward-real-time-path-tracing-presented-by-nvidia/886310"
 abstract: "Real-time graphics is on the cusp of a historic transition to path tracing, one of the largest breakthroughs for real-time graphics in many years. Path tracing is the most accurate way of rendering but is also computationally intensive due to the simulation of light/material interaction through many"
 url: "https://research.nvidia.com/publication/2022-03_research-advances-toward-real-time-path-tracing"
-status: new
+status: "new"
 ---
 
 # Research Advances Toward Real-Time Path Tracing

@@ -1,35 +1,34 @@
 ---
-id: siggraph-0036
+id: "siggraph-0036"
 title: "Learning Physically Simulated Tennis Players from Broadcast Videos"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Haotian Zhang"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Haotian Zhang"
-    affiliation: ""
-    is_industry: false
   - name: "Viktor Makoviychuk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yunrong Guo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jason Peng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kayvon Fatahalian"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/vid2player3d/"
 abstract: "Motion capture (mocap) data has been the most popular data source for computer animation techniques that combine deep reinforcement learning and motion imitation to produce lifelike motions and perform diverse skills. However, mocap data for specialized skills can be costly to acquire at scale while"
 url: "https://research.nvidia.com/publication/2023-08_learning-physically-simulated-tennis-players-broadcast-videos"
-status: new
+status: "new"
 ---
 
 # Learning Physically Simulated Tennis Players from Broadcast Videos

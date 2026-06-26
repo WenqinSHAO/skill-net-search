@@ -1,45 +1,44 @@
 ---
-id: siggraph-0033
+id: "siggraph-0033"
 title: "Flexible Isosurface Extraction for Gradient-Based Mesh Optimization"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Tianchang Shen"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jon Hasselgren"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tianchang Shen"
-    affiliation: ""
-    is_industry: false
   - name: "Kangxue Yin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Zian Wang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Wenzheng Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Zan Gojcic"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3592430"
 abstract: "This work considers gradient-based mesh optimization, where we iteratively optimize for a 3D surface mesh by representing it as the isosurface of a scalar field, an increasingly common paradigm in applications including photogrammetry, generative modeling, and inverse physics. Existing implementatio"
 url: "https://research.nvidia.com/publication/2023-08_flexible-isosurface-extraction-gradient-based-mesh-optimization"
-status: new
+status: "new"
 ---
 
 # Flexible Isosurface Extraction for Gradient-Based Mesh Optimization

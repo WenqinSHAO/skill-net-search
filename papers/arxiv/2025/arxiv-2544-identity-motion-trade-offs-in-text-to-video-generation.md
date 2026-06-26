@@ -1,12 +1,15 @@
 ---
-id: arxiv-2544
+id: "arxiv-2544"
 title: "Identity-Motion Trade-offs in Text-to-Video Generation"
-conference: arXiv 2025
-date: 2025-07
+conference: "arXiv 2025"
+date: "2025-07"
 authors:
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Rinon Gal"
+    affiliation: ""
+    is_industry: false
   - name: "Yoad Tewel"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,16 +19,12 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://research.nvidia.com/labs/par/MotionByQueries/"
 abstract: "Text-to-video diffusion models have shown remarkable progress in generating coherent video clips from textual descriptions. However, the interplay between motion, structure, and identity representations in these models remains under-explored. Here, we investigate how self-attention query (Q) feature"
 url: "https://research.nvidia.com/publication/2025-07_identity-motion-trade-offs-text-video-generation"
-status: new
+status: "new"
 ---
 
 # Identity-Motion Trade-offs in Text-to-Video Generation

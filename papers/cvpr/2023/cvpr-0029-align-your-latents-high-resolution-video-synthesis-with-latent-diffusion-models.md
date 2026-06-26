@@ -1,35 +1,34 @@
 ---
-id: cvpr-0029
+id: "cvpr-0029"
 title: "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Andreas Blattmann"
+    affiliation: "LMU Munich"
+    is_industry: false
+  - name: "Robin Rombach"
+    affiliation: "LMU Munich"
+    is_industry: false
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Tim Dockhorn"
+    affiliation: "NVIDIA, University of Waterloo, Vector Institute"
+    is_industry: true
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Sanja Fidler"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andreas Blattmann"
-    affiliation: ""
-    is_industry: false
-  - name: "Robin Rombach"
-    affiliation: ""
-    is_industry: false
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "Tim Dockhorn"
-    affiliation: ""
-    is_industry: false
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/VideoLDM/"
 abstract: "Latent Diffusion Models (LDMs) enable high-quality image synthesis while avoiding excessive compute demands by training a diffusion model in a compressed lower-dimensional latent space. Here, we apply the LDM paradigm to high-resolution video generation, a particularly resource-intensive task. We fi"
 url: "https://research.nvidia.com/publication/2023-06_align-your-latents-high-resolution-video-synthesis-latent-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models

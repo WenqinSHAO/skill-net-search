@@ -1,22 +1,21 @@
 ---
-id: arxiv-2834
+id: "arxiv-2834"
 title: "Compressing 1D Time-Channel Separable Convolutions using Sparse Random Ternary Matrices"
-conference: arXiv 2021
-date: 2021-08
+conference: "arXiv 2021"
+date: "2021-08"
 authors:
+  - name: "Goncalo Mordido"
+    affiliation: "Hasso Plattner Institute"
+    is_industry: false
   - name: "Matthijs Van keirsbilck"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Goncalo Mordido"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=s8AL4RIZ2Ig"
 abstract: "We demonstrate that 1x1-convolutions in 1D time-channel separable convolutions may be replaced by constant, sparse random ternary matrices with weights in {−1, 0, +1}. Such layers do not perform any multiplications and do not require training. Moreover, the matrices may be generated on the chip duri"
 url: "https://research.nvidia.com/publication/2021-08_compressing-1d-time-channel-separable-convolutions-using-sparse-random-ternary"
-status: new
+status: "new"
 ---
 
 # Compressing 1D Time-Channel Separable Convolutions using Sparse Random Ternary Matrices

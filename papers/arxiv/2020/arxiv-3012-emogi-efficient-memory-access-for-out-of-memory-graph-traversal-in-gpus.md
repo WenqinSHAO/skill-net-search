@@ -1,31 +1,30 @@
 ---
-id: arxiv-3012
+id: "arxiv-3012"
 title: "EMOGI: Efficient Memory-access for Out-of-memory Graph-traversal In GPUs"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Seung Won Min"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Vikram Sharma Mailthody"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Zaid Qureshi"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
   - name: "Jinjun Xiong"
-    affiliation: ""
-    is_industry: false
+    affiliation: "IBM T.J. Watson Research Center"
+    is_industry: true
   - name: "Eiman Ebrahimi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wen-mei Hwu"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana Champaign"
     is_industry: false
 topics:
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "High Performance Computing"
 abstract: "Modern analytics and recommendation systems are increasingly based on graph data that capture the relations between entities being analyzed. Practical graphs come in huge sizes, offer massive parallelism, and are stored in sparse-matrix formats such as CSR. To exploit the massive parallelism, develo"
 url: "https://research.nvidia.com/publication/2020-06_emogi-efficient-memory-access-out-memory-graph-traversal-gpus"
-status: new
+status: "new"
 ---
 
 # EMOGI: Efficient Memory-access for Out-of-memory Graph-traversal In GPUs

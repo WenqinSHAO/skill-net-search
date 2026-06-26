@@ -1,33 +1,32 @@
 ---
-id: iclr-0029
+id: "iclr-0029"
 title: "Robust and Controllable Object-Centric Learning through Energy-based Models"
-conference: ICLR 2022
-date: 2022-10
+conference: "ICLR 2022"
+date: "2022-10"
 authors:
+  - name: "Ruixiang Zhang"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Tong Che"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ivanovic"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Renhao Wang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ruixiang Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Tong Che"
-    affiliation: ""
-    is_industry: false
-  - name: "Renhao Wang"
-    affiliation: ""
-    is_industry: false
   - name: "Yoshua Bengio"
-    affiliation: ""
+    affiliation: "University of Montreal"
     is_industry: false
   - name: "Liam Paull"
-    affiliation: ""
+    affiliation: "University of Montreal"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Humans are remarkably good at understanding and reasoning about complex visual scenes. The capability to decompose low-level observations into discrete objects allows us to build a grounded abstract representation and identify the compositional structure of the world. Accordingly, it is a crucial st"
 url: "https://research.nvidia.com/publication/2022-10_robust-and-controllable-object-centric-learning-through-energy-based-models"
-status: new
+status: "new"
 ---
 
 # Robust and Controllable Object-Centric Learning through Energy-based Models

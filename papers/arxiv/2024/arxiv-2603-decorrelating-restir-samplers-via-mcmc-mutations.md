@@ -1,9 +1,12 @@
 ---
-id: arxiv-2603
+id: "arxiv-2603"
 title: "Decorrelating ReSTIR Samplers via MCMC Mutations"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
+  - name: "Rohan Sawhney"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daqi Lin"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,12 +25,8 @@ authors:
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Sawhney"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3629166"
 abstract: "Monte Carlo rendering algorithms often utilize correlations between pixels to improve efficiency and enhance image quality. For real-time applications in particular, repeated reservoir resampling offers a powerful framework to reuse samples both spatially in an image and temporally across multiple f"
 url: "https://research.nvidia.com/publication/2024-07_decorrelating-restir-samplers-mcmc-mutations"
-status: new
+status: "new"
 ---
 
 # Decorrelating ReSTIR Samplers via MCMC Mutations

@@ -1,10 +1,19 @@
 ---
-id: arxiv-2641
+id: "arxiv-2641"
 title: "ChipNeMo: Domain-Adapted LLMs for Chip Design"
-conference: arXiv 2023
-date: 2023-10
+conference: "arXiv 2023"
+date: "2023-10"
 authors:
   - name: "Mingjie Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Teo Ene"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Robert Kirby"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chris Cheng"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Nathaniel Pinckney"
@@ -13,122 +22,112 @@ authors:
   - name: "Rongjian Liang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jonah Alben"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Himyanshu Anand"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sanmitra Banerjee"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ismet Bayraktaroglu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Bonita Bhaskaran"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Bryan Catanzaro"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arjun Chaudhuri"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sharon Clay"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Bill Dally"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Laura Dang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Parikshit Deshpande"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Siddhanth Dhodhi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sameer Halepete"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Eric Hill"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jiashang Hu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sumit Jain"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "George Kokai"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kishor Kunal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaowei Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Charley Lind"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hao Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Stuart Oberman"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sujeet Omar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sreedhar Pratty"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jonathan Raman"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ambar Sarkar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhengjiang Shao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hanfei Sun"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Pratik P Suthar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Varun Tej"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Teo Ene"
-    affiliation: ""
-    is_industry: false
-  - name: "Robert Kirby"
-    affiliation: ""
-    is_industry: false
-  - name: "Chris Cheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonah Alben"
-    affiliation: ""
-    is_industry: false
-  - name: "Himyanshu Anand"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanmitra Banerjee"
-    affiliation: ""
-    is_industry: false
-  - name: "Ismet Bayraktaroglu"
-    affiliation: ""
-    is_industry: false
-  - name: "Bonita Bhaskaran"
-    affiliation: ""
-    is_industry: false
-  - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
-  - name: "Arjun Chaudhuri"
-    affiliation: ""
-    is_industry: false
-  - name: "Sharon Clay"
-    affiliation: ""
-    is_industry: false
-  - name: "Bill Dally"
-    affiliation: ""
-    is_industry: false
-  - name: "Laura Dang"
-    affiliation: ""
-    is_industry: false
-  - name: "Parikshit Deshpande"
-    affiliation: ""
-    is_industry: false
-  - name: "Siddhanth Dhodhi"
-    affiliation: ""
-    is_industry: false
-  - name: "Sameer Halepete"
-    affiliation: ""
-    is_industry: false
-  - name: "Eric Hill"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiashang Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Sumit Jain"
-    affiliation: ""
-    is_industry: false
-  - name: "George Kokai"
-    affiliation: ""
-    is_industry: false
-  - name: "Kishor Kunal"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaowei Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Charley Lind"
-    affiliation: ""
-    is_industry: false
-  - name: "Hao Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Stuart Oberman"
-    affiliation: ""
-    is_industry: false
-  - name: "Sujeet Omar"
-    affiliation: ""
-    is_industry: false
-  - name: "Sreedhar Pratty"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonathan Raman"
-    affiliation: ""
-    is_industry: false
-  - name: "Ambar Sarkar"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhengjiang Shao"
-    affiliation: ""
-    is_industry: false
-  - name: "Hanfei Sun"
-    affiliation: ""
-    is_industry: false
-  - name: "Pratik P Suthar"
-    affiliation: ""
-    is_industry: false
-  - name: "Varun Tej"
-    affiliation: ""
-    is_industry: false
   - name: "Kaizhe Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Haoxing"
+    affiliation: "Mark) Ren (NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -138,7 +137,7 @@ research_areas:
   - "Generative AI"
 abstract: "ChipNeMo aims to explore the applications of large language models (LLMs) for industrial chip design. Instead of directly deploying off-the-shelf commercial or open-source LLMs, we instead adopt the following domain adaptation techniques: custom tokenizers, domain-adaptive continued pretraining, sup"
 url: "https://research.nvidia.com/publication/2023-10_chipnemo-domain-adapted-llms-chip-design"
-status: new
+status: "new"
 ---
 
 # ChipNeMo: Domain-Adapted LLMs for Chip Design

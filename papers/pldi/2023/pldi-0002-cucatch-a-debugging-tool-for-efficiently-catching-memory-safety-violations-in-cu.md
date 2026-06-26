@@ -1,8 +1,8 @@
 ---
-id: pldi-0002
+id: "pldi-0002"
 title: "cuCatch: A Debugging Tool for Efficiently Catching Memory Safety Violations in CUDA Applications"
-conference: PLDI 2023
-date: 2023-06
+conference: "PLDI 2023"
+date: "2023-06"
 authors:
   - name: "Mohamed Tarek Ibn Ziad"
     affiliation: "NVIDIA"
@@ -22,7 +22,6 @@ authors:
 topics:
   - CUDA_ecosystem
   - Miscellaneous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3591225"
 abstract: "CUDA, OpenCL, and OpenACC are the primary means of writing general-purpose software for NVIDIA GPUs, all of which are subject to the same well-documented memory safety vulnerabilities currently plaguing software written in C and C++. One can argue that the GPU execution environment makes software de"
 url: "https://research.nvidia.com/publication/2023-06_cucatch-debugging-tool-efficiently-catching-memory-safety-violations-cuda"
-status: new
+status: "new"
 ---
 
 # cuCatch: A Debugging Tool for Efficiently Catching Memory Safety Violations in CUDA Applications

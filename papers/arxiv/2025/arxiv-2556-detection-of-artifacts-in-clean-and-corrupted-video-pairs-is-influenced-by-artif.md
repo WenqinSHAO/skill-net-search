@@ -1,34 +1,33 @@
 ---
-id: arxiv-2556
+id: "arxiv-2556"
 title: "Detection of artifacts in clean and corrupted video pairs is influenced by artifact type and presentation modality"
-conference: arXiv 2025
-date: 2025-05
+conference: "arXiv 2025"
+date: "2025-05"
 authors:
+  - name: "Niall L. Williams"
+    affiliation: "New York University"
+    is_industry: false
+  - name: "Anatolii Evdokimov"
+    affiliation: "New York University"
+    is_industry: false
+  - name: "Budmonde Duinkharjav"
+    affiliation: "New York University"
+    is_industry: false
+  - name: "Anjul Patney"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Qi Sun"
+    affiliation: "New York University"
+    is_industry: false
   - name: "Jae-Hyun Jung"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ruth Rosenholtz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Niall L. Williams"
-    affiliation: ""
-    is_industry: false
-  - name: "Anatolii Evdokimov"
-    affiliation: ""
-    is_industry: false
-  - name: "Budmonde Duinkharjav"
-    affiliation: ""
-    is_industry: false
-  - name: "Anjul Patney"
-    affiliation: ""
-    is_industry: false
-  - name: "Qi Sun"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://jov.arvojournals.org/article.aspx?articleid=2809882"
 abstract: "Modern computer-generated videos display a variety of artifacts. While image-computable metrics exist to quantify the visibility of artifacts in images and videos, designers often rely in part on human observers to find artifacts and assess video quality. Furthermore, human labeling of artifacts is "
 url: "https://research.nvidia.com/publication/2025-05_detection-artifacts-clean-and-corrupted-video-pairs-influenced-artifact-type"
-status: new
+status: "new"
 ---
 
 # Detection of artifacts in clean and corrupted video pairs is influenced by artifact type and presentation modality

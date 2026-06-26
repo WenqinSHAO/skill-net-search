@@ -1,24 +1,23 @@
 ---
-id: neurips-0029
+id: "neurips-0029"
 title: "trajdata: A Unified Interface to Multiple Human Trajectory Datasets"
-conference: NeurIPS 2023
-date: 2023-07
+conference: "NeurIPS 2023"
+date: "2023-07"
 authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Guanyu Song"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Igor Gilitschenski"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Marco Pavone"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "The field of trajectory forecasting has grown significantly in recent years, partially owing to the release of numerous large-scale, real-world human trajectory datasets for autonomous vehicles (AVs) and pedestrian motion tracking. While such datasets have been a boon for the community, they each us"
 url: "https://research.nvidia.com/publication/2023-07_trajdata-unified-interface-multiple-human-trajectory-datasets"
-status: new
+status: "new"
 ---
 
 # trajdata: A Unified Interface to Multiple Human Trajectory Datasets

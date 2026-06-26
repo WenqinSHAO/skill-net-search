@@ -1,34 +1,33 @@
 ---
-id: arxiv-3005
+id: "arxiv-3005"
 title: "Instance-aware, Context-focused, and Memory-efficient Weakly Supervised Object Detection"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Zhongzheng Ren"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Xiaodong Yang"
+    affiliation: "QCraft"
+    is_industry: false
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yong Jae Lee"
+    affiliation: "UC Davis"
+    is_industry: false
+  - name: "Alexander G. Schwing"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhongzheng Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaodong Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Yong Jae Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander G. Schwing"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://chrisding.github.io/publications/CVPR20b_Slides.pdf"
 abstract: "Weakly supervised learning has emerged as a compelling tool for object detection by reducing the need for strong supervision during training. However, major challenges remain: (1) differentiation of object instances can be ambiguous; (2) detectors tend to focus on discriminative parts rather than en"
 url: "https://research.nvidia.com/publication/2020-06_instance-aware-context-focused-and-memory-efficient-weakly-supervised-object"
-status: new
+status: "new"
 ---
 
 # Instance-aware, Context-focused, and Memory-efficient Weakly Supervised Object Detection

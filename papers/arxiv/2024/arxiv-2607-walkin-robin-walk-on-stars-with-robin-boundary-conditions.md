@@ -1,24 +1,23 @@
 ---
-id: arxiv-2607
+id: "arxiv-2607"
 title: "Walkin’ Robin: Walk on Stars with Robin Boundary Conditions"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
   - name: "Bailey Miller"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Rohan Sawhney"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Keenan Crane"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Ioannis Gkioulekas"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://research.nvidia.com/labs/prl/publication/miller2024wost/"
 abstract: "Numerous scientific and engineering applications require solving boundary value problems (BVPs) like the Laplace and Poisson equations on geometrically intricate domains. We describe a unified Monte Carlo approach to solving elliptic BVPs with Dirichlet, Neumann and Robin boundary conditions using t"
 url: "https://research.nvidia.com/publication/2024-07_walkin-robin-walk-stars-robin-boundary-conditions"
-status: new
+status: "new"
 ---
 
 # Walkin’ Robin: Walk on Stars with Robin Boundary Conditions

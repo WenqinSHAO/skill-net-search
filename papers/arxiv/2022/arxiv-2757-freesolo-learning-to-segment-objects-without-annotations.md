@@ -1,9 +1,12 @@
 ---
-id: arxiv-2757
+id: "arxiv-2757"
 title: "FreeSOLO: Learning to Segment Objects without Annotations"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Xinlong Wang"
+    affiliation: "The University of Adelaide"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +16,18 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xinlong Wang"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chunhua Shen"
-    affiliation: ""
+    affiliation: "Zhejiang University"
     is_industry: false
   - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://arxiv.org/abs/2202.12181"
 abstract: "Instance segmentation is a fundamental vision task that aims to recognize and segment each object in an image. However, it requires costly annotations such as bounding boxes and segmentation masks for learning. In this work, we propose a fully unsupervised learning method that learns class-agnostic "
 url: "https://research.nvidia.com/publication/2022-06_freesolo-learning-segment-objects-without-annotations"
-status: new
+status: "new"
 ---
 
 # FreeSOLO: Learning to Segment Objects without Annotations

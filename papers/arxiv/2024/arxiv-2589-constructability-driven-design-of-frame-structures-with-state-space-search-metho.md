@@ -1,23 +1,22 @@
 ---
-id: arxiv-2589
+id: "arxiv-2589"
 title: "Constructability-driven design of frame structures with state-space search methods"
-conference: arXiv 2024
-date: 2024-11
+conference: "arXiv 2024"
+date: "2024-11"
 authors:
+  - name: "Yijiang Huang"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yijiang Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Caitlin Mueller"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2024-11_constructability-driven-design-frame-structures-state-space-search-methods"
-status: new
+status: "new"
 ---
 
 # Constructability-driven design of frame structures with state-space search methods

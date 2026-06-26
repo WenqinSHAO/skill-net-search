@@ -1,41 +1,40 @@
 ---
-id: icra-0024
+id: "icra-0024"
 title: "PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation"
-conference: ICRA 2022
-date: 2022-03
+conference: "ICRA 2022"
+date: "2022-03"
 authors:
+  - name: "Alexey Kamenev"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Lirui Wang"
+    affiliation: "NVIDIA, MIT"
+    is_industry: true
+  - name: "Ollin Boer Bohan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ishwar Kulkarni"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Bilal Kartal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Artem Molchanov"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alexey Kamenev"
-    affiliation: ""
-    is_industry: false
-  - name: "Lirui Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ollin Boer Bohan"
-    affiliation: ""
-    is_industry: false
-  - name: "Ishwar Kulkarni"
-    affiliation: ""
-    is_industry: false
-  - name: "Bilal Kartal"
-    affiliation: ""
-    is_industry: false
-  - name: "Artem Molchanov"
-    affiliation: ""
-    is_industry: false
   - name: "David Nister"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nikolai Smolyanskiy"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Applied_perception
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2109.11094"
 abstract: "Predicting the future motion of traffic agents is crucial for safe and efficient autonomous driving. To this end, we present PredictionNet, a deep neural network (DNN) that predicts the motion of all surrounding traffic agents together with the ego-vehicle's motion. All predictions are probabilistic"
 url: "https://research.nvidia.com/publication/2022-03_predictionnet-real-time-joint-probabilistic-traffic-prediction-planning-control"
-status: new
+status: "new"
 ---
 
 # PredictionNet: Real-Time Joint Probabilistic Traffic Prediction for Planning, Control, and Simulation

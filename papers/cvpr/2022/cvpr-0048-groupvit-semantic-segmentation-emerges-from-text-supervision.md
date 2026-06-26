@@ -1,9 +1,12 @@
 ---
-id: cvpr-0048
+id: "cvpr-0048"
 title: "GroupViT: Semantic Segmentation Emerges from Text Supervision"
-conference: CVPR 2022
-date: 2022-06
+conference: "CVPR 2022"
+date: "2022-06"
 authors:
+  - name: "Jiarui Xu"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -19,16 +22,12 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiarui Xu"
-    affiliation: ""
-    is_industry: false
   - name: "Xiaolong Wang"
-    affiliation: ""
+    affiliation: "University of California at San Diego"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://jerryxu.net/GroupViT/"
 abstract: "Grouping and recognition are important components of visual scene understanding, e.g., for object detection and semantic segmentation. With end-to-end deep learning systems, grouping of image regions usually happens implicitly via top-down supervision from pixel-level recognition labels. Instead, in"
 url: "https://research.nvidia.com/publication/2022-06_groupvit-semantic-segmentation-emerges-text-supervision"
-status: new
+status: "new"
 ---
 
 # GroupViT: Semantic Segmentation Emerges from Text Supervision

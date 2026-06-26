@@ -1,25 +1,24 @@
 ---
-id: arxiv-2792
+id: "arxiv-2792"
 title: "GATSPI: GPU Accelerated Gate-Level Simulation for Power Improvement"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Yanqing Zhang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Akshay Sridharan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Akshay Sridharan"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2203.06117"
 abstract: "In this paper, we present GATSPI, a novel GPU accelerated logic gate simulator that enables ultra-fast power estimation for industry sized ASIC designs with millions of gates. GATSPI is written in PyTorch with custom CUDA kernels for ease of coding and maintainability. It achieves simulation kernel "
 url: "https://research.nvidia.com/publication/2022-03_gatspi-gpu-accelerated-gate-level-simulation-power-improvement"
-status: new
+status: "new"
 ---
 
 # GATSPI: GPU Accelerated Gate-Level Simulation for Power Improvement

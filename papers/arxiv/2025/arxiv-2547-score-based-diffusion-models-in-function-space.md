@@ -1,13 +1,31 @@
 ---
-id: arxiv-2547
+id: "arxiv-2547"
 title: "Score-based Diffusion Models in Function Space"
-conference: arXiv 2025
-date: 2025-07
+conference: "arXiv 2025"
+date: "2025-07"
 authors:
+  - name: "Jae Hyun Lim"
+    affiliation: "Université de Montréal"
+    is_industry: false
   - name: "Nikola Kovachki"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ricardo Baptista"
+    affiliation: "California Institute of Technology"
+    is_industry: false
+  - name: "Christopher Beckham"
+    affiliation: "Polytechnique Montréal"
+    is_industry: false
+  - name: "Kamyar Azizzadenesheli"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jean Kossaifi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Vikram Voleti"
+    affiliation: "Université de Montréal"
+    is_industry: false
+  - name: "Jiaming Song"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
@@ -16,37 +34,18 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Christopher Pal"
+    affiliation: "Polytechnique Montréal & Canada CIFAR AI Chair"
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jae Hyun Lim"
-    affiliation: ""
-    is_industry: false
-  - name: "Ricardo Baptista"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher Beckham"
-    affiliation: ""
-    is_industry: false
-  - name: "Kamyar Azizzadenesheli"
-    affiliation: ""
-    is_industry: false
-  - name: "Vikram Voleti"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaming Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher Pal"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, California Institute of Technology"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ research_areas:
   - "Generative AI"
 abstract: "Diffusion models have recently emerged as a powerful framework for generative modeling. They consist of a forward process that perturbs input data with Gaussian white noise and a reverse process that learns a score function to generate samples by denoising. Despite their tremendous success, they are"
 url: "https://research.nvidia.com/publication/2025-07_score-based-diffusion-models-function-space"
-status: new
+status: "new"
 ---
 
 # Score-based Diffusion Models in Function Space

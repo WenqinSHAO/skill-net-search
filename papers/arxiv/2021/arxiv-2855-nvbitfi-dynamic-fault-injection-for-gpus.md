@@ -1,28 +1,27 @@
 ---
-id: arxiv-2855
+id: "arxiv-2855"
 title: "NVBitFI: Dynamic Fault Injection for GPUs"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Oreste Villa"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
-  - name: "Oreste Villa"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9505068"
 abstract: "GPUs have found wide acceptance in domains such as high-performance computing and autonomous vehicles, which require fast processing of large amounts of data along with provisions for reliability, availability, and safety. A key component of these dependability characteristics is the propagation of "
 url: "https://research.nvidia.com/publication/2021-06_nvbitfi-dynamic-fault-injection-gpus"
-status: new
+status: "new"
 ---
 
 # NVBitFI: Dynamic Fault Injection for GPUs

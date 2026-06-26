@@ -1,28 +1,27 @@
 ---
-id: siggraph-0034
+id: "siggraph-0034"
 title: "Less is More: Rendering for Esports"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Benjamin Watson"
+    affiliation: "North Carolina State University"
+    is_industry: false
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Benjamin Watson"
-    affiliation: ""
-    is_industry: false
   - name: "Peter Shirley"
-    affiliation: ""
+    affiliation: "Activision"
     is_industry: false
   - name: "Byungjoo Lee"
-    affiliation: ""
+    affiliation: "Yonsei University"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "Computer graphics has improved from early wireframes to ray tracing and physically based rendering. Yet nearly 20 years ago, George Lucas stated that “the real leap has been made,” and today, esports players turn off many of the rendering techniques that took SIGGRAPH so long to develop, because the"
 url: "https://research.nvidia.com/publication/2023-08_less-more-rendering-esports"
-status: new
+status: "new"
 ---
 
 # Less is More: Rendering for Esports

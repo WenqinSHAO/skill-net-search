@@ -1,23 +1,22 @@
 ---
-id: iclr-0034
+id: "iclr-0034"
 title: "Tackling the Generative Learning Trilemma with Denoising Diffusion GANs"
-conference: ICLR 2022
-date: 2022-03
+conference: "ICLR 2022"
+date: "2022-03"
 authors:
+  - name: "Zhisheng Xiao"
+    affiliation: "The University of Chicago"
+    is_industry: false
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhisheng Xiao"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://nvlabs.github.io/denoising-diffusion-gan/"
 abstract: "A wide variety of deep generative models has been developed in the past decade. Yet, these models often struggle with simultaneously addressing three key requirements including: high sample quality, mode coverage, and fast sampling. We call the challenge imposed by these requirements the generative "
 url: "https://research.nvidia.com/publication/2022-03_tackling-generative-learning-trilemma-denoising-diffusion-gans-0"
-status: new
+status: "new"
 ---
 
 # Tackling the Generative Learning Trilemma with Denoising Diffusion GANs

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2535
+id: "arxiv-2535"
 title: "Sim2Val: Leveraging Correlation Across Test Platforms for Variance-Reduced Metric Estimation"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
   - name: "Rachel Luo"
     affiliation: "NVIDIA"
@@ -19,16 +19,15 @@ authors:
   - name: "Sushant Veer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Edward Schmerling"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Edward Schmerling"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2506.20553"
 abstract: "Learning-based robotic systems demand rigorous validation to assure reliable performance, but extensive real-world testing is often prohibitively expensive, and if conducted may still yield insufficient data for high-confidence guarantees. In this work we introduce Sim2Val, a general estimation fram"
 url: "https://research.nvidia.com/publication/2025-09_sim2val-leveraging-correlation-across-test-platforms-variance-reduced-metric"
-status: new
+status: "new"
 ---
 
 # Sim2Val: Leveraging Correlation Across Test Platforms for Variance-Reduced Metric Estimation

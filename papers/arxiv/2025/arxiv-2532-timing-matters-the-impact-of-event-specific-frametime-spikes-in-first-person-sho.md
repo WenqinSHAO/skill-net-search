@@ -1,9 +1,12 @@
 ---
-id: arxiv-2532
+id: "arxiv-2532"
 title: "Timing Matters: The Impact of Event-Specific Frametime Spikes in First-Person Shooter Games"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "WPI"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,16 +16,12 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "WPI"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Human Computer Interaction"
 abstract: "Frametime spikes can disrupt gameplay in first-person shooter (FPS) games, affecting both performance and player experience. This paper examines how spikes during specific game events impact players. We developed a custom FPS game that maintains a steady 500 frames/s while inducing frametime spikes "
 url: "https://research.nvidia.com/publication/2025-09_timing-matters-impact-event-specific-frametime-spikes-first-person-shooter"
-status: new
+status: "new"
 ---
 
 # Timing Matters: The Impact of Event-Specific Frametime Spikes in First-Person Shooter Games

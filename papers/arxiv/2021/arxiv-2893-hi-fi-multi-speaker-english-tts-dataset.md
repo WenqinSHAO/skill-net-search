@@ -1,24 +1,23 @@
 ---
-id: arxiv-2893
+id: "arxiv-2893"
 title: "Hi-Fi Multi-Speaker English TTS Dataset"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.01497"
 abstract: "This paper introduces a new multi-speaker English dataset for training text-to-speech models. The dataset is based on LibriVox audiobooks and Project Gutenberg texts, both in the public domain. The new dataset contains about 292 hours of speech from 10 speakers with at least 17 hours per speaker sam"
 url: "https://research.nvidia.com/publication/2021-04_hi-fi-multi-speaker-english-tts-dataset"
-status: new
+status: "new"
 ---
 
 # Hi-Fi Multi-Speaker English TTS Dataset

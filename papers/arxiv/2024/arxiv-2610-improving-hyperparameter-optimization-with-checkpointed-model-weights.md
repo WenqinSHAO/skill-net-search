@@ -1,34 +1,33 @@
 ---
-id: arxiv-2610
+id: "arxiv-2610"
 title: "Improving Hyperparameter Optimization with Checkpointed Model Weights"
-conference: arXiv 2024
-date: 2024-06
+conference: "arXiv 2024"
+date: "2024-06"
 authors:
   - name: "Nikhil Mehta"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Masson"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ramanathan Arunachalam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Zaid Pervaiz Bhat"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arun George Zachariah"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://github.com/NVlabs/forecasting-model-search"
 abstract: "When training deep learning models, the performance depends largely on the selected hyperparameters. However, hyperparameter optimization (HPO) is often one of the most expensive parts of model design. Classical HPO methods treat this as a black-box optimization problem. However, gray-box HPO method"
 url: "https://research.nvidia.com/publication/2024-06_improving-hyperparameter-optimization-checkpointed-model-weights"
-status: new
+status: "new"
 ---
 
 # Improving Hyperparameter Optimization with Checkpointed Model Weights

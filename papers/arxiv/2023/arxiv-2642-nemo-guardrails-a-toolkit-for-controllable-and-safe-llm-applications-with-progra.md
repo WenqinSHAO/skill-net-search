@@ -1,27 +1,26 @@
 ---
-id: arxiv-2642
+id: "arxiv-2642"
 title: "NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails"
-conference: arXiv 2023
-date: 2023-10
+conference: "arXiv 2023"
+date: "2023-10"
 authors:
   - name: "Traian Rebedea"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Razvan Dinu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Makesh Sreedhar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Christopher Parisien"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Cohen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2310.10501"
 abstract: "NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. Guardrails (or rails for short) are a specific way of controlling the output of an LLM, such as not talking about topics considered harmful, following a predefined dialogue path, "
 url: "https://research.nvidia.com/publication/2023-10_nemo-guardrails-toolkit-controllable-and-safe-llm-applications-programmable"
-status: new
+status: "new"
 ---
 
 # NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails

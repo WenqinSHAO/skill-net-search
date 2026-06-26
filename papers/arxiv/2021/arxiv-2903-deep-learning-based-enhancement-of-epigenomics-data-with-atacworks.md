@@ -1,31 +1,30 @@
 ---
-id: arxiv-2903
+id: "arxiv-2903"
 title: "Deep Learning-based Enhancement of Epigenomics Data with AtacWorks"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Avantika Lal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Zachary D Chiang"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Nikolai Yakovenko"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Fabiana M Duarte"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Johnny Israeli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jason D Buenrostro"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Medical"
 abstract: "ATAC-seq is a widely-applied assay used to measure genome-wide chromatin accessibility; however, its ability to detect active regulatory regions can depend on the depth of sequencing coverage and the signal-to-noise ratio. Here we introduce AtacWorks, a deep learning toolkit to denoise sequencing co"
 url: "https://research.nvidia.com/publication/2021-03_deep-learning-based-enhancement-epigenomics-data-atacworks"
-status: new
+status: "new"
 ---
 
 # Deep Learning-based Enhancement of Epigenomics Data with AtacWorks

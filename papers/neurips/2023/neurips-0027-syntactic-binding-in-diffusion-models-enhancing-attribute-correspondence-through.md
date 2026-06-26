@@ -1,32 +1,31 @@
 ---
-id: neurips-0027
+id: "neurips-0027"
 title: "Syntactic Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment"
-conference: NeurIPS 2023
-date: 2023-10
+conference: "NeurIPS 2023"
+date: "2023-10"
 authors:
+  - name: "Royi Rassin"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Eran Hirsch"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Daniel Glickman"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Shauli Ravfogel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Yoav Goldberg"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Royi Rassin"
-    affiliation: ""
-    is_industry: false
-  - name: "Eran Hirsch"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Glickman"
-    affiliation: ""
-    is_industry: false
-  - name: "Shauli Ravfogel"
-    affiliation: ""
-    is_industry: false
-  - name: "Yoav Goldberg"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://arxiv.org/abs/2306.08877"
 abstract: "Text-conditioned image generation models often generate incorrect associations between entities and their visual attributes. This reflects an impaired mapping between linguistic binding of entities and modifiers in the prompt and visual binding of the corresponding elements in the generated image. A"
 url: "https://research.nvidia.com/publication/2023-10_syntactic-binding-diffusion-models-enhancing-attribute-correspondence-through"
-status: new
+status: "new"
 ---
 
 # Syntactic Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment

@@ -1,9 +1,12 @@
 ---
-id: neurips-0002
+id: "neurips-0002"
 title: "Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting"
-conference: NeurIPS 2025
-date: 2025-12
+conference: "NeurIPS 2025"
+date: "2025-12"
 authors:
+  - name: "Salva Rühling Cachay"
+    affiliation: "UC San Diego"
+    is_industry: false
   - name: "Miika Aittala"
     affiliation: "NVIDIA"
     is_industry: true
@@ -19,17 +22,13 @@ authors:
   - name: "Morteza Mardani"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Salva Rühling Cachay"
-    affiliation: ""
-    is_industry: false
   - name: "Rose Yu"
-    affiliation: ""
+    affiliation: "UC San Diego"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ research_areas:
   - "Generative AI"
 abstract: "Diffusion models are a powerful tool for probabilistic forecasting, yet most applications in high-dimensional chaotic systems predict future snapshots one-by-one. This common approach struggles to model complex temporal dependencies and fails to explicitly account for the progressive growth of uncer"
 url: "https://research.nvidia.com/publication/2025-12_elucidated-rolling-diffusion-models-probabilistic-weather-forecasting"
-status: new
+status: "new"
 ---
 
 # Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting

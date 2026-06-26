@@ -1,30 +1,29 @@
 ---
-id: arxiv-2998
+id: "arxiv-2998"
 title: "A Taxonomy of Bidirectional Scattering Distribution Function Lobes for Rendering Engineers"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Morgan McGuire"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Julie Dorsey"
+    affiliation: "Yale University"
+    is_industry: false
+  - name: "John F. Hughes"
+    affiliation: "Brown University"
+    is_industry: false
+  - name: "Steve Marschner"
+    affiliation: "Cornell University"
+    is_industry: false
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
-  - name: "Julie Dorsey"
-    affiliation: ""
-    is_industry: false
-  - name: "John F. Hughes"
-    affiliation: ""
-    is_industry: false
-  - name: "Steve Marschner"
-    affiliation: ""
-    is_industry: false
   - name: "Peter Shirley"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://casual-effects.com/research/McGuire2020BSDF/index.html"
 abstract: "We propose a taxonomy and terminology for rendering engineers to use in describing the main categories of mathematical lobes that are combined to implement bidirectional scattering distribution functions (BSDFs). Bringing consistent language to this area will increase clarity in API names, textbooks"
 url: "https://research.nvidia.com/publication/2020-06_taxonomy-bidirectional-scattering-distribution-function-lobes-rendering"
-status: new
+status: "new"
 ---
 
 # A Taxonomy of Bidirectional Scattering Distribution Function Lobes for Rendering Engineers

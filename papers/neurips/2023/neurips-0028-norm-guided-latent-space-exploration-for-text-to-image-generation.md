@@ -1,29 +1,28 @@
 ---
-id: neurips-0028
+id: "neurips-0028"
 title: "Norm-guided latent space exploration for text-to-image generation"
-conference: NeurIPS 2023
-date: 2023-10
+conference: "NeurIPS 2023"
+date: "2023-10"
 authors:
+  - name: "Dvir Samuel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Rami Ben-Ari"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Nir Darshan"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dvir Samuel"
-    affiliation: ""
-    is_industry: false
-  - name: "Rami Ben-Ari"
-    affiliation: ""
-    is_industry: false
-  - name: "Nir Darshan"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://arxiv.org/abs/2306.08687"
 abstract: "Text-to-image diffusion models show great potential in synthesizing a large variety of concepts in new compositions and scenarios. However, their latent seed space is still not well understood and has been shown to have an impact in generating new and rare concepts. Specifically, simple operations l"
 url: "https://research.nvidia.com/publication/2023-10_norm-guided-latent-space-exploration-text-image-generation"
-status: new
+status: "new"
 ---
 
 # Norm-guided latent space exploration for text-to-image generation

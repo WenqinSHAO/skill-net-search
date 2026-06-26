@@ -1,8 +1,8 @@
 ---
-id: arxiv-2661
+id: "arxiv-2661"
 title: "Implicit Memory Tagging: No-Overhead Memory Safety Using Alias-Free Tagged ECC"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
@@ -20,7 +20,6 @@ topics:
   - GPU_architecture
   - Miscellaneous
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3579371.3589102"
 abstract: "Memory safety is a major security concern for unsafe programming languages, including C/C++ and CUDA/OpenACC. Hardware-accelerated memory tagging is an effective mechanism for detecting memory safety violations; however, its adoption is challenged by significant meta-data storage and memory traffic "
 url: "https://research.nvidia.com/publication/2023-06_implicit-memory-tagging-no-overhead-memory-safety-using-alias-free-tagged-ecc"
-status: new
+status: "new"
 ---
 
 # Implicit Memory Tagging: No-Overhead Memory Safety Using Alias-Free Tagged ECC

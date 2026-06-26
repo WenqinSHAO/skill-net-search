@@ -1,25 +1,24 @@
 ---
-id: arxiv-2505
+id: "arxiv-2505"
 title: "Editing Physiological Signals in Videos Using Latent Representations"
-conference: arXiv 2026
-date: 2026-06
+conference: "arXiv 2026"
+date: "2026-06"
 authors:
+  - name: "Tianwen Zhou"
+    affiliation: "University College London"
+    is_industry: false
+  - name: "Akshay Paruchuri"
+    affiliation: "University of North Carolina at Chapel Hill"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tianwen Zhou"
-    affiliation: ""
-    is_industry: false
-  - name: "Akshay Paruchuri"
-    affiliation: ""
-    is_industry: false
   - name: "Kaan Akşit"
-    affiliation: ""
+    affiliation: "University College London"
     is_industry: false
 topics:
   - Applied_perception
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://arxiv.org/abs/2509.25348"
 abstract: "Camera-based physiological signal estimation provides a convenient and non-contact way to monitor heart rate, but it also raises serious privacy concerns because facial videos can leak sensitive information about a person’s health and emotional state. We present a learned framework for editing physi"
 url: "https://research.nvidia.com/publication/2026-06%5Fediting-physiological-signals-videos-using-latent-representations"
-status: new
+status: "new"
 ---
 
 # Editing Physiological Signals in Videos Using Latent Representations

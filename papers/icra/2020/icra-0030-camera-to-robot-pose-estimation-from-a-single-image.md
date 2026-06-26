@@ -1,37 +1,36 @@
 ---
-id: icra-0030
+id: "icra-0030"
 title: "Camera-to-Robot Pose Estimation from a Single Image"
-conference: ICRA 2020
-date: 2020-05
+conference: "ICRA 2020"
+date: "2020-05"
 authors:
+  - name: "Timothy E. Lee"
+    affiliation: "NVIDIA, CMU"
+    is_industry: true
   - name: "Jonathan Tremblay"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thang To"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jia Cheng"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Terry Mosier"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Oliver Kroemer"
+    affiliation: "CMU"
+    is_industry: false
+  - name: "Dieter Fox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Timothy E. Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Thang To"
-    affiliation: ""
-    is_industry: false
-  - name: "Jia Cheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Terry Mosier"
-    affiliation: ""
-    is_industry: false
-  - name: "Oliver Kroemer"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://github.com/NVlabs/DREAM"
 abstract: "We present an approach for estimating the pose of an external camera with respect to a robot using a single RGB image of the robot. The image is processed by a deep neural network to detect 2D projections of keypoints (such as joints) associated with the robot. The network is trained entirely on sim"
 url: "https://research.nvidia.com/publication/2020-05_camera-robot-pose-estimation-single-image"
-status: new
+status: "new"
 ---
 
 # Camera-to-Robot Pose Estimation from a Single Image

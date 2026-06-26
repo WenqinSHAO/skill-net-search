@@ -1,26 +1,25 @@
 ---
-id: arxiv-2533
+id: "arxiv-2533"
 title: "Isaac Lab: A GPU Accelerated Simulation Framework For Multi-Modal Robot Learning"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
   - name: "Mayank Mittal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kelly Guo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gavriel State"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Spencer Huang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Robotics"
 abstract: "We present Isaac Lab, the natural successor to Isaac Gym, which extends the paradigm of GPU-native robotics simulation into the era of large-scale multi-modal learning. Isaac Lab combines high-fidelity GPU parallel physics, photorealistic rendering, and a modular, composable architecture for designi"
 url: "https://research.nvidia.com/publication/2025-09_isaac-lab-gpu-accelerated-simulation-framework-multi-modal-robot-learning"
-status: new
+status: "new"
 ---
 
 # Isaac Lab: A GPU Accelerated Simulation Framework For Multi-Modal Robot Learning

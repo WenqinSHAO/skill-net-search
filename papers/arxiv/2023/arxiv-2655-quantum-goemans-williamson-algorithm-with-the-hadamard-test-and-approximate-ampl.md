@@ -1,8 +1,8 @@
 ---
-id: arxiv-2655
+id: "arxiv-2655"
 title: "Quantum Goemans-Williamson Algorithm with the Hadamard Test and Approximate Amplitude Constraints"
-conference: arXiv 2023
-date: 2023-07
+conference: "arXiv 2023"
+date: "2023-07"
 authors:
   - name: "Taylor Patti"
     affiliation: "NVIDIA"
@@ -11,14 +11,13 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Caltech, NVIDIA"
+    is_industry: true
   - name: "Susanne F. Yelin"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - Quantum_computing
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Quantum Computing"
 abstract: "Semidefinite programs are optimization methods with a wide array of applications, such as approximating difficult combinatorial problems. One such semidefinite program is the Goemans-Williamson algorithm, a popular integer relaxation technique. We introduce a variational quantum algorithm for the Go"
 url: "https://research.nvidia.com/publication/2023-07_quantum-goemans-williamson-algorithm-hadamard-test-and-approximate-amplitude"
-status: new
+status: "new"
 ---
 
 # Quantum Goemans-Williamson Algorithm with the Hadamard Test and Approximate Amplitude Constraints

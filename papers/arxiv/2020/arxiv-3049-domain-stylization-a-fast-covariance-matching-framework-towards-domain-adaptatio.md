@@ -1,9 +1,12 @@
 ---
-id: arxiv-3049
+id: "arxiv-3049"
 title: "Domain Stylization: A Fast Covariance Matching Framework towards Domain Adaptation"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
+  - name: "Aysegul Dundar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +16,16 @@ authors:
   - name: "Ting-Chun Wang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "John Zedlewski"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aysegul Dundar"
-    affiliation: ""
-    is_industry: false
-  - name: "John Zedlewski"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/8968319"
 abstract: "Generating computer graphics (CG) rendered synthetic images has been widely used to create simulation environments for robotics/autonomous driving and generate labeled data. Yet, the problem of training models purely with synthetic data remains challenging due to the considerable domain gaps caused "
 url: "https://research.nvidia.com/publication/2020-01_domain-stylization-fast-covariance-matching-framework-towards-domain-adaptation"
-status: new
+status: "new"
 ---
 
 # Domain Stylization: A Fast Covariance Matching Framework towards Domain Adaptation

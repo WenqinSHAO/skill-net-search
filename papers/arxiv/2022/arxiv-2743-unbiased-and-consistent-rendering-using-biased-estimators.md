@@ -1,25 +1,24 @@
 ---
-id: arxiv-2743
+id: "arxiv-2743"
 title: "Unbiased and consistent rendering using biased estimators"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Zackary Misso"
+    affiliation: "Dartmouth College"
+    is_industry: false
   - name: "Benedikt Bitterli"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zackary Misso"
-    affiliation: ""
-    is_industry: false
   - name: "Iliyan Georgiev"
-    affiliation: ""
+    affiliation: "Autodesk"
     is_industry: false
   - name: "Wojciech Jarosz"
-    affiliation: ""
+    affiliation: "Dartmouth College"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We introduce a general framework for transforming biased estimators into unbiased and consistent estimators for the same quantity. We show how several existing unbiased and consistent estimation strategies in rendering are special cases of this framework, and are part of a broader debiasing principl"
 url: "https://research.nvidia.com/publication/2022-07_unbiased-and-consistent-rendering-using-biased-estimators"
-status: new
+status: "new"
 ---
 
 # Unbiased and consistent rendering using biased estimators

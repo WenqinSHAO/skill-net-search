@@ -1,10 +1,13 @@
 ---
-id: arxiv-2971
+id: "arxiv-2971"
 title: "UNAS: Differentiable Architecture Search Meets Reinforcement Learning"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
   - name: "Arash Vahdat"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arun Mallya"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ming-Yu Liu"
@@ -13,13 +16,9 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arun Mallya"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Neural architecture search (NAS) aims to discover network architectures with desired properties such as high accuracy or low latency. Recently, differentiable NAS (DNAS) has demonstrated promising results while maintaining a search cost orders of magnitude lower than reinforcement learning (RL) base"
 url: "https://research.nvidia.com/publication/2020-08_unas-differentiable-architecture-search-meets-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # UNAS: Differentiable Architecture Search Meets Reinforcement Learning

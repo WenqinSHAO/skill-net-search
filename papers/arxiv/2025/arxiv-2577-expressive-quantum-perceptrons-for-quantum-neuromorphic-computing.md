@@ -1,34 +1,33 @@
 ---
-id: arxiv-2577
+id: "arxiv-2577"
 title: "Expressive quantum perceptrons for quantum neuromorphic computing"
-conference: arXiv 2025
-date: 2025-01
+conference: "arXiv 2025"
+date: "2025-01"
 authors:
+  - name: "Rodrigo Araiza Bravo"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Taylor Patti"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rodrigo Araiza Bravo"
-    affiliation: ""
-    is_industry: false
   - name: "Khadijeh Najafi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Harvard University, IBM"
+    is_industry: true
   - name: "Xun Gao"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Susanne F. Yelin"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - Quantum_computing
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
 research_areas:
   - "Quantum Computing"
 url: "https://research.nvidia.com/publication/2025-01_expressive-quantum-perceptrons-quantum-neuromorphic-computing"
-status: new
+status: "new"
 ---
 
 # Expressive quantum perceptrons for quantum neuromorphic computing

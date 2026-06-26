@@ -1,22 +1,21 @@
 ---
-id: arxiv-2680
+id: "arxiv-2680"
 title: "Joint Neural Denoising of Surfaces and Volumes"
-conference: arXiv 2023
-date: 2023-03
+conference: "arXiv 2023"
+date: "2023-03"
 authors:
+  - name: "Nikolai Hofmann"
+    affiliation: "NVIDIA and Visual Computing, University of Erlangen-Nuremberg, Germany"
+    is_industry: true
   - name: "Jon Hasselgren"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nikolai Hofmann"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "Abstract Denoisers designed for surface geometry rely on noise-free feature guides for high quality results. However, these guides are not readily available for volumes. Our method enables combined volume and surface denoising in real time from low sample count (4 spp) renderings. The rendered image"
 url: "https://research.nvidia.com/publication/2023-03_joint-neural-denoising-surfaces-and-volumes"
-status: new
+status: "new"
 ---
 
 # Joint Neural Denoising of Surfaces and Volumes

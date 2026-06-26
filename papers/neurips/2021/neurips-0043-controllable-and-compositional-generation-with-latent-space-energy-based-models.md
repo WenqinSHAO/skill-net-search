@@ -1,22 +1,21 @@
 ---
-id: neurips-0043
+id: "neurips-0043"
 title: "Controllable and Compositional Generation with Latent-Space Energy-Based Models"
-conference: NeurIPS 2021
-date: 2021-11
+conference: "NeurIPS 2021"
+date: "2021-11"
 authors:
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Controllable generation is one of the key requirements for successful adoption of deep generative models in real-world applications, but it still remains as a great challenge. In particular, the compositional ability to generate novel concept combinations is out of reach for most current models. In "
 url: "https://research.nvidia.com/publication/2021-11_controllable-and-compositional-generation-latent-space-energy-based-models"
-status: new
+status: "new"
 ---
 
 # Controllable and Compositional Generation with Latent-Space Energy-Based Models

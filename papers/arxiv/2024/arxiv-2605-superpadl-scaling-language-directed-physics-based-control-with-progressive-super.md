@@ -1,12 +1,11 @@
 ---
-id: arxiv-2605
+id: "arxiv-2605"
 title: "SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -14,7 +13,7 @@ research_areas:
   - "Generative AI"
 abstract: "Physically-simulated models for human motion can generate high-quality responsive character animations, often in real-time. Natural language serves as a flexible interface for controlling these models, allowing expert and non-expert users to quickly create and edit their animations. Many recent phys"
 url: "https://research.nvidia.com/publication/2024-07_superpadl-scaling-language-directed-physics-based-control-progressive"
-status: new
+status: "new"
 ---
 
 # SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation

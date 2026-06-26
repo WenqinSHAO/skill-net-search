@@ -1,10 +1,13 @@
 ---
-id: iclr-0032
+id: "iclr-0032"
 title: "Accelerated Policy Learning with Parallel Differentiable Simulation"
-conference: ICLR 2022
-date: 2022-05
+conference: "ICLR 2022"
+date: "2022-05"
 authors:
   - name: "Jie Xu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Viktor Makoviychuk"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yashraj Narang"
@@ -13,23 +16,19 @@ authors:
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Viktor Makoviychuk"
-    affiliation: ""
-    is_industry: false
   - name: "Wojciech Matusik"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Miles Macklin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://iclr.cc/virtual/2022/poster/6923"
 abstract: "Deep reinforcement learning can generate complex control policies, but requires large amounts of training data to work effectively. Recent work has attempted to address this issue by leveraging differentiable simulators. However, inherent problems such as local minima and exploding/vanishing numeric"
 url: "https://research.nvidia.com/publication/2022-05_accelerated-policy-learning-parallel-differentiable-simulation"
-status: new
+status: "new"
 ---
 
 # Accelerated Policy Learning with Parallel Differentiable Simulation

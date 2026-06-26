@@ -1,25 +1,24 @@
 ---
-id: arxiv-2978
+id: "arxiv-2978"
 title: "World-Consistent Video-to-Video Synthesis"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Arun Mallya"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ting-Chun Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karan Sapra"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arun Mallya"
-    affiliation: ""
-    is_industry: false
-  - name: "Karan Sapra"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
   - name: "Project page"
     url: "https://nvlabs.github.io/wc-vid2vid/"
 url: "https://research.nvidia.com/publication/2020-08_world-consistent-video-video-synthesis"
-status: new
+status: "new"
 ---
 
 # World-Consistent Video-to-Video Synthesis

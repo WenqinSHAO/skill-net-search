@@ -1,30 +1,29 @@
 ---
-id: siggraph-0029
+id: "siggraph-0029"
 title: "Haisor: Human-aware Indoor Scene Optimization via Deep Reinforcement Learning"
-conference: SIGGRAPH 2024
-date: 2024-01
+conference: "SIGGRAPH 2024"
+date: "2024-01"
 authors:
   - name: "Jia-Mu Sun"
-    affiliation: ""
+    affiliation: "Institute of Computing Technology, CAS and University of Chinese Academy of Sciences"
     is_industry: false
   - name: "Jie Yang"
-    affiliation: ""
+    affiliation: "Institute of Computing Technology, CAS"
     is_industry: false
   - name: "Kaichun Mo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Stanford University"
+    is_industry: true
   - name: "Yu-Kun Lai"
-    affiliation: ""
+    affiliation: "Cardiff University"
     is_industry: false
   - name: "Leonidas Guibas"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Lin Gao"
-    affiliation: ""
+    affiliation: "Institute of Computing Technology, CAS and University of Chinese Academy of Sciences"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "3D scene synthesis facilitates and benefits many real-world applications. Most scene generators focus on making indoor scenes plausible via learning from training data and leveraging extra constraints such as adjacency and symmetry. Although the generated 3D scenes are mostly plausible with visually"
 url: "https://research.nvidia.com/publication/2024-01_haisor-human-aware-indoor-scene-optimization-deep-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # Haisor: Human-aware Indoor Scene Optimization via Deep Reinforcement Learning

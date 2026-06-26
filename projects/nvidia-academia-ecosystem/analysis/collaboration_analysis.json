@@ -1,205 +1,121 @@
 {
   "lead_type_distribution": {
-    "nvidia_led": 774,
-    "academic_led": 107,
-    "unknown": 10
+    "academic_led": 382,
+    "nvidia_led": 538,
+    "unknown": 3
   },
-  "solo_nvidia_papers": 72,
-  "collaborative_papers": 809,
+  "solo_nvidia_papers": 352,
+  "collaborative_papers": 568,
   "lead_type_by_year": {
     "2020": {
-      "nvidia_led": 113,
-      "academic_led": 20,
-      "unknown": 1
+      "nvidia_led": 78,
+      "academic_led": 57
     },
     "2021": {
-      "nvidia_led": 127,
-      "academic_led": 24,
-      "unknown": 1
+      "nvidia_led": 95,
+      "academic_led": 58
     },
     "2022": {
-      "nvidia_led": 145,
-      "unknown": 4,
-      "academic_led": 14
+      "academic_led": 60,
+      "nvidia_led": 102,
+      "unknown": 1
     },
     "2023": {
-      "academic_led": 20,
-      "nvidia_led": 147
+      "nvidia_led": 100,
+      "academic_led": 70
     },
     "2024": {
-      "nvidia_led": 104,
-      "academic_led": 19,
-      "unknown": 4
+      "nvidia_led": 61,
+      "academic_led": 68,
+      "unknown": 2
     },
     "2025": {
-      "nvidia_led": 115,
-      "academic_led": 5
+      "nvidia_led": 82,
+      "academic_led": 52
     },
     "2026": {
-      "nvidia_led": 23,
-      "academic_led": 5
+      "academic_led": 17,
+      "nvidia_led": 20
     }
   },
   "lead_type_by_domain": {
     "Applied Perception": {
-      "nvidia_led": 71,
-      "unknown": 1,
-      "academic_led": 1
+      "academic_led": 39,
+      "nvidia_led": 34
     },
     "Interconnect & Networking": {
-      "nvidia_led": 26
+      "academic_led": 11,
+      "nvidia_led": 31
     },
     "AI & Machine Learning": {
-      "nvidia_led": 413,
-      "academic_led": 33,
-      "unknown": 5
+      "academic_led": 189,
+      "nvidia_led": 266,
+      "unknown": 2
     },
     "Foundation Models": {
-      "nvidia_led": 161,
-      "academic_led": 55,
-      "unknown": 3
+      "academic_led": 73,
+      "nvidia_led": 147,
+      "unknown": 2
     },
     "CUDA Ecosystem": {
-      "nvidia_led": 69,
-      "academic_led": 6
+      "nvidia_led": 44,
+      "academic_led": 33
     },
     "Robotics & Autonomous": {
-      "nvidia_led": 204,
-      "academic_led": 14,
-      "unknown": 1
+      "nvidia_led": 113,
+      "academic_led": 110
     },
     "Simulation & HPC": {
-      "nvidia_led": 43,
-      "academic_led": 4
+      "nvidia_led": 23,
+      "academic_led": 25
     },
     "Graphics & Rendering": {
-      "nvidia_led": 188,
-      "academic_led": 23,
-      "unknown": 2
+      "academic_led": 71,
+      "nvidia_led": 142
     },
     "Computer Vision": {
-      "nvidia_led": 234,
-      "academic_led": 10,
-      "unknown": 2
+      "nvidia_led": 145,
+      "academic_led": 101,
+      "unknown": 1
     },
     "GPU Architecture": {
-      "academic_led": 8,
-      "nvidia_led": 146,
-      "unknown": 4
+      "nvidia_led": 86,
+      "academic_led": 74
     },
     "Miscellaneous": {
-      "nvidia_led": 3
+      "nvidia_led": 4
     },
     "Quantum Computing": {
-      "nvidia_led": 10
+      "nvidia_led": 3,
+      "academic_led": 7
     },
     "Medical Imaging": {
-      "nvidia_led": 8,
-      "academic_led": 4
+      "academic_led": 7,
+      "nvidia_led": 11
     },
     "Data Systems": {
-      "nvidia_led": 1
+      "academic_led": 1
     }
   },
   "domains_most_academic": [
-    "Medical Imaging",
-    "Foundation Models",
-    "Graphics & Rendering",
+    "Data Systems",
+    "Quantum Computing",
+    "Applied Perception",
     "Simulation & HPC",
-    "CUDA Ecosystem",
-    "AI & Machine Learning",
     "Robotics & Autonomous",
     "GPU Architecture",
+    "CUDA Ecosystem",
+    "AI & Machine Learning",
     "Computer Vision",
-    "Applied Perception"
+    "Medical Imaging"
   ],
   "top_academic_collaborators": [
-    {
-      "name": "Dieter Fox",
-      "papers": 70
-    },
-    {
-      "name": "Mark Haoxing Ren",
-      "papers": 48
-    },
-    {
-      "name": "Boris Ginsburg",
-      "papers": 34
-    },
-    {
-      "name": "Anima Anandkumar",
-      "papers": 32
-    },
-    {
-      "name": "Timothy Tsai",
-      "papers": 25
-    },
-    {
-      "name": "Arsalan Mousavian",
-      "papers": 19
-    },
-    {
-      "name": "Clemens Eppner",
-      "papers": 16
-    },
-    {
-      "name": "Rinon Gal",
-      "papers": 15
-    },
     {
       "name": "Gordon Wetzstein",
       "papers": 14
     },
     {
-      "name": "Chris Paxton",
-      "papers": 14
-    },
-    {
-      "name": "Animesh Garg",
-      "papers": 13
-    },
-    {
-      "name": "Somshubra Majumdar",
-      "papers": 13
-    },
-    {
-      "name": "Weili Nie",
-      "papers": 12
-    },
-    {
-      "name": "Antonio Torralba",
-      "papers": 11
-    },
-    {
-      "name": "Seung Wook Kim",
-      "papers": 11
-    },
-    {
-      "name": "Suyeon Choi",
-      "papers": 11
-    },
-    {
-      "name": "Jose M. Alvarez",
-      "papers": 11
-    },
-    {
-      "name": "Vitaly Lavrukhin",
-      "papers": 11
-    },
-    {
-      "name": "Bryan Catanzaro",
-      "papers": 10
-    },
-    {
-      "name": "Xiaolong Wang",
-      "papers": 10
-    },
-    {
-      "name": "Orazio Gallo",
-      "papers": 10
-    },
-    {
-      "name": "Karl Van Wyk",
+      "name": "Daniel Cohen-Or",
       "papers": 10
     },
     {
@@ -207,23 +123,7 @@
       "papers": 10
     },
     {
-      "name": "Evelina Bakhturina",
-      "papers": 10
-    },
-    {
-      "name": "Morgan McGuire",
-      "papers": 10
-    },
-    {
-      "name": "Daniel Cohen-Or",
-      "papers": 9
-    },
-    {
-      "name": "Jagadeesh Balam",
-      "papers": 9
-    },
-    {
-      "name": "Alex Evans",
+      "name": "Benjamin Watson",
       "papers": 9
     },
     {
@@ -231,11 +131,188 @@
       "papers": 9
     },
     {
-      "name": "Matthew Chan",
+      "name": "David Z. Pan",
       "papers": 8
+    },
+    {
+      "name": "Samin Shahriar Tokey",
+      "papers": 7
+    },
+    {
+      "name": "Mark Claypool",
+      "papers": 7
+    },
+    {
+      "name": "Susanne F. Yelin",
+      "papers": 7
+    },
+    {
+      "name": "Christopher W. Fletcher",
+      "papers": 7
+    },
+    {
+      "name": "Alex Aiken",
+      "papers": 6
+    },
+    {
+      "name": "Leslie Pack Kaelbling",
+      "papers": 6
+    },
+    {
+      "name": "Tomás Lozano-Pérez",
+      "papers": 6
+    },
+    {
+      "name": "Otmar Hilliges",
+      "papers": 6
+    },
+    {
+      "name": "Ethan Fetaya",
+      "papers": 6
+    },
+    {
+      "name": "Alla Sheffer",
+      "papers": 6
+    },
+    {
+      "name": "Chao Zhang",
+      "papers": 5
+    },
+    {
+      "name": "Dvir Samuel",
+      "papers": 5
+    },
+    {
+      "name": "Shinji Watanabe",
+      "papers": 5
+    },
+    {
+      "name": "Yiran Chen",
+      "papers": 5
+    },
+    {
+      "name": "Or Patashnik",
+      "papers": 5
+    },
+    {
+      "name": "Kris Kitani",
+      "papers": 5
+    },
+    {
+      "name": "Hao Chen",
+      "papers": 5
+    },
+    {
+      "name": "Hyoukjun Kwon",
+      "papers": 5
+    },
+    {
+      "name": "Abdulrahman Mahmoud",
+      "papers": 5
+    },
+    {
+      "name": "Sarita V. Adve",
+      "papers": 5
+    },
+    {
+      "name": "Abhishek Gupta",
+      "papers": 4
+    },
+    {
+      "name": "Rohan Yadav",
+      "papers": 4
+    },
+    {
+      "name": "Byungjoo Lee",
+      "papers": 4
+    },
+    {
+      "name": "Stephan ten Brink",
+      "papers": 4
     }
   ],
-  "top_institutions": [],
-  "avg_nvidia_authors_per_paper": 2.4,
-  "avg_academic_authors_per_paper": 3.6
+  "top_institutions": [
+    {
+      "name": "Stanford University",
+      "papers": 120
+    },
+    {
+      "name": "MIT",
+      "papers": 45
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "papers": 43
+    },
+    {
+      "name": "University of Illinois at Urbana-Champaign",
+      "papers": 39
+    },
+    {
+      "name": "Bar-Ilan University",
+      "papers": 34
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "papers": 33
+    },
+    {
+      "name": "Harvard University",
+      "papers": 33
+    },
+    {
+      "name": "University of Washington",
+      "papers": 31
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "papers": 30
+    },
+    {
+      "name": "UIUC",
+      "papers": 28
+    },
+    {
+      "name": "Tel-Aviv University",
+      "papers": 28
+    },
+    {
+      "name": "NVIDIA, University of Toronto, Vector Institute",
+      "papers": 26
+    },
+    {
+      "name": "Georgia Tech",
+      "papers": 25
+    },
+    {
+      "name": "Caltech",
+      "papers": 22
+    },
+    {
+      "name": "Weizmann Institute of Science",
+      "papers": 22
+    },
+    {
+      "name": "NVIDIA, Vector Institute, University of Toronto",
+      "papers": 21
+    },
+    {
+      "name": "University of British Columbia",
+      "papers": 21
+    },
+    {
+      "name": "CMU",
+      "papers": 19
+    },
+    {
+      "name": "ETH Zurich",
+      "papers": 19
+    },
+    {
+      "name": "Princeton University",
+      "papers": 19
+    }
+  ],
+  "avg_nvidia_authors_per_paper": 4.3,
+  "avg_academic_authors_per_paper": 1.7
 }

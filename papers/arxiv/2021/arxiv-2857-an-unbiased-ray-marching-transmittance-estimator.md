@@ -1,24 +1,26 @@
 ---
-id: arxiv-2857
+id: "arxiv-2857"
 title: "An Unbiased Ray-Marching Transmittance Estimator"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
   - name: "Markus Kettunen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Eugene d&#039;Eon"
+  - name: "Eugene d'Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jacopo Pantaleoni"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jacopo Pantaleoni"
-    affiliation: ""
-    is_industry: false
+  - name: "Eugene d&#039;Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +28,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We present an in-depth analysis of the sources of variance in state-of-the-art unbiased volumetric transmittance estimators, and propose several new methods for improving their efficiency. These combine to produce a single estimator that is universally optimal relative to prior work, with up to seve"
 url: "https://research.nvidia.com/publication/2021-06_unbiased-ray-marching-transmittance-estimator"
-status: new
+status: "new"
 ---
 
 # An Unbiased Ray-Marching Transmittance Estimator

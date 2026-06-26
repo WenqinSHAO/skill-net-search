@@ -1,28 +1,27 @@
 ---
-id: iros-0012
+id: "iros-0012"
 title: "Multi-View Fusion for Multi-Level Robotic Scene Understanding"
-conference: IROS 2021
-date: 2021-09
+conference: "IROS 2021"
+date: "2021-09"
 authors:
+  - name: "Yunzhi Lin"
+    affiliation: "NVIDIA, Georgia Institute of Technology"
+    is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Patricio A. Vela"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yunzhi Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Patricio A. Vela"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2103.13539"
 abstract: "We present a system for multi-level scene awareness for robotic manipulation. Given a sequence of camera-in-hand RGB images, the system calculates three types of information: 1) a point cloud representation of all the surfaces in the scene, for the purpose of obstacle avoidance. 2) the rough pose of"
 url: "https://research.nvidia.com/publication/2021-09_multi-view-fusion-multi-level-robotic-scene-understanding"
-status: new
+status: "new"
 ---
 
 # Multi-View Fusion for Multi-Level Robotic Scene Understanding

@@ -1,30 +1,29 @@
 ---
-id: arxiv-2956
+id: "arxiv-2956"
 title: "Collaborative Interaction Models for Optimized Human-Robot Teamwork"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Adam Fishman"
+    affiliation: "NVIDIA, University of Washington"
+    is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Adam Fishman"
-    affiliation: ""
-    is_industry: false
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
   - name: "Nathan Ratliff"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Byron Boots"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://youtu.be/bSY8K-jkRtA"
 abstract: "Effective human-robot collaboration requires informed anticipation. The robot must anticipate the human's actions, but also react quickly and intuitively when its predictions are wrong. The robot must plan its actions to account for the human's own plan, with the knowledge that the human's behavior "
 url: "https://research.nvidia.com/publication/2020-10_collaborative-interaction-models-optimized-human-robot-teamwork"
-status: new
+status: "new"
 ---
 
 # Collaborative Interaction Models for Optimized Human-Robot Teamwork

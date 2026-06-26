@@ -1,8 +1,8 @@
 ---
-id: neurips-0023
+id: "neurips-0023"
 title: "Generalizable One-shot 3D Neural Head Avatar"
-conference: NeurIPS 2023
-date: 2023-12
+conference: "NeurIPS 2023"
+date: "2023-12"
 authors:
   - name: "Xueting Li"
     affiliation: "NVIDIA"
@@ -24,7 +24,6 @@ authors:
     is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://arxiv.org/abs/2306.08768"
 abstract: "We present a method that reconstructs and animates a 3D head avatar from a single-view portrait image. Existing methods either involve time-consuming optimization for a specific person with multiple images, or they struggle to synthesize intricate appearance details beyond the facial region. To addr"
 url: "https://research.nvidia.com/publication/2023-12_generalizable-one-shot-3d-neural-head-avatar"
-status: new
+status: "new"
 ---
 
 # Generalizable One-shot 3D Neural Head Avatar

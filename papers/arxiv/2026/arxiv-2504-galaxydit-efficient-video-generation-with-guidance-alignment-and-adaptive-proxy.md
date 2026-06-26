@@ -1,9 +1,12 @@
 ---
-id: arxiv-2504
+id: "arxiv-2504"
 title: "GalaxyDiT: Efficient Video Generation with Guidance Alignment and Adaptive Proxy in Diffusion Transformers"
-conference: arXiv 2026
-date: 2026-07
+conference: "arXiv 2026"
+date: "2026-07"
 authors:
+  - name: "Zoey Song"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Steve Dai"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zoey Song"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2512.03451"
 abstract: "Diffusion models have revolutionized video generation, becoming essential tools in creative content generation and physical simulation. Transformer-based architectures (DiTs) and classifier-free guidance (CFG) are two cornerstones of this success, enabling strong prompt adherence and realistic video"
 url: "https://research.nvidia.com/publication/2026-07%5Fgalaxydit-efficient-video-generation-guidance-alignment-and-adaptive-proxy"
-status: new
+status: "new"
 ---
 
 # GalaxyDiT: Efficient Video Generation with Guidance Alignment and Adaptive Proxy in Diffusion Transformers

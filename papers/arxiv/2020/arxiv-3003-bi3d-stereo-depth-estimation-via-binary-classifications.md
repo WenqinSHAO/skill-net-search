@@ -1,31 +1,30 @@
 ---
-id: arxiv-3003
+id: "arxiv-3003"
 title: "Bi3D: Stereo Depth Estimation via Binary Classifications"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Abhishek Badki"
+    affiliation: "UC Santa Barbara"
+    is_industry: false
+  - name: "Alejandro Troccoli"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kihwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Abhishek Badki"
-    affiliation: ""
-    is_industry: false
-  - name: "Alejandro Troccoli"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
   - name: "Pradeep Sen"
-    affiliation: ""
+    affiliation: "UC Santa Barbara"
     is_industry: false
   - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://github.com/NVlabs/bi3d"
 abstract: "Stereo-based depth estimation is a cornerstone of computer vision, with state-of-the-art methods delivering accurate results in real time. For several applications such as autonomous navigation, however, it may be useful to trade accuracy for lower latency. We present Bi3D, a method that estimates d"
 url: "https://research.nvidia.com/publication/2020-06_bi3d-stereo-depth-estimation-binary-classifications"
-status: new
+status: "new"
 ---
 
 # Bi3D: Stereo Depth Estimation via Binary Classifications

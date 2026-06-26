@@ -1,31 +1,30 @@
 ---
-id: siggraph-0057
+id: "siggraph-0057"
 title: "Display Size and Targeting Performance: Small Hurts, Large May Help"
-conference: SIGGRAPH 2022
-date: 2022-12
+conference: "SIGGRAPH 2022"
+date: "2022-12"
 authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Arjun Madhusudan"
+    affiliation: "NCSU"
+    is_industry: false
+  - name: "Benjamin Watson"
+    affiliation: "NCSU"
+    is_industry: false
   - name: "Ben Boudaoud"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Roland Tarrazo"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arjun Madhusudan"
-    affiliation: ""
-    is_industry: false
-  - name: "Benjamin Watson"
-    affiliation: ""
-    is_industry: false
-  - name: "Roland Tarrazo"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,9 +32,9 @@ research_areas:
   - "Esports"
   - "Human Computer Interaction"
   - "VR, AR and Display Technology"
-abstract: "Which display size helps gamers win? Recommendations from the research and PC gaming communities are contradictory. We find that as display size grows, targeting performance improves. When size increases from 13" to 26", targeting time drops by over 3%. Further size increases from 26" through 39", 5"
+abstract: "Which display size helps gamers win? Recommendations from the research and PC gaming communities are contradictory. We find that as display size grows, targeting performance improves. When size increases from 13\" to 26\", targeting time drops by over 3%. Further size increases from 26\" through 39\", 5"
 url: "https://research.nvidia.com/publication/2022-12_display-size-and-targeting-performance-small-hurts-large-may-help"
-status: new
+status: "new"
 ---
 
 # Display Size and Targeting Performance: Small Hurts, Large May Help

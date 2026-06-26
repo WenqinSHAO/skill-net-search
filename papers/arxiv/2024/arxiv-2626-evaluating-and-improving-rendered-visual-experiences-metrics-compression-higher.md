@@ -1,8 +1,8 @@
 ---
-id: arxiv-2626
+id: "arxiv-2626"
 title: "Evaluating and Improving Rendered Visual Experiences: Metrics, Compression, Higher Frame Rates &amp; Recoloring"
-conference: arXiv 2024
-date: 2024-02
+conference: "arXiv 2024"
+date: "2024-02"
 authors:
   - name: "Pontus Ebelin"
     affiliation: "NVIDIA"
@@ -10,7 +10,6 @@ authors:
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
     url: "https://portal.research.lu.se/en/publications/evaluating-and-improving-rendered-visual-experiences-metrics-comp"
 abstract: "Rendered imagery is presented to us daily. Special effects in movies, video games, scientific visualizations, and marketing catalogs all often rely on images generated through computer graphics. However, with all the possibilities that rendering offers come also a plethora of challenges. This thesis"
 url: "https://research.nvidia.com/publication/2024-02_evaluating-and-improving-rendered-visual-experiences"
-status: new
+status: "new"
 ---
 
 # Evaluating and Improving Rendered Visual Experiences: Metrics, Compression, Higher Frame Rates &amp; Recoloring

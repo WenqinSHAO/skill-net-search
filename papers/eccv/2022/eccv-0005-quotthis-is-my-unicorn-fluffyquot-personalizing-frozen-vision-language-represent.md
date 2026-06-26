@@ -1,9 +1,15 @@
 ---
-id: eccv-0005
+id: "eccv-0005"
 title: "&quot;This is my unicorn, Fluffy&quot;: Personalizing frozen vision-language representations"
-conference: ECCV 2022
-date: 2022-11
+conference: "ECCV 2022"
+date: "2022-11"
 authors:
+  - name: "Niv Cohen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Eli Meirom"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,17 +19,10 @@ authors:
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Niv Cohen"
-    affiliation: ""
-    is_industry: false
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Generative AI"
 abstract: "Large Vision &amp; Language models pretrained on web-scale data provide representations that are invaluable for numerous V&amp;L problems. However, it is unclear how they can be used for reasoning about user-specific visual concepts in unstructured language. This problem arises in multiple domains, "
 url: "https://research.nvidia.com/publication/2022-11_my-unicorn-fluffy-personalizing-frozen-vision-language-representations"
-status: new
+status: "new"
 ---
 
 # &quot;This is my unicorn, Fluffy&quot;: Personalizing frozen vision-language representations

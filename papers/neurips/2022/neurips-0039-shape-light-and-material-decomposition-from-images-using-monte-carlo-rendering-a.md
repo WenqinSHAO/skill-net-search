@@ -1,22 +1,21 @@
 ---
-id: neurips-0039
+id: "neurips-0039"
 title: "Shape, Light, and Material Decomposition from Images using Monte Carlo Rendering and Denoising"
-conference: NeurIPS 2022
-date: 2022-10
+conference: "NeurIPS 2022"
+date: "2022-10"
 authors:
   - name: "Jon Hasselgren"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nikolai Hofmann"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nikolai Hofmann"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2206.03380"
 abstract: "Abstract Recent advances in differentiable rendering have enabled high-quality reconstruction of 3D scenes from multi-view images. Most methods rely on simple rendering algorithms: pre-filtered direct lighting or learned representations of irradiance. We show that a more realistic shading model, inc"
 url: "https://research.nvidia.com/publication/2022-10_shape-light-and-material-decomposition-images-using-monte-carlo-rendering-and"
-status: new
+status: "new"
 ---
 
 # Shape, Light, and Material Decomposition from Images using Monte Carlo Rendering and Denoising

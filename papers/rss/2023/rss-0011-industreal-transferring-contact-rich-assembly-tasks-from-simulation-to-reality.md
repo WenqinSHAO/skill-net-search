@@ -1,37 +1,36 @@
 ---
-id: rss-0011
+id: "rss-0011"
 title: "IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality"
-conference: RSS 2023
-date: 2023-05
+conference: "RSS 2023"
+date: "2023-05"
 authors:
+  - name: "Bingjie Tang"
+    affiliation: "University of Southern California"
+    is_industry: false
+  - name: "Michael A. Lin"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ankur Handa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Gaurav S. Sukhatme"
+    affiliation: "University of Southern California"
+    is_industry: false
   - name: "Fabio Ramos"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Bingjie Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Michael A. Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
-  - name: "Gaurav S. Sukhatme"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -60,7 +59,7 @@ external_links:
     url: "https://github.com/NVLabs/industreallib"
 abstract: "Robotic assembly is a longstanding challenge, requiring contact-rich interaction and high precision and accuracy. Many applications also require adaptivity to diverse parts, poses, and environments, as well as low cycle times. In other areas of robotics, simulation is a powerful tool to develop algo"
 url: "https://research.nvidia.com/publication/2023-05_industreal-transferring-contact-rich-assembly-tasks-simulation-reality"
-status: new
+status: "new"
 ---
 
 # IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality

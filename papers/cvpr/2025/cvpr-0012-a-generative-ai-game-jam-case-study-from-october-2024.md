@@ -1,8 +1,8 @@
 ---
-id: cvpr-0012
+id: "cvpr-0012"
 title: "A Generative AI Game Jam Case Study from October 2024"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
@@ -10,7 +10,6 @@ authors:
 topics:
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ external_links:
     url: "https://github.com/jspjut/plunderwater-st"
 abstract: "Generative Artificial Intelligence (GenAI) promises to democratize many creative endeavors, from art, to music, to writing. However, video games are an underexplored field for GenAI given the highly multi-modal and interactive nature. In this work, we present a case study game-jam-style game develop"
 url: "https://research.nvidia.com/publication/2025-06_generative-ai-game-jam-case-study-october-2024"
-status: new
+status: "new"
 ---
 
 # A Generative AI Game Jam Case Study from October 2024

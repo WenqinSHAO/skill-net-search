@@ -1,10 +1,16 @@
 ---
-id: corl-0016
+id: "corl-0016"
 title: "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection"
-conference: CoRL 2023
-date: 2023-08
+conference: "CoRL 2023"
+date: "2023-08"
 authors:
+  - name: "Yazhou Xing"
+    affiliation: "HKUST"
+    is_industry: false
   - name: "Amrita Mazumdar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Anjul Patney"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chao Liu"
@@ -13,25 +19,18 @@ authors:
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Qifeng Chen"
+    affiliation: "HKUST"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yazhou Xing"
-    affiliation: ""
-    is_industry: false
-  - name: "Anjul Patney"
-    affiliation: ""
-    is_industry: false
-  - name: "Qifeng Chen"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://arxiv.org/abs/2308.15462"
 abstract: "Low dynamic range (LDR) cameras cannot deal with wide dynamic range inputs, frequently leading to local overexposure issues. We present a learning-based system to reduce these artifacts without resorting to complex acquisition mechanisms like alternating exposures or costly processing that are typic"
 url: "https://research.nvidia.com/publication/2023-08_online-overexposed-pixels-hallucination-videos-adaptive-reference-frame"
-status: new
+status: "new"
 ---
 
 # Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection

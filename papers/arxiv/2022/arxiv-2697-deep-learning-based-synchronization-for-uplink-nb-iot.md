@@ -1,8 +1,8 @@
 ---
-id: arxiv-2697
+id: "arxiv-2697"
 title: "Deep Learning-Based Synchronization for Uplink NB-IoT"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
   - name: "Fayçal Aït Aoudia"
     affiliation: "NVIDIA"
@@ -23,7 +23,6 @@ topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/pdf/2205.10805.pdf"
 abstract: "We propose a neural network (NN)-based algorithm for device detection and time of arrival (ToA) and carrier frequency offset (CFO) estimation for the narrowband physical random-access channel (NPRACH) of narrowband internet of things (NB-IoT). The introduced NN architecture leverages residual convol"
 url: "https://research.nvidia.com/publication/2022-12_deep-learning-based-synchronization-uplink-nb-iot"
-status: new
+status: "new"
 ---
 
 # Deep Learning-Based Synchronization for Uplink NB-IoT

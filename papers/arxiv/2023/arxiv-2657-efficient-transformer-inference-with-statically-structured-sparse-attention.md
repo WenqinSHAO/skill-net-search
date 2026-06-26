@@ -1,26 +1,25 @@
 ---
-id: arxiv-2657
+id: "arxiv-2657"
 title: "Efficient Transformer Inference with Statically Structured Sparse Attention"
-conference: arXiv 2023
-date: 2023-07
+conference: "arXiv 2023"
+date: "2023-07"
 authors:
   - name: "Steve Dai"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Hasan Genc"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Rangharajan Venkatesan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hasan Genc"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/10247993"
 abstract: "Self-attention matrices of Transformers are often highly sparse because the relevant context of each token is typically limited to just a few other tokens in the sequence. To reduce the computational burden of self-attention on Transformer inference, we propose static, structured, sparse attention m"
 url: "https://research.nvidia.com/publication/2023-07_efficient-transformer-inference-statically-structured-sparse-attention"
-status: new
+status: "new"
 ---
 
 # Efficient Transformer Inference with Statically Structured Sparse Attention

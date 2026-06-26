@@ -1,10 +1,16 @@
 ---
-id: arxiv-2918
+id: "arxiv-2918"
 title: "MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Vidya A. Chhabria"
+    affiliation: "University of Minnesota"
+    is_industry: false
   - name: "Yanqing Zhang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ben Keller"
@@ -13,19 +19,12 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vidya A. Chhabria"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "Sachin S. Sapatnekar"
-    affiliation: ""
+    affiliation: "University of Minnesota"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,9 +34,9 @@ research_areas:
 external_links:
   - name: "MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification"
     url: "https://ieeexplore.ieee.org/document/9473914"
-abstract: "Vectored IR drop analysis is a critical step in chip signoff that checks the power integrity of an on-chip power delivery network. Due to the prohibitive runtimes of dynamic IR drop analysis, the large number of test patterns must be whittled down to a small subset of worstcase IR vectors. Unlike t"
+abstract: "Vectored IR drop analysis is a critical step in chip signoff that checks the power integrity of an on-chip power delivery network. Due to the prohibitive runtimes of dynamic IR drop analysis, the large number of test patterns must be whittled down to a small subset of worst\u0002case IR vectors. Unlike t"
 url: "https://research.nvidia.com/publication/2021-02_mavirec-ml-aided-vectored-ir-drop-estimation-and-classification"
-status: new
+status: "new"
 ---
 
 # MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification

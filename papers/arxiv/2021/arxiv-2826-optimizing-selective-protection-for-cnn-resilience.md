@@ -1,44 +1,43 @@
 ---
-id: arxiv-2826
+id: "arxiv-2826"
 title: "Optimizing Selective Protection for CNN Resilience"
-conference: arXiv 2021
-date: 2021-10
+conference: "arXiv 2021"
+date: "2021-10"
 authors:
+  - name: "Abdulrahman Mahmoud"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Christopher W. Fletcher"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Sarita V. Adve"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
   - name: "Charbel Sakr"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Naresh Shanbhag"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Abdulrahman Mahmoud"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher W. Fletcher"
-    affiliation: ""
-    is_industry: false
-  - name: "Sarita V. Adve"
-    affiliation: ""
-    is_industry: false
-  - name: "Naresh Shanbhag"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9700317"
 abstract: "As CNNs are being extensively employed in high performance and safety-critical applications that demand high reliability, it is important to ensure that they are resilient to transient hardware errors. Traditional full redundancy solutions provide high error coverage, but the associated overheads ar"
 url: "https://research.nvidia.com/publication/2021-10_optimizing-selective-protection-cnn-resilience"
-status: new
+status: "new"
 ---
 
 # Optimizing Selective Protection for CNN Resilience

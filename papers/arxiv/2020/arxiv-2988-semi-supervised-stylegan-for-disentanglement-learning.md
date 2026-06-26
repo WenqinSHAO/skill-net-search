@@ -1,36 +1,35 @@
 ---
-id: arxiv-2988
+id: "arxiv-2988"
 title: "Semi-Supervised StyleGAN for Disentanglement Learning"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Weili Nie"
+    affiliation: "Rice University"
+    is_industry: false
   - name: "Tero Karras"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shoubhik Debnath"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anjul Patney"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ankit B. Patel"
-    affiliation: ""
+    affiliation: "Rice University"
     is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
     url: "https://docs.google.com/presentation/d/127ChXpeWUNXIOkf6Z6qB201BhnJUxZepK4mvtsq9ELM/edit?usp=sharing"
 abstract: "Disentanglement learning is crucial for obtaining disentangled representations and controllable generation. Current disentanglement methods face several inherent limitations: difficulty with high-resolution images, primarily on learning disentangled representations, and non-identifiability due to th"
 url: "https://research.nvidia.com/publication/2020-07_semi-supervised-stylegan-disentanglement-learning"
-status: new
+status: "new"
 ---
 
 # Semi-Supervised StyleGAN for Disentanglement Learning

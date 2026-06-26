@@ -1,10 +1,22 @@
 ---
-id: siggraph-0032
+id: "siggraph-0032"
 title: "Adaptive Shells for Efficient Neural Radiance Field Rendering"
-conference: SIGGRAPH 2023
-date: 2023-12
+conference: "SIGGRAPH 2023"
+date: "2023-12"
 authors:
+  - name: "Zian Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Tianchang Shen"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Merlin Nimier-David"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nicholas Sharp"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jun Gao"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
@@ -16,26 +28,13 @@ authors:
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zian Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Tianchang Shen"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
-  - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
   - name: "Zan Gojcic"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/adaptive-shells/"
 abstract: "Neural radiance fields achieve unprecedented quality for novel view synthesis, but their volumetric formulation remains expensive, requiring a huge number of samples to render high-resolution images. Volumetric encodings are essential to represent fuzzy geometry such as foliage and hair, and they ar"
 url: "https://research.nvidia.com/publication/2023-12_adaptive-shells-efficient-neural-radiance-field-rendering"
-status: new
+status: "new"
 ---
 
 # Adaptive Shells for Efficient Neural Radiance Field Rendering

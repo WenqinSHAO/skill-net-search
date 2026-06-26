@@ -1,32 +1,34 @@
 ---
-id: arxiv-2895
+id: "arxiv-2895"
 title: "Learning Sparse Matrix Row Permutations for Efficient SpMM on GPU Architectures"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
+  - name: "Atefeh Mehrabi"
+    affiliation: "Duke University"
+    is_industry: false
   - name: "Donghyuk Lee"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Niladrish Chatterjee"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Danial J. Sorin"
+    affiliation: "Duke University"
+    is_industry: false
+  - name: "Benjamin C. Lee"
+    affiliation: "University of Pennsylvania"
+    is_industry: false
+  - name: "Mike O'Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mike O&#039;Connor"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Atefeh Mehrabi"
-    affiliation: ""
-    is_industry: false
-  - name: "Danial J. Sorin"
-    affiliation: ""
-    is_industry: false
-  - name: "Benjamin C. Lee"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +41,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9408181"
 abstract: "Achieving peak performance on sparse operations is challenging. The distribution of the non-zero elements and underlying hardware platform affect the execution efficiency. Given the diversity in workloads and architectures, no uniquesolution always wins. In this paper, we improve SpMM efficiency on "
 url: "https://research.nvidia.com/publication/2021-03_learning-sparse-matrix-row-permutations-efficient-spmm-gpu-architectures"
-status: new
+status: "new"
 ---
 
 # Learning Sparse Matrix Row Permutations for Efficient SpMM on GPU Architectures

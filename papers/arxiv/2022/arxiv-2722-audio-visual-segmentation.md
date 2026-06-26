@@ -1,24 +1,23 @@
 ---
-id: arxiv-2722
+id: "arxiv-2722"
 title: "Audio-Visual Segmentation"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Jinxin Zhou"
+    affiliation: "Australian National Univ."
+    is_industry: false
+  - name: "Yiran Zhong"
+    affiliation: "Australian National Univ."
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jinxin Zhou"
-    affiliation: ""
-    is_industry: false
-  - name: "Yiran Zhong"
-    affiliation: ""
-    is_industry: false
   - name: "et al."
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://opennlplab.github.io/AVSBench/"
 abstract: "We propose to explore a new problem called audio-visual segmentation (AVS), in which the goal is to output a pixel-level map of the object(s) that produce sound at the time of the image frame. To facilitate this research, we construct the first audio-visual segmentation benchmark (AVSBench), providi"
 url: "https://research.nvidia.com/publication/2022-10_audio-visual-segmentation"
-status: new
+status: "new"
 ---
 
 # Audio-Visual Segmentation

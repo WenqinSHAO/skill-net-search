@@ -1,32 +1,31 @@
 ---
-id: siggraph-0050
+id: "siggraph-0050"
 title: "Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Moab Arar"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Amit Bermano"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Moab Arar"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit Bermano"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://arxiv.org/abs/2302.12228"
 abstract: "Text-to-image personalization aims to teach a pre-trained diffusion model to reason about novel, user provided concepts, embedding them into new scenes guided by natural language prompts. However, current personalization approaches struggle with lengthy training times, high storage requirements or l"
 url: "https://research.nvidia.com/publication/2023-08_encoder-based-domain-tuning-fast-personalization-text-image-models-0"
-status: new
+status: "new"
 ---
 
 # Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models

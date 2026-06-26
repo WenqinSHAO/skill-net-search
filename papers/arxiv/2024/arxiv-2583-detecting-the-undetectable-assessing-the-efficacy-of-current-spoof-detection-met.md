@@ -1,40 +1,39 @@
 ---
-id: arxiv-2583
+id: "arxiv-2583"
 title: "Detecting the Undetectable: Assessing the Efficacy of Current Spoof Detection Methods Against Seamless Speech Edits"
-conference: arXiv 2024
-date: 2024-12
+conference: "arXiv 2024"
+date: "2024-12"
 authors:
   - name: "Sung-Feng Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Heng-Cheng Kuo"
+    affiliation: "National Taiwan University"
+    is_industry: false
+  - name: "Zhehuai Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xuesong Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yu Tsao"
+    affiliation: "Acedemia Sinica"
+    is_industry: false
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Hung-yi Lee"
+    affiliation: "National Taiwan University"
+    is_industry: false
   - name: "Szu-Wei Fu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Heng-Cheng Kuo"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhehuai Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Xuesong Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Tsao"
-    affiliation: ""
-    is_industry: false
-  - name: "Hung-yi Lee"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/10832200"
 abstract: "Neural speech editing advancements have raised concerns about their misuse in spoofing attacks. Traditional partially edited speech corpora primarily focus on cut-and-paste edits, which, while maintaining speaker consistency, often introduce detectable discontinuities. Recent methods, like A^{3}T an"
 url: "https://research.nvidia.com/publication/2024-12_detecting-undetectable-assessing-efficacy-current-spoof-detection-methods"
-status: new
+status: "new"
 ---
 
 # Detecting the Undetectable: Assessing the Efficacy of Current Spoof Detection Methods Against Seamless Speech Edits

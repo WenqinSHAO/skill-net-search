@@ -1,22 +1,21 @@
 ---
-id: icml-0003
+id: "icml-0003"
 title: "SLIM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression"
-conference: ICML 2025
-date: 2025-06
+conference: "ICML 2025"
+date: "2025-06"
 authors:
+  - name: "Mohammad Mozaffari"
+    affiliation: "University of Toronto"
+    is_industry: false
+  - name: "Amir Yazdanbakhsh"
+    affiliation: "Google DeepMind"
+    is_industry: true
   - name: "Maryam Mehri Dehnavi"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mohammad Mozaffari"
-    affiliation: ""
-    is_industry: false
-  - name: "Amir Yazdanbakhsh"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://arxiv.org/pdf/2410.09615"
 abstract: "Conventional model compression techniques for LLMs address high memory consumption and slow inference challenges but typically require computationally expensive retraining to preserve accuracy. In contrast, one-shot compression methods eliminate retraining costs, but struggle to achieve accuracy com"
 url: "https://research.nvidia.com/publication/2025-06_slim-one-shot-quantization-and-sparsity-low-rank-approximation-llm-weight"
-status: new
+status: "new"
 ---
 
 # SLIM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression

@@ -1,27 +1,26 @@
 ---
-id: arxiv-2704
+id: "arxiv-2704"
 title: "Optimized geometries for cooperative photon storage in an impurity coupled to a two-dimensional atomic array"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
+  - name: "Samuel Buckley-Bonanno"
+    affiliation: "Harvard University"
+    is_industry: false
+  - name: "Stefan Ostermann"
+    affiliation: "Harvard University"
+    is_industry: false
+  - name: "Oriol Rubies-Bigorda"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Taylor Patti"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samuel Buckley-Bonanno"
-    affiliation: ""
-    is_industry: false
-  - name: "Stefan Ostermann"
-    affiliation: ""
-    is_industry: false
-  - name: "Oriol Rubies-Bigorda"
-    affiliation: ""
-    is_industry: false
   - name: "Susanne F. Yelin"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - Quantum_computing
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Quantum Computing"
 abstract: "The collective modes of two-dimensional ordered atomic arrays can modify the radiative environment of embedded atomic impurities. We analyze the role of the lattice geometry on the impurity's emission linewidth by comparing the effective impurity decay rate obtained for all noncentered Bravais latti"
 url: "https://research.nvidia.com/publication/2022-11_optimized-geometries-cooperative-photon-storage-impurity-coupled-two"
-status: new
+status: "new"
 ---
 
 # Optimized geometries for cooperative photon storage in an impurity coupled to a two-dimensional atomic array

@@ -1,8 +1,8 @@
 ---
-id: neurips-0041
+id: "neurips-0041"
 title: "Alias-Free Generative Adversarial Networks"
-conference: NeurIPS 2021
-date: 2021-12
+conference: "NeurIPS 2021"
+date: "2021-12"
 authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
@@ -13,23 +13,22 @@ authors:
   - name: "Samuli Laine"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Erik Härkönen"
+    affiliation: "Aalto University and NVIDIA"
+    is_industry: true
   - name: "Janne Hellsten"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jaakko Lehtinen"
+    affiliation: "NVIDIA and Aalto University"
     is_industry: true
   - name: "Timo Aila"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Erik Härkönen"
-    affiliation: ""
-    is_industry: false
-  - name: "Jaakko Lehtinen"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://github.com/NVlabs/stylegan3"
 abstract: "We observe that despite their hierarchical convolutional nature, the synthesis process of typical generative adversarial networks depends on absolute pixel coordinates in an unhealthy manner. This manifests itself as, e.g., detail appearing to be glued to image coordinates instead of the surfaces of"
 url: "https://research.nvidia.com/publication/2021-12_alias-free-generative-adversarial-networks"
-status: new
+status: "new"
 ---
 
 # Alias-Free Generative Adversarial Networks

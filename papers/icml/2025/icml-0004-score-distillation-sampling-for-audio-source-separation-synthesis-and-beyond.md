@@ -1,22 +1,21 @@
 ---
-id: icml-0004
+id: "icml-0004"
 title: "Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond"
-conference: ICML 2025
-date: 2025-05
+conference: "ICML 2025"
+date: "2025-05"
 authors:
   - name: "Jessie Richter-Powell"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, MIT"
+    is_industry: true
   - name: "Antonio Torralba"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
   - name: "Overview Video"
     url: "https://youtu.be/NCk-d1FTcsc?si=LNpHzpSM5IYNgPpH"
 url: "https://research.nvidia.com/publication/2025-05_score-distillation-sampling-audio-source-separation-synthesis-and-beyond"
-status: new
+status: "new"
 ---
 
 # Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond

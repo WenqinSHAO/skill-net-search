@@ -1,36 +1,35 @@
 ---
-id: icml-0014
+id: "icml-0014"
 title: "Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere"
-conference: ICML 2023
-date: 2023-06
+conference: "ICML 2023"
+date: "2023-06"
 authors:
   - name: "Boris Bonev"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thorsten Kurth"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Christian Hundt"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jaideep Pathak"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Thorsten Kurth"
-    affiliation: ""
-    is_industry: false
-  - name: "Christian Hundt"
-    affiliation: ""
-    is_industry: false
   - name: "Maximilian Baust"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karthik Kashinath"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://resources.nvidia.com/en-us-modulus-pathfactory/modeling-earths-atmosphere"
 abstract: "Fourier Neural Operators (FNOs) have proven to be an efficient and effective method for resolution-independent operator learning in a broad variety of application areas across scientific machine learning. A key reason for their success is their ability to accurately model long-range dependencies in "
 url: "https://research.nvidia.com/publication/2023-06_spherical-fourier-neural-operators-learning-stable-dynamics-sphere"
-status: new
+status: "new"
 ---
 
 # Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere

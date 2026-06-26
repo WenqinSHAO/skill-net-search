@@ -1,22 +1,21 @@
 ---
-id: arxiv-2924
+id: "arxiv-2924"
 title: "Self-Supervised Learning for Domain Adaptation on Point-Clouds"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Idan Achituve"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Idan Achituve"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Self-supervised learning (SSL) is a technique for learning useful representations from unlabeled data. It has been applied effectively to domain adaptation (DA) on images and videos. It is still unknown if and how it can be leveraged for domain adaptation in 3D perception problems. Here we describe "
 url: "https://research.nvidia.com/publication/2021-01_self-supervised-learning-domain-adaptation-point-clouds"
-status: new
+status: "new"
 ---
 
 # Self-Supervised Learning for Domain Adaptation on Point-Clouds

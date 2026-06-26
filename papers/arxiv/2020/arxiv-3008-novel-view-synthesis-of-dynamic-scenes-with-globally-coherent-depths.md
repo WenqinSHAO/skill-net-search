@@ -1,28 +1,27 @@
 ---
-id: arxiv-3008
+id: "arxiv-3008"
 title: "Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Jae shin Yoon"
+    affiliation: "University of Minnesota"
+    is_industry: false
+  - name: "Kihwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Orazio Gallo"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hyunsoo Park"
+    affiliation: "University of Minnesota"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jae shin Yoon"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
-  - name: "Hyunsoo Park"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=S8_0V3fZIes"
 abstract: "This paper presents a new method to synthesize an image from the arbitrary view and time given a collection of images of a dynamic scene. A key challenge for the synthesis arises from dynamic scene reconstruction where epipolar geometry does not apply to the local motion of dynamic contents. Our ins"
 url: "https://research.nvidia.com/publication/2020-06_novel-view-synthesis-dynamic-scenes-globally-coherent-depths"
-status: new
+status: "new"
 ---
 
 # Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths

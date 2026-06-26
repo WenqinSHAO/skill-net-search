@@ -1,23 +1,22 @@
 ---
-id: neurips-0021
+id: "neurips-0021"
 title: "Point-Cloud Completion with Pretrained Text-to-image Diffusion Models"
-conference: NeurIPS 2023
-date: 2023-12
+conference: "NeurIPS 2023"
+date: "2023-12"
 authors:
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ohad Rahamim"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ohad Rahamim"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://sds-complete.github.io/"
 abstract: "Point-cloud data collected in real-world applications are often incomplete, be- cause objects are being observed from specific viewpoints, which only capture one perspective. Data can also be incomplete due to occlusion and low-resolution sampling. Existing approaches to completion rely on training "
 url: "https://research.nvidia.com/publication/2023-12_point-cloud-completion-pretrained-text-image-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Point-Cloud Completion with Pretrained Text-to-image Diffusion Models

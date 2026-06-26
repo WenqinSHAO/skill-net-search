@@ -1,30 +1,29 @@
 ---
-id: arxiv-2705
+id: "arxiv-2705"
 title: "The Implications of Page Size Management on Graph Analytics"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
+  - name: "Aninda Manocha"
+    affiliation: "Princeton University"
+    is_industry: false
   - name: "Zi Yan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Esin Tureci"
+    affiliation: "Princeton University"
+    is_industry: false
+  - name: "Juan Luis Aragón"
+    affiliation: "University of Murcia"
+    is_industry: false
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aninda Manocha"
-    affiliation: ""
-    is_industry: false
-  - name: "Esin Tureci"
-    affiliation: ""
-    is_industry: false
-  - name: "Juan Luis Aragón"
-    affiliation: ""
-    is_industry: false
   - name: "Margaret Martonosi"
-    affiliation: ""
+    affiliation: "Princeton University"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9975438"
 abstract: "Graph representations of data are ubiquitous in analytic applications. However, graph workloads are notorious for having irregular memory access patterns with variable access frequency per address, which cause high translation lookaside buffer (TLB) miss rates and significant address translation ove"
 url: "https://research.nvidia.com/publication/2022-11_implications-page-size-management-graph-analytics"
-status: new
+status: "new"
 ---
 
 # The Implications of Page Size Management on Graph Analytics

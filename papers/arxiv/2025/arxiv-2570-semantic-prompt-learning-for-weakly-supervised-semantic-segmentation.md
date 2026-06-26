@@ -1,27 +1,26 @@
 ---
-id: arxiv-2570
+id: "arxiv-2570"
 title: "Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation"
-conference: arXiv 2025
-date: 2025-02
+conference: "arXiv 2025"
+date: "2025-02"
 authors:
+  - name: "Ci-Siang Lin"
+    affiliation: "NVIDIA, National Taiwan University"
+    is_industry: true
+  - name: "Chien-Yi Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ci-Siang Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Chien-Yi Wang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://projectdisr.github.io/semples/"
 abstract: "Weakly-Supervised Semantic Segmentation (WSSS) aims to train segmentation models using image data with only image-level supervision. Since precise pixel-level annotations are not accessible, existing methods typically focus on producing pseudo masks for training segmentation models by refining CAM-l"
 url: "https://research.nvidia.com/publication/2025-02_semantic-prompt-learning-weakly-supervised-semantic-segmentation"
-status: new
+status: "new"
 ---
 
 # Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation

@@ -1,8 +1,8 @@
 ---
-id: arxiv-3023
+id: "arxiv-3023"
 title: "Neural Temporal Adaptive Sampling and Denoising"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Jon Hasselgren"
     affiliation: "NVIDIA"
@@ -10,18 +10,17 @@ authors:
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Marco Salvi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Anjul Patney"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Aaron Lefohn"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Marco Salvi"
-    affiliation: ""
-    is_industry: false
-  - name: "Anjul Patney"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://diglib.eg.org/bitstream/handle/10.1111/cgf13919/image_comparisons.zip?sequence=3&amp;isAllowed=y"
 abstract: "Despite recent advances in Monte Carlo path tracing at interactive rates, denoised image sequences generated with few samples per-pixel often yield temporally unstable results and loss of high-frequency details. We present a novel adaptive rendering method that increases temporal stability and image"
 url: "https://research.nvidia.com/publication/2020-05_neural-temporal-adaptive-sampling-and-denoising"
-status: new
+status: "new"
 ---
 
 # Neural Temporal Adaptive Sampling and Denoising

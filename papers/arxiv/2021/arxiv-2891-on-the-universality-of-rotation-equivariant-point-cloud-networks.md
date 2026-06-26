@@ -1,17 +1,16 @@
 ---
-id: arxiv-2891
+id: "arxiv-2891"
 title: "On the Universality of Rotation Equivariant Point Cloud Networks"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
+  - name: "Nadav Dym"
+    affiliation: "Duke University"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nadav Dym"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -20,7 +19,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Learning functions on point clouds has applications in many fields, including computer vision, computer graphics, physics, and chemistry. Recently, there has been a growing interest in neural architectures that are invariant or equivariant to all three shape-preserving transformations of point cloud"
 url: "https://research.nvidia.com/publication/2021-04_universality-rotation-equivariant-point-cloud-networks"
-status: new
+status: "new"
 ---
 
 # On the Universality of Rotation Equivariant Point Cloud Networks

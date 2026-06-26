@@ -1,25 +1,24 @@
 ---
-id: arxiv-2767
+id: "arxiv-2767"
 title: "Onesweep: A Faster Least Significant Digit Radix Sort for GPUs"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Andrey Adinets"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Duane Merrill"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andrey Adinets"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
 research_areas:
   - "Algorithms and Numerical Methods"
 url: "https://research.nvidia.com/publication/2022-06_onesweep-faster-least-significant-digit-radix-sort-gpus"
-status: new
+status: "new"
 ---
 
 # Onesweep: A Faster Least Significant Digit Radix Sort for GPUs

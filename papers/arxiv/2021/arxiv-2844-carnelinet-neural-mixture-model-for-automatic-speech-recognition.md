@@ -1,24 +1,23 @@
 ---
-id: arxiv-2844
+id: "arxiv-2844"
 title: "CarneliNet: Neural Mixture Model for Automatic Speech Recognition"
-conference: arXiv 2021
-date: 2021-07
+conference: "arXiv 2021"
+date: "2021-07"
 authors:
   - name: "Aleksei Kalinov"
-    affiliation: ""
+    affiliation: "Skolkovo Institute of Science and Technology"
     is_industry: false
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2107.10708"
 abstract: "End-to-end automatic speech recognition systems have achieved great accuracy by using deeper and deeper models. However, the increased depth comes with a larger receptive field that can negatively impact model performance in streaming scenarios. We propose an alternative approach that we call Neural"
 url: "https://research.nvidia.com/publication/2021-07_carnelinet-neural-mixture-model-automatic-speech-recognition"
-status: new
+status: "new"
 ---
 
 # CarneliNet: Neural Mixture Model for Automatic Speech Recognition

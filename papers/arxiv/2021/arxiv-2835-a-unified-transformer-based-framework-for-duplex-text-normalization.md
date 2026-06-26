@@ -1,27 +1,26 @@
 ---
-id: arxiv-2835
+id: "arxiv-2835"
 title: "A Unified Transformer-based Framework for Duplex Text Normalization"
-conference: arXiv 2021
-date: 2021-08
+conference: "arXiv 2021"
+date: "2021-08"
 authors:
   - name: "Tuan Manh Lai"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Heng Ji"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://arxiv.org/abs/2108.09889"
 abstract: "Text normalization (TN) and inverse text normalization (ITN) are essential preprocessing and postprocessing steps for text-to-speech synthesis and automatic speech recognition, respectively. Many methods have been proposed for either TN or ITN, ranging from weighted finite-state transducers to neura"
 url: "https://research.nvidia.com/publication/2021-08_unified-transformer-based-framework-duplex-text-normalization"
-status: new
+status: "new"
 ---
 
 # A Unified Transformer-based Framework for Duplex Text Normalization

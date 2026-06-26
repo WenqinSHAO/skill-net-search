@@ -1,35 +1,34 @@
 ---
-id: arxiv-2515
+id: "arxiv-2515"
 title: "SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding"
-conference: arXiv 2026
-date: 2026-02
+conference: "arXiv 2026"
+date: "2026-02"
 authors:
   - name: "Talor Abramovich"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maor Ashkenazi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Carl Putterman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Benjamin Chislett"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tiyasa Mitra"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bita Darvish Rouhani"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ran Zilberstein"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yonatan Geifman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -38,7 +37,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its ef"
 url: "https://research.nvidia.com/publication/2026-02%5Fspeed-bench-unified-and-diverse-benchmark-speculative-decoding"
-status: new
+status: "new"
 ---
 
 # SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding

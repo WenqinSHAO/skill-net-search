@@ -1,13 +1,13 @@
 ---
-id: arxiv-2567
+id: "arxiv-2567"
 title: "NVIDIA Isaac GR00T N1: An Open Foundation Model for Humanoid Robots"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Linxi &quot;Jim&quot; Fan"
+  - name: "Linxi \"Jim\" Fan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "NVIDIA GEAR Team"
@@ -17,7 +17,6 @@ topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Physical AI"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots"
-status: new
+status: "new"
 ---
 
 # NVIDIA Isaac GR00T N1: An Open Foundation Model for Humanoid Robots

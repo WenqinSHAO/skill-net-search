@@ -1,24 +1,23 @@
 ---
-id: arxiv-2938
+id: "arxiv-2938"
 title: "Generative View Synthesis: From Single-View Semantics to Novel-View Images"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Tewodros Abtegebrial"
-    affiliation: ""
+    affiliation: "TU Kaiserslautern"
     is_industry: false
   - name: "Varun Jampani"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google Research"
+    is_industry: true
   - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Didier Stricker"
-    affiliation: ""
+    affiliation: "TU Kaiserslautern"
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://gvsnet.github.io/"
 abstract: "Content creation, central to applications such as virtual reality, can be a tedious and&nbsp;time-consuming. Recent image synthesis methods simplify this task by offering&nbsp;tools to generate new views from as little as a single input image, or by converting a&nbsp;semantic map into a photorealist"
 url: "https://research.nvidia.com/publication/2020-12_generative-view-synthesis-single-view-semantics-novel-view-images"
-status: new
+status: "new"
 ---
 
 # Generative View Synthesis: From Single-View Semantics to Novel-View Images

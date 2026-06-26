@@ -1,31 +1,30 @@
 ---
-id: arxiv-2742
+id: "arxiv-2742"
 title: "Generalized Resampled Importance Sampling: Foundations of ReSTIR"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Daqi Lin"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Markus Kettunen"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Benedikt Bitterli"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jacopo Pantaleoni"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Cem Yuksel"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daqi Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Jacopo Pantaleoni"
-    affiliation: ""
-    is_industry: false
-  - name: "Cem Yuksel"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "As scenes become ever more complex and real-time applications embrace ray tracing, path sampling algorithms that maximize quality at low sample&nbsp;counts become vital. Recent resampling algorithms building on Talbot et al.’s [2005] resampled importance sampling (RIS) reuse paths spatiotemporally t"
 url: "https://research.nvidia.com/publication/2022-07_generalized-resampled-importance-sampling-foundations-restir"
-status: new
+status: "new"
 ---
 
 # Generalized Resampled Importance Sampling: Foundations of ReSTIR

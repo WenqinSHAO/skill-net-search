@@ -1,25 +1,24 @@
 ---
-id: neurips-0036
+id: "neurips-0036"
 title: "Embodied Scene-aware Human Pose Estimation"
-conference: NeurIPS 2022
-date: 2022-11
+conference: "NeurIPS 2022"
+date: "2022-11"
 authors:
+  - name: "Zhengyi Luo"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Shun Iwase"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhengyi Luo"
-    affiliation: ""
-    is_industry: false
-  - name: "Shun Iwase"
-    affiliation: ""
-    is_industry: false
   - name: "Kris Kitani"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://github.com/zhengyiluo/EmbodiedPose"
 abstract: "We propose embodied scene-aware human pose estimation where we estimate 3D poses based on a simulated agent's proprioception and scene awareness, along with external third-person observations. Unlike prior methods that often resort to multistage optimization, non-causal inference, and complex contac"
 url: "https://research.nvidia.com/publication/2022-11_embodied-scene-aware-human-pose-estimation"
-status: new
+status: "new"
 ---
 
 # Embodied Scene-aware Human Pose Estimation

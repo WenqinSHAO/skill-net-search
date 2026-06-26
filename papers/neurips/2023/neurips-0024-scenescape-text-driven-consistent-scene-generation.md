@@ -1,26 +1,25 @@
 ---
-id: neurips-0024
+id: "neurips-0024"
 title: "SceneScape: Text-Driven Consistent Scene Generation"
-conference: NeurIPS 2023
-date: 2023-12
+conference: "NeurIPS 2023"
+date: "2023-12"
 authors:
+  - name: "Rafail Fridman"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
+  - name: "Amit Abecasis"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rafail Fridman"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit Abecasis"
-    affiliation: ""
-    is_industry: false
   - name: "Tali Dekel"
-    affiliation: ""
+    affiliation: "Weizmann Institute of Science"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://scenescape.github.io/"
 abstract: "We present a method for text-driven perpetual view generation – synthesizing long-term videos of various scenes solely from an input text prompt describing the scene and camera poses. We introduce a novel framework that generates such videos in an online fashion by combining the generative power of "
 url: "https://research.nvidia.com/publication/2023-12_scenescape-text-driven-consistent-scene-generation"
-status: new
+status: "new"
 ---
 
 # SceneScape: Text-Driven Consistent Scene Generation

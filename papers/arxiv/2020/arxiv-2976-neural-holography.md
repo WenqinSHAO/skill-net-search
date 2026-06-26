@@ -1,28 +1,27 @@
 ---
-id: arxiv-2976
+id: "arxiv-2976"
 title: "Neural Holography"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Yifan Peng"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Suyeon Choi"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Nitish Padmanaban"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yifan Peng"
-    affiliation: ""
-    is_industry: false
-  - name: "Suyeon Choi"
-    affiliation: ""
-    is_industry: false
-  - name: "Nitish Padmanaban"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "http://www.computationalimaging.org/publications/neuralholography/"
 abstract: "Holographic displays promise unprecedented capabilities for direct-view displays as well as virtual and augmented reality (VR/AR) applications. However, one of the biggest challenges for computer-generated holography (CGH) is the fundamental tradeoff between algorithm runtime and achieved image qual"
 url: "https://research.nvidia.com/publication/2020-08_neural-holography"
-status: new
+status: "new"
 ---
 
 # Neural Holography

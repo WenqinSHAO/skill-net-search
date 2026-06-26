@@ -1,9 +1,12 @@
 ---
-id: rss-0004
+id: "rss-0004"
 title: "AutoMate: Specialist and Generalist Assembly Policies over Diverse Geometries"
-conference: RSS 2024
-date: 2024-07
+conference: "RSS 2024"
+date: "2024-07"
 authors:
+  - name: "Bingjie Tang"
+    affiliation: "University of Southern California"
+    is_industry: false
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,31 +16,27 @@ authors:
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ankur Handa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karl Van Wyk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Gaurav S. Sukhatme"
+    affiliation: "University of Southern California"
+    is_industry: false
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Bingjie Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
-  - name: "Gaurav S. Sukhatme"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://bingjietang718.github.io/automate/"
 abstract: "Robotic assembly for high-mixture settings requires adaptivity to diverse parts and poses, which is an open challenge. Meanwhile, in other areas of robotics, large models and sim-to-real have led to tremendous progress."
 url: "https://research.nvidia.com/publication/2024-07_automate-specialist-and-generalist-assembly-policies-over-diverse-geometries"
-status: new
+status: "new"
 ---
 
 # AutoMate: Specialist and Generalist Assembly Policies over Diverse Geometries

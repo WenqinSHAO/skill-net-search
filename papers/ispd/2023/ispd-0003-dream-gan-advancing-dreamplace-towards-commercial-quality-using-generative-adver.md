@@ -1,25 +1,24 @@
 ---
-id: ispd-0003
+id: "ispd-0003"
 title: "DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning"
-conference: ISPD 2023
-date: 2023-03
+conference: "ISPD 2023"
+date: "2023-03"
 authors:
   - name: "Yi-Chen Lu"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+  - name: "Haoxing"
+    affiliation: "Mark) Ren (NVIDIA"
+    is_industry: true
   - name: "Hao-Hsiang Hsiao"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "Sung Kyu Lim"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "DREAMPlace is a renowned open-source placer that provides GPUacceleratable infrastructure for placements of Very-Large-ScaleIntegration (VLSI) circuits. However, due to its limited focus on wirelength and density, existing placement solutions of DREAMPlace are not applicable to industrial design flo"
 url: "https://research.nvidia.com/publication/2023-03_dream-gan-advancing-dreamplace-towards-commercial-quality-using-generative"
-status: new
+status: "new"
 ---
 
 # DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning

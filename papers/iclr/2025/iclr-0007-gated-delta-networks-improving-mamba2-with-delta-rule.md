@@ -1,22 +1,21 @@
 ---
-id: iclr-0007
+id: "iclr-0007"
 title: "Gated Delta Networks: Improving Mamba2 with Delta Rule"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Songlin Yang"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ali Hatamizadeh"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Songlin Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://github.com/NVlabs/GatedDeltaNet"
 abstract: "Linear Transformers have gained attention as efficient alternatives to standard Transformers, but their performance in retrieval and long-context tasks has been limited. To address these limitations, recent work has explored two distinct mechanisms: gating for adaptive memory control and the delta u"
 url: "https://research.nvidia.com/publication/2025-04_gated-delta-networks-improving-mamba2-delta-rule"
-status: new
+status: "new"
 ---
 
 # Gated Delta Networks: Improving Mamba2 with Delta Rule

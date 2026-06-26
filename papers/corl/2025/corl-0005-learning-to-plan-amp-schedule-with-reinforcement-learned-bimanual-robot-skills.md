@@ -1,9 +1,12 @@
 ---
-id: corl-0005
+id: "corl-0005"
 title: "Learning to Plan &amp; Schedule with Reinforcement-Learned Bimanual Robot Skills"
-conference: CoRL 2025
-date: 2025-09
+conference: "CoRL 2025"
+date: "2025-09"
 authors:
+  - name: "Weikang Wan"
+    affiliation: "UC San Diego"
+    is_industry: false
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weikang Wan"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2025-09_learning-plan-schedule-reinforcement-learned-bimanual-robot-skills"
-status: new
+status: "new"
 ---
 
 # Learning to Plan &amp; Schedule with Reinforcement-Learned Bimanual Robot Skills

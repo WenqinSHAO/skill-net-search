@@ -1,26 +1,25 @@
 ---
-id: arxiv-2691
+id: "arxiv-2691"
 title: "Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning"
-conference: arXiv 2023
-date: 2023-01
+conference: "arXiv 2023"
+date: "2023-01"
 authors:
+  - name: "Pranav Khanna"
+    affiliation: ""
+    is_industry: false
+  - name: "Guy Tennenholtz"
+    affiliation: "Technion"
+    is_industry: false
+  - name: "Nadav Merlis"
+    affiliation: "Techion"
+    is_industry: false
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chen Tessler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pranav Khanna"
-    affiliation: ""
-    is_industry: false
-  - name: "Guy Tennenholtz"
-    affiliation: ""
-    is_industry: false
-  - name: "Nadav Merlis"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "In recent years, there has been significant progress in applying deep reinforcement learning (RL) for solving challenging problems across a wide variety of domains. Nevertheless, convergence of various methods has been shown to suffer from inconsistencies, due to algorithmic instability and variance"
 url: "https://research.nvidia.com/publication/2023-01_never-worse-mostly-better-stable-policy-improvement-deep-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning

@@ -1,25 +1,23 @@
 ---
-id: arxiv-2502
+id: "arxiv-2502"
 title: "Impact of Frametime Spikes on Performance and Quality of Experience in Platformer Games"
-conference: arXiv 2026
-date: 2026-08
+conference: "arXiv 2026"
+date: "2026-08"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "Worcester Polytechnic University"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "Worcester Polytechnic University"
     is_industry: false
 topics:
   - Applied_perception
-  - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,16 +29,8 @@ external_links:
   - name: "Project Page"
     url: "https://web.cs.wpi.edu/~claypool/papers/spikes-fdg-26/"
 abstract: "Frametime spikes can disrupt gameplay in games, affecting both player performance and experience, but the effects of these spikes on navigation based tasks is not well-studied. This work investigates how frametime spikes impact players performing navigation-focused tasks in a platformer game. An ope"
-research_areas:
-  - "Applied Perception"
-  - "Esports"
-  - "Human Computer Interaction"
-external_links:
-  - name: "Project Page"
-    url: "https://web.cs.wpi.edu/~claypool/papers/spikes-fdg-26/"
-abstract: "Frametime spikes can disrupt gameplay in games, affecting both player performance and experience, but the effects of these spikes on navigation based tasks is not well-studied. This work investigates how frametime spikes impact players performing navigation-focused tasks in a platformer game. An ope"
 url: "https://research.nvidia.com/publication/2026-08%5Fimpact-frametime-spikes-performance-and-quality-experience-platformer-games"
-status: new
+status: "new"
 ---
 
 # Impact of Frametime Spikes on Performance and Quality of Experience in Platformer Games

@@ -1,45 +1,44 @@
 ---
-id: siggraph-0038
+id: "siggraph-0038"
 title: "Live 3D Portrait: Real-Time Radiance Fields for Single-Image Portrait View Synthesis"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Alexander Trevithick"
+    affiliation: "UC San Diego"
+    is_industry: false
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eric R. Chan"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Chao Liu"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Sameh Khamis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Manmohan Chandraker"
+    affiliation: "UC San Diego"
+    is_industry: false
+  - name: "Ravi Ramamoorthi"
+    affiliation: "UC San Diego"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alexander Trevithick"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Eric R. Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Sameh Khamis"
-    affiliation: ""
-    is_industry: false
-  - name: "Manmohan Chandraker"
-    affiliation: ""
-    is_industry: false
-  - name: "Ravi Ramamoorthi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -54,7 +53,7 @@ external_links:
     url: "https://research.nvidia.com/labs/nxp/lp3d/"
 abstract: "We present a one-shot method to infer and render a photorealistic 3D representation from a single unposed image (e.g., face portrait) in real-time. Given a single RGB input, our image encoder directly predicts a canonical triplane representation of a neural radiance field for 3D-aware novel view syn"
 url: "https://research.nvidia.com/publication/2023-08_live-3d-portrait-real-time-radiance-fields-single-image-portrait-view-synthesis"
-status: new
+status: "new"
 ---
 
 # Live 3D Portrait: Real-Time Radiance Fields for Single-Image Portrait View Synthesis

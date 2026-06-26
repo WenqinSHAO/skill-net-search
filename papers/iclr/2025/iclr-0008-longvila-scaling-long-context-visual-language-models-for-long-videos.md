@@ -1,13 +1,43 @@
 ---
-id: iclr-0008
+id: "iclr-0008"
 title: "LongVILA: Scaling Long-Context Visual Language Models for Long Videos"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
   - name: "Yukang Chen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Fuzhao Xue"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dacheng Li"
+    affiliation: "UCB"
+    is_industry: false
+  - name: "Qinghao Hu"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Ligeng Zhu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiuyu Li"
+    affiliation: "UCB"
+    is_industry: false
+  - name: "Yunhao Fang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Haotian Tang"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Shang Yang"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Zhijian Liu"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Ethan He"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hongxu Yin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
@@ -16,52 +46,21 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Linxi Fan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuke Zhu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yao Lu (Jason)"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Song Han"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Fuzhao Xue"
-    affiliation: ""
-    is_industry: false
-  - name: "Dacheng Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Qinghao Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiuyu Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Yunhao Fang"
-    affiliation: ""
-    is_industry: false
-  - name: "Haotian Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Shang Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhijian Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Ethan He"
-    affiliation: ""
-    is_industry: false
-  - name: "Hongxu Yin"
-    affiliation: ""
-    is_industry: false
-  - name: "Linxi Fan"
-    affiliation: ""
-    is_industry: false
-  - name: "Yao Lu (Jason)"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -73,7 +72,7 @@ external_links:
     url: "https://github.com/NVlabs/VILA/tree/main/longvila"
 abstract: "Long-context capability is critical for multi-modal foundation models, especially for long video understanding. We introduce LongVILA, a full-stack solution for long-context visual-language models by co-designing the algorithm and system. For model training, we upgrade existing VLMs to support long "
 url: "https://research.nvidia.com/publication/2025-04_longvila-scaling-long-context-visual-language-models-long-videos"
-status: new
+status: "new"
 ---
 
 # LongVILA: Scaling Long-Context Visual Language Models for Long Videos

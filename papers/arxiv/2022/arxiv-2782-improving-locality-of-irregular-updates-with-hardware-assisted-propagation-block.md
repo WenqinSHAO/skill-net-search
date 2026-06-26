@@ -1,18 +1,17 @@
 ---
-id: arxiv-2782
+id: "arxiv-2782"
 title: "Improving Locality of Irregular Updates with Hardware Assisted Propagation Blocking"
-conference: arXiv 2022
-date: 2022-04
+conference: "arXiv 2022"
+date: "2022-04"
 authors:
   - name: "Vignesh Balaji"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brandon Lucia"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9773262"
 abstract: "Many application domains perform irregular memory updates. Irregular accesses lead to inefficient use of conventional cache hierarchies. To make better use of the cache, we focus on Propagation Blocking (PB), a software-based cache locality optimization initially designed for graph processing applic"
 url: "https://research.nvidia.com/publication/2022-04_improving-locality-irregular-updates-hardware-assisted-propagation-blocking"
-status: new
+status: "new"
 ---
 
 # Improving Locality of Irregular Updates with Hardware Assisted Propagation Blocking

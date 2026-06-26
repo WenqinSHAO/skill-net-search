@@ -1,8 +1,8 @@
 ---
-id: arxiv-2780
+id: "arxiv-2780"
 title: "Model Predictive Control for Fluid Human-to-Robot Handovers"
-conference: arXiv 2022
-date: 2022-04
+conference: "arXiv 2022"
+date: "2022-04"
 authors:
   - name: "Wei Yang"
     affiliation: "NVIDIA"
@@ -10,25 +10,24 @@ authors:
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "Meta"
+    is_industry: true
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
   - name: "Maya Cakmak"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Applied_perception
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://sites.google.com/nvidia.com/mpc-for-handover"
 abstract: "Human-robot handover is a fundamental yet challenging task in human-robot interaction and collaboration. Recently, remarkable progressions have been made in human-to-robot handovers of unknown objects by using learning-based grasp generators. However, how to responsively generate smooth motions to t"
 url: "https://research.nvidia.com/publication/2022-04_model-predictive-control-fluid-human-robot-handovers"
-status: new
+status: "new"
 ---
 
 # Model Predictive Control for Fluid Human-to-Robot Handovers

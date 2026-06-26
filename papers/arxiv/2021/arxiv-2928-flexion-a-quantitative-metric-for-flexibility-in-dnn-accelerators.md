@@ -1,25 +1,24 @@
 ---
-id: arxiv-2928
+id: "arxiv-2928"
 title: "Flexion: A Quantitative Metric for Flexibility in DNN Accelerators"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Hyoukjun Kwon"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hyoukjun Kwon"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Tech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9293373"
 abstract: "Dataflow and tile size choices, which we collectively refer to as mappings, dictate the efficiency (i.e., latency and energy) of DNN accelerators. Rapidly evolving DNN models is one of the major challenges for DNN accelerators since the optimal mapping heavily depends on the layer shape and size. To"
 url: "https://research.nvidia.com/publication/2021-01_flexion-quantitative-metric-flexibility-dnn-accelerators"
-status: new
+status: "new"
 ---
 
 # Flexion: A Quantitative Metric for Flexibility in DNN Accelerators

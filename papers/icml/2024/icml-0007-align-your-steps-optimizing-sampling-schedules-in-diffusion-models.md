@@ -1,22 +1,21 @@
 ---
-id: icml-0007
+id: "icml-0007"
 title: "Align Your Steps: Optimizing Sampling Schedules in Diffusion Models"
-conference: ICML 2024
-date: 2024-07
+conference: "ICML 2024"
+date: "2024-07"
 authors:
+  - name: "Amirmojtaba Sabour"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
+  - name: "Sanja Fidler"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Amirmojtaba Sabour"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/AlignYourSteps/"
 abstract: "Diffusion models (DMs) have established themselves as the state-of-the-art generative modeling approach in the visual domain and beyond. A crucial drawback of DMs is their slow sampling speed, relying on many sequential function evaluations through large neural networks. Sampling from DMs can be see"
 url: "https://research.nvidia.com/publication/2024-07_align-your-steps-optimizing-sampling-schedules-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Align Your Steps: Optimizing Sampling Schedules in Diffusion Models

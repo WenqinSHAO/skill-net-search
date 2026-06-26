@@ -1,34 +1,33 @@
 ---
-id: siggraph-0027
+id: "siggraph-0027"
 title: "ConsiStory: Training-Free Consistent Text-to-Image Generation"
-conference: SIGGRAPH 2024
-date: 2024-02
+conference: "SIGGRAPH 2024"
+date: "2024-02"
 authors:
+  - name: "Yoad Tewel"
+    affiliation: "NVIDIA, Tel-Aviv University"
+    is_industry: true
+  - name: "Omri Kaduri"
+    affiliation: "Independent Scientist"
+    is_industry: false
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA, Tel-Aviv University"
+    is_industry: true
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Lior Wolf"
+    affiliation: "Tel Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yoad Tewel"
-    affiliation: ""
-    is_industry: false
-  - name: "Omri Kaduri"
-    affiliation: ""
-    is_industry: false
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Lior Wolf"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Generative AI"
 abstract: "Text-to-image models offer a new level of creative flexibility by allowing users to guide the image generation process through natural language. However, using these models to consistently portray the same subject across diverse prompts remains challenging. Existing approaches fine-tune the model to"
 url: "https://research.nvidia.com/publication/2024-02_consistory-training-free-consistent-text-image-generation"
-status: new
+status: "new"
 ---
 
 # ConsiStory: Training-Free Consistent Text-to-Image Generation

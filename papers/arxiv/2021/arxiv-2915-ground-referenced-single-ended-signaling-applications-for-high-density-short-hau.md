@@ -1,8 +1,8 @@
 ---
-id: arxiv-2915
+id: "arxiv-2915"
 title: "Ground-Referenced Single-Ended Signaling: Applications for High-Density Short-Haul Communication Systems"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
   - name: "John Wilson"
     affiliation: ""
@@ -15,14 +15,13 @@ authors:
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
 research_areas:
   - "Circuits and VLSI Design"
 url: "https://research.nvidia.com/publication/2021-02_Ground-Referenced-Single-Ended-Signaling%3A"
-status: new
+status: "new"
 ---
 
 # Ground-Referenced Single-Ended Signaling: Applications for High-Density Short-Haul Communication Systems

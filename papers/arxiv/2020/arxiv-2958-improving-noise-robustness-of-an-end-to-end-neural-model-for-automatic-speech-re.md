@@ -1,30 +1,29 @@
 ---
-id: arxiv-2958
+id: "arxiv-2958"
 title: "Improving Noise Robustness of an End-to-End Neural Model for Automatic Speech Recognition"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jocelyn Huang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Slyne Deng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2010.12715"
 abstract: "We present our experiments in training robust to noise an end-to-end automatic speech recognition (ASR) model using intensive data augmentation. We explore the efficacy of fine-tuning a pre-trained model to improve noise robustness, and we find it to be a very efficient way to train for various nois"
 url: "https://research.nvidia.com/publication/2020-10_improving-noise-robustness-end-end-neural-model-automatic-speech-recognition"
-status: new
+status: "new"
 ---
 
 # Improving Noise Robustness of an End-to-End Neural Model for Automatic Speech Recognition

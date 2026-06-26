@@ -1,13 +1,28 @@
 ---
-id: iclr-0004
+id: "iclr-0004"
 title: "La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching"
-conference: ICLR 2026
-date: 2026-01
+conference: "ICLR 2026"
+date: "2026-01"
 authors:
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Kieran Didi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhonglin Cao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zuobai Zhang"
+    affiliation: "NVIDIA, Mila - Quebec AI Institute, Universite de Montreal"
+    is_industry: true
+  - name: "Christian Dallago"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Emine Kucukbenli"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
@@ -16,25 +31,9 @@ authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhonglin Cao"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
-  - name: "Zuobai Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Christian Dallago"
-    affiliation: ""
-    is_industry: false
-  - name: "Emine Kucukbenli"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://research.nvidia.com/labs/genair/la-proteina/"
 abstract: "Recently, many generative models for de novo protein structure design have emerged. Yet, only few tackle the difficult task of directly generating fully atomistic structures jointly with the underlying amino acid sequence. This is challenging, for instance, because the model must reason over side ch"
 url: "https://research.nvidia.com/publication/2026-01%5Fla-proteina-atomistic-protein-generation-partially-latent-flow-matching"
-status: new
+status: "new"
 ---
 
 # La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching

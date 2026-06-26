@@ -1,30 +1,29 @@
 ---
-id: vss-0001
+id: "vss-0001"
 title: "Do Action Video Game Players Search Faster Than Non-Players?"
-conference: VSS 2024
-date: 2024-05
+conference: "VSS 2024"
+date: "2024-05"
 authors:
+  - name: "Zoe (Jing) Xu"
+    affiliation: "University of Illinois, Urbana Champaign"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Simona Buetti"
+    affiliation: "University of Illinois, Urbana Champaign"
+    is_industry: false
+  - name: "Alejandro Lleras"
+    affiliation: "University of Illinois, Urbana Champaign"
+    is_industry: false
   - name: "Ruth Rosenholtz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zoe (Jing) Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Simona Buetti"
-    affiliation: ""
-    is_industry: false
-  - name: "Alejandro Lleras"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://www.visionsciences.org/presentation/?id=129"
 abstract: "Studies have shown that action video game players have enhanced visual abilities in various domains, such as multiple object tracking, size of the useful field of view, and visual search speed and accuracy. These improvements have been attributed to either a general advantage in “learning to learn” "
 url: "https://research.nvidia.com/publication/2024-05_do-action-video-game-players-search-faster-non-players"
-status: new
+status: "new"
 ---
 
 # Do Action Video Game Players Search Faster Than Non-Players?

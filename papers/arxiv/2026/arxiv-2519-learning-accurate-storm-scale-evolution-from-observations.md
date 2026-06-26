@@ -1,10 +1,16 @@
 ---
-id: arxiv-2519
+id: "arxiv-2519"
 title: "Learning Accurate Storm-Scale Evolution from Observations"
-conference: arXiv 2026
-date: 2026-01
+conference: "arXiv 2026"
+date: "2026-01"
 authors:
   - name: "Jaideep Pathak"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mohammad Shoaib Abbas"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Peter Harrington"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Zeyuan Hu"
@@ -13,38 +19,31 @@ authors:
   - name: "Noah Brenowitz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Suman Ravuri"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alberto Carpentieri"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jussi Leinonen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Corey Adams"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Oliver Hennigh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nicholas Geneva"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dale Durran"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mike Pritchard"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mohammad Shoaib Abbas"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Harrington"
-    affiliation: ""
-    is_industry: false
-  - name: "Suman Ravuri"
-    affiliation: ""
-    is_industry: false
-  - name: "Alberto Carpentieri"
-    affiliation: ""
-    is_industry: false
-  - name: "Jussi Leinonen"
-    affiliation: ""
-    is_industry: false
-  - name: "Corey Adams"
-    affiliation: ""
-    is_industry: false
-  - name: "Oliver Hennigh"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicholas Geneva"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -53,7 +52,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Accurate short-term prediction of clouds and precipitation is critical for severe weather warnings,aviation safety, and renewable energy operations. Forecasts at this timescale are provided bynumerical weather models and extrapolation methods, both of which have limitations. Mesoscalenumerical weath"
 url: "https://research.nvidia.com/publication/2026-01%5Flearning-accurate-storm-scale-evolution-observations"
-status: new
+status: "new"
 ---
 
 # Learning Accurate Storm-Scale Evolution from Observations

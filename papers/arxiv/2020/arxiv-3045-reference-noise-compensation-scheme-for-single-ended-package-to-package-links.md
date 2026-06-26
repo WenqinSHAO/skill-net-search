@@ -1,8 +1,8 @@
 ---
-id: arxiv-3045
+id: "arxiv-3045"
 title: "Reference-Noise Compensation Scheme for Single- Ended Package-to-Package Links"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
   - name: "Xi Chen"
     affiliation: "NVIDIA"
@@ -22,6 +22,9 @@ authors:
   - name: "Trey Greer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "John Poulton"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanquan Song"
     affiliation: "NVIDIA"
     is_industry: true
@@ -34,12 +37,8 @@ authors:
   - name: "Tom Gray"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "John Poulton"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "We present a method for tracking and compensating the reference noise in single-ended links, enabling energy-efficient package-to-package communication in systems with noisy environment. The 25Gb/s/pin serial link with compensation loop is fabricated in 16nm FinFET process operating over PCB channel"
 url: "https://research.nvidia.com/publication/2020-02_reference-noise-compensation-scheme-single-ended-package-package-links"
-status: new
+status: "new"
 ---
 
 # Reference-Noise Compensation Scheme for Single- Ended Package-to-Package Links

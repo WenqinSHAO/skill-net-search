@@ -1,31 +1,30 @@
 ---
-id: arxiv-2739
+id: "arxiv-2739"
 title: "Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Suyeon Choi"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Manu Gopakumar"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Yifan Peng"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Suyeon Choi"
-    affiliation: ""
-    is_industry: false
-  - name: "Manu Gopakumar"
-    affiliation: ""
-    is_industry: false
-  - name: "Yifan Peng"
-    affiliation: ""
-    is_industry: false
   - name: "Matthew O'Toole"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://www.computationalimaging.org/publications/time-multiplexed-neural-holography/"
 abstract: "Unprecedented image quality in holographic near-eye displays with a fast phase-only SLM&nbsp;"
 url: "https://research.nvidia.com/publication/2022-08_time-multiplexed-neural-holography-flexible-framework-holographic-near-eye"
-status: new
+status: "new"
 ---
 
 # Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators

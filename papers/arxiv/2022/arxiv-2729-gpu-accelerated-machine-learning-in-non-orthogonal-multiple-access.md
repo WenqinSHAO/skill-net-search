@@ -1,31 +1,30 @@
 ---
-id: arxiv-2729
+id: "arxiv-2729"
 title: "GPU-Accelerated Machine Learning in Non-Orthogonal Multiple Access"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Daniel Schäufele"
+    affiliation: "Fraunhofer Heinrich Hertz Institute"
+    is_industry: false
   - name: "Guillermo Marcus"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Nikolaus Binder"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthias Mehlhose"
+    affiliation: "Fraunhofer Heinrich Hertz Institute"
+    is_industry: false
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daniel Schäufele"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthias Mehlhose"
-    affiliation: ""
-    is_industry: false
   - name: "Slawomir Stańczak"
-    affiliation: ""
+    affiliation: "Fraunhofer Heinrich Hertz Institute"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "http://arxiv.org/abs/2206.05998"
 abstract: "Non-orthogonal multiple access (NOMA) is an interesting technology that enables massive connectivity as required in future 5G and 6G networks. While purely linear processing already achieves good performance in NOMA systems, in certain scenarios, non-linear processing is mandatory to ensure accept-a"
 url: "https://research.nvidia.com/publication/2022-08_gpu-accelerated-machine-learning-non-orthogonal-multiple-access"
-status: new
+status: "new"
 ---
 
 # GPU-Accelerated Machine Learning in Non-Orthogonal Multiple Access

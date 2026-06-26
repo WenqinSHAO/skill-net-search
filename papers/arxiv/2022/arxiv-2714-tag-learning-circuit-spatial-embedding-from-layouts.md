@@ -1,34 +1,33 @@
 ---
-id: arxiv-2714
+id: "arxiv-2714"
 title: "TAG: Learning Circuit Spatial Embedding from Layouts"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Keren Zhu"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
+  - name: "Hao Chen"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Keren Zhu"
-    affiliation: ""
-    is_industry: false
-  - name: "Hao Chen"
-    affiliation: ""
-    is_industry: false
   - name: "George F. Kokai"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Po-Hsuan Wei"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "University of Texas at Austin"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3508352.3549384"
 abstract: "Analog and mixed-signal (AMS) circuit designs still rely on human design expertise. Machine learning has been assisting circuit design automation by replacing human experience with artificial intelligence. This paper presents TAG, a new paradigm of learning the circuit representation from layouts le"
 url: "https://research.nvidia.com/publication/2022-10_tag-learning-circuit-spatial-embedding-layouts"
-status: new
+status: "new"
 ---
 
 # TAG: Learning Circuit Spatial Embedding from Layouts

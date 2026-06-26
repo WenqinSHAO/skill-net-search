@@ -1,37 +1,36 @@
 ---
-id: cvpr-0035
+id: "cvpr-0035"
 title: "Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Davis Rempe"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhengyi Luo"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xue Bin Peng"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kris Kitani"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Davis Rempe"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhengyi Luo"
-    affiliation: ""
-    is_industry: false
-  - name: "Xue Bin Peng"
-    affiliation: ""
-    is_industry: false
-  - name: "Kris Kitani"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Or Litany"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://nv-tlabs.github.io/trace-pace/supp.html"
 abstract: "We introduce a method for generating realistic pedestrian trajectories and full-body animations that can be controlled to meet user-defined goals. We draw on recent advances in guided diffusion modeling to achieve test-time controllability of trajectories, which is normally only associated with rule"
 url: "https://research.nvidia.com/publication/2023-06_trace-and-pace-controllable-pedestrian-animation-guided-trajectory-diffusion"
-status: new
+status: "new"
 ---
 
 # Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion

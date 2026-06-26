@@ -1,8 +1,8 @@
 ---
-id: arxiv-3022
+id: "arxiv-3022"
 title: "An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Benjamin Klenk"
     affiliation: "NVIDIA"
@@ -10,18 +10,17 @@ authors:
   - name: "Ted Jiang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Greg Thorson"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Larry Dennison"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Greg Thorson"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1109/ISCA45697.2020.00085"
 abstract: "The slowdown of single-chip performance scaling combined with the growing demands of computing ever larger problems efficiently has led to a renewed interest in distributed architectures and specialized hardware. Dedicated accelerators for common or critical operations are becoming cost-effective ad"
 url: "https://research.nvidia.com/publication/2020-05_network-architecture-accelerating-shared-memory-multiprocessor-collectives"
-status: new
+status: "new"
 ---
 
 # An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives

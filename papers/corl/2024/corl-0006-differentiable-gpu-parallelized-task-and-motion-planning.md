@@ -1,39 +1,38 @@
 ---
-id: corl-0006
+id: "corl-0006"
 title: "Differentiable GPU-Parallelized Task and Motion Planning"
-conference: CoRL 2024
-date: 2024-11
+conference: "CoRL 2024"
+date: "2024-11"
 authors:
+  - name: "William Shen"
+    affiliation: "MIT CSAIL"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Nishanth Kumar"
+    affiliation: "MIT CSAIL"
+    is_industry: false
   - name: "Ankit Goyal"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Leslie Pack Kaelbling"
+    affiliation: "MIT CSAIL"
+    is_industry: false
+  - name: "Tomás Lozano-Pérez"
+    affiliation: "MIT CSAIL"
+    is_industry: false
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "William Shen"
-    affiliation: ""
-    is_industry: false
-  - name: "Nishanth Kumar"
-    affiliation: ""
-    is_industry: false
-  - name: "Leslie Pack Kaelbling"
-    affiliation: ""
-    is_industry: false
-  - name: "Tomás Lozano-Pérez"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ research_areas:
   - "High Performance Computing"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2024-11_differentiable-gpu-parallelized-task-and-motion-planning"
-status: new
+status: "new"
 ---
 
 # Differentiable GPU-Parallelized Task and Motion Planning

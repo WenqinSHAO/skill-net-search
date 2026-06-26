@@ -1,21 +1,20 @@
 ---
-id: arxiv-2675
+id: "arxiv-2675"
 title: "Leveraging Synthetic Targets for Machine Translation"
-conference: arXiv 2023
-date: 2023-05
+conference: "arXiv 2023"
+date: "2023-05"
 authors:
   - name: "Sarthak Mittal"
-    affiliation: ""
+    affiliation: "Mila, Universite de Montreal"
     is_industry: false
   - name: "Oleskii Hrinchuk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://arxiv.org/abs/2305.06155"
 abstract: "In this work, we provide a recipe for training machine translation models in a limited resource setting by leveraging synthetic target data generated using a large pre-trained model. We show that consistently across different benchmarks in bilingual, multilingual, and speech translation setups, trai"
 url: "https://research.nvidia.com/publication/2023-05_leveraging-synthetic-targets-machine-translation"
-status: new
+status: "new"
 ---
 
 # Leveraging Synthetic Targets for Machine Translation

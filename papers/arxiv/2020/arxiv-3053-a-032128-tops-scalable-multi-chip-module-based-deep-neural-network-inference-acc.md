@@ -1,8 +1,8 @@
 ---
-id: arxiv-3053
+id: "arxiv-3053"
 title: "A 0.32–128 TOPS, Scalable Multi-Chip-Module-Based Deep Neural Network Inference Accelerator With Ground-Referenced Signaling in 16 nm"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
   - name: "Brian Zimmer"
     affiliation: "NVIDIA"
@@ -10,6 +10,9 @@ authors:
   - name: "Rangharajan Venkatesan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yakun Sophia Shao"
+    affiliation: "UC-Berkeley"
+    is_industry: false
   - name: "Jason Clemons"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,9 +25,15 @@ authors:
   - name: "Ben Keller"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alicia Klinefelter"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nathaniel Pinckney"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Priyanka Raina"
+    affiliation: "Stanford"
+    is_industry: false
   - name: "Stephen Tell"
     affiliation: "NVIDIA"
     is_industry: true
@@ -46,19 +55,9 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yakun Sophia Shao"
-    affiliation: ""
-    is_industry: false
-  - name: "Alicia Klinefelter"
-    affiliation: ""
-    is_industry: false
-  - name: "Priyanka Raina"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -67,7 +66,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Custom accelerators improve the energy efficiency, area efficiency, and performance of deep neural network (DNN) inference. This article presents a scalable DNN accelerator consisting of 36 chips connected in a mesh network on a multi-chip-module (MCM) using ground-referenced signaling (GRS). While "
 url: "https://research.nvidia.com/publication/2020-01_032-128-tops-scalable-multi-chip-module-based-deep-neural-network-inference"
-status: new
+status: "new"
 ---
 
 # A 0.32–128 TOPS, Scalable Multi-Chip-Module-Based Deep Neural Network Inference Accelerator With Ground-Referenced Signaling in 16 nm

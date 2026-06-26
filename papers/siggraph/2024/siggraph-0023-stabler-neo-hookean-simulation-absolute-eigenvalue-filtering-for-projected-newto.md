@@ -1,27 +1,26 @@
 ---
-id: siggraph-0023
+id: "siggraph-0023"
 title: "Stabler Neo-Hookean Simulation: Absolute Eigenvalue Filtering for Projected Newton"
-conference: SIGGRAPH 2024
-date: 2024-06
+conference: "SIGGRAPH 2024"
+date: "2024-06"
 authors:
   - name: "Honglin Chen"
-    affiliation: ""
+    affiliation: "Columbia University"
     is_industry: false
   - name: "Hsueh-Ti Derek Liu"
-    affiliation: ""
+    affiliation: "Roblox Research, University of British Columbia"
     is_industry: false
   - name: "David I.W. Levin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto"
+    is_industry: true
   - name: "Changxi Zheng"
-    affiliation: ""
+    affiliation: "Columbia University"
     is_industry: false
   - name: "Alec Jacobson"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Adobe Research, University of Toronto"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Volume-preserving hyperelastic materials are widely used to model near-incompressible materials such as rubber and soft tissues. However, the numerical simulation of volume-preserving hyperelastic materials is notoriously challenging within this regime due to the non-convexity of the energy function"
 url: "https://research.nvidia.com/publication/2024-06_stabler-neo-hookean-simulation-absolute-eigenvalue-filtering-projected-newton"
-status: new
+status: "new"
 ---
 
 # Stabler Neo-Hookean Simulation: Absolute Eigenvalue Filtering for Projected Newton

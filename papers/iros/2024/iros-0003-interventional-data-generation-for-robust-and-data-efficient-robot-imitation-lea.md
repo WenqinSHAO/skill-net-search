@@ -1,28 +1,27 @@
 ---
-id: iros-0003
+id: "iros-0003"
 title: "Interventional Data Generation for Robust and Data-Efficient Robot Imitation Learning"
-conference: IROS 2024
-date: 2024-10
+conference: "IROS 2024"
+date: "2024-10"
 authors:
+  - name: "Ryan Hoque"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Ajay Mandlekar"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ryan Hoque"
-    affiliation: ""
-    is_industry: false
   - name: "Ken Goldberg"
-    affiliation: ""
+    affiliation: "UC Berkekley"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2024-10_interventional-data-generation-robust-and-data-efficient-robot-imitation"
-status: new
+status: "new"
 ---
 
 # Interventional Data Generation for Robust and Data-Efficient Robot Imitation Learning

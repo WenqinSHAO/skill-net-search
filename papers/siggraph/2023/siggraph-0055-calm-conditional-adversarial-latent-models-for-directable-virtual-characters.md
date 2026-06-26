@@ -1,13 +1,16 @@
 ---
-id: siggraph-0055
+id: "siggraph-0055"
 title: "CALM: Conditional Adversarial Latent Models for Directable Virtual Characters"
-conference: SIGGRAPH 2023
-date: 2023-05
+conference: "SIGGRAPH 2023"
+date: "2023-05"
 authors:
   - name: "Chen Tessler"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yoni Kasten"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yunrong Guo"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shie Mannor"
@@ -16,17 +19,13 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yunrong Guo"
-    affiliation: ""
-    is_industry: false
   - name: "Xue Bin Peng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://research.nvidia.com/labs/par/calm/"
 abstract: "in this work, we present Conditional Adversarial Latent Models (CALM), an approach for generating diverse and directable behaviors for user-controlled interactive virtual characters. Using imitation learning, CALM learns a representation of movement that captures the complexity and diversity of huma"
 url: "https://research.nvidia.com/publication/2023-05_calm-conditional-adversarial-latent-models-directable-virtual-characters"
-status: new
+status: "new"
 ---
 
 # CALM: Conditional Adversarial Latent Models for Directable Virtual Characters

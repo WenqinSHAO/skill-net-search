@@ -1,8 +1,8 @@
 ---
-id: arxiv-2943
+id: "arxiv-2943"
 title: "Neural Control Variates"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
@@ -19,7 +19,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://tom94.net/data/publications/mueller20neural/interactive-viewer/"
 abstract: "We propose neural control variates (NCV) for unbiased variance reduction in parametric Monte Carlo integration. So far, the core challenge of applying the method of control variates has been finding a good approximation of the integrand that is cheap to integrate. We show that a set of neural networ"
 url: "https://research.nvidia.com/publication/2020-11_neural-control-variates"
-status: new
+status: "new"
 ---
 
 # Neural Control Variates

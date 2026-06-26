@@ -1,24 +1,23 @@
 ---
-id: arxiv-2625
+id: "arxiv-2625"
 title: "GPU/ML-Enhanced Large Scale Global Routing Contest"
-conference: arXiv 2024
-date: 2024-03
+conference: "arXiv 2024"
+date: "2024-03"
 authors:
   - name: "Rongjian Liang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Anthony Agnesina"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Wen-Hao Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Anthony Agnesina"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://drive.google.com/file/d/1yEgcjHAZOyFHKlfYhzHe8ZeZuefEK2sP/view"
 abstract: "Modern VLSI design flows demand scalable global routing techniques applicable across diverse design stages. In response, the ISPD 2024 contest pioneers the first GPU/ML-enhanced global routing competition, selecting advancements in GPU-accelerated computing platforms and machine learning techniques "
 url: "https://research.nvidia.com/publication/2024-03_gpuml-enhanced-large-scale-global-routing-contest"
-status: new
+status: "new"
 ---
 
 # GPU/ML-Enhanced Large Scale Global Routing Contest

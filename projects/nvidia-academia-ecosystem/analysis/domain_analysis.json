@@ -1,18 +1,18 @@
 {
   "domain_distribution": {
-    "AI & Machine Learning": 451,
-    "Computer Vision": 246,
-    "Foundation Models": 219,
-    "Robotics & Autonomous": 219,
+    "AI & Machine Learning": 457,
+    "Computer Vision": 247,
+    "Robotics & Autonomous": 223,
+    "Foundation Models": 222,
     "Graphics & Rendering": 213,
-    "GPU Architecture": 158,
-    "CUDA Ecosystem": 75,
+    "GPU Architecture": 160,
+    "CUDA Ecosystem": 77,
     "Applied Perception": 73,
-    "Simulation & HPC": 47,
-    "Interconnect & Networking": 26,
-    "Medical Imaging": 12,
+    "Simulation & HPC": 48,
+    "Interconnect & Networking": 42,
+    "Medical Imaging": 18,
     "Quantum Computing": 10,
-    "Miscellaneous": 3,
+    "Miscellaneous": 4,
     "Data Systems": 1
   },
   "domain_by_year": {
@@ -25,7 +25,7 @@
       "Foundation Models": 13,
       "Robotics & Autonomous": 31,
       "CUDA Ecosystem": 9,
-      "Medical Imaging": 5,
+      "Medical Imaging": 6,
       "Applied Perception": 5,
       "Interconnect & Networking": 1
     },
@@ -38,7 +38,7 @@
       "GPU Architecture": 40,
       "Computer Vision": 37,
       "Robotics & Autonomous": 31,
-      "Medical Imaging": 4,
+      "Medical Imaging": 5,
       "Interconnect & Networking": 3,
       "Simulation & HPC": 9
     },
@@ -57,31 +57,33 @@
     },
     "2023": {
       "Foundation Models": 48,
-      "AI & Machine Learning": 96,
+      "AI & Machine Learning": 97,
       "CUDA Ecosystem": 8,
       "Computer Vision": 48,
       "Graphics & Rendering": 46,
       "Applied Perception": 14,
       "Robotics & Autonomous": 49,
-      "Interconnect & Networking": 4,
+      "Interconnect & Networking": 5,
       "GPU Architecture": 23,
       "Simulation & HPC": 6,
       "Data Systems": 1,
       "Quantum Computing": 2,
-      "Miscellaneous": 2
+      "Miscellaneous": 2,
+      "Medical Imaging": 1
     },
     "2024": {
-      "Foundation Models": 52,
-      "AI & Machine Learning": 59,
+      "Foundation Models": 54,
+      "AI & Machine Learning": 60,
       "CUDA Ecosystem": 8,
       "Robotics & Autonomous": 33,
-      "Computer Vision": 29,
+      "Computer Vision": 30,
       "Graphics & Rendering": 38,
       "Simulation & HPC": 6,
       "Applied Perception": 17,
       "GPU Architecture": 10,
-      "Interconnect & Networking": 2,
-      "Quantum Computing": 3
+      "Interconnect & Networking": 4,
+      "Quantum Computing": 3,
+      "Medical Imaging": 1
     },
     "2025": {
       "AI & Machine Learning": 81,
@@ -92,23 +94,24 @@
       "Simulation & HPC": 15,
       "CUDA Ecosystem": 15,
       "Quantum Computing": 3,
-      "Interconnect & Networking": 4,
+      "Interconnect & Networking": 16,
       "Applied Perception": 12,
-      "Medical Imaging": 3,
-      "GPU Architecture": 6
+      "Medical Imaging": 4,
+      "GPU Architecture": 7
     },
     "2026": {
       "Applied Perception": 7,
-      "Interconnect & Networking": 1,
-      "AI & Machine Learning": 19,
-      "Foundation Models": 16,
-      "CUDA Ecosystem": 5,
-      "Robotics & Autonomous": 2,
-      "Simulation & HPC": 1,
+      "Interconnect & Networking": 2,
+      "AI & Machine Learning": 23,
+      "Foundation Models": 17,
+      "CUDA Ecosystem": 7,
+      "Robotics & Autonomous": 6,
+      "Simulation & HPC": 2,
       "Graphics & Rendering": 2,
       "Computer Vision": 3,
-      "GPU Architecture": 3,
-      "Miscellaneous": 1
+      "GPU Architecture": 4,
+      "Miscellaneous": 2,
+      "Medical Imaging": 1
     }
   },
   "domain_by_era": {
@@ -124,30 +127,30 @@
       "Foundation Models": 58,
       "Simulation & HPC": 19,
       "Quantum Computing": 2,
-      "Medical Imaging": 9
+      "Medical Imaging": 11
     },
     "Post-GPT (2023–2026)": {
       "Applied Perception": 50,
-      "Interconnect & Networking": 11,
-      "AI & Machine Learning": 255,
-      "Foundation Models": 161,
-      "CUDA Ecosystem": 36,
-      "Robotics & Autonomous": 119,
-      "Simulation & HPC": 28,
+      "Interconnect & Networking": 27,
+      "AI & Machine Learning": 261,
+      "Foundation Models": 164,
+      "CUDA Ecosystem": 38,
+      "Robotics & Autonomous": 123,
+      "Simulation & HPC": 29,
       "Graphics & Rendering": 116,
-      "Computer Vision": 111,
-      "GPU Architecture": 42,
-      "Miscellaneous": 3,
+      "Computer Vision": 112,
+      "GPU Architecture": 44,
+      "Miscellaneous": 4,
       "Quantum Computing": 8,
-      "Medical Imaging": 3,
+      "Medical Imaging": 7,
       "Data Systems": 1
     }
   },
   "top_domains": [
     "AI & Machine Learning",
     "Computer Vision",
-    "Foundation Models",
     "Robotics & Autonomous",
+    "Foundation Models",
     "Graphics & Rendering",
     "GPU Architecture",
     "CUDA Ecosystem",
@@ -163,16 +166,16 @@
     {
       "domain": "Foundation Models",
       "pre_gpt": 58,
-      "post_gpt": 161,
-      "delta": 103,
-      "pct_change": 177.58620689655174
+      "post_gpt": 164,
+      "delta": 106,
+      "pct_change": 182.75862068965517
     },
     {
       "domain": "AI & Machine Learning",
       "pre_gpt": 196,
-      "post_gpt": 255,
-      "delta": 59,
-      "pct_change": 30.102040816326532
+      "post_gpt": 261,
+      "delta": 65,
+      "pct_change": 33.16326530612245
     },
     {
       "domain": "Applied Perception",
@@ -184,9 +187,9 @@
     {
       "domain": "Robotics & Autonomous",
       "pre_gpt": 100,
-      "post_gpt": 119,
-      "delta": 19,
-      "pct_change": 19.0
+      "post_gpt": 123,
+      "delta": 23,
+      "pct_change": 23.0
     },
     {
       "domain": "Graphics & Rendering",
@@ -196,11 +199,18 @@
       "pct_change": 19.587628865979383
     },
     {
+      "domain": "Interconnect & Networking",
+      "pre_gpt": 15,
+      "post_gpt": 27,
+      "delta": 12,
+      "pct_change": 80.0
+    },
+    {
       "domain": "Simulation & HPC",
       "pre_gpt": 19,
-      "post_gpt": 28,
-      "delta": 9,
-      "pct_change": 47.368421052631575
+      "post_gpt": 29,
+      "delta": 10,
+      "pct_change": 52.63157894736842
     },
     {
       "domain": "Quantum Computing",
@@ -212,8 +222,8 @@
     {
       "domain": "Miscellaneous",
       "pre_gpt": 0,
-      "post_gpt": 3,
-      "delta": 3,
+      "post_gpt": 4,
+      "delta": 4,
       "pct_change": Infinity
     },
     {
@@ -226,54 +236,47 @@
     {
       "domain": "CUDA Ecosystem",
       "pre_gpt": 39,
-      "post_gpt": 36,
-      "delta": -3,
-      "pct_change": -7.6923076923076925
-    },
-    {
-      "domain": "Interconnect & Networking",
-      "pre_gpt": 15,
-      "post_gpt": 11,
-      "delta": -4,
-      "pct_change": -26.666666666666668
+      "post_gpt": 38,
+      "delta": -1,
+      "pct_change": -2.564102564102564
     },
     {
       "domain": "Medical Imaging",
-      "pre_gpt": 9,
-      "post_gpt": 3,
-      "delta": -6,
-      "pct_change": -66.66666666666666
+      "pre_gpt": 11,
+      "post_gpt": 7,
+      "delta": -4,
+      "pct_change": -36.36363636363637
     },
     {
       "domain": "Computer Vision",
       "pre_gpt": 135,
-      "post_gpt": 111,
-      "delta": -24,
-      "pct_change": -17.77777777777778
+      "post_gpt": 112,
+      "delta": -23,
+      "pct_change": -17.037037037037038
     },
     {
       "domain": "GPU Architecture",
       "pre_gpt": 116,
-      "post_gpt": 42,
-      "delta": -74,
-      "pct_change": -63.793103448275865
+      "post_gpt": 44,
+      "delta": -72,
+      "pct_change": -62.06896551724138
     }
   ],
   "venue_domain_matrix": {
     "arXiv": {
       "Applied Perception": 45,
-      "Interconnect & Networking": 26,
-      "AI & Machine Learning": 239,
-      "Foundation Models": 105,
+      "Interconnect & Networking": 42,
+      "AI & Machine Learning": 240,
+      "Foundation Models": 106,
       "Graphics & Rendering": 122,
-      "Computer Vision": 103,
-      "GPU Architecture": 148,
+      "Computer Vision": 104,
+      "GPU Architecture": 150,
       "Robotics & Autonomous": 105,
-      "CUDA Ecosystem": 61,
-      "Miscellaneous": 2,
-      "Simulation & HPC": 35,
+      "CUDA Ecosystem": 62,
+      "Miscellaneous": 3,
+      "Simulation & HPC": 36,
       "Quantum Computing": 10,
-      "Medical Imaging": 12,
+      "Medical Imaging": 17,
       "Data Systems": 1
     },
     "CVPR": {
@@ -284,7 +287,8 @@
       "Computer Vision": 52,
       "Foundation Models": 22,
       "Graphics & Rendering": 14,
-      "Applied Perception": 7
+      "Applied Perception": 7,
+      "Medical Imaging": 1
     },
     "SIGGRAPH": {
       "AI & Machine Learning": 37,
@@ -318,23 +322,23 @@
     },
     "ICRA": {
       "Foundation Models": 6,
-      "Robotics & Autonomous": 32,
+      "Robotics & Autonomous": 35,
       "Computer Vision": 15,
-      "AI & Machine Learning": 8,
+      "AI & Machine Learning": 10,
       "Applied Perception": 1
     },
     "CoRL": {
-      "Robotics & Autonomous": 21,
-      "AI & Machine Learning": 15,
+      "Robotics & Autonomous": 22,
+      "AI & Machine Learning": 16,
       "Graphics & Rendering": 1,
       "CUDA Ecosystem": 1,
       "Simulation & HPC": 1,
-      "Foundation Models": 3,
+      "Foundation Models": 4,
       "Computer Vision": 5
     },
     "ICML": {
-      "AI & Machine Learning": 19,
-      "Foundation Models": 8,
+      "AI & Machine Learning": 20,
+      "Foundation Models": 9,
       "Simulation & HPC": 3,
       "Computer Vision": 3,
       "Robotics & Autonomous": 5,

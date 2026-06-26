@@ -1,36 +1,35 @@
 ---
-id: siggraph-0030
+id: "siggraph-0030"
 title: "Compact Neural Graphics Primitives with Learned Hash Probing"
-conference: SIGGRAPH 2023
-date: 2023-12
+conference: "SIGGRAPH 2023"
+date: "2023-12"
 authors:
+  - name: "Towaki Takikawa"
+    affiliation: "Outerport"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Merlin Nimier-David"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alex Evans"
+    affiliation: "Midjourney"
+    is_industry: false
   - name: "Sanja Fidler"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alec Jacobson"
+    affiliation: "University of Toronto, Adobe Research"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Towaki Takikawa"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
-  - name: "Alec Jacobson"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/compact-ngp/"
 abstract: "Neural graphics primitives are faster and achieve higher quality when their neural networks are augmented by spatial data structures that hold trainable features arranged in a grid. However, existing feature grids either come with a large memory footprint (dense or factorized grids, trees, and hash "
 url: "https://research.nvidia.com/publication/2023-12_compact-neural-graphics-primitives-learned-hash-probing"
-status: new
+status: "new"
 ---
 
 # Compact Neural Graphics Primitives with Learned Hash Probing

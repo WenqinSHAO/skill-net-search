@@ -1,29 +1,28 @@
 ---
-id: icml-0016
+id: "icml-0016"
 title: "Equivariant Architectures for Learning in Deep Weight Spaces"
-conference: ICML 2023
-date: 2023-03
+conference: "ICML 2023"
+date: "2023-03"
 authors:
+  - name: "Aviv Navon"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Aviv Shamsian"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Idan Achituve"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Ethan Fetaya"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aviv Navon"
-    affiliation: ""
-    is_industry: false
-  - name: "Aviv Shamsian"
-    affiliation: ""
-    is_industry: false
-  - name: "Idan Achituve"
-    affiliation: ""
-    is_industry: false
-  - name: "Ethan Fetaya"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2301.12780"
 abstract: "Designing machine learning architectures for processing neural networks in their raw weight matrix form is a newly introduced research direction. Unfortunately, the unique symmetry structure of deep weight spaces makes this design very challenging. If successful, such architectures would be capable "
 url: "https://research.nvidia.com/publication/2023-03_equivariant-architectures-learning-deep-weight-spaces"
-status: new
+status: "new"
 ---
 
 # Equivariant Architectures for Learning in Deep Weight Spaces

@@ -1,9 +1,12 @@
 ---
-id: arxiv-2509
+id: "arxiv-2509"
 title: "Impact of Graphical Fidelity and Frame-Time Stutter in a First-Person Shooter Game"
-conference: arXiv 2026
-date: 2026-05
+conference: "arXiv 2026"
+date: "2026-05"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "Worcester Polytechnic University"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,16 +19,12 @@ authors:
   - name: "Peter Xenopoulos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "Worcester Polytechnic University"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://web.cs.wpi.edu/~claypool/papers/frame-stutter-graphics-i3d-26/"
 abstract: "Frametime spikes and graphical fidelity both matter for the feel of first-person shooter (FPS) games, yet their combined effects are not well understood. This paper examines how graphics settings and frametime spikes during aiming interact with player performance and experience. We developed a custo"
 url: "https://research.nvidia.com/publication/2026-05%5Fimpact-graphical-fidelity-and-frame-time-stutter-first-person-shooter-game"
-status: new
+status: "new"
 ---
 
 # Impact of Graphical Fidelity and Frame-Time Stutter in a First-Person Shooter Game

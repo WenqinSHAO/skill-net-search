@@ -1,8 +1,8 @@
 ---
-id: arxiv-2764
+id: "arxiv-2764"
 title: "Injecting Planning-Awareness into Prediction and Detection Evaluation"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
@@ -14,7 +14,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9827101"
 abstract: "Detecting other agents and forecasting their behavior is an integral part of the modern robotic autonomy stack, especially in safety-critical scenarios entailing human-robot interaction such as autonomous driving. Due to the importance of these components, there has been a significant amount of inte"
 url: "https://research.nvidia.com/publication/2022-06_injecting-planning-awareness-prediction-and-detection-evaluation"
-status: new
+status: "new"
 ---
 
 # Injecting Planning-Awareness into Prediction and Detection Evaluation

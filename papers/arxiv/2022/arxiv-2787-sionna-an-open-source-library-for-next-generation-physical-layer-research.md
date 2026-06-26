@@ -1,8 +1,8 @@
 ---
-id: arxiv-2787
+id: "arxiv-2787"
 title: "Sionna: An Open-Source Library for Next-Generation Physical Layer Research"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Jakob Hoydis"
     affiliation: "NVIDIA"
@@ -11,6 +11,9 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Fayçal Aït Aoudia"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Avinash Vem"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Nikolaus Binder"
@@ -22,14 +25,10 @@ authors:
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Avinash Vem"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://developer.nvidia.com/sionna"
 abstract: "Sionna is a GPU-accelerated open-source library for link-level simulations based on TensorFlow. It enables the rapid prototyping of complex communication system architectures and provides native support for the integration of neural networks. Sionna implements a wide breadth of carefully tested stat"
 url: "https://research.nvidia.com/publication/2022-03_sionna-open-source-library-next-generation-physical-layer-research"
-status: new
+status: "new"
 ---
 
 # Sionna: An Open-Source Library for Next-Generation Physical Layer Research

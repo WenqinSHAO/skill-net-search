@@ -1,24 +1,23 @@
 ---
-id: cvpr-0030
+id: "cvpr-0030"
 title: "FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Jiawei Yang"
+    affiliation: "UCLA"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yue Wang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiawei Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://jiawei-yang.github.io/FreeNeRF/"
 abstract: "Novel view synthesis with sparse inputs is a challenging problem for neural radiance fields (NeRF). Recent efforts alleviate this challenge by introducing external supervision, such as pre-trained models and extra depth signals, and by non-trivial patch-based rendering. In this paper, we present Fre"
 url: "https://research.nvidia.com/publication/2023-06_freenerf-improving-few-shot-neural-rendering-free-frequency-regularization"
-status: new
+status: "new"
 ---
 
 # FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization

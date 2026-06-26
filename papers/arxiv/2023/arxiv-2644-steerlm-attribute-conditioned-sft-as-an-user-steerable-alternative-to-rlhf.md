@@ -1,27 +1,26 @@
 ---
-id: arxiv-2644
+id: "arxiv-2644"
 title: "SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF"
-conference: arXiv 2023
-date: 2023-10
+conference: "arXiv 2023"
+date: "2023-10"
 authors:
   - name: "Yi Dong"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Zhilin Wang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Makesh Narsimhan Sreedhar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xianchao Wu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2310.05344"
 abstract: "Model alignment with human preferences is an essential step in making Large Language Models (LLMs) helpful and consistent with human values. It typically consists of supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) stages. However, RLHF faces inherent limitations st"
 url: "https://research.nvidia.com/publication/2023-10_steerlm-attribute-conditioned-sft-user-steerable-alternative-rlhf"
-status: new
+status: "new"
 ---
 
 # SteerLM: Attribute Conditioned SFT as an (User-Steerable) Alternative to RLHF

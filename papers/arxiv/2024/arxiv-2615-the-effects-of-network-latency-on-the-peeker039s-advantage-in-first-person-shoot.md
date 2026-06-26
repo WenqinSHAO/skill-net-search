@@ -1,9 +1,21 @@
 ---
-id: arxiv-2615
+id: "arxiv-2615"
 title: "The Effects of Network Latency on the Peeker&#039;s Advantage in First-person Shooter Games"
-conference: arXiv 2024
-date: 2024-05
+conference: "arXiv 2024"
+date: "2024-05"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "Worcester Polytechnic Institute"
+    is_industry: false
+  - name: "Zesheng Chen"
+    affiliation: "Worcester Polytechnic Institute"
+    is_industry: false
+  - name: "Colin Mettler"
+    affiliation: "Worcester Polytechnic Institute"
+    is_industry: false
+  - name: "Dexuan Tang"
+    affiliation: "Worcester Polytechnic Institute"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,25 +25,12 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
-  - name: "Zesheng Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Colin Mettler"
-    affiliation: ""
-    is_industry: false
-  - name: "Dexuan Tang"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "Worcester Polytechnic Institute"
     is_industry: false
 topics:
   - Applied_perception
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://web.cs.wpi.edu/~claypool/papers/peeker-fdg-24/"
 abstract: "In first-person shooter (FPS) games, the peeker's advantage is the edge the moving peeker gets when battling a stationary defender at a corner due to network latency. However, confirmation of (the size of) this advantage based on network latency and the distance from the corner has not been studied."
 url: "https://research.nvidia.com/publication/2024-05_effects-network-latency-peeker-s-advantage-first-person-shooter-games"
-status: new
+status: "new"
 ---
 
 # The Effects of Network Latency on the Peeker&#039;s Advantage in First-person Shooter Games

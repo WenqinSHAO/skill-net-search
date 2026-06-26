@@ -1,8 +1,8 @@
 ---
-id: arxiv-2939
+id: "arxiv-2939"
 title: "Accelerating Reinforcement Learning through GPU Atari Emulation"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
@@ -13,7 +13,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ external_links:
     url: "https://papers.nips.cc/paper/2020/file/e4d78a6b4d93e1d79241f7b282fa3413-Paper.pdf"
 abstract: "We introduce CuLE (CUDA Learning Environment), a CUDA port of the Atari Learning Environment (ALE) which is used for the development of deep reinforcement algorithms. CuLE overcomes many limitations of existing CPU-based emulators and scales naturally to multiple GPUs. It leverages GPU parallelizati"
 url: "https://research.nvidia.com/publication/2020-12_accelerating-reinforcement-learning-through-gpu-atari-emulation"
-status: new
+status: "new"
 ---
 
 # Accelerating Reinforcement Learning through GPU Atari Emulation

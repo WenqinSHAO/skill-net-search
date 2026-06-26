@@ -1,22 +1,21 @@
 ---
-id: arxiv-2925
+id: "arxiv-2925"
 title: "From Generalized Zero-Shot Learning to Long-Tail with Class Descriptors"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Dvir Samuel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dvir Samuel"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://arxiv.org/abs/2004.02235"
 abstract: "Real-world data is predominantly unbalanced and long-tailed, but deep models struggle to recognize rare classes in the presence of frequent classes. Often, classes can be accompanied by side information like textual descriptions, but it is not fully clear how to use them for learning with unbalanced"
 url: "https://research.nvidia.com/publication/2021-01_generalized-zero-shot-learning-long-tail-class-descriptors"
-status: new
+status: "new"
 ---
 
 # From Generalized Zero-Shot Learning to Long-Tail with Class Descriptors

@@ -1,35 +1,34 @@
 ---
-id: cvpr-0018
+id: "cvpr-0018"
 title: "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Dongsu Zhang"
+    affiliation: "Seoul National University"
+    is_industry: false
+  - name: "Francis Williams"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zan Gojcic"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dongsu Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Francis Williams"
-    affiliation: ""
-    is_industry: false
-  - name: "Zan Gojcic"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Young Min Kim"
-    affiliation: ""
+    affiliation: "Seoul National University"
     is_industry: false
   - name: "Amlan Kar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/hGCA/"
 abstract: "We aim to generate fine-grained 3D geometry from large-scale sparse LiDAR scans, abundantly captured by autonomous vehicles (AV). Contrary to prior work on AV scene completion, we aim to extrapolate fine geometry from unlabeled and beyond spatial limits of LiDAR scans, taking a step towards generati"
 url: "https://research.nvidia.com/publication/2024-06_outdoor-scene-extrapolation-hierarchical-generative-cellular-automata"
-status: new
+status: "new"
 ---
 
 # Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata

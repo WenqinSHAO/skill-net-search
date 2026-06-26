@@ -1,9 +1,12 @@
 ---
-id: cvpr-0054
+id: "cvpr-0054"
 title: "Weakly-Supervised Physically Unconstrained Gaze Estimation"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
+  - name: "Rakshit Kothari"
+    affiliation: "Rochester Institute of Technology"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +16,16 @@ authors:
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Seonwook Park"
+    affiliation: "Lunit Inc."
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rakshit Kothari"
-    affiliation: ""
-    is_industry: false
-  - name: "Seonwook Park"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://arxiv.org/abs/2105.09803"
 abstract: "A major challenge for physically unconstrained gaze estimation is acquiring training data with 3D gaze annotations for in-the-wild and outdoor scenarios. In contrast, videos of human interactions in unconstrained environments are abundantly available and can be much more easily annotated with frame-"
 url: "https://research.nvidia.com/publication/2021-06_weakly-supervised-physically-unconstrained-gaze-estimation"
-status: new
+status: "new"
 ---
 
 # Weakly-Supervised Physically Unconstrained Gaze Estimation

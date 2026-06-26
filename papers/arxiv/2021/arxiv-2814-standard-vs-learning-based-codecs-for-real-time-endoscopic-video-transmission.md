@@ -1,35 +1,34 @@
 ---
-id: arxiv-2814
+id: "arxiv-2814"
 title: "Standard vs. Learning-based Codecs for Real Time Endoscopic Video Transmission"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Aldo Marzullo"
-    affiliation: ""
+    affiliation: "Politecnico of Milan"
     is_industry: false
   - name: "Martina Golini"
-    affiliation: ""
+    affiliation: "Politecnico of Milan"
     is_industry: false
   - name: "Elena De Momi"
-    affiliation: ""
+    affiliation: "Politecnico of Milan"
     is_industry: false
   - name: "Michele Catellani"
-    affiliation: ""
+    affiliation: "ASST Papa Giovanni XXIII, Bergamo, Italy"
     is_industry: false
   - name: "Francesco Calimeri"
-    affiliation: ""
+    affiliation: "University of Calabria"
     is_industry: false
   - name: "Giuseppe Fiameni"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "http://ceur-ws.org/Vol-3102/paper5.pdf"
 abstract: "We compare traditional encoding/decoding methods for real time video streaming, like H264/AVC and H265/HEVC, and deep learning based methods, that are expected to deliver higher video quality at lower bandwidth in the next future. We concentrate our attention on the case of endoscopic videos, where "
 url: "https://research.nvidia.com/publication/2021-11_standard-vs-learning-based-codecs-real-time-endoscopic-video-transmission"
-status: new
+status: "new"
 ---
 
 # Standard vs. Learning-based Codecs for Real Time Endoscopic Video Transmission

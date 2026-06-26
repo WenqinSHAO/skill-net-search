@@ -1,9 +1,12 @@
 ---
-id: arxiv-2529
+id: "arxiv-2529"
 title: "SALAD: Self-Adaptive Link Adaptation"
-conference: arXiv 2025
-date: 2025-10
+conference: "arXiv 2025"
+date: "2025-10"
 authors:
+  - name: "Reinhard Wiesmayr"
+    affiliation: "ETH Zürich"
+    is_industry: false
   - name: "Lorenzo Maggi"
     affiliation: "NVIDIA"
     is_industry: true
@@ -19,12 +22,8 @@ authors:
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Reinhard Wiesmayr"
-    affiliation: ""
-    is_industry: false
 topics:
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Telecommunications"
 abstract: "Adapting the modulation and coding scheme (MCS) to the wireless link quality is critical for maximizing spectral efficiency while ensuring reliability.&nbsp;"
 url: "https://research.nvidia.com/publication/2025-10_salad-self-adaptive-link-adaptation"
-status: new
+status: "new"
 ---
 
 # SALAD: Self-Adaptive Link Adaptation

@@ -1,25 +1,24 @@
 ---
-id: arxiv-2549
+id: "arxiv-2549"
 title: "AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
   - name: "Yunsheng Bai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ghaith Bany Hamad"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Syed Suhaib"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2503.19174"
 abstract: "Generating SystemVerilog Assertions (SVAs) from natural language specifications remains a major challenge in formal verification (FV) due to the inherent ambiguity and incompleteness of specifications. Existing LLM-based approaches, such as ASSERTLLM, focus on extracting information solely from spec"
 url: "https://research.nvidia.com/publication/2025-06_assertionforge-enhancing-formal-verification-assertion-generation-structured"
-status: new
+status: "new"
 ---
 
 # AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL

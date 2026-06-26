@@ -1,24 +1,23 @@
 ---
-id: arxiv-2804
+id: "arxiv-2804"
 title: "Scalar Spatiotemporal Blue Noise Masks"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
+  - name: "Alan Wolfe"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nathan Morrical"
+    affiliation: "NVIDIA and University of Utah"
+    is_industry: true
   - name: "Tomas Akenine-Möller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alan Wolfe"
-    affiliation: ""
-    is_industry: false
-  - name: "Nathan Morrical"
-    affiliation: ""
-    is_industry: false
   - name: "Ravi Ramamoorthi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA and UC San Diego"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://developer.nvidia.com/blog/rendering-in-real-time-with-spatiotemporal-blue-noise-textures-part-2/"
 abstract: "Blue noise error patterns are well suited to human perception, and when applied to stochastic rendering techniques, blue noise masks (blue noise textures) minimize unwanted low-frequency noise in the final image. Current methods of applying blue noise masks at each frame independently produce white "
 url: "https://research.nvidia.com/publication/2021-12_scalar-spatiotemporal-blue-noise-masks"
-status: new
+status: "new"
 ---
 
 # Scalar Spatiotemporal Blue Noise Masks

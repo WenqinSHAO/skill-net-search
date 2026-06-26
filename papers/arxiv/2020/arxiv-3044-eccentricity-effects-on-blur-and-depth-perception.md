@@ -1,31 +1,30 @@
 ---
-id: arxiv-3044
+id: "arxiv-3044"
 title: "Eccentricity Effects on Blur and Depth Perception"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
+  - name: "Qi Sun"
+    affiliation: "Adobe Research"
+    is_industry: true
+  - name: "Fu-Chung Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Li-Yi Wei"
+    affiliation: "Adobe Research"
+    is_industry: true
   - name: "David Luebke"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Arie Kaufman"
+    affiliation: "Department of Computer Science, Stony Brook University"
+    is_industry: false
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Qi Sun"
-    affiliation: ""
-    is_industry: false
-  - name: "Fu-Chung Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Li-Yi Wei"
-    affiliation: ""
-    is_industry: false
-  - name: "Arie Kaufman"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "VR, AR and Display Technology"
 abstract: "Foveation and (de)focus are two important visual factors in designing near eye displays. Foveation can reduce computational load by lowering display details towards the visual periphery, while focal cues can reduce vergence-accommodation conflict thereby lessening visual discomfort in using near eye"
 url: "https://research.nvidia.com/publication/2020-02_eccentricity-effects-blur-and-depth-perception"
-status: new
+status: "new"
 ---
 
 # Eccentricity Effects on Blur and Depth Perception

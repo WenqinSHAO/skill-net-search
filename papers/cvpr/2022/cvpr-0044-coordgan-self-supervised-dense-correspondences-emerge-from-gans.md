@@ -1,31 +1,30 @@
 ---
-id: cvpr-0044
+id: "cvpr-0044"
 title: "CoordGAN: Self-Supervised Dense Correspondences Emerge from GANs"
-conference: CVPR 2022
-date: 2022-07
+conference: "CVPR 2022"
+date: "2022-07"
 authors:
+  - name: "Jiteng Mu"
+    affiliation: "UCSD"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Nuno Vasconcelos"
+    affiliation: "UCSD"
+    is_industry: false
+  - name: "Xiaolong Wang"
+    affiliation: "UCSD"
+    is_industry: false
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiteng Mu"
-    affiliation: ""
-    is_industry: false
-  - name: "Nuno Vasconcelos"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://jitengmu.github.io/CoordGAN/"
 abstract: "Abstract"
 url: "https://research.nvidia.com/publication/2022-07_coordgan-self-supervised-dense-correspondences-emerge-gans"
-status: new
+status: "new"
 ---
 
 # CoordGAN: Self-Supervised Dense Correspondences Emerge from GANs

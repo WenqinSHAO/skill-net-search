@@ -1,25 +1,24 @@
 ---
-id: arxiv-2503
+id: "arxiv-2503"
 title: "Adaptive Time Delay for Improving Player Experience and Fairness in First-Person Shooter Games with Network Latency"
-conference: arXiv 2026
-date: 2026-08
+conference: "arXiv 2026"
+date: "2026-08"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "Worcester Polytechnic University"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "Worcester Polytechnic University"
     is_industry: false
 topics:
   - Applied_perception
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://web.cs.wpi.edu/~claypool/papers/adaptive-fdg-26/"
 abstract: "In a multiplayer networked game, actions for players with higher latencies are received and (potentially) acted upon later than players with lower latencies, leading to unfairness, especially important in competitive games. Time delay is a latency compensation technique that can mitigate this unfair"
 url: "https://research.nvidia.com/publication/2026-08%5Fadaptive-time-delay-improving-player-experience-and-fairness-first-person"
-status: new
+status: "new"
 ---
 
 # Adaptive Time Delay for Improving Player Experience and Fairness in First-Person Shooter Games with Network Latency

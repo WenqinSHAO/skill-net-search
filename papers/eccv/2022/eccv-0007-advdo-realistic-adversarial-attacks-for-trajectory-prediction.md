@@ -1,13 +1,16 @@
 ---
-id: eccv-0007
+id: "eccv-0007"
 title: "AdvDO: Realistic Adversarial Attacks for Trajectory Prediction"
-conference: ECCV 2022
-date: 2022-10
+conference: "ECCV 2022"
+date: "2022-10"
 authors:
   - name: "Yulong Cao"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chaowei Xiao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Anima Anandkumar"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Danfei Xu"
@@ -16,14 +19,10 @@ authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://robustav.github.io/RobustPred/"
 abstract: "Trajectory prediction is essential for autonomous vehicles (AVs) to plan correct and safe driving behaviors. While many prior works aim to achieve higher prediction accuracy, few study the adversarial robustness of their methods. To bridge this gap, we propose to study the adversarial robustness of "
 url: "https://research.nvidia.com/publication/2022-10_advdo-realistic-adversarial-attacks-trajectory-prediction"
-status: new
+status: "new"
 ---
 
 # AdvDO: Realistic Adversarial Attacks for Trajectory Prediction

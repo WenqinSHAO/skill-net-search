@@ -1,15 +1,17 @@
 ---
-id: arxiv-2859
+id: "arxiv-2859"
 title: "An Analytic BRDF for Materials with Spherical Lambertian Scatterers"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Eugene d'Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Eugene d&#039;Eon"
     affiliation: "NVIDIA"
     is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +22,7 @@ external_links:
     url: "https://github.com/eugenedeon/mitsuba"
 abstract: "We present a new analytic BRDF for porous materials comprised of spherical Lambertian scatterers. The BRDF has a single parameter: the albedo of the Lambertian particles. The resulting appearance exhibits strong back scattering and saturation effects that height-field-based models such as Oren-Nayar"
 url: "https://research.nvidia.com/publication/2021-06_analytic-brdf-materials-spherical-lambertian-scatterers"
-status: new
+status: "new"
 ---
 
 # An Analytic BRDF for Materials with Spherical Lambertian Scatterers

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2668
+id: "arxiv-2668"
 title: "CuRobo: Parallelized Collision-Free Robot Motion Generation"
-conference: arXiv 2023
-date: 2023-05
+conference: "arXiv 2023"
+date: "2023-05"
 authors:
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
@@ -10,40 +10,39 @@ authors:
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Adam Fishman"
+    affiliation: "University of Washington"
+    is_industry: false
   - name: "Caelan Garrett"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karl Van Wyk"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Valts Blukis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alexander Millane"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Helen Oleynikova"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ankur Handa"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Adam Fishman"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Millane"
-    affiliation: ""
-    is_industry: false
-  - name: "Helen Oleynikova"
-    affiliation: ""
-    is_industry: false
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
   - name: "Nathan Ratliff"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/10160765"
 abstract: "This paper explores the problem of collision-free motion generation for manipulators by formulating it as a global motion optimization problem. We develop a parallel optimization technique to solve this problem and demonstrate its effectiveness on massively parallel GPUs. We show that combining simp"
 url: "https://research.nvidia.com/publication/2023-05_curobo-parallelized-collision-free-robot-motion-generation"
-status: new
+status: "new"
 ---
 
 # CuRobo: Parallelized Collision-Free Robot Motion Generation

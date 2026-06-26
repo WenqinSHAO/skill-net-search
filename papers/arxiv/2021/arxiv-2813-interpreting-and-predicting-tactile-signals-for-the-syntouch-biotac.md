@@ -1,8 +1,8 @@
 ---
-id: arxiv-2813
+id: "arxiv-2813"
 title: "Interpreting and predicting tactile signals for the SynTouch BioTac"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
@@ -11,17 +11,16 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://sites.google.com/nvidia.com/tactiledata"
 abstract: "In the human hand, high-density contact information provided by afferent neurons is essential for many human grasping and manipulation capabilities. In contrast, robotic tactile sensors, including the state-of-the-art SynTouch BioTac, are typically used to provide low-density contact information, su"
 url: "https://research.nvidia.com/publication/2021-12_interpreting-and-predicting-tactile-signals-syntouch-biotac"
-status: new
+status: "new"
 ---
 
 # Interpreting and predicting tactile signals for the SynTouch BioTac

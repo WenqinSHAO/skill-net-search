@@ -1,10 +1,19 @@
 ---
-id: arxiv-2559
+id: "arxiv-2559"
 title: "Toward Understanding Display Size for FPS Esports Aiming"
-conference: arXiv 2025
-date: 2025-04
+conference: "arXiv 2025"
+date: "2025-04"
 authors:
+  - name: "Arjun Madhusudan"
+    affiliation: "North Carolina State University and NVIDIA"
+    is_industry: true
   - name: "Josef Spjut"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Benjamin Watson"
+    affiliation: "North Carolina State University"
+    is_industry: false
+  - name: "Seth Schneider"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ben Boudaoud"
@@ -13,19 +22,9 @@ authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arjun Madhusudan"
-    affiliation: ""
-    is_industry: false
-  - name: "Benjamin Watson"
-    affiliation: ""
-    is_industry: false
-  - name: "Seth Schneider"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "VR, AR and Display Technology"
 abstract: "Gamers use a variety of different display sizes, though for PC gaming, monitors in the 24 to 27 inch size range have become most popular. Particularly popular among many PC gamers, first person shooter (FPS) games represent a genre where hand-eye coordination is particularly central to the player's "
 url: "https://research.nvidia.com/publication/2025-04_toward-understanding-display-size-fps-esports-aiming"
-status: new
+status: "new"
 ---
 
 # Toward Understanding Display Size for FPS Esports Aiming

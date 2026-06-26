@@ -1,26 +1,25 @@
 ---
-id: arxiv-2741
+id: "arxiv-2741"
 title: "Unbiased Inverse Volume Rendering With Differential Trackers"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Merlin Nimier-David"
+    affiliation: "EPFL"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Merlin Nimier-David"
-    affiliation: ""
-    is_industry: false
   - name: "Wenzel Jakob"
-    affiliation: ""
+    affiliation: "EPFL"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Volumetric representations are popular in inverse rendering because they have a simple parameterization, are smoothly varying, and transparently handle topology changes.&nbsp;However, incorporating the full volumetric transport of light is costly and challenging, often leading practitioners to imple"
 url: "https://research.nvidia.com/publication/2022-07_unbiased-inverse-volume-rendering-differential-trackers"
-status: new
+status: "new"
 ---
 
 # Unbiased Inverse Volume Rendering With Differential Trackers

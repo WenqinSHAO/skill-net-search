@@ -1,23 +1,22 @@
 ---
-id: iclr-0033
+id: "iclr-0033"
 title: "Score-Based Generative Modeling with Critically-Damped Langevin Diffusion"
-conference: ICLR 2022
-date: 2022-03
+conference: "ICLR 2022"
+date: "2022-03"
 authors:
+  - name: "Tim Dockhorn"
+    affiliation: "NVIDIA, University of Waterloo, Vector Institute"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tim Dockhorn"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://nv-tlabs.github.io/CLD-SGM/"
 abstract: "Score-based generative models (SGMs) have demonstrated remarkable synthesis quality. SGMs rely on a diffusion process that gradually perturbs the data towards a tractable distribution, while the generative model learns to denoise. The complexity of this denoising task is, apart from the data distrib"
 url: "https://research.nvidia.com/publication/2022-03_score-based-generative-modeling-critically-damped-langevin-diffusion"
-status: new
+status: "new"
 ---
 
 # Score-Based Generative Modeling with Critically-Damped Langevin Diffusion

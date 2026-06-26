@@ -1,9 +1,12 @@
 ---
-id: siggraph-0016
+id: "siggraph-0016"
 title: "On Smoothly Varying Frame Timing in First-Person Gaming"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
+  - name: "UC Santa Barbara and NVIDIA"
+    affiliation: "Devi Klein"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "UC Santa Barbara and NVIDIA"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://dl.acm.org/doi/fullHtml/10.1145/3641233.3664346"
 abstract: "In video games, the time between rendered frames varies significantly and is often uncontrolled. With the advent of variable refresh rate (VRR) displays, like G-SYNC and FreeSync, players can experience varying frame timing as produced instead of aliasing to nearby refresh timings (e.g. VSYNC On). W"
 url: "https://research.nvidia.com/publication/2024-07_smoothly-varying-frame-timing-first-person-gaming"
-status: new
+status: "new"
 ---
 
 # On Smoothly Varying Frame Timing in First-Person Gaming

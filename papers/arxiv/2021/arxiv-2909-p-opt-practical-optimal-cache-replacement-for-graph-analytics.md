@@ -1,24 +1,23 @@
 ---
-id: arxiv-2909
+id: "arxiv-2909"
 title: "P-OPT: Practical Optimal Cache Replacement for Graph Analytics"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Vignesh Balaji"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Neal Crago"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Aamer Jaleel"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vignesh Balaji"
-    affiliation: ""
-    is_industry: false
   - name: "Brandon Lucia"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9407090"
 abstract: "Graph analytics is an important workload that achieves suboptimal performance due to poor cache locality. State-of-the-art cache replacement policies fail to capture the highly dynamic and input-specific reuse patterns of graph application data. The main insight of this work is that for graph applic"
 url: "https://research.nvidia.com/publication/2021-02_p-opt-practical-optimal-cache-replacement-graph-analytics"
-status: new
+status: "new"
 ---
 
 # P-OPT: Practical Optimal Cache Replacement for Graph Analytics

@@ -1,34 +1,33 @@
 ---
-id: arxiv-2990
+id: "arxiv-2990"
 title: "Angular Visual Hardness"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Beidi Chen"
+    affiliation: "Rice"
+    is_industry: false
+  - name: "Weiyang Liu"
+    affiliation: "Gatech"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Beidi Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Weiyang Liu"
-    affiliation: ""
-    is_industry: false
   - name: "Anshumali Shrivastava"
-    affiliation: ""
+    affiliation: "Rice"
     is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://chrisding.github.io/publications/ICML20a_Slides.pdf"
 abstract: "Recent convolutional neural networks (CNNs) have led to impressive performance but often suffer from poor calibration. They tend to be overconfident, with the model confidence not always reflecting the underlying true ambiguity and hardness. In this paper, we propose angular visual hardness (AVH), a"
 url: "https://research.nvidia.com/publication/2020-07_angular-visual-hardness"
-status: new
+status: "new"
 ---
 
 # Angular Visual Hardness

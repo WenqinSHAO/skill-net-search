@@ -1,8 +1,8 @@
 ---
-id: arxiv-2635
+id: "arxiv-2635"
 title: "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling"
-conference: arXiv 2023
-date: 2023-12
+conference: "arXiv 2023"
+date: "2023-12"
 authors:
   - name: "Jakob Hoydis"
     affiliation: "NVIDIA"
@@ -29,7 +29,6 @@ topics:
   - AI & Machine Learning
   - Graphics_rendering
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://nvlabs.github.io/sionna/"
 abstract: "Sionna™ is a GPU-accelerated open-source library for link-level simulations based on TensorFlow. Its latest release (v0.14) integrates a differentiable ray tracer (RT) for the simulation of radio wave propagation. This unique feature allows for the computation of gradients of the channel impulse res"
 url: "https://research.nvidia.com/publication/2023-12_sionna-rt-differentiable-ray-tracing-radio-propagation-modeling"
-status: new
+status: "new"
 ---
 
 # Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling

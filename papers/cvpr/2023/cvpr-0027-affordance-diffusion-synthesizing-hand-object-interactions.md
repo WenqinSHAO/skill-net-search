@@ -1,38 +1,37 @@
 ---
-id: cvpr-0027
+id: "cvpr-0027"
 title: "Affordance Diffusion: Synthesizing Hand-Object Interactions"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Yufei Ye"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Xueting Li"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Abhinav Gupta"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jiaming Song"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shubham Tulsiani"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yufei Ye"
-    affiliation: ""
-    is_industry: false
-  - name: "Abhinav Gupta"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaming Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Shubham Tulsiani"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2303.12538"
 abstract: "Recent successes in image synthesis are powered by large-scale diffusion models. However, most methods are currently limited to either text- or image-conditioned generation for synthesizing an entire image, texture transfer or inserting objects into a user-specified region. In contrast, in this work"
 url: "https://research.nvidia.com/publication/2023-06_affordance-diffusion-synthesizing-hand-object-interactions"
-status: new
+status: "new"
 ---
 
 # Affordance Diffusion: Synthesizing Hand-Object Interactions

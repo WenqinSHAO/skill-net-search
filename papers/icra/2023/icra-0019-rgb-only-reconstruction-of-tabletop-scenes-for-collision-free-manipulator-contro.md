@@ -1,9 +1,12 @@
 ---
-id: icra-0019
+id: "icra-0019"
 title: "RGB-Only Reconstruction of Tabletop Scenes for Collision-Free Manipulator Control"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Zhenggang Tang"
+    affiliation: "Univ of Illinois"
+    is_industry: false
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,19 +25,15 @@ authors:
   - name: "Charles Loop"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alexander Schwing"
+    affiliation: "Univ of Illinois"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhenggang Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Schwing"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://ngp-mpc.github.io/"
 abstract: "We present a system for collision-free control of a robot manipulator that uses only RGB views of the world. Perceptual input of a tabletop scene is provided by multiple images of an RGB camera (without depth) that is either handheld or mounted on the robot end effector. A NeRF-like process is used "
 url: "https://research.nvidia.com/publication/2023-05_rgb-only-reconstruction-tabletop-scenes-collision-free-manipulator-control"
-status: new
+status: "new"
 ---
 
 # RGB-Only Reconstruction of Tabletop Scenes for Collision-Free Manipulator Control

@@ -1,10 +1,16 @@
 ---
-id: arxiv-2827
+id: "arxiv-2827"
 title: "Suraksha: A Framework to Analyze the Safety Implications of Perception Design Choices in AVs"
-conference: arXiv 2021
-date: 2021-10
+conference: "arXiv 2021"
+date: "2021-10"
 authors:
+  - name: "Hengyu Zhao"
+    affiliation: "University of California, San Diego"
+    is_industry: false
   - name: "Siva Hari"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael B. Sullivan"
@@ -13,19 +19,12 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hengyu Zhao"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
   - name: "Jishen Zhao"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9700341"
 abstract: "Autonomous vehicles (AVs) employ sophisticated computer systems and algorithms to perceive the surroundings, localize, plan, and control the vehicle. With several available design choices for each of the system components, making design decisions without analyzing system-level safety consequences ma"
 url: "https://research.nvidia.com/publication/2021-10_suraksha-framework-analyze-safety-implications-perception-design-choices-avs"
-status: new
+status: "new"
 ---
 
 # Suraksha: A Framework to Analyze the Safety Implications of Perception Design Choices in AVs

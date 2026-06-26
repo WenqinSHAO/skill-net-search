@@ -1,28 +1,27 @@
 ---
-id: arxiv-2689
+id: "arxiv-2689"
 title: "BufFormer: A Generative ML Framework for Scalable Buffering"
-conference: arXiv 2023
-date: 2023-01
+conference: "arXiv 2023"
+date: "2023-01"
 authors:
   - name: "Rongjian Liang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siddhartha Nath"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anand Rajaram"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jiang Hu"
-    affiliation: ""
+    affiliation: "Texas A&M University"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10044843"
 abstract: "Buffering is a prevalent interconnect optimization technique to help timing closure and is often performed after placement. A common buffering approach is to construct a Steiner tree and then buffers are inserted on the tree based on Ginneken-Lillis style algorithm. Such an approach is difficult to "
 url: "https://research.nvidia.com/publication/2023-01_bufformer-generative-ml-framework-scalable-buffering"
-status: new
+status: "new"
 ---
 
 # BufFormer: A Generative ML Framework for Scalable Buffering

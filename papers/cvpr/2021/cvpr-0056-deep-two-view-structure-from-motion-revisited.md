@@ -1,33 +1,32 @@
 ---
-id: cvpr-0056
+id: "cvpr-0056"
 title: "Deep Two-View Structure-from-Motion Revisited"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
-  - name: "Stan Birchfield"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Jianyuan Wang"
     affiliation: ""
     is_industry: false
   - name: "Yiran Zhong"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuchao Dai"
     affiliation: ""
     is_industry: false
+  - name: "Stan Birchfield"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kaihao Zhang"
     affiliation: ""
     is_industry: false
   - name: "Nikolai Smolyanskiy"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongdong Li"
     affiliation: ""
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.00556"
 abstract: "Two-view structure-from-motion (SfM) is the cornerstone of 3D reconstruction and visual SLAM. Existing deep learning-based approaches formulate the problem by either recovering absolute pose scales from two consecutive frames or predicting a depth map from a single image, both of which are ill-posed"
 url: "https://research.nvidia.com/publication/2021-06_deep-two-view-structure-motion-revisited"
-status: new
+status: "new"
 ---
 
 # Deep Two-View Structure-from-Motion Revisited

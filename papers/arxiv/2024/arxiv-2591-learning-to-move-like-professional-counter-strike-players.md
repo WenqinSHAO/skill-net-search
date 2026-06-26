@@ -1,9 +1,21 @@
 ---
-id: arxiv-2591
+id: "arxiv-2591"
 title: "Learning to Move Like Professional Counter-Strike Players"
-conference: arXiv 2024
-date: 2024-09
+conference: "arXiv 2024"
+date: "2024-09"
 authors:
+  - name: "David Durst"
+    affiliation: "Stanford"
+    is_industry: false
+  - name: "F. Xie"
+    affiliation: "Activision Blizzard"
+    is_industry: false
+  - name: "V. Sarukkai"
+    affiliation: "Stanford"
+    is_industry: false
+  - name: "Brennan Shacklett"
+    affiliation: "Stanford"
+    is_industry: false
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,32 +25,20 @@ authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "David Durst"
-    affiliation: ""
-    is_industry: false
-  - name: "F. Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "V. Sarukkai"
-    affiliation: ""
-    is_industry: false
-  - name: "Brennan Shacklett"
-    affiliation: ""
-    is_industry: false
   - name: "C. Taylor"
-    affiliation: ""
+    affiliation: "Activision Blizzard"
     is_industry: false
   - name: "G. Bernstein"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
   - name: "S. Choudhury"
-    affiliation: ""
+    affiliation: "Cornell"
     is_industry: false
-  - name: "P. Hanrahan"
-    affiliation: ""
+  - name: "P. Hanrahan,"
+    affiliation: "Stanford"
     is_industry: false
   - name: "Kayvon Fatahalian"
-    affiliation: ""
+    affiliation: "Stanford"
     is_industry: false
 topics:
   - AI & Machine Learning
@@ -46,7 +46,6 @@ topics:
   - Foundation_models
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -62,7 +61,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1111/cgf.15173"
 abstract: "In multiplayer, first-person shooter games like Counter-Strike: Global Offensive (CS:GO), coordinated movement is a critical component of high-level strategic play. However, the complexity of team coordination and the variety of conditions present in popular game maps make it impractical to author h"
 url: "https://research.nvidia.com/publication/2024-09_learning-move-professional-counter-strike-players"
-status: new
+status: "new"
 ---
 
 # Learning to Move Like Professional Counter-Strike Players

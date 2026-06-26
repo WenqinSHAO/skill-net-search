@@ -1,8 +1,8 @@
 ---
-id: arxiv-2812
+id: "arxiv-2812"
 title: "Evolution of the Graphics Processing Unit (GPU)"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
   - name: "William Dally"
     affiliation: "NVIDIA"
@@ -11,11 +11,10 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David B. Kirk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9623445"
 abstract: "Graphics processing units (GPUs) power today’s fastest supercomputers, are the dominant platform for deep learning, and provide the intelligence for devices ranging from self-driving cars to robots and smart cameras. They also generate compelling photorealistic images at real-time frame rates. GPUs "
 url: "https://research.nvidia.com/publication/2021-12_evolution-graphics-processing-unit-gpu"
-status: new
+status: "new"
 ---
 
 # Evolution of the Graphics Processing Unit (GPU)

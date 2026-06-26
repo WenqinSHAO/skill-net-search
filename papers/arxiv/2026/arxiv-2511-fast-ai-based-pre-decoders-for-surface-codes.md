@@ -1,28 +1,27 @@
 ---
-id: arxiv-2511
+id: "arxiv-2511"
 title: "Fast AI-Based Pre-Decoders for Surface Codes"
-conference: arXiv 2026
-date: 2026-04
+conference: "arXiv 2026"
+date: "2026-04"
 authors:
   - name: "Christopher Chamberland"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Olle"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Muyuan Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Scott Thornton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Igor Baratta"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Computer Architecture"
 abstract: "Fast, scalable decoding architectures that operate in a block-wise parallel fashion across space and time are essential for real-time fault-tolerant quantum computing. We introduce a scalable AI-based pre-decoder for the surface code that performs local, parallel error correction at low latency, rem"
 url: "https://research.nvidia.com/publication/2026-04%5Ffast-ai-based-pre-decoders-surface-codes"
-status: new
+status: "new"
 ---
 
 # Fast AI-Based Pre-Decoders for Surface Codes

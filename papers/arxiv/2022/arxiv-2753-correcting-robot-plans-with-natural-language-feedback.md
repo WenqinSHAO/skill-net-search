@@ -1,37 +1,36 @@
 ---
-id: arxiv-2753
+id: "arxiv-2753"
 title: "Correcting Robot Plans with Natural Language Feedback"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Pratyusha Sharma"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Valts Blukis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pratyusha Sharma"
-    affiliation: ""
-    is_industry: false
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Jacob Andreas"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://sites.google.com/view/language-costs"
 abstract: "When humans design cost or goal specifications for robots, they often produce specifications that are ambiguous, underspecified, or beyond planners' ability to solve. In these cases, corrections provide a valuable tool for human-in-the-loop robot control. Corrections might take the form of new goal "
 url: "https://research.nvidia.com/publication/2022-06_correcting-robot-plans-natural-language-feedback"
-status: new
+status: "new"
 ---
 
 # Correcting Robot Plans with Natural Language Feedback

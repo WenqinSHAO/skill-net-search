@@ -1,37 +1,36 @@
 ---
-id: iclr-0005
+id: "iclr-0005"
 title: "Exploring Synthesizable Chemical Space with Iterative Pathway Refinements"
-conference: ICLR 2026
-date: 2026-01
+conference: "ICLR 2026"
+date: "2026-01"
 authors:
+  - name: "Seul Lee"
+    affiliation: "KAIST"
+    is_industry: false
   - name: "Karsten Kreis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Srimukh Prasad Veccham"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Meng Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saee Paliwal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Weili Nie"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seul Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Srimukh Prasad Veccham"
-    affiliation: ""
-    is_industry: false
-  - name: "Meng Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
-  - name: "Saee Paliwal"
-    affiliation: ""
-    is_industry: false
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "Generative AI"
 abstract: "A well-known pitfall of molecular generative models is that they are not guaranteed to generate synthesizable molecules. Existing solutions for this problem often struggle to effectively navigate exponentially large combinatorial space of synthesizable molecules and suffer from poor coverage. To add"
 url: "https://research.nvidia.com/publication/2026-01%5Fexploring-synthesizable-chemical-space-iterative-pathway-refinements"
-status: new
+status: "new"
 ---
 
 # Exploring Synthesizable Chemical Space with Iterative Pathway Refinements

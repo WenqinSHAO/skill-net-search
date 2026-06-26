@@ -1,28 +1,27 @@
 ---
-id: iros-0009
+id: "iros-0009"
 title: "Interpretable Trajectory Prediction for Autonomous Vehicles via Counterfactual Responsibility"
-conference: IROS 2023
-date: 2023-10
+conference: "IROS 2023"
+date: "2023-10"
 authors:
+  - name: "Kai-Chieh Hsu"
+    affiliation: "Princeton University"
+    is_industry: false
   - name: "Karen Leung"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jaime Fernandez Fisac"
+    affiliation: "Princeton University"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kai-Chieh Hsu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jaime Fernandez Fisac"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://saferobotics.princeton.edu/research/responsibility"
 abstract: "The ability to anticipate surrounding agents’ behaviors is critical to enable safe and seamless autonomous vehicles (AVs). While phenomenological methods have successfully predicted future trajectories from scene context, these predictions lack interpretability. On the other hand, ontological approa"
 url: "https://research.nvidia.com/publication/2023-10_interpretable-trajectory-prediction-autonomous-vehicles-counterfactual"
-status: new
+status: "new"
 ---
 
 # Interpretable Trajectory Prediction for Autonomous Vehicles via Counterfactual Responsibility

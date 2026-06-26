@@ -1,9 +1,12 @@
 ---
-id: arxiv-2799
+id: "arxiv-2799"
 title: "Displacement-Invariant Cost Computation for Efficient Stereo Matching"
-conference: arXiv 2022
-date: 2022-01
+conference: "arXiv 2022"
+date: "2022-01"
 authors:
+  - name: "Yiran Zhong"
+    affiliation: "Australian National Univ."
+    is_industry: false
   - name: "Charles Loop"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,15 +16,11 @@ authors:
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yiran Zhong"
-    affiliation: ""
-    is_industry: false
   - name: "et al."
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://link.springer.com/article/10.1007/s11263-022-01595-8"
 abstract: "Although deep learning-based methods have dominated stereo matching leaderboards by yielding unprecedented disparity accuracy, their inference time is typically slow, on the order of seconds for a pair of 540p images. The main reason is that the leading methods employ time-consuming 3D convolutions "
 url: "https://research.nvidia.com/publication/2022-01_displacement-invariant-cost-computation-efficient-stereo-matching"
-status: new
+status: "new"
 ---
 
 # Displacement-Invariant Cost Computation for Efficient Stereo Matching

@@ -1,35 +1,34 @@
 ---
-id: arxiv-2633
+id: "arxiv-2633"
 title: "Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition"
-conference: arXiv 2023
-date: 2023-12
+conference: "arXiv 2023"
+date: "2023-12"
 authors:
+  - name: "Srijith Radhakrishnan"
+    affiliation: "King Abdullah University of Science and Technology"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Srijith Radhakrishnan"
-    affiliation: ""
-    is_industry: false
   - name: "Sumeer Khan"
-    affiliation: ""
+    affiliation: "King Abdullah University of Science and Technology"
     is_industry: false
   - name: "Rohit Kumar"
-    affiliation: ""
+    affiliation: "King Abdullah University of Science and Technology"
     is_industry: false
   - name: "Narsis Kiani"
-    affiliation: ""
+    affiliation: "Karolinska institute"
     is_industry: false
   - name: "David Gomez-Cabrero"
-    affiliation: ""
+    affiliation: "King Abdullah University of Science and Technology"
     is_industry: false
   - name: "Jesper Tegnér"
-    affiliation: ""
+    affiliation: "King Abdullah University of Science and Technology"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
   - name: "EMNLP"
     url: "https://aclanthology.org/2023.emnlp-main.618/"
 url: "https://research.nvidia.com/publication/2023-12_whispering-llama-cross-modal-generative-error-correction-framework-speech"
-status: new
+status: "new"
 ---
 
 # Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition

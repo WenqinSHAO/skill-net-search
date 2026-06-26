@@ -1,13 +1,19 @@
 ---
-id: cvpr-0057
+id: "cvpr-0057"
 title: "See through Gradients: Image Batch Recovery via GradInversion"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Arun Mallya"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arash Vahdat"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jose M. Alvarez"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
@@ -16,15 +22,8 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arun Mallya"
-    affiliation: ""
-    is_industry: false
-  - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Training deep neural networks requires gradient estimation from data batches to update parameters. Gradients per parameter are averaged over a set of data and this has been presumed to be safe for privacy-preserving training in joint, collaborative, and federated learning applications. Prior work on"
 url: "https://research.nvidia.com/publication/2021-06_see-through-gradients-image-batch-recovery-gradinversion"
-status: new
+status: "new"
 ---
 
 # See through Gradients: Image Batch Recovery via GradInversion

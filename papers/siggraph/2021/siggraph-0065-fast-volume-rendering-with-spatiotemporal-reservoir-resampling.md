@@ -1,21 +1,20 @@
 ---
-id: siggraph-0065
+id: "siggraph-0065"
 title: "Fast Volume Rendering with Spatiotemporal Reservoir Resampling"
-conference: SIGGRAPH 2021
-date: 2021-11
+conference: "SIGGRAPH 2021"
+date: "2021-11"
 authors:
+  - name: "Daqi Lin"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daqi Lin"
-    affiliation: ""
-    is_industry: false
   - name: "Cem Yuksel"
-    affiliation: ""
+    affiliation: "University of Utah"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "Volume rendering under complex, dynamic lighting is challenging, especially if targeting real-time. To address this challenge, we extend a recent direct illumination sampling technique, spatiotemporal reservoir resampling, to multi-dimensional path space for volumetric media. By fully evaluating jus"
 url: "https://research.nvidia.com/publication/2021-11_fast-volume-rendering-spatiotemporal-reservoir-resampling"
-status: new
+status: "new"
 ---
 
 # Fast Volume Rendering with Spatiotemporal Reservoir Resampling

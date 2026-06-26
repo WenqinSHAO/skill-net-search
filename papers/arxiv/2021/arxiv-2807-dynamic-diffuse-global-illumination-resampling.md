@@ -1,27 +1,26 @@
 ---
-id: arxiv-2807
+id: "arxiv-2807"
 title: "Dynamic Diffuse Global Illumination Resampling"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
+  - name: "Zander Majercik"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zander Majercik"
-    affiliation: ""
-    is_industry: false
   - name: "Derek Nowrouzezahrai"
-    affiliation: ""
+    affiliation: "McGill University"
     is_industry: false
   - name: "Morgan McGuire"
-    affiliation: ""
+    affiliation: "Roblox"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://tom94.net/data/publications/majercik21dynamic/majercik21dynamic.mp4"
 abstract: "Interactive global illumination remains a challenge in radiometrically and geometrically complex scenes. Specialized sampling strategies are effective for specular and near-specular transport because the scattering has relatively low directional variance per scattering event. In contrast, the high v"
 url: "https://research.nvidia.com/publication/2021-12_dynamic-diffuse-global-illumination-resampling"
-status: new
+status: "new"
 ---
 
 # Dynamic Diffuse Global Illumination Resampling

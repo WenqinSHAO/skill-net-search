@@ -1,36 +1,35 @@
 ---
-id: arxiv-3026
+id: "arxiv-3026"
 title: "Cross-Language Transfer Learning and Domain Adaptation for End-to-End Automatic Speech Recognition"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Jocelyn Huang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Patrick O’Neill"
-    affiliation: ""
+    affiliation: "Kensho"
     is_industry: false
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jason Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Adriana Flores"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Georg Kucsko"
-    affiliation: ""
+    affiliation: "Kensho"
     is_industry: false
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://arxiv.org/abs/2005.04290"
 abstract: "In this paper, we demonstrate the efficacy of transfer learning and continuous learning for various automatic speech recognition (ASR) tasks using end-to-end models trained with CTC loss. We start with a large pre-trained English ASR model and show that transfer learning can be effectively and easil"
 url: "https://research.nvidia.com/publication/2020-05_cross-language-transfer-learning-and-domain-adaptation-end-end-automatic-speech"
-status: new
+status: "new"
 ---
 
 # Cross-Language Transfer Learning and Domain Adaptation for End-to-End Automatic Speech Recognition

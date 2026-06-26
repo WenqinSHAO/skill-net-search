@@ -1,28 +1,27 @@
 ---
-id: icra-0025
+id: "icra-0025"
 title: "Single-Stage Keypoint-Based Category-Level Object Pose Estimation from an RGB Image"
-conference: ICRA 2022
-date: 2022-02
+conference: "ICRA 2022"
+date: "2022-02"
 authors:
+  - name: "Yunzhi Lin"
+    affiliation: "NVIDIA, Georgia Institute of Technology"
+    is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Patricio A. Vela"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yunzhi Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Patricio A. Vela"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://github.com/NVlabs/CenterPose"
 abstract: "Prior work on 6-DoF object pose estimation has largely focused on instance-level processing, in which a textured CAD model is available for each object being detected. Category-level 6-DoF pose estimation represents an important step toward developing robotic vision systems that operate in unstructu"
 url: "https://research.nvidia.com/publication/2022-02_single-stage-keypoint-based-category-level-object-pose-estimation-rgb-image"
-status: new
+status: "new"
 ---
 
 # Single-Stage Keypoint-Based Category-Level Object Pose Estimation from an RGB Image

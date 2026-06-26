@@ -1,37 +1,36 @@
 ---
-id: iclr-0016
+id: "iclr-0016"
 title: "Energy-Based Diffusion Language Models for Text Generation"
-conference: ICLR 2025
-date: 2025-01
+conference: "ICLR 2025"
+date: "2025-01"
 authors:
+  - name: "Minkai Xu"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yilun Xu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jure Leskovec"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Stefano Ermon"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Minkai Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
-  - name: "Yilun Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jure Leskovec"
-    affiliation: ""
-    is_industry: false
-  - name: "Stefano Ermon"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2410.21357"
 abstract: "Despite remarkable progress in autoregressive language models, alternative generative paradigms beyond left-to-right generation are still being actively explored. Discrete diffusion models, with the capacity for parallel generation, have recently emerged as a promising alternative. Unfortunately, th"
 url: "https://research.nvidia.com/publication/2025-01_energy-based-diffusion-language-models-text-generation"
-status: new
+status: "new"
 ---
 
 # Energy-Based Diffusion Language Models for Text Generation

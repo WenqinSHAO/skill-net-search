@@ -1,9 +1,15 @@
 ---
-id: arxiv-2560
+id: "arxiv-2560"
 title: "Modeling Visually-Guided Aim-and-Shoot behavior in First-Person Shoters"
-conference: arXiv 2025
-date: 2025-04
+conference: "arXiv 2025"
+date: "2025-04"
 authors:
+  - name: "June-Seop Yoon"
+    affiliation: "Yonsei University"
+    is_industry: false
+  - name: "Hee-Seung Moon"
+    affiliation: "Chung-Ang University"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +19,14 @@ authors:
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Byungjoo Lee"
+    affiliation: "Yonsei University"
+    is_industry: false
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "June-Seop Yoon"
-    affiliation: ""
-    is_industry: false
-  - name: "Hee-Seung Moon"
-    affiliation: ""
-    is_industry: false
-  - name: "Byungjoo Lee"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://doi.org/10.1016/j.ijhcs.2025.103503"
 abstract: "In first-person shooters, players aim by aligning the crosshair onto a target and shoot at the optimal moment. Since winning a match is largely determined by such aim-and-shoot skills, players demand quantitative evaluation of the skill and analysis of hidden factors in performance. In response, we "
 url: "https://research.nvidia.com/publication/2025-04_modeling-visually-guided-aim-and-shoot-behavior-first-person-shoters"
-status: new
+status: "new"
 ---
 
 # Modeling Visually-Guided Aim-and-Shoot behavior in First-Person Shoters

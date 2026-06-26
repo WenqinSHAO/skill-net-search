@@ -1,46 +1,45 @@
 ---
-id: arxiv-2541
+id: "arxiv-2541"
 title: "VoiceNoNG: Robust High-Quality Speech Editing Model without Hallucinations"
-conference: arXiv 2025
-date: 2025-08
+conference: "arXiv 2025"
+date: "2025-08"
 authors:
   - name: "Sung-Feng Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Heng-Cheng Kuo"
+    affiliation: "National Taiwan University"
+    is_industry: false
+  - name: "Zhehuai Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xuesong Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Pin-Jui Ku"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ante Jukić"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yu Tsao"
+    affiliation: "Academia Sinica"
+    is_industry: false
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Hung-yi Lee"
+    affiliation: "National Taiwan University"
+    is_industry: false
   - name: "Szu-Wei Fu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Heng-Cheng Kuo"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhehuai Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Xuesong Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Pin-Jui Ku"
-    affiliation: ""
-    is_industry: false
-  - name: "Ante Jukić"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Tsao"
-    affiliation: ""
-    is_industry: false
-  - name: "Hung-yi Lee"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -53,7 +52,7 @@ external_links:
     url: "https://jasonswfu.github.io/NoNG-IS-/"
 abstract: "Voicebox and VoiceCraft are the current most representative models for non-autoregressive and autoregressive speech editing, respectively. Although both of them can generate high-quality speech edits, we identify their limitations: Voicebox is not good at editing speech with background audio, while "
 url: "https://research.nvidia.com/publication/2025-08_voicenong-robust-high-quality-speech-editing-model-without-hallucinations"
-status: new
+status: "new"
 ---
 
 # VoiceNoNG: Robust High-Quality Speech Editing Model without Hallucinations

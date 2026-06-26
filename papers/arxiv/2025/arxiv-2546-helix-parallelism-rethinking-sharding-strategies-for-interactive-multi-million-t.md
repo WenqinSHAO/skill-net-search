@@ -1,43 +1,42 @@
 ---
-id: arxiv-2546
+id: "arxiv-2546"
 title: "Helix Parallelism: Rethinking Sharding Strategies for Interactive  Multi-Million-Token LLM Decoding"
-conference: arXiv 2025
-date: 2025-07
+conference: "arXiv 2025"
+date: "2025-07"
 authors:
   - name: "Nidhi Bhatia"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ankit More"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ritika Borkar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tiyasa Mitra"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ramon Matas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ritchie Zhao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maximilian Golub"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dheevatsa Mudigere"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brian Pharris"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bita Darvish Rouhani"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ research_areas:
   - "Algorithms and Numerical Methods"
   - "Artificial Intelligence and Machine Learning"
 url: "https://research.nvidia.com/publication/2025-07_helix-parallelism-rethinking-sharding-strategies-interactive-multi-million"
-status: new
+status: "new"
 ---
 
 # Helix Parallelism: Rethinking Sharding Strategies for Interactive  Multi-Million-Token LLM Decoding

@@ -1,25 +1,24 @@
 ---
-id: arxiv-2949
+id: "arxiv-2949"
 title: "ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Tzuf Paz-Argaman"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tzuf Paz-Argaman"
-    affiliation: ""
-    is_industry: false
   - name: "Reut Tsarfaty"
-    affiliation: ""
+    affiliation: "Bar-Ilan University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/abs/2010.03276"
 abstract: "We study the problem of recognizing visual entities from the textual descriptions of their classes. Specifically, given birds' images with free-text descriptions of their species, we learn to classify images of previously-unseen species based on specie descriptions. This setup has been studied in th"
 url: "https://research.nvidia.com/publication/2020-11_zest-zero-shot-learning-text-descriptions-using-textual-similarity-and-visual"
-status: new
+status: "new"
 ---
 
 # ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization

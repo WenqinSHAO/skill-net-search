@@ -1,9 +1,21 @@
 ---
-id: arxiv-2711
+id: "arxiv-2711"
 title: "Towards Adaptive Digital Self-Interference Cancellation in Full-Duplex Wireless Transceivers: APSM vs. Neural Networks"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "M. Hossein Attar"
+    affiliation: "Technische Universität Berlin"
+    is_industry: false
+  - name: "Kaixin Chang"
+    affiliation: "Technische Universität Berlin"
+    is_industry: false
+  - name: "Ramez Askar"
+    affiliation: "Technische Universität Berlin"
+    is_industry: false
+  - name: "Slawomir Stanczak"
+    affiliation: "Technische Universität Berlin"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +25,9 @@ authors:
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "M. Hossein Attar"
-    affiliation: ""
-    is_industry: false
-  - name: "Kaixin Chang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ramez Askar"
-    affiliation: ""
-    is_industry: false
-  - name: "Slawomir Stanczak"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Telecommunications"
 abstract: "We investigate adaptive projected sub gradient method (APSM) and neural network (NN) machine learning techniques to address the challenge of digital self-interference cancellation in full-duplex communications. To this end, we compare both approaches in terms of their interference suppression capabi"
 url: "https://research.nvidia.com/publication/2022-10_towards-adaptive-digital-self-interference-cancellation-full-duplex-wireless"
-status: new
+status: "new"
 ---
 
 # Towards Adaptive Digital Self-Interference Cancellation in Full-Duplex Wireless Transceivers: APSM vs. Neural Networks

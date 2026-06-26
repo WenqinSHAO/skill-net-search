@@ -1,27 +1,26 @@
 ---
-id: arxiv-2851
+id: "arxiv-2851"
 title: "ReSTIR GI: Path Resampling for Real-Time Path Tracing"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Yaobin Ouyang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shiqiu Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Markus Kettunen"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yaobin Ouyang"
-    affiliation: ""
-    is_industry: false
-  - name: "Shiqiu Liu"
-    affiliation: ""
-    is_industry: false
   - name: "Jacopo Pantaleoni"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Even with the advent of hardware-accelerated ray tracing in modern GPUs, only a small number of rays can be traced at each pixel in real-time applications. This presents a significant challenge for path tracing, even when augmented with state-of-the art denoising algorithms. While the recently-devel"
 url: "https://research.nvidia.com/publication/2021-06_restir-gi-path-resampling-real-time-path-tracing"
-status: new
+status: "new"
 ---
 
 # ReSTIR GI: Path Resampling for Real-Time Path Tracing

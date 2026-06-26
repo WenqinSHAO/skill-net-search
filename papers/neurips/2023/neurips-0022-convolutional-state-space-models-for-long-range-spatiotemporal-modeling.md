@@ -1,26 +1,25 @@
 ---
-id: neurips-0022
+id: "neurips-0022"
 title: "Convolutional State Space Models for Long-Range Spatiotemporal Modeling"
-conference: NeurIPS 2023
-date: 2023-12
+conference: "NeurIPS 2023"
+date: "2023-12"
 authors:
+  - name: "Jimmy T. H. Smith"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Scott Linderman"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jimmy T. H. Smith"
-    affiliation: ""
-    is_industry: false
-  - name: "Scott Linderman"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -34,7 +33,7 @@ external_links:
     url: "https://github.com/NVlabs/ConvSSM"
 abstract: "Effectively modeling long spatiotemporal sequences is challenging due to the need to model complex spatial correlations and long-range temporal dependencies simultaneously. ConvLSTMs attempt to address this by updating tensor-valued states with recurrent neural networks, but their sequential computa"
 url: "https://research.nvidia.com/publication/2023-12_convolutional-state-space-models-long-range-spatiotemporal-modeling"
-status: new
+status: "new"
 ---
 
 # Convolutional State Space Models for Long-Range Spatiotemporal Modeling

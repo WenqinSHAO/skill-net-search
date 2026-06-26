@@ -1,27 +1,26 @@
 ---
-id: icra-0002
+id: "icra-0002"
 title: "TWIN: Two-handed Intelligent Benchmark for Bimanual Manipulation"
-conference: ICRA 2025
-date: 2025-05
+conference: "ICRA 2025"
+date: "2025-05"
 authors:
+  - name: "Markus Grotz"
+    affiliation: "University of Washington"
+    is_industry: false
+  - name: "Mohit Shridhar"
+    affiliation: "University of Washington"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Markus Grotz"
-    affiliation: ""
-    is_industry: false
-  - name: "Mohit Shridhar"
-    affiliation: ""
-    is_industry: false
   - name: "Tamim Asfour"
-    affiliation: ""
+    affiliation: "Karlsruhe Institute of Technology"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "University of Washington, NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://bimanual.github.io"
 abstract: "Bimanual manipulation is challenging due to precise spatial and temporal coordination required between two arms. While there exist several real-world bimanual systems, there is a lack of simulated benchmarks with a large task diversity for systematically studying bimanual capabilities across a wide "
 url: "https://research.nvidia.com/publication/2025-05_twin-two-handed-intelligent-benchmark-bimanual-manipulation"
-status: new
+status: "new"
 ---
 
 # TWIN: Two-handed Intelligent Benchmark for Bimanual Manipulation

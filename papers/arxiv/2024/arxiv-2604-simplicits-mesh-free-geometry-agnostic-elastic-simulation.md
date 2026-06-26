@@ -1,27 +1,26 @@
 ---
-id: arxiv-2604
+id: "arxiv-2604"
 title: "Simplicits: Mesh-Free, Geometry-Agnostic, Elastic Simulation"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
   - name: "Vismay Modi"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Or Perel"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shinjiro Sueda"
-    affiliation: ""
+    affiliation: "Texas A&M University"
     is_industry: false
   - name: "David I. W. Levin"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "The proliferation of 3D representations, from explicit meshes to implicit neural fields and more, motivates the need for simulators agnostic to representation. We present a data-, mesh-, and grid-free solution for elastic simulation for any object in any geometric representation undergoing large, no"
 url: "https://research.nvidia.com/publication/2024-07_simplicits-mesh-free-geometry-agnostic-elastic-simulation"
-status: new
+status: "new"
 ---
 
 # Simplicits: Mesh-Free, Geometry-Agnostic, Elastic Simulation

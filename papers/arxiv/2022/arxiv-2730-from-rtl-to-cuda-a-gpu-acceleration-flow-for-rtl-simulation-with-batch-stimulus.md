@@ -1,28 +1,27 @@
 ---
-id: arxiv-2730
+id: "arxiv-2730"
 title: "From RTL to CUDA: A GPU Acceleration Flow for RTL Simulation with Batch Stimulus"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Dian-Lun Lin"
+    affiliation: "University of Utah"
+    is_industry: false
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yanqing Zhang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dian-Lun Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "Tsung-Wei Huang"
-    affiliation: ""
+    affiliation: "University of Utah"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://github.com/dian-lun-lin/RTLflow"
 abstract: "High-throughput RTL simulation is critical for verifying today’s&nbsp;highly complex SoCs. Recent research has explored accelerating&nbsp;RTL simulation by leveraging event-driven approaches or partitioning&nbsp;heuristics to speed up simulation on a single stimulus. To further&nbsp;accelerate throu"
 url: "https://research.nvidia.com/publication/2022-08_rtl-cuda-gpu-acceleration-flow-rtl-simulation-batch-stimulus"
-status: new
+status: "new"
 ---
 
 # From RTL to CUDA: A GPU Acceleration Flow for RTL Simulation with Batch Stimulus

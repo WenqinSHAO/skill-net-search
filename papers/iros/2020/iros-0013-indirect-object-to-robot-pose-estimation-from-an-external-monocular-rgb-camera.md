@@ -1,8 +1,8 @@
 ---
-id: iros-0013
+id: "iros-0013"
 title: "Indirect Object-to-Robot Pose Estimation from an External Monocular RGB Camera"
-conference: IROS 2020
-date: 2020-07
+conference: "IROS 2020"
+date: "2020-07"
 authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
@@ -10,16 +10,15 @@ authors:
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Terry Mosier"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Terry Mosier"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://youtu.be/E0J91llX-ys"
 abstract: "We present a robotic grasping system that uses a single external monocular RGB camera as input. The object-to-robot pose is computed indirectly by combining the output of two neural networks:&nbsp; one that estimates the object-to-camera pose, and another that estimates the robot-to-camera pose. Bot"
 url: "https://research.nvidia.com/publication/2020-07_indirect-object-robot-pose-estimation-external-monocular-rgb-camera"
-status: new
+status: "new"
 ---
 
 # Indirect Object-to-Robot Pose Estimation from an External Monocular RGB Camera

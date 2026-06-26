@@ -1,8 +1,8 @@
 ---
-id: arxiv-2646
+id: "arxiv-2646"
 title: "VerilogEval: Evaluating Large Language Models for Verilog Code Generation"
-conference: arXiv 2023
-date: 2023-09
+conference: "arXiv 2023"
+date: "2023-09"
 authors:
   - name: "Mingjie Liu"
     affiliation: "NVIDIA"
@@ -14,12 +14,11 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://github.com/NVlabs/verilog-eval"
 abstract: "The increasing popularity of large language models (LLMs) has paved the way for their application in diverse domains. This paper proposes a benchmarking framework tailored specifically for evaluating LLM performance in the context of Verilog code generation for hardware design and verification. We p"
 url: "https://research.nvidia.com/publication/2023-09_verilogeval-evaluating-large-language-models-verilog-code-generation"
-status: new
+status: "new"
 ---
 
 # VerilogEval: Evaluating Large Language Models for Verilog Code Generation

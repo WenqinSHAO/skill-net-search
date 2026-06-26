@@ -1,8 +1,8 @@
 ---
-id: arxiv-2940
+id: "arxiv-2940"
 title: "Training Generative Adversarial Networks with Limited Data"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
@@ -26,7 +26,6 @@ topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://github.com/NVlabs/metfaces-dataset"
 abstract: "Training generative adversarial networks (GAN) using too little data typically leads to discriminator overfitting, causing training to diverge. We propose an adaptive discriminator augmentation mechanism that significantly stabilizes training in limited data regimes. The approach does not require ch"
 url: "https://research.nvidia.com/publication/2020-12_training-generative-adversarial-networks-limited-data"
-status: new
+status: "new"
 ---
 
 # Training Generative Adversarial Networks with Limited Data

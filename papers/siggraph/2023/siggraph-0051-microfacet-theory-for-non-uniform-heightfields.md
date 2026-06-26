@@ -1,10 +1,10 @@
 ---
-id: siggraph-0051
+id: "siggraph-0051"
 title: "Microfacet theory for non-uniform heightfields"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
-  - name: "Eugene d&#039;Eon"
+  - name: "Eugene d'Eon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Benedikt Bitterli"
@@ -16,9 +16,11 @@ authors:
   - name: "Tizian Zeltner"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eugene d&#039;Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +32,7 @@ external_links:
     url: "https://research.nvidia.com/labs/rtr/microfacet-theory-non-uniform-heightfields/"
 abstract: "We propose new methods for combining NDFs in microfacet theory, enabling a wider range of surface statistics. The new BSDFs that follow allow for independent adjustment of appearance at grazing angles, and can’t be represented by linear blends of single-NDF BSDFs. We derive importance sampling for a"
 url: "https://research.nvidia.com/publication/2023-08_microfacet-theory-non-uniform-heightfields"
-status: new
+status: "new"
 ---
 
 # Microfacet theory for non-uniform heightfields

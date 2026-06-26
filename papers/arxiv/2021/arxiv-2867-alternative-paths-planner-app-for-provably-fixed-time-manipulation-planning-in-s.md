@@ -1,31 +1,30 @@
 ---
-id: arxiv-2867
+id: "arxiv-2867"
 title: "Alternative Paths Planner (APP) for Provably Fixed-time Manipulation Planning in Semi-structured Environments"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
   - name: "Fahad Islam"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Peele"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maxim Likhachev"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - CUDA_ecosystem
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2012.14970"
 abstract: "In many applications, including logistics and manufacturing, robot manipulators operate in semi-structured environments alongside humans or other robots. These environments are largely static, but they may contain some movable obstacles that the robot must avoid. Manipulation tasks in these applicat"
 url: "https://research.nvidia.com/publication/2021-05_alternative-paths-planner-app-provably-fixed-time-manipulation-planning-semi"
-status: new
+status: "new"
 ---
 
 # Alternative Paths Planner (APP) for Provably Fixed-time Manipulation Planning in Semi-structured Environments

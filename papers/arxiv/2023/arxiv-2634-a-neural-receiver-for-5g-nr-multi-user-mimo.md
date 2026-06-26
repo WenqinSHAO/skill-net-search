@@ -1,8 +1,8 @@
 ---
-id: arxiv-2634
+id: "arxiv-2634"
 title: "A Neural Receiver for 5G NR Multi-user MIMO"
-conference: arXiv 2023
-date: 2023-12
+conference: "arXiv 2023"
+date: "2023-12"
 authors:
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
@@ -13,22 +13,21 @@ authors:
   - name: "Jakob Hoydis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Andreas Oeldemann"
+    affiliation: "Rohde & Schwarz"
+    is_industry: false
+  - name: "Andreas Roessler"
+    affiliation: "Rohde & Schwarz"
+    is_industry: false
+  - name: "Timo Mayer"
+    affiliation: "Rohde & Schwarz"
+    is_industry: false
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andreas Oeldemann"
-    affiliation: ""
-    is_industry: false
-  - name: "Andreas Roessler"
-    affiliation: ""
-    is_industry: false
-  - name: "Timo Mayer"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Telecommunications"
 abstract: "We introduce a neural network (NN)-based multiuser multiple-input multiple-output (MU-MIMO) receiver with 5G New Radio (5G NR) physical uplink shared channel (PUSCH) compatibility. The NN architecture is based on convolution layers to exploit the time and frequency correlation of the channel and a g"
 url: "https://research.nvidia.com/publication/2023-12_neural-receiver-5g-nr-multi-user-mimo"
-status: new
+status: "new"
 ---
 
 # A Neural Receiver for 5G NR Multi-user MIMO

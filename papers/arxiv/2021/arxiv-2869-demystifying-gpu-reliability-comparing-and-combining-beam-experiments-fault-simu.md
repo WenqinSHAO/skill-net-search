@@ -1,29 +1,28 @@
 ---
-id: arxiv-2869
+id: "arxiv-2869"
 title: "Demystifying GPU Reliability: Comparing and Combining Beam Experiments, Fault Simulation, and Profiling"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
+  - name: "Fernando Fernandes dos Santos"
+    affiliation: "UFRGS, Brazil"
+    is_industry: false
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Fernando Fernandes dos Santos"
-    affiliation: ""
-    is_industry: false
   - name: "Pedro Martins Basso"
-    affiliation: ""
+    affiliation: "UFRGS, Brazil"
     is_industry: false
   - name: "Luigi Carro"
-    affiliation: ""
+    affiliation: "UFRGS, Brazil"
     is_industry: false
   - name: "Paolo Rech"
-    affiliation: ""
+    affiliation: "Politecnico di Torino, Italy"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9460470"
 abstract: "Graphics Processing Units (GPUs) have moved from&nbsp;being dedicated devices for multimedia and gaming applications&nbsp;to general-purpose accelerators employed in High-Performance&nbsp;Computing (HPC) and safety-critical applications such as autonomous&nbsp;vehicles. This market shift led to a bu"
 url: "https://research.nvidia.com/publication/2021-05_demystifying-gpu-reliability-comparing-and-combining-beam-experiments-fault"
-status: new
+status: "new"
 ---
 
 # Demystifying GPU Reliability: Comparing and Combining Beam Experiments, Fault Simulation, and Profiling

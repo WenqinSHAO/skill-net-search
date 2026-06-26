@@ -1,40 +1,39 @@
 ---
-id: icra-0032
+id: "icra-0032"
 title: "DexPilot: Vision Based Teleoperation of Dexterous Robotic Hand-Arm System"
-conference: ICRA 2020
-date: 2020-05
+conference: "ICRA 2020"
+date: "2020-05"
 authors:
+  - name: "Ankur Handa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karl Van Wyk"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jacky Liang"
+    affiliation: "NVIDIA, CMU"
+    is_industry: true
   - name: "Yu-Wei Chao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Qian Wan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
-  - name: "Jacky Liang"
-    affiliation: ""
-    is_industry: false
-  - name: "Qian Wan"
-    affiliation: ""
-    is_industry: false
   - name: "Nathan Ratliff"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://sites.google.com/view/dex-pilot"
 abstract: "Teleoperation offers the possibility of imparting robotic systems with sophisticated reasoning skills, intuition, and creativity to perform tasks. However, current teleoperation solutions for high degree-of-actuation (DoA), multi-fingered robots are generally cost-prohibitive, while low-cost offerin"
 url: "https://research.nvidia.com/publication/2020-05_dexpilot-vision-based-teleoperation-dexterous-robotic-hand-arm-system"
-status: new
+status: "new"
 ---
 
 # DexPilot: Vision Based Teleoperation of Dexterous Robotic Hand-Arm System

@@ -1,31 +1,30 @@
 ---
-id: arxiv-2695
+id: "arxiv-2695"
 title: "QuadStream: A Quad-Based Scene Streaming Architecture for Novel Viewpoint Reconstruction"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Jozef Hladky"
+    affiliation: "Max-Planck-Institut für Informatik"
+    is_industry: false
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jozef Hladky"
-    affiliation: ""
-    is_industry: false
   - name: "Bernhard Kerbl"
-    affiliation: ""
+    affiliation: "TU Wien"
     is_industry: false
   - name: "Hans-Peter Seidel"
-    affiliation: ""
+    affiliation: "Max-Planck-Institut für Informatik"
     is_industry: false
   - name: "Markus Steinberger"
-    affiliation: ""
+    affiliation: "TU Graz"
     is_industry: false
 topics:
   - Graphics_rendering
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://www.cg.tuwien.ac.at/research/publications/2022/hladky-2022-QS/"
 abstract: "Cloud rendering is attractive when targeting thin client devices such as phones or VR/AR headsets, or any situation where a high-end GPU is not available due to thermal or power constraints. However, it introduces the challenge of streaming rendered data over a network in a manner that is robust to "
 url: "https://research.nvidia.com/publication/2022-12_quadstream-quad-based-scene-streaming-architecture-novel-viewpoint"
-status: new
+status: "new"
 ---
 
 # QuadStream: A Quad-Based Scene Streaming Architecture for Novel Viewpoint Reconstruction

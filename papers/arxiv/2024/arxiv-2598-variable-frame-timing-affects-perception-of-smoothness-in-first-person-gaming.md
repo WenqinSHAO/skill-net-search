@@ -1,9 +1,12 @@
 ---
-id: arxiv-2598
+id: "arxiv-2598"
 title: "Variable Frame Timing Affects Perception of Smoothness in First-Person Gaming"
-conference: arXiv 2024
-date: 2024-08
+conference: "arXiv 2024"
+date: "2024-08"
 authors:
+  - name: "Devi Klein"
+    affiliation: "NVIDIA and UC Santa Barbara"
+    is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Devi Klein"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/10645568"
 abstract: "With the advent of variable refresh rate (VRR) monitor technologies, gamers experience variable frame timing (VFT) during their gameplay. Combining VRR with low-latency GPU rendering and increased display refresh rates enables smoother variation of frame presentation sequences. Here, we assess how V"
 url: "https://research.nvidia.com/publication/2024-08_variable-frame-timing-affects-perception-smoothness-first-person-gaming"
-status: new
+status: "new"
 ---
 
 # Variable Frame Timing Affects Perception of Smoothness in First-Person Gaming

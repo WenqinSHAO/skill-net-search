@@ -1,16 +1,28 @@
 ---
-id: arxiv-2829
+id: "arxiv-2829"
 title: "Characterizing and Mitigating Soft Errors in GPU DRAM"
-conference: arXiv 2021
-date: 2021-10
+conference: "arXiv 2021"
+date: "2021-10"
 authors:
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mike O&#039;Connor"
+  - name: "Nirmal Saxena"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mike O'Connor"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Donghyuk Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Paul Racunas"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saurabh Hukerikar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siva Hari"
@@ -19,22 +31,12 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nirmal Saxena"
-    affiliation: ""
-    is_industry: false
-  - name: "Paul Racunas"
-    affiliation: ""
-    is_industry: false
-  - name: "Saurabh Hukerikar"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
+  - name: "Mike O&#039;Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +48,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3466752.3480111"
 abstract: "GPUs are used in high-reliability systems, including high-performance computers and autonomous vehicles. Because GPUs employ a high-bandwidth, wide-interface to DRAM and fetch each memory access from a single DRAM device, implementing full-device correction through ECC is expensive and impractical. "
 url: "https://research.nvidia.com/publication/2021-10_characterizing-and-mitigating-soft-errors-gpu-dram-0"
-status: new
+status: "new"
 ---
 
 # Characterizing and Mitigating Soft Errors in GPU DRAM

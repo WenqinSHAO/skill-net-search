@@ -1,8 +1,8 @@
 ---
-id: icra-0027
+id: "icra-0027"
 title: "Sim-to-Real for Robotic Tactile Sensing via Physics-Based Simulation and Learned Latent Projections"
-conference: ICRA 2021
-date: 2021-06
+conference: "ICRA 2021"
+date: "2021-06"
 authors:
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
@@ -11,17 +11,16 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Miles Macklin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://sites.google.com/nvidia.com/tactiledata2"
 abstract: "Tactile sensing is critical for robotic grasping and manipulation of objects under visual occlusion. However, in contrast to simulations of robot arms and cameras, current simulations of tactile sensors have limited accuracy, speed, and utility. In this work, we develop an efficient 3D finite elemen"
 url: "https://research.nvidia.com/publication/2021-06_sim-real-robotic-tactile-sensing-physics-based-simulation-and-learned-latent"
-status: new
+status: "new"
 ---
 
 # Sim-to-Real for Robotic Tactile Sensing via Physics-Based Simulation and Learned Latent Projections

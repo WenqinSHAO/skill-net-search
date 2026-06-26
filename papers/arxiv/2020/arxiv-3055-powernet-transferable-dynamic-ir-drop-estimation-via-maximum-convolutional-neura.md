@@ -1,34 +1,33 @@
 ---
-id: arxiv-3055
+id: "arxiv-3055"
 title: "PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
+  - name: "Zhiyao Xie"
+    affiliation: "Duke"
+    is_industry: false
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhiyao Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "Ye Sheng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Santosh Santosh"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jiang Hu"
-    affiliation: ""
+    affiliation: "Texas A&M"
     is_industry: false
   - name: "Yiran Chen"
-    affiliation: ""
+    affiliation: "Duke"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "IR drop is a fundamental constraint required by almost all chip designs. However, its evaluation usually takes a long time that hinders mitigation techniques for fixing its violations. In this work, we develop a fast dynamic IR drop estimation technique, named PowerNet, based on a convolutional neur"
 url: "https://research.nvidia.com/publication/2020-01_powernet-transferable-dynamic-ir-drop-estimation-maximum-convolutional-neural"
-status: new
+status: "new"
 ---
 
 # PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network

@@ -1,27 +1,26 @@
 ---
-id: siggraph-0024
+id: "siggraph-0024"
 title: "Flexible Motion In-betweening with Diffusion Models"
-conference: SIGGRAPH 2024
-date: 2024-05
+conference: "SIGGRAPH 2024"
+date: "2024-05"
 authors:
   - name: "Setareh Cohan"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
   - name: "Guy Tevet"
-    affiliation: ""
+    affiliation: "Tel Aviv University, University of British Columbia"
     is_industry: false
   - name: "Daniele Reda"
-    affiliation: ""
+    affiliation: "University of British Colmbia"
     is_industry: false
   - name: "Xue Bin Peng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Simon Fraser University"
+    is_industry: true
   - name: "Michiel van de Panne"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Generative AI"
 abstract: "Motion in-betweening, a fundamental technique in animation, has long been recognized as a labor-intensive and challenging process. We investigate the potential of diffusion models in generating diverse human motions guided by keyframes. Unlike previous inbetweening methods, we propose a simple unifi"
 url: "https://research.nvidia.com/publication/2024-05_flexible-motion-betweening-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Flexible Motion In-betweening with Diffusion Models

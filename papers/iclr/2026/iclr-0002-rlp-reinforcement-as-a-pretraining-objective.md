@@ -1,37 +1,36 @@
 ---
-id: iclr-0002
+id: "iclr-0002"
 title: "RLP: Reinforcement as a Pretraining Objective"
-conference: ICLR 2026
-date: 2026-04
+conference: "ICLR 2026"
+date: "2026-04"
 authors:
   - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Syeda Nahida Akter"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shrimai Prabhumoye"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Syeda Nahida Akter"
-    affiliation: ""
-    is_industry: false
-  - name: "Shrimai Prabhumoye"
-    affiliation: ""
-    is_industry: false
   - name: "Mostofa Patwary"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mohammad Shoeybi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yejin Choi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://github.com/NVlabs/RLP"
 abstract: "The dominant paradigm for training large reasoning models starts with pre-training using next-token prediction loss on vast amounts of data. Reinforcement learning, while powerful in scaling reasoning, is introduced only as the very last phase of post-training, preceded by supervised fine-tuning. Wh"
 url: "https://research.nvidia.com/publication/2026-04%5Frlp-reinforcement-pretraining-objective"
-status: new
+status: "new"
 ---
 
 # RLP: Reinforcement as a Pretraining Objective

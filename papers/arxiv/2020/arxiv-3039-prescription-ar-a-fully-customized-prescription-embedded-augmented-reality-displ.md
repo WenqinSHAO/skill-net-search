@@ -1,18 +1,17 @@
 ---
-id: arxiv-3039
+id: "arxiv-3039"
 title: "Prescription AR: a fully-customized prescription-embedded augmented reality display"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
+  - name: "Jui-Yi Wu"
+    affiliation: "NVIDIA, National Chiao Tung University"
+    is_industry: true
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jui-Yi Wu"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ external_links:
     url: "https://osapublishing.figshare.com/articles/Visualization_1_mp4/10032287"
 abstract: "In this paper, we present a fully-customized AR display design that considers the user’s prescription, interpupillary distance, and taste of fashion. A free-form image combiner embedded inside the prescription lens provides augmented images onto the vision-corrected real world. The optics was optimi"
 url: "https://research.nvidia.com/publication/2020-03_prescription-ar-fully-customized-prescription-embedded-augmented-reality"
-status: new
+status: "new"
 ---
 
 # Prescription AR: a fully-customized prescription-embedded augmented reality display

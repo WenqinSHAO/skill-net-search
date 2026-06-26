@@ -1,32 +1,31 @@
 ---
-id: arxiv-2681
+id: "arxiv-2681"
 title: "Visibility Algorithms for Dynamic Dependence Analysis and Distributed Coherence"
-conference: arXiv 2023
-date: 2023-02
+conference: "arXiv 2023"
+date: "2023-02"
 authors:
   - name: "Michael Bauer"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Elliott Slaughter"
+    affiliation: "SLAC National Accelerator Laboratory"
+    is_industry: false
+  - name: "Sean Treichler"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Wonchan Lee"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Elliott Slaughter"
-    affiliation: ""
-    is_industry: false
-  - name: "Sean Treichler"
-    affiliation: ""
-    is_industry: false
-  - name: "Wonchan Lee"
-    affiliation: ""
-    is_industry: false
   - name: "Alex Aiken"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "Implicitly parallel programming systems must solve the joint problems of dependence analysis and coherence to ensure apparently-sequential semantics for applications run on distributed memory machines. Solving these problems in the presence of data-dependent control flow and arbitrary aliasing is a "
 url: "https://research.nvidia.com/publication/2023-02_visibility-algorithms-dynamic-dependence-analysis-and-distributed-coherence"
-status: new
+status: "new"
 ---
 
 # Visibility Algorithms for Dynamic Dependence Analysis and Distributed Coherence

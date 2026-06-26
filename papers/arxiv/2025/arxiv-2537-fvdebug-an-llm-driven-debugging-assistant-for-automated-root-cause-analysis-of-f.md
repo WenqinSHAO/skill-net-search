@@ -1,28 +1,27 @@
 ---
-id: arxiv-2537
+id: "arxiv-2537"
 title: "FVDebug: An LLM-Driven Debugging Assistant for Automated Root Cause Analysis of Formal Verification Failures"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
   - name: "Yunsheng Bai"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ghaith Bany Hamad"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chia-Tung (Mark) Ho"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ghaith Bany Hamad"
-    affiliation: ""
-    is_industry: false
   - name: "Syed Suhaib"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2510.15906"
 abstract: "Debugging formal verification (FV) failures represents one of the most time-consuming bottlenecks in modern hardware design workflows. When properties fail, engineers must manually trace through complex counter-examples spanning multiple cycles, analyze waveforms, and cross-reference design specific"
 url: "https://research.nvidia.com/publication/2025-09_fvdebug-llm-driven-debugging-assistant-automated-root-cause-analysis-formal"
-status: new
+status: "new"
 ---
 
 # FVDebug: An LLM-Driven Debugging Assistant for Automated Root Cause Analysis of Formal Verification Failures

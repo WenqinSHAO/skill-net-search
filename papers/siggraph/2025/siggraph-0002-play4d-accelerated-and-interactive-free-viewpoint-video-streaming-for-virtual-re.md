@@ -1,8 +1,8 @@
 ---
-id: siggraph-0002
+id: "siggraph-0002"
 title: "Play4D: Accelerated and Interactive Free-viewpoint Video Streaming for Virtual Reality and Light Field Displays"
-conference: SIGGRAPH 2025
-date: 2025-12
+conference: "SIGGRAPH 2025"
+date: "2025-12"
 authors:
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
@@ -29,7 +29,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://research.nvidia.com/labs/amri/projects/play4d/"
 abstract: "We present Play4D, an accelerated and interactive free-viewpoint video (FVV) streaming pipeline for next-generation light field (LF) and virtual reality (VR) displays. Play4D integrates 4D Gaussian Splatting (4DGS) reconstruction, compression and streaming with an efficient radiance field rendering "
 url: "https://research.nvidia.com/publication/2025-12_play4d-accelerated-and-interactive-free-viewpoint-video-streaming-virtual"
-status: new
+status: "new"
 ---
 
 # Play4D: Accelerated and Interactive Free-viewpoint Video Streaming for Virtual Reality and Light Field Displays

@@ -1,34 +1,33 @@
 ---
-id: iclr-0017
+id: "iclr-0017"
 title: "Truncated Consistency Models"
-conference: ICLR 2025
-date: 2025-01
+conference: "ICLR 2025"
+date: "2025-01"
 authors:
+  - name: "Sangyun Lee"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Yilun Xu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Giulia Fanti"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sangyun Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Yilun Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Giulia Fanti"
-    affiliation: ""
-    is_industry: false
   - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://truncated-cm.github.io/"
 abstract: "Consistency models have recently been introduced to accelerate sampling from diffusion models by directly predicting the solution (i.e., data) of the probability flow ODE (PF ODE) from initial noise. However, the training of consistency models requires learning to map all intermediate points along P"
 url: "https://research.nvidia.com/publication/2025-01_truncated-consistency-models"
-status: new
+status: "new"
 ---
 
 # Truncated Consistency Models

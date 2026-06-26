@@ -1,9 +1,12 @@
 ---
-id: icra-0028
+id: "icra-0028"
 title: "Hierarchical Planning for Long-Horizon Manipulation with Geometric and Symbolic Scene Graphs"
-conference: ICRA 2021
-date: 2021-05
+conference: "ICRA 2021"
+date: "2021-05"
 authors:
+  - name: "Yifeng Zhu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,12 +16,8 @@ authors:
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yifeng Zhu"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://zhuyifengzju.github.io/projects/hierarchical-scene-graph/"
 abstract: "We present a visually grounded hierarchical planning algorithm for long-horizon manipulation tasks. Our algorithm offers a joint framework of neuro-symbolic task planning and low-level motion generation conditioned on the specified goal. At the core of our approach is a two-level scene graph represe"
 url: "https://research.nvidia.com/publication/2021-05_hierarchical-planning-long-horizon-manipulation-geometric-and-symbolic-scene"
-status: new
+status: "new"
 ---
 
 # Hierarchical Planning for Long-Horizon Manipulation with Geometric and Symbolic Scene Graphs

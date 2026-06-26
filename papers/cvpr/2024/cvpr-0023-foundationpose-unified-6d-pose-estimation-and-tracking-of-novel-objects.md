@@ -1,8 +1,8 @@
 ---
-id: cvpr-0023
+id: "cvpr-0023"
 title: "FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
@@ -21,7 +21,6 @@ topics:
   - Computer Vision
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2312.08344"
 abstract: "We present FoundationPose, a unified foundation model for 6D object pose estimation and tracking, supporting both model-based and model-free setups. Our approach can be instantly applied at test-time to a novel object without fine-tuning, as long as its CAD model is given, or a small number of refer"
 url: "https://research.nvidia.com/publication/2024-06_foundationpose-unified-6d-pose-estimation-and-tracking-novel-objects"
-status: new
+status: "new"
 ---
 
 # FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects

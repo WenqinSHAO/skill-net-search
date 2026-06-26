@@ -1,8 +1,8 @@
 ---
-id: arxiv-2688
+id: "arxiv-2688"
 title: "A 95.6-TOPS/W Deep Learning Inference Accelerator With Per-Vector Scaled 4-bit Quantization in 5 nm"
-conference: arXiv 2023
-date: 2023-01
+conference: "arXiv 2023"
+date: "2023-01"
 authors:
   - name: "Ben Keller"
     affiliation: "NVIDIA"
@@ -34,7 +34,6 @@ authors:
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ research_areas:
   - "Computer Architecture"
 abstract: "The energy efficiency of deep neural network (DNN) inference can be improved with custom accelerators. DNN inference accelerators often employ specialized hardware techniques to improve energy efficiency, but many of these techniques result in catastrophic accuracy loss on transformer-based DNNs, wh"
 url: "https://research.nvidia.com/publication/2023-01_956-topsw-deep-learning-inference-accelerator-vector-scaled-4-bit-quantization"
-status: new
+status: "new"
 ---
 
 # A 95.6-TOPS/W Deep Learning Inference Accelerator With Per-Vector Scaled 4-bit Quantization in 5 nm

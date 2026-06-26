@@ -1,9 +1,12 @@
 ---
-id: rss-0008
+id: "rss-0008"
 title: "Task-Aware Risk Estimation of Perception Failures for Autonomous Vehicles"
-conference: RSS 2023
-date: 2023-07
+conference: "RSS 2023"
+date: "2023-07"
 authors:
+  - name: "Pasquale Antonante"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sushant Veer"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +16,16 @@ authors:
   - name: "Xinshuo Weng"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Luca Carlone"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pasquale Antonante"
-    affiliation: ""
-    is_industry: false
-  - name: "Luca Carlone"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://github.com/NVlabs/persevere"
 abstract: "Safety and performance are key enablers for autonomous driving: on the one hand we want our autonomous vehicles (AVs) to be safe, while at the same time their performance (e.g., comfort or progression) is key to adoption. To effectively walk the tight-rope between safety and performance, AVs need to"
 url: "https://research.nvidia.com/publication/2023-07_task-aware-risk-estimation-perception-failures-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Task-Aware Risk Estimation of Perception Failures for Autonomous Vehicles

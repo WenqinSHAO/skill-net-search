@@ -1,34 +1,33 @@
 ---
-id: siggraph-0046
+id: "siggraph-0046"
 title: "Data Free Learning of Reduced-Order Kinematics"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Cristian Romero"
-    affiliation: ""
+    affiliation: "Universidad Rey Juan Carlos"
     is_industry: false
   - name: "David Levin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alec Jacobson"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Etienne Vouga"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
   - name: "Paul Kry"
-    affiliation: ""
+    affiliation: "McGill University"
     is_industry: false
   - name: "Justin Solomon"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Physical systems ranging from elastic bodies to kinematic linkages are defined on a high-dimensional configuration spaces, yet their typical low-energy configurations are concentrated on much lower-dimensional subspaces. This work addresses the challenge of identifying such subspaces automatically: "
 url: "https://research.nvidia.com/publication/2023-08_data-free-learning-reduced-order-kinematics"
-status: new
+status: "new"
 ---
 
 # Data Free Learning of Reduced-Order Kinematics

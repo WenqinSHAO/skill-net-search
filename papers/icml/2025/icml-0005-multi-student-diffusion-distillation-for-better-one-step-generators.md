@@ -1,29 +1,28 @@
 ---
-id: icml-0005
+id: "icml-0005"
 title: "Multi-student Diffusion Distillation for Better One-step Generators"
-conference: ICML 2025
-date: 2025-03
+conference: "ICML 2025"
+date: "2025-03"
 authors:
+  - name: "Yanke Song"
+    affiliation: "NVIDIA, Harvard University"
+    is_industry: true
+  - name: "Jonathan Lorraine"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yanke Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://youtu.be/D03xFeHyLkE?si=nS1HRxmGpj8cI_yF"
 abstract: "Diffusion models achieve high-quality sample generation at the cost of a lengthy multistep inference procedure. To overcome this, diffusion distillation techniques produce student generators capable of matching or surpassing the teacher in a single step. However, the student model’s inference speed "
 url: "https://research.nvidia.com/publication/2025-03_multi-student-diffusion-distillation-better-one-step-generators"
-status: new
+status: "new"
 ---
 
 # Multi-student Diffusion Distillation for Better One-step Generators

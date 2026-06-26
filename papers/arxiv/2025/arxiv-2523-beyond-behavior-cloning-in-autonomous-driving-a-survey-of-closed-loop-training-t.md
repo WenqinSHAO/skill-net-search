@@ -1,8 +1,8 @@
 ---
-id: arxiv-2523
+id: "arxiv-2523"
 title: "Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques"
-conference: arXiv 2025
-date: 2025-12
+conference: "arXiv 2025"
+date: "2025-12"
 authors:
   - name: "Peter Karkus"
     affiliation: "NVIDIA"
@@ -13,13 +13,37 @@ authors:
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kashyap Chitta"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jef Packer"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bertrand Douillard"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Thomas Tian"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alexander Naumann"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Guillermo Garcia-Cobo"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shuhan Tan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alperen Degirmenci"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alexander Popov"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nikolai Smolyanskiy"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Urs Muller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Boris Ivanovic"
@@ -28,37 +52,12 @@ authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kashyap Chitta"
-    affiliation: ""
-    is_industry: false
-  - name: "Jef Packer"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Naumann"
-    affiliation: ""
-    is_industry: false
-  - name: "Guillermo Garcia-Cobo"
-    affiliation: ""
-    is_industry: false
-  - name: "Shuhan Tan"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Popov"
-    affiliation: ""
-    is_industry: false
-  - name: "Nikolai Smolyanskiy"
-    affiliation: ""
-    is_industry: false
-  - name: "Urs Muller"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -71,7 +70,7 @@ research_areas:
   - "World Simulation"
 abstract: "Behavior cloning, the dominant approach for training autonomous vehicle (AV) policies, suffers from a fundamental gap: policies trained open-loop on temporally independent samples must operate in closed-loop where actions influence future observations. This mismatch can cause covariate shift, compou"
 url: "https://research.nvidia.com/publication/2025-12_beyond-behavior-cloning-autonomous-driving-survey-closed-loop-training"
-status: new
+status: "new"
 ---
 
 # Beyond Behavior Cloning in Autonomous Driving: a Survey of Closed-Loop Training Techniques

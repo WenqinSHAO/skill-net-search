@@ -1,8 +1,8 @@
 ---
-id: icra-0009
+id: "icra-0009"
 title: "Tree-structured Policy Planning with Learned Behavior Models"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
@@ -22,7 +22,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2301.11902"
 abstract: "Autonomous vehicles (AVs) need to reason about the multimodal behavior of neighboring agents while planning their own motion. Many existing trajectory planners seek a single trajectory that performs well under all plausible futures simultaneously, ignoring bi-directional interactions and thus leadin"
 url: "https://research.nvidia.com/publication/2023-05_tree-structured-policy-planning-learned-behavior-models"
-status: new
+status: "new"
 ---
 
 # Tree-structured Policy Planning with Learned Behavior Models

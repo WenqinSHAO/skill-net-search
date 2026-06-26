@@ -1,29 +1,28 @@
 ---
-id: cvpr-0016
+id: "cvpr-0016"
 title: "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Antonio Torralba"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Sanja Fidler"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Antonio Torralba"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/AlignYourGaussians/"
 abstract: "Text-guided diffusion models have revolutionized image and video generation and have also been successfully used for optimization-based 3D object synthesis. Here, we instead focus on the underexplored text-to-4D setting and synthesize dynamic, animated 3D objects using score distillation methods wit"
 url: "https://research.nvidia.com/publication/2024-06_align-your-gaussians-text-4d-dynamic-3d-gaussians-and-composed-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models

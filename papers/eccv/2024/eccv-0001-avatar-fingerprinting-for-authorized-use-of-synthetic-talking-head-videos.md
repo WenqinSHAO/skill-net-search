@@ -1,8 +1,8 @@
 ---
-id: eccv-0001
+id: "eccv-0001"
 title: "Avatar Fingerprinting for Authorized Use of Synthetic Talking-Head Videos"
-conference: ECCV 2024
-date: 2024-09
+conference: "ECCV 2024"
+date: "2024-09"
 authors:
   - name: "Ekta Prashnani"
     affiliation: "NVIDIA"
@@ -17,12 +17,11 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://research.nvidia.com/labs/nxp/avatar-fingerprinting/"
 abstract: "&nbsp;"
 url: "https://research.nvidia.com/publication/2024-09_avatar-fingerprinting-authorized-use-synthetic-talking-head-videos"
-status: new
+status: "new"
 ---
 
 # Avatar Fingerprinting for Authorized Use of Synthetic Talking-Head Videos

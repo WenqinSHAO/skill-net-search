@@ -1,18 +1,17 @@
 ---
-id: arxiv-2881
+id: "arxiv-2881"
 title: "TalkNet 2: Non-Autoregressive Depth-Wise Separable Convolutional Model for Speech Synthesis with Explicit Pitch and Duration Prediction"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Stanislav Beliaev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.08189"
 abstract: "We propose TalkNet, a non-autoregressive convolutional neural model for speech synthesis with explicit pitch and duration prediction. The model consists of three feed-forward convolutional networks. The first network predicts grapheme durations. An input text is expanded by repeating each symbol acc"
 url: "https://research.nvidia.com/publication/2021-04_talknet-2-non-autoregressive-depth-wise-separable-convolutional-model-speech"
-status: new
+status: "new"
 ---
 
 # TalkNet 2: Non-Autoregressive Depth-Wise Separable Convolutional Model for Speech Synthesis with Explicit Pitch and Duration Prediction

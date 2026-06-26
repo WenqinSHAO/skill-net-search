@@ -1,31 +1,30 @@
 ---
-id: arxiv-2563
+id: "arxiv-2563"
 title: "Automatic Tracing in Task-Based Runtime Systems"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
+  - name: "Rohan Yadav"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Michael Bauer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "David Broman"
+    affiliation: "KTH Royal Institute of Technology"
+    is_industry: false
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Yadav"
-    affiliation: ""
-    is_industry: false
-  - name: "David Broman"
-    affiliation: ""
-    is_industry: false
   - name: "Alex Aiken"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Fredrik Kjolstad"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "Implicitly parallel task-based runtime systems often perform dynamic analysis to discover dependencies in and extract parallelism from sequential programs. Dependence analysis becomes expensive as task granularity drops below a threshold. Tracing techniques have been developed where programmers anno"
 url: "https://research.nvidia.com/publication/2025-03_automatic-tracing-task-based-runtime-systems"
-status: new
+status: "new"
 ---
 
 # Automatic Tracing in Task-Based Runtime Systems

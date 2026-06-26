@@ -1,29 +1,28 @@
 ---
-id: siggraph-0025
+id: "siggraph-0025"
 title: "Consolidating Attention Features for Multi-view Image Editing"
-conference: SIGGRAPH 2024
-date: 2024-02
+conference: "SIGGRAPH 2024"
+date: "2024-02"
 authors:
   - name: "Or Patashnik"
-    affiliation: ""
+    affiliation: "Tel Aviv University"
     is_industry: false
   - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel Aviv University"
     is_industry: false
   - name: "Jun-Yan Zhu"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Fernando De la Torre"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Generative AI"
 abstract: "Large-scale text-to-image models enable a wide range of image editing techniques, using text prompts or even spatial controls. However, applying these editing methods to multi-view images depicting a single scene leads to 3D-inconsistent results. In this work, we focus on spatial control-based geome"
 url: "https://research.nvidia.com/publication/2024-02_consolidating-attention-features-multi-view-image-editing"
-status: new
+status: "new"
 ---
 
 # Consolidating Attention Features for Multi-view Image Editing

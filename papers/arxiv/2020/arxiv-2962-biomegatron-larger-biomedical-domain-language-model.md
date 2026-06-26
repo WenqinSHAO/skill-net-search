@@ -1,33 +1,32 @@
 ---
-id: arxiv-2962
+id: "arxiv-2962"
 title: "BioMegatron: Larger Biomedical Domain Language Model"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
   - name: "Hoo-Chang Shin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Raul Puri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mostofa Patwary"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mohammad Shoeybi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Raghav Mani"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2010.06060"
 abstract: "There has been an influx of biomedical domain-specific language models, showing language models pre-trained on biomedical text perform better on biomedical domain benchmarks than those trained on general domain text corpora such as Wikipedia and Books. Yet, most works do not study the factors affect"
 url: "https://research.nvidia.com/publication/2020-10_biomegatron-larger-biomedical-domain-language-model"
-status: new
+status: "new"
 ---
 
 # BioMegatron: Larger Biomedical Domain Language Model

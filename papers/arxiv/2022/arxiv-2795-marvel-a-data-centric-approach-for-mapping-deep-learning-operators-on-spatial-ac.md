@@ -1,32 +1,31 @@
 ---
-id: arxiv-2795
+id: "arxiv-2795"
 title: "Marvel: A Data-Centric Approach for Mapping Deep Learning Operators on Spatial Accelerators"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
+  - name: "Prasanth Chatarasi"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
+  - name: "Hyoukjun Kwon"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Prasanth Chatarasi"
-    affiliation: ""
-    is_industry: false
-  - name: "Hyoukjun Kwon"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "Vivek Sarkar"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://dl.acm.org/doi/full/10.1145/3485137"
 abstract: "A spatial accelerator’s efficiency depends heavily on both its mapper and cost models to generate optimized mappings for various operators of DNN models. However, existing cost models lack a formal boundary over their input programs (operators) for accurate and tractable cost analysis of the mapping"
 url: "https://research.nvidia.com/publication/2022-03_marvel-data-centric-approach-mapping-deep-learning-operators-spatial"
-status: new
+status: "new"
 ---
 
 # Marvel: A Data-Centric Approach for Mapping Deep Learning Operators on Spatial Accelerators

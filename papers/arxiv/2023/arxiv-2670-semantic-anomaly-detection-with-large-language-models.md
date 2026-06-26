@@ -1,30 +1,29 @@
 ---
-id: arxiv-2670
+id: "arxiv-2670"
 title: "Semantic Anomaly Detection with Large Language Models"
-conference: arXiv 2023
-date: 2023-05
+conference: "arXiv 2023"
+date: "2023-05"
 authors:
+  - name: "Amine Elhafsi"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Rohan Sinha"
+    affiliation: "Stanford Univeristy"
+    is_industry: false
+  - name: "Christopher Agia"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Edward Schmerling"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Issa Nesnas"
+    affiliation: "Jet Propulsion Laboratory"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Amine Elhafsi"
-    affiliation: ""
-    is_industry: false
-  - name: "Rohan Sinha"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher Agia"
-    affiliation: ""
-    is_industry: false
-  - name: "Edward Schmerling"
-    affiliation: ""
-    is_industry: false
-  - name: "Issa Nesnas"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "As robots acquire increasingly sophisticated skills and see increasingly complex and varied environments, the threat of an edge case or anomalous failure is ever present. For example, Tesla cars have seen interesting failure modes ranging from autopilot disengagements due to inactive traffic lights "
 url: "https://research.nvidia.com/publication/2023-05_semantic-anomaly-detection-large-language-models"
-status: new
+status: "new"
 ---
 
 # Semantic Anomaly Detection with Large Language Models

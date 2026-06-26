@@ -1,37 +1,36 @@
 ---
-id: ispd-0004
+id: "ispd-0004"
 title: "NVCell 2: Routability-Driven Standard Cell Layout in Advanced Nodes with Lattice Graph Routability Model"
-conference: ISPD 2023
-date: 2023-03
+conference: "ISPD 2023"
+date: "2023-03"
 authors:
-  - name: "Chia-Tung (Mark) Ho"
+  - name: "Chia-Tung"
+    affiliation: "Mark) Ho (NVIDIA"
+    is_industry: true
+  - name: "Alvin Ho"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Matt Fojtik"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Minsoo Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shang Wei"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yaguang LI"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alvin Ho"
-    affiliation: ""
-    is_industry: false
-  - name: "Minsoo Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Shang Wei"
-    affiliation: ""
-    is_industry: false
-  - name: "Yaguang LI"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+  - name: "Haoxing"
+    affiliation: "Mark) Ren (NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Standard cells are essential components of modern digital circuit designs. With process technologies advancing beyond the 5nm node, more routability issues have arisen due to the decreasing number of routing tracks, increasing number and complexity of design rules, and strict patterning rules. Autom"
 url: "https://research.nvidia.com/publication/2023-03_nvcell-2-routability-driven-standard-cell-layout-advanced-nodes-lattice-graph"
-status: new
+status: "new"
 ---
 
 # NVCell 2: Routability-Driven Standard Cell Layout in Advanced Nodes with Lattice Graph Routability Model

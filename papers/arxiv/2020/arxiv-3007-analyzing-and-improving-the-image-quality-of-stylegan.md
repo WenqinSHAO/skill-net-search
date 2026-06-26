@@ -1,8 +1,8 @@
 ---
-id: arxiv-3007
+id: "arxiv-3007"
 title: "Analyzing and Improving the Image Quality of StyleGAN"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
@@ -16,17 +16,16 @@ authors:
   - name: "Janne Hellsten"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jaakko Lehtinen"
+    affiliation: "NVIDIA and Aalto University"
+    is_industry: true
   - name: "Timo Aila"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jaakko Lehtinen"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://github.com/NVlabs/stylegan2"
 abstract: "The style-based GAN architecture (StyleGAN) yields state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of its characteristic artifacts, and propose changes in both model architecture and training methods to address them. In particular, we re"
 url: "https://research.nvidia.com/publication/2020-06_analyzing-and-improving-image-quality-stylegan"
-status: new
+status: "new"
 ---
 
 # Analyzing and Improving the Image Quality of StyleGAN

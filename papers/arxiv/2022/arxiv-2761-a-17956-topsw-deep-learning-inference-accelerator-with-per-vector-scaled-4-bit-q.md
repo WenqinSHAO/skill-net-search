@@ -1,8 +1,8 @@
 ---
-id: arxiv-2761
+id: "arxiv-2761"
 title: "A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Ben Keller"
     affiliation: "NVIDIA"
@@ -31,7 +31,6 @@ authors:
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9830277"
 abstract: "We present a deep neural network (DNN) accelerator designed for efficient execution of transformer-based DNNs, which have become ubiquitous for natural language processing tasks. DNN inference accelerators often employ specialized hardware techniques such as reduced precision to improve energy effic"
 url: "https://research.nvidia.com/publication/2022-06_17-956-topsw-deep-learning-inference-accelerator-vector-scaled-4-bit"
-status: new
+status: "new"
 ---
 
 # A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm

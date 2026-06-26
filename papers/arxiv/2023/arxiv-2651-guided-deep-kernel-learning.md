@@ -1,20 +1,19 @@
 ---
-id: arxiv-2651
+id: "arxiv-2651"
 title: "Guided Deep Kernel Learning"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
+  - name: "Idan Achituve"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Idan Achituve"
-    affiliation: ""
-    is_industry: false
   - name: "Ethan Fetaya"
-    affiliation: ""
+    affiliation: "Bar-Ilan University"
     is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -28,7 +27,7 @@ external_links:
     url: "https://www.auai.org/uai2023/"
 abstract: "Combining Gaussian processes with the expressive power of deep neural networks is commonly done nowadays through deep kernel learning (DKL). Unfortunately, due to the kernel optimization process, this often results in losing their Bayesian benefits. In this study, we present a novel approach for lea"
 url: "https://research.nvidia.com/publication/2023-08_guided-deep-kernel-learning"
-status: new
+status: "new"
 ---
 
 # Guided Deep Kernel Learning

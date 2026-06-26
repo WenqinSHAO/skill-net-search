@@ -1,8 +1,8 @@
 ---
-id: neurips-0046
+id: "neurips-0046"
 title: "Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction"
-conference: NeurIPS 2021
-date: 2021-10
+conference: "NeurIPS 2021"
+date: "2021-10"
 authors:
   - name: "Gal Dalal"
     affiliation: "NVIDIA"
@@ -24,7 +24,6 @@ authors:
     is_industry: true
 topics:
   - AI & Machine Learning
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2107.01715"
 abstract: "Tree Search (TS) is crucial to some of the most influential successes in reinforcement learning. Here, we tackle two major challenges with TS that limit its usability: distribution shift&nbsp;and scalability. We first discover and analyze a counter-intuitive phenomenon: action selection through TS a"
 url: "https://research.nvidia.com/publication/2021-10_improve-agents-without-retraining-parallel-tree-search-policy-correction"
-status: new
+status: "new"
 ---
 
 # Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction

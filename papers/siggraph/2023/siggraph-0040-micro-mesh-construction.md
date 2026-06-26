@@ -1,22 +1,21 @@
 ---
-id: siggraph-0040
+id: "siggraph-0040"
 title: "Micro-Mesh Construction"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Andrea Maggiordomo"
-    affiliation: ""
+    affiliation: "University of Milan"
     is_industry: false
   - name: "Henry Moreton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Marco Tarini"
-    affiliation: ""
+    affiliation: "University of Milan"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Micro-meshes (𝜇-meshes) are a new structured graphics primitive supporting a large increase in geometric fidelity without commensurate memory and run-time processing costs, consisting of a base mesh enriched by a displacement map. A new generation of GPUs support this structure with native hardware "
 url: "https://research.nvidia.com/publication/2023-08_micro-mesh-construction"
-status: new
+status: "new"
 ---
 
 # Micro-Mesh Construction

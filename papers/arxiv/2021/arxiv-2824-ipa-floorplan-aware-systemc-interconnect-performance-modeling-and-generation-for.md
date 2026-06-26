@@ -1,8 +1,8 @@
 ---
-id: arxiv-2824
+id: "arxiv-2824"
 title: "IPA: Floorplan-Aware SystemC Interconnect Performance Modeling and Generation for HLS-based SoCs"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
   - name: "Nathaniel Pinckney"
     affiliation: "NVIDIA"
@@ -18,7 +18,6 @@ authors:
     is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "High-level synthesis (HLS) has recently been used to improve design productivity for many units in today’s complex SoCs. HLS tools and flows improve chip design productivity by enabling prototyping and automated implementation of RTL from a single codebase. Although interconnect design is a critical"
 url: "https://research.nvidia.com/publication/2021-11_ipa-floorplan-aware-systemc-interconnect-performance-modeling-and-generation"
-status: new
+status: "new"
 ---
 
 # IPA: Floorplan-Aware SystemC Interconnect Performance Modeling and Generation for HLS-based SoCs

@@ -1,27 +1,26 @@
 ---
-id: arxiv-2981
+id: "arxiv-2981"
 title: "OCEAN: Online Task Inference for Compositional Tasks with Context Adaptation"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Hongyu Ren"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hongyu Ren"
-    affiliation: ""
-    is_industry: false
   - name: "Jure Leskovec"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "http://www.auai.org/uai2020/proceedings/569_main_paper.pdf"
 abstract: "Real-world tasks often exhibit a compositional structure that contains a sequence of simpler sub-tasks. For instance, opening a door requires reaching, grasping, rotating, and pulling the door knob. Such compositional tasks require an agent to reason about the sub-task at hand while orchestrating gl"
 url: "https://research.nvidia.com/publication/2020-08_ocean-online-task-inference-compositional-tasks-context-adaptation"
-status: new
+status: "new"
 ---
 
 # OCEAN: Online Task Inference for Compositional Tasks with Context Adaptation

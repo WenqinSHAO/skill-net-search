@@ -1,32 +1,31 @@
 ---
-id: arxiv-2718
+id: "arxiv-2718"
 title: "Heterogeneous-Agent Trajectory Forecasting Incorporating Class Uncertainty"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kuan-Hui Lee"
+    affiliation: "Toyota Research Institute"
+    is_industry: false
+  - name: "Pavel Tokmakov"
+    affiliation: "Toyota Research Institute"
+    is_industry: false
+  - name: "Blake Wulfe"
+    affiliation: "Toyota Research Institute"
+    is_industry: false
+  - name: "Adrien Gaidon"
+    affiliation: "Toyota Research Institute"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kuan-Hui Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Pavel Tokmakov"
-    affiliation: ""
-    is_industry: false
-  - name: "Blake Wulfe"
-    affiliation: ""
-    is_industry: false
-  - name: "Adrien Gaidon"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=PKYSZFd57ZA"
 abstract: "Reasoning about the future behavior of other agents is critical to safe robot navigation. The multiplicity of plausible futures is further amplified by the uncertainty inherent to agent state estimation from data, including positions, velocities, and semantic class. Forecasting methods, however, typ"
 url: "https://research.nvidia.com/publication/2022-10_heterogeneous-agent-trajectory-forecasting-incorporating-class-uncertainty"
-status: new
+status: "new"
 ---
 
 # Heterogeneous-Agent Trajectory Forecasting Incorporating Class Uncertainty

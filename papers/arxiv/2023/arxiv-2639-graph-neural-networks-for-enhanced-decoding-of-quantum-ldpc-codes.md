@@ -1,23 +1,22 @@
 ---
-id: arxiv-2639
+id: "arxiv-2639"
 title: "Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes"
-conference: arXiv 2023
-date: 2023-11
+conference: "arXiv 2023"
+date: "2023-11"
 authors:
+  - name: "Anqi Gong"
+    affiliation: "Institute for Theoretical Physics, ETH Zürich"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Anqi Gong"
-    affiliation: ""
-    is_industry: false
   - name: "Joseph M. Renes"
-    affiliation: ""
+    affiliation: "Institute for Theoretical Physics, ETH Zürich"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://arxiv.org/abs/2310.17758"
 abstract: "In this work, we propose a fully differentiable iterative decoder for quantum low-density parity-check (LDPC) codes. The proposed algorithm is composed of classical belief propagation (BP) decoding stages and intermediate graph neural network (GNN) layers. Both component decoders are defined over th"
 url: "https://research.nvidia.com/publication/2023-11_graph-neural-networks-enhanced-decoding-quantum-ldpc-codes"
-status: new
+status: "new"
 ---
 
 # Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes

@@ -1,9 +1,12 @@
 ---
-id: arxiv-2554
+id: "arxiv-2554"
 title: "Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR"
-conference: arXiv 2025
-date: 2025-05
+conference: "arXiv 2025"
+date: "2025-05"
 authors:
+  - name: "Reinhard Wiesmayr"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,19 +16,15 @@ authors:
   - name: "Jakob Hoydis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jakub Zakrzewski"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Reinhard Wiesmayr"
-    affiliation: ""
-    is_industry: false
-  - name: "Jakub Zakrzewski"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Telecommunications"
 abstract: "We detail the steps required to deploy a multi-user multiple-input multiple-output (MU-MIMO) neural receiver (NRX) in an actual cellular communication system. This raises several exciting research challenges, including the need for real-time inference and compatibility with the 5G NR standard. As th"
 url: "https://research.nvidia.com/publication/2025-05_design-standard-compliant-real-time-neural-receiver-5g-nr"
-status: new
+status: "new"
 ---
 
 # Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR

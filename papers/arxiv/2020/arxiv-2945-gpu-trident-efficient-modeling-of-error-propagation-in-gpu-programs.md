@@ -1,31 +1,30 @@
 ---
-id: arxiv-2945
+id: "arxiv-2945"
 title: "GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Abdul Rehman Anwer"
+    affiliation: "University of British Columbia"
+    is_industry: false
+  - name: "Guanpeng Li"
+    affiliation: "University of Iowa"
+    is_industry: false
+  - name: "Karthik Pattabiraman"
+    affiliation: "University of British Columbia"
+    is_industry: false
   - name: "Michael B. Sullivan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Abdul Rehman Anwer"
-    affiliation: ""
-    is_industry: false
-  - name: "Guanpeng Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Karthik Pattabiraman"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9355257"
 abstract: "Fault injection (FI) techniques are typically used to determine the reliability profiles of programs under soft errors. However, these techniques are highly resource- and time-intensive. Prior research developed a model, TRIDENT to analytically predict Silent Data Corruption (SDC, i.e., incorrect ou"
 url: "https://research.nvidia.com/publication/2020-11_gpu-trident-efficient-modeling-error-propagation-gpu-programs"
-status: new
+status: "new"
 ---
 
 # GPU-Trident: Efficient Modeling of Error Propagation in GPU Programs

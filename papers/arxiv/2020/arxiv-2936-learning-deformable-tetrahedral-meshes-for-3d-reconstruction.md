@@ -1,32 +1,31 @@
 ---
-id: arxiv-2936
+id: "arxiv-2936"
 title: "Learning Deformable Tetrahedral Meshes for 3D Reconstruction"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wenzheng Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tommy Xiang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clement Fuji Tsang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Alec Jacobson"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://nv-tlabs.github.io/DefTet/"
 abstract: "3D shape representations that accommodate learning-based 3D reconstruction are an open problem in machine learning and computer graphics. Previous work on neural 3D reconstruction demonstrated benefits, but also limitations, of point cloud, voxel, surface mesh, and implicit function representations."
 url: "https://research.nvidia.com/publication/2020-12_learning-deformable-tetrahedral-meshes-3d-reconstruction"
-status: new
+status: "new"
 ---
 
 # Learning Deformable Tetrahedral Meshes for 3D Reconstruction

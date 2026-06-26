@@ -1,19 +1,18 @@
 ---
-id: arxiv-2683
+id: "arxiv-2683"
 title: "Enabling Scalable AI Computational Lithography with Physics-Inspired Models"
-conference: arXiv 2023
-date: 2023-02
+conference: "arXiv 2023"
+date: "2023-02"
 authors:
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Computational lithography is a critical research area for the continued scaling of semiconductor manufacturing process technology by enhancing silicon printability via numerical computing methods. Today's solutions for these problems are primarily CPU-based and require many thousands of CPUs running"
 url: "https://research.nvidia.com/publication/2023-02_enabling-scalable-ai-computational-lithography-physics-inspired-models"
-status: new
+status: "new"
 ---
 
 # Enabling Scalable AI Computational Lithography with Physics-Inspired Models

@@ -1,22 +1,21 @@
 ---
-id: cvpr-0060
+id: "cvpr-0060"
 title: "Monte Carlo Gradient Quantization"
-conference: CVPR 2020
-date: 2020-06
+conference: "CVPR 2020"
+date: "2020-06"
 authors:
+  - name: "Goncalo Mordido"
+    affiliation: "Hasso Plattner Institute"
+    is_industry: false
   - name: "Matthijs Van keirsbilck"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Goncalo Mordido"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9150640"
 abstract: "We propose Monte Carlo methods to leverage both sparsity and quantization to compress gradients of neural networks throughout training. On top of reducing the communication exchanged between multiple workers in a distributed setting, we also improve the computational efficiency of each worker. Our m"
 url: "https://research.nvidia.com/publication/2020-06_monte-carlo-gradient-quantization"
-status: new
+status: "new"
 ---
 
 # Monte Carlo Gradient Quantization

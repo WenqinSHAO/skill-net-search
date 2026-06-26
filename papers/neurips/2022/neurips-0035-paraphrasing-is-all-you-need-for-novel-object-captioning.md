@@ -1,31 +1,30 @@
 ---
-id: neurips-0035
+id: "neurips-0035"
 title: "Paraphrasing Is All You Need for Novel Object Captioning"
-conference: NeurIPS 2022
-date: 2022-11
+conference: "NeurIPS 2022"
+date: "2022-11"
 authors:
+  - name: "Cheng-Fu Yang"
+    affiliation: "UCLA"
+    is_industry: false
+  - name: "Yao-Hung Hubert Tsai"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Wan-Cyuan Fan"
+    affiliation: "National Taiwan University"
+    is_industry: false
+  - name: "Ruslan Salakhutdinov"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Louis-Philippe Morency"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Cheng-Fu Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Yao-Hung Hubert Tsai"
-    affiliation: ""
-    is_industry: false
-  - name: "Wan-Cyuan Fan"
-    affiliation: ""
-    is_industry: false
-  - name: "Ruslan Salakhutdinov"
-    affiliation: ""
-    is_industry: false
-  - name: "Louis-Philippe Morency"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Computer Vision"
 url: "https://research.nvidia.com/publication/2022-11_paraphrasing-all-you-need-novel-object-captioning"
-status: new
+status: "new"
 ---
 
 # Paraphrasing Is All You Need for Novel Object Captioning

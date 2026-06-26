@@ -1,37 +1,36 @@
 ---
-id: ispd-0005
+id: "ispd-0005"
 title: "AutoDMP: Automated DREAMPlace-based Macro Placement"
-conference: ISPD 2023
-date: 2023-03
+conference: "ISPD 2023"
+date: "2023-03"
 authors:
+  - name: "Anthony Agnesina"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Puranjay Rajvanshi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Tian Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Geraldo Pradipta"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Austin Jiao"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ben Keller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Anthony Agnesina"
-    affiliation: ""
-    is_industry: false
-  - name: "Puranjay Rajvanshi"
-    affiliation: ""
-    is_industry: false
-  - name: "Tian Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Geraldo Pradipta"
-    affiliation: ""
-    is_industry: false
-  - name: "Austin Jiao"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+  - name: "Haoxing"
+    affiliation: "Mark) Ren (NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://github.com/NVlabs/AutoDMP"
 abstract: "Macro placement is a critical very large-scale integration (VLSI) physical design problem that significantly impacts the design powerperformance-area (PPA) metrics. This paper proposes AutoDMP, a methodology that leverages DREAMPlace, a GPU-accelerated placer, to place macros and standard cells conc"
 url: "https://research.nvidia.com/publication/2023-03_autodmp-automated-dreamplace-based-macro-placement"
-status: new
+status: "new"
 ---
 
 # AutoDMP: Automated DREAMPlace-based Macro Placement

@@ -1,14 +1,29 @@
 ---
-id: iclr-0009
+id: "iclr-0009"
 title: "Hymba: A Hybrid-head Architecture for Small Language Models"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Xin Dong*"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yonggan Fu*"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shizhe Diao"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zijia Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ameya Sunil Mahabaleshwarkar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shih-Yang Liu"
+    affiliation: "NVIDIA, HKUST"
     is_industry: true
   - name: "Matthijs Van keirsbilck"
     affiliation: "NVIDIA"
@@ -19,34 +34,18 @@ authors:
   - name: "Yoshi Nishi"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yingyan Celine Lin"
+    affiliation: "NVIDIA, Georgia Tech"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xin Dong"
-    affiliation: ""
-    is_industry: false
-  - name: "Shizhe Diao"
-    affiliation: ""
-    is_industry: false
-  - name: "Zijia Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Ameya Sunil Mahabaleshwarkar"
-    affiliation: ""
-    is_industry: false
-  - name: "Shih-Yang Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Yingyan Celine Lin"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -58,7 +57,7 @@ external_links:
     url: "https://openreview.net/forum?id=A1ztozypga"
 abstract: "We propose Hymba, a family of small language models featuring a hybrid-head parallel architecture that integrates attention mechanisms and state space models (SSMs) within the same layer, offering parallel and complementary processing of the same inputs. In this hybrid-head module, attention heads p"
 url: "https://research.nvidia.com/publication/2025-04_hymba-hybrid-head-architecture-small-language-models"
-status: new
+status: "new"
 ---
 
 # Hymba: A Hybrid-head Architecture for Small Language Models

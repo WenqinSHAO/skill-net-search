@@ -1,109 +1,108 @@
 ---
-id: arxiv-2510
+id: "arxiv-2510"
 title: "QCalEval: Benchmarking Vision-Language Models for Quantum Calibration Plot Understanding"
-conference: arXiv 2026
-date: 2026-04
+conference: "arXiv 2026"
+date: "2026-04"
 authors:
+  - name: "Shuxiang Cao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zijian Zhang"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute for Artificial Intelligence"
+    is_industry: true
+  - name: "Abhishek Agarwal"
+    affiliation: "National Physical Laboratory"
+    is_industry: false
+  - name: "Grace Bratrud"
+    affiliation: "Northwestern University, Fermi National Accelerator Laboratory"
+    is_industry: false
+  - name: "Niyaz R. Beysengulov"
+    affiliation: "EeroQ Corporation"
+    is_industry: false
+  - name: "Daniel C. Cole"
+    affiliation: "Infleqtion"
+    is_industry: false
+  - name: "Alejandro Gomez Frieiro"
+    affiliation: "IQM Quantum Computers"
+    is_industry: false
+  - name: "Elena O. Glen"
+    affiliation: "EeroQ Corporation"
+    is_industry: false
+  - name: "Hao Hsu"
+    affiliation: "IQM Quantum Computers"
+    is_industry: false
+  - name: "Gang Huang"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "Raymond Jow"
+    affiliation: "Conductor Quantum"
+    is_industry: false
+  - name: "Greshma Shaji"
+    affiliation: "IQM Quantum Computers"
+    is_industry: false
+  - name: "Tom Lubowe"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ligeng Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alan Aspuru-Guzik"
+  - name: "Luis Mantilla Calderon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shuxiang Cao"
-    affiliation: ""
-    is_industry: false
-  - name: "Zijian Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Abhishek Agarwal"
-    affiliation: ""
-    is_industry: false
-  - name: "Grace Bratrud"
-    affiliation: ""
-    is_industry: false
-  - name: "Niyaz R. Beysengulov"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel C. Cole"
-    affiliation: ""
-    is_industry: false
-  - name: "Alejandro Gomez Frieiro"
-    affiliation: ""
-    is_industry: false
-  - name: "Elena O. Glen"
-    affiliation: ""
-    is_industry: false
-  - name: "Hao Hsu"
-    affiliation: ""
-    is_industry: false
-  - name: "Gang Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Raymond Jow"
-    affiliation: ""
-    is_industry: false
-  - name: "Greshma Shaji"
-    affiliation: ""
-    is_industry: false
-  - name: "Tom Lubowe"
-    affiliation: ""
-    is_industry: false
-  - name: "Luis Mantilla Calderon"
-    affiliation: ""
-    is_industry: false
   - name: "Nicola Pancotti"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Joel Pendleton"
-    affiliation: ""
+    affiliation: "Conductor Quantum"
     is_industry: false
   - name: "Brandon Severin"
-    affiliation: ""
+    affiliation: "Conductor Quantum"
     is_industry: false
   - name: "Charles Etienne Staub"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Sara Sussman"
-    affiliation: ""
+    affiliation: "Fermi National Accelerator Laboratory"
     is_industry: false
-  - name: "Antti Vepsalainen"
-    affiliation: ""
+  - name: "Antti Vepsäläinen"
+    affiliation: "IQM Quantum Computers"
     is_industry: false
   - name: "Neel Rajeshbhai Vora"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Yilun Xu"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Varinia Bernales"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Daniel Bowring"
-    affiliation: ""
+    affiliation: "Fermi National Accelerator Laboratory"
     is_industry: false
   - name: "Elica Kyoseva"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ivan Rungger"
-    affiliation: ""
+    affiliation: "National Physical Laboratory, Royal Holloway University of London"
     is_industry: false
   - name: "Giulia Semeghini"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
   - name: "Sam Stanwyck"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Timothy Costa"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alán Aspuru-Guzik"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Krysta Svore"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -119,7 +118,7 @@ external_links:
     url: "https://huggingface.co/nvidia/Ising-Calibration-1-35B-A3B"
 abstract: "Quantum computing calibration depends on interpreting experimental data, and calibration plots provide the most universal human-readable representation for this task, yet no systematic evaluation exists of how well vision-language models (VLMs) interpret them. We introduce&nbsp;QCalEval, the first V"
 url: "https://research.nvidia.com/publication/2026-04%5Fqcaleval-benchmarking-vision-language-models-quantum-calibration-plot"
-status: new
+status: "new"
 ---
 
 # QCalEval: Benchmarking Vision-Language Models for Quantum Calibration Plot Understanding

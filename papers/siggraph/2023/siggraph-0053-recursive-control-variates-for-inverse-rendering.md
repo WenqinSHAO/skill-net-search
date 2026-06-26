@@ -1,9 +1,12 @@
 ---
-id: siggraph-0053
+id: "siggraph-0053"
 title: "Recursive Control Variates for Inverse Rendering"
-conference: SIGGRAPH 2023
-date: 2023-05
+conference: "SIGGRAPH 2023"
+date: "2023-05"
 authors:
+  - name: "Baptiste Nicolet"
+    affiliation: "École Polytechnique Fédérale de Lausanne (EPFL) and NVIDIA"
+    is_industry: true
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,19 +16,15 @@ authors:
   - name: "Alexander Keller"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Wenzel Jakob"
+    affiliation: "École Polytechnique Fédérale de Lausanne (EPFL)"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Baptiste Nicolet"
-    affiliation: ""
-    is_industry: false
-  - name: "Wenzel Jakob"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://rgl.epfl.ch/publications/Nicolet2023Recursive"
 abstract: "We present a method for reducing errors---variance and bias---in physically based differentiable rendering (PBDR). Typical applications of PBDR repeatedly render a scene as part of an optimization loop involving gradient descent. The actual change introduced by each gradient descent step is often re"
 url: "https://research.nvidia.com/publication/2023-05_recursive-control-variates-inverse-rendering"
-status: new
+status: "new"
 ---
 
 # Recursive Control Variates for Inverse Rendering

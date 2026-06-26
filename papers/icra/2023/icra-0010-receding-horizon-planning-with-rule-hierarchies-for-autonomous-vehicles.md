@@ -1,13 +1,16 @@
 ---
-id: icra-0010
+id: "icra-0010"
 title: "Receding Horizon Planning with Rule Hierarchies for Autonomous Vehicles"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
   - name: "Sushant Veer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karen Leung"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ryan Cosner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuxiao Chen"
@@ -16,12 +19,8 @@ authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ryan Cosner"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://arxiv.org/abs/2212.03323"
 abstract: "Autonomous vehicles must often contend with conflicting planning requirements, e.g., safety and comfort could be at odds with each other if avoiding a collision calls for slamming the brakes. To resolve such conflicts, assigning importance ranking to rules (i.e., imposing a rule hierarchy) has been "
 url: "https://research.nvidia.com/publication/2023-05_receding-horizon-planning-rule-hierarchies-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Receding Horizon Planning with Rule Hierarchies for Autonomous Vehicles

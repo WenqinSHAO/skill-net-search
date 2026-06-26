@@ -1,38 +1,37 @@
 ---
-id: siggraph-0039
+id: "siggraph-0039"
 title: "SSIF: Single-shot Implicit Morphable Faces With Consistent Texture Parameterization"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Connor Zhizhen Lin"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eric R. Chan"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Connor Zhizhen Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Eric R. Chan"
-    affiliation: ""
-    is_industry: false
   - name: "Leonidas Guibas"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Sameh Khamis"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/ssif/"
 abstract: "There is a growing demand for the accessible creation of high-quality 3D avatars that are animatable and customizable. Although 3D morphable models provide intuitive control for editing and animation, and robustness for single-view face reconstruction, they cannot easily capture geometric and appear"
 url: "https://research.nvidia.com/publication/2023-08_ssif-single-shot-implicit-morphable-faces-consistent-texture-parameterization"
-status: new
+status: "new"
 ---
 
 # SSIF: Single-shot Implicit Morphable Faces With Consistent Texture Parameterization

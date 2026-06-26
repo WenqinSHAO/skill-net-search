@@ -1,10 +1,13 @@
 ---
-id: arxiv-2838
+id: "arxiv-2838"
 title: "Gaming at Warp Speed: Improving Aiming with Late Warp"
-conference: arXiv 2021
-date: 2021-08
+conference: "arXiv 2021"
+date: "2021-08"
 authors:
   - name: "Ben Boudaoud"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Pyarelal Knowles"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Joohwan Kim"
@@ -13,13 +16,9 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pyarelal Knowles"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://nvlabs.github.io/latewarp-s2021/"
 abstract: "Latency can make all the difference in competitive online games. Late warp is a class of techniques used in VR that can reduce latency in FPS games as well. Prior art has demonstrated these techniques can recover most of the player performance lost to computer or network latency. Inspired by prior w"
 url: "https://research.nvidia.com/publication/2021-08_gaming-warp-speed-improving-aiming-late-warp"
-status: new
+status: "new"
 ---
 
 # Gaming at Warp Speed: Improving Aiming with Late Warp

@@ -1,24 +1,23 @@
 ---
-id: corl-0015
+id: "corl-0015"
 title: "SCONE: A Food Scooping Robot Learning Framework with Active Perception"
-conference: CoRL 2023
-date: 2023-11
+conference: "CoRL 2023"
+date: "2023-11"
 authors:
+  - name: "Yen-Ling Tai"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
+  - name: "Yu Chien Chiu"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yen-Ling Tai"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Chien Chiu"
-    affiliation: ""
-    is_industry: false
   - name: "Yi-Ting Chen"
-    affiliation: ""
+    affiliation: "National Yang Ming Chiao Tung University"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://sites.google.com/view/corlscone"
 abstract: "Effectively scooping food items poses a substantial challenge for current robotic systems, due to the intricate states and diverse physical properties of food. To address this challenge, we believe in the importance of encoding food items into meaningful representations for effective food scooping. "
 url: "https://research.nvidia.com/publication/2023-11_scone-food-scooping-robot-learning-framework-active-perception"
-status: new
+status: "new"
 ---
 
 # SCONE: A Food Scooping Robot Learning Framework with Active Perception

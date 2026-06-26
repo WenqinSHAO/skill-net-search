@@ -1,25 +1,24 @@
 ---
-id: arxiv-2790
+id: "arxiv-2790"
 title: "DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
+  - name: "Sheng-Chun Kao"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sheng-Chun Kao"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Tech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.5555/3539845.3539906"
 abstract: "The design of DNN accelerators includes two key parts: HW resource configuration and mapping strategy. Intensive research has been conducted to optimize each of them independently. Unfortunately, optimizing for both together is extremely challenging due to the extremely large cross-coupled search sp"
 url: "https://research.nvidia.com/publication/2022-03_digamma-domain-aware-genetic-algorithm-hw-mapping-co-optimization-dnn"
-status: new
+status: "new"
 ---
 
 # DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators

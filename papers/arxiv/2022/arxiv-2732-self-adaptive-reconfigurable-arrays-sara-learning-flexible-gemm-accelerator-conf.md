@@ -1,25 +1,24 @@
 ---
-id: arxiv-2732
+id: "arxiv-2732"
 title: "Self Adaptive Reconfigurable Arrays (SARA): Learning Flexible GEMM Accelerator Configuration and Mapping-space using ML"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Ananda Samajdar"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Eric Qin"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ananda Samajdar"
-    affiliation: ""
-    is_industry: false
-  - name: "Eric Qin"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Tech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3489517.3530506"
 abstract: "This work demonstrates a scalable reconfigurable accelerator (RA) architecture designed to extract maximum performance and energy efficiency for GEMM workloads. We also present a self-adaptive (SA) unit, which runs a learnt model for one-shot configuration optimization in hardware offloading the sof"
 url: "https://research.nvidia.com/publication/2022-08_self-adaptive-reconfigurable-arrays-sara-learning-flexible-gemm-accelerator"
-status: new
+status: "new"
 ---
 
 # Self Adaptive Reconfigurable Arrays (SARA): Learning Flexible GEMM Accelerator Configuration and Mapping-space using ML

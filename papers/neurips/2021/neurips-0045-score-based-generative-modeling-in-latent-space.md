@@ -1,8 +1,8 @@
 ---
-id: neurips-0045
+id: "neurips-0045"
 title: "Score-based Generative Modeling in Latent Space"
-conference: NeurIPS 2021
-date: 2021-11
+conference: "NeurIPS 2021"
+date: "2021-11"
 authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
@@ -17,7 +17,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ research_areas:
   - "Generative AI"
 abstract: "Score-based generative models (SGMs) have recently demonstrated impressive results in terms of both sample quality and distribution coverage. However, they are usually applied directly in data space and often require thousands of network evaluations for sampling. Here, we propose the Latent Score-ba"
 url: "https://research.nvidia.com/publication/2021-11_score-based-generative-modeling-latent-space"
-status: new
+status: "new"
 ---
 
 # Score-based Generative Modeling in Latent Space

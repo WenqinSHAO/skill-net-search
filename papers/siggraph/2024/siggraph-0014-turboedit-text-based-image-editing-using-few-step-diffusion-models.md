@@ -1,29 +1,28 @@
 ---
-id: siggraph-0014
+id: "siggraph-0014"
 title: "TurboEdit: Text-Based Image Editing Using Few-Step Diffusion Models"
-conference: SIGGRAPH 2024
-date: 2024-08
+conference: "SIGGRAPH 2024"
+date: "2024-08"
 authors:
   - name: "Gilad Deutch"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
   - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daniel Garibi"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
   - name: "Or Patashnik"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Generative AI"
 abstract: "Diffusion models have opened the path to a wide range of text-based image editing frameworks. However, these typically build on the multi-step nature of the diffusion backwards process, and adapting them to distilled, fast-sampling methods has proven surprisingly challenging. Here, we focus on a pop"
 url: "https://research.nvidia.com/publication/2024-08_turboedit-text-based-image-editing-using-few-step-diffusion-models"
-status: new
+status: "new"
 ---
 
 # TurboEdit: Text-Based Image Editing Using Few-Step Diffusion Models

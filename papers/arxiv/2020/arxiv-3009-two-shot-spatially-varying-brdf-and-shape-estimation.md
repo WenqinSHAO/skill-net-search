@@ -1,28 +1,27 @@
 ---
-id: arxiv-3009
+id: "arxiv-3009"
 title: "Two-shot Spatially-varying BRDF and Shape Estimation"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Mark Boss"
+    affiliation: "University of Tübingen"
+    is_industry: false
+  - name: "Varun Jampani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kihwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hendrik P.A. Lensch"
+    affiliation: "University of Tübingen"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Boss"
-    affiliation: ""
-    is_industry: false
-  - name: "Varun Jampani"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Hendrik P.A. Lensch"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=Bvjoolt2-iY"
 abstract: "Capturing the shape and spatially-varying appearance (SVBRDF) of an object from images is a challenging task that has applications in both computer vision and graphics. Traditional optimization-based approaches often need a large number of images taken from multiple views in a controlled environment"
 url: "https://research.nvidia.com/publication/2020-06_two-shot-spatially-varying-brdf-and-shape-estimation"
-status: new
+status: "new"
 ---
 
 # Two-shot Spatially-varying BRDF and Shape Estimation

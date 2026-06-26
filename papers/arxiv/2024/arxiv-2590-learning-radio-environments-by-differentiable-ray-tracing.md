@@ -1,8 +1,8 @@
 ---
-id: arxiv-2590
+id: "arxiv-2590"
 title: "Learning Radio Environments by Differentiable Ray Tracing"
-conference: arXiv 2024
-date: 2024-10
+conference: "arXiv 2024"
+date: "2024-10"
 authors:
   - name: "Jakob Hoydis"
     affiliation: "NVIDIA"
@@ -13,20 +13,19 @@ authors:
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Florian Euchner"
+    affiliation: "University of Stuttgart"
+    is_industry: false
   - name: "Merlin Nimier-David"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Florian Euchner"
-    affiliation: ""
-    is_industry: false
   - name: "Stephan ten Brink"
-    affiliation: ""
+    affiliation: "University of Stuttgart"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "World Simulation"
 abstract: "Ray tracing (RT) is instrumental in 6G research in order to generate spatially-consistent and environment-specific channel impulse responses (CIRs). While acquiring accurate scene geometries is now relatively straightforward, determining material characteristics requires precise calibration using ch"
 url: "https://research.nvidia.com/publication/2024-10_learning-radio-environments-differentiable-ray-tracing"
-status: new
+status: "new"
 ---
 
 # Learning Radio Environments by Differentiable Ray Tracing

@@ -1,8 +1,8 @@
 ---
-id: icml-0006
+id: "icml-0006"
 title: "SoftTreeMax: Policy Gradient via tree expansion"
-conference: ICML 2025
-date: 2025-02
+conference: "ICML 2025"
+date: "2025-02"
 authors:
   - name: "Gal Dalal"
     affiliation: "NVIDIA"
@@ -10,17 +10,16 @@ authors:
   - name: "Assaf Hallak"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Gugan Thoppe"
+    affiliation: "IIS"
+    is_industry: false
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Gugan Thoppe"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -36,7 +35,7 @@ external_links:
     url: "https://github.com/NVlabs/SoftTreeMax"
 abstract: "Policy gradient methods are notorious for having a large variance and high sample complexity. To mitigate this, we introduce SoftTreeMax -- a generalization of softmax that employs planning. In SoftTreeMax, we extend the traditional logits with the multi-step discounted cumulative reward, topped wit"
 url: "https://research.nvidia.com/publication/2025-02_softtreemax-policy-gradient-tree-expansion"
-status: new
+status: "new"
 ---
 
 # SoftTreeMax: Policy Gradient via tree expansion

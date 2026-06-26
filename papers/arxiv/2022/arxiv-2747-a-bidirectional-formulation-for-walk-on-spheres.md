@@ -1,24 +1,23 @@
 ---
-id: arxiv-2747
+id: "arxiv-2747"
 title: "A bidirectional formulation for Walk on Spheres"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Yang Qi"
+    affiliation: "Dartmouth College"
+    is_industry: false
+  - name: "Dario Seyb"
+    affiliation: "Dartmouth College"
+    is_industry: false
   - name: "Benedikt Bitterli"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yang Qi"
-    affiliation: ""
-    is_industry: false
-  - name: "Dario Seyb"
-    affiliation: ""
-    is_industry: false
   - name: "Wojciech Jarosz"
-    affiliation: ""
+    affiliation: "Dartmouth College"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Numerically solving partial differential equations (PDEs) is central to many applications in computer graphics and scientific modeling. Conventional methods for solving PDEs often need to discretize the space first, making them less efficient for complex geometry. Unlike conventional methods, the wa"
 url: "https://research.nvidia.com/publication/2022-07_bidirectional-formulation-walk-spheres"
-status: new
+status: "new"
 ---
 
 # A bidirectional formulation for Walk on Spheres

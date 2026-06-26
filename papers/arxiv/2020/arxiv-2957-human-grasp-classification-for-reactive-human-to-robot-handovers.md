@@ -1,24 +1,23 @@
 ---
-id: arxiv-2957
+id: "arxiv-2957"
 title: "Human Grasp Classification for Reactive Human-to-Robot Handovers"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Maya Cakmak"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Washington"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://www.therobotreport.com/grasp-classification-system-improves-human-to-robot-handovers/"
 abstract: "Transfer of objects between humans and robots is a critical capability for collaborative robots. Although there has been a recent surge of interest in human-robot handovers, most prior research focus on robot-to-human handovers. Further, work on the equally critical human-to-robot handovers often as"
 url: "https://research.nvidia.com/publication/2020-10_human-grasp-classification-reactive-human-robot-handovers"
-status: new
+status: "new"
 ---
 
 # Human Grasp Classification for Reactive Human-to-Robot Handovers

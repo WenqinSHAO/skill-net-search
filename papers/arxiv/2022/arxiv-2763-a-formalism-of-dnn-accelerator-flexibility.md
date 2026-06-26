@@ -1,27 +1,26 @@
 ---
-id: arxiv-2763
+id: "arxiv-2763"
 title: "A Formalism of DNN Accelerator Flexibility"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Sheng-Chun Kao"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
+  - name: "Hyoukjun Kwon"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sheng-Chun Kao"
-    affiliation: ""
-    is_industry: false
-  - name: "Hyoukjun Kwon"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3530907"
 abstract: "The high efficiency of domain-specific hardware accelerators for machine learning (ML) has come from specialization, with the trade-off of less configurability/ flexibility. There is growing interest in developing flexible ML accelerators to make them future-proof to the rapid evolution of Deep Neur"
 url: "https://research.nvidia.com/publication/2022-06_formalism-dnn-accelerator-flexibility"
-status: new
+status: "new"
 ---
 
 # A Formalism of DNN Accelerator Flexibility

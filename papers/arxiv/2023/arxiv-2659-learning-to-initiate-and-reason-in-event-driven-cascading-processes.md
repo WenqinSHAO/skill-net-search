@@ -1,8 +1,8 @@
 ---
-id: arxiv-2659
+id: "arxiv-2659"
 title: "Learning to Initiate and Reason in Event-Driven Cascading Processes"
-conference: arXiv 2023
-date: 2023-07
+conference: "arXiv 2023"
+date: "2023-07"
 authors:
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
@@ -18,7 +18,6 @@ authors:
     is_industry: true
 topics:
   - AI & Machine Learning
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://research.nvidia.com/labs/par/publication/cascade.html"
 abstract: "Abstract"
 url: "https://research.nvidia.com/publication/2023-07_learning-initiate-and-reason-event-driven-cascading-processes"
-status: new
+status: "new"
 ---
 
 # Learning to Initiate and Reason in Event-Driven Cascading Processes

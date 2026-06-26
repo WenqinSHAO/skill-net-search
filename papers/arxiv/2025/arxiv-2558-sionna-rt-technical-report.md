@@ -1,8 +1,8 @@
 ---
-id: arxiv-2558
+id: "arxiv-2558"
 title: "Sionna RT: Technical Report"
-conference: arXiv 2025
-date: 2025-04
+conference: "arXiv 2025"
+date: "2025-04"
 authors:
   - name: "Fayçal Aït Aoudia"
     affiliation: "NVIDIA"
@@ -23,7 +23,6 @@ topics:
   - CUDA_ecosystem
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://nvlabs.github.io/sionna/rt/tech-report/index.html"
 abstract: "Sionna is an open-source, GPU-accelerated library that, as of version 0.14, incorporates a ray tracer for simulating radio wave propagation. A unique feature of Sionna RT is differentiability, enabling the calculation of gradients for the channel impulse responses (CIRs), radio maps, and other relat"
 url: "https://research.nvidia.com/publication/2025-04_sionna-rt-technical-report"
-status: new
+status: "new"
 ---
 
 # Sionna RT: Technical Report

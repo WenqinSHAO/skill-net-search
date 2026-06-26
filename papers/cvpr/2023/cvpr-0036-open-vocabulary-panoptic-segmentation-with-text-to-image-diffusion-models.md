@@ -1,9 +1,12 @@
 ---
-id: cvpr-0036
+id: "cvpr-0036"
 title: "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Jiarui Xu"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +16,16 @@ authors:
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Xiaolong Wang"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiarui Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=eW2vF8o_7p0"
 abstract: "We present ODISE: Open-vocabulary DIffusion-based panoptic SEgmentation, which unifies pre-trained text-image diffusion and discriminative models to perform open-vocabulary panoptic segmentation. Text-to-image diffusion models have the remarkable ability to generate high-quality images with diverse "
 url: "https://research.nvidia.com/publication/2023-06_open-vocabulary-panoptic-segmentation-text-image-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models

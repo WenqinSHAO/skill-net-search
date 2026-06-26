@@ -1,8 +1,8 @@
 ---
-id: arxiv-2663
+id: "arxiv-2663"
 title: "Deep Learning Approaches to Grasp Synthesis: A Review"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
   - name: "Rhys Newbury"
     affiliation: ""
@@ -14,11 +14,11 @@ authors:
     affiliation: ""
     is_industry: false
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jürgen Leitner"
     affiliation: ""
     is_industry: false
@@ -35,14 +35,13 @@ authors:
     affiliation: ""
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Akansel Cosgun"
     affiliation: ""
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -53,7 +52,7 @@ external_links:
     url: "https://arxiv.org/abs/2207.02556"
 abstract: "Grasping is the process of picking up an object by applying forces and torques at a set of contacts. Recent advances in deep learning methods have allowed rapid progress in robotic object grasping. In this systematic review, we surveyed the publications over the last decade, with a particular intere"
 url: "https://research.nvidia.com/publication/2023-06_deep-learning-approaches-grasp-synthesis-review"
-status: new
+status: "new"
 ---
 
 # Deep Learning Approaches to Grasp Synthesis: A Review

@@ -1,34 +1,33 @@
 ---
-id: arxiv-2562
+id: "arxiv-2562"
 title: "Composing Distributed Computations Through Task and Kernel Fusion"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
+  - name: "Rohan Yadav"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Shiv Sundrum"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Wonchan Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael Bauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Yadav"
-    affiliation: ""
-    is_industry: false
-  - name: "Shiv Sundrum"
-    affiliation: ""
-    is_industry: false
-  - name: "Wonchan Lee"
-    affiliation: ""
-    is_industry: false
   - name: "Alex Aiken"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
   - name: "Fredrik Kjolstad"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "We introduce Diffuse, a system that dynamically performs task and kernel fusion in distributed, task-based runtime systems. The key component of Diffuse is an intermediate representation of distributed computation that enables the necessary analyses for the fusion of distributed tasks to be performe"
 url: "https://research.nvidia.com/publication/2025-03_composing-distributed-computations-through-task-and-kernel-fusion"
-status: new
+status: "new"
 ---
 
 # Composing Distributed Computations Through Task and Kernel Fusion

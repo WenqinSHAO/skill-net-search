@@ -1,38 +1,37 @@
 ---
-id: eccv-0004
+id: "eccv-0004"
 title: "LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis"
-conference: ECCV 2024
-date: 2024-03
+conference: "ECCV 2024"
+date: "2024-03"
 authors:
   - name: "Kevin Xie"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tianshi Cao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Antonio Torralba"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ external_links:
     url: "https://drive.google.com/file/d/1xUbWTk92NJ9ThQibmNs6LvOnkj47za7-/view?usp=drive_link"
 abstract: "Recent text-to-3D generation approaches produce impressive 3D results but require time-consuming optimization that can take up to an hour per prompt. Amortized methods like ATT3D optimize multiple prompts simultaneously to improve efficiency, enabling fast text-to-3D synthesis. However, ATT3D cannot"
 url: "https://research.nvidia.com/publication/2024-03_latte3d-large-scale-amortized-text-enhanced3d-synthesis"
-status: new
+status: "new"
 ---
 
 # LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis

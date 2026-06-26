@@ -1,18 +1,17 @@
 ---
-id: arxiv-2693
+id: "arxiv-2693"
 title: "Planning Visual-Tactile Precision Grasps via Complementary Use of Vision and Touch"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Martin Matak"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Martin Matak"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ external_links:
   - name: "Arxiv version"
     url: "https://arxiv.org/abs/2212.08604"
 url: "https://research.nvidia.com/publication/2022-12_planning-visual-tactile-precision-grasps-complementary-use-vision-and-touch"
-status: new
+status: "new"
 ---
 
 # Planning Visual-Tactile Precision Grasps via Complementary Use of Vision and Touch

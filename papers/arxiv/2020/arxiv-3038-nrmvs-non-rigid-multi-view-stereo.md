@@ -1,34 +1,33 @@
 ---
-id: arxiv-3038
+id: "arxiv-3038"
 title: "NRMVS: Non-Rigid Multi-view Stereo"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
+  - name: "Matthias Innmann"
+    affiliation: "University of Erlangen-Nuremberg"
+    is_industry: false
+  - name: "Kihwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jinwei Gu"
+    affiliation: "SenseTime"
+    is_industry: false
+  - name: "Matthias Niessner"
+    affiliation: "Technical University of Munich"
+    is_industry: false
   - name: "Charles Loop"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Marc Stamminger"
+    affiliation: "Friedrich-Alexander University of Erlangen-Nuremberg"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthias Innmann"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Jinwei Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthias Niessner"
-    affiliation: ""
-    is_industry: false
-  - name: "Marc Stamminger"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=B4YBWFuYBdE"
 abstract: "Multi-view Stereo (MVS) is a common solution in photogrammetry applications for the dense reconstruction of a static scene from images. The static scene assumption, however, limits the general applicability of MVS algorithms, as many day-to-day scenes undergo non-rigid motion, e.g., clothes, faces, "
 url: "https://research.nvidia.com/publication/2020-03_nrmvs-non-rigid-multi-view-stereo"
-status: new
+status: "new"
 ---
 
 # NRMVS: Non-Rigid Multi-view Stereo

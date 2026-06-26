@@ -1,25 +1,24 @@
 ---
-id: arxiv-3004
+id: "arxiv-3004"
 title: "Meshlet Priors for 3D Mesh Reconstruction"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Abhishek Badki"
+    affiliation: "UC Santa Barbara"
+    is_industry: false
+  - name: "Orazio Gallo"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Abhishek Badki"
-    affiliation: ""
-    is_industry: false
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
   - name: "Pradeep Sen"
-    affiliation: ""
+    affiliation: "UC Santa Barbara"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://github.com/NVlabs/meshlets"
 abstract: "Estimating a mesh from an unordered set of sparse, noisy 3D points is a challenging problem that requires to carefully select priors. Existing hand-crafted priors, such as smoothness regularizers, impose an undesirable trade-off between attenuating noise and preserving local detail. Recent deep-lear"
 url: "https://research.nvidia.com/publication/2020-06_meshlet-priors-3d-mesh-reconstruction"
-status: new
+status: "new"
 ---
 
 # Meshlet Priors for 3D Mesh Reconstruction

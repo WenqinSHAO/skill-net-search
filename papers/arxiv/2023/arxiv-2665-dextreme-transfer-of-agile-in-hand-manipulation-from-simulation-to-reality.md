@@ -1,54 +1,53 @@
 ---
-id: arxiv-2665
+id: "arxiv-2665"
 title: "DeXtreme: Transfer of Agile In-Hand Manipulation from Simulation to Reality"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
+  - name: "Ankur Handa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arthur Allshire"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Viktor Makoviychuk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Aleksei Petrenko"
+    affiliation: "Apple"
+    is_industry: true
+  - name: "Ritvik Singh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jingzhou Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Denys Makoviichuk"
+    affiliation: "Snap"
+    is_industry: false
+  - name: "Karl Van Wyk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alexander Zhurkevich"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
-  - name: "Arthur Allshire"
-    affiliation: ""
-    is_industry: false
-  - name: "Viktor Makoviychuk"
-    affiliation: ""
-    is_industry: false
-  - name: "Aleksei Petrenko"
-    affiliation: ""
-    is_industry: false
-  - name: "Ritvik Singh"
-    affiliation: ""
-    is_industry: false
-  - name: "Jingzhou Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Denys Makoviichuk"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander Zhurkevich"
-    affiliation: ""
-    is_industry: false
   - name: "Jean-Francois Lafleche"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gavriel State"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -59,7 +58,7 @@ external_links:
     url: "https://dextreme.org/"
 abstract: "Recent work has demonstrated the ability of deep reinforcement learning (RL) algorithms to learn complex robotic behaviours in simulation, including in the domain of multi-fingered manipulation. However, such models can be challenging to transfer to the real world due to the gap between simulation a"
 url: "https://research.nvidia.com/publication/2023-06_dextreme-transfer-agile-hand-manipulation-simulation-reality"
-status: new
+status: "new"
 ---
 
 # DeXtreme: Transfer of Agile In-Hand Manipulation from Simulation to Reality

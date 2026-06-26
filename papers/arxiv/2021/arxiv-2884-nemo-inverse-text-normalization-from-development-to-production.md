@@ -1,24 +1,23 @@
 ---
-id: arxiv-2884
+id: "arxiv-2884"
 title: "NeMo Inverse Text Normalization: From Development To Production"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kyle Gorman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google and The Graduate Center, City University of New York"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.05055"
 abstract: "Inverse text normalization (ITN) converts spoken-domain automatic speech recognition (ASR) output into written-domain text to improve the readability of the ASR output. Many state-of-the-art ITN systems use hand-written weighted finite-state transducer(WFST) grammars since this task has extremely lo"
 url: "https://research.nvidia.com/publication/2021-04_nemo-inverse-text-normalization-development-production"
-status: new
+status: "new"
 ---
 
 # NeMo Inverse Text Normalization: From Development To Production

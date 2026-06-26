@@ -1,30 +1,29 @@
 ---
-id: arxiv-2627
+id: "arxiv-2627"
 title: "Estimates of Temporal Edge Detection Filters in Human Vision"
-conference: arXiv 2024
-date: 2024-01
+conference: "arXiv 2024"
+date: "2024-01"
 authors:
   - name: "Pontus Ebelin"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Gyorgy Denes"
+    affiliation: "The Perse School and University of Cambridge"
+    is_industry: false
   - name: "Tomas Akenine-Möller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Gyorgy Denes"
-    affiliation: ""
-    is_industry: false
   - name: "Kalle Åström"
-    affiliation: ""
+    affiliation: "Lund University"
     is_industry: false
   - name: "Magnus Oskarsson"
-    affiliation: ""
+    affiliation: "Lund University"
     is_industry: false
   - name: "William H. McIlhagga"
-    affiliation: ""
+    affiliation: "University of Bradford"
     is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://github.com/gdenes355/flicker_metric_ted"
 abstract: "Edge detection is an important process in human visual processing. However, as far as we know, few attempts have been made to map the temporal edge detection filters in human vision. To that end, we devised a user study and collected data from which we derived estimates of human temporal edge detect"
 url: "https://research.nvidia.com/publication/2024-01_ted"
-status: new
+status: "new"
 ---
 
 # Estimates of Temporal Edge Detection Filters in Human Vision

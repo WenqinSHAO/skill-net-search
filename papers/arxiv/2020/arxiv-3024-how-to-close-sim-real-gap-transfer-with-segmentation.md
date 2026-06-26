@@ -1,9 +1,15 @@
 ---
-id: arxiv-3024
+id: "arxiv-3024"
 title: "How to close sim-real gap? transfer with segmentation!"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
+  - name: "Mengyuan Yan"
+    affiliation: ""
+    is_industry: false
+  - name: "Qingyun Sun"
+    affiliation: ""
+    is_industry: false
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,17 +19,10 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mengyuan Yan"
-    affiliation: ""
-    is_industry: false
-  - name: "Qingyun Sun"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/pdf/2005.07695.pdf"
 abstract: "One fundamental difficulty in robotic learning is the sim-real gap problem. In this work, we propose to use segmentation as the interface between perception and control, as a domain-invariant state representation. We identify two sources of sim-real gap, one is dynamics sim-real gap, the other is vi"
 url: "https://research.nvidia.com/publication/2020-05_how-close-sim-real-gap-transfer-segmentation"
-status: new
+status: "new"
 ---
 
 # How to close sim-real gap? transfer with segmentation!

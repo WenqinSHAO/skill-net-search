@@ -1,32 +1,31 @@
 ---
-id: neurips-0018
+id: "neurips-0018"
 title: "Diffusion-Reward Adversarial Imitation Learning"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Chun-Mao Lai"
+    affiliation: "National Taiwan University"
+    is_industry: false
+  - name: "Hsiang-Chun Wang"
+    affiliation: "National Taiwan University"
+    is_industry: false
+  - name: "Ping-Chun Hsieh"
+    affiliation: "National Yang Ming Chiao Tung University"
+    is_industry: false
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chun-Mao Lai"
-    affiliation: ""
-    is_industry: false
-  - name: "Hsiang-Chun Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ping-Chun Hsieh"
-    affiliation: ""
-    is_industry: false
   - name: "Shao-Hua Sun"
-    affiliation: ""
+    affiliation: "National Taiwan University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://github.com/NVlabs/DRAIL"
 abstract: "Imitation learning aims to learn a policy from observing expert demonstrations without access to reward signals from environments. Generative adversarial imitation learning (GAIL) formulates imitation learning as adversarial learning, employing a generator policy learning to imitate expert behaviors"
 url: "https://research.nvidia.com/publication/2024-12_diffusion-reward-adversarial-imitation-learning"
-status: new
+status: "new"
 ---
 
 # Diffusion-Reward Adversarial Imitation Learning

@@ -1,32 +1,34 @@
 ---
-id: cvpr-0034
+id: "cvpr-0034"
 title: "Learning Human-to-Robot Handovers from Point Clouds"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Sammy Christen"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Claudia Pérez D’Arpino"
+  - name: "Claudia D’Arpino"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Otmar Hilliges"
+    affiliation: "ETH Zurich"
+    is_industry: false
+  - name: "Dieter Fox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sammy Christen"
-    affiliation: ""
-    is_industry: false
-  - name: "Otmar Hilliges"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+  - name: "Claudia Pérez D’Arpino"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +41,7 @@ external_links:
     url: "https://handover-sim2real.github.io"
 abstract: "We propose the first framework to learn control policies for vision-based human-to-robot handovers, a critical task for human-robot interaction. While research in Embodied AI has made significant progress in training robot agents in simulated environments, interacting with humans remains challenging"
 url: "https://research.nvidia.com/publication/2023-06_learning-human-robot-handovers-point-clouds"
-status: new
+status: "new"
 ---
 
 # Learning Human-to-Robot Handovers from Point Clouds

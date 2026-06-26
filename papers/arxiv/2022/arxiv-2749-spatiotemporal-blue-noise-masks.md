@@ -1,24 +1,23 @@
 ---
-id: arxiv-2749
+id: "arxiv-2749"
 title: "Spatiotemporal Blue Noise Masks"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Alan Wolfe"
+    affiliation: "NVIDIA and EA SEED"
+    is_industry: true
+  - name: "Nathan Morrical"
+    affiliation: "NVIDIA and University of Utah"
+    is_industry: true
   - name: "Tomas Akenine-Möller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alan Wolfe"
-    affiliation: ""
-    is_industry: false
-  - name: "Nathan Morrical"
-    affiliation: ""
-    is_industry: false
   - name: "Ravi Ramamoorthi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA and University of California, San Diego"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Blue noise error patterns are well suited to human perception, and when applied to stochastic rendering techniques, blue noise masks can minimize unwanted low-frequency noise in the final image. Current methods of applying different blue noise masks to each rendered frame result in either white nois"
 url: "https://research.nvidia.com/publication/2022-07_spatiotemporal-blue-noise-masks"
-status: new
+status: "new"
 ---
 
 # Spatiotemporal Blue Noise Masks

@@ -1,37 +1,36 @@
 ---
-id: rss-0010
+id: "rss-0010"
 title: "AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System"
-conference: RSS 2023
-date: 2023-06
+conference: "RSS 2023"
+date: "2023-06"
 authors:
+  - name: "Yuzhe Qin"
+    affiliation: "University of California San Diego"
+    is_industry: false
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Binghao Huang"
+    affiliation: "University of California San Diego"
+    is_industry: false
+  - name: "Karl Van Wyk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Hao Su"
+    affiliation: "University of California San Diego"
+    is_industry: false
+  - name: "Xiaolong Wang"
+    affiliation: "University of California San Diego"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yuzhe Qin"
-    affiliation: ""
-    is_industry: false
-  - name: "Binghao Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
-  - name: "Hao Su"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "http://www.roboticsproceedings.org/rss19/p015.pdf"
 abstract: "Vision-based teleoperation offers the possibility to endow robots with human-level intelligence to physically interact with the environment, while only requiring low-cost camera sensors. However, current vision-based teleoperation systems are designed and engineered towards a particular robot model "
 url: "https://research.nvidia.com/publication/2023-06_anyteleop-general-vision-based-dexterous-robot-arm-hand-teleoperation-system"
-status: new
+status: "new"
 ---
 
 # AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System

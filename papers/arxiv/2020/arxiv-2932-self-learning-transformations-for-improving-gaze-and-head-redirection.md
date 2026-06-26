@@ -1,28 +1,27 @@
 ---
-id: arxiv-2932
+id: "arxiv-2932"
 title: "Self-Learning Transformations for Improving Gaze and Head Redirection"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Yufeng Zheng"
+    affiliation: "ETH Zürich"
+    is_industry: false
+  - name: "Seonwook Park"
+    affiliation: "ETH Zürich"
+    is_industry: false
+  - name: "Xucong Zhang"
+    affiliation: "ETH Zürich"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yufeng Zheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Seonwook Park"
-    affiliation: ""
-    is_industry: false
-  - name: "Xucong Zhang"
-    affiliation: ""
-    is_industry: false
   - name: "Otmar Hilliges"
-    affiliation: ""
+    affiliation: "ETH Zürich"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://ait.ethz.ch/projects/2020/STED-gaze/downloads/video.mp4"
 abstract: "Many computer vision tasks rely on labeled data. Rapid progress in generative modeling has led to the ability to synthesize photorealistic images. However, controlling specific aspects of the generation process such that the data can be used for supervision of downstream tasks remains challenging. I"
 url: "https://research.nvidia.com/publication/2020-12_self-learning-transformations-improving-gaze-and-head-redirection"
-status: new
+status: "new"
 ---
 
 # Self-Learning Transformations for Improving Gaze and Head Redirection

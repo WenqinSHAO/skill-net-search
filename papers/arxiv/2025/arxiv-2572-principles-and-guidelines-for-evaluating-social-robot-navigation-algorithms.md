@@ -1,112 +1,111 @@
 ---
-id: arxiv-2572
+id: "arxiv-2572"
 title: "Principles and guidelines for evaluating social robot navigation algorithms"
-conference: arXiv 2025
-date: 2025-02
+conference: "arXiv 2025"
+date: "2025-02"
 authors:
+  - name: "Anthony Francis*"
+    affiliation: "Logical Robotics"
+    is_industry: false
   - name: "Claudia Pérez D’Arpino*"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Anthony Francis*"
-    affiliation: ""
-    is_industry: false
   - name: "CHENGSHU LI"
-    affiliation: ""
+    affiliation: "Stanford"
     is_industry: false
   - name: "FEI XIA"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google DeepMind"
+    is_industry: true
   - name: "ALEXANDRE ALAHI"
-    affiliation: ""
+    affiliation: "EPFL"
     is_industry: false
   - name: "RACHID ALAMI"
-    affiliation: ""
+    affiliation: "LAAS-CNRS"
     is_industry: false
   - name: "ANIKET BERA"
-    affiliation: ""
+    affiliation: "Purdue University"
     is_industry: false
   - name: "ABHIJAT BISWAS"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "JOYDEEP BISWAS"
-    affiliation: ""
+    affiliation: "The University of Texas at Austin"
     is_industry: false
   - name: "ROHAN CHANDRA"
-    affiliation: ""
+    affiliation: "University of Virginia"
     is_industry: false
   - name: "HAO-TIEN LEWIS CHIANG"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google DeepMind"
+    is_industry: true
   - name: "MICHAEL EVERETT"
-    affiliation: ""
+    affiliation: "Northeastern University"
     is_industry: false
   - name: "SEHOON HA"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "JUSTIN HART"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
   - name: "JONATHAN P. HOW"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
   - name: "HARESH KARNAN"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
   - name: "TSANG-WEI EDWARD LEE"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google DeepMind"
+    is_industry: true
   - name: "LUIS J. MANSO"
-    affiliation: ""
+    affiliation: "Aston University"
     is_industry: false
   - name: "REUTH MIRSKY"
-    affiliation: ""
+    affiliation: "Bar-Ilan University"
     is_industry: false
   - name: "SÖREN PIRK"
-    affiliation: ""
+    affiliation: "Kiel University"
     is_industry: false
   - name: "PHANI TEJA SINGAMANENI"
-    affiliation: ""
+    affiliation: "LAAS-CNRS"
     is_industry: false
   - name: "PETER STONE"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
   - name: "ADA V. TAYLOR"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "PETER TRAUTMAN"
-    affiliation: ""
+    affiliation: "Honda Research Institute"
     is_industry: false
   - name: "NATHAN TSOI"
-    affiliation: ""
+    affiliation: "Yale University"
     is_industry: false
   - name: "MARYNEL VÁZQUEZ"
-    affiliation: ""
+    affiliation: "Yale University"
     is_industry: false
   - name: "XUESU XIAO"
-    affiliation: ""
+    affiliation: "George Mason University"
     is_industry: false
   - name: "PENG XU"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google DeepMind"
+    is_industry: true
   - name: "NAOKI YOKOYAMA"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "ALEXANDER TOSHEV"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Apple"
+    is_industry: true
   - name: "ROBERTO MARTÍN-MARTÍN"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
 research_areas:
   - "Robotics"
 url: "https://research.nvidia.com/publication/2025-02_principles-and-guidelines-evaluating-social-robot-navigation-algorithms"
-status: new
+status: "new"
 ---
 
 # Principles and guidelines for evaluating social robot navigation algorithms

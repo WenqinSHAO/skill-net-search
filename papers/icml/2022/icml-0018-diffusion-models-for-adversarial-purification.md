@@ -1,31 +1,30 @@
 ---
-id: icml-0018
+id: "icml-0018"
 title: "Diffusion Models for Adversarial Purification"
-conference: ICML 2022
-date: 2022-07
+conference: "ICML 2022"
+date: "2022-07"
 authors:
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Brandon Guo"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Yujia Huang"
+    affiliation: "Caltech"
+    is_industry: false
   - name: "Chaowei Xiao"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
-  - name: "Brandon Guo"
-    affiliation: ""
-    is_industry: false
-  - name: "Yujia Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Generative AI"
 abstract: "Adversarial purification refers to a class of defense methods that remove adversarial perturbations using a generative model. These methods do not make assumptions on the form of attack and the classification model, and thus can defend pre-existing classifiers against unseen threats. However, their "
 url: "https://research.nvidia.com/publication/2022-07_diffusion-models-adversarial-purification"
-status: new
+status: "new"
 ---
 
 # Diffusion Models for Adversarial Purification

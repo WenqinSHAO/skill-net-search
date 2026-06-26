@@ -1,63 +1,62 @@
 ---
-id: arxiv-2538
+id: "arxiv-2538"
 title: "Huge ensembles–Part 1: Design of ensemble weather forecasts using spherical Fourier neural operators"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
+  - name: "Ankur Mahesh"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "William D. Collins"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
   - name: "Boris Bonev"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Noah Brenowitz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yair Cohen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Joshua Elms"
+    affiliation: "Indiana University"
+    is_industry: false
+  - name: "Peter Harrington"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "Karthik Kashinath"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thorsten Kurth"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Joshua North"
+    affiliation: "Lawrence Berkeley National Laboratory"
+    is_industry: false
+  - name: "Travis O'Brian"
+    affiliation: "Indiana University"
+    is_industry: false
   - name: "Mike Pritchard"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ankur Mahesh"
-    affiliation: ""
-    is_industry: false
-  - name: "William D. Collins"
-    affiliation: ""
-    is_industry: false
-  - name: "Yair Cohen"
-    affiliation: ""
-    is_industry: false
-  - name: "Joshua Elms"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Harrington"
-    affiliation: ""
-    is_industry: false
-  - name: "Karthik Kashinath"
-    affiliation: ""
-    is_industry: false
-  - name: "Thorsten Kurth"
-    affiliation: ""
-    is_industry: false
-  - name: "Joshua North"
-    affiliation: ""
-    is_industry: false
-  - name: "Travis O'Brian"
-    affiliation: ""
-    is_industry: false
   - name: "David Pruitt"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Risser"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Shashank Subramanian"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
   - name: "Jared Willard"
-    affiliation: ""
+    affiliation: "Lawrence Berkeley National Laboratory"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -69,7 +68,7 @@ research_areas:
   - "Physical AI"
 abstract: "Simulating low-likelihood high-impact extreme weather events in a warming world is a significant and challenging task for current ensemble forecasting systems. While these systems presently use up to 100 members, larger ensembles could enrich the sampling of internal variability. They may capture th"
 url: "https://research.nvidia.com/publication/2025-09_huge-ensembles-part-1-design-ensemble-weather-forecasts-using-spherical-fourier"
-status: new
+status: "new"
 ---
 
 # Huge ensembles–Part 1: Design of ensemble weather forecasts using spherical Fourier neural operators

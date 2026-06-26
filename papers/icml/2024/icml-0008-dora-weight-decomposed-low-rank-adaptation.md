@@ -1,9 +1,15 @@
 ---
-id: icml-0008
+id: "icml-0008"
 title: "DoRA: Weight-Decomposed Low-Rank Adaptation"
-conference: ICML 2024
-date: 2024-07
+conference: "ICML 2024"
+date: "2024-07"
 authors:
+  - name: "Shih-Yang Liu"
+    affiliation: "NVIDIA, HKUST"
+    is_industry: true
+  - name: "Chien-Yi Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,23 +19,16 @@ authors:
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kwang-Ting Cheng"
+    affiliation: "HKUST"
+    is_industry: false
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shih-Yang Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chien-Yi Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Kwang-Ting Cheng"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://developer.nvidia.com/blog/introducing-dora-a-high-performing-alternative-to-lora-for-fine-tuning/"
 abstract: "In this ICML'24 Oral paper, we first introduce a novel weight decomposition analysis to investigate the inherent differences between FT and LoRA. Aiming to resemble the learning capacity of FT from the findings, we propose Weight-Decomposed LowRank Adaptation (DoRA). DoRA decomposes the pre-trained "
 url: "https://research.nvidia.com/publication/2024-07_dora-weight-decomposed-low-rank-adaptation"
-status: new
+status: "new"
 ---
 
 # DoRA: Weight-Decomposed Low-Rank Adaptation

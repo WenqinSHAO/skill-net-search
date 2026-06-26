@@ -1,38 +1,37 @@
 ---
-id: arxiv-2517
+id: "arxiv-2517"
 title: "Learn from Your Mistakes: Self-Correcting Masked Diffusion Models"
-conference: arXiv 2026
-date: 2026-02
+conference: "arXiv 2026"
+date: "2026-02"
 authors:
   - name: "Yair Schiff"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
   - name: "Omer Belhasin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Roy Uziel"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Guanghan Wang"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
   - name: "Marianne Arriola"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
   - name: "Gilad Turok"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
   - name: "Michael Elad"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Volodymyr Kuleshov"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
   - name: "Model weights"
     url: "https://huggingface.co/collections/kuleshov-group/proseco"
 url: "https://research.nvidia.com/publication/2026-02%5Flearn-your-mistakes-self-correcting-masked-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Learn from Your Mistakes: Self-Correcting Masked Diffusion Models

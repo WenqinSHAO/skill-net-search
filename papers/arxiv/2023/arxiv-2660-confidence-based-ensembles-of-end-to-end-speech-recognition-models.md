@@ -1,24 +1,23 @@
 ---
-id: arxiv-2660
+id: "arxiv-2660"
 title: "Confidence-based Ensembles of End-to-End Speech Recognition Models"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
   - name: "Igor Gitman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Aleksandr Laptev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, ITMO University Russia"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2306.15824"
 abstract: "The number of end-to-end speech recognition models grows every year. These models are often adapted to new domains or languages resulting in a proliferation of expert systems that achieve great results on target data, while generally showing inferior performance outside of their domain of expertise."
 url: "https://research.nvidia.com/publication/2023-06_confidence-based-ensembles-end-end-speech-recognition-models"
-status: new
+status: "new"
 ---
 
 # Confidence-based Ensembles of End-to-End Speech Recognition Models

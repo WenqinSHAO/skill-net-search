@@ -1,31 +1,30 @@
 ---
-id: arxiv-2912
+id: "arxiv-2912"
 title: "Heterogeneous Dataflow Accelerators for Multi-DNN Workloads"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Hyoukjun Kwon"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Liangzhen Lai"
+    affiliation: "Facebook"
+    is_industry: true
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hyoukjun Kwon"
-    affiliation: ""
-    is_industry: false
-  - name: "Liangzhen Lai"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Tech"
     is_industry: false
   - name: "Yu-Hsin Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Facebook"
+    is_industry: true
   - name: "Vikas Chandra"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Facebook"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9407116"
 abstract: "AI-enabled applications such as augmented and virtual reality (AR/VR) leverage multiple deep neural network (DNN) models for various sub-tasks such as object detection, image segmentation, eye-tracking, speech recognition, and so on. Because of the diversity of the sub-tasks, the layers within and a"
 url: "https://research.nvidia.com/publication/2021-02_heterogeneous-dataflow-accelerators-multi-dnn-workloads"
-status: new
+status: "new"
 ---
 
 # Heterogeneous Dataflow Accelerators for Multi-DNN Workloads

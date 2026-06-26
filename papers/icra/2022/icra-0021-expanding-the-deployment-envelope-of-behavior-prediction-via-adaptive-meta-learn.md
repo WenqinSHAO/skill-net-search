@@ -1,21 +1,20 @@
 ---
-id: icra-0021
+id: "icra-0021"
 title: "Expanding the Deployment Envelope of Behavior Prediction via Adaptive Meta-Learning"
-conference: ICRA 2022
-date: 2022-09
+conference: "ICRA 2022"
+date: "2022-09"
 authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "James Harrison"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google Research"
+    is_industry: true
   - name: "Marco Pavone"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Learning-based behavior prediction methods are increasingly being deployed in real-world autonomous systems, e.g., in fleets of self-driving vehicles, which are beginning to commercially operate in major cities across the world. Despite their advancements, however, the vast majority of prediction sy"
 url: "https://research.nvidia.com/publication/2022-09_expanding-deployment-envelope-behavior-prediction-adaptive-meta-learning"
-status: new
+status: "new"
 ---
 
 # Expanding the Deployment Envelope of Behavior Prediction via Adaptive Meta-Learning

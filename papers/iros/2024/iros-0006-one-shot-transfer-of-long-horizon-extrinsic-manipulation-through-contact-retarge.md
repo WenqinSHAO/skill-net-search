@@ -1,8 +1,8 @@
 ---
-id: iros-0006
+id: "iros-0006"
 title: "One-Shot Transfer of Long-Horizon Extrinsic Manipulation Through Contact Retargeting"
-conference: IROS 2024
-date: 2024-04
+conference: "IROS 2024"
+date: "2024-04"
 authors:
   - name: "Albert Wu"
     affiliation: ""
@@ -14,14 +14,13 @@ authors:
     affiliation: ""
     is_industry: false
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "C Karen Liu"
     affiliation: ""
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2404.07468"
 abstract: "Extrinsic manipulation, the use of environment contacts to achieve manipulation objectives, enables strategies that are otherwise impossible with a parallel jaw gripper. However, orchestrating a long-horizon sequence of contact interactions between the robot, object, and environment is notoriously c"
 url: "https://research.nvidia.com/publication/2024-04_one-shot-transfer-long-horizon-extrinsic-manipulation-through-contact"
-status: new
+status: "new"
 ---
 
 # One-Shot Transfer of Long-Horizon Extrinsic Manipulation Through Contact Retargeting

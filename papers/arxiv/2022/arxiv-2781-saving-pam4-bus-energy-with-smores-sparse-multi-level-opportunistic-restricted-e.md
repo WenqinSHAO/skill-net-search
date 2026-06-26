@@ -1,10 +1,10 @@
 ---
-id: arxiv-2781
+id: "arxiv-2781"
 title: "Saving PAM4 Bus Energy with SMOREs: Sparse Multi-level Opportunistic Restricted Encodings"
-conference: arXiv 2022
-date: 2022-04
+conference: "arXiv 2022"
+date: "2022-04"
 authors:
-  - name: "Mike O&#039;Connor"
+  - name: "Mike O'Connor"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Donghyuk Lee"
@@ -19,9 +19,11 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Mike O&#039;Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +35,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9773229"
 abstract: "Pulse Amplitude Modulation (PAM) uses multiple voltage levels as different data symbols, transferring multiple bits of data simultaneously, thereby enabling higher communication bandwidth without increased operating frequencies. However, dividing the voltage into more symbols leads to a smaller volt"
 url: "https://research.nvidia.com/publication/2022-04_saving-pam4-bus-energy-smores-sparse-multi-level-opportunistic-restricted"
-status: new
+status: "new"
 ---
 
 # Saving PAM4 Bus Energy with SMOREs: Sparse Multi-level Opportunistic Restricted Encodings

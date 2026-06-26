@@ -1,9 +1,12 @@
 ---
-id: arxiv-2582
+id: "arxiv-2582"
 title: "AdaDemo: Data-Efficient Demonstration Expansion for Generalist Robotic Agent"
-conference: arXiv 2024
-date: 2024-12
+conference: "arXiv 2024"
+date: "2024-12"
 authors:
+  - name: "Tongzhou Mu"
+    affiliation: "UCSD"
+    is_industry: false
   - name: "Yijie Guo"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +16,17 @@ authors:
   - name: "Ankit Goyal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tongzhou Mu"
-    affiliation: ""
-    is_industry: false
   - name: "Hao Su"
-    affiliation: ""
+    affiliation: "UCSD"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2404.07428"
 abstract: "Encouraged by the remarkable achievements of language and vision foundation models, developing generalist robotic agents through imitation learning, using large demonstration datasets, has become a prominent area of interest in robot learning. The efficacy of imitation learning is heavily reliant on"
 url: "https://research.nvidia.com/publication/2024-12_adademo-data-efficient-demonstration-expansion-generalist-robotic-agent"
-status: new
+status: "new"
 ---
 
 # AdaDemo: Data-Efficient Demonstration Expansion for Generalist Robotic Agent

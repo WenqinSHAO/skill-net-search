@@ -1,9 +1,12 @@
 ---
-id: arxiv-2800
+id: "arxiv-2800"
 title: "Machine Learning and Algorithms: Let Us Team Up for EDA"
-conference: arXiv 2022
-date: 2022-01
+conference: "arXiv 2022"
+date: "2022-01"
 authors:
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Yanqing Zhang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9682429"
 abstract: "Machine learning (ML) has been applied to many EDA problems in recent years. We can classify these applications into three major categories: Predictor, Optimizer and Generator based on the role of ML played in these applications and the ML techniques used. Ideally one would like to adopt the Optimiz"
 url: "https://research.nvidia.com/publication/2022-01_machine-learning-and-algorithms-let-us-team-eda"
-status: new
+status: "new"
 ---
 
 # Machine Learning and Algorithms: Let Us Team Up for EDA

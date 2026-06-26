@@ -1,8 +1,8 @@
 ---
-id: neurips-0017
+id: "neurips-0017"
 title: "CosAE: Learnable Fourier Series for Image Restoration"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
@@ -16,7 +16,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=eYvohDeF8CE"
 abstract: "In this paper, we introduce Cosine Autoencoder (CosAE), a novel, generic Autoencoder that seamlessly leverages the classic Fourier series with a feed-forward neural network. CosAE represents an input image as a series of 2D Cosine time series, each defined by a tuple of learnable frequency and Fouri"
 url: "https://research.nvidia.com/publication/2024-12_cosae-learnable-fourier-series-image-restoration"
-status: new
+status: "new"
 ---
 
 # CosAE: Learnable Fourier Series for Image Restoration

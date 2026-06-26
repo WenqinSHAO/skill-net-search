@@ -1,35 +1,34 @@
 ---
-id: cvpr-0015
+id: "cvpr-0015"
 title: "Breathing Life Into Sketches Using Text-to-Video Priors"
-conference: CVPR 2024
-date: 2024-07
+conference: "CVPR 2024"
+date: "2024-07"
 authors:
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yael Vinker"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Yuval Alaluf"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Amit Bermano"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Daniel Cohen-Or"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Ariel Shamir"
+    affiliation: "3Reichman University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Yael Vinker"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuval Alaluf"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit Bermano"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Cohen-Or"
-    affiliation: ""
-    is_industry: false
-  - name: "Ariel Shamir"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://arxiv.org/abs/2311.13608"
 abstract: "A sketch is one of the most intuitive and versatile tools humans use to convey their ideas visually. An animated sketch opens another dimension to the expression of ideas and is widely used by designers for a variety of purposes. Animating sketches is a laborious process, requiring extensive experie"
 url: "https://research.nvidia.com/publication/2024-07_breathing-life-sketches-using-text-video-priors"
-status: new
+status: "new"
 ---
 
 # Breathing Life Into Sketches Using Text-to-Video Priors

@@ -1,23 +1,22 @@
 ---
-id: arxiv-2993
+id: "arxiv-2993"
 title: "On Learning Sets of Symmetric Elements"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Or Litany"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Or Litany"
-    affiliation: ""
-    is_industry: false
   - name: "Ethan Fetaya"
-    affiliation: ""
+    affiliation: "Bar-Ilan University"
     is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -26,7 +25,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Learning from unordered sets is a fundamental learning setup, recently attracting increasing attention. Research in this area has focused on the case where elements of the set are represented by feature vectors, and far less emphasis has been given to the common case where set elements themselves ad"
 url: "https://research.nvidia.com/publication/2020-07_learning-sets-symmetric-elements"
-status: new
+status: "new"
 ---
 
 # On Learning Sets of Symmetric Elements

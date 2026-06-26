@@ -1,25 +1,24 @@
 ---
-id: siggraph-0011
+id: "siggraph-0011"
 title: "SpecTrack: Learned Multi-Rotation Tracking via Speckle Imaging"
-conference: SIGGRAPH 2024
-date: 2024-12
+conference: "SIGGRAPH 2024"
+date: "2024-12"
 authors:
+  - name: "Ziyang Chen"
+    affiliation: "University College London"
+    is_industry: false
+  - name: "Doğa Doğan"
+    affiliation: "Adobe Research"
+    is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ziyang Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Doğa Doğan"
-    affiliation: ""
-    is_industry: false
   - name: "Kaan Akşit"
-    affiliation: ""
+    affiliation: "University College London"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://github.com/complight/SpecTrack"
 abstract: "Precision pose detection is increasingly demanded in fields such as personal fabrication, Virtual Reality (VR), and robotics due to its critical role in ensuring accurate positioning information. However, conventional vision-based systems used in these systems often struggle with achieving high prec"
 url: "https://research.nvidia.com/publication/2024-12_spectrack-learned-multi-rotation-tracking-speckle-imaging"
-status: new
+status: "new"
 ---
 
 # SpecTrack: Learned Multi-Rotation Tracking via Speckle Imaging

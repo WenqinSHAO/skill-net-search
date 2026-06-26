@@ -1,48 +1,47 @@
 ---
-id: arxiv-2803
+id: "arxiv-2803"
 title: "RTMV: A Ray-Traced Multi-View Synthetic Dataset for Novel View Synthesis"
-conference: arXiv 2022
-date: 2022-01
+conference: "arXiv 2022"
+date: "2022-01"
 authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Moustafa Meshry"
+    affiliation: "Univ. of Maryland"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alex Evans"
+    affiliation: "Midjourney"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Sameh Khamis"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Charles Loop"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Nate Morrical"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Moustafa Meshry"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
-  - name: "Sameh Khamis"
-    affiliation: ""
-    is_industry: false
-  - name: "Nate Morrical"
-    affiliation: ""
-    is_industry: false
   - name: "Towaki Takikawa"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ external_links:
     url: "http://www.cs.umd.edu/~mmeshry/projects/rtmv/"
 abstract: "We present a large-scale synthetic dataset for novel view synthesis consisting of ~300k images rendered from nearly 2000 complex scenes using high-quality ray tracing at high resolution (1600 x 1600 pixels). The dataset is orders of magnitude larger than existing synthetic datasets for novel view sy"
 url: "https://research.nvidia.com/publication/2022-01_rtmv-ray-traced-multi-view-synthetic-dataset-novel-view-synthesis"
-status: new
+status: "new"
 ---
 
 # RTMV: A Ray-Traced Multi-View Synthetic Dataset for Novel View Synthesis

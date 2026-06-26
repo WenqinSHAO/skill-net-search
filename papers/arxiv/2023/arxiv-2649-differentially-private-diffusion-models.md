@@ -1,26 +1,25 @@
 ---
-id: arxiv-2649
+id: "arxiv-2649"
 title: "Differentially Private Diffusion Models"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
+  - name: "Tim Dockhorn"
+    affiliation: "Stability AI"
+    is_industry: false
+  - name: "Tianshi Cao"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tim Dockhorn"
-    affiliation: ""
-    is_industry: false
-  - name: "Tianshi Cao"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/DPDM/"
 abstract: "While modern machine learning models rely on increasingly large training datasets, data is often limited in privacy-sensitive domains. Generative models trained with differential privacy (DP) on sensitive data can sidestep this challenge, providing access to synthetic data instead. We build on the r"
 url: "https://research.nvidia.com/publication/2023-08_differentially-private-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Differentially Private Diffusion Models

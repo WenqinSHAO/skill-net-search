@@ -1,32 +1,31 @@
 ---
-id: arxiv-2942
+id: "arxiv-2942"
 title: "Neural FFTs for Universal Texture Image Synthesis"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
   - name: "Morteza Mardani"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Guilin Liu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Aysegul Dundar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shiqiu Liu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Andrew Tao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "Generative AI"
 abstract: "Synthesizing larger texture images from a smaller exemplar is an important task in graphics and vision. The conventional CNNs, recently adopted for synthesis, require to train and test on the same set of images and fail to generalize to unseen images. This is mainly because those CNNs fully rely on "
 url: "https://research.nvidia.com/publication/2020-12_neural-ffts-universal-texture-image-synthesis"
-status: new
+status: "new"
 ---
 
 # Neural FFTs for Universal Texture Image Synthesis

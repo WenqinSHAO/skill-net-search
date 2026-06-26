@@ -1,9 +1,12 @@
 ---
-id: siggraph-0006
+id: "siggraph-0006"
 title: "Generative Detail Enhancement for Physically Based Materials"
-conference: SIGGRAPH 2025
-date: 2025-07
+conference: "SIGGRAPH 2025"
+date: "2025-07"
 authors:
+  - name: "Saeed Hadadan"
+    affiliation: "University of Maryland, College Park and NVIDIA"
+    is_industry: true
   - name: "Benedikt Bitterli"
     affiliation: "NVIDIA"
     is_industry: true
@@ -25,16 +28,12 @@ authors:
   - name: "Bart Wronski"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Saeed Hadadan"
-    affiliation: ""
-    is_industry: false
   - name: "Matthias Zwicker"
-    affiliation: ""
+    affiliation: "University of Maryland, College Park"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://generative-detail.github.io/"
 abstract: "We present a tool for enhancing the detail of physically based materials using an off-the-shelf diffusion model and inverse rendering. Our goal is to enhance the visual fidelity of materials with detail that is often tedious to author, by adding signs of wear, aging, weathering, etc. As these appear"
 url: "https://research.nvidia.com/publication/2025-07_generative-detail-enhancement-physically-based-materials"
-status: new
+status: "new"
 ---
 
 # Generative Detail Enhancement for Physically Based Materials

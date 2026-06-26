@@ -1,22 +1,21 @@
 ---
-id: arxiv-2929
+id: "arxiv-2929"
 title: "NVCell: Generate Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Matt Fojtik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Standard cell layouts in advanced technology nodes are done manually in the industry today. Automating standard cell layouts is challenging because of the exploding number and complexity of design rule checking (DRC), especially when the design goal is to minimize cell area. In this paper we propose"
 url: "https://research.nvidia.com/publication/2020-12_nvcell-generate-standard-cell-layout-advanced-technology-nodes-reinforcement"
-status: new
+status: "new"
 ---
 
 # NVCell: Generate Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning

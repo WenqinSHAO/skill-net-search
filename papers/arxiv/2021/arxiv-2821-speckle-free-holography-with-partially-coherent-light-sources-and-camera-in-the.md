@@ -1,26 +1,25 @@
 ---
-id: arxiv-2821
+id: "arxiv-2821"
 title: "Speckle-free holography with partially coherent light sources and camera-in-the-loop calibration"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
+  - name: "Yifan Peng"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Suyeon Choi"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yifan Peng"
-    affiliation: ""
-    is_industry: false
-  - name: "Suyeon Choi"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://news.stanford.edu/2021/11/12/using-ai-create-better-virtual-reality-experiences/"
 abstract: "Computer-generated holography (CGH) holds transformative potential for a wide range of applications, including direct-view, virtual and augmented reality, and automotive display systems. While research on holographic displays has recently made impressive progress, image quality and eye safety of hol"
 url: "https://research.nvidia.com/publication/2021-11_speckle-free-holography-partially-coherent-light-sources-and-camera-loop"
-status: new
+status: "new"
 ---
 
 # Speckle-free holography with partially coherent light sources and camera-in-the-loop calibration

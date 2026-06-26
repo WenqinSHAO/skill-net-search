@@ -1,24 +1,23 @@
 ---
-id: arxiv-2569
+id: "arxiv-2569"
 title: "Spatio-Temporal Context Prompting for Zero-Shot Action Detection"
-conference: arXiv 2025
-date: 2025-02
+conference: "arXiv 2025"
+date: "2025-02"
 authors:
+  - name: "Wei-Jhe Huang"
+    affiliation: "National Tsing Hua University"
+    is_industry: false
   - name: "Min-Hung Chen"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Wei-Jhe Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Shang-Hong Lai"
-    affiliation: ""
+    affiliation: "National Tsing Hua University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://webber2933.github.io/ST-CLIP-project-page/"
 abstract: "Spatio-temporal action detection encompasses the tasks of localizing and classifying individual actions within a video. Recent works aim to enhance this process by incorporating interaction modeling, which captures the relationship between people and their surrounding context. However, these approac"
 url: "https://research.nvidia.com/publication/2025-02_spatio-temporal-context-prompting-zero-shot-action-detection"
-status: new
+status: "new"
 ---
 
 # Spatio-Temporal Context Prompting for Zero-Shot Action Detection

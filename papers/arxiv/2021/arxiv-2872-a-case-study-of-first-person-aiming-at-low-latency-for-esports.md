@@ -1,8 +1,8 @@
 ---
-id: arxiv-2872
+id: "arxiv-2872"
 title: "A Case Study of First Person Aiming at Low Latency for Esports"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
@@ -16,7 +16,6 @@ authors:
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://github.com/jspjutNV/latencyExpEHPHCI21"
 abstract: "Lower computer system input-to-output latency substantially re-duces many task completion times. In fact, literature shows that reduction in targeting task completion time from decreased latency often exceeds the decrease in latency alone. However, for aiming in first person shooter (FPS) games, som"
 url: "https://research.nvidia.com/publication/2021-05_case-study-first-person-aiming-low-latency-esports"
-status: new
+status: "new"
 ---
 
 # A Case Study of First Person Aiming at Low Latency for Esports

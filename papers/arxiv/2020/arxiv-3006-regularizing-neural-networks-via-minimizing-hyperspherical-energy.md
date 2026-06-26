@@ -1,37 +1,36 @@
 ---
-id: arxiv-3006
+id: "arxiv-3006"
 title: "Regularizing Neural Networks via Minimizing Hyperspherical Energy"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Weiyang Liu"
+    affiliation: "Gatech"
+    is_industry: false
+  - name: "Rongmei Lin"
+    affiliation: "Emory"
+    is_industry: false
+  - name: "Zhen Liu"
+    affiliation: "Mila"
+    is_industry: false
+  - name: "Chen Feng"
+    affiliation: "NYU"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weiyang Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Rongmei Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhen Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Feng"
-    affiliation: ""
-    is_industry: false
   - name: "James M. Rehg"
-    affiliation: ""
+    affiliation: "Gatech"
     is_industry: false
   - name: "Li Xiong"
-    affiliation: ""
+    affiliation: "Emory"
     is_industry: false
   - name: "Le Song"
-    affiliation: ""
+    affiliation: "Gatech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://wyliu.com/papers/CoMHE_slides.pdf"
 abstract: "Inspired by the Thomson problem in physics where the distribution of multiple propelling electrons on a unit sphere can be modeled via minimizing some potential energy, hyperspherical energy minimization has demonstrated its potential in regularizing neural networks and improving their generalizatio"
 url: "https://research.nvidia.com/publication/2020-06_regularizing-neural-networks-minimizing-hyperspherical-energy"
-status: new
+status: "new"
 ---
 
 # Regularizing Neural Networks via Minimizing Hyperspherical Energy

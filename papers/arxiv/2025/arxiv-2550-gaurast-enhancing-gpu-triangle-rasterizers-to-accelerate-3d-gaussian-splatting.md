@@ -1,25 +1,24 @@
 ---
-id: arxiv-2550
+id: "arxiv-2550"
 title: "GauRast: Enhancing GPU Triangle Rasterizers to Accelerate 3D Gaussian Splatting"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
+  - name: "Sixu Li"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Ben Keller"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yingyan Celine Lin"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sixu Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Yingyan Celine Lin"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "3D intelligence leverages rich 3D features and stands as a promising frontier in AI, with 3D rendering fundamental to many downstream applications. 3D Gaussian Splatting (3DGS), an emerging high-quality 3D rendering method, requires significant computation, making real-time execution on existing GPU"
 url: "https://research.nvidia.com/publication/2025-06_gaurast-enhancing-gpu-triangle-rasterizers-accelerate-3d-gaussian-splatting"
-status: new
+status: "new"
 ---
 
 # GauRast: Enhancing GPU Triangle Rasterizers to Accelerate 3D Gaussian Splatting

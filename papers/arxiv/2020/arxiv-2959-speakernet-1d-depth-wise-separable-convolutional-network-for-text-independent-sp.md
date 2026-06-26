@@ -1,24 +1,23 @@
 ---
-id: arxiv-2959
+id: "arxiv-2959"
 title: "SpeakerNet: 1D Depth-wise Separable Convolutional Network for Text-Independent Speaker Recognition and Verification"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
   - name: "Nithin Rao Koluguri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jason Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2010.12653"
 abstract: "We propose SpeakerNet - a new neural architecture for speaker recognition and speaker verification tasks. It is composed of residual blocks with 1D depth-wise separable convolutions, batch-normalization, and ReLU layers. This architecture uses x-vector based statistics pooling layer to map variable-"
 url: "https://research.nvidia.com/publication/2020-10_speakernet-1d-depth-wise-separable-convolutional-network-text-independent"
-status: new
+status: "new"
 ---
 
 # SpeakerNet: 1D Depth-wise Separable Convolutional Network for Text-Independent Speaker Recognition and Verification

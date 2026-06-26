@@ -1,28 +1,27 @@
 ---
-id: iros-0004
+id: "iros-0004"
 title: "Proto-CLIP: Vision-Language Prototypical Network for Few-Shot Learning"
-conference: IROS 2024
-date: 2024-10
+conference: "IROS 2024"
+date: "2024-10"
 authors:
+  - name: "Jishnu Jaykumar P"
+    affiliation: "The University of Texas at Dallas"
+    is_industry: false
+  - name: "Kamalesh Palanisamy"
+    affiliation: "The University of Texas at Dallas"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jishnu Jaykumar P"
-    affiliation: ""
-    is_industry: false
-  - name: "Kamalesh Palanisamy"
-    affiliation: ""
-    is_industry: false
   - name: "Xinya Du"
-    affiliation: ""
+    affiliation: "The University of Texas at Dallas"
     is_industry: false
   - name: "Yu Xiang"
-    affiliation: ""
+    affiliation: "The University of Texas at Dallas"
     is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://irvlutd.github.io/Proto-CLIP"
 abstract: "We propose a novel framework for few-shot learning by leveraging large-scale vision-language models such as CLIP. Motivated by unimodal prototypical networks for few-shot learning, we introduce Proto-CLIP which utilizes image prototypes and text prototypes for few-shot learning. Specifically, Proto-"
 url: "https://research.nvidia.com/publication/2024-10_proto-clip-vision-language-prototypical-network-few-shot-learning"
-status: new
+status: "new"
 ---
 
 # Proto-CLIP: Vision-Language Prototypical Network for Few-Shot Learning

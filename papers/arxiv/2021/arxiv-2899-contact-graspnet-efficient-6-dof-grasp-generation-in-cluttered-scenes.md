@@ -1,24 +1,23 @@
 ---
-id: arxiv-2899
+id: "arxiv-2899"
 title: "Contact-GraspNet:  Efficient  6-DoF  Grasp  Generation in  Cluttered  Scenes"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Martin Sundermeyer"
-    affiliation: ""
+    affiliation: "DLR, TUM"
     is_industry: false
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Rudolph Triebel"
-    affiliation: ""
+    affiliation: "DLR, TUM"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=qRLKYSLXElM"
 abstract: "Grasping unseen objects in unconstrained, cluttered environments is an essential skill for autonomous robotic manipulation.Despite recent progress in full 6-DoF grasp learning, existing approaches often consist of complex sequential pipelines that possess several potential failure points and run-tim"
 url: "https://research.nvidia.com/publication/2021-03_contact-graspnet-efficient-6-dof-grasp-generation-cluttered-scenes"
-status: new
+status: "new"
 ---
 
 # Contact-GraspNet:  Efficient  6-DoF  Grasp  Generation in  Cluttered  Scenes

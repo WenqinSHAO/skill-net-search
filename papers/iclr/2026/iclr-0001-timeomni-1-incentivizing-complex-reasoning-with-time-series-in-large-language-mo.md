@@ -1,31 +1,30 @@
 ---
-id: iclr-0001
+id: "iclr-0001"
 title: "TimeOmni-1: Incentivizing Complex Reasoning with Time Series in Large Language Models"
-conference: ICLR 2026
-date: 2026-04
+conference: "ICLR 2026"
+date: "2026-04"
 authors:
+  - name: "Tong Guan"
+    affiliation: "Griffith University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tong Guan"
-    affiliation: ""
-    is_industry: false
   - name: "Sabato Marco Siniscalchi"
-    affiliation: ""
+    affiliation: "University of Palermo"
     is_industry: false
   - name: "Qingsong Wen"
-    affiliation: ""
+    affiliation: "Griffith University"
     is_industry: false
   - name: "Ming Jin"
-    affiliation: ""
+    affiliation: "Griffith University"
     is_industry: false
   - name: "Shirui Pan"
-    affiliation: ""
+    affiliation: "Griffith University"
     is_industry: false
 topics:
   - Applied_perception
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Speech Processing"
 abstract: "Recent advances in multimodal time series learning underscore a paradigm shift from analytics centered on basic patterns toward advanced time series understanding and reasoning. However, existing multimodal time series datasets mostly remain at the level of surface alignment and question answering, "
 url: "https://research.nvidia.com/publication/2026-04%5Ftimeomni-1-incentivizing-complex-reasoning-time-series-large-language-models"
-status: new
+status: "new"
 ---
 
 # TimeOmni-1: Incentivizing Complex Reasoning with Time Series in Large Language Models

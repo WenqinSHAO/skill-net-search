@@ -1,25 +1,24 @@
 ---
-id: siggraph-0048
+id: "siggraph-0048"
 title: "Key-Locked Rank One Editing for Text-to-Image Personalization"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Yoad Tewel"
+    affiliation: "NVIDIA, Tel-Aviv University"
+    is_industry: true
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yoad Tewel"
-    affiliation: ""
-    is_industry: false
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://research.nvidia.com/labs/par/Perfusion/"
 abstract: "Text-to-image models (T2I) offer a new level of flexibility by allowing users to guide the creative process through natural language. However, personalizing these models to align with user-provided visual concepts remains a challenging problem. The task of T2I personalization poses multiple hard cha"
 url: "https://research.nvidia.com/publication/2023-08_key-locked-rank-one-editing-text-image-personalization"
-status: new
+status: "new"
 ---
 
 # Key-Locked Rank One Editing for Text-to-Image Personalization

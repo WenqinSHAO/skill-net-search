@@ -1,8 +1,8 @@
 ---
-id: arxiv-2540
+id: "arxiv-2540"
 title: "Real-time 3D Visualization of Radiance Fields on Light Field Displays"
-conference: arXiv 2025
-date: 2025-08
+conference: "arXiv 2025"
+date: "2025-08"
 authors:
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
@@ -13,29 +13,28 @@ authors:
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Andrew Russell"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jaehyun Jung"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Wil Braithewaite"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Luebke"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Andrew Russell"
-    affiliation: ""
-    is_industry: false
-  - name: "Jaehyun Jung"
-    affiliation: ""
-    is_industry: false
-  - name: "Wil Braithewaite"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2508.18540"
 abstract: "Radiance fields have revolutionized photo-realistic 3D scene visualization by enabling high-fidelity reconstruction of complex environments, making them an ideal match for light field displays. However, integrating these technologies presents significant computational challenges, as light field disp"
 url: "https://research.nvidia.com/publication/2025-08_real-time-3d-visualization-radiance-fields-light-field-displays"
-status: new
+status: "new"
 ---
 
 # Real-time 3D Visualization of Radiance Fields on Light Field Displays

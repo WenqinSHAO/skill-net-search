@@ -1,26 +1,26 @@
 ---
-id: arxiv-2671
+id: "arxiv-2671"
 title: "Subpixel Deblurring of Anti-Aliased Raster Clip Art"
-conference: arXiv 2023
-date: 2023-05
+conference: "arXiv 2023"
+date: "2023-05"
 authors:
+  - name: "Jinfan Yang"
+    affiliation: "UBC"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jinfan Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Shakiba Kheradmand"
-    affiliation: ""
+    affiliation: "UBC"
     is_industry: false
   - name: "Nathan Carr"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Adobe"
+    is_industry: true
   - name: "Leonid Sigal"
-    affiliation: ""
+    affiliation: "UBC"
     is_industry: false
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "UBC"
     is_industry: false
 topics:
   - AI & Machine Learning
@@ -28,7 +28,6 @@ topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://diglib.eg.org/handle/10.1111/cgf14744"
 abstract: "Artist generated clip-art images typically consist of a small number of distinct, uniformly colored regions with clear boundaries. Legacy artist created images are often stored in low-resolution (100x100px or less) anti-aliased raster form. Compared to anti-aliasing free rasterization, anti-aliasing"
 url: "https://research.nvidia.com/publication/2023-05_subpixel-deblurring-anti-aliased-raster-clip-art"
-status: new
+status: "new"
 ---
 
 # Subpixel Deblurring of Anti-Aliased Raster Clip Art

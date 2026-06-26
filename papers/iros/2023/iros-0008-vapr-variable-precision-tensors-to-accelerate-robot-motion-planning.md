@@ -1,37 +1,36 @@
 ---
-id: iros-0008
+id: "iros-0008"
 title: "VaPr: Variable-Precision Tensors to Accelerate Robot Motion Planning"
-conference: IROS 2023
-date: 2023-10
+conference: "IROS 2023"
+date: "2023-10"
 authors:
+  - name: "Yu-Shun Hsiao"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jason Yik"
+    affiliation: "Harvard University"
+    is_industry: false
+  - name: "Thierry Tambe"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Charbel Sakr"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yu-Shun Hsiao"
-    affiliation: ""
-    is_industry: false
-  - name: "Jason Yik"
-    affiliation: ""
-    is_industry: false
-  - name: "Thierry Tambe"
-    affiliation: ""
-    is_industry: false
   - name: "Vijay Janapa Reddi"
-    affiliation: ""
+    affiliation: "Harvard University"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "Robotics"
 abstract: "High-dimensional motion generation requires numerical precision for smooth, collision-free solutions. Typically, double-precision or single-precision floating-point (FP) formats are used for accurate results. Using these for big tensors imposes a strain on the memory bandwidth provided by the device"
 url: "https://research.nvidia.com/publication/2023-10_vapr-variable-precision-tensors-accelerate-robot-motion-planning"
-status: new
+status: "new"
 ---
 
 # VaPr: Variable-Precision Tensors to Accelerate Robot Motion Planning

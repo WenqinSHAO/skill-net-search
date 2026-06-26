@@ -1,9 +1,12 @@
 ---
-id: arxiv-2699
+id: "arxiv-2699"
 title: "LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Jiawei Zhao"
+    affiliation: "Caltech"
+    is_industry: false
   - name: "Steve Dai"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,6 +16,9 @@ authors:
   - name: "Brian Zimmer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Mustafa Ali"
+    affiliation: "Purdue University"
+    is_industry: false
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,19 +28,12 @@ authors:
   - name: "William Dally"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiawei Zhao"
-    affiliation: ""
-    is_industry: false
-  - name: "Mustafa Ali"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9900267"
 abstract: "Representing deep neural networks (DNNs) in low-precision is a promising approach to enable efficient acceleration and memory reduction. Previous methods that train DNNs in low-precision typically keep a copy of weights in high-precision during the weight updates. Directly training with low-precisio"
 url: "https://research.nvidia.com/publication/2022-12_lns-madam-low-precision-training-logarithmic-number-system-using-multiplicative"
-status: new
+status: "new"
 ---
 
 # LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update

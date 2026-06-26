@@ -1,8 +1,8 @@
 ---
-id: arxiv-2654
+id: "arxiv-2654"
 title: "Mouse Sensitivity in First-person Targeting Tasks"
-conference: arXiv 2023
-date: 2023-07
+conference: "arXiv 2023"
+date: "2023-07"
 authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
@@ -15,7 +15,6 @@ authors:
     is_industry: true
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ research_areas:
   - "Human Computer Interaction"
 abstract: "Mouse sensitivity in first-person targeting tasks is a highly debated issue. Recommendations within a single game can vary by a factor of 10x or more and are an active topic of experimentation in both competitive and recreational esports communities. Inspired by work in pointer-based gain optimizati"
 url: "https://research.nvidia.com/publication/2023-07_mouse-sensitivity-first-person-targeting-tasks"
-status: new
+status: "new"
 ---
 
 # Mouse Sensitivity in First-person Targeting Tasks

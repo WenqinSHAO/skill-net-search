@@ -1,35 +1,34 @@
 ---
-id: cvpr-0049
+id: "cvpr-0049"
 title: "BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations"
-conference: CVPR 2022
-date: 2022-06
+conference: "CVPR 2022"
+date: "2022-06"
 authors:
+  - name: "Daiqing Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
   - name: "Adela Barriuso"
     affiliation: ""
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/big-datasetgan/"
 abstract: "Annotating images with pixel-wise labels is a time-consuming and costly process. Recently, DatasetGAN showcased a promising alternative - to synthesize a large labeled dataset via a generative adversarial network (GAN) by exploiting a small set of manually labeled, GAN-generated images. Here, we sca"
 url: "https://research.nvidia.com/publication/2022-06_bigdatasetgan-synthesizing-imagenet-pixel-wise-annotations"
-status: new
+status: "new"
 ---
 
 # BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations

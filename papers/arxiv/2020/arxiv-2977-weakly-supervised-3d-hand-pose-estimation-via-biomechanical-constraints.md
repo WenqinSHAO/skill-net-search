@@ -1,31 +1,30 @@
 ---
-id: arxiv-2977
+id: "arxiv-2977"
 title: "Weakly-Supervised 3D Hand Pose Estimation via Biomechanical Constraints"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Adrian Spurr"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Otmar Hilliges"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Adrian Spurr"
-    affiliation: ""
-    is_industry: false
-  - name: "Otmar Hilliges"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://arxiv.org/pdf/2003.09282.pdf"
 abstract: "Estimating 3D hand pose from 2D images is a difficult, inverse problem due to the inherent scale and depth ambiguities. Current stateof-the-art methods train fully supervised deep neural networks with 3D ground-truth data. However, acquiring 3D annotations is expensive, typically requiring calibrate"
 url: "https://research.nvidia.com/publication/2020-08_weakly-supervised-3d-hand-pose-estimation-biomechanical-constraints"
-status: new
+status: "new"
 ---
 
 # Weakly-Supervised 3D Hand Pose Estimation via Biomechanical Constraints

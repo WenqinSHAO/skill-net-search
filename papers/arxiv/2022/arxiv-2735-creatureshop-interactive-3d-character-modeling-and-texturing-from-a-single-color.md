@@ -1,36 +1,35 @@
 ---
-id: arxiv-2735
+id: "arxiv-2735"
 title: "CreatureShop: Interactive 3D Character Modeling and Texturing from a Single Color Drawing"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Congyi Zhang"
+    affiliation: "University of Hong Kong"
+    is_industry: false
+  - name: "Lei Yang"
+    affiliation: "University of Hong Kong"
+    is_industry: false
+  - name: "Nenglun Chen"
+    affiliation: "University of Hong Kong"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Congyi Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Lei Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Nenglun Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
   - name: "Francis C. M. Lau"
-    affiliation: ""
+    affiliation: "University of Hong Kong"
     is_industry: false
   - name: "Guoping Wang"
-    affiliation: ""
+    affiliation: "Peking University"
     is_industry: false
   - name: "Wenping Wang"
-    affiliation: ""
+    affiliation: "Texas A&M University"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://cong-yi.github.io/projects/creatureshop/"
 abstract: "Creating 3D shapes from 2D drawings is an important problem with applications in content creation for computer animation and virtual reality. We introduce a new sketch-based system, CreatureShop, that enables amateurs to create high-quality textured 3D character models from 2D drawings with ease and"
 url: "https://research.nvidia.com/publication/2022-08_creatureshop-interactive-3d-character-modeling-and-texturing-single-color"
-status: new
+status: "new"
 ---
 
 # CreatureShop: Interactive 3D Character Modeling and Texturing from a Single Color Drawing

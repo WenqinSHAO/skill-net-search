@@ -1,11 +1,17 @@
 ---
-id: arxiv-2873
+id: "arxiv-2873"
 title: "NViSII: A Scriptable Tool for Photorealistic Image Generation"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
+  - name: "Nathan Morrical"
+    affiliation: "NVIDIA, University of Utah"
+    is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yunzhi Lin"
+    affiliation: "NVIDIA, Georgia Institute of Technology"
     is_industry: true
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
@@ -13,23 +19,16 @@ authors:
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nathan Morrical"
-    affiliation: ""
-    is_industry: false
-  - name: "Yunzhi Lin"
-    affiliation: ""
-    is_industry: false
   - name: "Valerio Pascucci"
-    affiliation: ""
+    affiliation: "University of Utah"
     is_industry: false
   - name: "Ingo Wald"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://github.com/owl-project/NVISII"
 abstract: "We present a Python-based renderer built on NVIDIA&#039;s OptiX ray tracing engine and the OptiX AI denoiser, designed to generate high-quality synthetic images for research in computer vision and deep learning. Our tool enables the description and manipulation of complex dynamic 3D scenes containin"
 url: "https://research.nvidia.com/publication/2021-05_nvisii-scriptable-tool-photorealistic-image-generation"
-status: new
+status: "new"
 ---
 
 # NViSII: A Scriptable Tool for Photorealistic Image Generation

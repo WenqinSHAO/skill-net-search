@@ -1,38 +1,37 @@
 ---
-id: cvpr-0038
+id: "cvpr-0038"
 title: "GazeNeRF: 3D-Aware Gaze Redirection with Neural Radiance Fields"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Alessandro Ruzzi"
+    affiliation: "ETH Zürich"
+    is_industry: false
+  - name: "Xiangwei Shi"
+    affiliation: "Delft University of Technology"
+    is_industry: false
+  - name: "Xi Wang"
+    affiliation: "ETH Zürich"
+    is_industry: false
+  - name: "Gengyan Li"
+    affiliation: "ETH Zürich"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alessandro Ruzzi"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiangwei Shi"
-    affiliation: ""
-    is_industry: false
-  - name: "Xi Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Gengyan Li"
-    affiliation: ""
-    is_industry: false
   - name: "Hyung Jin Chang"
-    affiliation: ""
+    affiliation: "University of Birmingham"
     is_industry: false
   - name: "Xucong Zhang"
-    affiliation: ""
+    affiliation: "Delft University of Technology"
     is_industry: false
   - name: "Otmar Hilliges"
-    affiliation: ""
+    affiliation: "ETH Zürich"
     is_industry: false
 topics:
   - Applied_perception
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=JwqKbmUR3DE"
 abstract: "We propose GazeNeRF, a 3D-aware method for the task of gaze redirection. Existing gaze redirection methods operate on 2D images and struggle to generate 3D consistent results. Instead, we build on the intuition that the face region and eye balls are separate 3D structures that move in a coordinated "
 url: "https://research.nvidia.com/publication/2023-06_gazenerf-3d-aware-gaze-redirection-neural-radiance-fields"
-status: new
+status: "new"
 ---
 
 # GazeNeRF: 3D-Aware Gaze Redirection with Neural Radiance Fields

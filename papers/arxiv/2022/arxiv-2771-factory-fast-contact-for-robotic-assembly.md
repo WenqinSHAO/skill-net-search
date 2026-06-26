@@ -1,50 +1,49 @@
 ---
-id: arxiv-2771
+id: "arxiv-2771"
 title: "Factory: Fast Contact for Robotic Assembly"
-conference: arXiv 2022
-date: 2022-05
+conference: "arXiv 2022"
+date: "2022-05"
 authors:
   - name: "Yashraj Narang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kier Storey"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kier Storey"
-    affiliation: ""
-    is_industry: false
   - name: "Miles Macklin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Philipp Reist"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Lukasz Wawrzyniak"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yunrong Guo"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Adam Moravanszky"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gavriel State"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michelle Lu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ research_areas:
   - "Robotics"
 abstract: "Robotic assembly is one of the oldest and most challenging applications of robotics. In other areas of robotics, such as perception and grasping, simulation has rapidly accelerated research progress, particularly when combined with modern deep learning. However, accurately, efficiently, and robustly"
 url: "https://research.nvidia.com/publication/2022-05_factory-fast-contact-robotic-assembly"
-status: new
+status: "new"
 ---
 
 # Factory: Fast Contact for Robotic Assembly

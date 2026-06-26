@@ -1,18 +1,17 @@
 ---
-id: arxiv-2629
+id: "arxiv-2629"
 title: "Fast Entropy-Based Methods of Word-Level Confidence Estimation for End-to-End Automatic Speech Recognition"
-conference: arXiv 2024
-date: 2024-01
+conference: "arXiv 2024"
+date: "2024-01"
 authors:
   - name: "Aleksandr Laptev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, ITMO University"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ external_links:
     url: "https://arxiv.org/abs/2212.08703"
 abstract: "This paper presents a class of new fast non-trainable entropy-based confidence estimation methods for automatic speech recognition. We show how per-frame entropy values can be normalized and aggregated to obtain a confidence measure per unit and per word for Connectionist Temporal Classification (CT"
 url: "https://research.nvidia.com/publication/2024-01_fast-entropy-based-methods-word-level-confidence-estimation-end-end-automatic"
-status: new
+status: "new"
 ---
 
 # Fast Entropy-Based Methods of Word-Level Confidence Estimation for End-to-End Automatic Speech Recognition

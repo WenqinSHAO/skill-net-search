@@ -1,9 +1,12 @@
 ---
-id: arxiv-2860
+id: "arxiv-2860"
 title: "Learning to Track Instances without Video Annotations"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Yang Fu"
+    affiliation: "University of Illinois Urbana-Champaign"
+    is_industry: false
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,19 +16,15 @@ authors:
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Humphrey Shi"
+    affiliation: "University of Oregon, University of Illinois Urbana-Champaign"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yang Fu"
-    affiliation: ""
-    is_industry: false
-  - name: "Humphrey Shi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.00287"
 abstract: "Tracking segmentation masks of multiple instances has been intensively studied, but still faces two fundamental challenges: 1) the requirement of large-scale, frame-wise annotation, and 2) the complexity of two-stage approaches. To resolve these challenges, we introduce a novel semi-supervised frame"
 url: "https://research.nvidia.com/publication/2021-06_learning-track-instances-without-video-annotations"
-status: new
+status: "new"
 ---
 
 # Learning to Track Instances without Video Annotations

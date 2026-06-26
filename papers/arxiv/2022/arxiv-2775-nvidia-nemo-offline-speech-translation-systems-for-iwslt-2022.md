@@ -1,33 +1,32 @@
 ---
-id: arxiv-2775
+id: "arxiv-2775"
 title: "NVIDIA NeMo Offline Speech Translation Systems for IWSLT 2022"
-conference: arXiv 2022
-date: 2022-05
+conference: "arXiv 2022"
+date: "2022-05"
 authors:
   - name: "Oleksii Hrinchuk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Abhinav Khattar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anton Peganov"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sandeep Subramanian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://aclanthology.org/2022.iwslt-1.18.pdf"
 abstract: "This paper provides an overview of NVIDIA NeMo’s speech translation systems for the IWSLT 2022 Offline Speech Translation Task. Our cascade system consists of 1) Conformer RNN-T automatic speech recognition model, 2) punctuation-capitalization model based on pre-trained T5 encoder, 3) ensemble of Tr"
 url: "https://research.nvidia.com/publication/2022-05_nvidia-nemo-offline-speech-translation-systems-iwslt-2022"
-status: new
+status: "new"
 ---
 
 # NVIDIA NeMo Offline Speech Translation Systems for IWSLT 2022

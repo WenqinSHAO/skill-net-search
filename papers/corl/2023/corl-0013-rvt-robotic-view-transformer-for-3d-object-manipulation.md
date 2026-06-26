@@ -1,8 +1,8 @@
 ---
-id: corl-0013
+id: "corl-0013"
 title: "RVT: Robotic View Transformer for 3D Object Manipulation"
-conference: CoRL 2023
-date: 2023-11
+conference: "CoRL 2023"
+date: "2023-11"
 authors:
   - name: "Ankit Goyal"
     affiliation: "NVIDIA"
@@ -20,11 +20,10 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://robotic-view-transformer.github.io/"
 abstract: "For 3D object manipulation, methods that build an explicit 3D representation perform better than those relying only on camera images. But using explicit 3D representations like voxels comes at a large computing cost, adversely affecting scalability. In this work, we propose RVT, a multi-view transfo"
 url: "https://research.nvidia.com/publication/2023-11_rvt-robotic-view-transformer-3d-object-manipulation"
-status: new
+status: "new"
 ---
 
 # RVT: Robotic View Transformer for 3D Object Manipulation

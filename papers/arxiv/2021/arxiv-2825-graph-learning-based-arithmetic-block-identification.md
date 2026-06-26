@@ -1,29 +1,28 @@
 ---
-id: arxiv-2825
+id: "arxiv-2825"
 title: "Graph Learning-Based Arithmetic Block Identification"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
+  - name: "Zhuolun He"
+    affiliation: "CUHK"
+    is_industry: false
+  - name: "Ziyi Wang"
+    affiliation: "CUHK"
+    is_industry: false
+  - name: "Chen Bai"
+    affiliation: "CUHK"
+    is_industry: false
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhuolun He"
-    affiliation: ""
-    is_industry: false
-  - name: "Ziyi Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Bai"
-    affiliation: ""
-    is_industry: false
   - name: "Bei Yu"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9643581"
 abstract: "Arithmetic block identification in gate-level netlist is an essential procedure for malicious logic detection, functional verification, or macro-block optimization. We argue that existing methods suffer either scalability or performance issues. To address the problem, we propose a graph learning-bas"
 url: "https://research.nvidia.com/publication/2021-11_graph-learning-based-arithmetic-block-identification"
-status: new
+status: "new"
 ---
 
 # Graph Learning-Based Arithmetic Block Identification

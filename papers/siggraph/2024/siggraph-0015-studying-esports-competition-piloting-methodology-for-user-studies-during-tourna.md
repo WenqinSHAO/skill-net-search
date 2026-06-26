@@ -1,9 +1,12 @@
 ---
-id: siggraph-0015
+id: "siggraph-0015"
 title: "Studying Esports Competition: Piloting Methodology for User Studies During Tournaments"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
+  - name: "Arjun Madhusudan"
+    affiliation: "NC State University and NVIDIA"
+    is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,15 +16,11 @@ authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arjun Madhusudan"
-    affiliation: ""
-    is_industry: false
   - name: "Benjamin Watson"
-    affiliation: ""
+    affiliation: "NC State University"
     is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://dl.acm.org/doi/fullHtml/10.1145/3641233.3664349"
 abstract: "Designing experiments is a well-studied, complex task with many conflicting constraints. In experimental user studies, the overarching goal is to gain understanding of how a system affects users by manipulating independent variables (eg, an interface's configuration) while measuring dependent variab"
 url: "https://research.nvidia.com/publication/2024-07_studying-esports-competition-piloting-methodology-user-studies-during"
-status: new
+status: "new"
 ---
 
 # Studying Esports Competition: Piloting Methodology for User Studies During Tournaments

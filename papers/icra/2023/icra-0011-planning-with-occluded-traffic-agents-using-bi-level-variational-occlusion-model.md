@@ -1,28 +1,27 @@
 ---
-id: icra-0011
+id: "icra-0011"
 title: "Planning with Occluded Traffic Agents using Bi-Level Variational Occlusion Models"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Filippos Christianos"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Peter Karkus"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Stefano V. Albrecht"
+    affiliation: "University of Edinburgh"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Filippos Christianos"
-    affiliation: ""
-    is_industry: false
-  - name: "Stefano V. Albrecht"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.14584"
 abstract: "Reasoning with occluded traffic agents is a significant open challenge for planning for autonomous vehicles. Recent deep learning models have shown impressive results for predicting occluded agents based on the behaviour of nearby visible agents; however, as we show in experiments, these models are "
 url: "https://research.nvidia.com/publication/2023-05_planning-occluded-traffic-agents-using-bi-level-variational-occlusion-models"
-status: new
+status: "new"
 ---
 
 # Planning with Occluded Traffic Agents using Bi-Level Variational Occlusion Models

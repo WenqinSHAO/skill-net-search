@@ -1,25 +1,24 @@
 ---
-id: arxiv-3034
+id: "arxiv-3034"
 title: "Genome Variant Calling with a Deep Averaging Network"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
   - name: "Nikolai Yakovenko"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Avantika Lal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Johnny Israeli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Medical"
 abstract: "Variant calling, the problem of estimating whether a position in a DNA sequence differs from a reference sequence, given noisy, redundant, overlapping short sequences that cover that position, is fundamental to genomics. We propose a deep averaging network designed specifically for variant calling. "
 url: "https://research.nvidia.com/publication/2020-03_genome-variant-calling-deep-averaging-network"
-status: new
+status: "new"
 ---
 
 # Genome Variant Calling with a Deep Averaging Network

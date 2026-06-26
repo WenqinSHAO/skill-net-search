@@ -1,61 +1,60 @@
 ---
-id: arxiv-2614
+id: "arxiv-2614"
 title: "An Empirical Study of Mamba-based Language Models"
-conference: arXiv 2024
-date: 2024-06
+conference: "arXiv 2024"
+date: "2024-06"
 authors:
+  - name: "Roger Waleffe"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Duncan Riach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Brandon Norick"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Vijay Korthikanti"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Tri Dao"
+    affiliation: "Princeton University"
+    is_industry: false
+  - name: "Albert Gu"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sudhakar Singh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Deepak Narayanan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Garvit Kulshreshtha"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Vartika Singh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jared Casper"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Roger Waleffe"
-    affiliation: ""
-    is_industry: false
-  - name: "Duncan Riach"
-    affiliation: ""
-    is_industry: false
-  - name: "Brandon Norick"
-    affiliation: ""
-    is_industry: false
-  - name: "Vijay Korthikanti"
-    affiliation: ""
-    is_industry: false
-  - name: "Tri Dao"
-    affiliation: ""
-    is_industry: false
-  - name: "Albert Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Sudhakar Singh"
-    affiliation: ""
-    is_industry: false
-  - name: "Deepak Narayanan"
-    affiliation: ""
-    is_industry: false
-  - name: "Garvit Kulshreshtha"
-    affiliation: ""
-    is_industry: false
-  - name: "Vartika Singh"
-    affiliation: ""
-    is_industry: false
-  - name: "Jared Casper"
-    affiliation: ""
-    is_industry: false
   - name: "Mohammad Shoeybi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -65,7 +64,7 @@ research_areas:
   - "Natural Language Processing"
 abstract: "Selective state-space models (SSMs) like Mamba overcome some of the shortcomings of Transformers, such as quadratic computational complexity with sequence length and large inference-time memory requirements from the key-value cache. Moreover, recent studies have shown that SSMs can match or exceed t"
 url: "https://research.nvidia.com/publication/2024-06_empirical-study-mamba-based-language-models"
-status: new
+status: "new"
 ---
 
 # An Empirical Study of Mamba-based Language Models

@@ -1,34 +1,33 @@
 ---
-id: arxiv-2621
+id: "arxiv-2621"
 title: "Is Less More? Rendering for Esports"
-conference: arXiv 2024
-date: 2024-03
+conference: "arXiv 2024"
+date: "2024-03"
 authors:
+  - name: "Benjamin Watson"
+    affiliation: "North Carolina State University"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Benjamin Watson"
-    affiliation: ""
-    is_industry: false
   - name: "Byungjoo Lee"
-    affiliation: ""
+    affiliation: "Yonsei University"
     is_industry: false
   - name: "Mijin Yoo"
-    affiliation: ""
+    affiliation: "Yonsei University"
     is_industry: false
   - name: "Peter Shirley"
-    affiliation: ""
+    affiliation: "Activision"
     is_industry: false
   - name: "Rulon Raymond"
-    affiliation: ""
+    affiliation: "Infinity Ward"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/10478358"
 abstract: "Computer graphics research has long prioritized image quality over frame rate. Yet demand for an alternative is growing, with many esports players turning off visual effects to improve frame rates. Is it time for graphics researchers to reconsider their goals? A workshop at the 2023 SIGGRAPH Confere"
 url: "https://research.nvidia.com/publication/2024-03_less-more-rendering-esports"
-status: new
+status: "new"
 ---
 
 # Is Less More? Rendering for Esports

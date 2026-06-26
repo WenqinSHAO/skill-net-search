@@ -1,27 +1,26 @@
 ---
-id: arxiv-2638
+id: "arxiv-2638"
 title: "Unity ECC: Unified Memory Protection Against Bit and Chip Errors"
-conference: arXiv 2023
-date: 2023-11
+conference: "arXiv 2023"
+date: "2023-11"
 authors:
+  - name: "Dongwhee Kim"
+    affiliation: "Sungkyunkwan University"
+    is_industry: false
+  - name: "Jaeyoon Lee"
+    affiliation: "Sungkyunkwan University"
+    is_industry: false
+  - name: "Wonyeong Jung"
+    affiliation: "Sungkyunkwan University"
+    is_industry: false
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dongwhee Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Jaeyoon Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Wonyeong Jung"
-    affiliation: ""
-    is_industry: false
   - name: "Jungrae Kim"
-    affiliation: ""
+    affiliation: "Sungkyunkwan University"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3581784.3607081"
 abstract: "DRAM vendors utilize On-Die Error Correction Codes (OD-ECC) to correct random bit errors internally. Meanwhile, system companies utilize Rank-Level ECC (RL-ECC) to protect data against chip errors. Separate protection increases the redundancy ratio to 32.8% in DDR5 and incurs significant performance"
 url: "https://research.nvidia.com/publication/2023-11_unity-ecc-unified-memory-protection-against-bit-and-chip-errors"
-status: new
+status: "new"
 ---
 
 # Unity ECC: Unified Memory Protection Against Bit and Chip Errors

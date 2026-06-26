@@ -1,31 +1,30 @@
 ---
-id: arxiv-2713
+id: "arxiv-2713"
 title: "TransSizer: A Novel Transformer-Based Fast Gate Sizer"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Siddhartha Nath"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Geraldo Pradipta"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Corey Hu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Tian Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Siddhartha Nath"
-    affiliation: ""
-    is_industry: false
-  - name: "Geraldo Pradipta"
-    affiliation: ""
-    is_industry: false
-  - name: "Corey Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Tian Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3508352.3549442"
 abstract: "Gate sizing is a fundamental netlist optimization move and researchers have used supervised learning-based models in gate sizers. Recently, Reinforcement Learning (RL) has been tried for sizing gates (and other EDA optimization problems) but are very runtime-intensive. In this work, we explore a nov"
 url: "https://research.nvidia.com/publication/2022-10_transsizer-novel-transformer-based-fast-gate-sizer"
-status: new
+status: "new"
 ---
 
 # TransSizer: A Novel Transformer-Based Fast Gate Sizer

@@ -1,21 +1,20 @@
 ---
-id: arxiv-2527
+id: "arxiv-2527"
 title: "Alpamayo 1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail"
-conference: arXiv 2025
-date: 2025-10
+conference: "arXiv 2025"
+date: "2025-10"
 authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Many other contributors found on Page 33"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
   - name: "Model Weights"
     url: "https://huggingface.co/nvidia/Alpamayo-R1-10B"
 url: "https://research.nvidia.com/publication/2025-10_alpamayo-r1"
-status: new
+status: "new"
 ---
 
 # Alpamayo 1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail

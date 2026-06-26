@@ -1,41 +1,40 @@
 ---
-id: arxiv-2791
+id: "arxiv-2791"
 title: "Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Haoyu Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zongyi Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kumara Sastry"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saumyadip Mukhopadhyay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mark Kilgard"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Anima Anandkumar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zongyi Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Kumara Sastry"
-    affiliation: ""
-    is_industry: false
-  - name: "Saumyadip Mukhopadhyay"
-    affiliation: ""
-    is_industry: false
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
   - name: "Vivek Singh"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://arxiv.org/abs/2203.08616"
 abstract: "Lithography simulation is a critical step in VLSI design and optimization for manufacturability. Existing solutions for highly accurate lithography simulation with rigorous models are computationally expensive and slow, even when equipped with various approximation techniques. Recently, machine lear"
 url: "https://research.nvidia.com/publication/2022-03_generic-lithography-modeling-dual-band-optics-inspired-neural-networks"
-status: new
+status: "new"
 ---
 
 # Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks

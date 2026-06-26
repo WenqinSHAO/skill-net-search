@@ -1,36 +1,35 @@
 ---
-id: arxiv-2963
+id: "arxiv-2963"
 title: "AV-FUZZER: Finding Safety Violations in Autonomous Driving Systems"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Guangpeng Li"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Yiran Li"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Saurabh Jha"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Guangpeng Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Yiran Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Saurabh Jha"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
   - name: "Zbigniew Kalbarczyk"
-    affiliation: ""
+    affiliation: "UIUC"
     is_industry: false
   - name: "Ravishankar Iyer"
-    affiliation: ""
+    affiliation: "UIUC"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9251068"
 abstract: "This paper proposes AV-FUZZER, a testing framework, to find the safety violations of an autonomous vehicle (AV) in the presence of an evolving traffic environment. We perturb the driving maneuvers of traffic participants to create situations in which an AV can run into safety violations. To optimall"
 url: "https://research.nvidia.com/publication/2020-10_av-fuzzer-finding-safety-violations-autonomous-driving-systems"
-status: new
+status: "new"
 ---
 
 # AV-FUZZER: Finding Safety Violations in Autonomous Driving Systems

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2755
+id: "arxiv-2755"
 title: "ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
@@ -17,7 +17,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://github.com/NVlabs/ScePT"
 abstract: "Trajectory prediction is a critical functionality of autonomous systems that share environments with uncontrolled agents, one prominent example being self-driving vehicles. Currently, most prediction methods do not enforce scene consistency, i.e., there are a substantial amount of self-collisions be"
 url: "https://research.nvidia.com/publication/2022-06_scept-scene-consistent-policy-based-trajectory-predictions-planning"
-status: new
+status: "new"
 ---
 
 # ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning

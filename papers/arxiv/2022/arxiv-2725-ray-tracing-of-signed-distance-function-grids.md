@@ -1,21 +1,20 @@
 ---
-id: arxiv-2725
+id: "arxiv-2725"
 title: "Ray Tracing of Signed Distance Function Grids"
-conference: arXiv 2022
-date: 2022-09
+conference: "arXiv 2022"
+date: "2022-09"
 authors:
+  - name: "Herman Hansson-Söderlund"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alex Evans"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomas Akenine-Möller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Herman Hansson-Söderlund"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We evaluate the performance of a wide set of combinations of traversal and voxel intersection testing of signed distance function grids in a path tracing setting. In addition, we present an optimized way to compute the intersection between a ray and the surface defined by trilinear interpolation of "
 url: "https://research.nvidia.com/publication/2022-09_ray-tracing-signed-distance-function-grids"
-status: new
+status: "new"
 ---
 
 # Ray Tracing of Signed Distance Function Grids

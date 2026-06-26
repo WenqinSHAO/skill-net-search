@@ -1,9 +1,12 @@
 ---
-id: cvpr-0008
+id: "cvpr-0008"
 title: "BLADE: Single-view Body Mesh Estimation through Accurate Depth Estimation"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Shengze Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jiefeng Li"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,6 +16,9 @@ authors:
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Henry Fuchs"
+    affiliation: "UNC Chapel Hill"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,18 +28,11 @@ authors:
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shengze Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Henry Fuchs"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -52,7 +51,7 @@ external_links:
     url: "https://arxiv.org/abs/2412.08640"
 abstract: "Single-image human mesh recovery is a challenging task due to the ill-posed nature of simultaneous body shape, pose, and camera estimation. Existing estimators work well on images taken from afar, but they break down as the person moves close to the camera. Moreover, current methods fail to achieve "
 url: "https://research.nvidia.com/publication/2025-06_blade-single-view-body-mesh-estimation-through-accurate-depth-estimation"
-status: new
+status: "new"
 ---
 
 # BLADE: Single-view Body Mesh Estimation through Accurate Depth Estimation

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2817
+id: "arxiv-2817"
 title: "Extracting Triangular 3D Models, Materials, and Lighting From Images"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
@@ -10,29 +10,28 @@ authors:
   - name: "Jon Hasselgren"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Tianchang Shen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jun Gao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Wenzheng Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alex Evans"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tianchang Shen"
-    affiliation: ""
-    is_industry: false
-  - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
-  - name: "Wenzheng Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Evans"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
     url: "https://nvlabs.github.io/nvdiffrec/assets/video.mp4"
 abstract: "Abstract"
 url: "https://research.nvidia.com/publication/2021-11_extracting-triangular-3d-models-materials-and-lighting-images"
-status: new
+status: "new"
 ---
 
 # Extracting Triangular 3D Models, Materials, and Lighting From Images

@@ -1,13 +1,22 @@
 ---
-id: arxiv-3016
+id: "arxiv-3016"
 title: "Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Esha Chouske"
+    affiliation: "Microsoft"
+    is_industry: true
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mike O&#039;Connor"
+  - name: "Mike O'Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mattan Erez"
+    affiliation: "University of Texas - Austin"
+    is_industry: false
+  - name: "Jeff Pool"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Nellans"
@@ -16,20 +25,13 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Esha Chouske"
-    affiliation: ""
-    is_industry: false
-  - name: "Mattan Erez"
-    affiliation: ""
-    is_industry: false
-  - name: "Jeff Pool"
-    affiliation: ""
-    is_industry: false
+  - name: "Mike O&#039;Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +44,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9138915"
 abstract: "GPUs accelerate high-throughput applications, which require orders-of-magnitude higher memory bandwidth than traditional CPU-only systems. However, the capacity of such high-bandwidth memory tends to be relatively small. Buddy Compression is an architecture that makes novel use of compression to uti"
 url: "https://research.nvidia.com/publication/2020-06_buddy-compression-enabling-larger-memory-deep-learning-and-hpc-workloads-gpus"
-status: new
+status: "new"
 ---
 
 # Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs

@@ -1,31 +1,30 @@
 ---
-id: arxiv-2917
+id: "arxiv-2917"
 title: "Parasitic-Aware Analog Circuit Sizing with Graph Neural Networks and Bayesian Optimization"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Mingjie Liu"
+    affiliation: "University of Texas (Austin)"
+    is_industry: false
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "George Kokai"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "David Z. Pan"
+    affiliation: "University of Texas (Austin)"
+    is_industry: false
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mingjie Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "George Kokai"
-    affiliation: ""
-    is_industry: false
-  - name: "David Z. Pan"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9474253"
 abstract: "Layout parasitics significantly impact the performance of analog integrated circuits, leading to discrepancies between schematic and post-layout performance and requiring several iterations to achieve design convergence. Prior work has accounted for parasitic effects during the initial design phase "
 url: "https://research.nvidia.com/publication/2021-02_parasitic-aware-analog-circuit-sizing-graph-neural-networks-and-bayesian"
-status: new
+status: "new"
 ---
 
 # Parasitic-Aware Analog Circuit Sizing with Graph Neural Networks and Bayesian Optimization

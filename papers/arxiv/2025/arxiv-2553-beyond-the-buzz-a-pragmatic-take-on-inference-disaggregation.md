@@ -1,8 +1,8 @@
 ---
-id: arxiv-2553
+id: "arxiv-2553"
 title: "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
   - name: "Tiyasa Mitra"
     affiliation: ""
@@ -47,7 +47,6 @@ topics:
   - AI & Machine Learning
   - Foundation_models
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -57,7 +56,7 @@ research_areas:
   - "High Performance Computing"
 abstract: "As inference scales to multi-node deployments, disaggregation—splitting inference into distinct phases—offers a promising path to improving the throughput-interactivity Pareto frontier. Despite growing enthusiasm and a surge of open-source efforts, practical deployment of disaggregated serving remai"
 url: "https://research.nvidia.com/publication/2025-06_beyond-buzz-pragmatic-take-inference-disaggregation"
-status: new
+status: "new"
 ---
 
 # Beyond the Buzz: A Pragmatic Take on Inference Disaggregation

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2734
+id: "arxiv-2734"
 title: "Mouse Sensitivity in First-person Targeting Tasks"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
@@ -15,7 +15,6 @@ authors:
     is_industry: true
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ research_areas:
   - "Human Computer Interaction"
 abstract: "Despite billions of hours of play and copious discussion online, mouse sensitivity recommendations for first-person targeting tasks vary by a factor of 10x or more and remain an active topic of debate in both competitive and recreational gaming communities.Inspired by previous academic literature in"
 url: "https://research.nvidia.com/publication/2022-08_mouse-sensitivity-first-person-targeting-tasks"
-status: new
+status: "new"
 ---
 
 # Mouse Sensitivity in First-person Targeting Tasks

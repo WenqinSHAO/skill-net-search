@@ -1,21 +1,20 @@
 ---
-id: arxiv-2864
+id: "arxiv-2864"
 title: "SpZip: Architectural Support for Effective Data Compression in Irregular Applications"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Yifan Yang"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yifan Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Sanchez"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
   - name: "IEEE Digital Library"
     url: "https://ieeexplore.ieee.org/document/9499902"
 url: "https://research.nvidia.com/publication/2021-06_spzip-architectural-support-effective-data-compression-irregular-applications"
-status: new
+status: "new"
 ---
 
 # SpZip: Architectural Support for Effective Data Compression in Irregular Applications

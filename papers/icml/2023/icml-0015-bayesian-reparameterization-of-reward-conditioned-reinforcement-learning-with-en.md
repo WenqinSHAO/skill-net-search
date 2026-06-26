@@ -1,24 +1,23 @@
 ---
-id: icml-0015
+id: "icml-0015"
 title: "Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models"
-conference: ICML 2023
-date: 2023-05
+conference: "ICML 2023"
+date: "2023-05"
 authors:
+  - name: "Wenhao Ding"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Tong Che"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ding Zhao"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Wenhao Ding"
-    affiliation: ""
-    is_industry: false
-  - name: "Tong Che"
-    affiliation: ""
-    is_industry: false
-  - name: "Ding Zhao"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Recently, reward-conditioned reinforcement learning (RCRL) has gained popularity due to its simplicity, flexibility, and off-policy nature. However, we will show that current RCRL approaches are fundamentally limited and fail to address two critical challenges of RCRL -- improving generalization on "
 url: "https://research.nvidia.com/publication/2023-05_bayesian-reparameterization-reward-conditioned-reinforcement-learning-energy"
-status: new
+status: "new"
 ---
 
 # Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models

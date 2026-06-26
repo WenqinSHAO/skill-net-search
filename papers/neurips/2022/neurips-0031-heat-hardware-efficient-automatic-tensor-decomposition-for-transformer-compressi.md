@@ -1,31 +1,30 @@
 ---
-id: neurips-0031
+id: "neurips-0031"
 title: "HEAT: Hardware-Efficient Automatic Tensor Decomposition for Transformer Compression"
-conference: NeurIPS 2022
-date: 2022-12
+conference: "NeurIPS 2022"
+date: "2022-12"
 authors:
+  - name: "Jiaqi Gu"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Ben Keller"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jean Kossaifi"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Anima Anandkumar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiaqi Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "University of Texas at Austin"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2211.16749"
 abstract: "Transformers have attained superior performance in natural language processing and computer vision. Their self-attention and feedforward layers are overparameterized, limiting inference speed and energy efficiency. Tensor decomposition is a promising technique to reduce parameter redundancy by lever"
 url: "https://research.nvidia.com/publication/2022-12_heat-hardware-efficient-automatic-tensor-decomposition-transformer-compression"
-status: new
+status: "new"
 ---
 
 # HEAT: Hardware-Efficient Automatic Tensor Decomposition for Transformer Compression

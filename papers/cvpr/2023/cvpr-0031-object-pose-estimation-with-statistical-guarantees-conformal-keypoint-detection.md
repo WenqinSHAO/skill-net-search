@@ -1,8 +1,8 @@
 ---
-id: cvpr-0031
+id: "cvpr-0031"
 title: "Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
   - name: "Heng Yang"
     affiliation: "NVIDIA"
@@ -14,7 +14,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ external_links:
     url: "https://arxiv.org/abs/2303.12246"
 abstract: "The two-stage object pose estimation paradigm first detects semantic keypoints on the image and then estimates the 6D pose by minimizing reprojection errors. Despite performing well on standard benchmarks, existing techniques offer no provable guarantees on the quality and uncertainty of the estimat"
 url: "https://research.nvidia.com/publication/2023-06_object-pose-estimation-statistical-guarantees-conformal-keypoint-detection-and"
-status: new
+status: "new"
 ---
 
 # Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation

@@ -1,18 +1,17 @@
 ---
-id: arxiv-2666
+id: "arxiv-2666"
 title: "Fast Procedural Noise By Stochastic Sampling"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
+  - name: "Marcos Fajardo"
+    affiliation: "Shiokara–Engawa Research"
+    is_industry: false
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Marcos Fajardo"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ external_links:
     url: "https://diglib.eg.org/handle/10.2312/sr20231141"
 abstract: "Procedural noise functions are widely used in computer graphics as a way to add texture detail to surfaces and volumes. Many noise functions are based on weighted sums that can be expressed in terms of random variables, which makes it possible to compute Monte Carlo estimates of their values at lowe"
 url: "https://research.nvidia.com/publication/2023-06_fast-procedural-noise-stochastic-sampling"
-status: new
+status: "new"
 ---
 
 # Fast Procedural Noise By Stochastic Sampling

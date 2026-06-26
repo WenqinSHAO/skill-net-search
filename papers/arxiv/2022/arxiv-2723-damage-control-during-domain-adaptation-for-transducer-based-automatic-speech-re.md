@@ -1,24 +1,23 @@
 ---
-id: arxiv-2723
+id: "arxiv-2723"
 title: "Damage Control During Domain Adaptation for Transducer Based Automatic Speech Recognition"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shantanu Acharya"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.03255"
 abstract: "Automatic speech recognition models are often adapted to improve their accuracy in a new domain. A potential drawback of model adaptation to new domains is catastrophic forgetting, where the Word Error Rate on the original domain is significantly degraded. This paper addresses the situation when we "
 url: "https://research.nvidia.com/publication/2022-10_damage-control-during-domain-adaptation-transducer-based-automatic-speech"
-status: new
+status: "new"
 ---
 
 # Damage Control During Domain Adaptation for Transducer Based Automatic Speech Recognition

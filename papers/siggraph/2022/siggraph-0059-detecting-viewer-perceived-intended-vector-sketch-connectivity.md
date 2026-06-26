@@ -1,32 +1,31 @@
 ---
-id: siggraph-0059
+id: "siggraph-0059"
 title: "Detecting Viewer-Perceived Intended Vector Sketch Connectivity"
-conference: SIGGRAPH 2022
-date: 2022-08
+conference: "SIGGRAPH 2022"
+date: "2022-08"
 authors:
+  - name: "Jerry Yin"
+    affiliation: "University of British Columbia"
+    is_industry: false
+  - name: "Chenxi Liu"
+    affiliation: "University of British Columbia"
+    is_industry: false
+  - name: "Rebecca Liu"
+    affiliation: "University of British Columbia"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jerry Yin"
-    affiliation: ""
-    is_industry: false
-  - name: "Chenxi Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Rebecca Liu"
-    affiliation: ""
-    is_industry: false
   - name: "Helge Rhodin"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://www.cs.ubc.ca/labs/imager/tr/2022/SketchConnectivity/"
 abstract: "Many sketch processing applications target precise vector drawings with accurately specified stroke intersections, yet free-form artist drawn sketches are typically inexact: strokes that are intended to intersect often stop short of doing so. While human observers easily perceive the artist intended"
 url: "https://research.nvidia.com/publication/2022-08_detecting-viewer-perceived-intended-vector-sketch-connectivity"
-status: new
+status: "new"
 ---
 
 # Detecting Viewer-Perceived Intended Vector Sketch Connectivity

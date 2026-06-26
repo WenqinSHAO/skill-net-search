@@ -1,18 +1,20 @@
 ---
-id: arxiv-2858
+id: "arxiv-2858"
 title: "Zero-Variance Transmittance Estimation"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
-  - name: "Eugene d&#039;Eon"
+  - name: "Eugene d'Eon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eugene d&#039;Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +22,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We apply zero-variance theory to the Volterra integral formulation of volumetric transmittance. We solve for the guided sampling decisions in this framework that produce zero-variance ratio tracking and next-flight ratio tracking estimators. In both cases, a zero-variance estimate arises by collidin"
 url: "https://research.nvidia.com/publication/2021-06_zero-variance-transmittance-estimation"
-status: new
+status: "new"
 ---
 
 # Zero-Variance Transmittance Estimation

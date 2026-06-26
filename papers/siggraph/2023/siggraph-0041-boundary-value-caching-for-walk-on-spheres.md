@@ -1,25 +1,24 @@
 ---
-id: siggraph-0041
+id: "siggraph-0041"
 title: "Boundary Value Caching for Walk on Spheres"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Bailey Miller"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Rohan Sawhney"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Keenan Crane"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Ioannis Gkioulekas"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Grid-free Monte Carlo methods such as walk on spheres can be used to solve elliptic partial differential equations without mesh generation or global solves. However, such methods independently estimate the solution at every point, and hence do not take advantage of the high spatial regularity of sol"
 url: "https://research.nvidia.com/publication/2023-08_boundary-value-caching-walk-spheres"
-status: new
+status: "new"
 ---
 
 # Boundary Value Caching for Walk on Spheres

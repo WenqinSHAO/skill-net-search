@@ -1,9 +1,12 @@
 ---
-id: icml-0013
+id: "icml-0013"
 title: "Global Context Vision Transformers"
-conference: ICML 2023
-date: 2023-07
+conference: "ICML 2023"
+date: "2023-07"
 authors:
+  - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,13 +19,9 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Hatamizadeh"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://github.com/NVlabs/GCViT"
 abstract: "We propose global context vision transformer (GC ViT), a novel architecture that enhances parameter and compute utilization for computer vision. Our method leverages global context self-attention modules, joint with standard local self-attention, to effectively and efficiently model both long and sh"
 url: "https://research.nvidia.com/publication/2023-07_global-context-vision-transformers"
-status: new
+status: "new"
 ---
 
 # Global Context Vision Transformers

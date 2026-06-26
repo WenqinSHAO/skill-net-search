@@ -1,9 +1,12 @@
 ---
-id: arxiv-2868
+id: "arxiv-2868"
 title: "Simba: scaling deep-learning inference with chiplet-based architecture"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
+  - name: "Yakun Sophia Shao"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Jason Clemons"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,9 +25,15 @@ authors:
   - name: "Ben Keller"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alicia Klinefelter"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nathaniel Pinckney"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Priyanka Raina"
+    affiliation: "Stanford"
+    is_industry: false
   - name: "Stephen Tell"
     affiliation: "NVIDIA"
     is_industry: true
@@ -46,19 +55,9 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yakun Sophia Shao"
-    affiliation: ""
-    is_industry: false
-  - name: "Alicia Klinefelter"
-    affiliation: ""
-    is_industry: false
-  - name: "Priyanka Raina"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -71,7 +70,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3460227"
 abstract: "Package-level integration using multi-chip-modules (MCMs) is a promising approach for building large-scale systems. Compared to a large monolithic die, an MCM combines many smaller chiplets into a larger system, substantially reducing fabrication and design costs. Current MCMs typically only contain"
 url: "https://research.nvidia.com/publication/2021-05_simba-scaling-deep-learning-inference-chiplet-based-architecture"
-status: new
+status: "new"
 ---
 
 # Simba: scaling deep-learning inference with chiplet-based architecture

@@ -1,29 +1,28 @@
 ---
-id: cvpr-0006
+id: "cvpr-0006"
 title: "Make It Count: Text-to-Image Generation with an Accurate Number of Objects"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Lital Binyamin"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Yoad Tewel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eran Hirsch"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Royi Rassin"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Lital Binyamin"
-    affiliation: ""
-    is_industry: false
-  - name: "Eran Hirsch"
-    affiliation: ""
-    is_industry: false
-  - name: "Royi Rassin"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://make-it-count-paper.github.io/"
 abstract: "Despite the unprecedented success of text-to-image diffusion models, controlling the number of depicted objects using text is surprisingly hard. This is important for various applications from technical documents, to children's books to illustrating cooking recipes. Generating object-correct counts "
 url: "https://research.nvidia.com/publication/2025-06_make-it-count-text-image-generation-accurate-number-objects"
-status: new
+status: "new"
 ---
 
 # Make It Count: Text-to-Image Generation with an Accurate Number of Objects

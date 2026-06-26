@@ -1,16 +1,15 @@
 ---
-id: siggraph-0043
+id: "siggraph-0043"
 title: "Interactive Hair Simulation on the GPU Using ADMM"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Gilles Daviet"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -19,7 +18,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We devise a local–global solver dedicated to the simulation of Discrete Elastic Rods (DER) with Coulomb friction that can fully leverage the massively parallel compute capabilities of moderns GPUs. We verify that our simulator can reproduce analytical results on recently published cantilever, bend–t"
 url: "https://research.nvidia.com/publication/2023-08_interactive-hair-simulation-gpu-using-admm"
-status: new
+status: "new"
 ---
 
 # Interactive Hair Simulation on the GPU Using ADMM

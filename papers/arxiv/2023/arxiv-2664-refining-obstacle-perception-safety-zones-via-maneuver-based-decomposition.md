@@ -1,9 +1,12 @@
 ---
-id: arxiv-2664
+id: "arxiv-2664"
 title: "Refining Obstacle Perception Safety Zones via Maneuver-Based Decomposition"
-conference: arXiv 2023
-date: 2023-06
+conference: "arXiv 2023"
+date: "2023-06"
 authors:
+  - name: "Sever Topan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +16,17 @@ authors:
   - name: "Karen Leung"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jonas Nilsson"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Michael Cox"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sever Topan"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonas Nilsson"
-    affiliation: ""
-    is_industry: false
-  - name: "Michael Cox"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://arxiv.org/abs/2308.06337"
 abstract: "A critical task for developing safe autonomous driving stacks is to determine whether an obstacle is safety-critical, i.e., poses an imminent threat to the autonomous vehicle. Our previous work showed that Hamilton Jacobi reachability theory can be applied to compute interaction-dynamics-aware perce"
 url: "https://research.nvidia.com/publication/2023-06_refining-obstacle-perception-safety-zones-maneuver-based-decomposition"
-status: new
+status: "new"
 ---
 
 # Refining Obstacle Perception Safety Zones via Maneuver-Based Decomposition

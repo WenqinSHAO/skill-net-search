@@ -1,28 +1,27 @@
 ---
-id: arxiv-2776
+id: "arxiv-2776"
 title: "Transform2Act: Learning a Transform-and-Control Policy for Efficient Agent Design"
-conference: arXiv 2022
-date: 2022-04
+conference: "arXiv 2022"
+date: "2022-04"
 authors:
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuda Song"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Zhengyi Luo"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Wen Sun"
-    affiliation: ""
+    affiliation: "Cornell University"
     is_industry: false
   - name: "Kris Kitani"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Robotics"
 abstract: "An agent's functionality is largely determined by its design, i.e., skeletal structure and joint attributes (e.g., length, size, strength). However, finding the optimal agent design for a given function is extremely challenging since the problem is inherently combinatorial and the design space is pr"
 url: "https://research.nvidia.com/publication/2022-04_transform2act-learning-transform-and-control-policy-efficient-agent-design"
-status: new
+status: "new"
 ---
 
 # Transform2Act: Learning a Transform-and-Control Policy for Efficient Agent Design

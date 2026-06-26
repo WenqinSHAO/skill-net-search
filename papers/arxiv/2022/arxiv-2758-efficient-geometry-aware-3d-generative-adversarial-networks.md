@@ -1,50 +1,49 @@
 ---
-id: arxiv-2758
+id: "arxiv-2758"
 title: "Efficient Geometry-aware 3D Generative Adversarial Networks"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Eric R. Chan"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Connor Z. Lin"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Matthew A. Chan"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Boxiao Pan"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Orazio Gallo"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Leonidas Guibas"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jonathan Tremblay"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sameh Khamis"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tero Karras"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Eric R. Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Connor Z. Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew A. Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Boxiao Pan"
-    affiliation: ""
-    is_industry: false
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
-  - name: "Leonidas Guibas"
-    affiliation: ""
-    is_industry: false
-  - name: "Sameh Khamis"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -61,7 +60,7 @@ external_links:
     url: "https://github.com/NVlabs/eg3d"
 abstract: "Unsupervised generation of high-quality multi-view-consistent images and 3D shapes using only collections of single-view 2D photographs has been a long-standing challenge. Existing 3D GANs are either compute-intensive or make approximations that are not 3D-consistent; the former limits quality and r"
 url: "https://research.nvidia.com/publication/2022-06_efficient-geometry-aware-3d-generative-adversarial-networks"
-status: new
+status: "new"
 ---
 
 # Efficient Geometry-aware 3D Generative Adversarial Networks

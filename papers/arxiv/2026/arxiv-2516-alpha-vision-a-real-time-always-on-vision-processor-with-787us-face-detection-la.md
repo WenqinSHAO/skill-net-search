@@ -1,8 +1,8 @@
 ---
-id: arxiv-2516
+id: "arxiv-2516"
 title: "Alpha-Vision: A Real-Time Always-on Vision Processor with 787us Face Detection Latency in <5mW"
-conference: arXiv 2026
-date: 2026-02
+conference: "arXiv 2026"
+date: "2026-02"
 authors:
   - name: "Ben Keller"
     affiliation: "NVIDIA"
@@ -22,6 +22,9 @@ authors:
   - name: "Muya Chang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Thierry Tambe"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Nathaniel Pinckney"
     affiliation: "NVIDIA"
     is_industry: true
@@ -37,14 +40,10 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Thierry Tambe"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -58,7 +57,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/11409322"
 abstract: "ALPhA-Vision is an always-on low-power subsystem for DNN-inference-based vision tasks in edge SoCs. Flexible and programmable, the subsystem supports CNN and ViT inference and employs hardware/software co-design to enable fully end-to-end execution with no external memory accesses. Fine-grained powe"
 url: "https://research.nvidia.com/publication/2026-02%5Falpha-vision-real-time-always-vision-processor-787ms-face-detection-latency"
-status: new
+status: "new"
 ---
 
 # Alpha-Vision: A Real-Time Always-on Vision Processor with 787us Face Detection Latency in <5mW

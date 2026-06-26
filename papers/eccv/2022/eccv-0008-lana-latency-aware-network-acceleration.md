@@ -1,11 +1,14 @@
 ---
-id: eccv-0008
+id: "eccv-0008"
 title: "LANA: Latency Aware Network Acceleration"
-conference: ECCV 2022
-date: 2022-10
+conference: "ECCV 2022"
+date: "2022-10"
 authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jimmy Hall"
+    affiliation: "Microsoft Research"
     is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
@@ -13,19 +16,15 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Nicolo Fusi"
+    affiliation: "Microsoft Research"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jimmy Hall"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicolo Fusi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We introduce latency-aware network acceleration (LANA) - an approach that builds on neural architecture search techniques and teacher-student distillation to accelerate neural networks. LANA consists of two phases: in the first phase, it trains many alternative operations for every layer of the teac"
 url: "https://research.nvidia.com/publication/2022-10_lana-latency-aware-network-acceleration"
-status: new
+status: "new"
 ---
 
 # LANA: Latency Aware Network Acceleration

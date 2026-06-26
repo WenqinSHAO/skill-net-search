@@ -1,8 +1,8 @@
 ---
-id: arxiv-2566
+id: "arxiv-2566"
 title: "Cosmos-Reason 1: From Physical AI Common Sense to Embodied Decisions"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
   - name: "Tsung-Yi Lin"
     affiliation: "NVIDIA"
@@ -13,7 +13,6 @@ authors:
 topics:
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ research_areas:
   - "Robotics"
 abstract: "Physical AI systems need to perceive, understand, and perform complex actions in the physical world. In this paper, we present the Cosmos-Reason1 models that can understand the physical world and generate appropriate embodied decisions (e.g., next step action) in natural language through long chain-"
 url: "https://research.nvidia.com/publication/2025-03_cosmos-reason-1-physical-ai-common-sense-embodied-decisions"
-status: new
+status: "new"
 ---
 
 # Cosmos-Reason 1: From Physical AI Common Sense to Embodied Decisions

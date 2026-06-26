@@ -1,39 +1,38 @@
 ---
-id: arxiv-2717
+id: "arxiv-2717"
 title: "Evaluating Parameter Efficient Learning for Generation"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
   - name: "Peng Xu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mostofa Patwary"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shrimai Prabhumoye"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Virginia Adams"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ryan J. Prenger"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Wei Ping"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nayeon Lee"
-    affiliation: ""
+    affiliation: "The Hong Kong University of Science and Technology"
     is_industry: false
   - name: "Mohammad Shoeybi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.13673"
 abstract: "Parameter efficient learning methods (PERMs) have recently gained significant attention as they provide an efficient way for pre-trained language models (PLMs) to adapt to a downstream task. However, these conclusions are mostly drawn from in-domain evaluations over the full training set. In this pa"
 url: "https://research.nvidia.com/publication/2022-10_evaluating-parameter-efficient-learning-generation"
-status: new
+status: "new"
 ---
 
 # Evaluating Parameter Efficient Learning for Generation

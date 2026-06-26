@@ -1,9 +1,12 @@
 ---
-id: cvpr-0022
+id: "cvpr-0022"
 title: "Dream-in-4D: A Unified Approach for Text- and Image-guided 4D Scene Generation"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Yufeng Zheng"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Xueting Li"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,20 +16,16 @@ authors:
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Otmar Hilliges"
+    affiliation: "ETH Zurich"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yufeng Zheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Otmar Hilliges"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2311.16854"
 abstract: "Large-scale diffusion generative models are greatly simplifying image, video and 3D asset creation from userprovided text prompts and images. However, the challenging problem of text-to-4D dynamic 3D scene generation with diffusion guidance remains largely unexplored. We propose Dream-in-4D, which f"
 url: "https://research.nvidia.com/publication/2024-06_dream-4d-unified-approach-text-and-image-guided-4d-scene-generation"
-status: new
+status: "new"
 ---
 
 # Dream-in-4D: A Unified Approach for Text- and Image-guided 4D Scene Generation

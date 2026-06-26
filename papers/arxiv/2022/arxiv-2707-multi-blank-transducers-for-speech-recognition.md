@@ -1,27 +1,26 @@
 ---
-id: arxiv-2707
+id: "arxiv-2707"
 title: "Multi-blank Transducers for Speech Recognition"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
   - name: "Hainan Xu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Fei Jia"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shinji Watanabe"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2211.03541"
 abstract: "This paper proposes a modification to RNN-Transducer (RNN-T) models for automatic speech recognition (ASR). In standard RNN-T, the emission of a blank symbol consumes exactly one input frame; in our proposed method, we introduce additional blank symbols, which consume two or more input frames when e"
 url: "https://research.nvidia.com/publication/2022-11_multi-blank-transducers-speech-recognition"
-status: new
+status: "new"
 ---
 
 # Multi-blank Transducers for Speech Recognition

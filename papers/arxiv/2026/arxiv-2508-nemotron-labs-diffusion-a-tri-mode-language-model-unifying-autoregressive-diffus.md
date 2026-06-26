@@ -1,91 +1,90 @@
 ---
-id: arxiv-2508
+id: "arxiv-2508"
 title: "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding"
-conference: arXiv 2026
-date: 2026-05
+conference: "arXiv 2026"
+date: "2026-05"
 authors:
   - name: "Yonggan Fu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Lexington Whalen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Abhinav Garg"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chengyue Wu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Maksim Khadkevich"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nicolai Oswald"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Enze Xie"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Daniel Egert"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sharath Turuvekere Sreenivas,"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shizhe Diao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chenhan Yu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ye Yu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Weijia Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sajad Norouzi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jingyu Liu"
+    affiliation: "University of Chicago"
+    is_industry: false
+  - name: "Shiyi Lan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ligeng Zhu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jin Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jindong Jiang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Morteza Mardani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mehran Maghoumi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Song Han"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ante Jukić"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nima Tajbakhsh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Lexington Whalen"
-    affiliation: ""
-    is_industry: false
-  - name: "Abhinav Garg"
-    affiliation: ""
-    is_industry: false
-  - name: "Chengyue Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Maksim Khadkevich"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicolai Oswald"
-    affiliation: ""
-    is_industry: false
-  - name: "Enze Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Egert"
-    affiliation: ""
-    is_industry: false
-  - name: "Sharath Turuvekere Sreenivas"
-    affiliation: ""
-    is_industry: false
-  - name: "Shizhe Diao"
-    affiliation: ""
-    is_industry: false
-  - name: "Chenhan Yu"
-    affiliation: ""
-    is_industry: false
-  - name: "Ye Yu"
-    affiliation: ""
-    is_industry: false
-  - name: "Weijia Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Sajad Norouzi"
-    affiliation: ""
-    is_industry: false
-  - name: "Jingyu Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Shiyi Lan"
-    affiliation: ""
-    is_industry: false
-  - name: "Ligeng Zhu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jin Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Jindong Jiang"
-    affiliation: ""
-    is_industry: false
-  - name: "Morteza Mardani"
-    affiliation: ""
-    is_industry: false
-  - name: "Mehran Maghoumi"
-    affiliation: ""
-    is_industry: false
-  - name: "Song Han"
-    affiliation: ""
-    is_industry: false
-  - name: "Ante Jukić"
-    affiliation: ""
-    is_industry: false
-  - name: "Nima Tajbakhsh"
-    affiliation: ""
-    is_industry: false
-  - name: "Jan Kautz"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -97,7 +96,7 @@ external_links:
     url: "https://huggingface.co/collections/nvidia/nemotron-labs-diffusion"
 abstract: "We introduce Nemotron-Labs-Diffusion, a tri-mode language model (LM) that unifies AR, diffusion, and self-speculation decoding within a single architecture. Trained with a joint AR-diffusion objective, Nemotron-Labs-Diffusion can switch modes to sustain high throughput across deployment settings and"
 url: "https://research.nvidia.com/publication/2026-05%5Fnemotron-labs-diffusion-tri-mode-language-model-unifying-autoregressive"
-status: new
+status: "new"
 ---
 
 # Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding

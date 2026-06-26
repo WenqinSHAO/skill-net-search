@@ -1,35 +1,34 @@
 ---
-id: iclr-0031
+id: "iclr-0031"
 title: "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion"
-conference: ICLR 2022
-date: 2022-08
+conference: "ICLR 2022"
+date: "2022-08"
 authors:
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yuval Alaluf"
+    affiliation: "Tel Aviv University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Or Patashnik"
+    affiliation: "Tel Aviv University"
+    is_industry: false
+  - name: "Amit H. Bermano"
+    affiliation: "Tel Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuval Alaluf"
-    affiliation: ""
-    is_industry: false
-  - name: "Or Patashnik"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit H. Bermano"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel Aviv University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://textual-inversion.github.io/"
 abstract: "Text-to-image models offer unprecedented freedom to guide creation through natural language. Yet, it is unclear how such freedom can be exercised to generate images of specific unique concepts, modify their appearance, or compose them in new roles and novel scenes. In other words, we ask: how can we"
 url: "https://research.nvidia.com/publication/2022-08_image-worth-one-word-personalizing-text-image-generation-using-textual"
-status: new
+status: "new"
 ---
 
 # An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion

@@ -1,25 +1,24 @@
 ---
-id: iclr-0020
+id: "iclr-0020"
 title: "ReMatching Dynamic Reconstruction Flow"
-conference: ICLR 2024
-date: 2024-11
+conference: "ICLR 2024"
+date: "2024-11"
 authors:
   - name: "Sara Oblak"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Despoina Paschalidou"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Matan Atzmon"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://github.com/nv-tlabs/ReMatchingDynamicReconstructionFlow.git"
 abstract: "Reconstructing a dynamic scene from image inputs is a fundamental computer vision task with many downstream applications. Despite recent advancements, existing approaches still struggle to achieve high-quality reconstructions from unseen viewpoints and timestamps. This work introduces the ReMatching"
 url: "https://research.nvidia.com/publication/2024-11_rematching-dynamic-reconstruction-flow"
-status: new
+status: "new"
 ---
 
 # ReMatching Dynamic Reconstruction Flow

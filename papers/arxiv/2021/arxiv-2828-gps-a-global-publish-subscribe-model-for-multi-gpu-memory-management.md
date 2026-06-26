@@ -1,8 +1,8 @@
 ---
-id: arxiv-2828
+id: "arxiv-2828"
 title: "GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management"
-conference: arXiv 2021
-date: 2021-10
+conference: "arXiv 2021"
+date: "2021-10"
 authors:
   - name: "Harini Muthukrishnan"
     affiliation: "NVIDIA"
@@ -14,13 +14,12 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Thomas Wenisch"
-    affiliation: ""
+    affiliation: "University of Michigan"
     is_industry: false
 topics:
   - GPU_architecture
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3466752.3480088"
 abstract: "Suboptimal management of memory and bandwidth is one of the primary causes of low performance on systems comprising multiple GPUs. Existing memory management solutions like Unified Memory (UM) offer simplified programming but come at the cost of performance: applications can even exhibit slowdown wi"
 url: "https://research.nvidia.com/publication/2021-10_gps-global-publish-subscribe-model-multi-gpu-memory-management"
-status: new
+status: "new"
 ---
 
 # GPS: A Global Publish-Subscribe Model for Multi-GPU Memory Management

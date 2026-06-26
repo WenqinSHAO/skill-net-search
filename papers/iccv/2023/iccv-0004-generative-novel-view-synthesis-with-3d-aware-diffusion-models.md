@@ -1,12 +1,27 @@
 ---
-id: iccv-0004
+id: "iccv-0004"
 title: "Generative Novel View Synthesis with 3D-Aware Diffusion Models"
-conference: ICCV 2023
-date: 2023-10
+conference: "ICCV 2023"
+date: "2023-10"
 authors:
+  - name: "Eric R. Chan"
+    affiliation: "Stanford University, NVIDIA"
+    is_industry: true
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alexander W. Bergman"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Jeong Joon Park"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Axel Levy"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Miika Aittala"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,28 +31,12 @@ authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Eric R. Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander W. Bergman"
-    affiliation: ""
-    is_industry: false
-  - name: "Jeong Joon Park"
-    affiliation: ""
-    is_industry: false
-  - name: "Axel Levy"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ external_links:
     url: "https://arxiv.org/abs/2304.02602"
 abstract: "We present a diffusion-based model for 3D-aware generative novel view synthesis from as few as a single input image. Our model samples from the distribution of possible renderings consistent with the input and, even in the presence of ambiguity, is capable of rendering diverse and plausible novel vi"
 url: "https://research.nvidia.com/publication/2023-10_generative-novel-view-synthesis-3d-aware-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Generative Novel View Synthesis with 3D-Aware Diffusion Models

@@ -1,22 +1,21 @@
 ---
-id: arxiv-2507
+id: "arxiv-2507"
 title: "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention"
-conference: arXiv 2026
-date: 2026-05
+conference: "arXiv 2026"
+date: "2026-05"
 authors:
   - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yejin Choi"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yejin Choi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://github.com/NVlabs/GatedDeltaNet-2"
 abstract: "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just what to forget, but how to edit this compressed memory without scrambling existing associations. De"
 url: "https://research.nvidia.com/publication/2026-05%5Fgated-deltanet-2-decoupling-erase-and-write-linear-attention"
-status: new
+status: "new"
 ---
 
 # Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention

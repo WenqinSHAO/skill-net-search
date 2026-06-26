@@ -1,22 +1,21 @@
 ---
-id: neurips-0003
+id: "neurips-0003"
 title: "Align Your Flow: Scaling Continuous-Time Flow Map Distillation"
-conference: NeurIPS 2025
-date: 2025-12
+conference: "NeurIPS 2025"
+date: "2025-12"
 authors:
+  - name: "Amirmojtaba Sabour"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Sanja Fidler"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Amirmojtaba Sabour"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/AlignYourFlow/"
 abstract: "Diffusion- and flow-based models have emerged as state-of-the-art generative modeling approaches, but they require many sampling steps. Consistency models can distill these models into efficient one-step generators; however, unlike flow- and diffusion-based methods, their performance inevitably degr"
 url: "https://research.nvidia.com/publication/2025-12_align-your-flow-scaling-continuous-time-flow-map-distillation"
-status: new
+status: "new"
 ---
 
 # Align Your Flow: Scaling Continuous-Time Flow Map Distillation

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2617
+id: "arxiv-2617"
 title: "Filtering After Shading With Stochastic Texture Filtering"
-conference: arXiv 2024
-date: 2024-05
+conference: "arXiv 2024"
+date: "2024-05"
 authors:
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
@@ -11,14 +11,13 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Salvi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Marcos Fajardo"
-    affiliation: ""
+    affiliation: "Shiokara–Engawa Research"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://youtu.be/e3391_C6aXE"
 abstract: "2D texture maps and 3D voxel arrays are widely used to add rich detail to the surfaces and volumes of rendered scenes, and filtered texture lookups are integral to producing high-quality imagery. We show that applying the texture filter after evaluating shading generally gives more accurate imagery "
 url: "https://research.nvidia.com/publication/2024-05_filtering-after-shading-stochastic-texture-filtering"
-status: new
+status: "new"
 ---
 
 # Filtering After Shading With Stochastic Texture Filtering

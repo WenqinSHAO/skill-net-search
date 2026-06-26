@@ -1,24 +1,23 @@
 ---
-id: cvpr-0033
+id: "cvpr-0033"
 title: "Neural Congealing: Aligning Images to a Joint Semantic Atlas"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Dolev Ofri-Amar"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
+  - name: "Michal Geyer"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dolev Ofri-Amar"
-    affiliation: ""
-    is_industry: false
-  - name: "Michal Geyer"
-    affiliation: ""
-    is_industry: false
   - name: "Tali Dekel"
-    affiliation: ""
+    affiliation: "Weizmann Institute of Science"
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://neural-congealing.github.io/"
 abstract: "We present Neural Congealing -- a zero-shot self-supervised framework for detecting and jointly aligning semantically-common content across a given set of images. Our approach harnesses the power of pre-trained DINO-ViT features to learn: (i) a joint semantic atlas -- a 2D grid that captures the mod"
 url: "https://research.nvidia.com/publication/2023-06_neural-congealing-aligning-images-joint-semantic-atlas"
-status: new
+status: "new"
 ---
 
 # Neural Congealing: Aligning Images to a Joint Semantic Atlas

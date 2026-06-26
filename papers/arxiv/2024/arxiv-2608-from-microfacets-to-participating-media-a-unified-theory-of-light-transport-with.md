@@ -1,24 +1,26 @@
 ---
-id: arxiv-2608
+id: "arxiv-2608"
 title: "From Microfacets to Participating Media: A Unified Theory of Light Transport with Stochastic Geometry"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
-  - name: "Eugene d&#039;Eon"
+  - name: "Dario Seyb"
+    affiliation: "Dartmouth College"
+    is_industry: false
+  - name: "Eugene d'Eon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Benedikt Bitterli"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dario Seyb"
-    affiliation: ""
-    is_industry: false
   - name: "Wojciech Jarosz"
-    affiliation: ""
+    affiliation: "Dartmouth College"
     is_industry: false
+  - name: "Eugene d&#039;Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +31,7 @@ external_links:
     url: "https://cs.dartmouth.edu/~wjarosz/publications/seyb24from.html"
 abstract: "Stochastic geometry models have enjoyed immense success in graphics for modeling interactions of light with complex phenomena such as participating media, rough surfaces, fibers, and more. Although each of these models operates on the same principle of replacing intricate geometry by a random proces"
 url: "https://research.nvidia.com/publication/2024-07_microfacets-participating-media-unified-theory-light-transport-stochastic"
-status: new
+status: "new"
 ---
 
 # From Microfacets to Participating Media: A Unified Theory of Light Transport with Stochastic Geometry

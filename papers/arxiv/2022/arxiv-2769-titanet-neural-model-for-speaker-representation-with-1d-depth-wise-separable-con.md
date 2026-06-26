@@ -1,21 +1,20 @@
 ---
-id: arxiv-2769
+id: "arxiv-2769"
 title: "TitaNet: Neural Model for Speaker Representation with 1D Depth-Wise Separable Convolutions and Global Context"
-conference: arXiv 2022
-date: 2022-05
+conference: "arXiv 2022"
+date: "2022-05"
 authors:
   - name: "Nithin Rao Koluguri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Taejin Park"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9746806"
 abstract: "In this paper, we propose TitaNet, a novel neural network architecture for extracting speaker representations. We employ 1D depth-wise separable convolutions with Squeeze-and-Excitation (SE) layers with global context followed by channel attention based statistics pooling layer to map variable-lengt"
 url: "https://research.nvidia.com/publication/2022-05_titanet-neural-model-speaker-representation-1d-depth-wise-separable"
-status: new
+status: "new"
 ---
 
 # TitaNet: Neural Model for Speaker Representation with 1D Depth-Wise Separable Convolutions and Global Context

@@ -1,32 +1,31 @@
 ---
-id: arxiv-2750
+id: "arxiv-2750"
 title: "Adaptive Neural Network-based OFDM Receivers"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Moritz Benedikt Fischer"
+    affiliation: "University of Stuttgart"
+    is_industry: false
+  - name: "Sebastian Dörner"
+    affiliation: "University of Stuttgart"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Moritz Benedikt Fischer"
-    affiliation: ""
-    is_industry: false
-  - name: "Sebastian Dörner"
-    affiliation: ""
-    is_industry: false
   - name: "Takayuki Shimizu"
-    affiliation: ""
+    affiliation: "Toyota Motor North America"
     is_industry: false
   - name: "Hongsheng Lu"
-    affiliation: ""
+    affiliation: "Toyota Motor North America"
     is_industry: false
   - name: "Stephan ten Brink"
-    affiliation: ""
+    affiliation: "University of Stuttgart"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://arxiv.org/abs/2203.13571"
 abstract: "We propose and examine the idea of continuously adapting state-of-the-art neural network (NN)-based orthogonal frequency division multiplex (OFDM) receivers to current channel conditions. This online adaptation via retraining is mainly motivated by two reasons: First, receiver design typically focus"
 url: "https://research.nvidia.com/publication/2022-07_adaptive-neural-network-based-ofdm-receivers"
-status: new
+status: "new"
 ---
 
 # Adaptive Neural Network-based OFDM Receivers

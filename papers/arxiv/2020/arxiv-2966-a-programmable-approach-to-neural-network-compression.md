@@ -1,28 +1,27 @@
 ---
-id: arxiv-2966
+id: "arxiv-2966"
 title: "A Programmable Approach to Neural Network Compression"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Vinu Joseph"
+    affiliation: "University of Utah"
+    is_industry: false
+  - name: "Ganesh L. Gopalakrishnan"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Saurav Muralidharan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vinu Joseph"
-    affiliation: ""
-    is_industry: false
-  - name: "Ganesh L. Gopalakrishnan"
-    affiliation: ""
-    is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA and University of Toronto"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://github.com/NVlabs/condensa"
 abstract: "Deep neural networks (DNNs) frequently contain far more weights, represented at a higher precision, than are required for the specific task, which they are trained to perform. Consequently, they can often be compressed using techniques such as weight pruning and quantization that reduce both the mod"
 url: "https://research.nvidia.com/publication/2020-10_programmable-approach-neural-network-compression"
-status: new
+status: "new"
 ---
 
 # A Programmable Approach to Neural Network Compression

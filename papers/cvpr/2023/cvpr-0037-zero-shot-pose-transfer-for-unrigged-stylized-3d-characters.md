@@ -1,9 +1,12 @@
 ---
-id: cvpr-0037
+id: "cvpr-0037"
 title: "Zero-shot Pose Transfer for Unrigged Stylized 3D Characters"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Jiashun Wang"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Xueting Li"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,24 +16,20 @@ authors:
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Orazio Gallo"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaolong Wang"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiashun Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=ynT65hp92SE"
 abstract: "Transferring the pose of a reference avatar to stylized 3D characters of various shapes is a fundamental task in computer graphics. Existing methods either require the stylized characters to be rigged, or they use the stylized character in the desired pose as ground truth at training. We present a z"
 url: "https://research.nvidia.com/publication/2023-06_zero-shot-pose-transfer-unrigged-stylized-3d-characters"
-status: new
+status: "new"
 ---
 
 # Zero-shot Pose Transfer for Unrigged Stylized 3D Characters

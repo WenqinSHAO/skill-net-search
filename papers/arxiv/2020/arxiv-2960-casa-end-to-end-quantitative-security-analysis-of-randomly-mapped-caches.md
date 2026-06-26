@@ -1,30 +1,29 @@
 ---
-id: arxiv-2960
+id: "arxiv-2960"
 title: "CaSA: End-to-end Quantitative Security Analysis of Randomly Mapped Caches"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
+  - name: "Thomas Bourgeat"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Jules Drean"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Yuheng Yang"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Lillian Tsai"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Thomas Bourgeat"
-    affiliation: ""
-    is_industry: false
-  - name: "Jules Drean"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuheng Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Lillian Tsai"
-    affiliation: ""
-    is_industry: false
   - name: "Mengjia Yan"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9251961"
 abstract: "It is well known that there are micro-architectural vulnerabilities that enable an attacker to use caches to exfiltrate secrets from a victim. These vulnerabilities exploit the fact that the attacker can detect cache lines that were accessed by the victim. Therefore, architects have looked at differ"
 url: "https://research.nvidia.com/publication/2020-10_casa-end-end-quantitative-security-analysis-randomly-mapped-caches"
-status: new
+status: "new"
 ---
 
 # CaSA: End-to-end Quantitative Security Analysis of Randomly Mapped Caches

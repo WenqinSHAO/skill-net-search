@@ -1,38 +1,37 @@
 ---
-id: iclr-0013
+id: "iclr-0013"
 title: "Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models,"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Dvir Samuel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Barak Meiri"
+    affiliation: "Hebrew University"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yoad Tewel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Nir Darshan"
+    affiliation: "Origin AI"
+    is_industry: false
+  - name: "Shai Avidan"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dvir Samuel"
-    affiliation: ""
-    is_industry: false
-  - name: "Barak Meiri"
-    affiliation: ""
-    is_industry: false
-  - name: "Nir Darshan"
-    affiliation: ""
-    is_industry: false
-  - name: "Shai Avidan"
-    affiliation: ""
-    is_industry: false
   - name: "Rami Ben-Ari"
-    affiliation: ""
+    affiliation: "Origin AI"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://arxiv.org/abs/2312.12540"
 abstract: "Diffusion inversion is the problem of taking an image and a text prompt that describes it and finding a noise latent that would generate the exact same image. Most current deterministic inversion techniques operate by approximately solving an implicit equation and may converge slowly or yield poor r"
 url: "https://research.nvidia.com/publication/2025-04_lightning-fast-image-inversion-and-editing-text-image-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models,

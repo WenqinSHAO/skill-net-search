@@ -1,27 +1,26 @@
 ---
-id: arxiv-2770
+id: "arxiv-2770"
 title: "Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design"
-conference: arXiv 2022
-date: 2022-05
+conference: "arXiv 2022"
+date: "2022-05"
 authors:
   - name: "Qijing Jenny Huang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Charles Hong"
-    affiliation: ""
+    affiliation: "UC Berkeley"
     is_industry: false
   - name: "John Wawrzynek"
-    affiliation: ""
+    affiliation: "UC Berkeley"
     is_industry: false
   - name: "Mahesh Subedar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Intel Labs"
+    is_industry: true
   - name: "Yakun Sophia Shao"
-    affiliation: ""
+    affiliation: "UC Berkeley"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9804604"
 abstract: "The hardware design space is high-dimensional and discrete. Systematic and efficient exploration of this space has been a significant challenge. Central to this problem is the intractable search complexity that grows exponentially with the design choices and the discrete nature of the search space. "
 url: "https://research.nvidia.com/publication/2022-05_learning-continuous-and-reconstructible-latent-space-hardware-accelerator"
-status: new
+status: "new"
 ---
 
 # Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design

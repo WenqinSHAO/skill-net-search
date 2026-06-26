@@ -1,8 +1,8 @@
 ---
-id: arxiv-2543
+id: "arxiv-2543"
 title: "Fly, Fail, Fix: Iterative Game Repair with Reinforcement Learning and Large Multimodal Models"
-conference: arXiv 2025
-date: 2025-08
+conference: "arXiv 2025"
+date: "2025-08"
 authors:
   - name: "Alex Zook"
     affiliation: "NVIDIA"
@@ -16,7 +16,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://arxiv.org/abs/2507.12666"
 abstract: "Game design hinges on understanding how static rules and content translate into dynamic player behavior---something modern generative systems that inspect only a game's code or assets struggle to capture. We present an automated design iteration framework that closes this gap by pairing a reinforcem"
 url: "https://research.nvidia.com/publication/2025-08_fly-fail-fix-iterative-game-repair-reinforcement-learning-and-large-multimodal"
-status: new
+status: "new"
 ---
 
 # Fly, Fail, Fix: Iterative Game Repair with Reinforcement Learning and Large Multimodal Models

@@ -1,9 +1,15 @@
 ---
-id: iros-0011
+id: "iros-0011"
 title: "Joint Space Control via Deep Reinforcement Learning"
-conference: IROS 2021
-date: 2021-09
+conference: "IROS 2021"
+date: "2021-09"
 authors:
+  - name: "Visak Kumar"
+    affiliation: "NVIDIA, Georgia Tech"
+    is_industry: true
+  - name: "David Hoeller"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,15 +19,8 @@ authors:
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Visak Kumar"
-    affiliation: ""
-    is_industry: false
-  - name: "David Hoeller"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=ICfve-GTTp8"
 abstract: "The dominant way to control a robot manipulator uses hand-crafted differential equations leveraging some form of inverse kinematics / dynamics. We propose a simple, versatile joint-level controller that dispenses with differential equations entirely. A deep neural network, trained via model-free rei"
 url: "https://research.nvidia.com/publication/2021-09_joint-space-control-deep-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # Joint Space Control via Deep Reinforcement Learning

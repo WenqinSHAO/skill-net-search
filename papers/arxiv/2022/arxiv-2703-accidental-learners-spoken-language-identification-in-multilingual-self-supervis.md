@@ -1,27 +1,26 @@
 ---
-id: arxiv-2703
+id: "arxiv-2703"
 title: "Accidental Learners: Spoken Language Identification in Multilingual Self-Supervised Models"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
   - name: "Travis M. Bartley"
-    affiliation: ""
+    affiliation: "City University of New York"
     is_industry: false
   - name: "Fei Jia"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Krishna C. Puvvada"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Samuel Kriman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2211.05103"
 abstract: "In this paper, we extend previous self-supervised approaches for language identification by experimenting with Conformer based architecture in a multilingual pre-training paradigm. We find that pre-trained speech models optimally encode language discriminatory information in lower layers. Further, w"
 url: "https://research.nvidia.com/publication/2022-11_accidental-learners-spoken-language-identification-multilingual-self-supervised"
-status: new
+status: "new"
 ---
 
 # Accidental Learners: Spoken Language Identification in Multilingual Self-Supervised Models

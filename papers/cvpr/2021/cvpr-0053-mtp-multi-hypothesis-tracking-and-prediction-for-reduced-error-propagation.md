@@ -1,22 +1,21 @@
 ---
-id: cvpr-0053
+id: "cvpr-0053"
 title: "MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation"
-conference: CVPR 2021
-date: 2021-10
+conference: "CVPR 2021"
+date: "2021-10"
 authors:
+  - name: "Xinshuo Weng"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xinshuo Weng"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://arxiv.org/abs/2110.09481"
 abstract: "Recently, there has been tremendous progress in developing each individual module of the standard perception-planning robot autonomy pipeline, including detection, tracking, prediction of other agents' trajectories, and ego-agent trajectory planning. Nevertheless, there has been less attention given"
 url: "https://research.nvidia.com/publication/2021-10_mtp-multi-hypothesis-tracking-and-prediction-reduced-error-propagation"
-status: new
+status: "new"
 ---
 
 # MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation

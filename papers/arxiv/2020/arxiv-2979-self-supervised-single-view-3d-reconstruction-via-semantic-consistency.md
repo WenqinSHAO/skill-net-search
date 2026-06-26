@@ -1,34 +1,33 @@
 ---
-id: arxiv-2979
+id: "arxiv-2979"
 title: "Self-supervised Single-view 3D Reconstruction via Semantic Consistency"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Xueting Li"
+    affiliation: "NVIDIA, UC Merced"
+    is_industry: true
   - name: "Sifei Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kihwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Varun Jampani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ming-Hsuan Yang"
+    affiliation: "UC Merced"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xueting Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Kihwan Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Varun Jampani"
-    affiliation: ""
-    is_industry: false
-  - name: "Ming-Hsuan Yang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=P_inKc9wJvo"
 abstract: "We learn a self-supervised, single-view 3D reconstruction model that predicts the 3D mesh shape, texture and camera pose of a target object with a collection of 2D images and silhouettes. The proposed method does not necessitate 3D supervision, manually annotated keypoints, multi-view images of an o"
 url: "https://research.nvidia.com/publication/2020-08_self-supervised-single-view-3d-reconstruction-semantic-consistency"
-status: new
+status: "new"
 ---
 
 # Self-supervised Single-view 3D Reconstruction via Semantic Consistency

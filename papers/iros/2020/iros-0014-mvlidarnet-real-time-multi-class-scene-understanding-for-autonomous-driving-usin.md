@@ -1,38 +1,37 @@
 ---
-id: iros-0014
+id: "iros-0014"
 title: "MVLidarNet: Real-Time Multi-Class Scene Understanding for Autonomous Driving Using Multiple Views"
-conference: IROS 2020
-date: 2020-06
+conference: "IROS 2020"
+date: "2020-06"
 authors:
+  - name: "Ke Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ryan Oldja"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nikolai Smolyanskiy"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ke Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Ryan Oldja"
-    affiliation: ""
-    is_industry: false
-  - name: "Nikolai Smolyanskiy"
-    affiliation: ""
-    is_industry: false
   - name: "Alexander Popov"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "David Wehr"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ibrahim Eden"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Joachim Pehserl"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Applied_perception
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://youtu.be/2ck5_sToayc"
 abstract: "Autonomous driving requires the inference of actionable information such as detecting and classifying objects, and determining the drivable space. To this end, we present Multi-View LidarNet (MVLidarNet), a two-stage deep neural network for multi-class object detection and drivable space segmentatio"
 url: "https://research.nvidia.com/publication/2020-06_mvlidarnet-real-time-multi-class-scene-understanding-autonomous-driving-using"
-status: new
+status: "new"
 ---
 
 # MVLidarNet: Real-Time Multi-Class Scene Understanding for Autonomous Driving Using Multiple Views

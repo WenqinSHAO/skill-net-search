@@ -1,16 +1,28 @@
 ---
-id: arxiv-2783
+id: "arxiv-2783"
 title: "Characterizing and Mitigating Soft Errors in GPU DRAM"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mike O&#039;Connor"
+  - name: "Nirmal R. Saxena"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mike O'Connor"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Donghyuk Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Paul Racunas"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saurabh Hukerikar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siva Kumar Sastry Hari"
@@ -19,22 +31,12 @@ authors:
   - name: "Stephen W. Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nirmal R. Saxena"
-    affiliation: ""
-    is_industry: false
-  - name: "Paul Racunas"
-    affiliation: ""
-    is_industry: false
-  - name: "Saurabh Hukerikar"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
+  - name: "Mike O&#039;Connor"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +48,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9744333"
 abstract: "While graphics processing units (GPUs) are used in high-reliability systems,wide GPU dynamic random-access memory (DRAM) interfaces make error protection difficult, as wide-device correction through error checking and correcting (ECC) is expensive and impractical. This challenge is compounded by wor"
 url: "https://research.nvidia.com/publication/2022-03_characterizing-and-mitigating-soft-errors-gpu-dram"
-status: new
+status: "new"
 ---
 
 # Characterizing and Mitigating Soft Errors in GPU DRAM

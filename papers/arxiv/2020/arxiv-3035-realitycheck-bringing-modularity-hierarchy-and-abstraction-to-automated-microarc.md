@@ -1,21 +1,20 @@
 ---
-id: arxiv-3035
+id: "arxiv-3035"
 title: "RealityCheck: Bringing Modularity, Hierarchy, and Abstraction to Automated Microarchitectural Memory Consistency Verification"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
+  - name: "Yatin A. Manerkar"
+    affiliation: "Princeton"
+    is_industry: false
   - name: "Daniel Lustig"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yatin A. Manerkar"
-    affiliation: ""
-    is_industry: false
   - name: "Margaret Martonosi"
-    affiliation: ""
+    affiliation: "Princeton"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ research_areas:
   - "Computer Architecture"
 abstract: "Modern SoCs are heterogeneous parallel systems comprised of components developed by distinct teams and possibly even different vendors. The memory consistency model (MCM) of processors in such SoCs specifies the ordering rules which constrain the values that can be read by load instructions in paral"
 url: "https://research.nvidia.com/publication/2020-03_realitycheck-bringing-modularity-hierarchy-and-abstraction-automated"
-status: new
+status: "new"
 ---
 
 # RealityCheck: Bringing Modularity, Hierarchy, and Abstraction to Automated Microarchitectural Memory Consistency Verification

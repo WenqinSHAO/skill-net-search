@@ -1,31 +1,30 @@
 ---
-id: iclr-0014
+id: "iclr-0014"
 title: "Add-it: Training-Free Object Insertion in Images via Pretrained Diffusion Models"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
   - name: "Yoad Tewel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dvir Samuel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Lior Wolf"
+    affiliation: "Tel Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Dvir Samuel"
-    affiliation: ""
-    is_industry: false
-  - name: "Lior Wolf"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://iclr.cc/virtual/2025/poster/29207"
 abstract: "Adding Object into images based on text instructions is a challenging task in semantic image editing, requiring a balance between preserving the original scene and seamlessly integrating the new object in a fitting location. Despite extensive efforts, existing models often struggle with this balance"
 url: "https://research.nvidia.com/publication/2025-04_add-it-training-free-object-insertion-images-pretrained-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Add-it: Training-Free Object Insertion in Images via Pretrained Diffusion Models

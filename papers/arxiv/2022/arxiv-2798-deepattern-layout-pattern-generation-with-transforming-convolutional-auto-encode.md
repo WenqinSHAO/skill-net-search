@@ -1,34 +1,33 @@
 ---
-id: arxiv-2798
+id: "arxiv-2798"
 title: "DeePattern: Layout Pattern Generation with Transforming Convolutional Auto-Encoder"
-conference: arXiv 2022
-date: 2022-02
+conference: "arXiv 2022"
+date: "2022-02"
 authors:
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shuhe Li"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
   - name: "Wen Chen"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
   - name: "Piyush Pathak"
-    affiliation: ""
+    affiliation: "Cadence Design Systems"
     is_industry: false
   - name: "Frank Gennari"
-    affiliation: ""
+    affiliation: "Cadence Design Systems"
     is_industry: false
   - name: "Ya-Chieh Lai"
-    affiliation: ""
+    affiliation: "Cadence Design Systems"
     is_industry: false
   - name: "Bei Yu"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
 topics:
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Generative AI"
 abstract: "VLSI layout patterns provide critical resources in various design for manufacturability research, from early technology node development to back-end design and sign-off flows. However, a diverse layout pattern library is not always available due to long logic-to-chip design cycle, which slows down t"
 url: "https://research.nvidia.com/publication/2022-02_deepattern-layout-pattern-generation-transforming-convolutional-auto-encoder"
-status: new
+status: "new"
 ---
 
 # DeePattern: Layout Pattern Generation with Transforming Convolutional Auto-Encoder

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2719
+id: "arxiv-2719"
 title: "Augmenting Legacy Networks for Flexible Inference."
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
   - name: "Jason Clemons"
     affiliation: "NVIDIA"
@@ -10,17 +10,16 @@ authors:
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Maying Shen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jose M. Alvarez"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Maying Shen"
-    affiliation: ""
-    is_industry: false
-  - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Abstract.&nbsp;Once deployed in the field, Deep Neural Networks (DNNs) run on devices with widely different compute capabilities and whose computational load varies over time. Dynamic network architectures are one of the existing techniques developed to handle the varying computational load in real-"
 url: "https://research.nvidia.com/publication/2022-10_augmenting-legacy-networks-flexible-inference"
-status: new
+status: "new"
 ---
 
 # Augmenting Legacy Networks for Flexible Inference.

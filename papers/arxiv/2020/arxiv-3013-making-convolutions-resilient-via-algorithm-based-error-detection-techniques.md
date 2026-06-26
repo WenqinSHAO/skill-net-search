@@ -1,8 +1,8 @@
 ---
-id: arxiv-3013
+id: "arxiv-3013"
 title: "Making Convolutions Resilient via Algorithm-Based Error Detection Techniques"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Siva Hari"
     affiliation: "NVIDIA"
@@ -10,17 +10,16 @@ authors:
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Resilience and Safety"
 abstract: "The ability of Convolutional Neural Networks (CNNs) to accurately process real-time telemetry has boosted their use in safety-critical and high-performance computing systems. As such systems require high levels of resilience to errors, CNNs must execute correctly in the presence of hardware faults. "
 url: "https://research.nvidia.com/publication/2020-06_making-convolutions-resilient-algorithm-based-error-detection-techniques"
-status: new
+status: "new"
 ---
 
 # Making Convolutions Resilient via Algorithm-Based Error Detection Techniques

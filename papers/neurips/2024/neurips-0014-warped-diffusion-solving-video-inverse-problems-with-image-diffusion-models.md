@@ -1,12 +1,21 @@
 ---
-id: neurips-0014
+id: "neurips-0014"
 title: "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Giannis Daras"
+    affiliation: "UT Austin"
+    is_industry: false
+  - name: "Weili Nie"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alexandros G. Dimakis"
+    affiliation: "UT Austin"
+    is_industry: false
   - name: "Morteza Mardani"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,20 +25,10 @@ authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Giannis Daras"
-    affiliation: ""
-    is_industry: false
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexandros G. Dimakis"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://giannisdaras.github.io/warped_diffusion.github.io/"
 abstract: "Using image models naively for solving inverse video problems often suffers from flickering, texture-sticking, and temporal inconsistency in generated videos. To tackle these problems, in this paper, we view frames as continuous functions in the 2D space, and videos as a sequence of continuous warpi"
 url: "https://research.nvidia.com/publication/2024-12_warped-diffusion-solving-video-inverse-problems-image-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models

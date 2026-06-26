@@ -1,18 +1,17 @@
 ---
-id: siggraph-0018
+id: "siggraph-0018"
 title: "Modeling Hair Strands with Roving Capsules"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
   - name: "Alexander Reshetov"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Hart"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +19,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Hair strands can be modeled by sweeping spheres with varying radii along Bézier curves. We ray-trace such shapes by finding intersections of a given ray with a set of capsules dynamically defined at runtime. A substantial performance boost is achieved by systematically eliminating parts of the shape"
 url: "https://research.nvidia.com/publication/2024-07_modeling-hair-strands-roving-capsules"
-status: new
+status: "new"
 ---
 
 # Modeling Hair Strands with Roving Capsules

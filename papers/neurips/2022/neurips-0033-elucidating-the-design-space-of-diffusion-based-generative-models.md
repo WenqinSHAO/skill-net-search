@@ -1,8 +1,8 @@
 ---
-id: neurips-0033
+id: "neurips-0033"
 title: "Elucidating the Design Space of Diffusion-Based Generative Models"
-conference: NeurIPS 2022
-date: 2022-11
+conference: "NeurIPS 2022"
+date: "2022-11"
 authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
@@ -20,7 +20,6 @@ topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://github.com/NVlabs/edm"
 abstract: "We argue that the theory and practice of diffusion-based generative models are currently unnecessarily convoluted and seek to remedy the situation by presenting a design space that clearly separates the concrete design choices. This lets us identify several changes to both the sampling and training "
 url: "https://research.nvidia.com/publication/2022-11_elucidating-design-space-diffusion-based-generative-models"
-status: new
+status: "new"
 ---
 
 # Elucidating the Design Space of Diffusion-Based Generative Models

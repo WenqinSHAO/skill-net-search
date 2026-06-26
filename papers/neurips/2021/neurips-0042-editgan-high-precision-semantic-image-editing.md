@@ -1,32 +1,31 @@
 ---
-id: neurips-0042
+id: "neurips-0042"
 title: "EditGAN: High-Precision Semantic Image Editing"
-conference: NeurIPS 2021
-date: 2021-12
+conference: "NeurIPS 2021"
+date: "2021-12"
 authors:
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
   - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/editGAN/"
 abstract: "Generative adversarial networks (GANs) have recently found applications in image editing. However, most GAN based image editing methods often require large scale datasets with semantic segmentation annotations for training, only provide high level control, or merely interpolate between different ima"
 url: "https://research.nvidia.com/publication/2021-12_editgan-high-precision-semantic-image-editing"
-status: new
+status: "new"
 ---
 
 # EditGAN: High-Precision Semantic Image Editing

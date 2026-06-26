@@ -1,13 +1,25 @@
 ---
-id: arxiv-2797
+id: "arxiv-2797"
 title: "Reinforcement Learning for Datacenter Congestion Control"
-conference: arXiv 2022
-date: 2022-02
+conference: "arXiv 2022"
+date: "2022-02"
 authors:
   - name: "Chen Tessler"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yuval Shpigelman"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gal Dalal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Amit Mendelbaum"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Doron Kazakov"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Benjamin Fuhrer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
@@ -16,22 +28,9 @@ authors:
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yuval Shpigelman"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit Mendelbaum"
-    affiliation: ""
-    is_industry: false
-  - name: "Doron Kazakov"
-    affiliation: ""
-    is_industry: false
-  - name: "Benjamin Fuhrer"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "Networking"
 abstract: "We approach the task of network congestion control in datacenters using Reinforcement Learning (RL). Successful congestion control algorithms can dramatically improve latency and overall network throughput. Until today, no such learning-based algorithms have shown practical potential in this domain."
 url: "https://research.nvidia.com/publication/2022-02_reinforcement-learning-datacenter-congestion-control"
-status: new
+status: "new"
 ---
 
 # Reinforcement Learning for Datacenter Congestion Control

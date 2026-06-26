@@ -1,63 +1,62 @@
 ---
-id: arxiv-2581
+id: "arxiv-2581"
 title: "Large Language Model Based Generative Error Correction: A Challenge and Baselines for Speech Recognition, Speaker Tagging, and Emotion Recognition"
-conference: arXiv 2024
-date: 2024-12
+conference: "arXiv 2024"
+date: "2024-12"
 authors:
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Taejin Park"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuan Gong"
-    affiliation: ""
+    affiliation: "XAI"
     is_industry: false
   - name: "Yuanchao Li"
-    affiliation: ""
+    affiliation: "U Edinburgh"
     is_industry: false
   - name: "Zhehuai Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "yen-ting Lin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chen Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuchen Hu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kunal Dhawan"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Piotr Zelasko"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chao Zhang"
-    affiliation: ""
+    affiliation: "tsinghua university"
     is_industry: false
   - name: "Yun-Nung Chen"
-    affiliation: ""
+    affiliation: "national taiwan university"
     is_industry: false
   - name: "Yu Tsao"
-    affiliation: ""
+    affiliation: "national taiwan university"
     is_industry: false
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shinji Watanabe"
-    affiliation: ""
+    affiliation: "cmu"
     is_industry: false
   - name: "Andreas Stolcke"
-    affiliation: ""
+    affiliation: "ICSI"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -66,7 +65,7 @@ research_areas:
   - "Speech Processing"
 abstract: "Given recent advances in generative AI technology, a key question is how large language models (LLMs) can enhance acoustic modeling tasks using text decoding results from a frozen, pretrained automatic speech recognition (ASR) model. To explore new capabilities in language modeling for speech proces"
 url: "https://research.nvidia.com/publication/2024-12_large-language-model-based-generative-error-correction-challenge-and-baselines"
-status: new
+status: "new"
 ---
 
 # Large Language Model Based Generative Error Correction: A Challenge and Baselines for Speech Recognition, Speaker Tagging, and Emotion Recognition

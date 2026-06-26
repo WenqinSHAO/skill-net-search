@@ -1,24 +1,23 @@
 ---
-id: arxiv-2926
+id: "arxiv-2926"
 title: "Data-Free Knowledge Distillation for Object Detection"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Akshay Chawla"
+    affiliation: "CMU"
+    is_industry: false
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Akshay Chawla"
-    affiliation: ""
-    is_industry: false
   - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We present DeepInversion for Object Detection (DIODE) to enable data-free knowledge distillation for neural networks trained on the object detection task. From a data-free perspective, DIODE synthesizes images given only an off-the-shelf pre-trained detection network and without any prior domain kno"
 url: "https://research.nvidia.com/publication/2021-01_data-free-knowledge-distillation-object-detection"
-status: new
+status: "new"
 ---
 
 # Data-Free Knowledge Distillation for Object Detection

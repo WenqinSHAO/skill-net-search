@@ -1,8 +1,8 @@
 ---
-id: arxiv-2906
+id: "arxiv-2906"
 title: "Making Convolutions Resilient via Algorithm-Based Error Detection Techniques"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Siva Hari"
     affiliation: "NVIDIA"
@@ -10,17 +10,16 @@ authors:
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9366780"
 abstract: "Convolutional Neural Networks (CNNs) are being increasingly used in safety-critical and high-performance computing systems. As such systems require high levels of resilience to errors, CNNs must execute correctly in the presence of hardware faults. Full duplication provides the needed assurance but "
 url: "https://research.nvidia.com/publication/2021-03_making-convolutions-resilient-algorithm-based-error-detection-techniques"
-status: new
+status: "new"
 ---
 
 # Making Convolutions Resilient via Algorithm-Based Error Detection Techniques

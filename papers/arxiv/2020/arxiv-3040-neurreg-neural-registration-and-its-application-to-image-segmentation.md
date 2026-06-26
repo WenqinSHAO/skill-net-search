@@ -1,9 +1,12 @@
 ---
-id: arxiv-3040
+id: "arxiv-3040"
 title: "Neurreg: Neural registration and its application to image segmentation"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
+  - name: "Wentao Zhu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Andriy Myronenko"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,23 +19,19 @@ authors:
   - name: "Holger Roth"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yufang Huang"
+    affiliation: "Cornell"
+    is_industry: false
+  - name: "Fausto Milletari"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daguang Xu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Wentao Zhu"
-    affiliation: ""
-    is_industry: false
-  - name: "Yufang Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Fausto Milletari"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ research_areas:
   - "Medical"
 abstract: "Registration is a fundamental task in medical image analysis which can be applied to several tasks including image segmentation, intra-operative tracking, multi-modal image alignment, and motion analysis. Popular registration tools such as ANTs and NiftyReg optimize an objective function for each pa"
 url: "https://research.nvidia.com/publication/2020-03_neurreg-neural-registration-and-its-application-image-segmentation"
-status: new
+status: "new"
 ---
 
 # Neurreg: Neural registration and its application to image segmentation

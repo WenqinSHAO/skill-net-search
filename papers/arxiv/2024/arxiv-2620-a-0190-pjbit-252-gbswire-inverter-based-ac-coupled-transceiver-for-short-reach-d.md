@@ -1,10 +1,13 @@
 ---
-id: arxiv-2620
+id: "arxiv-2620"
 title: "A 0.190-pJ/bit 25.2-Gb/s/wire Inverter-Based AC-Coupled Transceiver for Short-Reach Die-to-Die Interfaces in 5-nm CMOS"
-conference: arXiv 2024
-date: 2024-04
+conference: "arXiv 2024"
+date: "2024-04"
 authors:
   - name: "Yoshinori Nishi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "John W. Poulton"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Xi Chen"
@@ -34,12 +37,8 @@ authors:
   - name: "Tom Gray"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "John W. Poulton"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/10356114"
 abstract: "This article presents an inverter-based short-reach ac-coupled toggle (ISR-ACT) link targeted for short-reach die-to-die communication over silicon interposer or similar high-density interconnect. The ISR-ACT’s transmitter (TX) sends non-return-to-zero (NRZ) data through a small series capacitor to "
 url: "https://research.nvidia.com/publication/2024-04_0190-pjbit-252-gbswire-inverter-based-ac-coupled-transceiver-short-reach-die"
-status: new
+status: "new"
 ---
 
 # A 0.190-pJ/bit 25.2-Gb/s/wire Inverter-Based AC-Coupled Transceiver for Short-Reach Die-to-Die Interfaces in 5-nm CMOS

@@ -1,61 +1,60 @@
 ---
-id: iclr-0010
+id: "iclr-0010"
 title: "Latent Action Pretraining from Videos"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Seonghyeon Ye"
+    affiliation: "KAIST"
+    is_industry: false
+  - name: "Joel Jang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Byeongguk Jeon"
+    affiliation: "KAIST"
+    is_industry: false
+  - name: "Sejune Joo"
+    affiliation: "KAIST"
+    is_industry: false
+  - name: "Jianwei Yang"
+    affiliation: "Microsoft Research"
+    is_industry: true
+  - name: "Baolin Peng"
+    affiliation: "Microsoft Research"
+    is_industry: true
   - name: "Ajay Mandlekar"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Reuben Tan"
+    affiliation: "Microsoft Research"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seonghyeon Ye"
-    affiliation: ""
-    is_industry: false
-  - name: "Joel Jang"
-    affiliation: ""
-    is_industry: false
-  - name: "Byeongguk Jeon"
-    affiliation: ""
-    is_industry: false
-  - name: "Sejune Joo"
-    affiliation: ""
-    is_industry: false
-  - name: "Jianwei Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Baolin Peng"
-    affiliation: ""
-    is_industry: false
-  - name: "Reuben Tan"
-    affiliation: ""
-    is_industry: false
   - name: "Yuchen Lin"
-    affiliation: ""
+    affiliation: "Allen Institute for AI"
     is_industry: false
   - name: "Lars Liden"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Microsoft Research"
+    is_industry: true
   - name: "Kimin Lee"
-    affiliation: ""
+    affiliation: "KAIST"
     is_industry: false
   - name: "Jianfeng Gao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Microsoft Research"
+    is_industry: true
   - name: "Luke Zettlemoyer"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "University of Washington, NVIDIA"
+    is_industry: true
   - name: "Minjoon Seo"
-    affiliation: ""
+    affiliation: "KAIST"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -68,7 +67,7 @@ external_links:
     url: "https://latentactionpretraining.github.io"
 abstract: "We introduce Latent Action Pretraining, the first unsupervised method for pretraining Vision-Language-Action (VLA) models without ground-truth robot action labels. Existing Vision-Language-Action models require action labels typically collected by human teleoperators during pretraining, which signif"
 url: "https://research.nvidia.com/publication/2025-04_latent-action-pretraining-videos"
-status: new
+status: "new"
 ---
 
 # Latent Action Pretraining from Videos

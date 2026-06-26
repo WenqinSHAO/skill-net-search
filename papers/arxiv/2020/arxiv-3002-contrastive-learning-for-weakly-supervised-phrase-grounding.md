@@ -1,31 +1,30 @@
 ---
-id: arxiv-3002
+id: "arxiv-3002"
 title: "Contrastive Learning for Weakly Supervised Phrase Grounding"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Tanmay Gupta"
+    affiliation: ""
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jan Kautz"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Tanmay Gupta"
-    affiliation: ""
-    is_industry: false
   - name: "Xiaodong Yang"
     affiliation: ""
     is_industry: false
+  - name: "Jan Kautz"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Derek Hoiem"
     affiliation: ""
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Phrase grounding, the problem of associating image regions to caption words, is a crucial component of vision-language tasks. We show that phrase grounding can be learned by optimizing word-region attention to maximize a lower bound on mutual information between images and caption words. Given pairs"
 url: "https://research.nvidia.com/publication/2020-06_contrastive-learning-weakly-supervised-phrase-grounding"
-status: new
+status: "new"
 ---
 
 # Contrastive Learning for Weakly Supervised Phrase Grounding

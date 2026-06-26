@@ -1,10 +1,16 @@
 ---
-id: arxiv-2811
+id: "arxiv-2811"
 title: "KAMA: 3D Keypoint Aware Body Mesh Articulation"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
   - name: "Umar Iqbal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kevin Xie"
+    affiliation: "NVDIA"
+    is_industry: false
+  - name: "Kelly Guo"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
@@ -13,17 +19,10 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kevin Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Kelly Guo"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.13502"
 abstract: "We present KAMA, a 3D Keypoint Aware Mesh Articulation approach that allows us to estimate a human body mesh from the positions of 3D body keypoints. To this end, we learn to estimate 3D positions of 26 body keypoints and propose an analytical solution to articulate a parametric body model, SMPL, vi"
 url: "https://research.nvidia.com/publication/2021-12_kama-3d-keypoint-aware-body-mesh-articulation"
-status: new
+status: "new"
 ---
 
 # KAMA: 3D Keypoint Aware Body Mesh Articulation

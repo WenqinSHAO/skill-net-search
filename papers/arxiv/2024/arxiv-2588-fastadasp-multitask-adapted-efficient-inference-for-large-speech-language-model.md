@@ -1,24 +1,23 @@
 ---
-id: arxiv-2588
+id: "arxiv-2588"
 title: "FastAdaSP: Multitask-Adapted Efficient Inference for Large Speech Language Model"
-conference: arXiv 2024
-date: 2024-11
+conference: "arXiv 2024"
+date: "2024-11"
 authors:
+  - name: "Yichen Lu"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
+  - name: "Jiaqi Song"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yichen Lu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaqi Song"
-    affiliation: ""
-    is_industry: false
   - name: "Shinji Watanabe"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://aclanthology.org/2024.emnlp-industry.33.pdf"
 abstract: "In this study, we aim to explore Multitask Speech Language Model (SpeechLM) efficient inference via token reduction. Unlike other modalities such as vision or text, speech has unique temporal dependencies, making previous efficient inference works on other modalities not directly applicable. Further"
 url: "https://research.nvidia.com/publication/2024-11_fastadasp-multitask-adapted-efficient-inference-large-speech-language-model"
-status: new
+status: "new"
 ---
 
 # FastAdaSP: Multitask-Adapted Efficient Inference for Large Speech Language Model

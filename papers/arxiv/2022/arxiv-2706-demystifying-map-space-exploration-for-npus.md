@@ -1,26 +1,25 @@
 ---
-id: arxiv-2706
+id: "arxiv-2706"
 title: "Demystifying Map Space Exploration for NPUs"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
+  - name: "Sheng-Chun Kao"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sheng-Chun Kao"
-    affiliation: ""
-    is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9975389"
 abstract: "Map Space Exploration is the problem of finding optimized mappings of a Deep Neural Network (DNN) model on an accelerator. It is known to be extremely computationally expensive, and there has been active research looking at both heuristics and learning-based methods to make the problem computational"
 url: "https://research.nvidia.com/publication/2022-11_demystifying-map-space-exploration-npus"
-status: new
+status: "new"
 ---
 
 # Demystifying Map Space Exploration for NPUs

@@ -1,9 +1,12 @@
 ---
-id: arxiv-2809
+id: "arxiv-2809"
 title: "Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
+  - name: "Jacob R. Stevens"
+    affiliation: "Purdue"
+    is_industry: false
   - name: "Rangharajan Venkatesan"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,16 +16,12 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jacob R. Stevens"
-    affiliation: ""
-    is_industry: false
   - name: "Anand Raghunathan"
-    affiliation: ""
+    affiliation: "Purdue"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2103.09301"
 abstract: "Transformers have transformed the field of natural language processing. This performance is largely attributed to the use of stacked self-attention layers, each of which consists of matrix multiplies as well as softmax operations. As a result, unlike other neural networks, the softmax operation acco"
 url: "https://research.nvidia.com/publication/2021-12_softermax-hardwaresoftware-co-design-efficient-softmax-transformers"
-status: new
+status: "new"
 ---
 
 # Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers

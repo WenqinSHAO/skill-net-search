@@ -1,8 +1,8 @@
 ---
-id: cvpr-0021
+id: "cvpr-0021"
 title: "GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
@@ -10,6 +10,9 @@ authors:
   - name: "Xueting Li"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yangyi Huang"
+    affiliation: "Chinese University of Hong Kong"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,14 +25,10 @@ authors:
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yangyi Huang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://arxiv.org/abs/2312.11461"
 abstract: "Gaussian splatting has emerged as a powerful 3D representation that harnesses the advantages of both explicit (mesh) and implicit (NeRF) 3D representations. In this paper, we seek to leverage Gaussian splatting to generate realistic animatable avatars from textual descriptions, addressing the limita"
 url: "https://research.nvidia.com/publication/2024-06_gavatar-animatable-3d-gaussian-avatars-implicit-mesh-learning"
-status: new
+status: "new"
 ---
 
 # GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning

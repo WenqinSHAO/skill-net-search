@@ -1,8 +1,8 @@
 ---
-id: icra-0014
+id: "icra-0014"
 title: "BITS: Bi-level Imitation for Traffic Simulation"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
   - name: "Danfei Xu"
     affiliation: "NVIDIA"
@@ -20,7 +20,6 @@ topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://arxiv.org/abs/2208.12403"
 abstract: "Simulation is the key to scaling up validation and verification for robotic systems such as autonomous vehicles. Despite advances in high-fidelity physics and sensor simulation, a critical gap remains in simulating realistic behaviors of road users. This is because, unlike simulating physics and gra"
 url: "https://research.nvidia.com/publication/2023-05_bits-bi-level-imitation-traffic-simulation"
-status: new
+status: "new"
 ---
 
 # BITS: Bi-level Imitation for Traffic Simulation

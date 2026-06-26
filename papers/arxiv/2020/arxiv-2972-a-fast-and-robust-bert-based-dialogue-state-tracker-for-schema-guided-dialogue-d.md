@@ -1,24 +1,23 @@
 ---
-id: arxiv-2972
+id: "arxiv-2972"
 title: "A Fast and Robust BERT-based Dialogue State Tracker for Schema-Guided Dialogue Dataset"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomasz Kornuta"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2008.12335"
 abstract: "Dialog State Tracking (DST) is one of the most crucial modules for goal-oriented dialogue systems. In this paper, we introduce FastSGT (Fast Schema Guided Tracker), a fast and robust BERT-based model for state tracking in goal-oriented dialogue systems. The proposed model is designed for the Schema-"
 url: "https://research.nvidia.com/publication/2020-08_fast-and-robust-bert-based-dialogue-state-tracker-schema-guided-dialogue"
-status: new
+status: "new"
 ---
 
 # A Fast and Robust BERT-based Dialogue State Tracker for Schema-Guided Dialogue Dataset

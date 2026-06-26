@@ -1,25 +1,24 @@
 ---
-id: arxiv-2587
+id: "arxiv-2587"
 title: "From Descriptive Richness to Bias: Unveiling the Dark Side of Generative Image Caption Enrichment"
-conference: arXiv 2024
-date: 2024-11
+conference: "arXiv 2024"
+date: "2024-11"
 authors:
+  - name: "Yusuke Hirota"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ryo Hachiuma"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yusuke Hirota"
-    affiliation: ""
-    is_industry: false
   - name: "Yuta Nakashima"
-    affiliation: ""
+    affiliation: "Osaka University"
     is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/pdf/2406.13912"
 abstract: "Large language models (LLMs) have enhanced the capacity of vision-language models to caption visual text. This generative approach to image caption enrichment further makes textual captions more descriptive, improving alignment with the visual context. However, while many studies focus on benefits o"
 url: "https://research.nvidia.com/publication/2024-11_descriptive-richness-bias-unveiling-dark-side-generative-image-caption"
-status: new
+status: "new"
 ---
 
 # From Descriptive Richness to Bias: Unveiling the Dark Side of Generative Image Caption Enrichment

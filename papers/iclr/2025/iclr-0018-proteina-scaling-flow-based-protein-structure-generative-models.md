@@ -1,13 +1,34 @@
 ---
-id: iclr-0018
+id: "iclr-0018"
 title: "Proteina: Scaling Flow-based Protein Structure Generative Models"
-conference: ICLR 2025
-date: 2025-01
+conference: "ICLR 2025"
+date: "2025-01"
 authors:
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Kieran Didi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zuobai Zhang"
+    affiliation: "NVIDIA, Mila - Quebec AI Institute, Universite de Montreal"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhonglin Cao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jason Yim"
+    affiliation: "NVIDIA, Massachusetts Institute of Technology"
+    is_industry: true
+  - name: "Mario Geiger"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Christian Dallago"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Emine Kucukbenli"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
@@ -16,31 +37,9 @@ authors:
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zuobai Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhonglin Cao"
-    affiliation: ""
-    is_industry: false
-  - name: "Jason Yim"
-    affiliation: ""
-    is_industry: false
-  - name: "Mario Geiger"
-    affiliation: ""
-    is_industry: false
-  - name: "Christian Dallago"
-    affiliation: ""
-    is_industry: false
-  - name: "Emine Kucukbenli"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -52,7 +51,7 @@ external_links:
     url: "https://research.nvidia.com/labs/genair/proteina/"
 abstract: "Recently, diffusion- and flow-based generative models of protein structures have emerged as a powerful tool for de novo protein design. Here, we develop Proteina, a new large-scale flow-based protein backbone generator that utilizes hierarchical fold class labels for conditioning and relies on a tai"
 url: "https://research.nvidia.com/publication/2025-01_proteina-scaling-flow-based-protein-structure-generative-models"
-status: new
+status: "new"
 ---
 
 # Proteina: Scaling Flow-based Protein Structure Generative Models

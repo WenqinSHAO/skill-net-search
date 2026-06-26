@@ -1,43 +1,42 @@
 ---
-id: arxiv-3054
+id: "arxiv-3054"
 title: "FIST: A Feature-Importance Sampling and Tree-Based Method for Automatic Design Flow Parameter Tuning"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
+  - name: "Zhiyao Xie"
+    affiliation: "Duke"
+    is_industry: false
+  - name: "Guan-Qi Fang"
+    affiliation: "NTUST"
+    is_industry: false
+  - name: "Yu-Hung Huang"
+    affiliation: "NTUST"
+    is_industry: false
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yanqing Zhang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhiyao Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Guan-Qi Fang"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu-Hung Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "Shao-Yun Fang"
-    affiliation: ""
+    affiliation: "NTUST"
     is_industry: false
   - name: "Jiang Hu"
-    affiliation: ""
+    affiliation: "Texas A&M"
     is_industry: false
   - name: "Yiran Chen"
-    affiliation: ""
+    affiliation: "Duke"
     is_industry: false
   - name: "Erick Carvajal Barboza"
-    affiliation: ""
+    affiliation: "Texas A&M"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Design flow parameters are of utmost importance to chip design quality and require a painfully long time to evaluate their effects. In reality, flow parameter tuning is usually performed manually based on designers’ experience in an ad hoc manner. In this work, we introduce a machine learning based "
 url: "https://research.nvidia.com/publication/2020-01_fist-feature-importance-sampling-and-tree-based-method-automatic-design-flow"
-status: new
+status: "new"
 ---
 
 # FIST: A Feature-Importance Sampling and Tree-Based Method for Automatic Design Flow Parameter Tuning

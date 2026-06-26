@@ -1,8 +1,8 @@
 ---
-id: arxiv-2708
+id: "arxiv-2708"
 title: "Esports and expertise: what competitive gaming can teach us about mastery"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
@@ -14,14 +14,13 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arjun Madhusudan"
-    affiliation: ""
+    affiliation: "NCSU"
     is_industry: false
   - name: "Benjamin Watson"
-    affiliation: ""
+    affiliation: "NCSU"
     is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Human Computer Interaction"
 abstract: "Historically, much research and development in human computer interaction has focused on atomic and generalizable tasks, where task completion time indicates productivity. However, the emergence of competitive games and esports reminds us of an alternative perspective on human performance in HCI: ma"
 url: "https://research.nvidia.com/publication/2022-11_esports-and-expertise-what-competitive-gaming-can-teach-us-about-mastery"
-status: new
+status: "new"
 ---
 
 # Esports and expertise: what competitive gaming can teach us about mastery

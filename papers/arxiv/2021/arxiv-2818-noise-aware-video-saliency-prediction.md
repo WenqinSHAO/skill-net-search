@@ -1,10 +1,13 @@
 ---
-id: arxiv-2818
+id: "arxiv-2818"
 title: "Noise-Aware Video Saliency Prediction"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
   - name: "Ekta Prashnani"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Orazio Gallo"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Joohwan Kim"
@@ -13,19 +16,15 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Iuri Frosio"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
   - name: "Pradeep Sen"
     affiliation: ""
     is_industry: false
+  - name: "Iuri Frosio"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.08038"
 abstract: "We tackle the problem of predicting saliency maps for videos of dynamic scenes. We note that the accuracy of the maps reconstructed from the gaze data of a fixed number of observers varies with the frame, as it depends on the content of the scene. This issue is particularly pressing when a limited n"
 url: "https://research.nvidia.com/publication/2021-11_noise-aware-video-saliency-prediction"
-status: new
+status: "new"
 ---
 
 # Noise-Aware Video Saliency Prediction

@@ -1,30 +1,29 @@
 ---
-id: arxiv-2880
+id: "arxiv-2880"
 title: "Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
+  - name: "Kartik Hegde"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sitao Huang"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Vikas Chandra"
+    affiliation: "Facebook"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kartik Hegde"
-    affiliation: ""
-    is_industry: false
-  - name: "Sitao Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Vikas Chandra"
-    affiliation: ""
-    is_industry: false
   - name: "Christopher W. Fletcher"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3445814.3446762"
 abstract: "Modern day computing increasingly relies on specialization to satiate growing performance and efficiency requirements. A core challenge in designing such specialized hardware architectures is how to perform mapping space search, i.e., search for an optimal mapping from algorithm to hardware. Prior w"
 url: "https://research.nvidia.com/publication/2021-04_mind-mappings-enabling-efficient-algorithm-accelerator-mapping-space-search"
-status: new
+status: "new"
 ---
 
 # Mind Mappings: Enabling Efficient Algorithm-Accelerator Mapping Space Search

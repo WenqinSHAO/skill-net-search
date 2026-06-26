@@ -1,25 +1,24 @@
 ---
-id: siggraph-0045
+id: "siggraph-0045"
 title: "Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Rohan Sawhney"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bailey Miller"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Ioannis Gkioulekas"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Keenan Crane"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Grid-free Monte Carlo methods based on the walk on spheres (WoS) algorithm solve fundamental partial differential equations (PDEs) like the Poisson equation without discretizing the problem domain, nor approximating functions a finite basis. Such methods hence avoid aliasing in the solution, and eva"
 url: "https://research.nvidia.com/publication/2023-08_walk-stars-grid-free-monte-carlo-method-pdes-neumann-boundary-conditions"
-status: new
+status: "new"
 ---
 
 # Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions

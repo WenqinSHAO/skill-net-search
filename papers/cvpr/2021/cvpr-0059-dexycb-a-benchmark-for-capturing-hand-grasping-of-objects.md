@@ -1,8 +1,8 @@
 ---
-id: cvpr-0059
+id: "cvpr-0059"
 title: "DexYCB: A Benchmark for Capturing Hand Grasping of Objects"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
@@ -10,13 +10,22 @@ authors:
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yu Xiang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Pavlo Molchanov"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ankur Handa"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yashraj Narang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Karl Van Wyk"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Umar Iqbal"
@@ -28,22 +37,12 @@ authors:
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yu Xiang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ankur Handa"
-    affiliation: ""
-    is_industry: false
-  - name: "Karl Van Wyk"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ external_links:
     url: "https://dex-ycb.github.io"
 abstract: "We introduce DexYCB, a new dataset for capturing hand grasping of objects. We first compare DexYCB with a related one through cross-dataset evaluation. We then present a thorough benchmark of state-of-the-art approaches on three relevant tasks: 2D object and keypoint detection, 6D object pose estima"
 url: "https://research.nvidia.com/publication/2021-06_dexycb-benchmark-capturing-hand-grasping-objects"
-status: new
+status: "new"
 ---
 
 # DexYCB: A Benchmark for Capturing Hand Grasping of Objects

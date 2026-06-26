@@ -1,32 +1,31 @@
 ---
-id: arxiv-2658
+id: "arxiv-2658"
 title: "Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields"
-conference: arXiv 2023
-date: 2023-07
+conference: "arXiv 2023"
+date: "2023-07"
 authors:
+  - name: "Guojin Chen"
+    affiliation: "CUHK"
+    is_industry: false
+  - name: "Zehua Pei"
+    affiliation: "CUHK"
+    is_industry: false
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Guojin Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Zehua Pei"
-    affiliation: ""
-    is_industry: false
   - name: "Yuzhe Ma"
-    affiliation: ""
+    affiliation: "HKUST"
     is_industry: false
   - name: "Bei Yu"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
   - name: "Martin Wong"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "Generative AI"
 abstract: "Lithography is fundamental to integrated circuit fabrication, necessitating large computation overhead. The advancement of machine learning (ML)-based lithography models alleviates the trade-offs between manufacturing process expense and capability. However, all previous methods regard the lithograp"
 url: "https://research.nvidia.com/publication/2023-07_physics-informed-optical-kernel-regression-using-complex-valued-neural-fields"
-status: new
+status: "new"
 ---
 
 # Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields

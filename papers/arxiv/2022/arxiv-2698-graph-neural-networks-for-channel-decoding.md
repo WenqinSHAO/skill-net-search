@@ -1,8 +1,8 @@
 ---
-id: arxiv-2698
+id: "arxiv-2698"
 title: "Graph Neural Networks for Channel Decoding"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
@@ -20,7 +20,6 @@ topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/pdf/2207.14742.pdf"
 abstract: "In this work, we propose a fully differentiable graph neural network (GNN)-based architecture for channel decoding and showcase a competitive decoding performance for various coding schemes, such as low-density parity-check (LDPC) and BCH codes. The idea is to let a neural network (NN) learn a gener"
 url: "https://research.nvidia.com/publication/2022-12_graph-neural-networks-channel-decoding"
-status: new
+status: "new"
 ---
 
 # Graph Neural Networks for Channel Decoding

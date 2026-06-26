@@ -1,10 +1,13 @@
 ---
-id: arxiv-2991
+id: "arxiv-2991"
 title: "Post-Render Warp with Late Input Sampling Improves Aiming Under High Latency Conditions"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
   - name: "Joohwan Kim"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Pyarelal Knowles"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Josef Spjut"
@@ -13,16 +16,12 @@ authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pyarelal Knowles"
-    affiliation: ""
-    is_industry: false
   - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://doi.org/10.1145/3406187"
 abstract: "End-to-end latency in remote-rendering systems can reduce user task performance. This notably includes aiming tasks on game streaming services, which are presently below the standards of competitive first-person desktop gaming. We evaluate the latency-induced penalty on task completion time in a con"
 url: "https://research.nvidia.com/publication/2020-07_post-render-warp-late-input-sampling-improves-aiming-under-high-latency"
-status: new
+status: "new"
 ---
 
 # Post-Render Warp with Late Input Sampling Improves Aiming Under High Latency Conditions

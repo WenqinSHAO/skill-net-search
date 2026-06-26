@@ -1,50 +1,49 @@
 ---
-id: neurips-0010
+id: "neurips-0010"
 title: "Pretraining codomain attention neural operators for solving multiphysics pdes"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Md Ashiqur Rahman"
+    affiliation: "Purdue University"
+    is_industry: false
+  - name: "Robert Joseph George"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Mogab Elleithy"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Daniel Leibovici"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Zongyi Li"
+    affiliation: "Caltech"
+    is_industry: false
   - name: "Boris Bonev"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Colin White"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Julius Berner"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Raymond A. Yeh"
+    affiliation: "Purdue University"
+    is_industry: false
   - name: "Jean Kossaifi"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Md Ashiqur Rahman"
-    affiliation: ""
-    is_industry: false
-  - name: "Robert Joseph George"
-    affiliation: ""
-    is_industry: false
-  - name: "Mogab Elleithy"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Leibovici"
-    affiliation: ""
-    is_industry: false
-  - name: "Zongyi Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Colin White"
-    affiliation: ""
-    is_industry: false
-  - name: "Julius Berner"
-    affiliation: ""
-    is_industry: false
-  - name: "Raymond A. Yeh"
-    affiliation: ""
-    is_industry: false
   - name: "Kamyar Azizzadenesheli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anima Anandkumar"
-    affiliation: ""
+    affiliation: "Caltech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -54,7 +53,7 @@ research_areas:
   - "Physical AI"
 abstract: "Existing neural operator architectures face challenges when solving multiphysics problems with coupled partial differential equations (PDEs) due to complex geometries, interactions between physical variables, and the limited amounts of high-resolution training data. To address these issues, we propo"
 url: "https://research.nvidia.com/publication/2024-12_pretraining-codomain-attention-neural-operators-solving-multiphysics-pdes"
-status: new
+status: "new"
 ---
 
 # Pretraining codomain attention neural operators for solving multiphysics pdes

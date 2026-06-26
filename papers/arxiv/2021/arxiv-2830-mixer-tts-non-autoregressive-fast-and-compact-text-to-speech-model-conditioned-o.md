@@ -1,21 +1,20 @@
 ---
-id: arxiv-2830
+id: "arxiv-2830"
 title: "Mixer-TTS: non-autoregressive, fast and compact text-to-speech model conditioned on language model embeddings"
-conference: arXiv 2021
-date: 2021-10
+conference: "arXiv 2021"
+date: "2021-10"
 authors:
   - name: "Oktai Tatanov"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stanislav Beliaev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://arxiv.org/abs/2110.03584"
 abstract: "This paper describes Mixer-TTS, a non-autoregressive model for mel-spectrogram generation. The model is based on the MLP-Mixer architecture adapted for speech synthesis. The basic Mixer-TTS contains pitch and duration predictors, with the latter being trained with an unsupervised TTS alignment frame"
 url: "https://research.nvidia.com/publication/2021-10_mixer-tts-non-autoregressive-fast-and-compact-text-speech-model-conditioned-0"
-status: new
+status: "new"
 ---
 
 # Mixer-TTS: non-autoregressive, fast and compact text-to-speech model conditioned on language model embeddings

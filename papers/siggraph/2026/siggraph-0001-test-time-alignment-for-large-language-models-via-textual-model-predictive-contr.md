@@ -1,40 +1,39 @@
 ---
-id: siggraph-0001
+id: "siggraph-0001"
 title: "Test-Time Alignment for Large Language Models via Textual Model Predictive Control"
-conference: SIGGRAPH 2026
-date: 2026-04
+conference: "SIGGRAPH 2026"
+date: "2026-04"
 authors:
+  - name: "Kuang-Da Wang"
+    affiliation: "NYCU"
+    is_industry: false
+  - name: "Teng-Ruei Chen"
+    affiliation: "NYCU"
+    is_industry: false
+  - name: "Yu Heng Hung"
+    affiliation: "NYCU"
+    is_industry: false
+  - name: "Guo-Xun Ko"
+    affiliation: "NYCU"
+    is_industry: false
+  - name: "Shuoyang Ding"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Frank Wang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kuang-Da Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Teng-Ruei Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Heng Hung"
-    affiliation: ""
-    is_industry: false
-  - name: "Guo-Xun Ko"
-    affiliation: ""
-    is_industry: false
-  - name: "Shuoyang Ding"
-    affiliation: ""
-    is_industry: false
   - name: "Wen-Chih Peng"
-    affiliation: ""
+    affiliation: "NYCU"
     is_industry: false
   - name: "Ping-Chun Hsieh"
-    affiliation: ""
+    affiliation: "NYCU"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ research_areas:
   - "Machine Translation"
 abstract: "Abstract Aligning Large Language Models (LLMs) with human preferences through finetuning is resource-intensive, motivating lightweight alternatives at test time. We address test-time alignment through the lens of sequential decision making, a perspective that reveals two fundamental challenges. When"
 url: "https://research.nvidia.com/publication/2026-04%5Ftest-time-alignment-large-language-models-textual-model-predictive-control"
-status: new
+status: "new"
 ---
 
 # Test-Time Alignment for Large Language Models via Textual Model Predictive Control

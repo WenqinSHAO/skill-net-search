@@ -1,34 +1,33 @@
 ---
-id: arxiv-2935
+id: "arxiv-2935"
 title: "Neural Networks with Recurrent Generative Feedback"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Yujia Huang"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "James Gornet"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Sihui Dai"
+    affiliation: "Caltech"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yujia Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "James Gornet"
-    affiliation: ""
-    is_industry: false
-  - name: "Sihui Dai"
-    affiliation: ""
-    is_industry: false
   - name: "Tan Nguyen"
-    affiliation: ""
+    affiliation: "Rice University"
     is_industry: false
   - name: "Doris Y. Tsao"
-    affiliation: ""
+    affiliation: "Caltech"
     is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://yjhuangcd.github.io/blog/2020/neurips_cnnf/"
 abstract: "Neural networks are vulnerable to input perturbations such as additive noise and adversarial attacks. In contrast, human perception is much more robust to such perturbations. The Bayesian brain hypothesis states that human brains use an internal generative model to update the posterior beliefs of th"
 url: "https://research.nvidia.com/publication/2020-12_neural-networks-recurrent-generative-feedback"
-status: new
+status: "new"
 ---
 
 # Neural Networks with Recurrent Generative Feedback

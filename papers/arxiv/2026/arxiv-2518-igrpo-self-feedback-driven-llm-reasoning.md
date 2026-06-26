@@ -1,37 +1,36 @@
 ---
-id: arxiv-2518
+id: "arxiv-2518"
 title: "iGRPO: Self-Feedback-Driven LLM Reasoning"
-conference: arXiv 2026
-date: 2026-02
+conference: "arXiv 2026"
+date: "2026-02"
 authors:
   - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shrimai Prabhumoye"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Igor Gitman"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ximing Lu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Seungju Han"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Wei Ping"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yejin Choi"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shrimai Prabhumoye"
-    affiliation: ""
-    is_industry: false
-  - name: "Igor Gitman"
-    affiliation: ""
-    is_industry: false
-  - name: "Ximing Lu"
-    affiliation: ""
-    is_industry: false
-  - name: "Seungju Han"
-    affiliation: ""
-    is_industry: false
-  - name: "Wei Ping"
-    affiliation: ""
-    is_industry: false
-  - name: "Yejin Choi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2602.09000"
 abstract: "Large Language Models (LLMs) have shown promise in solving complex mathematical problems, yet they still fall short of producing accurate and consistent solutions. Reinforcement Learning (RL) is a framework for aligning these models with task-specific rewards, improving overall quality and reliabili"
 url: "https://research.nvidia.com/publication/2026-02%5Figrpo-self-feedback-driven-llm-reasoning"
-status: new
+status: "new"
 ---
 
 # iGRPO: Self-Feedback-Driven LLM Reasoning

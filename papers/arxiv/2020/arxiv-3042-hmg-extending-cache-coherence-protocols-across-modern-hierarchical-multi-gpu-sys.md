@@ -1,30 +1,29 @@
 ---
-id: arxiv-3042
+id: "arxiv-3042"
 title: "HMG: Extending Cache Coherence Protocols Across Modern Hierarchical Multi-GPU Systems"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
+  - name: "Xiaowei Ren"
+    affiliation: "University of British Columbia"
+    is_industry: false
   - name: "Daniel Lustig"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Evgeny Bolotin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Aamer Jaleel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Oreste Villa"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xiaowei Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Evgeny Bolotin"
-    affiliation: ""
-    is_industry: false
-  - name: "Oreste Villa"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9065597"
 abstract: "Prior work on GPU cache coherence has shown that simple hardware- or software-based protocols can be more than sufficient. However, in recent years, features such as multi-chip modules have added deeper hierarchy and non-uniformity into GPU memory systems. GPU programming models have chosen to expos"
 url: "https://research.nvidia.com/publication/2020-02_hmg-extending-cache-coherence-protocols-across-modern-hierarchical-multi-gpu"
-status: new
+status: "new"
 ---
 
 # HMG: Extending Cache Coherence Protocols Across Modern Hierarchical Multi-GPU Systems

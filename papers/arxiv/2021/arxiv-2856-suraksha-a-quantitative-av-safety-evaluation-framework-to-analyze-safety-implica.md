@@ -1,10 +1,16 @@
 ---
-id: arxiv-2856
+id: "arxiv-2856"
 title: "Suraksha: A Quantitative AV Safety Evaluation Framework to Analyze Safety Implications of Perception Design Choices"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Hengyu Zhao"
+    affiliation: "University of California, San Diego"
+    is_industry: false
   - name: "Siva Hari"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael B. Sullivan"
@@ -13,19 +19,12 @@ authors:
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hengyu Zhao"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
   - name: "Jishen Zhao"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
 topics:
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9502467"
 abstract: "This paper proposes an automated AV safety evaluation framework, Suraksha that quantifies and analyzes the sensitivities of different design parameters on AV safety. It employs a set of driving scenarios generated based on a user-specified difficulty level. It enables the exploration of tradeoffs in"
 url: "https://research.nvidia.com/publication/2021-06_suraksha-quantitative-av-safety-evaluation-framework-analyze-safety"
-status: new
+status: "new"
 ---
 
 # Suraksha: A Quantitative AV Safety Evaluation Framework to Analyze Safety Implications of Perception Design Choices

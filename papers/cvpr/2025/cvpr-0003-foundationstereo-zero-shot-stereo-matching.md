@@ -1,31 +1,30 @@
 ---
-id: cvpr-0003
+id: "cvpr-0003"
 title: "FoundationStereo: Zero-Shot Stereo Matching"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
   - name: "Bowen Wen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Matthew Trepte"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Joseph Aribido"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Orazio Gallo"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthew Trepte"
-    affiliation: ""
-    is_industry: false
-  - name: "Joseph Aribido"
-    affiliation: ""
-    is_industry: false
-  - name: "Orazio Gallo"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://nvlabs.github.io/FoundationStereo/"
 abstract: "Tremendous progress has been made in deep stereo matching to excel on benchmark datasets through per-domain fine-tuning. However, achieving strong zero-shot generalization - a hallmark of foundation models in other computer vision tasks - remains challenging for stereo matching. We introduce Foundat"
 url: "https://research.nvidia.com/publication/2025-06_foundationstereo-zero-shot-stereo-matching"
-status: new
+status: "new"
 ---
 
 # FoundationStereo: Zero-Shot Stereo Matching

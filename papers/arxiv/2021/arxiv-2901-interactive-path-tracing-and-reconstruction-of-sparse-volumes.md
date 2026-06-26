@@ -1,9 +1,12 @@
 ---
-id: arxiv-2901
+id: "arxiv-2901"
 title: "Interactive Path Tracing and Reconstruction of Sparse Volumes"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
+  - name: "Nikolai Hofmann"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jon Hasselgren"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,13 +16,9 @@ authors:
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Nikolai Hofmann"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "We combine state-of-the-art techniques into a system for high-quality, interactive rendering of participating media. We leverage unbiased&nbsp;volume path tracing with multiple scattering, temporally stable neural denoising and NanoVDB, a fast, sparse voxel tree data structure for the GPU, to explor"
 url: "https://research.nvidia.com/publication/2021-03_interactive-path-tracing-and-reconstruction-sparse-volumes"
-status: new
+status: "new"
 ---
 
 # Interactive Path Tracing and Reconstruction of Sparse Volumes

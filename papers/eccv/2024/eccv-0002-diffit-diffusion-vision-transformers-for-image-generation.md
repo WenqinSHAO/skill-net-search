@@ -1,26 +1,25 @@
 ---
-id: eccv-0002
+id: "eccv-0002"
 title: "DiffiT: Diffusion Vision Transformers for Image Generation"
-conference: ECCV 2024
-date: 2024-09
+conference: "ECCV 2024"
+date: "2024-09"
 authors:
+  - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jiaming Song"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Guilin Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Hatamizadeh"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaming Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Guilin Liu"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/pdf/2312.02139"
 abstract: "Diffusion models with their powerful expressivity and high sample quality have achieved State-Of-The-Art (SOTA) performance in the generative domain. The pioneering Vision Transformer (ViT) has also demonstrated strong modeling capabilities and scalability, especially for recognition tasks. In this "
 url: "https://research.nvidia.com/publication/2024-09_diffit-diffusion-vision-transformers-image-generation"
-status: new
+status: "new"
 ---
 
 # DiffiT: Diffusion Vision Transformers for Image Generation

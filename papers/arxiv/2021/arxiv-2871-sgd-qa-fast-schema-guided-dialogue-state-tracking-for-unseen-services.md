@@ -1,24 +1,23 @@
 ---
-id: arxiv-2871
+id: "arxiv-2871"
 title: "SGD-QA: Fast Schema-Guided Dialogue State Tracking for Unseen Services"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2105.08049"
 abstract: "Dialogue state tracking is an essential part of goal-oriented dialogue systems, while most of these state tracking models often fail to handle unseen services. In this paper, we propose SGD-QA, a simple and extensible model for schema-guided dialogue state tracking based on a question answering appr"
 url: "https://research.nvidia.com/publication/2021-05_sgd-qa-fast-schema-guided-dialogue-state-tracking-unseen-services"
-status: new
+status: "new"
 ---
 
 # SGD-QA: Fast Schema-Guided Dialogue State Tracking for Unseen Services

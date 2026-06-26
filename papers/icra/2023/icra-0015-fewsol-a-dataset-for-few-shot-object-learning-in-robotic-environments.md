@@ -1,22 +1,21 @@
 ---
-id: icra-0015
+id: "icra-0015"
 title: "FewSOL: A Dataset for Few-Shot Object Learning in Robotic Environments"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Jishnu Jaykumar P"
+    affiliation: "UT Dallas"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jishnu Jaykumar P"
-    affiliation: ""
-    is_industry: false
   - name: "Yu Xiang"
-    affiliation: ""
+    affiliation: "UT Dallas"
     is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://irvlutd.github.io/FewSOL"
 abstract: "We introduce the Few-Shot Object Learning (FewSOL) dataset for object recognition with a few images per object. We captured 336 real-world objects with 9 RGBD images per object from different views. FewSOL has object segmentation masks, poses, and attributes. In addition, synthetic images generated "
 url: "https://research.nvidia.com/publication/2023-05_fewsol-dataset-few-shot-object-learning-robotic-environments"
-status: new
+status: "new"
 ---
 
 # FewSOL: A Dataset for Few-Shot Object Learning in Robotic Environments

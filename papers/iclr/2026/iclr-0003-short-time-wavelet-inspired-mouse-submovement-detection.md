@@ -1,18 +1,17 @@
 ---
-id: iclr-0003
+id: "iclr-0003"
 title: "Short-time, Wavelet-inspired Mouse Submovement Detection"
-conference: ICLR 2026
-date: 2026-04
+conference: "ICLR 2026"
+date: "2026-04"
 authors:
-  - name: "Ben Boudaoud"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Auejin Ham"
     affiliation: ""
     is_industry: false
+  - name: "Ben Boudaoud"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -21,7 +20,7 @@ research_areas:
   - "Human Computer Interaction"
 abstract: "Submovements are ballistic components of human motion constituting a large part of motor interaction and arising from the cyclical and overlapping cognitive processes of perception, motor planning, and motor execution. Extracting submovements is challenging as the motions tend to overlap, or start b"
 url: "https://research.nvidia.com/publication/2026-04%5Fshort-time-wavelet-inspired-mouse-submovement-detection"
-status: new
+status: "new"
 ---
 
 # Short-time, Wavelet-inspired Mouse Submovement Detection

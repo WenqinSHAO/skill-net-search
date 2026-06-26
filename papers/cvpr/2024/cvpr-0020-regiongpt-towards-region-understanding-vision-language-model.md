@@ -1,9 +1,12 @@
 ---
-id: cvpr-0020
+id: "cvpr-0020"
 title: "RegionGPT: Towards Region Understanding Vision Language Model"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Qiushan Guo"
+    affiliation: "The University of Hong Kong"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,26 +16,22 @@ authors:
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Ka Chun Cheung"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yizhou Yu"
+    affiliation: "The University of Hong Kong"
+    is_industry: false
+  - name: "Ping Luo"
+    affiliation: "The University of Hong Kong"
+    is_industry: false
   - name: "Sifei Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Qiushan Guo"
-    affiliation: ""
-    is_industry: false
-  - name: "Ka Chun Cheung"
-    affiliation: ""
-    is_industry: false
-  - name: "Yizhou Yu"
-    affiliation: ""
-    is_industry: false
-  - name: "Ping Luo"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://arxiv.org/abs/2403.02330"
 abstract: "Vision language models (VLMs) have experienced rapid advancements through the integration of large language models (LLMs) with image-text pairs, yet they struggle with detailed regional visual understanding due to limited spatial awareness of the vision encoder, and the use of coarsegrained training"
 url: "https://research.nvidia.com/publication/2024-06_regiongpt-towards-region-understanding-vision-language-model"
-status: new
+status: "new"
 ---
 
 # RegionGPT: Towards Region Understanding Vision Language Model

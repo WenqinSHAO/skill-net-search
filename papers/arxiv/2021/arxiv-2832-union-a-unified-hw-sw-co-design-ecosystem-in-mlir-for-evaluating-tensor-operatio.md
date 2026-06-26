@@ -1,38 +1,37 @@
 ---
-id: arxiv-2832
+id: "arxiv-2832"
 title: "Union: A Unified HW-SW Co-Design Ecosystem in MLIR for Evaluating Tensor Operations on Spatial Accelerators"
-conference: arXiv 2021
-date: 2021-09
+conference: "arXiv 2021"
+date: "2021-09"
 authors:
+  - name: "Geonhwa Jeong"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
+  - name: "Gokcen Kestor"
+    affiliation: "Pacific Northwest National Laboratory"
+    is_industry: false
+  - name: "Prasanth Chatarasi"
+    affiliation: "IBM Research"
+    is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Geonhwa Jeong"
-    affiliation: ""
-    is_industry: false
-  - name: "Gokcen Kestor"
-    affiliation: ""
-    is_industry: false
-  - name: "Prasanth Chatarasi"
-    affiliation: ""
-    is_industry: false
   - name: "Sivasankaran Rajamanickam"
-    affiliation: ""
+    affiliation: "Sandia National Laboratories"
     is_industry: false
   - name: "Roberto Gioiosa"
-    affiliation: ""
+    affiliation: "Pacific Northwest National Laboratory"
     is_industry: false
   - name: "Tushar Krishna"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9563040"
 abstract: "To meet the extreme compute demands for deep learning across commercial and scientific applications, dataflow accelerators are becoming increasingly popular. While these “domain-specific” accelerators are not fully programmable like CPUs and GPUs, they retain varying levels of flexibility with respe"
 url: "https://research.nvidia.com/publication/2021-09_union-unified-hw-sw-co-design-ecosystem-mlir-evaluating-tensor-operations"
-status: new
+status: "new"
 ---
 
 # Union: A Unified HW-SW Co-Design Ecosystem in MLIR for Evaluating Tensor Operations on Spatial Accelerators

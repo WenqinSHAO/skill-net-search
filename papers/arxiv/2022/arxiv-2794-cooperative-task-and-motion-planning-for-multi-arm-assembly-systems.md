@@ -1,43 +1,42 @@
 ---
-id: arxiv-2794
+id: "arxiv-2794"
 title: "Cooperative Task and Motion Planning for Multi-Arm Assembly Systems"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
+  - name: "Jingkai Chen"
+    affiliation: "MIT"
+    is_industry: false
+  - name: "Jiaoyang Li"
+    affiliation: "USC"
+    is_industry: false
+  - name: "Yijiang Huang"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jingkai Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaoyang Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Yijiang Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Dawei Sun"
-    affiliation: ""
+    affiliation: "UIUC"
     is_industry: false
   - name: "Chuchu Fan"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Andreas Hofmann"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Caitlin Mueller"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sven Koenig"
-    affiliation: ""
+    affiliation: "USC"
     is_industry: false
   - name: "Brian Williams"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2022-03_cooperative-task-and-motion-planning-multi-arm-assembly-systems"
-status: new
+status: "new"
 ---
 
 # Cooperative Task and Motion Planning for Multi-Arm Assembly Systems

@@ -1,28 +1,27 @@
 ---
-id: iclr-0015
+id: "iclr-0015"
 title: "Towards Neural Scaling Laws for Time Series Foundation Models"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Qingren Yao"
+    affiliation: "Griffith University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Qingren Yao"
-    affiliation: ""
-    is_industry: false
   - name: "Renhe Jiang"
-    affiliation: ""
+    affiliation: "Tokyo University"
     is_industry: false
   - name: "Ming Jin"
-    affiliation: ""
+    affiliation: "Griffith University"
     is_industry: false
   - name: "Shirui Pan"
-    affiliation: ""
+    affiliation: "Griffith University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Natural Language Processing"
 abstract: "Scaling laws offer valuable insights into the design of time series foundation models (TSFMs). However, previous research has largely focused on the scaling lawsof TSFMs for in-distribution (ID) data, leaving their out-of-distribution (OOD)scaling behavior and the influence of model architectures le"
 url: "https://research.nvidia.com/publication/2025-04_towards-neural-scaling-laws-time-series-foundation-models"
-status: new
+status: "new"
 ---
 
 # Towards Neural Scaling Laws for Time Series Foundation Models

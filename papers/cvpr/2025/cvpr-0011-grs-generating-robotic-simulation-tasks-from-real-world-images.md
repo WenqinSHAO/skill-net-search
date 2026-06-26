@@ -1,8 +1,8 @@
 ---
-id: cvpr-0011
+id: "cvpr-0011"
 title: "GRS: Generating robotic simulation tasks from real-world images"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
   - name: "Alex Zook"
     affiliation: "NVIDIA"
@@ -17,7 +17,6 @@ topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ research_areas:
   - "Physical AI"
 abstract: "Game design hinges on understanding how static rules and content translate into dynamic player behavior---something modern generative systems that inspect only a game's code or assets struggle to capture. We present an automated design iteration framework that closes this gap by pairing a reinforcem"
 url: "https://research.nvidia.com/publication/2025-06_grs-generating-robotic-simulation-tasks-real-world-images-0"
-status: new
+status: "new"
 ---
 
 # GRS: Generating robotic simulation tasks from real-world images

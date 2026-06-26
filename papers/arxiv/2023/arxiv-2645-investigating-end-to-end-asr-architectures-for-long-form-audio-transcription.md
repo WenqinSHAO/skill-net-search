@@ -1,36 +1,35 @@
 ---
-id: arxiv-2645
+id: "arxiv-2645"
 title: "Investigating End-to-End ASR Architectures for Long Form Audio Transcription"
-conference: arXiv 2023
-date: 2023-09
+conference: "arXiv 2023"
+date: "2023-09"
 authors:
   - name: "Nithin Rao Koluguri"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Samuel Kriman"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Georgy Zelenfroind"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dima Rekesh"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://arxiv.org/abs/2309.09950"
 abstract: "This paper presents an overview and evaluation of some of the end-to-end ASR models on long-form audios. We study three categories of Automatic Speech Recognition(ASR) models based on their core architecture: (1) convolutional, (2) convolutional with squeeze-and-excitation and (3) convolutional mode"
 url: "https://research.nvidia.com/publication/2023-09_investigating-end-end-asr-architectures-long-form-audio-transcription"
-status: new
+status: "new"
 ---
 
 # Investigating End-to-End ASR Architectures for Long Form Audio Transcription

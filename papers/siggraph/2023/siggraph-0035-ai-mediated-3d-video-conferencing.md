@@ -1,8 +1,8 @@
 ---
-id: siggraph-0035
+id: "siggraph-0035"
 title: "AI-Mediated 3D Video Conferencing"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
@@ -13,6 +13,12 @@ authors:
   - name: "Chao Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alex Trevithick"
+    affiliation: "US San Diego"
+    is_industry: false
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -25,23 +31,16 @@ authors:
   - name: "Amrita Mazumdar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Trevithick"
-    affiliation: ""
-    is_industry: false
   - name: "Shengze Wang"
-    affiliation: ""
+    affiliation: "UNC Chapel Hill"
     is_industry: false
   - name: "Mayoore Jaiswal"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -54,7 +53,7 @@ external_links:
     url: "https://research.nvidia.com/labs/nxp/3dvc-siggraph-etech/"
 abstract: "We present an AI-mediated 3D video conferencing system that can reconstruct and autostereoscopically display a life-sized talking head using consumer-grade compute resources and minimal capture equipment. Our 3D capture uses a novel 3D lifting method that encodes a given 2D input into an efficient t"
 url: "https://research.nvidia.com/publication/2023-08_ai-mediated-3d-video-conferencing"
-status: new
+status: "new"
 ---
 
 # AI-Mediated 3D Video Conferencing

@@ -1,38 +1,37 @@
 ---
-id: arxiv-2520
+id: "arxiv-2520"
 title: "HealDA: Highlighting the importance of initial errors in end-to-end AI weather forecasts"
-conference: arXiv 2026
-date: 2026-01
+conference: "arXiv 2026"
+date: "2026-01"
 authors:
   - name: "Aayush Gupta"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Akshay Subramaniam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael S. Pritchard"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karthik Kashinath"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sergey Frolov"
-    affiliation: ""
+    affiliation: "NOAA"
     is_industry: false
   - name: "Kelsey Lieberman"
-    affiliation: ""
+    affiliation: "MITRE Corporation"
     is_industry: false
   - name: "Christopher Miller"
-    affiliation: ""
+    affiliation: "MITRE Corporation"
     is_industry: false
   - name: "Nicholas Silverman"
-    affiliation: ""
+    affiliation: "MITRE Corporation"
     is_industry: false
   - name: "Noah D. Brenowitz"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -40,7 +39,7 @@ arxiv: ""
 research_areas:
   - "Artificial Intelligence and Machine Learning"
 url: "https://research.nvidia.com/publication/2026-01%5Fhealda-highlighting-importance-initial-errors-end-end-ai-weather-forecasts"
-status: new
+status: "new"
 ---
 
 # HealDA: Highlighting the importance of initial errors in end-to-end AI weather forecasts

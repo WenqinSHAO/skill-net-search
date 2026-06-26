@@ -1,31 +1,30 @@
 ---
-id: arxiv-2897
+id: "arxiv-2897"
 title: "Reactive Human-to-Robot Handovers of Arbitrary Objects"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Wei Yang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arsalan Mousavian"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
   - name: "Maya Cakmak"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Washington"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
   - name: "arXiv"
     url: "https://arxiv.org/abs/2011.08961"
 url: "https://research.nvidia.com/publication/2021-03_reactive-human-robot-handovers-arbitrary-objects"
-status: new
+status: "new"
 ---
 
 # Reactive Human-to-Robot Handovers of Arbitrary Objects

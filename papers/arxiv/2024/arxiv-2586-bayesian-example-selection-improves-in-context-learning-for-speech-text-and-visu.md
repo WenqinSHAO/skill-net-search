@@ -1,25 +1,24 @@
 ---
-id: arxiv-2586
+id: "arxiv-2586"
 title: "Bayesian Example Selection Improves In-Context Learning for Speech, Text, and Visual Modalities"
-conference: arXiv 2024
-date: 2024-11
+conference: "arXiv 2024"
+date: "2024-11"
 authors:
+  - name: "Siyin Wang"
+    affiliation: "Tsinghua University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Siyin Wang"
-    affiliation: ""
-    is_industry: false
   - name: "Ji Wu"
-    affiliation: ""
+    affiliation: "Tsinghua University"
     is_industry: false
   - name: "Chao Zhang"
-    affiliation: ""
+    affiliation: "Tsinghua University"
     is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/pdf/2404.14716"
 abstract: "Large language models (LLMs) can adapt to new tasks through in-context learning (ICL) based on a few examples presented in dialogue history without any model parameter update. Despite such convenience, the performance of ICL heavily depends on the quality of the in-context examples presented, which "
 url: "https://research.nvidia.com/publication/2024-11_bayesian-example-selection-improves-context-learning-speech-text-and-visual"
-status: new
+status: "new"
 ---
 
 # Bayesian Example Selection Improves In-Context Learning for Speech, Text, and Visual Modalities

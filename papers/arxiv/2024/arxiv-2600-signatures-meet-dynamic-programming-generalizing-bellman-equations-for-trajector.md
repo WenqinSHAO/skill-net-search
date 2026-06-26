@@ -1,9 +1,12 @@
 ---
-id: arxiv-2600
+id: "arxiv-2600"
 title: "Signatures Meet Dynamic Programming: Generalizing Bellman Equations for Trajectory Following"
-conference: arXiv 2024
-date: 2024-07
+conference: "arXiv 2024"
+date: "2024-07"
 authors:
+  - name: "Motoya Ohnishi"
+    affiliation: "University of Washington"
+    is_industry: false
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,12 +19,8 @@ authors:
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Motoya Ohnishi"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://proceedings.mlr.press/v242/ohnishi24a.html"
 abstract: "Path signatures have been proposed as a powerful representation of paths that efficiently captures the path’s analytic and geometric characteristics, having useful algebraic properties including fast concatenation of paths through tensor products. Signatures have recently been widely adopted in mach"
 url: "https://research.nvidia.com/publication/2024-07_signatures-meet-dynamic-programming-generalizing-bellman-equations-trajectory"
-status: new
+status: "new"
 ---
 
 # Signatures Meet Dynamic Programming: Generalizing Bellman Equations for Trajectory Following

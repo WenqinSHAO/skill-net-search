@@ -1,29 +1,28 @@
 ---
-id: iccv-0002
+id: "iccv-0002"
 title: "TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models"
-conference: ICCV 2023
-date: 2023-10
+conference: "ICCV 2023"
+date: "2023-10"
 authors:
+  - name: "Tianshi Cao"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tianshi Cao"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kangxue Yin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/texfusion/"
 abstract: "We present TexFusion (Texture Diffusion), a new method to synthesize textures for given 3D geometries, using large-scale text-guided image diffusion models. In contrast to recent works that leverage 2D text-to-image diffusion models to distill 3D objects using a slow and fragile optimization process"
 url: "https://research.nvidia.com/publication/2023-10_texfusion-synthesizing-3d-textures-text-guided-image-diffusion-models"
-status: new
+status: "new"
 ---
 
 # TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models

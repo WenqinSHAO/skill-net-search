@@ -17,13 +17,44 @@ import re
 import subprocess
 import sys
 import time
+from html import unescape
 from datetime import datetime
 from pathlib import Path
+
+import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 INDEX_PATH = REPO_ROOT / "index" / "all_papers.json"
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+INDUSTRY_KEYWORDS = {
+    "nvidia",
+    "google",
+    "deepmind",
+    "microsoft",
+    "meta",
+    "facebook",
+    "apple",
+    "amazon",
+    "adobe",
+    "intel",
+    "amd",
+    "arm",
+    "qualcomm",
+    "ibm",
+    "oracle",
+    "salesforce",
+    "bytedance",
+    "tencent",
+    "alibaba",
+    "huawei",
+    "samsung",
+    "sony",
+    "tesla",
+    "openai",
+    "anthropic",
+}
 
 # NVIDIA research area → project domain taxonomy mapping
 RESEARCH_AREA_TO_DOMAIN = {
@@ -78,9 +109,155 @@ def fetch_detail_page(url: str, timeout: int = 20) -> str | None:
         return None
 
 
+def clean_text(text: str) -> str:
+    """Normalize scraped text and remove YAML-hostile control characters."""
+    text = unescape(text)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def yaml_quote(value: object) -> str:
+    return json.dumps("" if value is None else str(value), ensure_ascii=False)
+
+
+def is_industry_affiliation(affiliation: str) -> bool:
+    lowered = affiliation.lower()
+    return any(keyword in lowered for keyword in INDUSTRY_KEYWORDS)
+
+
+def split_frontmatter(content: str) -> tuple[str, str] | tuple[None, str]:
+    if not content.startswith("---\n"):
+        return None, content
+    marker = "\n---\n"
+    end = content.find(marker, 4)
+    if end == -1:
+        return None, content
+    return content[4:end], content[end + len(marker):]
+
+
+def extract_field_section(html: str, field_name: str) -> str:
+    """Return a Drupal field section, bounded by the next field section."""
+    start_m = re.search(
+        rf'class="[^"]*field--name-{re.escape(field_name)}[^"]*"',
+        html,
+        re.DOTALL,
+    )
+    if not start_m:
+        return ""
+    tag_start = html.rfind("<", 0, start_m.start())
+    if tag_start == -1:
+        tag_start = start_m.start()
+    next_m = re.search(
+        r'<(?:section|div)\b[^>]*class="[^"]*field--name-',
+        html[start_m.end():],
+        re.DOTALL,
+    )
+    end = start_m.end() + next_m.start() if next_m else len(html)
+    return html[tag_start:end]
+
+
+def parse_author_chunks_from_html(section: str) -> list[str]:
+    """Extract one author-ish text chunk per linked or text author in order."""
+    if not section:
+        return []
+
+    normalized = section
+    normalized = re.sub(r'<a\b[^>]*href="/person/[^"]*"[^>]*>(.*?)</a>', r'\1 (NVIDIA)', normalized, flags=re.I | re.S)
+    normalized = re.sub(r'</(?:div|p|li|span|a)>\s*', '\n', normalized, flags=re.I)
+    normalized = re.sub(r'<br\s*/?>', '\n', normalized, flags=re.I)
+    text = clean_text(normalized.replace('\n', ' | '))
+
+    chunks = []
+    for chunk in re.split(r'\s*\|\s*', text):
+        chunk = chunk.strip(' ,')
+        if not chunk:
+            continue
+        if chunk.lower() in {"authors", "author"}:
+            continue
+        if re.search(r'\([^)]+\)', chunk):
+            chunks.append(chunk)
+            continue
+        if chunk and not re.search(r'^(publication date|published in|research area|external links)\b', chunk, re.I):
+            chunks.append(chunk)
+    return chunks
+
+
+def parse_authors_from_detail_page(html: str) -> list[dict]:
+    """Extract canonical detail-page author order and affiliations."""
+    section = extract_field_section(html, "field-authors")
+    chunks = parse_author_chunks_from_html(section)
+
+    if not chunks:
+        text = clean_text(re.sub(r'<br\s*/?>', '\n', html, flags=re.I))
+        m = re.search(
+            r'(?:^|\s)Authors\s+(.*?)(?:\s+Publication Date\s+|\s+Published in\s+|\s+Research Area\s+)',
+            text,
+            re.I | re.S,
+        )
+        if m:
+            chunks = [c.strip() for c in re.split(r'\s{2,}| \| ', m.group(1)) if c.strip()]
+
+    authors = []
+    seen = set()
+    for chunk in chunks:
+        chunk = clean_text(chunk).strip(' ,')
+        if not chunk:
+            continue
+        if chunk.endswith(")") and " (" in chunk:
+            name_part, affiliation_part = chunk.split(" (", 1)
+            name = clean_text(name_part)
+            affiliation = clean_text(affiliation_part[:-1])
+        else:
+            name = clean_text(chunk)
+            affiliation = ""
+        if not name or name.lower() in seen:
+            continue
+        seen.add(name.lower())
+        authors.append({
+            "name": name,
+            "affiliation": affiliation,
+            "is_industry": is_industry_affiliation(affiliation),
+        })
+    return authors
+
+
+def merge_detail_authors(existing_authors: list[dict], detail_authors: list[dict]) -> list[dict]:
+    """Prefer detail-page order and affiliations, preserving unmatched existing authors."""
+    if not detail_authors:
+        return existing_authors
+
+    existing_by_name = {
+        (a.get("name") or "").strip().lower(): a
+        for a in existing_authors
+        if isinstance(a, dict) and (a.get("name") or "").strip()
+    }
+
+    merged = []
+    used = set()
+    for detail in detail_authors:
+        name = detail["name"]
+        key = name.lower()
+        existing = existing_by_name.get(key, {})
+        affiliation = detail.get("affiliation") or existing.get("affiliation", "")
+        is_industry = bool(
+            detail.get("is_industry")
+            or existing.get("is_industry")
+            or is_industry_affiliation(affiliation)
+        )
+        merged.append({
+            "name": name,
+            "affiliation": affiliation,
+            "is_industry": is_industry,
+        })
+        used.add(key)
+
+    return merged
+
+
 def parse_detail_page(html: str) -> dict:
     """Extract enrichment data from a paper detail page."""
-    data = {}
+    data = {"authors": parse_authors_from_detail_page(html)}
 
     # Abstract (field--name-body)
     body_m = re.search(
@@ -151,92 +328,42 @@ def update_paper_file(file_path: Path, enrichment: dict, paper: dict):
         print(f"  WARNING: file not found: {file_path}", file=sys.stderr)
         return
 
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
         content = f.read()
 
-    # Split frontmatter from body
-    fm_match = re.match(r'^---\n(.*?)\n---\n(.*)', content, re.DOTALL)
-    if not fm_match:
+    fm_str, body = split_frontmatter(content)
+    if fm_str is None:
         print(f"  WARNING: no frontmatter in {file_path}", file=sys.stderr)
         return
 
-    fm_str = fm_match.group(1)
-    body = fm_match.group(2)
+    sanitized_fm = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', fm_str)
+    try:
+        fm = yaml.safe_load(sanitized_fm) or {}
+    except Exception as exc:
+        print(f"  WARNING: cannot parse frontmatter in {file_path}: {exc}", file=sys.stderr)
+        return
 
-    # Parse existing frontmatter as lines
-    fm_lines = fm_str.split('\n')
+    existing_authors = fm.get("authors") if isinstance(fm.get("authors"), list) else []
+    fm["authors"] = merge_detail_authors(existing_authors, enrichment.get("authors", []))
+    fm["topics"] = enrichment.get("domains", fm.get("topics") or ["AI & Machine Learning"])
+    if enrichment.get("research_areas"):
+        fm["research_areas"] = enrichment["research_areas"]
+    if enrichment.get("external_links"):
+        fm["external_links"] = enrichment["external_links"]
+    if enrichment.get("abstract"):
+        fm["abstract"] = enrichment["abstract"][:300]
 
-    # Build new frontmatter
-    # Update topics with enriched domains
-    new_topics = enrichment.get("domains", ["AI & Machine Learning"])
-
-    # Build new frontmatter lines
-    new_fm_lines = []
-    in_topics = False
-    in_tags = False
-    topics_written = False
-    tags_written = False
-    arxiv_written = False
-
-    for line in fm_lines:
-        stripped = line.strip()
-
-        # Track which section we're in
-        if stripped.startswith('topics:'):
-            in_topics = True
-            new_fm_lines.append('topics:')
-            for t in new_topics:
-                new_fm_lines.append(f'  - {t}')
-            topics_written = True
-            continue
-        elif stripped.startswith('tags:'):
-            in_topics = False
-            in_tags = True
-        elif stripped.startswith('arxiv:'):
-            in_tags = False
-            in_topics = False
-        elif stripped.startswith('  - ') and (in_topics or in_tags):
-            # Skip old topics/tags, already written
-            continue
-
-        if stripped.startswith('arxiv:') and not arxiv_written:
-            new_fm_lines.append(line)
-            arxiv_written = True
-            # After arxiv, add enriched fields
-            if enrichment.get("research_areas"):
-                new_fm_lines.append('research_areas:')
-                for ra in enrichment["research_areas"]:
-                    new_fm_lines.append(f'  - "{ra}"')
-            if enrichment.get("external_links"):
-                new_fm_lines.append('external_links:')
-                for el in enrichment["external_links"]:
-                    new_fm_lines.append(f'  - name: "{el["name"]}"')
-                    new_fm_lines.append(f'    url: "{el["url"]}"')
-            if enrichment.get("abstract"):
-                # Truncate for frontmatter — full abstract in body
-                short_abs = enrichment["abstract"][:300]
-                new_fm_lines.append(f'abstract: "{short_abs}"')
-            continue
-
-        new_fm_lines.append(line)
-
-    new_fm = '\n'.join(new_fm_lines)
-
-    # Update body with abstract
     new_body = body
     if enrichment.get("abstract"):
         abs_text = enrichment["abstract"]
-        # Replace placeholder abstract section
         if '*(待补充)*' in new_body:
             new_body = new_body.replace(
                 '## 摘要\n\n*(待补充)*',
                 f'## 摘要\n\n{abs_text}'
             )
-        # Update abstract in a more targeted way
         abs_pattern = r'## 摘要\n\n\*\(待补充\)\*'
         if re.search(abs_pattern, new_body):
             new_body = re.sub(abs_pattern, f'## 摘要\n\n{abs_text}', new_body)
-        # If no placeholder found, still has "*(待补充)*" somewhere
         elif '## 摘要' in new_body and '*(待补充)*' in new_body:
             new_body = new_body.replace(
                 '## 摘要\n\n*(待补充)*',
@@ -244,7 +371,66 @@ def update_paper_file(file_path: Path, enrichment: dict, paper: dict):
             )
 
     with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(f'---\n{new_fm}\n---\n{new_body}')
+        f.write(f'---\n{render_frontmatter(fm)}---\n{new_body}')
+
+
+def render_frontmatter(fm: dict) -> str:
+    """Render canonical paper YAML without duplicate top-level keys."""
+    preferred = [
+        "id",
+        "title",
+        "conference",
+        "date",
+        "authors",
+        "topics",
+        "tags",
+        "arxiv",
+        "research_areas",
+        "external_links",
+        "abstract",
+        "url",
+        "status",
+    ]
+    lines = []
+
+    def emit_key(key: str, value: object):
+        if key == "authors":
+            lines.append("authors:")
+            for author in value or []:
+                if not isinstance(author, dict):
+                    continue
+                lines.append(f"  - name: {yaml_quote(author.get('name', ''))}")
+                lines.append(f"    affiliation: {yaml_quote(author.get('affiliation', ''))}")
+                lines.append(f"    is_industry: {str(bool(author.get('is_industry', False))).lower()}")
+            return
+        if key in {"topics", "tags", "research_areas"}:
+            lines.append(f"{key}:")
+            for item in value or []:
+                lines.append(f"  - {yaml_quote(item) if key == 'research_areas' else item}")
+            return
+        if key == "external_links":
+            lines.append("external_links:")
+            for link in value or []:
+                if not isinstance(link, dict):
+                    continue
+                lines.append(f"  - name: {yaml_quote(link.get('name', ''))}")
+                lines.append(f"    url: {yaml_quote(link.get('url', ''))}")
+            return
+        if isinstance(value, bool):
+            lines.append(f"{key}: {str(value).lower()}")
+        else:
+            lines.append(f"{key}: {yaml_quote(value)}")
+
+    emitted = set()
+    for key in preferred:
+        if key in fm:
+            emit_key(key, fm[key])
+            emitted.add(key)
+    for key in fm:
+        if key not in emitted:
+            emit_key(key, fm[key])
+
+    return "\n".join(lines) + "\n"
 
 
 def update_index_entry(paper: dict, enrichment: dict):
@@ -263,6 +449,9 @@ def update_index_entry(paper: dict, enrichment: dict):
     # Add enriched conference name
     if enrichment.get("published_in"):
         paper["published_in"] = enrichment["published_in"]
+
+    if enrichment.get("authors"):
+        paper["author_affiliations_enriched"] = True
 
 
 def main():

@@ -1,9 +1,18 @@
 ---
-id: corl-0022
+id: "corl-0022"
 title: "MegaPose: 6D Pose Estimation of Novel Objects via Render &amp; Compare"
-conference: CoRL 2022
-date: 2022-12
+conference: "CoRL 2022"
+date: "2022-12"
 authors:
+  - name: "Yann Labbe"
+    affiliation: "INRIA"
+    is_industry: false
+  - name: "Lucas Manuelli"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arsalan Mousavian"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +22,12 @@ authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yann Labbe"
-    affiliation: ""
-    is_industry: false
-  - name: "Lucas Manuelli"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
   - name: "et al."
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://megapose6d.github.io/"
 abstract: "We introduce MegaPose, a method to estimate the 6D pose of novel objects, that is, objects unseen during training. At inference time, the method only assumes knowledge of (i) a region of interest displaying the object in the image and (ii) a CAD model of the observed object. The contributions of thi"
 url: "https://research.nvidia.com/publication/2022-12_megapose-6d-pose-estimation-novel-objects-render-compare"
-status: new
+status: "new"
 ---
 
 # MegaPose: 6D Pose Estimation of Novel Objects via Render &amp; Compare

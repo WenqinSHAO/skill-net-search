@@ -1,10 +1,13 @@
 ---
-id: arxiv-2748
+id: "arxiv-2748"
 title: "A Position-Free Path Integral for Homogeneous Slabs and Multiple Scattering on Smith Microfacets"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
   - name: "Benedikt Bitterli"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Eugene d'Eon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Eugene d&#039;Eon"
@@ -12,7 +15,6 @@ authors:
     is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -20,7 +22,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We consider the problem of multiple scattering on Smith microfacets. This problem is equivalent to computing volumetric light transport in a homogeneous slab. Although the symmetry of the slab allows for significant simplification, fully analytic solutions are scarce and not general enough for most "
 url: "https://research.nvidia.com/publication/2022-07_position-free-path-integral-homogeneous-slabs-and-multiple-scattering-smith"
-status: new
+status: "new"
 ---
 
 # A Position-Free Path Integral for Homogeneous Slabs and Multiple Scattering on Smith Microfacets

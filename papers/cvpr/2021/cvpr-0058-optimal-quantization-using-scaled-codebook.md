@@ -1,30 +1,29 @@
 ---
-id: cvpr-0058
+id: "cvpr-0058"
 title: "Optimal Quantization Using Scaled Codebook"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
+  - name: "Yerlan Idelbayev"
+    affiliation: "UC Merced"
+    is_industry: false
   - name: "Pavlo Molchanov"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Maying Shen"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yerlan Idelbayev"
-    affiliation: ""
-    is_industry: false
-  - name: "Maying Shen"
-    affiliation: ""
-    is_industry: false
   - name: "Miguel A. Carreira-Perpinan"
-    affiliation: ""
+    affiliation: "UC Merced"
     is_industry: false
   - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We study the problem of quantizing N sorted, scalar datapoints with a fixed codebook containing K entries that are allowed to be rescaled. The problem is defined as finding the optimal scaling factor alpha and the datapoint assignments into the alpha-scaled codebook to minimize the squared error bet"
 url: "https://research.nvidia.com/publication/2021-06_optimal-quantization-using-scaled-codebook"
-status: new
+status: "new"
 ---
 
 # Optimal Quantization Using Scaled Codebook

@@ -1,21 +1,20 @@
 ---
-id: arxiv-2624
+id: "arxiv-2624"
 title: "MedPart: A Multi-Level Evolutionary Differentiable Hypergraph Partitioner"
-conference: arXiv 2024
-date: 2024-03
+conference: "arXiv 2024"
+date: "2024-03"
 authors:
   - name: "Rongjian Liang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Anthony Agnesina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,9 +23,9 @@ research_areas:
 external_links:
   - name: "MedPart"
     url: "https://confluence.nvidia.com/display/NVRAVR/EDPart%3A+Evolutionary+Differentiable+Hypergraph+Partitioning?preview=/2124023845/2729722999/MedPart__Multi_Level_Evolutionary_Differentiable_Hypergraph_Partitioner__Final_%20(1).pdf"
-abstract: "State-of-the-art hypergraph partitioners, such as hMETIS, usually adopt a multi-level paradigm for efficiency and scalability. However, they are prone to getting trapped in local minima due to their reliance on refinement heuristics and overlooking global structural information during coarsening. "
+abstract: "State-of-the-art hypergraph partitioners, such as hMETIS, usually adopt a multi-level paradigm for efficiency and scalability. How\u0002ever, they are prone to getting trapped in local minima due to their reliance on refinement heuristics and overlooking global struc\u0002tural information during coarsening. "
 url: "https://research.nvidia.com/publication/2024-03_medpart-multi-level-evolutionary-differentiable-hypergraph-partitioner"
-status: new
+status: "new"
 ---
 
 # MedPart: A Multi-Level Evolutionary Differentiable Hypergraph Partitioner

@@ -1,9 +1,12 @@
 ---
-id: cvpr-0025
+id: "cvpr-0025"
 title: "Neural Implicit Representation for Building Digital Twins of Unknown Articulated Objects"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Yijia Weng"
+    affiliation: "Stanford"
+    is_industry: false
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +16,18 @@ authors:
   - name: "Valts Blukis"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Dieter Fox"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Leo Guibas"
+    affiliation: "Stanford"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yijia Weng"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
-  - name: "Leo Guibas"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://github.com/NVlabs/DigitalTwinArt"
 abstract: "We address the problem of building digital twins of unknown articulated objects from two RGBD scans of the object at different articulation states. We decompose the problem into two stages, each addressing distinct aspects. Our method first reconstructs object-level shape at each state, then recover"
 url: "https://research.nvidia.com/publication/2024-06_neural-implicit-representation-building-digital-twins-unknown-articulated"
-status: new
+status: "new"
 ---
 
 # Neural Implicit Representation for Building Digital Twins of Unknown Articulated Objects

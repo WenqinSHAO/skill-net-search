@@ -1,30 +1,29 @@
 ---
-id: arxiv-2953
+id: "arxiv-2953"
 title: "Glossy Probe Reprojection for Interactive Global Illumination"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Simon Rodriguez"
+    affiliation: "Université Côte d’Azur and Inria"
+    is_industry: false
+  - name: "Thomas Leimkühler"
+    affiliation: "Université Côte d’Azur and Inria"
+    is_industry: false
+  - name: "Siddhant Prakash"
+    affiliation: "Université Côte d’Azur and Inria"
+    is_industry: false
   - name: "Chris Wyman"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Simon Rodriguez"
-    affiliation: ""
-    is_industry: false
-  - name: "Thomas Leimkühler"
-    affiliation: ""
-    is_industry: false
-  - name: "Siddhant Prakash"
-    affiliation: ""
-    is_industry: false
   - name: "Peter Shirley"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "George Drettakis"
-    affiliation: ""
+    affiliation: "Université Côte d’Azur and Inria"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ research_areas:
   - "Real-Time Rendering"
 abstract: "Recent rendering advances dramatically reduce the cost of global illumination. But even with hardware acceleration, complex light paths with multiple glossy interactions are still expensive; our new algorithm stores these paths in precomputed light probes and reprojects them at runtime to provide in"
 url: "https://research.nvidia.com/publication/2020-11_glossy-probe-reprojection-interactive-global-illumination"
-status: new
+status: "new"
 ---
 
 # Glossy Probe Reprojection for Interactive Global Illumination

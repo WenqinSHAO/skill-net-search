@@ -1,8 +1,8 @@
 ---
-id: icml-0019
+id: "icml-0019"
 title: "Optimizing tensor network contraction using reinforcement learning"
-conference: ICML 2022
-date: 2022-06
+conference: "ICML 2022"
+date: "2022-06"
 authors:
   - name: "Eli Meirom"
     affiliation: "NVIDIA"
@@ -18,7 +18,6 @@ authors:
     is_industry: true
 topics:
   - AI & Machine Learning
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Quantum Computing (QC) stands to revolutionize computing, but is currently still limited. To develop and test quantum algorithms today, quantum circuits are often simulated on classical computers. Simulating a complex quantum circuit requires computing the contraction of a large network of tensors. "
 url: "https://research.nvidia.com/publication/2022-06_optimizing-tensor-network-contraction-using-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # Optimizing tensor network contraction using reinforcement learning

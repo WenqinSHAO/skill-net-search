@@ -1,19 +1,18 @@
 ---
-id: arxiv-2923
+id: "arxiv-2923"
 title: "Standard Cell Routing with Reinforcement Learning and Genetic Algorithm in Advanced Technology Nodes"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Matt Fojtik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -25,7 +24,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.1145/3394885.3431569"
 abstract: "Automated standard cell routing in advanced technology nodes with&nbsp;unidirectional metal are challenging because of the constraints of&nbsp;exploding design rules. Previous approaches leveraged mathematical&nbsp;optimization methods such as SAT and MILP to find optimum&nbsp;solution under those c"
 url: "https://research.nvidia.com/publication/2021-01_standard-cell-routing-reinforcement-learning-and-genetic-algorithm-advanced"
-status: new
+status: "new"
 ---
 
 # Standard Cell Routing with Reinforcement Learning and Genetic Algorithm in Advanced Technology Nodes

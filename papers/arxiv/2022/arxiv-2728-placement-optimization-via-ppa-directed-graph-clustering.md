@@ -1,25 +1,24 @@
 ---
-id: arxiv-2728
+id: "arxiv-2728"
 title: "Placement Optimization via PPA-Directed Graph Clustering"
-conference: arXiv 2022
-date: 2022-09
+conference: "arXiv 2022"
+date: "2022-09"
 authors:
   - name: "Yi-Chen Lu"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "Tian Yang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sung Kyu Lim"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3551901.3556482"
 abstract: "In this paper, we present the first Power, Performance, and Area (PPA)-directed, end-to-end placement optimization framework that provides cell clustering constraints as placement guidance to advance commercial placers. Specifically, we formulate PPA metrics as Machine Learning (ML) loss functions, "
 url: "https://research.nvidia.com/publication/2022-09_placement-optimization-ppa-directed-graph-clustering"
-status: new
+status: "new"
 ---
 
 # Placement Optimization via PPA-Directed Graph Clustering

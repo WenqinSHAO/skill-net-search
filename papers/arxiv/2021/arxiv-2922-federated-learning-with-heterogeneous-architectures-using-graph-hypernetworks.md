@@ -1,10 +1,16 @@
 ---
-id: arxiv-2922
+id: "arxiv-2922"
 title: "Federated Learning with Heterogeneous Architectures using Graph HyperNetworks"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Or Litany"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Haggai Maron"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "David Acuna"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
@@ -13,17 +19,10 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Or Litany"
-    affiliation: ""
-    is_industry: false
-  - name: "David Acuna"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -32,7 +31,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Standard Federated Learning (FL) techniques are limited to clients with identical network architectures. This restricts potential use-cases like cross-platform training or inter-organizational collaboration when both data privacy and architectural proprietary are required. We propose a new FL framew"
 url: "https://research.nvidia.com/publication/2021-01_federated-learning-heterogeneous-architectures-using-graph-hypernetworks"
-status: new
+status: "new"
 ---
 
 # Federated Learning with Heterogeneous Architectures using Graph HyperNetworks

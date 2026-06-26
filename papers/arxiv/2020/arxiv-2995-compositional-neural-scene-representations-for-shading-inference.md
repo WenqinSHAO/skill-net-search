@@ -1,25 +1,27 @@
 ---
-id: arxiv-2995
+id: "arxiv-2995"
 title: "Compositional Neural Scene Representations for Shading Inference"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Jonathan Granskog"
+    affiliation: "ETH Zurich & NVIDIA"
+    is_industry: true
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Marios Papas (DisneyResearch"
+    affiliation: ""
+    is_industry: false
+  - name: "Studios)"
+    affiliation: ""
+    is_industry: false
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jonathan Granskog"
-    affiliation: ""
-    is_industry: false
-  - name: "Marios Papas"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +33,7 @@ external_links:
     url: "https://github.com/jonathangranskog/shading-scene-representations"
 abstract: "We present a technique for adaptively partitioning neural scene representations. Our method disentangles lighting, material, and geometric information yielding a scene representation that preserves the orthogonality of these components, improves interpretability of the model, and allows compositing "
 url: "https://research.nvidia.com/publication/2020-07_compositional-neural-scene-representations-shading-inference"
-status: new
+status: "new"
 ---
 
 # Compositional Neural Scene Representations for Shading Inference

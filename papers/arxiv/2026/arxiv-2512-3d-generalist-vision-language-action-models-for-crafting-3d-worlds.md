@@ -1,10 +1,40 @@
 ---
-id: arxiv-2512
+id: "arxiv-2512"
 title: "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds"
-conference: arXiv 2026
-date: 2026-03
+conference: "arXiv 2026"
+date: "2026-03"
 authors:
+  - name: "Fan-Yun Sun"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Shengguang Wu"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Christian Jacobsen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thomas Yim"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Haoming Zou"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Alex Zook"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shangru Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yu-Hsin Chou"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Ethem Can"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xunlei Wu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Clemens Eppner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Valts Blukis"
@@ -13,44 +43,14 @@ authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jiajun Wu"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Fan-Yun Sun"
-    affiliation: ""
-    is_industry: false
-  - name: "Shengguang Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Christian Jacobsen"
-    affiliation: ""
-    is_industry: false
-  - name: "Thomas Yim"
-    affiliation: ""
-    is_industry: false
-  - name: "Haoming Zou"
-    affiliation: ""
-    is_industry: false
-  - name: "Shangru Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu-Hsin Chou"
-    affiliation: ""
-    is_industry: false
-  - name: "Ethem Can"
-    affiliation: ""
-    is_industry: false
-  - name: "Xunlei Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiajun Wu"
-    affiliation: ""
-    is_industry: false
   - name: "Nick Haber"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - AI & Machine Learning
@@ -58,7 +58,6 @@ topics:
   - Foundation_models
   - Graphics_rendering
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -73,7 +72,7 @@ external_links:
     url: "https://arxiv.org/abs/2507.06484"
 abstract: "Despite large-scale pretraining endowing models with language and vision reasoning capabilities, improving their spatial reasoning capability remains challenging due to the lack of data grounded in the 3D world. While it is possible for humans to manually create immersive and interactive worlds thro"
 url: "https://research.nvidia.com/publication/2026-03%5F3d-generalist-vision-language-action-models-crafting-3d-worlds"
-status: new
+status: "new"
 ---
 
 # 3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds

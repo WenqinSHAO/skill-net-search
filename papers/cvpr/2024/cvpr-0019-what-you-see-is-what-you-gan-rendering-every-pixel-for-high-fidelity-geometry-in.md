@@ -1,10 +1,16 @@
 ---
-id: cvpr-0019
+id: "cvpr-0019"
 title: "What You See is What You GAN: Rendering Every Pixel for High-Fidelity Geometry in 3D GANs"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
   - name: "Alexander Trevithick"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Towaki Takikawa"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Umar Iqbal"
@@ -13,27 +19,20 @@ authors:
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Manmohan Chandraker"
+    affiliation: "University of California at San Diego"
+    is_industry: false
+  - name: "Ravi Ramamoorthi"
+    affiliation: "University of California at San Diego"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Towaki Takikawa"
-    affiliation: ""
-    is_industry: false
-  - name: "Manmohan Chandraker"
-    affiliation: ""
-    is_industry: false
-  - name: "Ravi Ramamoorthi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2401.02411"
 abstract: "3D-aware Generative Adversarial Networks (GANs) have shown remarkable progress in learning to generate multi-view-consistent images and 3D geometries of scenes from collections of 2D images via neural volume rendering. Yet, the significant memory and computational costs of dense sampling in volume r"
 url: "https://research.nvidia.com/publication/2024-06_what-you-see-what-you-gan-rendering-every-pixel-high-fidelity-geometry-3d-gans"
-status: new
+status: "new"
 ---
 
 # What You See is What You GAN: Rendering Every Pixel for High-Fidelity Geometry in 3D GANs

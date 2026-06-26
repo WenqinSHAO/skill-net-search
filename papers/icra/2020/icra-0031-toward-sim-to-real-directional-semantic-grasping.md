@@ -1,40 +1,39 @@
 ---
-id: icra-0031
+id: "icra-0031"
 title: "Toward Sim-to-Real Directional Semantic Grasping"
-conference: ICRA 2020
-date: 2020-05
+conference: "ICRA 2020"
+date: "2020-05"
 authors:
+  - name: "Shariq Iqbal"
+    affiliation: "USC"
+    is_industry: false
   - name: "Jonathan Tremblay"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Thang To"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jia Cheng"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Erik Leitch"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Andy Campbell"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kirby Leung"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Duncan McKay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shariq Iqbal"
-    affiliation: ""
-    is_industry: false
-  - name: "Thang To"
-    affiliation: ""
-    is_industry: false
-  - name: "Jia Cheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Erik Leitch"
-    affiliation: ""
-    is_industry: false
-  - name: "Andy Campbell"
-    affiliation: ""
-    is_industry: false
-  - name: "Kirby Leung"
-    affiliation: ""
-    is_industry: false
-  - name: "Duncan McKay"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "http://youtu.be/bjJLtNdVj9w"
 abstract: "We address the problem of directional semantic grasping, that is, grasping a specific object from a specific direction. We approach the problem using deep reinforcement learning via a double deep Q-network (DDQN) that learns to map downsampled RGB input images from a wrist-mounted camera to Q-values"
 url: "https://research.nvidia.com/publication/2020-05_toward-sim-real-directional-semantic-grasping"
-status: new
+status: "new"
 ---
 
 # Toward Sim-to-Real Directional Semantic Grasping

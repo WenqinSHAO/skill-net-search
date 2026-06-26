@@ -1,35 +1,34 @@
 ---
-id: iclr-0022
+id: "iclr-0022"
 title: "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition"
-conference: ICLR 2024
-date: 2024-05
+conference: "ICLR 2024"
+date: "2024-05"
 authors:
+  - name: "YuChen Hu"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
+  - name: "Chen Chen"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "YuChen Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Ruizhe Li"
-    affiliation: ""
+    affiliation: "University of Aberdeen"
     is_industry: false
   - name: "Chao Zhang"
-    affiliation: ""
+    affiliation: "Tsinghua University"
     is_industry: false
   - name: "Pin-Yu Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "MIT-IBM Waston AI Lab"
+    is_industry: true
   - name: "EnSiong Chng"
-    affiliation: ""
+    affiliation: "Nanyang Technological University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://arxiv.org/abs/2401.10446"
 abstract: "Recent advances in large language models (LLMs) have promoted generative error correction (GER) for automatic speech recognition (ASR), which leverages the rich linguistic knowledge and powerful reasoning ability of LLMs to improve recognition results. The latest work proposes a GER benchmark with H"
 url: "https://research.nvidia.com/publication/2024-05_large-language-models-are-efficient-learners-noise-robust-speech-recognition"
-status: new
+status: "new"
 ---
 
 # Large Language Models are Efficient Learners of Noise-Robust Speech Recognition

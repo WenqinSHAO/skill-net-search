@@ -1,22 +1,21 @@
 ---
-id: arxiv-2848
+id: "arxiv-2848"
 title: "Cooperative Profile Guided Optimization"
-conference: arXiv 2021
-date: 2021-07
+conference: "arXiv 2021"
+date: "2021-07"
 authors:
   - name: "Mark Stephenson"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ram Rangan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ram Rangan"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14382"
 abstract: "Existing feedback-driven optimization frameworks are not suitable for video games, which tend to push the limits of performance of gaming platforms and have real-time constraints that preclude all but the simplest execution profiling. While Profile Guided Optimization (PGO) is a well-established opt"
 url: "https://research.nvidia.com/publication/2021-07_cooperative-profile-guided-optimization"
-status: new
+status: "new"
 ---
 
 # Cooperative Profile Guided Optimization

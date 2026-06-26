@@ -1,28 +1,27 @@
 ---
-id: arxiv-2696
+id: "arxiv-2696"
 title: "Efficient Arithmetic Block Identification with Graph Learning and Network-flow"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Ziyi Wang"
+    affiliation: "CUHK"
+    is_industry: false
+  - name: "Zhuolun He"
+    affiliation: "CUHK"
+    is_industry: false
+  - name: "Chen Bai"
+    affiliation: "CUHK"
+    is_industry: false
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ziyi Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhuolun He"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Bai"
-    affiliation: ""
-    is_industry: false
   - name: "Bei Yu"
-    affiliation: ""
+    affiliation: "CUHK"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Arithmetic block identification in gate-level netlists plays an essential role for various purposes, including malicious logic detection, functional verification, or macro-block optimization. However, current methods usually suffer from either low performance or poor scalability. To address the issu"
 url: "https://research.nvidia.com/publication/2022-12_efficient-arithmetic-block-identification-graph-learning-and-network-flow"
-status: new
+status: "new"
 ---
 
 # Efficient Arithmetic Block Identification with Graph Learning and Network-flow

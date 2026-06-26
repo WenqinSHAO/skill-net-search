@@ -1,34 +1,33 @@
 ---
-id: siggraph-0031
+id: "siggraph-0031"
 title: "Domain-Agnostic Tuning-Encoder for Fast Personalization of Text-To-Image Models"
-conference: SIGGRAPH 2023
-date: 2023-12
+conference: "SIGGRAPH 2023"
+date: "2023-12"
 authors:
+  - name: "Moab Arar"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Moab Arar"
-    affiliation: ""
-    is_industry: false
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
   - name: "Ariel Shamir"
-    affiliation: ""
+    affiliation: "Reichman University"
     is_industry: false
   - name: "Amit Bermano"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://arxiv.org/abs/2307.06925"
 abstract: "Text-to-image (T2I) personalization allows users to guide the creative image generation process by combining their own visual concepts in natural language prompts. Recently, encoder-based techniques have emerged as a new effective approach for T2I personalization, reducing the need for multiple imag"
 url: "https://research.nvidia.com/publication/2023-12_domain-agnostic-tuning-encoder-fast-personalization-text-image-models"
-status: new
+status: "new"
 ---
 
 # Domain-Agnostic Tuning-Encoder for Fast Personalization of Text-To-Image Models

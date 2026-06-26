@@ -1,31 +1,30 @@
 ---
-id: arxiv-2974
+id: "arxiv-2974"
 title: "UFO2: A Unified Framework towards Omni-supervised Object Detection"
-conference: arXiv 2020
-date: 2020-08
+conference: "arXiv 2020"
+date: "2020-08"
 authors:
+  - name: "Zhongzheng Ren"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Xiaodong Yang"
+    affiliation: "QCraft"
+    is_industry: false
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alexander G. Schwing"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhongzheng Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaodong Yang"
-    affiliation: ""
-    is_industry: false
-  - name: "Alexander G. Schwing"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Existing work on object detection often relies on a single form of annotation: the model is trained using either accurate yet costly bounding boxes or cheaper but less expressive image-level tags. However, real-world annotations are often diverse in form, which challenges these existing works. In th"
 url: "https://research.nvidia.com/publication/2020-08_ufo2-unified-framework-towards-omni-supervised-object-detection"
-status: new
+status: "new"
 ---
 
 # UFO2: A Unified Framework towards Omni-supervised Object Detection

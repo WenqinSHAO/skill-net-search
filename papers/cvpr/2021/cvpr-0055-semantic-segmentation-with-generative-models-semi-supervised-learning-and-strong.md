@@ -1,29 +1,28 @@
 ---
-id: cvpr-0055
+id: "cvpr-0055"
 title: "Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization"
-conference: CVPR 2021
-date: 2021-06
+conference: "CVPR 2021"
+date: "2021-06"
 authors:
+  - name: "Daiqing Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Junlin Yang"
+    affiliation: "NVIDIA, Yale University"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Junlin Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/semanticGAN/"
 abstract: "Training deep networks with limited labeled data while achieving a strong generalization ability is key in the quest to reduce human annotation efforts. This is the goal of semi-supervised learning, which exploits more widely available unlabeled data to complement small labeled data sets. In this pa"
 url: "https://research.nvidia.com/publication/2021-06_semantic-segmentation-generative-models-semi-supervised-learning-and-strong-out"
-status: new
+status: "new"
 ---
 
 # Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization

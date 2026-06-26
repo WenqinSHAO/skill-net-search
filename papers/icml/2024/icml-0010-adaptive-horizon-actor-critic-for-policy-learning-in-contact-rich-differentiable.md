@@ -1,27 +1,26 @@
 ---
-id: icml-0010
+id: "icml-0010"
 title: "Adaptive Horizon Actor-Critic for Policy Learning in Contact-Rich Differentiable Simulation"
-conference: ICML 2024
-date: 2024-07
+conference: "ICML 2024"
+date: "2024-07"
 authors:
+  - name: "Ignat Georgiev"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Krishnan Srinivasan"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jie Xu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ignat Georgiev"
-    affiliation: ""
-    is_industry: false
-  - name: "Krishnan Srinivasan"
-    affiliation: ""
-    is_industry: false
   - name: "Eric Heiden"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://adaptive-horizon-actor-critic.github.io/"
 abstract: "Model-Free Reinforcement Learning (MFRL), leveraging the policy gradient theorem, has demonstrated considerable success in continuous control tasks. However, these approaches are plagued by high gradient variance due to zeroth-order gradient estimation, resulting in suboptimal policies. Conversely, "
 url: "https://research.nvidia.com/publication/2024-07_adaptive-horizon-actor-critic-policy-learning-contact-rich-differentiable"
-status: new
+status: "new"
 ---
 
 # Adaptive Horizon Actor-Critic for Policy Learning in Contact-Rich Differentiable Simulation

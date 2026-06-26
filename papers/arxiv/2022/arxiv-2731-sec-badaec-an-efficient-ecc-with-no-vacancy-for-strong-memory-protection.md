@@ -1,25 +1,24 @@
 ---
-id: arxiv-2731
+id: "arxiv-2731"
 title: "SEC-BADAEC: An Efficient ECC With No Vacancy for Strong Memory Protection"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
+  - name: "Yuseok Song"
+    affiliation: "Sungkyunkwan University"
+    is_industry: false
+  - name: "Sangjae Park"
+    affiliation: "Sungkyunkwan University"
+    is_industry: false
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yuseok Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Sangjae Park"
-    affiliation: ""
-    is_industry: false
   - name: "Jungrae Kim"
-    affiliation: ""
+    affiliation: "Sungkyunkwan University"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9866743"
 abstract: "Shrinking process technology and rising memory densities have made memories increasingly vulnerable to errors. Accordingly, DRAM vendors have introduced On-die Error Correction Code (O-ECC) to protect data against the growing number of errors. Current O-ECC provides weak Single Error Correction (SEC"
 url: "https://research.nvidia.com/publication/2022-08_sec-badaec-efficient-ecc-no-vacancy-strong-memory-protection"
-status: new
+status: "new"
 ---
 
 # SEC-BADAEC: An Efficient ECC With No Vacancy for Strong Memory Protection

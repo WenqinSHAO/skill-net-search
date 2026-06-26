@@ -1,29 +1,28 @@
 ---
-id: arxiv-2682
+id: "arxiv-2682"
 title: "Parsimony: Enabling SIMD/Vector Programming in Standard Compiler Flows"
-conference: arXiv 2023
-date: 2023-02
+conference: "arXiv 2023"
+date: "2023-02"
 authors:
+  - name: "Vijay Kandiah"
+    affiliation: "Northwestern University"
+    is_industry: false
   - name: "Daniel Lustig"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Oreste Villa"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vijay Kandiah"
-    affiliation: ""
-    is_industry: false
-  - name: "Oreste Villa"
-    affiliation: ""
-    is_industry: false
   - name: "Nikos Hardavellas"
-    affiliation: ""
+    affiliation: "Northwestern University"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3579990.3580019"
 abstract: "Achieving peak throughput on modern CPUs requires maximizing the use of single-instruction, multiple-data (SIMD) or vector compute units. Single-program, multiple-data (SPMD) programming models are an effective way to use high-level programming languages to target these ISAs. Unfortunately, many SPM"
 url: "https://research.nvidia.com/publication/2023-02_parsimony-enabling-simdvector-programming-standard-compiler-flows"
-status: new
+status: "new"
 ---
 
 # Parsimony: Enabling SIMD/Vector Programming in Standard Compiler Flows

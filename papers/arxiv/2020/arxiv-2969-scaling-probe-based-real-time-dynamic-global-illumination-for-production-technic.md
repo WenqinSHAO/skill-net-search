@@ -1,24 +1,23 @@
 ---
-id: arxiv-2969
+id: "arxiv-2969"
 title: "Scaling Probe-Based Real-Time Dynamic Global Illumination for Production (Technical Report)"
-conference: arXiv 2020
-date: 2020-09
+conference: "arXiv 2020"
+date: "2020-09"
 authors:
+  - name: "Zander Majercik"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Adam Marrs"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zander Majercik"
-    affiliation: ""
-    is_industry: false
-  - name: "Adam Marrs"
-    affiliation: ""
-    is_industry: false
   - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://arxiv.org/pdf/2009.10796"
 abstract: "We contribute several practical extensions to the probe based irradiance-field-with-visibility representation to improve image quality, constant and asymptotic performance, memory efficiency, and artist control. We developed these extensions in the process of incorporating the previous work into the"
 url: "https://research.nvidia.com/publication/2020-09_scaling-probe-based-real-time-dynamic-global-illumination-production-technical"
-status: new
+status: "new"
 ---
 
 # Scaling Probe-Based Real-Time Dynamic Global Illumination for Production (Technical Report)

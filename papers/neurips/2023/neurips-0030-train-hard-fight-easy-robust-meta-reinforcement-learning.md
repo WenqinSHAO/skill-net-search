@@ -1,9 +1,12 @@
 ---
-id: neurips-0030
+id: "neurips-0030"
 title: "Train Hard, Fight Easy: Robust Meta Reinforcement Learning"
-conference: NeurIPS 2023
-date: 2023-06
+conference: "NeurIPS 2023"
+date: "2023-06"
 authors:
+  - name: "Ido Greenberg"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,11 +16,7 @@ authors:
   - name: "Eli Meirom"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ido Greenberg"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -26,7 +25,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "A major challenge of reinforcement learning (RL) in real-world applications is the variation between environments, tasks or clients. Meta-RL (MRL) addresses this issue by learning a meta-policy that adapts to new tasks. Standard MRL methods optimize the average return over tasks, but often suffer fr"
 url: "https://research.nvidia.com/publication/2023-06_train-hard-fight-easy-robust-meta-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # Train Hard, Fight Easy: Robust Meta Reinforcement Learning

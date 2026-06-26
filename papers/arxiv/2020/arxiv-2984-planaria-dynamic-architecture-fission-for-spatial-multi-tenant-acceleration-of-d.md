@@ -1,49 +1,48 @@
 ---
-id: arxiv-2984
+id: "arxiv-2984"
 title: "Planaria: Dynamic Architecture Fission for Spatial Multi-Tenant Acceleration of Deep Neural Networks"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
   - name: "Soroush Ghodrati"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Byung Hoon Ahn"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Joon Kyung Kim"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Sean Kinzer"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Brahmendra Reddy Yatham"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Navateja Alla"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
   - name: "Hardik Sharma"
-    affiliation: ""
+    affiliation: "Bigstream"
     is_industry: false
   - name: "Mohammad Alian"
-    affiliation: ""
+    affiliation: "Kansas University"
     is_industry: false
   - name: "Eiman Ebrahimi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nam Sung Kim"
-    affiliation: ""
+    affiliation: "University of Illinois Urbana-Champaign"
     is_industry: false
   - name: "Cliff Young"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Google"
+    is_industry: true
   - name: "Hadi Esmaeilzadeh"
-    affiliation: ""
+    affiliation: "University of California, San Diego"
     is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -55,7 +54,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9251939"
 abstract: "Deep Neural Networks (DNNs) have reinvigorated real-world applications that rely on learning patterns of data and are permeating into different industries and markets. Cloud infrastructure and accelerators that offer INFerence-as-a-Service (INFaaS) have become the enabler of this rather quick and in"
 url: "https://research.nvidia.com/publication/2020-07_planaria-dynamic-architecture-fission-spatial-multi-tenant-acceleration-deep"
-status: new
+status: "new"
 ---
 
 # Planaria: Dynamic Architecture Fission for Spatial Multi-Tenant Acceleration of Deep Neural Networks

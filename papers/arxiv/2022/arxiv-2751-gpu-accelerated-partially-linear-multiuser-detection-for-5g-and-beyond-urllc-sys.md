@@ -1,40 +1,39 @@
 ---
-id: arxiv-2751
+id: "arxiv-2751"
 title: "GPU-Accelerated Partially Linear Multiuser Detection for 5G and Beyond URLLC Systems"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Matthias Mehlhose"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
   - name: "Guillermo Marcus"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Daniel Schäufele"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
+  - name: "Daniyal Amir Awan"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
   - name: "Nikolaus Binder"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Martin Kasparick"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
+  - name: "Renato L. G. Cavalcante"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
+  - name: "Sławomir Stanćzak"
+    affiliation: "Fraunhofer Institute for Telecommunications, HHI"
+    is_industry: false
   - name: "Alex Keller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Matthias Mehlhose"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Schäufele"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniyal Amir Awan"
-    affiliation: ""
-    is_industry: false
-  - name: "Martin Kasparick"
-    affiliation: ""
-    is_industry: false
-  - name: "Renato L. G. Cavalcante"
-    affiliation: ""
-    is_industry: false
-  - name: "Sławomir Stanćzak"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -46,7 +45,7 @@ external_links:
     url: "https://arxiv.org/pdf/2201.05024.pdf"
 abstract: "We have implemented a recently proposed partially linear multiuser detection algorithm in reproducing kernel Hilbert spaces (RKHSs) on a GPU-accelerated platform. Our proof of concept combines the robustness of linear detection and non-linear detection for the non-orthogonal multiple access (NOMA) b"
 url: "https://research.nvidia.com/publication/2022-06_gpu-accelerated-partially-linear-multiuser-detection-5g-and-beyond-urllc"
-status: new
+status: "new"
 ---
 
 # GPU-Accelerated Partially Linear Multiuser Detection for 5G and Beyond URLLC Systems

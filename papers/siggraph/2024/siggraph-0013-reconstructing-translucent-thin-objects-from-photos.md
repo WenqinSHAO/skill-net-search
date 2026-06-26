@@ -1,33 +1,35 @@
 ---
-id: siggraph-0013
+id: "siggraph-0013"
 title: "Reconstructing Translucent Thin Objects from Photos"
-conference: SIGGRAPH 2024
-date: 2024-11
+conference: "SIGGRAPH 2024"
+date: "2024-11"
 authors:
+  - name: "Xi Deng"
+    affiliation: "Cornell University"
+    is_industry: false
   - name: "Lifan Wu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Bruce Walter"
+    affiliation: "Cornell University"
+    is_industry: false
+  - name: "Eugene d'Eon"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ravi Ramamoorthi"
+    affiliation: "NVIDIA & University of California, San Diego"
+    is_industry: true
+  - name: "Steve Marschner"
+    affiliation: "Cornell University"
+    is_industry: false
+  - name: "Andrea Weidlich"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Eugene d&#039;Eon"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andrea Weidlich"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Xi Deng"
-    affiliation: ""
-    is_industry: false
-  - name: "Bruce Walter"
-    affiliation: ""
-    is_industry: false
-  - name: "Ravi Ramamoorthi"
-    affiliation: ""
-    is_industry: false
-  - name: "Steve Marschner"
-    affiliation: ""
-    is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +37,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "The joint reconstruction of shape and appearance for translucent objects from real-world data poses a challenge in computer graphics, especially when dealing with complex layered materials like leaves or paper. The traditional assumption of diffuse transmittance falls short, and more accurate Monte-"
 url: "https://research.nvidia.com/publication/2024-11_reconstructing-translucent-thin-objects-photos"
-status: new
+status: "new"
 ---
 
 # Reconstructing Translucent Thin Objects from Photos

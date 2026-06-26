@@ -1,10 +1,13 @@
 ---
-id: arxiv-2552
+id: "arxiv-2552"
 title: "Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
   - name: "Chia-Tung (Mark) Ho"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jing Gong"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yunsheng Bai"
@@ -13,19 +16,15 @@ authors:
   - name: "Chenhui Deng"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jing Gong"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Hardware design presents numerous challenges stemming from its complexity and advancing technologies. These challenges result in longer turn-around-time (TAT) for optimizing performance, power, area, and cost (PPAC) during synthesis, verification, physical design, and reliability loops. Large Langua"
 url: "https://research.nvidia.com/publication/2025-06_marco-configurable-graph-based-task-solving-and-multi-ai-agents-framework"
-status: new
+status: "new"
 ---
 
 # Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design

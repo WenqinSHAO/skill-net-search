@@ -1,30 +1,29 @@
 ---
-id: siggraph-0026
+id: "siggraph-0026"
 title: "4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes"
-conference: SIGGRAPH 2024
-date: 2024-02
+conference: "SIGGRAPH 2024"
+date: "2024-02"
 authors:
   - name: "Yuanxing Duan"
-    affiliation: ""
+    affiliation: "Peking University"
     is_industry: false
   - name: "Fangyin Wei"
-    affiliation: ""
+    affiliation: "Princeton University"
     is_industry: false
   - name: "Qiyu Dai"
-    affiliation: ""
+    affiliation: "Peking University, State Key Laboratory of General AI China"
     is_industry: false
   - name: "Yuhang He"
-    affiliation: ""
+    affiliation: "Peking University"
     is_industry: false
   - name: "Wenzheng Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Peking University"
+    is_industry: true
   - name: "Baoquan Chen"
-    affiliation: ""
+    affiliation: "Peking University, State Key Laboratory of General AI China"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We consider the problem of novel-view synthesis (NVS) for dynamic scenes. Recent neural approaches have accomplished exceptional NVS results for static 3D scenes, but extensions to 4D time-varying scenes remain non-trivial. Prior efforts often encode dynamics by learning a canonical space plus impli"
 url: "https://research.nvidia.com/publication/2024-02_4d-rotor-gaussian-splatting-towards-efficient-novel-view-synthesis-dynamic"
-status: new
+status: "new"
 ---
 
 # 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes

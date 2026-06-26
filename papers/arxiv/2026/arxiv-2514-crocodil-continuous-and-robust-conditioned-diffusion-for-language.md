@@ -1,35 +1,34 @@
 ---
-id: arxiv-2514
+id: "arxiv-2514"
 title: "CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language"
-conference: arXiv 2026
-date: 2026-03
+conference: "arXiv 2026"
+date: "2026-03"
 authors:
   - name: "Roy Uziel"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Omer Belhasin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Itay Levy"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Akhiad Bercovich"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ran El-Yaniv"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ran Zilberstein"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Elad"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ research_areas:
   - "Generative AI"
 abstract: "Masked Diffusion Models (MDMs) provide an efficient non-causal alternative to autoregressive generation but often struggle with token dependencies and semantic incoherence due to their reliance on discrete marginal distributions. We address these limitations by shifting the diffusion process into a "
 url: "https://research.nvidia.com/publication/2026-03%5Fcrocodil-continuous-and-robust-conditioned-diffusion-language"
-status: new
+status: "new"
 ---
 
 # CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language

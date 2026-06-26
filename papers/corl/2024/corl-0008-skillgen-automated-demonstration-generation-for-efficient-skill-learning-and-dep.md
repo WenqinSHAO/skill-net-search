@@ -1,8 +1,8 @@
 ---
-id: corl-0008
+id: "corl-0008"
 title: "SkillGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment"
-conference: CoRL 2024
-date: 2024-11
+conference: "CoRL 2024"
+date: "2024-11"
 authors:
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
@@ -14,12 +14,11 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -27,7 +26,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2024-11_skillgen-automated-demonstration-generation-efficient-skill-learning-and"
-status: new
+status: "new"
 ---
 
 # SkillGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment

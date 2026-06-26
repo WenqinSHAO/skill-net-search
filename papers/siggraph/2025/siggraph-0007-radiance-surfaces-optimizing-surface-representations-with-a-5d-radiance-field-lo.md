@@ -1,9 +1,15 @@
 ---
-id: siggraph-0007
+id: "siggraph-0007"
 title: "Radiance Surfaces: Optimizing Surface Representations with a 5D Radiance Field Loss"
-conference: SIGGRAPH 2025
-date: 2025-07
+conference: "SIGGRAPH 2025"
+date: "2025-07"
 authors:
+  - name: "Ziyi Zhang"
+    affiliation: "École Polytechnique Fédérale de Lausanne (EPFL) and NVIDIA"
+    is_industry: true
+  - name: "Nicolas Roussel"
+    affiliation: "École Polytechnique Fédérale de Lausanne (EPFL)"
+    is_industry: false
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,19 +22,12 @@ authors:
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ziyi Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicolas Roussel"
-    affiliation: ""
-    is_industry: false
   - name: "Wenzel Jakob"
-    affiliation: ""
-    is_industry: false
+    affiliation: "École Polytechnique Fédérale de Lausanne (EPFL) and NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://rgl.epfl.ch/publications/Zhang2025Radiance"
 abstract: "We present a fast and simple technique to convert images into a radiance surface-based scene representation. Building on existing radiance volume reconstruction algorithms, we introduce a subtle yet impactful modification of the loss function requiring changes to only a few lines of code: instead of"
 url: "https://research.nvidia.com/publication/2025-07_radiance-surfaces-optimizing-surface-representations-5d-radiance-field-loss"
-status: new
+status: "new"
 ---
 
 # Radiance Surfaces: Optimizing Surface Representations with a 5D Radiance Field Loss

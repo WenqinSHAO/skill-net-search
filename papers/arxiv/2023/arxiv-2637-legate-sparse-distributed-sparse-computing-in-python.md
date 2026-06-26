@@ -1,40 +1,39 @@
 ---
-id: arxiv-2637
+id: "arxiv-2637"
 title: "Legate Sparse: Distributed Sparse Computing in Python"
-conference: arXiv 2023
-date: 2023-11
+conference: "arXiv 2023"
+date: "2023-11"
 authors:
+  - name: "Rohan Yadav"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Wonchan Lee"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Melih Elibol"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Taylor Patti"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Manolis Papadakis"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Garland"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Alex Aiken"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Fredrik Kjolstad"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Michael Bauer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Yadav"
-    affiliation: ""
-    is_industry: false
-  - name: "Wonchan Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Manolis Papadakis"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Aiken"
-    affiliation: ""
-    is_industry: false
-  - name: "Fredrik Kjolstad"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ research_areas:
   - "Programming Languages, Systems and Tools"
 abstract: "The sparse module of the popular SciPy Python library is widely used across applications in scientific computing, data analysis and machine learning. The standard implementation of SciPy is restricted to a single CPU and cannot take advantage of modern distributed and accelerated computing resources"
 url: "https://research.nvidia.com/publication/2023-11_legate-sparse-distributed-sparse-computing-python"
-status: new
+status: "new"
 ---
 
 # Legate Sparse: Distributed Sparse Computing in Python

@@ -1,27 +1,26 @@
 ---
-id: siggraph-0054
+id: "siggraph-0054"
 title: "Inverse Global Illumination using a Neural Radiometric Prior"
-conference: SIGGRAPH 2023
-date: 2023-05
+conference: "SIGGRAPH 2023"
+date: "2023-05"
 authors:
+  - name: "Saeed Hadadan"
+    affiliation: "University of Maryland, College Park and NVIDIA"
+    is_industry: true
+  - name: "Geng Lin"
+    affiliation: "University of Maryland, College Park"
+    is_industry: false
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Saeed Hadadan"
-    affiliation: ""
-    is_industry: false
-  - name: "Geng Lin"
-    affiliation: ""
-    is_industry: false
   - name: "Matthias Zwicker"
-    affiliation: ""
+    affiliation: "University of Maryland, College Park"
     is_industry: false
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://research.nvidia.com/labs/rtr/inverse_global_illumination/"
 abstract: "Inverse rendering methods that account for global illumination are becoming more popular, but current methods require evaluating and automatically differentiating millions of path integrals by tracing multiple light bounces, which remains expensive and prone to noise. Instead, this paper proposes a "
 url: "https://research.nvidia.com/publication/2023-05_inverse-global-illumination-using-neural-radiometric-prior"
-status: new
+status: "new"
 ---
 
 # Inverse Global Illumination using a Neural Radiometric Prior

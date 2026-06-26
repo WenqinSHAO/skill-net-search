@@ -1,31 +1,30 @@
 ---
-id: arxiv-2802
+id: "arxiv-2802"
 title: "GPU Subwarp Interleaving"
-conference: arXiv 2022
-date: 2022-01
+conference: "arXiv 2022"
+date: "2022-01"
 authors:
+  - name: "Sana Damani"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Mark Stephenson"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ram Rangan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Daniel Johnson"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Rishkul Kulkarni"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sana Damani"
-    affiliation: ""
-    is_industry: false
-  - name: "Ram Rangan"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Johnson"
-    affiliation: ""
-    is_industry: false
-  - name: "Rishkul Kulkarni"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9773183"
 abstract: "Raytracing applications have naturally high thread divergence, low warp occupancy and are limited by memory latency. In this paper, we present an architectural enhancement called Subwarp Interleaving that exploits thread divergence to hide pipeline stalls in divergent sections of low warp occupancy "
 url: "https://research.nvidia.com/publication/2022-01_gpu-subwarp-interleaving"
-status: new
+status: "new"
 ---
 
 # GPU Subwarp Interleaving

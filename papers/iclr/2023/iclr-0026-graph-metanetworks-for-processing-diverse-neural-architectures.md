@@ -1,28 +1,27 @@
 ---
-id: iclr-0026
+id: "iclr-0026"
 title: "Graph Metanetworks for Processing Diverse Neural Architectures"
-conference: ICLR 2023
-date: 2023-12
+conference: "ICLR 2023"
+date: "2023-12"
 authors:
+  - name: "Derek Lim"
+    affiliation: "NVIDIA, MIT"
+    is_industry: true
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Derek Lim"
-    affiliation: ""
-    is_industry: false
   - name: "Marc T. Law"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/GMN/"
 abstract: "Neural networks efficiently encode learned information within their parameters. Consequently, many tasks can be unified by treating neural networks themselves as input data. When doing so, recent studies demonstrated the importance of accounting for the symmetries and geometry of parameter spaces. H"
 url: "https://research.nvidia.com/publication/2023-12_graph-metanetworks-processing-diverse-neural-architectures"
-status: new
+status: "new"
 ---
 
 # Graph Metanetworks for Processing Diverse Neural Architectures

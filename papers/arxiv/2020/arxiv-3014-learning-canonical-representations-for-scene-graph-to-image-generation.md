@@ -1,31 +1,30 @@
 ---
-id: arxiv-3014
+id: "arxiv-3014"
 title: "Learning Canonical Representations for Scene Graph to Image Generation"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Roei Herzig"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Amir Bar"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
+  - name: "Huijuan Xu"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Roei Herzig"
-    affiliation: ""
-    is_industry: false
-  - name: "Amir Bar"
-    affiliation: ""
-    is_industry: false
-  - name: "Huijuan Xu"
-    affiliation: ""
-    is_industry: false
   - name: "Trevor Darrell"
-    affiliation: ""
+    affiliation: "UC Berkeley"
     is_industry: false
   - name: "Amir Globerson"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/1912.07414"
 abstract: "Generating realistic images of complex visual scenes becomes challenging when one wishes to control the structure of the generated images. Previous approaches showed that scenes with few entities can be controlled using scene graphs, but this approach struggles as the complexity of the graph (the nu"
 url: "https://research.nvidia.com/publication/2020-06_learning-canonical-representations-scene-graph-image-generation"
-status: new
+status: "new"
 ---
 
 # Learning Canonical Representations for Scene Graph to Image Generation

@@ -1,9 +1,12 @@
 ---
-id: iclr-0030
+id: "iclr-0030"
 title: "On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning"
-conference: ICLR 2022
-date: 2022-10
+conference: "ICLR 2022"
+date: "2022-10"
 authors:
+  - name: "Guy Tenneholtz"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Assaf Hallak"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,11 +19,7 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Guy Tenneholtz"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "We consider the problem of using expert data with unobserved confounders for imitation and reinforcement learning. We begin by defining the problem of learning from confounded expert data in a contextual MDP setup. We analyze the limitations of learning from such data with and without external rewar"
 url: "https://research.nvidia.com/publication/2022-10_covariate-shift-latent-confounders-imitation-and-reinforcement-learning"
-status: new
+status: "new"
 ---
 
 # On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning

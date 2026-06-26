@@ -1,9 +1,12 @@
 ---
-id: cvpr-0014
+id: "cvpr-0014"
 title: "RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Chan Hee Song"
+    affiliation: "Ohio State University"
+    is_industry: false
   - name: "Valts Blukis"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,19 +16,15 @@ authors:
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yu Su"
+    affiliation: "Ohio State University"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chan Hee Song"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Su"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://chanh.ee/RoboSpatial/"
 abstract: "Spatial understanding is a crucial capability that enables robots to perceive their surroundings, reason about their environment, and interact with it meaningfully. In modern robotics, these capabilities are increasingly provided by vision-language models. However, these models face significant chal"
 url: "https://research.nvidia.com/publication/2025-06_robospatial-teaching-spatial-understanding-2d-and-3d-vision-language-models"
-status: new
+status: "new"
 ---
 
 # RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics

@@ -1,34 +1,33 @@
 ---
-id: arxiv-2561
+id: "arxiv-2561"
 title: "Aim My Robot: Precision Local Navigation to Any Object"
-conference: arXiv 2025
-date: 2025-04
+conference: "arXiv 2025"
+date: "2025-04"
 authors:
+  - name: "Xiangyun Meng"
+    affiliation: "Applied Research Scientist at Field AI"
+    is_industry: false
   - name: "Xuning Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Sanghun Jung"
+    affiliation: "University of Washington"
+    is_industry: false
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xiangyun Meng"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanghun Jung"
-    affiliation: ""
-    is_industry: false
   - name: "Sri Sadhan Jujjavarapu"
-    affiliation: ""
+    affiliation: "Accenture"
     is_industry: false
   - name: "Sanjoy Paul"
-    affiliation: ""
+    affiliation: "Accenture"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/10887329"
 abstract: "Existing navigation systems mostly consider “success” when the robot reaches within 1 m radius to a goal. This precision is insufficient for emerging applications where a robot needs to be positioned precisely relative to an object for downstream tasks, such as docking, inspection, and manipulation."
 url: "https://research.nvidia.com/publication/2025-04_aim-my-robot-precision-local-navigation-any-object"
-status: new
+status: "new"
 ---
 
 # Aim My Robot: Precision Local Navigation to Any Object

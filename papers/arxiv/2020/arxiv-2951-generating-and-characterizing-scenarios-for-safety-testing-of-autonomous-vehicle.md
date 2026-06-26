@@ -1,37 +1,36 @@
 ---
-id: arxiv-2951
+id: "arxiv-2951"
 title: "Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Zahra Ghodsi"
+    affiliation: "New York University"
+    is_industry: false
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Timothy Tsai"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Alejandro Troccoli"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zahra Ghodsi"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
-  - name: "Alejandro Troccoli"
-    affiliation: ""
-    is_industry: false
   - name: "Siddharth Garg"
-    affiliation: ""
+    affiliation: "New York University"
     is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "Resilience and Safety"
 abstract: "Extracting interesting scenarios from real world data as well as generating failure cases is important for the development and testing of autonomous systems. We propose efficient mechanisms to both characterize and generate testing scenarios using a state-of-the-art driving simulator. For any scenar"
 url: "https://research.nvidia.com/publication/2020-11_generating-and-characterizing-scenarios-safety-testing-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles

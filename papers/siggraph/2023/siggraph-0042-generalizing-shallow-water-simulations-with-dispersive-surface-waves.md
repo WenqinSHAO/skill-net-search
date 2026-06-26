@@ -1,19 +1,18 @@
 ---
-id: siggraph-0042
+id: "siggraph-0042"
 title: "Generalizing Shallow Water Simulations with Dispersive Surface Waves"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
   - name: "Stefan Jeschke"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chris Wojtan"
-    affiliation: ""
+    affiliation: "IST Austria"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "This paper introduces a novel method for simulating large bodies of water as a height field. At the start of each time step,we partition the waves into a bulk flow (which approximately satisfies the assumptions of the shallow water equations) and surface waves (which approximately satisfy the assump"
 url: "https://research.nvidia.com/publication/2023-08_generalizing-shallow-water-simulations-dispersive-surface-waves"
-status: new
+status: "new"
 ---
 
 # Generalizing Shallow Water Simulations with Dispersive Surface Waves

@@ -1,31 +1,30 @@
 ---
-id: siggraph-0010
+id: "siggraph-0010"
 title: "Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation"
-conference: SIGGRAPH 2024
-date: 2024-12
+conference: "SIGGRAPH 2024"
+date: "2024-12"
 authors:
+  - name: "Brian Chao"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Manu Gopakumar"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Suyeon Choi"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Liang Shi"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Brian Chao"
-    affiliation: ""
-    is_industry: false
-  - name: "Manu Gopakumar"
-    affiliation: ""
-    is_industry: false
-  - name: "Suyeon Choi"
-    affiliation: ""
-    is_industry: false
-  - name: "Liang Shi"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://bchao1.github.io/holo_dfm/"
 abstract: "Abstract"
 url: "https://research.nvidia.com/publication/2024-12_large-etendue-3d-holographic-display-content-adpative-dynamic-fourier"
-status: new
+status: "new"
 ---
 
 # Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation

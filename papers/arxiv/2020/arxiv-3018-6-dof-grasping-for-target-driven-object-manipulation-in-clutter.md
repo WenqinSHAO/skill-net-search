@@ -1,28 +1,27 @@
 ---
-id: arxiv-3018
+id: "arxiv-3018"
 title: "6-DOF Grasping for Target-driven Object Manipulation in Clutter"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Adithyavairavan Murali"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, CMU"
+    is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://youtu.be/w0B5S-gCsJk"
 abstract: "Grasping in cluttered environments is a fundamental but challenging robotic skill. It requires both reasoning about unseen object parts and potential collisions with the manipulator. Most existing data-driven approaches avoid this problem by limiting themselves to top-down planar grasps which is ins"
 url: "https://research.nvidia.com/publication/2020-06_6-dof-grasping-target-driven-object-manipulation-clutter"
-status: new
+status: "new"
 ---
 
 # 6-DOF Grasping for Target-driven Object Manipulation in Clutter

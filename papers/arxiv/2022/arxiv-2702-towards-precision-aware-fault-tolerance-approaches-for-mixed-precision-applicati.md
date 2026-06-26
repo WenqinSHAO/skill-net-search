@@ -1,38 +1,37 @@
 ---
-id: arxiv-2702
+id: "arxiv-2702"
 title: "Towards Precision-Aware Fault Tolerance Approaches for Mixed-Precision Applications"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
+  - name: "Bo Fang"
+    affiliation: "Pacific Northwest National Laboratory"
+    is_industry: false
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Bo Fang"
-    affiliation: ""
-    is_industry: false
   - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xinyi Li"
-    affiliation: ""
+    affiliation: "University of Utah"
     is_industry: false
   - name: "Ganesh Gopalakrishnan"
-    affiliation: ""
+    affiliation: "University of Utah"
     is_industry: false
   - name: "Ignacio Laguna"
-    affiliation: ""
+    affiliation: "Lawrence Livermore National Laboratory"
     is_industry: false
   - name: "Kevin Barker"
-    affiliation: ""
+    affiliation: "Pacific Northwest National Laboratory"
     is_industry: false
   - name: "Ang Li"
-    affiliation: ""
+    affiliation: "Pacific Northwest National Laboratory"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/10024043"
 abstract: "Graphics Processing Units (GPUs), the dominantly adopted accelerators in HPC systems, are susceptible to a transient hardware fault. A new generation of GPUs features mixed-precision architectures such as NVIDIA Tensor Cores to accelerate matrix multiplications. While widely adapted, how they would "
 url: "https://research.nvidia.com/publication/2022-11_towards-precision-aware-fault-tolerance-approaches-mixed-precision-applications"
-status: new
+status: "new"
 ---
 
 # Towards Precision-Aware Fault Tolerance Approaches for Mixed-Precision Applications

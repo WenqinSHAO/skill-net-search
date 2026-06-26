@@ -1,8 +1,8 @@
 ---
-id: arxiv-2999
+id: "arxiv-2999"
 title: "Neural Denoising with Layer Embeddings"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Jacob Munkberg"
     affiliation: "NVIDIA"
@@ -12,7 +12,6 @@ authors:
     is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://github.com/NVlabs/layerdenoise/"
 abstract: "We propose a novel approach for denoising Monte Carlo path traced images, which uses data from individual samples rather than relying on pixel aggregates. Samples are partitioned into layers, which are filtered separately, giving the network more freedom to handle outliers and complex visibility. Fi"
 url: "https://research.nvidia.com/publication/2020-06_neural-denoising-layer-embeddings"
-status: new
+status: "new"
 ---
 
 # Neural Denoising with Layer Embeddings

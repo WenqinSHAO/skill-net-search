@@ -1,13 +1,19 @@
 ---
-id: arxiv-2910
+id: "arxiv-2910"
 title: "Need for Speed: Experiences Building a Trustworthy System-Level GPU Simulator."
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Oreste Villa"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daniel Lustig"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Zi Yan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Evgeny Bolotin"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yaosheng Fu"
@@ -22,15 +28,8 @@ authors:
   - name: "David Nellans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Oreste Villa"
-    affiliation: ""
-    is_industry: false
-  - name: "Evgeny Bolotin"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://doi.org/10.1109/HPCA51647.2021.00077"
 abstract: "The demands of high-performance computing (HPC) and machine learning (ML) workloads have resulted in the rapid architectural evolution of GPUs over the last decade. The growing memory footprint and diversity of data types in these workloads has required GPUs to embrace micro-architectural heterogene"
 url: "https://research.nvidia.com/publication/2021-02_need-speed-experiences-building-trustworthy-system-level-gpu-simulator"
-status: new
+status: "new"
 ---
 
 # Need for Speed: Experiences Building a Trustworthy System-Level GPU Simulator.

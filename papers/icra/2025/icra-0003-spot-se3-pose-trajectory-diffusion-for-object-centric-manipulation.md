@@ -1,9 +1,12 @@
 ---
-id: icra-0003
+id: "icra-0003"
 title: "SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation"
-conference: ICRA 2025
-date: 2025-05
+conference: "ICRA 2025"
+date: "2025-05"
 authors:
+  - name: "Cheng-Chun Hsu"
+    affiliation: "UT Austin"
+    is_industry: false
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,19 +19,15 @@ authors:
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Joydeep Biswas"
+    affiliation: "UT Austin"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Cheng-Chun Hsu"
-    affiliation: ""
-    is_industry: false
-  - name: "Joydeep Biswas"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://nvlabs.github.io/object_centric_diffusion/"
 abstract: "We introduce SPOT, an object-centric imitation learning framework. The key idea is to capture each task by an object-centric representation, specifically the SE(3) object pose trajectory relative to the target. This approach decouples embodiment actions from sensory inputs, facilitating learning fro"
 url: "https://research.nvidia.com/publication/2025-05_spot-se3-pose-trajectory-diffusion-object-centric-manipulation"
-status: new
+status: "new"
 ---
 
 # SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation

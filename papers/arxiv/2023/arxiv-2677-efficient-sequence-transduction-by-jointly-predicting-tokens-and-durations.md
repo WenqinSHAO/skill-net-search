@@ -1,30 +1,29 @@
 ---
-id: arxiv-2677
+id: "arxiv-2677"
 title: "Efficient Sequence Transduction by Jointly Predicting Tokens and Durations"
-conference: arXiv 2023
-date: 2023-04
+conference: "arXiv 2023"
+date: "2023-04"
 authors:
   - name: "Hainan Xu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Fei Jia"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "He Huang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shinji Watanabe"
-    affiliation: ""
+    affiliation: "Carnegie Mellon University"
     is_industry: false
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://arxiv.org/abs/2304.06795"
 abstract: "This paper introduces a novel Token-and-Duration Transducer (TDT) architecture for sequence-to-sequence tasks. TDT extends conventional RNN-Transducer architectures by jointly predicting both a token and its duration, i.e. the number of input frames covered by the emitted token. This is achieved by "
 url: "https://research.nvidia.com/publication/2023-04_efficient-sequence-transduction-jointly-predicting-tokens-and-durations"
-status: new
+status: "new"
 ---
 
 # Efficient Sequence Transduction by Jointly Predicting Tokens and Durations

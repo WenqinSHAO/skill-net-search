@@ -1,34 +1,33 @@
 ---
-id: arxiv-2908
+id: "arxiv-2908"
 title: "Reduced Precision DWC: An Efficient Hardening Strategy for Mixed-Precision Architectures"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
+  - name: "Fernando F. dos Santos"
+    affiliation: "Universidade Federal do Rio Grande do Sul (UFRGS)"
+    is_industry: false
+  - name: "Marcelo Brandalero"
+    affiliation: "Brandenburg University of Texchnology Cottbus-Senftenberg (B-TU)"
+    is_industry: false
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Fernando F. dos Santos"
-    affiliation: ""
-    is_industry: false
-  - name: "Marcelo Brandalero"
-    affiliation: ""
-    is_industry: false
   - name: "Pedro M. Basso"
-    affiliation: ""
+    affiliation: "Universidade Federal do Rio Grande do Sul (UFRGS)"
     is_industry: false
   - name: "Michael Hubner"
-    affiliation: ""
+    affiliation: "Brandenburg University of Texchnology Cottbus-Senftenberg (B-TU)"
     is_industry: false
   - name: "Luigi Carro"
-    affiliation: ""
+    affiliation: "Universidade Federal do Rio Grande do Sul (UFRGS)"
     is_industry: false
   - name: "Paolo Rech"
-    affiliation: ""
+    affiliation: "Politecnico di Torino"
     is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/9354571"
 abstract: "Duplication with Comparison (DWC) is an effective software-level solution to improve the reliability of computing devices. However, it introduces performance and energy consumption overheads that could be unsuitable for high-performance computing or real-time safety-critical applications. In this ar"
 url: "https://research.nvidia.com/publication/2021-03_reduced-precision-dwc-efficient-hardening-strategy-mixed-precision"
-status: new
+status: "new"
 ---
 
 # Reduced Precision DWC: An Efficient Hardening Strategy for Mixed-Precision Architectures

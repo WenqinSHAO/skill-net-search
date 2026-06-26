@@ -1,8 +1,8 @@
 ---
-id: arxiv-2738
+id: "arxiv-2738"
 title: "FirstPersonScience: An Open Source Tool for Studying FPS Esports Aiming"
-conference: arXiv 2022
-date: 2022-08
+conference: "arXiv 2022"
+date: "2022-08"
 authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
@@ -10,19 +10,18 @@ authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Pyarelal Knowles"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arjun Madhusudan"
+    affiliation: "NVIDIA and NCSU"
+    is_industry: true
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pyarelal Knowles"
-    affiliation: ""
-    is_industry: false
-  - name: "Arjun Madhusudan"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://github.com/NVlabs/FPSci"
 abstract: "First-person shooters (FPS) games are dominant in the competitive gaming and esports community. However, relatively few tools are available for experimenters interested in studying mechanics of these games in a controlled, repeatable environment. While other researchers have made progress with one-o"
 url: "https://research.nvidia.com/publication/2022-08_firstpersonscience-open-source-tool-studying-fps-esports-aiming"
-status: new
+status: "new"
 ---
 
 # FirstPersonScience: An Open Source Tool for Studying FPS Esports Aiming

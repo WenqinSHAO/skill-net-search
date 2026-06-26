@@ -1,22 +1,21 @@
 ---
-id: arxiv-2944
+id: "arxiv-2944"
 title: "How Software Can &quot;Chip In&quot; to the IC Design Process: A Multidisciplinary Approach May Attract New Talent and Accelerate Innovation"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
   - name: "Alicia Klinefelter"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
 research_areas:
   - "Circuits and VLSI Design"
 url: "https://research.nvidia.com/publication/2020-11_how-software-can-chip-ic-design-process-multidisciplinary-approach-may-attract"
-status: new
+status: "new"
 ---
 
 # How Software Can &quot;Chip In&quot; to the IC Design Process: A Multidisciplinary Approach May Attract New Talent and Accelerate Innovation

@@ -1,29 +1,28 @@
 ---
-id: arxiv-2630
+id: "arxiv-2630"
 title: "Generating images of rare concepts using pre-trained diffusion models"
-conference: arXiv 2024
-date: 2024-01
+conference: "arXiv 2024"
+date: "2024-01"
 authors:
+  - name: "Dvir Samuel"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Rami Ben-Ari"
+    affiliation: "Origin AI"
+    is_industry: false
+  - name: "Simon Raviv"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
+  - name: "Nir Darshan"
+    affiliation: "Origin AI"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dvir Samuel"
-    affiliation: ""
-    is_industry: false
-  - name: "Rami Ben-Ari"
-    affiliation: ""
-    is_industry: false
-  - name: "Simon Raviv"
-    affiliation: ""
-    is_industry: false
-  - name: "Nir Darshan"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2304.14530"
 abstract: "Text-to-image diffusion models can synthesize high-quality images, but they have various limitations. Here we highlight a common failure mode of these models, namely, generating uncommon concepts and structured concepts like hand palms. We show that their limitation is partly due to the long-tail na"
 url: "https://research.nvidia.com/publication/2024-01_generating-images-rare-concepts-using-pre-trained-diffusion-models"
-status: new
+status: "new"
 ---
 
 # Generating images of rare concepts using pre-trained diffusion models

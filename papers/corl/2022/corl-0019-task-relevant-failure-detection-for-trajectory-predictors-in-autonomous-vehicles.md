@@ -1,9 +1,12 @@
 ---
-id: corl-0019
+id: "corl-0019"
 title: "Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles"
-conference: CoRL 2022
-date: 2022-12
+conference: "CoRL 2022"
+date: "2022-12"
 authors:
+  - name: "Alec Farid"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sushant Veer"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,14 +19,10 @@ authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Alec Farid"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://openreview.net/forum?id=oPRhm0Aben_"
 abstract: "In modern autonomy stacks, prediction modules are paramount to planning motions in the presence of other mobile agents. However, failures in prediction modules can mislead the downstream planner into making unsafe decisions. Indeed, the high uncertainty inherent to the task of trajectory forecasting"
 url: "https://research.nvidia.com/publication/2022-12_task-relevant-failure-detection-trajectory-predictors-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles

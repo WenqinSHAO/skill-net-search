@@ -1,9 +1,12 @@
 ---
-id: corl-0001
+id: "corl-0001"
 title: "VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning"
-conference: CoRL 2025
-date: 2025-09
+conference: "CoRL 2025"
+date: "2025-09"
 authors:
+  - name: "Binghao Huang"
+    affiliation: "Columbia"
+    is_industry: false
   - name: "Jie Xu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,30 +19,29 @@ authors:
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rowland O&#039;Flaherty"
+  - name: "Rowland O'Flaherty"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaolong Wang"
+    affiliation: "NVIDIA, UCSD"
+    is_industry: true
+  - name: "Arsalan Mousavian"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Binghao Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaolong Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
   - name: "Yunzhu Li"
-    affiliation: ""
+    affiliation: "Columbia"
     is_industry: false
+  - name: "Rowland O&#039;Flaherty"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +53,7 @@ external_links:
     url: "https://binghao-huang.github.io/vt_refine"
 abstract: "Humans excel at bimanual assembly tasks by adapting to rich tactile feedback—a capability that remains difficult to replicate in robots through behavioral cloning alone, due to the suboptimality and limited diversity of human demonstrations. In this work, we present VT-Refine, a visuo-tactile policy"
 url: "https://research.nvidia.com/publication/2025-09_vt-refine-learning-bimanual-assembly-visuo-tactile-feedback-simulation-fine"
-status: new
+status: "new"
 ---
 
 # VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning

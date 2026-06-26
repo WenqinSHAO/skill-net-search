@@ -1,26 +1,25 @@
 ---
-id: arxiv-2890
+id: "arxiv-2890"
 title: "Auxiliary Learning by Implicit Differentiation"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
+  - name: "Aviv Navon"
+    affiliation: "BIU"
+    is_industry: false
+  - name: "Idan Achituve"
+    affiliation: "BIU"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aviv Navon"
-    affiliation: ""
-    is_industry: false
-  - name: "Idan Achituve"
-    affiliation: ""
-    is_industry: false
   - name: "Ethan Fetaya"
-    affiliation: ""
+    affiliation: "BIU"
     is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "Training with multiple auxiliary tasks is a common practice used in deep learning for improving the performance on the main task of interest. Two main challenges arise in this multi-task learning setting: (i) Designing useful auxiliary tasks; and (ii) Combining auxiliary tasks into a single coherent"
 url: "https://research.nvidia.com/publication/2021-04_auxiliary-learning-implicit-differentiation"
-status: new
+status: "new"
 ---
 
 # Auxiliary Learning by Implicit Differentiation

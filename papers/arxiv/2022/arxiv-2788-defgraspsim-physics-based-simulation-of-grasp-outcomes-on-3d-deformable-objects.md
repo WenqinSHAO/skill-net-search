@@ -1,37 +1,36 @@
 ---
-id: arxiv-2788
+id: "arxiv-2788"
 title: "DefGraspSim: Physics-Based Simulation of Grasp Outcomes on 3D Deformable Objects"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
+  - name: "Isabella Huang"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Yashraj Narang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Clemens Eppner"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Miles Macklin"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ruzena Bajcsy"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Isabella Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
-  - name: "Miles Macklin"
-    affiliation: ""
-    is_industry: false
-  - name: "Ruzena Bajcsy"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://sites.google.com/nvidia.com/defgraspsim"
 abstract: "Robotic grasping of 3D deformable objects (e.g., fruits/vegetables, internal organs, bottles/boxes) is critical for real-world applications such as food processing, robotic surgery, and household automation. However, developing grasp strategies for such objects is uniquely challenging. Unlike rigid "
 url: "https://research.nvidia.com/publication/2022-03_defgraspsim-physics-based-simulation-grasp-outcomes-3d-deformable-objects"
-status: new
+status: "new"
 ---
 
 # DefGraspSim: Physics-Based Simulation of Grasp Outcomes on 3D Deformable Objects

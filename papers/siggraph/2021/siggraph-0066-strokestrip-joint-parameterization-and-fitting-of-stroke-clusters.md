@@ -1,28 +1,27 @@
 ---
-id: siggraph-0066
+id: "siggraph-0066"
 title: "StrokeStrip: Joint Parameterization and Fitting of Stroke Clusters"
-conference: SIGGRAPH 2021
-date: 2021-08
+conference: "SIGGRAPH 2021"
+date: "2021-08"
 authors:
+  - name: "Dave Pagurek van Mossel"
+    affiliation: "UBC"
+    is_industry: false
+  - name: "Chenxi Liu"
+    affiliation: "University of British Columbia"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Dave Pagurek van Mossel"
-    affiliation: ""
-    is_industry: false
-  - name: "Chenxi Liu"
-    affiliation: ""
-    is_industry: false
   - name: "Mikhail Bessmeltsev"
-    affiliation: ""
+    affiliation: "Universite de Montreal"
     is_industry: false
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://www.cs.ubc.ca/labs/imager/tr/2021/StrokeStrip/"
 abstract: "When creating freeform drawings, artists routinely employ clusters of overdrawn strokes to convey intended, aggregate curves. The ability to algorithmically fit these intended curves to their corresponding clusters is central to many applications that use artist drawings as inputs. However, while hu"
 url: "https://research.nvidia.com/publication/2021-08_strokestrip-joint-parameterization-and-fitting-stroke-clusters"
-status: new
+status: "new"
 ---
 
 # StrokeStrip: Joint Parameterization and Fitting of Stroke Clusters

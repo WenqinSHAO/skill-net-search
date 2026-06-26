@@ -1,41 +1,40 @@
 ---
-id: cvpr-0032
+id: "cvpr-0032"
 title: "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models"
-conference: CVPR 2023
-date: 2023-06
+conference: "CVPR 2023"
+date: "2023-06"
 authors:
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Bradley Brown"
+    affiliation: "NVIDIA, University of Waterloo"
+    is_industry: true
+  - name: "Kangxue Yin"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
-  - name: "Bradley Brown"
-    affiliation: ""
-    is_industry: false
-  - name: "Kangxue Yin"
-    affiliation: ""
-    is_industry: false
   - name: "Katja Schwarz"
-    affiliation: ""
+    affiliation: "University of Tübingen, Tübingen AI Center"
     is_industry: false
   - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Robin Rombach"
-    affiliation: ""
+    affiliation: "LMU Munich"
     is_industry: false
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "CSAIL, MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -48,7 +47,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/NFLDM/"
 abstract: "Automatically generating high-quality real world 3D scenes is of enormous interest for applications such as virtual reality and robotics simulation. Towards this goal, we introduce NeuralField-LDM, a generative model capable of synthesizing complex 3D environments. We leverage Latent Diffusion Model"
 url: "https://research.nvidia.com/publication/2023-06_neuralfield-ldm-scene-generation-hierarchical-latent-diffusion-models"
-status: new
+status: "new"
 ---
 
 # NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models

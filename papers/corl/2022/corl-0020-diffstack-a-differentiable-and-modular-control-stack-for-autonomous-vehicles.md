@@ -1,8 +1,8 @@
 ---
-id: corl-0020
+id: "corl-0020"
 title: "DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles"
-conference: CoRL 2022
-date: 2022-12
+conference: "CoRL 2022"
+date: "2022-12"
 authors:
   - name: "Peter Karkus"
     affiliation: "NVIDIA"
@@ -19,7 +19,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -31,7 +30,7 @@ external_links:
     url: "https://openreview.net/forum?id=teEnA3L4aRe"
 abstract: "Autonomous vehicle (AV) stacks are typically built in a modular fashion, with explicit components performing detection, tracking, prediction, planning, control, etc. While modularity improves reusability, interpretability, and generalizability, it also suffers from compounding errors, information bo"
 url: "https://research.nvidia.com/publication/2022-12_diffstack-differentiable-and-modular-control-stack-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles

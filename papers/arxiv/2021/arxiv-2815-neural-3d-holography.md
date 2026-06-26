@@ -1,28 +1,27 @@
 ---
-id: arxiv-2815
+id: "arxiv-2815"
 title: "Neural 3D Holography"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
+  - name: "Suyeon Choi"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Manu Gopakumar"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Yifan Peng"
+    affiliation: "Stanford University"
+    is_industry: false
   - name: "Jonghyun Kim"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Suyeon Choi"
-    affiliation: ""
-    is_industry: false
-  - name: "Manu Gopakumar"
-    affiliation: ""
-    is_industry: false
-  - name: "Yifan Peng"
-    affiliation: ""
-    is_industry: false
   - name: "Gordon Wetzstein"
-    affiliation: ""
+    affiliation: "Stanford University"
     is_industry: false
 topics:
   - Computer Vision
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "http://www.computationalimaging.org/publications/neuralholography3d/"
 abstract: "Holographic near-eye displays promise unprecedented capabilities for virtual and augmented reality (VR/AR) systems. The image quality achieved by current holographic displays, however, is limited by the wave propagation models used to simulate the physical optics. We propose a neural network–paramet"
 url: "https://research.nvidia.com/publication/2021-11_neural-3d-holography"
-status: new
+status: "new"
 ---
 
 # Neural 3D Holography

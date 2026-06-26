@@ -1,37 +1,36 @@
 ---
-id: arxiv-2746
+id: "arxiv-2746"
 title: "Zhuyi: Perception Processing Rate Estimation for Safety in Autonomous Vehicles"
-conference: arXiv 2022
-date: 2022-07
+conference: "arXiv 2022"
+date: "2022-07"
 authors:
+  - name: "Yu-Shun Hsiao"
+    affiliation: "Harvard University"
+    is_industry: false
   - name: "Siva Hari"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Michał Filipiuk"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Timothy Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael B. Sullivan"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Vijay Janapa Reddi"
+    affiliation: "Harvard University"
+    is_industry: false
+  - name: "Vasu Singh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yu-Shun Hsiao"
-    affiliation: ""
-    is_industry: false
-  - name: "Michał Filipiuk"
-    affiliation: ""
-    is_industry: false
-  - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
-  - name: "Vijay Janapa Reddi"
-    affiliation: ""
-    is_industry: false
-  - name: "Vasu Singh"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3489517.3530445"
 abstract: "The processing requirement of autonomous vehicles (AVs) for high-accuracy perception in complex scenarios can exceed the resources offered by the in-vehicle computer, degrading safety and comfort. This paper proposes a sensor frame processing rate (FPR) estimation model, Zhuyi, that quantifies the m"
 url: "https://research.nvidia.com/publication/2022-07_zhuyi-perception-processing-rate-estimation-safety-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Zhuyi: Perception Processing Rate Estimation for Safety in Autonomous Vehicles

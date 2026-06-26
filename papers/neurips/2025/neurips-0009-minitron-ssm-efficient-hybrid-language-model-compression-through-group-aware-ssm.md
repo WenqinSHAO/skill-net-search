@@ -1,67 +1,66 @@
 ---
-id: neurips-0009
+id: "neurips-0009"
 title: "Minitron-SSM: Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning"
-conference: NeurIPS 2025
-date: 2025-04
+conference: "NeurIPS 2025"
+date: "2025-04"
 authors:
+  - name: "Ali Taghibakhshi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sharath Turuvekere Sreenivas"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Saurav Muralidharan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Marcin Chochowski"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yashaswi Karnati"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Raviraj Joshi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ameya Sunil Mahabaleshwarkar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zijia Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yoshi Suhara"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Oluwatobi Olabiyi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Daniel Korzekwa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mostofa Patwary"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mohammad Shoeybi"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Bryan Catanzaro"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ashwath Aithal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nima Tajbakhsh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Taghibakhshi"
-    affiliation: ""
-    is_industry: false
-  - name: "Sharath Turuvekere Sreenivas"
-    affiliation: ""
-    is_industry: false
-  - name: "Marcin Chochowski"
-    affiliation: ""
-    is_industry: false
-  - name: "Yashaswi Karnati"
-    affiliation: ""
-    is_industry: false
-  - name: "Raviraj Joshi"
-    affiliation: ""
-    is_industry: false
-  - name: "Ameya Sunil Mahabaleshwarkar"
-    affiliation: ""
-    is_industry: false
-  - name: "Zijia Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Yoshi Suhara"
-    affiliation: ""
-    is_industry: false
-  - name: "Oluwatobi Olabiyi"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Korzekwa"
-    affiliation: ""
-    is_industry: false
-  - name: "Mostofa Patwary"
-    affiliation: ""
-    is_industry: false
-  - name: "Mohammad Shoeybi"
-    affiliation: ""
-    is_industry: false
-  - name: "Bryan Catanzaro"
-    affiliation: ""
-    is_industry: false
-  - name: "Ashwath Aithal"
-    affiliation: ""
-    is_industry: false
-  - name: "Nima Tajbakhsh"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -74,7 +73,7 @@ external_links:
     url: "https://arxiv.org/abs/2504.11409"
 abstract: "Hybrid LLM architectures that combine Attention and State Space Models (SSMs) achieve state-of-the-art accuracy and runtime performance. Recent work has demonstrated that applying compression and distillation to Attention-only models yields smaller, more accurate models at a fraction of the training"
 url: "https://research.nvidia.com/publication/2025-04_minitron-ssm-efficient-hybrid-language-model-compression-through-group-aware"
-status: new
+status: "new"
 ---
 
 # Minitron-SSM: Efficient Hybrid Language Model Compression through Group-Aware SSM Pruning

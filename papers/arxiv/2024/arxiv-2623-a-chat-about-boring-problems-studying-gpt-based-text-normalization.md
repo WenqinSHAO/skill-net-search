@@ -1,30 +1,29 @@
 ---
-id: arxiv-2623
+id: "arxiv-2623"
 title: "A Chat about Boring Problems: Studying GPT-Based Text Normalization"
-conference: arXiv 2024
-date: 2024-03
+conference: "arXiv 2024"
+date: "2024-03"
 authors:
   - name: "Yang Zhang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Travis M. Bartley"
-    affiliation: ""
+    affiliation: "University of New York"
     is_industry: false
   - name: "Mariana Graterol-Fuenmayor"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Evelina Bakhturina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/abstract/document/10447169"
 abstract: "Text normalization - the conversion of text from written to spoken form - is traditionally assumed to be an ill-formed task for language modeling. In this work, we argue otherwise. We empirically show the capacity of Large-Language Models (LLM) for text normalization in few-shot scenarios. Combining"
 url: "https://research.nvidia.com/publication/2024-03_chat-about-boring-problems-studying-gpt-based-text-normalization"
-status: new
+status: "new"
 ---
 
 # A Chat about Boring Problems: Studying GPT-Based Text Normalization

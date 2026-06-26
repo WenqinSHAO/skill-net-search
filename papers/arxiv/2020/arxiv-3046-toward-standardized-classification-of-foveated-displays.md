@@ -1,8 +1,8 @@
 ---
-id: arxiv-3046
+id: "arxiv-3046"
 title: "Toward Standardized Classification of Foveated Displays"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
@@ -16,22 +16,21 @@ authors:
   - name: "Trey Greer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Rachel Albert"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Michael Stengel"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kaan Akşit"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Luebke"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rachel Albert"
-    affiliation: ""
-    is_industry: false
-  - name: "Kaan Akşit"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/1905.06229"
 abstract: "Emergent in the field of head mounted display design is a desire to leverage the limitations of the human visual system to reduce the computation, communication, and display workload in power and form-factor constrained systems. Fundamental to this reduced workload is the ability to match display re"
 url: "https://research.nvidia.com/publication/2020-02_toward-standardized-classification-foveated-displays"
-status: new
+status: "new"
 ---
 
 # Toward Standardized Classification of Foveated Displays

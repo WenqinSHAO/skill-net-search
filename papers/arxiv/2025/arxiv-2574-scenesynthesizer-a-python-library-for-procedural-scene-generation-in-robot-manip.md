@@ -1,16 +1,19 @@
 ---
-id: arxiv-2574
+id: "arxiv-2574"
 title: "scene_synthesizer: A Python Library for Procedural Scene Generation in Robot Manipulation"
-conference: arXiv 2025
-date: 2025-01
+conference: "arXiv 2025"
+date: "2025-01"
 authors:
+  - name: "Clemens Eppner"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Adithya Murali"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rowland O&#039;Flaherty"
+  - name: "Rowland O'Flaherty"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tucker Hermans"
@@ -19,17 +22,16 @@ authors:
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Rowland O&#039;Flaherty"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +40,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Computer Graphics"
 url: "https://research.nvidia.com/publication/2025-01_scenesynthesizer-python-library-procedural-scene-generation-robot-manipulation"
-status: new
+status: "new"
 ---
 
 # scene_synthesizer: A Python Library for Procedural Scene Generation in Robot Manipulation

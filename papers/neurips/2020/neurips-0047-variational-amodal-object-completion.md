@@ -1,29 +1,28 @@
 ---
-id: neurips-0047
+id: "neurips-0047"
 title: "Variational Amodal Object Completion"
-conference: NeurIPS 2020
-date: 2020-12
+conference: "NeurIPS 2020"
+date: "2020-12"
 authors:
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
+  - name: "David Acuna"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "David Acuna"
-    affiliation: ""
-    is_industry: false
   - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://www.cs.toronto.edu/~linghuan/vae_mask/"
 abstract: "In images of complex scenes, objects are often occluding each other which makes perception tasks such as object detection and tracking, or robotic control tasks such as planning, challenging. To facilitate downstream tasks, it is thus important to reason about the full extent of objects, i.e., seein"
 url: "https://research.nvidia.com/publication/2020-12_variational-amodal-object-completion"
-status: new
+status: "new"
 ---
 
 # Variational Amodal Object Completion

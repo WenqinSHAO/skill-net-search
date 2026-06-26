@@ -1,20 +1,19 @@
 ---
-id: arxiv-2905
+id: "arxiv-2905"
 title: "PGZ: Automatic Zero-Value Code Specialization"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Mark Stephenson"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ram Rangan"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - CUDA_ecosystem
   - GPU_architecture
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3446804.3446845"
 abstract: "In prior work we proposed Zeroploit, a transform that duplicates code, specializes one path assuming certain key program operands, called versioning variables, are zero, and leaves the other path unspecialized. Dynamically, depending on the versioning variable’s value, either the specialized fast pa"
 url: "https://research.nvidia.com/publication/2021-03_pgz-automatic-zero-value-code-specialization"
-status: new
+status: "new"
 ---
 
 # PGZ: Automatic Zero-Value Code Specialization

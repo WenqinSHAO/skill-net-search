@@ -1,8 +1,8 @@
 ---
-id: arxiv-2647
+id: "arxiv-2647"
 title: "Rethinking Display Requirements for Esports and High Interactivity Applications"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
@@ -14,14 +14,13 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Benjamin Watson"
-    affiliation: ""
+    affiliation: "NCSU"
     is_industry: false
   - name: "Turner Whitted"
     affiliation: ""
     is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://doi.org/10.1002/sdtp.16538"
 abstract: "Media technology is continuing its transition from passive streaming to participatory interactive experiences, including well-known applications such as web browsing, video conferencing and gaming, as well as emerging and more demanding uses like AR/MR/VR and esports. How should display traits such "
 url: "https://research.nvidia.com/publication/2023-08_rethinking-display-requirements-esports-and-high-interactivity-applications"
-status: new
+status: "new"
 ---
 
 # Rethinking Display Requirements for Esports and High Interactivity Applications

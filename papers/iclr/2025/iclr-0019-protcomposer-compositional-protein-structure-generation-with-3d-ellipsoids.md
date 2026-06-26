@@ -1,34 +1,33 @@
 ---
-id: iclr-0019
+id: "iclr-0019"
 title: "ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids"
-conference: ICLR 2025
-date: 2025-01
+conference: "ICLR 2025"
+date: "2025-01"
 authors:
+  - name: "Hannes Stark"
+    affiliation: "NVIDIA, CSAIL, Massachusetts Institute of Technology"
+    is_industry: true
+  - name: "Bowen Jing"
+    affiliation: "NVIDIA, CSAIL, Massachusetts Institute of Technology"
+    is_industry: true
   - name: "Tomas Geffner"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jason Yim"
+    affiliation: "CSAIL, Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Tommi Jaakkola"
+    affiliation: "CSAIL, Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hannes Stark"
-    affiliation: ""
-    is_industry: false
-  - name: "Bowen Jing"
-    affiliation: ""
-    is_industry: false
-  - name: "Jason Yim"
-    affiliation: ""
-    is_industry: false
-  - name: "Tommi Jaakkola"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://arxiv.org/abs/2503.05025"
 abstract: "We develop ProtComposer to generate protein structures conditioned on spatial protein layouts that are specified via a set of 3D ellipsoids capturing substructure shapes and semantics. At inference time, we condition on ellipsoids that are hand-constructed, extracted from existing proteins, or from "
 url: "https://research.nvidia.com/publication/2025-01_protcomposer-compositional-protein-structure-generation-3d-ellipsoids"
-status: new
+status: "new"
 ---
 
 # ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids

@@ -1,22 +1,21 @@
 ---
-id: arxiv-2525
+id: "arxiv-2525"
 title: "Data-Driven Loss Functions for Inference-Time Optimization in Text-to-Image"
-conference: arXiv 2025
-date: 2025-11
+conference: "arXiv 2025"
+date: "2025-11"
 authors:
+  - name: "Sapir Yflah"
+    affiliation: "Bar-Ilan University"
+    is_industry: false
   - name: "Yuval Atzmon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sapir Yflah"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ external_links:
     url: "https://learn-to-steer-paper.github.io/"
 abstract: "Text-to-image diffusion models can generate stunning visuals, yet they often fail at tasks children find trivial - like placing a dog to the right of a teddy bear rather than to the left. When combinations get more unusual - a giraffe above an airplane—these failures become even more pronounced. Exi"
 url: "https://research.nvidia.com/publication/2025-11_data-driven-loss-functions-inference-time-optimization-text-image"
-status: new
+status: "new"
 ---
 
 # Data-Driven Loss Functions for Inference-Time Optimization in Text-to-Image

@@ -1,27 +1,26 @@
 ---
-id: arxiv-2631
+id: "arxiv-2631"
 title: "Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition"
-conference: arXiv 2023
-date: 2023-12
+conference: "arXiv 2023"
+date: "2023-12"
 authors:
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ankur Kumar"
-    affiliation: ""
+    affiliation: "UCLA"
     is_industry: false
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2312.17279"
 abstract: "In this paper, we propose an efficient and accurate streaming speech recognition model based on the FastConformer architecture. We adapted the FastConformer architecture for streaming applications through: (1) constraining both the look-ahead and past contexts in the encoder, and (2) introducing an "
 url: "https://research.nvidia.com/publication/2023-12_stateful-conformer-cache-based-inference-streaming-automatic-speech-recognition"
-status: new
+status: "new"
 ---
 
 # Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition

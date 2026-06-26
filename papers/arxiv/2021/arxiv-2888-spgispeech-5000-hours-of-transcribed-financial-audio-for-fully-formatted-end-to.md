@@ -1,51 +1,50 @@
 ---
-id: arxiv-2888
+id: "arxiv-2888"
 title: "SPGISpeech: 5,000 Hours of Transcribed Financial Audio for Fully Formatted End-to-End Speech Recognition"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Patrick K. O’Neill"
-    affiliation: ""
+    affiliation: "Kensho Technologies"
     is_industry: false
   - name: "Vitaly Lavrukhin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Somshubra Majumdar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vahid Noroozi"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuekai Zhang"
-    affiliation: ""
+    affiliation: "Johns Hopkins University"
     is_industry: false
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jagadeesh Balam"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yuliya Dovzhenko"
-    affiliation: ""
+    affiliation: "Kensho Technologies"
     is_industry: false
   - name: "Keenan Freyberg"
-    affiliation: ""
+    affiliation: "Kensho Technologies"
     is_industry: false
   - name: "Michael D. Shulman"
-    affiliation: ""
+    affiliation: "Kensho Technologies"
     is_industry: false
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shinji Watanabe"
-    affiliation: ""
+    affiliation: "Johns Hopkins University"
     is_industry: false
   - name: "Georg Kucsko"
-    affiliation: ""
+    affiliation: "Kensho Technologies"
     is_industry: false
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -56,7 +55,7 @@ external_links:
     url: "https://arxiv.org/abs/2104.02014"
 abstract: "In the English speech-to-text (STT) machine learning task, acoustic models are conventionally trained on uncased Latin characters, and any necessary orthography (such as capitalization, punctuation, and denormalization of non-standard words) is imputed by separate post-processing models. This adds c"
 url: "https://research.nvidia.com/publication/2021-04_spgispeech-5000-hours-transcribed-financial-audio-fully-formatted-end-end"
-status: new
+status: "new"
 ---
 
 # SPGISpeech: 5,000 Hours of Transcribed Financial Audio for Fully Formatted End-to-End Speech Recognition

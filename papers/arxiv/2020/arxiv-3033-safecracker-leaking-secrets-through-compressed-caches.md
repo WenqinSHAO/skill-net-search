@@ -1,24 +1,23 @@
 ---
-id: arxiv-3033
+id: "arxiv-3033"
 title: "Safecracker: Leaking Secrets through Compressed Caches"
-conference: arXiv 2020
-date: 2020-03
+conference: "arXiv 2020"
+date: "2020-03"
 authors:
   - name: "Po-An Tsai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Andres Sanchez"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Christopher W. Fletcher"
-    affiliation: ""
+    affiliation: "University of Illinois at Urbana-Champaign"
     is_industry: false
   - name: "Daniel Sanchez"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3373376.3378453"
 abstract: "The hardware security crisis brought on by recent speculative execution attacks has shown that it is crucial to adopt a security-conscious approach to architecture research, analyzing the security of promising architectural techniques before they are deployed in hardware. This paper offers the first"
 url: "https://research.nvidia.com/publication/2020-03_safecracker-leaking-secrets-through-compressed-caches"
-status: new
+status: "new"
 ---
 
 # Safecracker: Leaking Secrets through Compressed Caches

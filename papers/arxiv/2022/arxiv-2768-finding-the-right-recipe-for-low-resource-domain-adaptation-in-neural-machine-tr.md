@@ -1,27 +1,26 @@
 ---
-id: arxiv-2768
+id: "arxiv-2768"
 title: "Finding the Right Recipe for Low Resource Domain Adaptation in Neural Machine Translation"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Virginia Adams"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sandeep Subramanian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mike Chrzanowski"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Hrinchuk"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Oleksii Kuchaiev"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2206.01137"
 abstract: "General translation models often still struggle to generate accurate translations in specialized domains. To guide machine translation practitioners and characterize the effectiveness of domain adaptation methods under different data availability scenarios, we conduct an in-depth empirical explorati"
 url: "https://research.nvidia.com/publication/2022-06_finding-right-recipe-low-resource-domain-adaptation-neural-machine-translation"
-status: new
+status: "new"
 ---
 
 # Finding the Right Recipe for Low Resource Domain Adaptation in Neural Machine Translation

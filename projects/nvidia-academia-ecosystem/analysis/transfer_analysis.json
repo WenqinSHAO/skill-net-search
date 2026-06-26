@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_papers": 891,
+    "total_papers": 923,
     "papers_with_transfer": 56,
-    "transfer_rate": 6.3,
+    "transfer_rate": 6.1,
     "total_blog_posts": 53,
     "total_match_pairs": 71,
     "avg_blogs_per_transferred_paper": 1.3
@@ -24,27 +24,27 @@
   "transfer_by_domain": [
     {
       "domain": "AI & Machine Learning",
-      "total": 451,
+      "total": 457,
       "transferred": 34,
-      "rate": 7.5
+      "rate": 7.4
     },
     {
       "domain": "Computer Vision",
-      "total": 246,
+      "total": 247,
       "transferred": 10,
-      "rate": 4.1
-    },
-    {
-      "domain": "Foundation Models",
-      "total": 219,
-      "transferred": 24,
-      "rate": 11.0
+      "rate": 4.0
     },
     {
       "domain": "Robotics & Autonomous",
-      "total": 219,
+      "total": 223,
       "transferred": 20,
-      "rate": 9.1
+      "rate": 9.0
+    },
+    {
+      "domain": "Foundation Models",
+      "total": 222,
+      "transferred": 24,
+      "rate": 10.8
     },
     {
       "domain": "Graphics & Rendering",
@@ -54,15 +54,15 @@
     },
     {
       "domain": "GPU Architecture",
-      "total": 158,
+      "total": 160,
       "transferred": 7,
       "rate": 4.4
     },
     {
       "domain": "CUDA Ecosystem",
-      "total": 75,
+      "total": 77,
       "transferred": 4,
-      "rate": 5.3
+      "rate": 5.2
     },
     {
       "domain": "Applied Perception",
@@ -72,21 +72,21 @@
     },
     {
       "domain": "Simulation & HPC",
-      "total": 47,
+      "total": 48,
       "transferred": 3,
-      "rate": 6.4
+      "rate": 6.2
     },
     {
       "domain": "Interconnect & Networking",
-      "total": 26,
+      "total": 42,
       "transferred": 1,
-      "rate": 3.8
+      "rate": 2.4
     },
     {
       "domain": "Medical Imaging",
-      "total": 12,
+      "total": 18,
       "transferred": 2,
-      "rate": 16.7
+      "rate": 11.1
     },
     {
       "domain": "Quantum Computing",
@@ -96,7 +96,7 @@
     },
     {
       "domain": "Miscellaneous",
-      "total": 3,
+      "total": 4,
       "transferred": 0,
       "rate": 0.0
     },
@@ -117,13 +117,13 @@
     "2026": 1
   },
   "paper_by_year": {
-    "2020": 134,
-    "2021": 152,
+    "2020": 135,
+    "2021": 153,
     "2022": 163,
-    "2023": 167,
-    "2024": 127,
-    "2025": 120,
-    "2026": 28
+    "2023": 170,
+    "2024": 131,
+    "2025": 134,
+    "2026": 37
   },
   "top_products": [
     {
@@ -210,12 +210,7 @@
   "top_transfer_scholars": [
     {
       "name": "Dieter Fox",
-      "is_nvidia": false,
-      "transferred_papers": 7
-    },
-    {
-      "name": "Mark Haoxing Ren",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 7
     },
     {
@@ -230,7 +225,7 @@
     },
     {
       "name": "Boris Ginsburg",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 5
     },
     {
@@ -259,7 +254,17 @@
       "transferred_papers": 4
     },
     {
+      "name": "Mark Haoxing Ren",
+      "is_nvidia": true,
+      "transferred_papers": 4
+    },
+    {
       "name": "Brucek Khailany",
+      "is_nvidia": true,
+      "transferred_papers": 4
+    },
+    {
+      "name": "Ankur Handa",
       "is_nvidia": true,
       "transferred_papers": 4
     },
@@ -269,13 +274,8 @@
       "transferred_papers": 4
     },
     {
-      "name": "Ankur Handa",
-      "is_nvidia": false,
-      "transferred_papers": 4
-    },
-    {
       "name": "Gavriel State",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
@@ -285,22 +285,22 @@
     },
     {
       "name": "Karthik Kashinath",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
       "name": "Thorsten Kurth",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
       "name": "Mohammad Shoeybi",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
       "name": "Bryan Catanzaro",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
@@ -309,8 +309,13 @@
       "transferred_papers": 3
     },
     {
+      "name": "Haoxing",
+      "is_nvidia": true,
+      "transferred_papers": 3
+    },
+    {
       "name": "Somshubra Majumdar",
-      "is_nvidia": false,
+      "is_nvidia": true,
       "transferred_papers": 3
     },
     {
@@ -345,16 +350,11 @@
     },
     {
       "name": "Kelly Guo",
-      "is_nvidia": false,
-      "transferred_papers": 2
-    },
-    {
-      "name": "Jie Xu",
       "is_nvidia": true,
       "transferred_papers": 2
     },
     {
-      "name": "Balakumar Sundaralingam",
+      "name": "Jie Xu",
       "is_nvidia": true,
       "transferred_papers": 2
     }
@@ -362,33 +362,33 @@
   "domains_highest_transfer_rate": [
     {
       "domain": "Medical Imaging",
-      "total": 12,
+      "total": 18,
       "transferred": 2,
-      "rate": 16.7
+      "rate": 11.1
     },
     {
       "domain": "Foundation Models",
-      "total": 219,
+      "total": 222,
       "transferred": 24,
-      "rate": 11.0
+      "rate": 10.8
     },
     {
       "domain": "Robotics & Autonomous",
-      "total": 219,
+      "total": 223,
       "transferred": 20,
-      "rate": 9.1
+      "rate": 9.0
     },
     {
       "domain": "AI & Machine Learning",
-      "total": 451,
+      "total": 457,
       "transferred": 34,
-      "rate": 7.5
+      "rate": 7.4
     },
     {
       "domain": "Simulation & HPC",
-      "total": 47,
+      "total": 48,
       "transferred": 3,
-      "rate": 6.4
+      "rate": 6.2
     },
     {
       "domain": "Applied Perception",
@@ -397,28 +397,28 @@
       "rate": 5.5
     },
     {
-      "domain": "CUDA Ecosystem",
-      "total": 75,
-      "transferred": 4,
-      "rate": 5.3
-    },
-    {
       "domain": "Graphics & Rendering",
       "total": 213,
       "transferred": 11,
       "rate": 5.2
     },
     {
+      "domain": "CUDA Ecosystem",
+      "total": 77,
+      "transferred": 4,
+      "rate": 5.2
+    },
+    {
       "domain": "GPU Architecture",
-      "total": 158,
+      "total": 160,
       "transferred": 7,
       "rate": 4.4
     },
     {
       "domain": "Computer Vision",
-      "total": 246,
+      "total": 247,
       "transferred": 10,
-      "rate": 4.1
+      "rate": 4.0
     }
   ]
 }

@@ -1,27 +1,26 @@
 ---
-id: arxiv-3020
+id: "arxiv-3020"
 title: "Online replanning in belief space for partially observable task and motion problems"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomas Lozano-Perez"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Leslie Kaebling"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Robotics"
 abstract: "To solve multi-step manipulation tasks in the real world, an autonomous robot must take actions to observe its environment and react to unexpected observations. This may require opening a drawer to observe its contents or moving an object out of the way to examine the space behind it. Upon receiving"
 url: "https://research.nvidia.com/publication/2020-05_online-replanning-belief-space-partially-observable-task-and-motion-problems"
-status: new
+status: "new"
 ---
 
 # Online replanning in belief space for partially observable task and motion problems

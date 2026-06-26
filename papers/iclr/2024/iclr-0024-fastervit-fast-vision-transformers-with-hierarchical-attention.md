@@ -1,13 +1,22 @@
 ---
-id: iclr-0024
+id: "iclr-0024"
 title: "FasterViT: Fast Vision Transformers with Hierarchical Attention"
-conference: ICLR 2024
-date: 2024-05
+conference: "ICLR 2024"
+date: "2024-05"
 authors:
+  - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Greg Heinrich"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Hongxu Danny Yin"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Andrew Tao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jose M. Alvarez"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Kautz"
@@ -16,19 +25,9 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Hatamizadeh"
-    affiliation: ""
-    is_industry: false
-  - name: "Andrew Tao"
-    affiliation: ""
-    is_industry: false
-  - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://github.com/NVlabs/FasterViT"
 abstract: "We design a new family of hybrid CNN-ViT neural networks, named FasterViT, with a focus on high image throughput for computer vision (CV) applications. FasterViT combines the benefits of fast local representation learning in CNNs and global modeling properties in ViT. Our newly introduced Hierarchic"
 url: "https://research.nvidia.com/publication/2024-05_fastervit-fast-vision-transformers-hierarchical-attention"
-status: new
+status: "new"
 ---
 
 # FasterViT: Fast Vision Transformers with Hierarchical Attention

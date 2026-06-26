@@ -1,32 +1,31 @@
 ---
-id: cvpr-0026
+id: "cvpr-0026"
 title: "XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies"
-conference: CVPR 2023
-date: 2023-12
+conference: "CVPR 2023"
+date: "2023-12"
 authors:
   - name: "Xuanchi Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jiahui Huang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Ken Museth"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Francis Williams"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=GX0lzwy8nU"
 abstract: "We present XCube, a novel generative model for high-resolution sparse 3D voxel grids with arbitrary attributes. Our model can generate millions of voxels with a finest effective resolution of up to $1024^3$ in a feed-forward fashion without time-consuming test-time optimization. To achieve this, we "
 url: "https://research.nvidia.com/publication/2023-12_xcube-large-scale-3d-generative-modeling-using-sparse-voxel-hierarchies"
-status: new
+status: "new"
 ---
 
 # XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies

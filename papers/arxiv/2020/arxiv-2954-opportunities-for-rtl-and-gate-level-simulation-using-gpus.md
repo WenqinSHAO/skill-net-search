@@ -1,21 +1,20 @@
 ---
-id: arxiv-2954
+id: "arxiv-2954"
 title: "Opportunities for RTL and Gate Level Simulation using GPUs"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
   - name: "Yanqing Zhang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3400302.3415773"
 abstract: "This paper summarizes the opportunities in accelerating simulation on parallel processing hardware platforms such as GPUs.&nbsp;&nbsp;First, we give a summary of prior art. Then, we propose the idea&nbsp;that coding frameworks usually used for popular machine learning&nbsp;(ML) topics, such as PyTor"
 url: "https://research.nvidia.com/publication/2020-11_opportunities-rtl-and-gate-level-simulation-using-gpus"
-status: new
+status: "new"
 ---
 
 # Opportunities for RTL and Gate Level Simulation using GPUs

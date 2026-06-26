@@ -1,31 +1,30 @@
 ---
-id: arxiv-2982
+id: "arxiv-2982"
 title: "Weakly Supervised One-stage Vision and Language Disease Detection using Large Scale Pneumonia and Pneumothorax Studies"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Leo Tam"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaosong Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Evrim Turkbey"
+    affiliation: "NIH"
+    is_industry: false
+  - name: "Kevin Lu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yuhong Wen"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Daguang Xu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Leo Tam"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaosong Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Evrim Turkbey"
-    affiliation: ""
-    is_industry: false
-  - name: "Kevin Lu"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuhong Wen"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Medical"
 abstract: "Detecting clinically relevant objects in medical images is a challenge despite large datasets due to the lack of detailed labels. To address the label issue, we utilize the scene-level labels with a detection architecture that incorporates natural language information. We present a challenging new s"
 url: "https://research.nvidia.com/publication/2020-07_weakly-supervised-one-stage-vision-and-language-disease-detection-using-large"
-status: new
+status: "new"
 ---
 
 # Weakly Supervised One-stage Vision and Language Disease Detection using Large Scale Pneumonia and Pneumothorax Studies

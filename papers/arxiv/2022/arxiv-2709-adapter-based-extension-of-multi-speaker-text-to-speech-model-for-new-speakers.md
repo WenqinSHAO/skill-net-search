@@ -1,21 +1,20 @@
 ---
-id: arxiv-2709
+id: "arxiv-2709"
 title: "Adapter-Based Extension of Multi-Speaker Text-to-Speech Model for New Speakers"
-conference: arXiv 2022
-date: 2022-11
+conference: "arXiv 2022"
+date: "2022-11"
 authors:
   - name: "Cheng-Ping Hsieh"
-    affiliation: ""
+    affiliation: "University of California San Diego"
     is_industry: false
   - name: "Subhankar Ghosh"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Boris Ginsburg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://arxiv.org/abs/2211.00585"
 abstract: "Fine-tuning is a popular method for adapting text-to-speech (TTS) models to new speakers. However this approach has some challenges. Usually fine-tuning requires several hours of high quality speech per speaker. There is also that fine-tuning will negatively affect the quality of speech synthesis fo"
 url: "https://research.nvidia.com/publication/2022-11_adapter-based-extension-multi-speaker-text-speech-model-new-speakers"
-status: new
+status: "new"
 ---
 
 # Adapter-Based Extension of Multi-Speaker Text-to-Speech Model for New Speakers

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2548
+id: "arxiv-2548"
 title: "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems"
-conference: arXiv 2025
-date: 2025-06
+conference: "arXiv 2025"
+date: "2025-06"
 authors:
   - name: "Zhongzhi Yu"
     affiliation: "NVIDIA"
@@ -11,21 +11,20 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Michael Zimmer"
-    affiliation: ""
+    affiliation: "Cadence"
     is_industry: false
   - name: "Yingyan (Celine) Lin"
-    affiliation: ""
+    affiliation: "Georgia Institute of Technology"
     is_industry: false
   - name: "Yong Liu"
-    affiliation: ""
+    affiliation: "Cadence"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://arxiv.org/abs/2506.13905"
 abstract: "Despite recent progress in generating hardware RTL code with LLMs, existing solutions still suffer from a substantial gap between practical application scenarios and the requirements of real-world RTL code development. Prior approaches either focus on overly simplified hardware descriptions or depen"
 url: "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using"
-status: new
+status: "new"
 ---
 
 # Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems

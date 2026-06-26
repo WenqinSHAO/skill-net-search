@@ -1,32 +1,31 @@
 ---
-id: arxiv-2597
+id: "arxiv-2597"
 title: "GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators"
-conference: arXiv 2024
-date: 2024-08
+conference: "arXiv 2024"
+date: "2024-08"
 authors:
+  - name: "Yuchen Hu"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
+  - name: "Chen Chen"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yuchen Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chen Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Ruizhe Li"
-    affiliation: ""
+    affiliation: "University of Aberdeen"
     is_industry: false
   - name: "Zhehuai Chen"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Eng Siong Chng"
-    affiliation: ""
+    affiliation: "Nanyang Technological University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Applied_perception
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ research_areas:
   - "Speech Processing"
 abstract: "Recent advances in large language models (LLMs) have stepped forward the development of multilingual speech and machine translation by its reduced representation errors and incorporated external knowledge. However, both translation tasks typically utilize beam search decoding and top-1 hypothesis se"
 url: "https://research.nvidia.com/publication/2024-08_gentranslate-large-language-models-are-generative-multilingual-speech-and"
-status: new
+status: "new"
 ---
 
 # GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators

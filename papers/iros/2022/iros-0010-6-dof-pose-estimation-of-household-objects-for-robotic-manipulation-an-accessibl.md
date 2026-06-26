@@ -1,8 +1,8 @@
 ---
-id: iros-0010
+id: "iros-0010"
 title: "6-DoF Pose Estimation of Household Objects for Robotic Manipulation: An Accessible Dataset and Benchmark"
-conference: IROS 2022
-date: 2022-11
+conference: "IROS 2022"
+date: "2022-11"
 authors:
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
@@ -14,12 +14,11 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "et al."
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://github.com/swtyree/hope-dataset"
 abstract: "We present a new dataset for 6-DoF pose estimation of known objects, with a focus on robotic manipulation research. We propose a set of toy grocery objects, whose physical instantiations are readily available for purchase and are appropriately sized for robotic grasping and manipulation. We provide "
 url: "https://research.nvidia.com/publication/2022-11_6-dof-pose-estimation-household-objects-robotic-manipulation-accessible-dataset"
-status: new
+status: "new"
 ---
 
 # 6-DoF Pose Estimation of Household Objects for Robotic Manipulation: An Accessible Dataset and Benchmark

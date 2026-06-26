@@ -1,9 +1,18 @@
 ---
-id: cvpr-0024
+id: "cvpr-0024"
 title: "NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows"
-conference: CVPR 2024
-date: 2024-06
+conference: "CVPR 2024"
+date: "2024-06"
 authors:
+  - name: "Zhenggang Tang"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Zhongzheng Ren"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Xiaoming Zhao"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +22,11 @@ authors:
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhenggang Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhongzheng Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaoming Zhao"
-    affiliation: ""
-    is_industry: false
   - name: "Alexander Schwing"
-    affiliation: ""
+    affiliation: "UIUC"
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://nerfdeformer.github.io/"
 abstract: "We present a method for automatically modifying a NeRF representation based on a single observation of a non-rigid transformed version of the original scene. Our method defines the transformation as a 3D flow, specifically as a weighted linear blending of rigid transformations of 3D anchor points th"
 url: "https://research.nvidia.com/publication/2024-06_nerfdeformer-nerf-transformation-single-view-3d-scene-flows"
-status: new
+status: "new"
 ---
 
 # NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows

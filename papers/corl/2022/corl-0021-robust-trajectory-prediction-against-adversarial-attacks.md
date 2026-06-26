@@ -1,8 +1,8 @@
 ---
-id: corl-0021
+id: "corl-0021"
 title: "Robust Trajectory Prediction against Adversarial Attacks"
-conference: CoRL 2022
-date: 2022-12
+conference: "CoRL 2022"
+date: "2022-12"
 authors:
   - name: "Yulong Cao"
     affiliation: "NVIDIA"
@@ -13,23 +13,22 @@ authors:
   - name: "Xinshuo Weng"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Z. Morely Mao"
+    affiliation: "University of Michigan"
+    is_industry: false
+  - name: "Anima Anandkumar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chaowei Xiao"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Z. Morely Mao"
-    affiliation: ""
-    is_industry: false
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://robustav.github.io/RobustTraj/"
 abstract: "Trajectory prediction using deep neural networks (DNNs) is an essential component of autonomous driving (AD) systems. However, these methods are vulnerable to adversarial attacks, leading to serious consequences such as collisions. In this work, we identify two key ingredients to defend trajectory p"
 url: "https://research.nvidia.com/publication/2022-12_robust-trajectory-prediction-against-adversarial-attacks"
-status: new
+status: "new"
 ---
 
 # Robust Trajectory Prediction against Adversarial Attacks

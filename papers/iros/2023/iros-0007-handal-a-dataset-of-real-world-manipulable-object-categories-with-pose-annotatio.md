@@ -1,10 +1,16 @@
 ---
-id: iros-0007
+id: "iros-0007"
 title: "HANDAL: A Dataset of Real-World Manipulable Object Categories with Pose Annotations, Affordances, and Reconstructions"
-conference: IROS 2023
-date: 2023-10
+conference: "IROS 2023"
+date: "2023-10"
 authors:
+  - name: "Andrew Guo"
+    affiliation: "Univ of Waterloo"
+    is_industry: false
   - name: "Bowen Wen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jianhe Yuan"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jonathan Tremblay"
@@ -19,16 +25,9 @@ authors:
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andrew Guo"
-    affiliation: ""
-    is_industry: false
-  - name: "Jianhe Yuan"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://arxiv.org/abs/2308.01477"
 abstract: "We present the HANDAL dataset for category-level object pose estimation and affordance prediction. Unlike previous datasets, ours is focused on robotics-ready manipulable objects that are of the proper size and shape for functional grasping by robot manipulators, such as pliers, utensils, and screwd"
 url: "https://research.nvidia.com/publication/2023-10_handal-dataset-real-world-manipulable-object-categories-pose-annotations"
-status: new
+status: "new"
 ---
 
 # HANDAL: A Dataset of Real-World Manipulable Object Categories with Pose Annotations, Affordances, and Reconstructions

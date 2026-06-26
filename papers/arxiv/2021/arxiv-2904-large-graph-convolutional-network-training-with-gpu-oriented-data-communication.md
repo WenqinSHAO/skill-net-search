@@ -1,37 +1,36 @@
 ---
-id: arxiv-2904
+id: "arxiv-2904"
 title: "Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
+  - name: "Seung Won Min"
+    affiliation: "University of Illinois Urbana Champaign"
+    is_industry: false
+  - name: "Kun Wu"
+    affiliation: "University of Illinois Urbana Champaign"
+    is_industry: false
+  - name: "Sitao Huang"
+    affiliation: "University of Illinois Urbana Champaign"
+    is_industry: false
+  - name: "Mert Hidayetoglu"
+    affiliation: "University of Illinois Urbana Champaign"
+    is_industry: false
+  - name: "Jinjun Xiong"
+    affiliation: "IBM T.J. Watson Research Center"
+    is_industry: true
+  - name: "Eiman Ebrahimi"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Deming Chen"
+    affiliation: "University of Illinois Urbana Champaign"
+    is_industry: false
   - name: "Wen-mei Hwu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seung Won Min"
-    affiliation: ""
-    is_industry: false
-  - name: "Kun Wu"
-    affiliation: ""
-    is_industry: false
-  - name: "Sitao Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Mert Hidayetoglu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jinjun Xiong"
-    affiliation: ""
-    is_industry: false
-  - name: "Eiman Ebrahimi"
-    affiliation: ""
-    is_industry: false
-  - name: "Deming Chen"
-    affiliation: ""
-    is_industry: false
 topics:
   - GPU_architecture
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ research_areas:
   - "High Performance Computing"
 abstract: "Graph Convolutional Networks (GCNs) are increasingly adopted in large-scale graph-based recommender systems. Training GCN requires the minibatch generator traversing graphs and sampling the sparsely located neighboring nodes to obtain their features. Since real-world graphs often exceed the capacity"
 url: "https://research.nvidia.com/publication/2021-03_large-graph-convolutional-network-training-gpu-oriented-data-communication"
-status: new
+status: "new"
 ---
 
 # Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture

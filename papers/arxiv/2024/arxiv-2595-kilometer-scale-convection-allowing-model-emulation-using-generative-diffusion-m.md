@@ -1,12 +1,21 @@
 ---
-id: arxiv-2595
+id: "arxiv-2595"
 title: "Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling"
-conference: arXiv 2024
-date: 2024-08
+conference: "arXiv 2024"
+date: "2024-08"
 authors:
   - name: "Jaideep Pathak"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yair Cohen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Piyush Garg"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Peter Harrington"
+    affiliation: "LBNL"
+    is_industry: false
   - name: "Noah Brenowitz"
     affiliation: "NVIDIA"
     is_industry: true
@@ -19,29 +28,19 @@ authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Shaoming Xu"
+    affiliation: "University of Minnesota"
+    is_industry: false
+  - name: "Karthik Kashinath"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mike Pritchard"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yair Cohen"
-    affiliation: ""
-    is_industry: false
-  - name: "Piyush Garg"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Harrington"
-    affiliation: ""
-    is_industry: false
-  - name: "Shaoming Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Karthik Kashinath"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -51,7 +50,7 @@ research_areas:
   - "Generative AI"
 abstract: "Storm-scale convection-allowing models (CAMs) are an important tool for predicting the evolution of thunderstorms and mesoscale convective systems that result in damaging extreme weather. By explicitly resolving convective dynamics within the atmosphere they afford meteorologists the nuance needed t"
 url: "https://research.nvidia.com/publication/2024-08_kilometer-scale-convection-allowing-model-emulation-using-generative-diffusion"
-status: new
+status: "new"
 ---
 
 # Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2592
+id: "arxiv-2592"
 title: "Conformer without Convolutions"
-conference: arXiv 2024
-date: 2024-09
+conference: "arXiv 2024"
+date: "2024-09"
 authors:
   - name: "Matthijs Van keirsbilck"
     affiliation: "NVIDIA"
@@ -13,7 +13,6 @@ authors:
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "We analyze the weights of a trained speech-to-text neural network and discover a surprising amount of structure in the temporal convolutions. Based on our observations we propose to completely remove learnable temporal convolutions, and replace them with fixed averaging and shift operations which ha"
 url: "https://research.nvidia.com/publication/2024-09_conformer-without-convolutions"
-status: new
+status: "new"
 ---
 
 # Conformer without Convolutions

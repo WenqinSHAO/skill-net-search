@@ -21,6 +21,7 @@ import hashlib
 import time
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import unquote
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 INDEX_PATH = REPO_ROOT / "index" / "all_papers.json"
@@ -53,6 +54,12 @@ VENUE_PATH_MAP = {
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE_URL = "https://research.nvidia.com/publications"
+
+
+def normalize_nvidia_url(url: str) -> str:
+    if not url:
+        return ""
+    return unquote(url).replace("%5F", "_").replace("%5f", "_")
 
 
 def slugify(title: str) -> str:
@@ -128,7 +135,7 @@ def parse_html(html: str) -> list[dict]:
         year = int(title_m.group(2))
         month = title_m.group(3)
         title = title_m.group(4).strip()
-        url = f"https://research.nvidia.com{url_path}"
+        url = normalize_nvidia_url(f"https://research.nvidia.com{url_path}")
 
         # Extract NVIDIA authors (with /person/ links)
         nv_authors = []
@@ -198,7 +205,7 @@ def create_filter_records(papers: list[dict]) -> list[dict]:
             for p in idx.get("papers", []):
                 existing_ids.add(p["id"])
                 if p.get("url"):
-                    existing_urls.add(p["url"])
+                    existing_urls.add(normalize_nvidia_url(p["url"]))
                 vid = p["id"]
                 m = re.match(r'([a-z]+)(\d{2,4})[-.](\d+)', vid)
                 if m:
@@ -213,7 +220,7 @@ def create_filter_records(papers: list[dict]) -> list[dict]:
                         venue_counters[prefix] = max(venue_counters.get(prefix, 0), num)
 
     for p in papers:
-        if p["url"] in existing_urls:
+        if normalize_nvidia_url(p["url"]) in existing_urls:
             continue
 
         vp = p["venue_path"]

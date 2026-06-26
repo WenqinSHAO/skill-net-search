@@ -1,9 +1,15 @@
 ---
-id: cvpr-0005
+id: "cvpr-0005"
 title: "RL-RC-DoT: A Block-level RL agent for Task-Aware Video Compression"
-conference: CVPR 2025
-date: 2025-06
+conference: "CVPR 2025"
+date: "2025-06"
 authors:
+  - name: "Uri Gadot"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Assaf Shocher"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,16 +19,9 @@ authors:
   - name: "Assaf Hallak"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Uri Gadot"
-    affiliation: ""
-    is_industry: false
-  - name: "Assaf Shocher"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://arxiv.org/abs/2501.12216"
 abstract: "Video encoders optimize compression for human perception by minimizing reconstruction error under bit-rate constraints. In many modern applications such as autonomous driving, an overwhelming majority of videos serve as input for AI systems performing tasks like object recognition or segmentation, r"
 url: "https://research.nvidia.com/publication/2025-06_rl-rc-dot-block-level-rl-agent-task-aware-video-compression"
-status: new
+status: "new"
 ---
 
 # RL-RC-DoT: A Block-level RL agent for Task-Aware Video Compression

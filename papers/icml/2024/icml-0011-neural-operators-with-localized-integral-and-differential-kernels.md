@@ -1,33 +1,32 @@
 ---
-id: icml-0011
+id: "icml-0011"
 title: "Neural operators with localized integral and differential kernels"
-conference: ICML 2024
-date: 2024-07
+conference: "ICML 2024"
+date: "2024-07"
 authors:
+  - name: "Miguel Liu-Schiaffini"
+    affiliation: "Caltech"
+    is_industry: false
+  - name: "Julius Berner"
+    affiliation: "Caltech"
+    is_industry: false
   - name: "Boris Bonev"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Miguel Liu-Schiaffini"
-    affiliation: ""
-    is_industry: false
-  - name: "Julius Berner"
-    affiliation: ""
-    is_industry: false
   - name: "Thorsten Kurth"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Kamyar Azizzadenesheli"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anima Anandkumar"
-    affiliation: ""
+    affiliation: "Caltech"
     is_industry: false
 topics:
   - AI & Machine Learning
   - CUDA_ecosystem
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ research_areas:
   - "Physical AI"
 abstract: "Neural operators learn mappings between function spaces, which is practical for learning solution operators of PDEs and other scientific modeling applications. Among them, the Fourier neural operator (FNO) is a popular architecture that performs global convolutions in the Fourier space. However, suc"
 url: "https://research.nvidia.com/publication/2024-07_neural-operators-localized-integral-and-differential-kernels"
-status: new
+status: "new"
 ---
 
 # Neural operators with localized integral and differential kernels

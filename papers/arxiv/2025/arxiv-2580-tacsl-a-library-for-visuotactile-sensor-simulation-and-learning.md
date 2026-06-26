@@ -1,8 +1,8 @@
 ---
-id: arxiv-2580
+id: "arxiv-2580"
 title: "TacSL: A Library for Visuotactile Sensor Simulation and Learning"
-conference: arXiv 2025
-date: 2025-01
+conference: "arXiv 2025"
+date: "2025-01"
 authors:
   - name: "Iretiayo Akinola"
     affiliation: "NVIDIA"
@@ -10,18 +10,17 @@ authors:
   - name: "Jie Xu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jan Carius"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yashraj Narang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jan Carius"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://iakinola23.github.io/tacsl/"
 abstract: "For both humans and robots, the sense of touch, known as tactile sensing, is critical for performing contact-rich manipulation tasks. Three key challenges in robotic tactile sensing are 1) interpreting sensor signals, 2) predicting sensor signals in novel scenarios, and 3) learning sensor-based poli"
 url: "https://research.nvidia.com/publication/2025-01_tacsl-library-visuotactile-sensor-simulation-and-learning"
-status: new
+status: "new"
 ---
 
 # TacSL: A Library for Visuotactile Sensor Simulation and Learning

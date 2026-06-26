@@ -1,8 +1,8 @@
 ---
-id: cvpr-0045
+id: "cvpr-0045"
 title: "Whose Track Is It Anyway? Improving Robustness to Tracking Errors with Affinity-Based Prediction"
-conference: CVPR 2022
-date: 2022-06
+conference: "CVPR 2022"
+date: "2022-06"
 authors:
   - name: "Xinshuo Weng"
     affiliation: "NVIDIA"
@@ -10,17 +10,16 @@ authors:
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kris Kitani"
+    affiliation: "CMU"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kris Kitani"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://openaccess.thecvf.com/content/CVPR2022/html/Weng_Whose_Track_Is_It_Anyway_Improving_Robustness_to_Tracking_Errors_CVPR_2022_paper.html"
 abstract: "Multi-agent trajectory prediction is critical for planning and decision-making in human-interactive autonomous systems, such as self-driving cars. However, most prediction models are developed separately from their upstream perception (detection and tracking) modules, assuming ground truth past traj"
 url: "https://research.nvidia.com/publication/2022-06_whose-track-it-anyway-improving-robustness-tracking-errors-affinity-based"
-status: new
+status: "new"
 ---
 
 # Whose Track Is It Anyway? Improving Robustness to Tracking Errors with Affinity-Based Prediction

@@ -1,32 +1,31 @@
 ---
-id: neurips-0040
+id: "neurips-0040"
 title: "ATISS: Autoregressive Transformers for Indoor Scene Synthesis"
-conference: NeurIPS 2021
-date: 2021-12
+conference: "NeurIPS 2021"
+date: "2021-12"
 authors:
+  - name: "Despoina Paschalidou"
+    affiliation: "Autonomous Vision Group MPI for Intelligent Systems Tübingen, Max Planck ETH Center for Learning Systems, NVIDIA"
+    is_industry: true
+  - name: "Amlan Kar"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
+  - name: "Maria Shugrina"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Despoina Paschalidou"
-    affiliation: ""
-    is_industry: false
-  - name: "Amlan Kar"
-    affiliation: ""
-    is_industry: false
-  - name: "Maria Shugrina"
-    affiliation: ""
-    is_industry: false
   - name: "Andreas Geiger"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Autonomous Vision Group MPI for Intelligent Systems Tübingen, University of Tübingen, Max Planck ETH Center for Learning System"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/ATISS/"
 abstract: "The ability to synthesize realistic and diverse indoor furniture layouts automatically or based on partial input, unlocks many applications, from better interactive 3D tools to data synthesis for training and simulation. In this paper, we present ATISS, a novel autoregressive transformer architectur"
 url: "https://research.nvidia.com/publication/2021-12_atiss-autoregressive-transformers-indoor-scene-synthesis"
-status: new
+status: "new"
 ---
 
 # ATISS: Autoregressive Transformers for Indoor Scene Synthesis

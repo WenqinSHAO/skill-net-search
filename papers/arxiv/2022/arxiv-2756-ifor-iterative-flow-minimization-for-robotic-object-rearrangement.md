@@ -1,34 +1,33 @@
 ---
-id: arxiv-2756
+id: "arxiv-2756"
 title: "Ifor: Iterative flow minimization for robotic object rearrangement"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
   - name: "Ankit Goyal"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Arsalan Mousavian"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "Meta"
+    is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
   - name: "Brian Okorn"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Jia Deng"
-    affiliation: ""
+    affiliation: "Princeton University"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://openaccess.thecvf.com/content/CVPR2022/papers/Goyal_IFOR_Iterative_Flow_Minimization_for_Robotic_Object_Rearrangement_CVPR_2022_paper.pdf"
 abstract: "Accurate object rearrangement from vision is a crucial problem for a wide variety of real-world robotics applications in unstructured environments. We propose IFOR, Iterative Flow Minimization for Robotic Object Rearrangement, an end-to-end method for the challenging problem of object rearrangement "
 url: "https://research.nvidia.com/publication/2022-06_ifor-iterative-flow-minimization-robotic-object-rearrangement"
-status: new
+status: "new"
 ---
 
 # Ifor: Iterative flow minimization for robotic object rearrangement

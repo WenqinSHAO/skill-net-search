@@ -1,32 +1,31 @@
 ---
-id: arxiv-2650
+id: "arxiv-2650"
 title: "IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research"
-conference: arXiv 2023
-date: 2023-08
+conference: "arXiv 2023"
+date: "2023-08"
 authors:
+  - name: "Arpandeep Khatua"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Vikram Sharma Mailthody"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Bhagyashree Taleka"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Tengfei Ma"
+    affiliation: "IBM Research"
+    is_industry: true
+  - name: "Xiang Song"
+    affiliation: "AWS AI"
+    is_industry: false
   - name: "Wen-mei Hwu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arpandeep Khatua"
-    affiliation: ""
-    is_industry: false
-  - name: "Bhagyashree Taleka"
-    affiliation: ""
-    is_industry: false
-  - name: "Tengfei Ma"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiang Song"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Data_systems
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ research_areas:
   - "Storage and Systems"
 abstract: "Graph neural networks (GNNs) have shown high potential for a variety of real-world, challenging applications, but one of the major obstacles in GNN research is the lack of large-scale flexible datasets. Most existing public datasets for GNNs are relatively small, which limits the ability of GNNs to "
 url: "https://research.nvidia.com/publication/2023-08_igb-addressing-gaps-labeling-features-heterogeneity-and-size-public-graph"
-status: new
+status: "new"
 ---
 
 # IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research

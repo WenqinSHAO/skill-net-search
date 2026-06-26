@@ -1,8 +1,8 @@
 ---
-id: rss-0003
+id: "rss-0003"
 title: "RVT-2: Learning Precise Manipulation from Few Examples"
-conference: RSS 2024
-date: 2024-07
+conference: "RSS 2024"
+date: "2024-07"
 authors:
   - name: "Ankit Goyal"
     affiliation: "NVIDIA"
@@ -20,12 +20,11 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Robotics"
 abstract: "In this work, we study how to build a robotic system that can solve multiple 3D manipulation tasks given language instructions. To be useful in industrial and household domains, such a system should be capable of learning new tasks with few demonstrations and solving them precisely. Prior works, lik"
 url: "https://research.nvidia.com/publication/2024-07_rvt-2-learning-precise-manipulation-few-examples"
-status: new
+status: "new"
 ---
 
 # RVT-2: Learning Precise Manipulation from Few Examples

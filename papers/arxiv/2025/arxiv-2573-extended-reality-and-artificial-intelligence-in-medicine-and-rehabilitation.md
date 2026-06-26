@@ -1,26 +1,25 @@
 ---
-id: arxiv-2573
+id: "arxiv-2573"
 title: "eXtended Reality and Artificial Intelligence in Medicine and Rehabilitation"
-conference: arXiv 2025
-date: 2025-01
+conference: "arXiv 2025"
+date: "2025-01"
 authors:
+  - name: "Tomas Krilavičius"
+    affiliation: "University of Salento"
+    is_industry: false
+  - name: "Lucio Tommaso De Paolis"
+    affiliation: "Vytautas Magnus University"
+    is_industry: false
+  - name: "Valerio De Luca"
+    affiliation: "University of Salento"
+    is_industry: false
   - name: "Josef Spjut"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Tomas Krilavičius"
-    affiliation: ""
-    is_industry: false
-  - name: "Lucio Tommaso De Paolis"
-    affiliation: ""
-    is_industry: false
-  - name: "Valerio De Luca"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
     url: "https://link.springer.com/article/10.1007/s10796-025-10580-8"
 abstract: "This special issue focuses on the application of eXtended Reality (XR) technologies—comprising Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR)—and Artificial Intelligence (AI) in the fields of medicine and rehabilitation. AR provides support in minimally invasive surgery, where "
 url: "https://research.nvidia.com/publication/2025-01_extended-reality-and-artificial-intelligence-medicine-and-rehabilitation"
-status: new
+status: "new"
 ---
 
 # eXtended Reality and Artificial Intelligence in Medicine and Rehabilitation

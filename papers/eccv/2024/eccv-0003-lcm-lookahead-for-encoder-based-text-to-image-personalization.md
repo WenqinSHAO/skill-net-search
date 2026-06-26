@@ -1,35 +1,34 @@
 ---
-id: eccv-0003
+id: "eccv-0003"
 title: "LCM-Lookahead for Encoder-based Text-to-Image Personalization"
-conference: ECCV 2024
-date: 2024-04
+conference: "ECCV 2024"
+date: "2024-04"
 authors:
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Or Lichter"
+    affiliation: "Tel Aviv University"
+    is_industry: false
+  - name: "Elad Richardson"
+    affiliation: "Tel Aviv University"
+    is_industry: false
+  - name: "Or Patashnik"
+    affiliation: "Tel Aviv University"
+    is_industry: false
+  - name: "Amit H Bermano"
+    affiliation: "Tel Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Or Lichter"
-    affiliation: ""
-    is_industry: false
-  - name: "Elad Richardson"
-    affiliation: ""
-    is_industry: false
-  - name: "Or Patashnik"
-    affiliation: ""
-    is_industry: false
-  - name: "Amit H Bermano"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel Aviv University"
     is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://lcm-lookahead.github.io/"
 abstract: "Recent advancements in diffusion models have introduced fast sampling methods that can effectively produce high-quality images in just one or a few denoising steps. Interestingly, when these are distilled from existing diffusion models, they often maintain alignment with the original model, retainin"
 url: "https://research.nvidia.com/publication/2024-04_lcm-lookahead-encoder-based-text-image-personalization"
-status: new
+status: "new"
 ---
 
 # LCM-Lookahead for Encoder-based Text-to-Image Personalization

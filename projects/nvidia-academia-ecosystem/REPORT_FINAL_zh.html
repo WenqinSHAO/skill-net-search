@@ -177,7 +177,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <!-- ===== SIDEBAR ===== -->
 <aside class="sidebar">
   <div class="sidebar-header">
-    <div class="report-label">技术报告 · 2026-06-05</div>
+    <div class="report-label">技术报告 · 2026-06-26</div>
     <h2>NVIDIA 研究<br>→ 产品转化管道</h2>
   </div>
   <nav class="sidebar-nav">
@@ -191,7 +191,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
     <a href="#s8"><span class="nav-num">8</span> 关键结论</a>
     <a href="#appendix" style="font-size:11px;padding-left:28px">附录</a>
   </nav>
-  <div class="sidebar-footer">数据集：891篇论文<br>3,678篇博客 · 14个领域</div>
+  <div class="sidebar-footer">数据集：923篇论文<br>3,678篇博客 · 14个领域</div>
 </aside>
 
 <!-- ===== MAIN CONTENT ===== -->
@@ -202,12 +202,12 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <h1><span class="green">NVIDIA 研究</span> → 产品转化管道</h1>
   <p class="subtitle">学术界如何驱动 NVIDIA 技术生态系统 (2020-2026)</p>
   <div class="hero-metrics">
-    <div class="hero-metric"><div class="metric-value">891</div><div class="metric-label">研究论文</div></div>
+    <div class="hero-metric"><div class="metric-value">923</div><div class="metric-label">研究论文</div></div>
     <div class="hero-metric"><div class="metric-value">56</div><div class="metric-label">已验证转化</div></div>
     <div class="hero-metric"><div class="metric-value">14</div><div class="metric-label">研究领域</div></div>
     <div class="hero-metric"><div class="metric-value">3,678</div><div class="metric-label">博客文章分析</div></div>
   </div>
-  <div class="hero-date">生成日期 2026-06-05 · 经三阶段智能体审核校准的转化证据</div>
+  <div class="hero-date">生成日期 2026-06-26 · 已修正作者所属机构 + 经三阶段智能体审核校准的转化证据</div>
 </header>
 
 <!-- ===== SECTION 1: METHODOLOGY ===== -->
@@ -223,7 +223,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <table>
 <thead><tr><th>数据源</th><th>描述</th><th>覆盖范围</th></tr></thead>
 <tbody>
-<tr><td><strong>研究论文</strong></td><td>从 <code>research.nvidia.com</code> 抓取的论文，标注了研究领域、发表 venue 和作者所属机构</td><td>891篇论文 (2020-2026)，标签 <code>nvidia-research</code></td></tr>
+<tr><td><strong>研究论文</strong></td><td>从 <code>research.nvidia.com</code> 抓取的论文，标注了研究领域、发表 venue 和作者所属机构</td><td>923篇论文 (2020-2026)，标签 <code>nvidia-research</code></td></tr>
 <tr><td><strong>技术博客</strong></td><td>通过 NVIDIA 技术博客 Atom feed 发现的所有文章</td><td>3,678篇文章 (2020-2026)</td></tr>
 <tr><td><strong>转化证据</strong></td><td>经过智能体内容审核验证的论文-博客匹配</td><td>56篇论文 → 53篇博客 → 71条已验证链接</td></tr>
 </tbody>
@@ -238,7 +238,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <div class="pipeline-stage">
     <div class="stage-num">1</div>
     <div class="stage-title">启发式匹配（初筛）</div>
-    <div class="stage-desc">交叉比对891篇论文 × 3,678篇博客，通过作者姓名重合、标题短语匹配和项目名称检测。<br><strong>→ 442个候选配对</strong></div>
+    <div class="stage-desc">交叉比对NVIDIA论文语料 × 3,678篇博客，通过作者姓名重合、标题短语匹配和项目名称检测。<br><strong>→ 基于2026年6月候选匹配校准</strong></div>
   </div>
   <div class="pipeline-arrow">→</div>
   <div class="pipeline-stage">
@@ -255,7 +255,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 </div>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val green">56</div><div class="stat-lbl">已验证论文 (6.3%)</div></div>
+  <div class="stat-card"><div class="stat-val green">56</div><div class="stat-lbl">已验证论文 (6.1%)</div></div>
   <div class="stat-card"><div class="stat-val">53</div><div class="stat-lbl">独立博客</div></div>
   <div class="stat-card"><div class="stat-val teal">40</div><div class="stat-lbl">直接转化 (DIRECT)</div></div>
   <div class="stat-card"><div class="stat-val" style="color:#E69F00">18</div><div class="stat-lbl">关联转化 (MODERATE)</div></div>
@@ -294,7 +294,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 </div>
 
 <h3>2.1 研究组合构成</h3>
-<p>NVIDIA 的研究组合横跨14个领域。<strong>AI与机器学习</strong>以451篇论文占据主导——超过排名其后两个领域的论文之和。</p>
+<p>NVIDIA 的研究组合横跨14个领域。<strong>AI与机器学习</strong>以457篇论文占据主导，其后是计算机视觉、机器人与自主系统和基础模型。</p>
 
 <figure>
   <img src="figures/domain_static_distribution.png" alt="领域静态分布" loading="lazy" onclick="openLightbox(this.src)">
@@ -305,16 +305,16 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <table>
 <thead><tr><th>领域</th><th class="num">论文数</th><th class="num">占比</th></tr></thead>
 <tbody>
-<tr><td>AI 与机器学习</td><td class="num">451</td><td class="rate">50.6%</td></tr>
-<tr><td>计算机视觉</td><td class="num">246</td><td class="rate">27.6%</td></tr>
-<tr><td>基础模型</td><td class="num">219</td><td class="rate">24.6%</td></tr>
-<tr><td>机器人与自主系统</td><td class="num">219</td><td class="rate">24.6%</td></tr>
-<tr><td>图形与渲染</td><td class="num">213</td><td class="rate">23.9%</td></tr>
-<tr><td>GPU 架构</td><td class="num">158</td><td class="rate">17.7%</td></tr>
-<tr><td>CUDA 生态</td><td class="num">75</td><td class="rate">8.4%</td></tr>
-<tr><td>应用感知</td><td class="num">73</td><td class="rate">8.2%</td></tr>
-<tr><td>仿真与高性能计算</td><td class="num">47</td><td class="rate">5.3%</td></tr>
-<tr><td>互联与网络</td><td class="num">26</td><td class="rate">2.9%</td></tr>
+<tr><td>AI 与机器学习</td><td class="num">457</td><td class="rate">49.5%</td></tr>
+<tr><td>计算机视觉</td><td class="num">247</td><td class="rate">26.8%</td></tr>
+<tr><td>机器人与自主系统</td><td class="num">223</td><td class="rate">24.2%</td></tr>
+<tr><td>基础模型</td><td class="num">222</td><td class="rate">24.1%</td></tr>
+<tr><td>图形与渲染</td><td class="num">213</td><td class="rate">23.1%</td></tr>
+<tr><td>GPU 架构</td><td class="num">160</td><td class="rate">17.3%</td></tr>
+<tr><td>CUDA 生态</td><td class="num">77</td><td class="rate">8.3%</td></tr>
+<tr><td>应用感知</td><td class="num">73</td><td class="rate">7.9%</td></tr>
+<tr><td>仿真与高性能计算</td><td class="num">48</td><td class="rate">5.2%</td></tr>
+<tr><td>互联与网络</td><td class="num">42</td><td class="rate">4.6%</td></tr>
 </tbody>
 </table>
 </div>
@@ -325,14 +325,14 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <img src="figures/domain_temporal_stacked_area.png" alt="领域时间堆叠面积图" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>图2：堆叠面积图——各年度领域构成，2022.5处以GPT-3.5/ChatGPT为分界线</figcaption>
 </figure>
-<p>2022年末之后，领域格局发生了剧变。<strong>基础模型</strong>从GPT前的58篇飙升至GPT后的161篇（+178%）。<strong>GPU架构</strong>则呈现镜像走势——从116篇下降至42篇。第2.5节的分析表明，这种下降与论文更多转向 arxiv 而减少传统架构会议投稿相关；这究竟反映投入减少、发表策略变化还是分类调整，仅从数据本身无法区分。</p>
+<p>2022年末之后，领域格局发生了剧变。<strong>基础模型</strong>从GPT前的58篇增长至GPT后的164篇（+183%）。<strong>GPU架构</strong>则呈现镜像走势——从116篇下降至44篇。第2.5节的分析表明，这种下降与论文更多转向 arxiv 而减少传统架构会议投稿相关；这究竟反映投入减少、发表策略变化还是分类调整，仅从数据本身无法区分。</p>
 
 <h3>2.3 各领域的GPT时刻转变</h3>
 <figure>
   <img src="figures/domain_gpt_shift.png" alt="领域GPT转变散点图" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>图3：散点图——每个领域为一个点（GPT前 vs GPT后论文数），标注了变化最大的领域</figcaption>
 </figure>
-<p>基础模型在两个时期之间净增103篇论文——是最大的单领域变化。应用感知也显示出强劲增长（+117%），主要由延迟感知和电竞研究驱动。GPU架构是最显著的下降者（-64%），同时CUDA生态的工作也有适度缩减。</p>
+<p>基础模型在两个时期之间净增106篇论文——是最大的单领域变化。应用感知也显示出强劲增长（+117%），主要由延迟感知和电竞研究驱动。GPU架构是最显著的下降者（-62%），CUDA生态则基本持平。</p>
 
 <h3>2.4 关键领域轨迹</h3>
 <figure>
@@ -340,8 +340,8 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
   <figcaption>图4：折线图——七个标志性领域的年度追踪</figcaption>
 </figure>
 <div class="eco-grid">
-  <div class="eco-card"><h5>基础模型 ↗</h5><p>冰球杆曲线——2020-2022年持平，随后陡升至每年45-52篇</p></div>
-  <div class="eco-card"><h5>GPU 架构 ↘</h5><p>2020-2022年高峰期（每年40-42篇），随后急剧降至6-23篇</p></div>
+  <div class="eco-card"><h5>基础模型 ↗</h5><p>冰球杆曲线——2020-2022年持平，随后陡升至每年45-54篇</p></div>
+  <div class="eco-card"><h5>GPU 架构 ↘</h5><p>2020-2022年高峰期（每年40-42篇），随后急剧降至4-23篇</p></div>
   <div class="eco-card"><h5>AI与ML、CV、图形学 →</h5><p>稳健、坚实——构成NVIDIA的研究基石</p></div>
   <div class="eco-card"><h5>机器人学 →</h5><p>各年度持续稳定，无明显波动</p></div>
 </div>
@@ -368,19 +368,19 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 </figure>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val green">87.9%</div><div class="stat-lbl">NVIDIA 第一作者 (774/881)</div></div>
-  <div class="stat-card"><div class="stat-val" style="color:#E69F00">12.1%</div><div class="stat-lbl">学术界第一作者 (107篇)</div></div>
-  <div class="stat-card"><div class="stat-val">8.2%</div><div class="stat-lbl">纯NVIDIA论文 (72篇)</div></div>
-  <div class="stat-card"><div class="stat-val teal">92%</div><div class="stat-lbl">有学术合作者参与 (809篇)</div></div>
+  <div class="stat-card"><div class="stat-val green">58.5%</div><div class="stat-lbl">NVIDIA 第一作者 (538/920)</div></div>
+  <div class="stat-card"><div class="stat-val" style="color:#E69F00">41.5%</div><div class="stat-lbl">学术界第一作者 (382篇)</div></div>
+  <div class="stat-card"><div class="stat-val">38.3%</div><div class="stat-lbl">纯NVIDIA论文 (352/920)</div></div>
+  <div class="stat-card"><div class="stat-val teal">61.7%</div><div class="stat-lbl">合作论文 (568/920)</div></div>
 </div>
-<p>仅72篇论文（8.2%）为纯NVIDIA作者、没有外部合作者——绝大多数论文都有学术合作伙伴参与，但NVIDIA在绝大多数情况下主导研究议程。</p>
+<p>根据NVIDIA详情页修正作者所属机构后，NVIDIA研究者在有可解析作者的论文中占58.5%第一作者，学术合作者占41.5%。模型仍以NVIDIA为中心，但修正后的数据表明学术界承担了远比此前不完整数据所显示更大的主导角色。</p>
 
 <h3>3.2 时间稳定性</h3>
 <figure>
   <img src="figures/collaboration_temporal_split.png" alt="合作时间拆分" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>图7：堆叠柱状图——各年度NVIDIA主导 vs 学术界主导</figcaption>
 </figure>
-<p>NVIDIA主导与学术界主导的比例在全部七个年度中保持稳定。这种合作模式是结构性和制度化的——不是对AI趋势或GPT时刻的应激反应。</p>
+<p>合作模式是结构性的，但修正后的第一作者分布没有此前那么一边倒。NVIDIA主导论文从2020-2022年已知作者论文的61.1%下降到2023-2026年的56.0%；学术界主导从38.9%上升到44.0%。</p>
 
 <h3>3.3 各领域参与度</h3>
 <figure>
@@ -392,15 +392,15 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <table>
 <thead><tr><th>领域</th><th class="num">学术界主导比例</th></tr></thead>
 <tbody>
-<tr><td>医学影像</td><td class="rate">33.3% (4/12)</td></tr>
-<tr><td>基础模型</td><td class="rate">25.1% (55/219)</td></tr>
-<tr><td>图形与渲染</td><td class="rate">10.8% (23/213)</td></tr>
-<tr><td>仿真与高性能计算</td><td class="rate">8.5% (4/47)</td></tr>
-<tr><td>CUDA 生态</td><td class="rate">8.0% (6/75)</td></tr>
+<tr><td>数据系统</td><td class="rate">100.0% (1/1)</td></tr>
+<tr><td>量子计算</td><td class="rate">70.0% (7/10)</td></tr>
+<tr><td>应用感知</td><td class="rate">53.4% (39/73)</td></tr>
+<tr><td>仿真与高性能计算</td><td class="rate">52.1% (25/48)</td></tr>
+<tr><td>机器人与自主系统</td><td class="rate">49.3% (110/223)</td></tr>
 </tbody>
 </table>
 </div>
-<p>基础模型是学术界最具实质性主导地位的领域——219篇论文中有55篇的学术第一作者。应用感知、互联与网络以及量子计算领域<strong>零</strong>篇学术主导论文；NVIDIA完全掌控这些研究方向。</p>
+<p>小领域可能主导百分比排名，因此更稳健的信号是：应用感知、仿真与高性能计算、机器人与自主系统都接近学术界与NVIDIA平分第一作者。基础模型仍是重要合作领域，但学术界主导率为32.9%（73/222）。</p>
 
 <h3>3.4 顶尖学术合作伙伴</h3>
 <figure>
@@ -412,17 +412,17 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <table>
 <thead><tr><th>学者</th><th class="num">论文数</th><th>主要领域</th></tr></thead>
 <tbody>
-<tr><td>Dieter Fox</td><td class="num">70</td><td>机器人学</td></tr>
-<tr><td>Mark Haoxing Ren</td><td class="num">48</td><td>AI 与 ML</td></tr>
-<tr><td>Boris Ginsburg</td><td class="num">34</td><td>基础模型 (语音)</td></tr>
-<tr><td>Anima Anandkumar</td><td class="num">32</td><td>AI 与 ML</td></tr>
-<tr><td>Timothy Tsai</td><td class="num">25</td><td>AI 与 ML</td></tr>
+<tr><td>Gordon Wetzstein</td><td class="num">14</td><td>图形与渲染</td></tr>
+<tr><td>Daniel Cohen-Or</td><td class="num">10</td><td>图形与渲染</td></tr>
+<tr><td>Yifan Peng</td><td class="num">10</td><td>医学影像</td></tr>
+<tr><td>Benjamin Watson</td><td class="num">9</td><td>应用感知</td></tr>
+<tr><td>Tushar Krishna</td><td class="num">9</td><td>GPU 架构</td></tr>
 </tbody>
 </table>
 </div>
 <div class="callout info">
 <strong>关于双重所属机构的说明</strong>
-几位顶尖"学术"合作者（Dieter Fox、Boris Ginsburg）同时担任NVIDIA研究总监和大学教授职务。这反映了NVIDIA研究领导层中常见的学术-产业双重任职现象。
+此表现在排除了在NVIDIA Research详情页中明确标注NVIDIA所属机构的作者。双重任职仍然存在，但修正后的数据不再把Mark Haoxing Ren、Dieter Fox或Boris Ginsburg等NVIDIA关联领导者视为纯学术合作者。
 </div>
 </section>
 
@@ -434,7 +434,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 </div>
 
 <h3>4.1 转化概览</h3>
-<p>经过校准，<strong>891篇论文中有56篇</strong>（6.3%）具有通过NVIDIA技术博客验证的产品转化。虽然这个数字看似不高，但它代表了已记录、可辩护的转化——是冰山一角而非研究到产品转化的全貌。</p>
+<p>经过校准，<strong>923篇论文中有56篇</strong>（6.1%）具有通过NVIDIA技术博客验证的产品转化。虽然这个数字看似不高，但它代表了已记录、可辩护的转化——是冰山一角而非研究到产品转化的全貌。</p>
 
 <figure>
   <img src="figures/transfer_evidence_types.png" alt="转化证据类型" loading="lazy" onclick="openLightbox(this.src)">
@@ -446,20 +446,20 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <thead><tr><th>指标</th><th>GPT前 (2020-2022)</th><th>GPT后 (2023-2026)</th></tr></thead>
 <tbody>
 <tr><td>有转化的论文</td><td class="num">16</td><td class="num">40</td></tr>
-<tr><td>转化率</td><td class="rate">3.6%</td><td class="rate">9.0%</td></tr>
-<tr><td>直接转化 (DIRECT)</td><td class="num">11</td><td class="num">29</td></tr>
-<tr><td>关联转化 (MODERATE)</td><td class="num">5</td><td class="num">13</td></tr>
+<tr><td>转化率</td><td class="rate">3.5%</td><td class="rate">8.5%</td></tr>
+<tr><td>直接转化 (DIRECT)</td><td class="num">12</td><td class="num">28</td></tr>
+<tr><td>关联转化 (MODERATE)</td><td class="num">6</td><td class="num">12</td></tr>
 </tbody>
 </table>
 </div>
-<p>GPT后时期的转化率提升了<strong>2.5倍</strong>——更多研究通过博客渠道与产品建立连接。</p>
+<p>GPT后时期的转化率提升了<strong>2.4倍</strong>——更多研究通过博客渠道与产品建立连接。</p>
 
 <h3>4.2 各领域转化</h3>
 <figure>
   <img src="figures/transfer_by_domain.png" alt="各领域转化" loading="lazy" onclick="openLightbox(this.src)">
   <figcaption>图11：水平柱状图——按转化率排序的领域，堆叠展示有/无转化</figcaption>
 </figure>
-<p>基础模型具有最高的绝对转化数（24篇论文），在主要领域中转化率也最高（11.0%）。医学影像总体转化率最高（16.7%），但基数很小（2/12篇）。<strong>GPU架构虽有158篇论文，但验证转化为零</strong>——GPU研究悄然出货。</p>
+<p>基础模型具有主要领域中最高的绝对转化数（24篇论文）和10.8%的转化率。医学影像总体转化率最高（11.1%），但基数很小（2/18篇）。GPU架构现在有7篇经验证博客转化（共160篇，4.4%），仍显著低于模型和机器人相关领域。</p>
 
 <h3>4.3 产品版图</h3>
 <figure>
@@ -512,7 +512,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
     <div class="r-avatar">DF</div>
     <div>
       <div class="r-name">Dieter Fox</div>
-      <div class="r-meta">华盛顿大学教授 · NVIDIA机器人研究高级总监（双重任职） <span class="badge academic">学术界</span></div>
+      <div class="r-meta">华盛顿大学教授 · NVIDIA机器人研究高级总监（双重任职） <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge direct">7 DIRECT</span> · 全部为通讯/末位作者</div>
     </div>
   </div>
@@ -534,7 +534,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
     <div class="r-avatar">MR</div>
     <div>
       <div class="r-name">Mark Haoxing Ren</div>
-      <div class="r-meta">前NVIDIA高级研究科学家 · VLSI CAD与EDA <span class="badge academic">学术界</span></div>
+      <div class="r-meta">前NVIDIA高级研究科学家 · VLSI CAD与EDA <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge moderate">7 MODERATE</span> · 全部为通讯作者</div>
     </div>
   </div>
@@ -591,7 +591,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
     <div class="r-avatar">BG</div>
     <div>
       <div class="r-name">Boris Ginsburg</div>
-      <div class="r-meta">NVIDIA Research总监 + 大学任职 <span class="badge academic">学术界</span></div>
+      <div class="r-meta">NVIDIA Research总监 + 大学任职 <span class="badge nvidia">NVIDIA</span></div>
       <div class="r-meta" style="margin-top:4px"><span class="badge direct">5 DIRECT</span> · 全部为通讯作者</div>
     </div>
   </div>
@@ -651,7 +651,7 @@ td.rate{font-family:'SF Mono','Fira Code','Consolas',monospace;text-align:right;
 <h3>跨领域模式</h3>
 <div class="eco-grid">
   <div class="eco-card"><h5>合作集群</h5><p>三个紧密的研究团队主导转化：机器人仿真到真实迁移团队（Fox、Akinola、Yang、Chao）、生成式AI团队（Vahdat、Kreis、Kautz）和芯片设计团队（Ren、Ho）。Boris Ginsburg的语音团队最为独立自洽。</p></div>
-  <div class="eco-card"><h5>学术-产业双重性</h5><p>前十名中的三位（Fox、Ren、Ginsburg）被归类为学术界，但实际担任NVIDIA研究领导角色。他们转化的论文模糊了学术发表与产品开发之间的界限。</p></div>
+  <div class="eco-card"><h5>学术-产业双重性</h5><p>双重任职仍然重要，但修正后的所属机构处理会在来源数据包含NVIDIA时把Fox、Ren和Ginsburg归为NVIDIA关联。</p></div>
   <div class="eco-card"><h5>第一作者动态</h5><p>Mark Ho以第一作者身份完成其全部4篇论文——是实施主导者。Fox、Kautz和Ginsburg担任通讯/末位作者——是研究总监。Vahdat、Kreis、Yang和Chao在合作论文中共享第一作者身份。</p></div>
 </div>
 </section>
@@ -757,11 +757,11 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
 
 <!-- 6.4 CUDA + GPU -->
 <h3>6.4 CUDA + GPU：沉默的基座 <span class="badge direct" style="font-size:11px;margin-left:8px">8篇论文</span></h3>
-<p>CUDA和GPU硬件是其他所有NVIDIA产品的基础——但它们的每篇论文博客报道量最少。<strong>158篇GPU架构论文但零篇验证博客转化</strong>，8篇论文连接到CUDA/A100——这个生态代表了研究转化中"沉默"的一面。</p>
+<p>CUDA和GPU硬件是其他所有NVIDIA产品的基础——但它们每篇论文产生的博客可见转化少于模型和机器人领域。GPU架构有<strong>160篇论文和7篇验证博客转化</strong>，另有8篇论文直接链接到CUDA/A100，这个生态系统代表了研究转化中更低调的一面。</p>
 
 <div class="synthesis-box">
-<h4>为什么GPU架构零博客转化</h4>
-<p>GPU架构研究（158篇论文）发表在架构venue或arxiv上，然后在Blackwell、Hopper、Ampere等产品中出货——没有博客宣传。此处博客证据的缺失<strong>不代表转化的缺失</strong>。这反映了不同的沟通策略：硬件通过产品发布会和技术文档出货，而非研究博客。CUDA作为次级产品出现在每一个生态系统中——作为Isaac和NeMo负载的执行基座，作为DREAMPlace的加速核心。8篇将CUDA列为直接产品的论文远远低估了其实际影响。<strong>CUDA是水，不是鱼。</strong></p>
+<h4>为什么GPU架构博客转化较少</h4>
+<p>GPU架构研究（160篇论文）发表在架构venue或arxiv上，然后在Blackwell、Hopper、Ampere等产品中出货，但研究博客曝光较少。较低的博客证据率<strong>不代表转化缺失</strong>。这反映了不同的沟通策略：硬件主要通过产品发布会和技术文档出货，而非研究博客。CUDA作为次级产品出现在每一个生态系统中——作为Isaac和NeMo负载的执行基座，作为DREAMPlace的加速核心。</p>
 </div>
 </section>
 
@@ -774,29 +774,29 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
 <p><strong>GPT前（2020-2022）</strong>与<strong>GPT后（2023-2026）</strong>对比：</p>
 
 <div class="stat-row">
-  <div class="stat-card"><div class="stat-val">449 → 442</div><div class="stat-lbl">论文数（持平）</div></div>
-  <div class="stat-card"><div class="stat-val green">+178%</div><div class="stat-lbl">基础模型增长</div></div>
-  <div class="stat-card"><div class="stat-val" style="color:#D55E00">-64%</div><div class="stat-lbl">GPU架构缩减</div></div>
-  <div class="stat-card"><div class="stat-val teal">2.5×</div><div class="stat-lbl">转化率提升</div></div>
+  <div class="stat-card"><div class="stat-val">451 → 472</div><div class="stat-lbl">论文数（近似持平）</div></div>
+  <div class="stat-card"><div class="stat-val green">+183%</div><div class="stat-lbl">基础模型增长</div></div>
+  <div class="stat-card"><div class="stat-val" style="color:#D55E00">-62%</div><div class="stat-lbl">GPU架构缩减</div></div>
+  <div class="stat-card"><div class="stat-val teal">2.4×</div><div class="stat-lbl">转化率提升</div></div>
 </div>
 
 <div class="table-wrap">
 <table>
 <thead><tr><th>维度</th><th>GPT前</th><th>GPT后</th><th>变化</th></tr></thead>
 <tbody>
-<tr><td><strong>规模</strong></td><td>449篇论文</td><td>442篇论文</td><td style="color:#888">持平</td></tr>
-<tr><td><strong>组成</strong></td><td>以硬件为中心</td><td>以模型为中心</td><td style="color:#76B900">基础模型 +178%</td></tr>
-<tr><td><strong>合作模式</strong></td><td>88% NVIDIA主导</td><td>87% NVIDIA主导</td><td style="color:#888">稳定</td></tr>
-<tr><td><strong>转化率</strong></td><td class="rate">3.6%</td><td class="rate">9.0%</td><td style="color:#009E73">+2.5倍</td></tr>
-<tr><td><strong>直接转化 (DIRECT)</strong></td><td class="num">11</td><td class="num">29</td><td style="color:#009E73">+18</td></tr>
-<tr><td><strong>新增领域</strong></td><td>—</td><td>杂项 (3), 数据系统 (1)</td><td style="color:#76B900">初期多元化</td></tr>
+<tr><td><strong>规模</strong></td><td>451篇论文</td><td>472篇论文</td><td style="color:#888">近似持平</td></tr>
+<tr><td><strong>组成</strong></td><td>以硬件为中心</td><td>以模型为中心</td><td style="color:#76B900">基础模型 +183%</td></tr>
+<tr><td><strong>合作模式</strong></td><td>61.1% NVIDIA主导</td><td>56.0% NVIDIA主导</td><td style="color:#888">学术主导增加</td></tr>
+<tr><td><strong>转化率</strong></td><td class="rate">3.5%</td><td class="rate">8.5%</td><td style="color:#009E73">+2.4倍</td></tr>
+<tr><td><strong>直接转化 (DIRECT)</strong></td><td class="num">12</td><td class="num">28</td><td style="color:#009E73">+16</td></tr>
+<tr><td><strong>新增领域</strong></td><td>—</td><td>杂项 (4), 数据系统 (1)</td><td style="color:#76B900">初期多元化</td></tr>
 </tbody>
 </table>
 </div>
 
 <div class="synthesis-box">
 <h4>综合解读</h4>
-<p>GPT时刻并未促使NVIDIA产出更多研究——而是促使NVIDIA产出<strong>不同</strong>的研究。449→442的论文数量基本持平。但在表面稳定的背后是彻底的重新分配：基础模型吸纳了103篇净新增论文，而GPU架构减少了74篇。这种转变不仅关乎主题，还关乎操作层面——基础模型研究通过博客以11.0%的转化率触达产品，而GPU架构在同一渠道的转化率为零。博客作为面向开发者的媒介，天然适合软件和模型发布；硬件则通过产品发布会和数据表出货。因此，GPT后转化率的提升（3.6% → 9.0%）部分是结构性的：更多研究现在落在博客友好的领域，同时NVIDIA在系统性报道研究到产品连接方面也更加成熟。稳定的合作比例（88% → 87% NVIDIA主导）确认了组织模式——NVIDIA设定研究议程，学术界提供专业知识和合作者——在GPT冲击下完好无损。</p>
+<p>GPT时刻并未促使NVIDIA研究产出大幅增加——而是促使NVIDIA产出<strong>不同</strong>的研究。451→472的论文数量近似持平，但表面稳定背后是显著的重新分配：基础模型净增106篇论文，而GPU架构减少72篇。GPT后转化率提升（3.5% → 8.5%）部分是结构性的：更多研究落在博客友好的领域。修正后的所属机构也改变了合作叙事：NVIDIA仍主导多数论文，但学术第一作者总体占41.5%，且GPT后有所上升。</p>
 </div>
 </section>
 
@@ -811,17 +811,17 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
   <div class="takeaway-card">
     <div class="tk-num">1</div>
     <div class="tk-title">真实管道，选择性证据</div>
-    <div class="tk-body">6.3%的论文具有验证的博客转化——这是有记录、公开可见的转化切片的下限。GPU架构悄然出货；基础模型高声量出货。</div>
+    <div class="tk-body">6.1%的论文具有验证的博客转化——这是有记录、公开可见的转化切片的下限。GPU架构相对低调；基础模型和机器人学更常通过博客显性转化。</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">2</div>
     <div class="tk-title">改变方向，而非扩大规模</div>
-    <div class="tk-body">总产出保持稳定（449 → 442），但基础模型增长178%，而GPU架构缩减64%。NVIDIA选择重新分配资源，而非扩张。</div>
+    <div class="tk-body">总产出近似稳定（451 → 472），但基础模型增长183%，而GPU架构缩减62%。NVIDIA更多是在重新分配资源，而非简单扩张。</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">3</div>
-    <div class="tk-title">NVIDIA主导，学术界协作</div>
-    <div class="tk-body">87.9%的论文有NVIDIA第一作者，但92%有学术合作者参与。基础模型具有最强的学术参与度（25%为学术第一作者）。</div>
+    <div class="tk-title">NVIDIA主导，学术界也主导许多论文</div>
+    <div class="tk-body">已知作者论文中58.5%为NVIDIA第一作者，41.5%为学术界第一作者。修正后的数据表明学术生态具有真实的议程设定能力。</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">4</div>
@@ -831,12 +831,12 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
   <div class="takeaway-card">
     <div class="tk-num">5</div>
     <div class="tk-title">GPT后转化加速</div>
-    <div class="tk-body">转化率2.5倍的增长（3.6% → 9.0%）表明NVIDIA在传达研究到产品路径方面变得更加系统化。</div>
+    <div class="tk-body">转化率2.4倍的增长（3.5% → 8.5%）表明NVIDIA在传达研究到产品路径方面变得更加系统化。</div>
   </div>
   <div class="takeaway-card">
     <div class="tk-num">6</div>
     <div class="tk-title">博客是战略渠道，但非唯一渠道</div>
-    <div class="tk-body">53篇博客承载了验证研究转化。GPU架构以158篇论文但零篇验证博客转化，通过完全不同的渠道出货。</div>
+    <div class="tk-body">53篇博客承载了验证研究转化。GPU架构有160篇论文但只有7篇验证博客转化，相比软件和模型研究更常通过不同渠道出货。</div>
   </div>
 </div>
 </section>
@@ -860,7 +860,7 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
 <tr><td class="num">6</td><td>各领域学术参与度排名</td><td style="color:#76B900">✓ 是</td><td>第3.3节</td></tr>
 <tr><td class="num">7</td><td>顶尖合作学者</td><td style="color:#76B900">✓ 是</td><td>第3.4节</td></tr>
 <tr><td class="num">8</td><td>转化证据类型分布</td><td style="color:#76B900">✓ 是</td><td>第4.1节（已校准：DIRECT/MODERATE）</td></tr>
-<tr><td class="num">9</td><td>具有产品足迹的论文数量</td><td style="color:#76B900">✓ 是</td><td>第4.1节：56/891 (6.3%)</td></tr>
+<tr><td class="num">9</td><td>具有产品足迹的论文数量</td><td style="color:#76B900">✓ 是</td><td>第4.1节：56/923 (6.1%)</td></tr>
 <tr><td class="num">10</td><td>产品级映射（哪些产品）</td><td style="color:#76B900">✓ 是</td><td>第4.3节</td></tr>
 <tr><td class="num">11</td><td>领域到产品落地分析</td><td style="color:#76B900">✓ 是</td><td>第4.2节（各领域转化率）</td></tr>
 <tr><td class="num">12</td><td>学者对产品转化的贡献</td><td style="color:#76B900">✓ 是</td><td>第4.5节、第5章</td></tr>
@@ -872,8 +872,8 @@ NeMo展示了最快从论文到产品的转化速度：Mamba-2-Hybrid 1个月，
 
 <!-- ===== FOOTER ===== -->
 <footer class="report-footer">
-  <p>报告方法与数据质量详情见 <code>ANALYSIS_PLAN.md</code> 和 <code>analysis/validation_notes.md</code>。校准转化证据见 <code>analysis/verified_transfers.json</code>。</p>
-  <p style="margin-top:8px">生成于 2026-06-05 · 891篇论文 · 3,678篇博客文章 · 14个领域 · 三阶段验证转化管道</p>
+  <p>报告方法与数据质量详情见 <code>ANALYSIS_PLAN.md</code> 和 <code>analysis/validation_notes.md</code>。作者所属机构修正由 <code>enrich_nvidia_papers.py</code> 生成；校准转化证据见 <code>analysis/verified_transfers.json</code>。</p>
+  <p style="margin-top:8px">生成于 2026-06-26 · 923篇论文 · 3,678篇博客文章 · 14个领域 · 修正作者所属机构 · 三阶段验证转化管道</p>
 </footer>
 
 </main>

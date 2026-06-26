@@ -1,27 +1,26 @@
 ---
-id: siggraph-0020
+id: "siggraph-0020"
 title: "Surface-Filling Curve Flows via Implicit Medial Axes"
-conference: SIGGRAPH 2024
-date: 2024-07
+conference: "SIGGRAPH 2024"
+date: "2024-07"
 authors:
   - name: "Yuta Noma"
-    affiliation: ""
+    affiliation: "University of Tokyo, University of Toronto"
     is_industry: false
   - name: "Silvia Sellan"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karan Singh"
-    affiliation: ""
+    affiliation: "University of Toronto"
     is_industry: false
   - name: "Alec Jacobson"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Adobe Research, University of Toronto"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We introduce a fast, robust, and user-controllable algorithm to generate surface-filling curves. We compute these curves through the gradient flow of a simple sparse energy, making our method several orders of magnitude faster than previous works. Our algorithm makes minimal assumptions on the topol"
 url: "https://research.nvidia.com/publication/2024-07_surface-filling-curve-flows-implicit-medial-axes"
-status: new
+status: "new"
 ---
 
 # Surface-Filling Curve Flows via Implicit Medial Axes

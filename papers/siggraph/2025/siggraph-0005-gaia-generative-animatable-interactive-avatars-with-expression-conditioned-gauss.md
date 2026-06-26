@@ -1,12 +1,18 @@
 ---
-id: siggraph-0005
+id: "siggraph-0005"
 title: "GAIA: Generative Animatable Interactive Avatars with Expression-conditioned Gaussians"
-conference: SIGGRAPH 2025
-date: 2025-08
+conference: "SIGGRAPH 2025"
+date: "2025-08"
 authors:
+  - name: "Zhengming Yu"
+    affiliation: "Texas A&M University"
+    is_industry: false
   - name: "Tianye Li"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jingxiang Sun"
+    affiliation: "Tsinghua University"
+    is_industry: false
   - name: "Omer Shapira"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,32 +22,25 @@ authors:
   - name: "Michael Stengel"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Matthew Chan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xin Li"
+    affiliation: "Texas A&M University"
+    is_industry: false
+  - name: "Wenping Wang"
+    affiliation: "Texas A&M University"
+    is_industry: false
   - name: "Koki Nagano"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhengming Yu"
-    affiliation: ""
-    is_industry: false
-  - name: "Jingxiang Sun"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew Chan"
-    affiliation: ""
-    is_industry: false
-  - name: "Xin Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Wenping Wang"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -57,7 +56,7 @@ external_links:
     url: "https://research.nvidia.com/labs/amri/projects/gaia/media/videos/sig25_gaia_video.mp4"
 abstract: "3D generative models of faces trained on in-the-wild image collections have improved greatly in recent times, offering better visual fidelity and view consistency. Making such generative models animatable is a hard yet rewarding task, with applications in virtual AI agents, character animation, and "
 url: "https://research.nvidia.com/publication/2025-08_gaia-generative-animatable-interactive-avatars-expression-conditioned-gaussians"
-status: new
+status: "new"
 ---
 
 # GAIA: Generative Animatable Interactive Avatars with Expression-conditioned Gaussians

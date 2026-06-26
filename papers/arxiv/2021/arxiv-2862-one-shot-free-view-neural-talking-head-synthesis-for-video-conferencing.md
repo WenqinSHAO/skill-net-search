@@ -1,22 +1,21 @@
 ---
-id: arxiv-2862
+id: "arxiv-2862"
 title: "One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
   - name: "Ting-Chun Wang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arun Mallya"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Arun Mallya"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=nLYg9Waw72U"
 abstract: "We propose a neural talking-head video synthesis model and demonstrate its application to video conferencing. Our model learns to synthesize a talking-head video using a source image containing the target person's appearance and a driving video that dictates the motion in the output. Our motion is e"
 url: "https://research.nvidia.com/publication/2021-06_one-shot-free-view-neural-talking-head-synthesis-video-conferencing"
-status: new
+status: "new"
 ---
 
 # One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing

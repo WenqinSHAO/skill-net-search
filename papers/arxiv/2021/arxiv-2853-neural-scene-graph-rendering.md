@@ -1,25 +1,24 @@
 ---
-id: arxiv-2853
+id: "arxiv-2853"
 title: "Neural Scene Graph Rendering"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Jonathan Granskog"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Till Schnabel"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Fabrice Rousselle"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jan Novák"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jonathan Granskog"
-    affiliation: ""
-    is_industry: false
-  - name: "Till Schnabel"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "We present a neural scene graph—a modular and controllable representation of scenes with elements that are learned from data. We focus on the forward rendering problem, where the scene graph is provided by the user and references learned elements. The elements correspond to geometry and material def"
 url: "https://research.nvidia.com/publication/2021-06_neural-scene-graph-rendering"
-status: new
+status: "new"
 ---
 
 # Neural Scene Graph Rendering

@@ -1,25 +1,24 @@
 ---
-id: arxiv-2989
+id: "arxiv-2989"
 title: "Automated Synthetic-to-Real Generalization"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Wuyang Chen"
+    affiliation: "Texas A&M"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Wuyang Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Zhangyang Wang"
-    affiliation: ""
+    affiliation: "Texas A&M"
     is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://chrisding.github.io/publications/ICML20b_Slides.pdf"
 abstract: "Models trained on synthetic images often face degraded generalization to real data. As a convention, these models are often initialized with ImageNet pre-trained representation. Yet the role of ImageNet knowledge is seldom discussed despite common practices that leverage this knowledge to maintain t"
 url: "https://research.nvidia.com/publication/2020-07_automated-synthetic-real-generalization"
-status: new
+status: "new"
 ---
 
 # Automated Synthetic-to-Real Generalization

@@ -1,8 +1,8 @@
 ---
-id: neurips-0032
+id: "neurips-0032"
 title: "An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design"
-conference: NeurIPS 2022
-date: 2022-12
+conference: "NeurIPS 2022"
+date: "2022-12"
 authors:
   - name: "Mingjie Liu"
     affiliation: "NVIDIA"
@@ -10,34 +10,33 @@ authors:
   - name: "Haoyu Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Zongyi Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kumara Sastry"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saumyadip Mukhopadhyay"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Selim Dogru"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Anima Anandkumar"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "David Z. Pan"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zongyi Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Kumara Sastry"
-    affiliation: ""
-    is_industry: false
-  - name: "Saumyadip Mukhopadhyay"
-    affiliation: ""
-    is_industry: false
-  - name: "Selim Dogru"
-    affiliation: ""
-    is_industry: false
-  - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
-  - name: "David Z. Pan"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.15765"
 abstract: "Lithography modeling is a crucial problem in chip design to ensure a chip design mask is manufacturable. It requires rigorous simulations of optical and chemical models that are computationally expensive. Recent developments in machine learning have provided alternative solutions in replacing the ti"
 url: "https://research.nvidia.com/publication/2022-12_adversarial-active-sampling-based-data-augmentation-framework-manufacturable"
-status: new
+status: "new"
 ---
 
 # An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design

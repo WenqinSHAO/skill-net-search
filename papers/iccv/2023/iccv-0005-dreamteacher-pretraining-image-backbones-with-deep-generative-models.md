@@ -1,38 +1,37 @@
 ---
-id: iccv-0005
+id: "iccv-0005"
 title: "DreamTeacher: Pretraining Image Backbones with Deep Generative Models"
-conference: ICCV 2023
-date: 2023-10
+conference: "ICCV 2023"
+date: "2023-10"
 authors:
+  - name: "Daiqing Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Huan Ling"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Amlan Kar"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "David Acuna"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
+  - name: "Seung Wook Kim"
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Daiqing Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "Amlan Kar"
-    affiliation: ""
-    is_industry: false
-  - name: "David Acuna"
-    affiliation: ""
-    is_industry: false
-  - name: "Seung Wook Kim"
-    affiliation: ""
-    is_industry: false
   - name: "Antonio Torralba"
-    affiliation: ""
+    affiliation: "MIT"
     is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Vector Institute, University of Toronto"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/DreamTeacher/"
 abstract: "In this work, we introduce a self-supervised feature representation learning framework DreamTeacher that utilizes generative networks for pre-training downstream image backbones. We propose to distill knowledge from a trained generative model into standard image backbones that have been well enginee"
 url: "https://research.nvidia.com/publication/2023-10_dreamteacher-pretraining-image-backbones-deep-generative-models"
-status: new
+status: "new"
 ---
 
 # DreamTeacher: Pretraining Image Backbones with Deep Generative Models

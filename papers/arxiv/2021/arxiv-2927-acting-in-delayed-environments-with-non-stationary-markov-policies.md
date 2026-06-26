@@ -1,20 +1,19 @@
 ---
-id: arxiv-2927
+id: "arxiv-2927"
 title: "Acting in Delayed Environments with Non-Stationary Markov Policies"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Esther Derman"
+    affiliation: "Technion"
+    is_industry: false
   - name: "Gal Dalal"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shie Mannor"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Esther Derman"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -23,7 +22,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "The standard Markov Decision Process (MDP) formulation hinges on the assumption that an action is executed immediately after it was chosen. However, assuming it is often unrealistic and can lead to catastrophic failures in applications such as robotic manipulation, cloud computing, and finance. We i"
 url: "https://research.nvidia.com/publication/2021-01_acting-delayed-environments-non-stationary-markov-policies"
-status: new
+status: "new"
 ---
 
 # Acting in Delayed Environments with Non-Stationary Markov Policies

@@ -1,24 +1,23 @@
 ---
-id: arxiv-2863
+id: "arxiv-2863"
 title: "Simulation Driven Design and Test for Safety of AI Based Autonomous Vehicles"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
+  - name: "Vasu Singh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Vasu Singh"
-    affiliation: ""
-    is_industry: false
   - name: "Timothy Tsai"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mandar Pitale"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9522733"
 abstract: "An autonomous vehicle (AV) integrates sophisticated perception and localization components to create a model of the world around it, which is then used to navigate the vehicle safely. Machine learning (ML) based models are pervasively used in these components to extract object information from noisy"
 url: "https://research.nvidia.com/publication/2021-06_simulation-driven-design-and-test-safety-ai-based-autonomous-vehicles"
-status: new
+status: "new"
 ---
 
 # Simulation Driven Design and Test for Safety of AI Based Autonomous Vehicles

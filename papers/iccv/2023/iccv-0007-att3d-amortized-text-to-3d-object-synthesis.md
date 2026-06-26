@@ -1,10 +1,25 @@
 ---
-id: iccv-0007
+id: "iccv-0007"
 title: "ATT3D: Amortized Text-To-3D Object Synthesis"
-conference: ICCV 2023
-date: 2023-10
+conference: "ICCV 2023"
+date: "2023-10"
 authors:
+  - name: "Jonathan Lorraine"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Kevin Xie"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Xiaohui Zeng"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chen-Hsuan Lin"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Towaki Takikawa"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nicholas Sharp"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Tsung-Yi Lin"
@@ -13,32 +28,16 @@ authors:
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
-  - name: "Kevin Xie"
-    affiliation: ""
-    is_industry: false
-  - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
-  - name: "Towaki Takikawa"
-    affiliation: ""
-    is_industry: false
-  - name: "Nicholas Sharp"
-    affiliation: ""
-    is_industry: false
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "James Lucas"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -53,7 +52,7 @@ external_links:
     url: "https://arxiv.org/abs//2306.07349"
 abstract: "Text-to-3D modeling has seen exciting progress by combining generative text-to-image models with image-to-3D methods like Neural Radiance Fields. DreamFusion recently achieved high-quality results but requires a lengthy, per-prompt optimization to create 3D objects. To address this, we amortize opti"
 url: "https://research.nvidia.com/publication/2023-10_att3d-amortized-text-3d-object-synthesis"
-status: new
+status: "new"
 ---
 
 # ATT3D: Amortized Text-To-3D Object Synthesis

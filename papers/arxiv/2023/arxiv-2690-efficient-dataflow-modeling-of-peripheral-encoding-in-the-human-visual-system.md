@@ -1,34 +1,33 @@
 ---
-id: arxiv-2690
+id: "arxiv-2690"
 title: "Efficient Dataflow Modeling of Peripheral Encoding in the Human Visual System"
-conference: arXiv 2023
-date: 2023-01
+conference: "arXiv 2023"
+date: "2023-01"
 authors:
+  - name: "Rachel Brown"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Vasha DuTell"
+    affiliation: "UC Berkeley"
+    is_industry: false
+  - name: "Bruce Walter"
+    affiliation: "Cornell University"
+    is_industry: false
   - name: "Ruth Rosenholtz"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Peter Shirley"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Morgan McGuire"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "David Luebke"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rachel Brown"
-    affiliation: ""
-    is_industry: false
-  - name: "Vasha DuTell"
-    affiliation: ""
-    is_industry: false
-  - name: "Bruce Walter"
-    affiliation: ""
-    is_industry: false
-  - name: "Peter Shirley"
-    affiliation: ""
-    is_industry: false
-  - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "Computer graphics seeks to deliver compelling images, generated within a computing budget, targeted at a specific display device, and ultimately viewed by an individual user. The foveated nature of human vision offers an opportunity to efficiently allocate computation and compression to appropriate "
 url: "https://research.nvidia.com/publication/2023-01_efficient-dataflow-modeling-peripheral-encoding-human-visual-system"
-status: new
+status: "new"
 ---
 
 # Efficient Dataflow Modeling of Peripheral Encoding in the Human Visual System

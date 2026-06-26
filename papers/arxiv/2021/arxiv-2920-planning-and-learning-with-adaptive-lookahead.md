@@ -1,9 +1,12 @@
 ---
-id: arxiv-2920
+id: "arxiv-2920"
 title: "Planning and Learning with Adaptive Lookahead"
-conference: arXiv 2021
-date: 2021-01
+conference: "arXiv 2021"
+date: "2021-01"
 authors:
+  - name: "Aviv Rosenberg"
+    affiliation: "Tel-Aviv University, NVIDIA"
+    is_industry: true
   - name: "Assaf Hallak"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,11 +19,7 @@ authors:
   - name: "Gal Dalal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aviv Rosenberg"
-    affiliation: ""
-    is_industry: false
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -29,7 +28,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
 abstract: "The classical Policy Iteration (PI) algorithm alternates between greedy one-step policy improvement and policy evaluation. Recent literature shows that multi-step lookahead policy improvement leads to a better convergence rate at the expense of increased complexity per iteration. However, prior to r"
 url: "https://research.nvidia.com/publication/2021-01_planning-and-learning-adaptive-lookahead"
-status: new
+status: "new"
 ---
 
 # Planning and Learning with Adaptive Lookahead

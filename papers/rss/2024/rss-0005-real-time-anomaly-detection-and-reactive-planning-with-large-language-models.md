@@ -1,30 +1,29 @@
 ---
-id: rss-0005
+id: "rss-0005"
 title: "Real-Time Anomaly Detection and Reactive Planning with Large Language Models"
-conference: RSS 2024
-date: 2024-07
+conference: "RSS 2024"
+date: "2024-07"
 authors:
+  - name: "Rohan Sinha"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Amine Elhafsi"
+    affiliation: "Stanford Univeristy"
+    is_industry: false
+  - name: "Christopher Agia"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Matthew Foutter"
+    affiliation: "Stanford University"
+    is_industry: false
+  - name: "Edward Schmerling"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rohan Sinha"
-    affiliation: ""
-    is_industry: false
-  - name: "Amine Elhafsi"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher Agia"
-    affiliation: ""
-    is_industry: false
-  - name: "Matthew Foutter"
-    affiliation: ""
-    is_industry: false
-  - name: "Edward Schmerling"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://arxiv.org/abs/2407.08735"
 abstract: "Foundation models, e.g., large language models (LLMs), trained on internet-scale data possess zero-shot generalization capabilities that make them a promising technology towards detecting and mitigating out-of-distribution failure modes of robotic systems. Fully realizing this promise, however, pose"
 url: "https://research.nvidia.com/publication/2024-07_real-time-anomaly-detection-and-reactive-planning-large-language-models"
-status: new
+status: "new"
 ---
 
 # Real-Time Anomaly Detection and Reactive Planning with Large Language Models

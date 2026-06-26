@@ -1,23 +1,22 @@
 ---
-id: icra-0008
+id: "icra-0008"
 title: "Planning for Multi-Object Manipulation with Graph Neural Network Relational Classifiers"
-conference: ICRA 2023
-date: 2023-06
+conference: "ICRA 2023"
+date: "2023-06"
 authors:
+  - name: "Yixuan Huang"
+    affiliation: "University of Utah"
+    is_industry: false
+  - name: "Adam Conkey"
+    affiliation: "University of Utah"
+    is_industry: false
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yixuan Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Adam Conkey"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2209.11943"
 abstract: "Objects rarely sit in isolation in human environments. As such, we'd like our robots to reason about how multiple objects relate to one another and how those relations may change as the robot interacts with the world. To this end, we propose a novel graph neural network framework for multi-object ma"
 url: "https://research.nvidia.com/publication/2023-06_planning-multi-object-manipulation-graph-neural-network-relational-classifiers"
-status: new
+status: "new"
 ---
 
 # Planning for Multi-Object Manipulation with Graph Neural Network Relational Classifiers

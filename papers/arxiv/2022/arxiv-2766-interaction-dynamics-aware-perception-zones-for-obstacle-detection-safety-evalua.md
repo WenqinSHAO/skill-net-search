@@ -1,37 +1,36 @@
 ---
-id: arxiv-2766
+id: "arxiv-2766"
 title: "Interaction-Dynamics-Aware Perception Zones for Obstacle Detection Safety Evaluation"
-conference: arXiv 2022
-date: 2022-06
+conference: "arXiv 2022"
+date: "2022-06"
 authors:
+  - name: "Sever Topan"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Karen Leung"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Yuxiao Chen"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Pritish Tupekar"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Edward Schmerling"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jonas Nilsson"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Michael Cox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sever Topan"
-    affiliation: ""
-    is_industry: false
-  - name: "Pritish Tupekar"
-    affiliation: ""
-    is_industry: false
-  - name: "Jonas Nilsson"
-    affiliation: ""
-    is_industry: false
-  - name: "Michael Cox"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9827409"
 abstract: "To enable safe autonomous vehicle (AV) operations, it is critical that an AV’s obstacle detection module can reliably detect obstacles that pose a safety threat (i.e., are safety-critical). It is therefore desirable that the evaluation metric for the perception system captures the safety-criticality"
 url: "https://research.nvidia.com/publication/2022-06_interaction-dynamics-aware-perception-zones-obstacle-detection-safety"
-status: new
+status: "new"
 ---
 
 # Interaction-Dynamics-Aware Perception Zones for Obstacle Detection Safety Evaluation

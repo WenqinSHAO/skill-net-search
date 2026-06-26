@@ -1,25 +1,24 @@
 ---
-id: arxiv-2819
+id: "arxiv-2819"
 title: "A Contrastive Learning Approach for Training Variational Autoencoder Priors"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
-  - name: "Jan Kautz"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Arash Vahdat"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Jyoti Aneja"
     affiliation: ""
     is_industry: false
   - name: "Alexander Schwing"
     affiliation: ""
     is_industry: false
+  - name: "Jan Kautz"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arash Vahdat"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -28,7 +27,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Variational autoencoders (VAEs) are one of the powerful likelihood-based generative models with applications in many domains. However, they struggle to generate high-quality images, especially when samples are obtained from the prior without any tempering. One explanation for VAEs' poor generative q"
 url: "https://research.nvidia.com/publication/2021-11_contrastive-learning-approach-training-variational-autoencoder-priors"
-status: new
+status: "new"
 ---
 
 # A Contrastive Learning Approach for Training Variational Autoencoder Priors

@@ -1,22 +1,21 @@
 ---
-id: arxiv-2866
+id: "arxiv-2866"
 title: "ACRONYM: A Large-Scale Grasp Dataset Based on Simulation"
-conference: arXiv 2021
-date: 2021-05
+conference: "arXiv 2021"
+date: "2021-05"
 authors:
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://github.com/NVlabs/acronym"
 abstract: "We introduce ACRONYM, a dataset for robot grasp planning based on physics simulation. The dataset contains 17.7M parallel-jaw grasps, spanning 8872 objects from 262 different categories, each labeled with the grasp result obtained from a physics simulator. We show the value of this large and diverse"
 url: "https://research.nvidia.com/publication/2021-05_acronym-large-scale-grasp-dataset-based-simulation"
-status: new
+status: "new"
 ---
 
 # ACRONYM: A Large-Scale Grasp Dataset Based on Simulation

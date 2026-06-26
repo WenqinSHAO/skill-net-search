@@ -1,28 +1,27 @@
 ---
-id: rss-0009
+id: "rss-0009"
 title: "StructDiffusion: Language-Guided Creation of Physically-Valid Structures using Unseen Objects"
-conference: RSS 2023
-date: 2023-07
+conference: "RSS 2023"
+date: "2023-07"
 authors:
+  - name: "Weiyu Liu"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Yilun Du"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Tucker Hermans"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weiyu Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Yilun Du"
-    affiliation: ""
-    is_industry: false
   - name: "Sonia Chernova"
-    affiliation: ""
+    affiliation: "Georgia Tech"
     is_industry: false
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Meta AI"
+    is_industry: true
 topics:
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://structdiffusion.github.io/"
 abstract: "Robots operating in human environments must be able to rearrange objects into semantically-meaningful configurations, even if these objects are previously unseen. We focus on the problem of building physically-valid structures without step-by-step instructions."
 url: "https://research.nvidia.com/publication/2023-07_structdiffusion-language-guided-creation-physically-valid-structures-using"
-status: new
+status: "new"
 ---
 
 # StructDiffusion: Language-Guided Creation of Physically-Valid Structures using Unseen Objects

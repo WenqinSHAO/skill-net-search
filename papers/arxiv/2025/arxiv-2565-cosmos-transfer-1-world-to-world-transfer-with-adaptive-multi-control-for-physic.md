@@ -1,8 +1,8 @@
 ---
-id: arxiv-2565
+id: "arxiv-2565"
 title: "Cosmos Transfer 1: World-to-World Transfer with Adaptive Multi-Control for Physical AI"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
   - name: "Ming-Yu Liu"
     affiliation: "NVIDIA"
@@ -10,7 +10,6 @@ authors:
 topics:
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -21,7 +20,7 @@ research_areas:
   - "Robotics"
 abstract: "Physical AI systems rely on multi-modal sensory inputs to perceive and interact with the real world, yet these inputs often suffer from modality-specific biases, incomplete coverage, and perceptual gaps that hinder robust decision-making and generalization. To address this, we introduce Cosmos Trans"
 url: "https://research.nvidia.com/publication/2025-03_cosmos-transfer-1-world-world-transfer-adaptive-multi-control-physical-ai"
-status: new
+status: "new"
 ---
 
 # Cosmos Transfer 1: World-to-World Transfer with Adaptive Multi-Control for Physical AI

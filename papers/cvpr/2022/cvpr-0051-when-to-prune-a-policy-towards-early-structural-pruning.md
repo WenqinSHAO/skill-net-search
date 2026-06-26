@@ -1,24 +1,23 @@
 ---
-id: cvpr-0051
+id: "cvpr-0051"
 title: "When to Prune? A Policy towards Early Structural Pruning"
-conference: CVPR 2022
-date: 2022-05
+conference: "CVPR 2022"
+date: "2022-05"
 authors:
+  - name: "Maying Shen"
+    affiliation: ""
+    is_industry: false
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Maying Shen"
-    affiliation: ""
-    is_industry: false
   - name: "Jose M. Alvarez"
     affiliation: ""
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Pruning enables appealing reductions in network memory footprint and time complexity. Conventional post training pruning techniques lean towards efficient inference while overlooking the heavy computation for training. Recent exploration of pre-training pruning at initialization hints on training co"
 url: "https://research.nvidia.com/publication/2022-05_when-prune-policy-towards-early-structural-pruning"
-status: new
+status: "new"
 ---
 
 # When to Prune? A Policy towards Early Structural Pruning

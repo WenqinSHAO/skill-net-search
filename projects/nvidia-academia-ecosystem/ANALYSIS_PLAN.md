@@ -4,7 +4,7 @@ See `ANALYSIS_PLAN.md` for the full implementation plan governing `analyze_trans
 
 ## Overview
 
-- **Input**: 891 NVIDIA research papers (2020-2026) + blog transfer evidence (442 papers, 224 posts)
+- **Input**: 923 NVIDIA research papers (2020-2026) + calibrated blog transfer evidence (56 verified papers, 53 blogs, 71 links)
 - **Output**: 14 charts (PNG), 4 structured JSON files, 1 markdown report
 - **GPT moment**: 2022.5 split for all temporal analyses
 - **Validation**: Manual sampling of 8-10 transfer matches before full analysis

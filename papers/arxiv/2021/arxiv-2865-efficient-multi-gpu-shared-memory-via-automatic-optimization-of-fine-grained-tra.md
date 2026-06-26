@@ -1,8 +1,8 @@
 ---
-id: arxiv-2865
+id: "arxiv-2865"
 title: "Efficient Multi-GPU Shared Memory via Automatic Optimization of Fine-Grained Transfers"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
   - name: "Harini Muthukrishnan"
     affiliation: "NVIDIA"
@@ -14,17 +14,16 @@ authors:
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jeffrey Fessler"
-    affiliation: ""
+    affiliation: "University of Michigan"
     is_industry: false
   - name: "Thomas Wenisch"
-    affiliation: ""
+    affiliation: "University of Michigan"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9499752"
 abstract: "Despite continuing research into inter-GPU communication mechanisms, extracting performance from multi-GPU systems remains a significant challenge. Inter-GPU communication via bulk DMA-based transfers exposes data transfer latency on the GPU’s critical execution path because these large transfers ar"
 url: "https://research.nvidia.com/publication/2021-06_efficient-multi-gpu-shared-memory-automatic-optimization-fine-grained-transfers"
-status: new
+status: "new"
 ---
 
 # Efficient Multi-GPU Shared Memory via Automatic Optimization of Fine-Grained Transfers

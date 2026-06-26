@@ -1,24 +1,23 @@
 ---
-id: arxiv-2694
+id: "arxiv-2694"
 title: "Learning Joint Detection, Equalization and Decoding for Short-Packet Communications"
-conference: arXiv 2022
-date: 2022-12
+conference: "arXiv 2022"
+date: "2022-12"
 authors:
+  - name: "Sebastian Dörner"
+    affiliation: "University of Stuttgart"
+    is_industry: false
+  - name: "Jannis Clausius"
+    affiliation: "University of Stuttgart"
+    is_industry: false
   - name: "Sebastian Cammerer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sebastian Dörner"
-    affiliation: ""
-    is_industry: false
-  - name: "Jannis Clausius"
-    affiliation: ""
-    is_industry: false
   - name: "Stephan ten Brink"
-    affiliation: ""
+    affiliation: "University of Stuttgart"
     is_industry: false
 topics:
   - Interconnect_networking
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://arxiv.org/abs/2207.05699"
 abstract: "We propose and practically demonstrate a joint detection and decoding scheme for short-packet wireless communications in scenarios that require to first detect the presence of a message before actually decoding it. For this, we extend the recently proposed serial Turbo-autoencoder neural network (NN"
 url: "https://research.nvidia.com/publication/2022-12_learning-joint-detection-equalization-and-decoding-short-packet-communications"
-status: new
+status: "new"
 ---
 
 # Learning Joint Detection, Equalization and Decoding for Short-Packet Communications

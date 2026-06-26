@@ -1,29 +1,28 @@
 ---
-id: arxiv-2937
+id: "arxiv-2937"
 title: "Convolutional Tensor-Train LSTM for Spatio-Temporal Learning"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Jiahao Su"
+    affiliation: "University of Maryland"
+    is_industry: false
   - name: "Wonmin Byeon"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Jean Kossaifi"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Furong Huang"
+    affiliation: "University of Maryland"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jiahao Su"
-    affiliation: ""
-    is_industry: false
-  - name: "Furong Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
-  - AI & Machine Learning
   - AI & Machine Learning
 tags:
   - nvidia-research
@@ -39,7 +38,7 @@ external_links:
     url: "https://docs.google.com/presentation/d/1wnjgvaR5jixWx5RYwHu9Ne4rt1gsmmXepygFOTt2914/edit#slide=id.p1"
 abstract: "Learning from spatio-temporal data has numerous applications such as human-behavior analysis, object tracking, video compression, and physics simulation. However, existing methods still perform poorly on challenging video tasks suchas long-term forecasting. The gap partially is because these kinds o"
 url: "https://research.nvidia.com/publication/2020-12_convolutional-tensor-train-lstm-spatio-temporal-learning"
-status: new
+status: "new"
 ---
 
 # Convolutional Tensor-Train LSTM for Spatio-Temporal Learning

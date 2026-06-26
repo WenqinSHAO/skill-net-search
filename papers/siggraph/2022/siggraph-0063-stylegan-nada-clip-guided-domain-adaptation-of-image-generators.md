@@ -1,32 +1,31 @@
 ---
-id: siggraph-0063
+id: "siggraph-0063"
 title: "StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators"
-conference: SIGGRAPH 2022
-date: 2022-05
+conference: "SIGGRAPH 2022"
+date: "2022-05"
 authors:
+  - name: "Rinon Gal"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Or Patashnik"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Haggai Maron"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Amir Bermano"
+    affiliation: "Tel-Aviv University"
+    is_industry: false
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Rinon Gal"
-    affiliation: ""
-    is_industry: false
-  - name: "Or Patashnik"
-    affiliation: ""
-    is_industry: false
-  - name: "Amir Bermano"
-    affiliation: ""
-    is_industry: false
   - name: "Daniel Cohen-Or"
-    affiliation: ""
+    affiliation: "Tel-Aviv University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,9 +36,9 @@ research_areas:
 external_links:
   - name: "Project page"
     url: "https://nvlabs.github.io/StyleGAN-NADA/"
-abstract: "Can a generative model be trained to produce images from a specific domain, guided by a text prompt only, without seeing any image? In other words: can an image generator be trained "blindly"? Leveraging the semantic power of large scale Contrastive-Language-Image-Pre-training (CLIP) models, we pres"
+abstract: "Can a generative model be trained to produce images from a specific domain, guided by a text prompt only, without seeing any image? In other words: can an image generator be trained \"blindly\"? Leveraging the semantic power of large scale Contrastive-Language-Image-Pre-training (CLIP) models, we pres"
 url: "https://research.nvidia.com/publication/2022-05_stylegan-nada-clip-guided-domain-adaptation-image-generators"
-status: new
+status: "new"
 ---
 
 # StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators

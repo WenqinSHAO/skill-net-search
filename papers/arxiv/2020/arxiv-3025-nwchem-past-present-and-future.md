@@ -1,21 +1,20 @@
 ---
-id: arxiv-3025
+id: "arxiv-3025"
 title: "NWChem: Past, Present, and Future"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
   - name: "Edoardo Aprà"
-    affiliation: ""
+    affiliation: "Pacific Northwest National Lab"
     is_industry: false
   - name: "Many others"
     affiliation: ""
     is_industry: false
   - name: "Oreste Villa"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -26,7 +25,7 @@ external_links:
     url: "https://aip.scitation.org/doi/pdf/10.1063/5.0004997"
 abstract: "Specialized computational chemistry packages have permanently reshaped the landscape of chemical and materials science by providing tools to support and guide the experimental effort and for prediction of chemical and materials&nbsp;properties. In this regard, a special role has been played by elect"
 url: "https://research.nvidia.com/publication/2020-05_nwchem-past-present-and-future"
-status: new
+status: "new"
 ---
 
 # NWChem: Past, Present, and Future

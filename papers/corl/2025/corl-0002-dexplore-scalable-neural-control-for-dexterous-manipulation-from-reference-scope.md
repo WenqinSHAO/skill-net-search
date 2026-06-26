@@ -1,33 +1,32 @@
 ---
-id: corl-0002
+id: "corl-0002"
 title: "Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration"
-conference: CoRL 2025
-date: 2025-09
+conference: "CoRL 2025"
+date: "2025-09"
 authors:
+  - name: "Sirui Xu"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Liuyu Bian"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Arsalan Mousavian"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yu-Xiong Wang"
+    affiliation: "UIUC"
+    is_industry: false
+  - name: "Liang-Yan Gui"
+    affiliation: "UIUC"
+    is_industry: false
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sirui Xu"
-    affiliation: ""
-    is_industry: false
-  - name: "Liuyu Bian"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu-Xiong Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Liang-Yan Gui"
-    affiliation: ""
-    is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://sirui-xu.github.io/dexplore"
 abstract: "Hand-object motion-capture (MoCap) repositories offer large-scale, contact-rich demonstrations and hold promise for scaling dexterous robotic manipulation. Yet demonstration inaccuracies and embodiment gaps between human and robot hands limit the straightforward use of these data. Existing methods a"
 url: "https://research.nvidia.com/publication/2025-09_dexplore-scalable-neural-control-dexterous-manipulation-reference-scoped"
-status: new
+status: "new"
 ---
 
 # Dexplore: Scalable Neural Control for Dexterous Manipulation from Reference-Scoped Exploration

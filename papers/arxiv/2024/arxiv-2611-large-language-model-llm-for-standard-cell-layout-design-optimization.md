@@ -1,20 +1,19 @@
 ---
-id: arxiv-2611
+id: "arxiv-2611"
 title: "Large Language Model (LLM) for Standard Cell Layout Design Optimization"
-conference: arXiv 2024
-date: 2024-06
+conference: "arXiv 2024"
+date: "2024-06"
 authors:
   - name: "Chia-Tung (Mark) Ho"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -24,7 +23,7 @@ research_areas:
   - "Generative AI"
 abstract: "Standard cells are essential components of modern digital circuit designs. With process technologies advancing toward 2nm, more routability issues have arisen due to the decreasing number of routing tracks, increasing number and complexity of design rules, and strict patterning rules. The state-of-t"
 url: "https://research.nvidia.com/publication/2024-06_large-language-model-llm-standard-cell-layout-design-optimization"
-status: new
+status: "new"
 ---
 
 # Large Language Model (LLM) for Standard Cell Layout Design Optimization

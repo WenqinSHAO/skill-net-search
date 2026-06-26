@@ -1,34 +1,33 @@
 ---
-id: neurips-0016
+id: "neurips-0016"
 title: "QUEEN: QUantized Efficient ENcoding for Streaming Free-viewpoint Videos"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Sharath Girish"
+    affiliation: "University of Maryland, College Park"
+    is_industry: false
   - name: "Tianye Li"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Amrita Mazumdar"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Abhinav Shrivastava"
+    affiliation: "University of Maryland, College Park"
+    is_industry: false
   - name: "David Luebke"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sharath Girish"
-    affiliation: ""
-    is_industry: false
-  - name: "Abhinav Shrivastava"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Graphics_rendering
   - Robotics_autonomous
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -49,7 +48,7 @@ external_links:
     url: "https://arxiv.org/abs/2412.04469"
 abstract: "Online free-viewpoint video (FVV) streaming is a challenging problem, which is relatively under-explored. It requires incremental on-the-fly updates to a volumetric representation, fast training and rendering to satisfy realtime constraints and a small memory footprint for efficient transmission. If"
 url: "https://research.nvidia.com/publication/2024-12_queen-quantized-efficient-encoding-streaming-free-viewpoint-videos"
-status: new
+status: "new"
 ---
 
 # QUEEN: QUantized Efficient ENcoding for Streaming Free-viewpoint Videos

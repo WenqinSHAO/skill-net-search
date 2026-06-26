@@ -1,9 +1,15 @@
 ---
-id: arxiv-2720
+id: "arxiv-2720"
 title: "Learning Perceptual Concepts by Bootstrapping from Human Queries"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Andreea Bobu"
+    affiliation: "University of California, Berkeley"
+    is_industry: false
+  - name: "Chris Paxton"
+    affiliation: "Meta"
+    is_industry: true
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,21 +19,14 @@ authors:
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Andreea Bobu"
-    affiliation: ""
-    is_industry: false
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
   - name: "Maya Cakmak"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,7 +43,7 @@ external_links:
     url: "https://www.youtube.com/watch?v=LszKCwmOle8&amp;feature=youtu.be&amp;ab_channel=AndreeaBobu"
 abstract: "Robots need to be able to learn concepts from their users in order to adapt their capabilities to each user’s unique task. But when the robot operates on high-dimensional inputs, like images or point clouds, this is impractical: the robot needs an unrealistic amount of human effort to learn the new "
 url: "https://research.nvidia.com/publication/2022-10_learning-perceptual-concepts-bootstrapping-human-queries"
-status: new
+status: "new"
 ---
 
 # Learning Perceptual Concepts by Bootstrapping from Human Queries

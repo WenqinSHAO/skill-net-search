@@ -1,8 +1,8 @@
 ---
-id: arxiv-2854
+id: "arxiv-2854"
 title: "Real-time Neural Radiance Caching for Path Tracing"
-conference: arXiv 2021
-date: 2021-06
+conference: "arXiv 2021"
+date: "2021-06"
 authors:
   - name: "Thomas Müller"
     affiliation: "NVIDIA"
@@ -19,7 +19,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://tom94.net/data/publications/mueller21realtime/interactive-viewer/"
 abstract: "We introduce a real-time neural radiance caching technique for path-traced global illumination. Our system is designed to handle fully dynamic scenes, and makes no assumptions about the lighting, geometry, and materials. The data-driven nature of our approach sidesteps many difficulties of caching a"
 url: "https://research.nvidia.com/publication/2021-06_real-time-neural-radiance-caching-path-tracing"
-status: new
+status: "new"
 ---
 
 # Real-time Neural Radiance Caching for Path Tracing

@@ -1,8 +1,8 @@
 ---
-id: neurips-0026
+id: "neurips-0026"
 title: "PAC-Bayes Generalization Certificates for Learned Inductive Conformal Prediction"
-conference: NeurIPS 2023
-date: 2023-12
+conference: "NeurIPS 2023"
+date: "2023-12"
 authors:
   - name: "Apoorva Sharma"
     affiliation: "NVIDIA"
@@ -10,21 +10,20 @@ authors:
   - name: "Sushant Veer"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Asher Hancock"
+    affiliation: "Princeton University"
+    is_industry: false
+  - name: "Heng Yang"
+    affiliation: "Harvard University & NVIDIA"
+    is_industry: true
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Asher Hancock"
-    affiliation: ""
-    is_industry: false
-  - name: "Heng Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Anirudha Majumdar"
-    affiliation: ""
+    affiliation: "Princeton University"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Inductive Conformal Prediction (ICP) provides a practical and effective approach for equipping deep learning models with uncertainty estimates in the form of set-valued predictions which are guaranteed to contain the ground truth with high probability. Despite the appeal of this coverage guarantee, "
 url: "https://research.nvidia.com/publication/2023-12_pac-bayes-generalization-certificates-learned-inductive-conformal-prediction"
-status: new
+status: "new"
 ---
 
 # PAC-Bayes Generalization Certificates for Learned Inductive Conformal Prediction

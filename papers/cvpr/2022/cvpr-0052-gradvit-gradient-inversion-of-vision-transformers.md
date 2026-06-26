@@ -1,9 +1,12 @@
 ---
-id: cvpr-0052
+id: "cvpr-0052"
 title: "GradViT: Gradient Inversion of Vision Transformers"
-conference: CVPR 2022
-date: 2022-05
+conference: "CVPR 2022"
+date: "2022-05"
 authors:
+  - name: "Ali Hatamizadeh"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
     is_industry: true
@@ -22,12 +25,8 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ali Hatamizadeh"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Computer Vision"
 abstract: "In this work we demonstrate the vulnerability of vision transformers (ViTs) to gradient-based inversion attacks. During this attack, the original data batch is reconstructed given model weights and the corresponding gradients. We introduce a method, named GradViT, that optimizes random noise into na"
 url: "https://research.nvidia.com/publication/2022-05_gradvit-gradient-inversion-vision-transformers"
-status: new
+status: "new"
 ---
 
 # GradViT: Gradient Inversion of Vision Transformers

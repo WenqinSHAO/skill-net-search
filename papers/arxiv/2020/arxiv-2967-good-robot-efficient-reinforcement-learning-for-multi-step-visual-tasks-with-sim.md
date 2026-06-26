@@ -1,33 +1,32 @@
 ---
-id: arxiv-2967
+id: "arxiv-2967"
 title: "“Good Robot!”: Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer"
-conference: arXiv 2020
-date: 2020-10
+conference: "arXiv 2020"
+date: "2020-10"
 authors:
   - name: "Andrew Hundt"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
   - name: "Benjamin Killeen"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
   - name: "Nicholas Greene"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
   - name: "Hongtao Wu"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
   - name: "Heeyeon Kwon"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gregory D Hager"
-    affiliation: ""
+    affiliation: "JHU"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Robotics"
 abstract: "Current Reinforcement Learning (RL) algorithms struggle with long-horizon tasks where time can be wasted exploring dead ends and task progress may be easily reversed. We develop the SPOT framework, which explores within action safety zones, learns about unsafe regions without exploring them, and pri"
 url: "https://research.nvidia.com/publication/2020-10_good-robot-efficient-reinforcement-learning-multi-step-visual-tasks-sim-real"
-status: new
+status: "new"
 ---
 
 # “Good Robot!”: Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer

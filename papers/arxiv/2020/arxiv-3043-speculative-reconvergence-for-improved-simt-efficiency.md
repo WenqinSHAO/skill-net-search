@@ -1,34 +1,33 @@
 ---
-id: arxiv-3043
+id: "arxiv-3043"
 title: "Speculative Reconvergence for Improved SIMT Efficiency"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
+  - name: "Sana Damani"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
+  - name: "Daniel Johnson"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Mark Stephenson"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eddie Yan"
+    affiliation: "University of Washington"
+    is_industry: false
+  - name: "Olivier Giroux"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Michael McKeown"
+    affiliation: "Esperanto Technologies"
+    is_industry: false
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Sana Damani"
-    affiliation: ""
-    is_industry: false
-  - name: "Daniel Johnson"
-    affiliation: ""
-    is_industry: false
-  - name: "Eddie Yan"
-    affiliation: ""
-    is_industry: false
-  - name: "Olivier Giroux"
-    affiliation: ""
-    is_industry: false
-  - name: "Michael McKeown"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3368826.3377911"
 abstract: "GPUs perform most efficiently when all threads in a warp execute the same sequence of instructions convergently. However, when threads in a warp encounter a divergent branch, the hardware serializes the execution of diverged paths. We consider a class of convergence opportunities wherein multiple th"
 url: "https://research.nvidia.com/publication/2020-02_speculative-reconvergence-improved-simt-efficiency"
-status: new
+status: "new"
 ---
 
 # Speculative Reconvergence for Improved SIMT Efficiency

@@ -1,49 +1,48 @@
 ---
-id: siggraph-0022
+id: "siggraph-0022"
 title: "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling"
-conference: SIGGRAPH 2024
-date: 2024-06
+conference: "SIGGRAPH 2024"
+date: "2024-06"
 authors:
   - name: "Xiaoyu Shi"
-    affiliation: ""
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong"
     is_industry: false
   - name: "Zhaoyang Huang"
-    affiliation: ""
+    affiliation: "Avolution AI"
     is_industry: false
   - name: "Fu-Yun Wang"
-    affiliation: ""
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong"
     is_industry: false
   - name: "Weikang Bian"
-    affiliation: ""
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong"
     is_industry: false
   - name: "Dasong Li"
-    affiliation: ""
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong"
     is_industry: false
   - name: "Yi Zhang"
-    affiliation: ""
+    affiliation: "SenseTime Research"
     is_industry: false
   - name: "Manyuan Zhang"
-    affiliation: ""
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong"
     is_industry: false
   - name: "Ka Chun Cheung"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Simon See"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hongwei Qin"
-    affiliation: ""
+    affiliation: "SenseTime Research"
     is_industry: false
   - name: "Jifeng Dai"
-    affiliation: ""
+    affiliation: "Tsinghua University"
     is_industry: false
   - name: "Hongsheng Li"
-    affiliation: ""
-    is_industry: false
+    affiliation: "Multimedia Laboratory, The Chinese University of Hong Kong, Centre for Perceptual and Interactive Intelligence, Shanghai AI"
+    is_industry: true
 topics:
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -52,7 +51,7 @@ research_areas:
   - "Generative AI"
 abstract: "We introduce Motion-I2V, a novel framework for consistent and controllable image-to-video generation (I2V). In contrast to previous methods that directly learn the complicated image-to-video mapping, Motion-I2V factorizes I2V into two stages with explicit motion modeling. For the first stage, we pro"
 url: "https://research.nvidia.com/publication/2024-06_motion-i2v-consistent-and-controllable-image-video-generation-explicit-motion"
-status: new
+status: "new"
 ---
 
 # Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling

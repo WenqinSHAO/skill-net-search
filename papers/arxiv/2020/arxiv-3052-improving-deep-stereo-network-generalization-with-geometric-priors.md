@@ -1,18 +1,9 @@
 ---
-id: arxiv-3052
+id: "arxiv-3052"
 title: "Improving Deep Stereo Network Generalization with Geometric Priors"
-conference: arXiv 2020
-date: 2020-01
+conference: "arXiv 2020"
+date: "2020-01"
 authors:
-  - name: "Charles Loop"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Stan Birchfield"
-    affiliation: "NVIDIA"
-    is_industry: true
-  - name: "Jan Kautz"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Jialiang Wang"
     affiliation: ""
     is_industry: false
@@ -22,9 +13,17 @@ authors:
   - name: "Deqing Sun"
     affiliation: ""
     is_industry: false
+  - name: "Charles Loop"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Stan Birchfield"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jan Kautz"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://arxiv.org/abs/2008.11098"
 abstract: "End-to-end deep learning methods have advanced stereo vision in recent years and obtained excellent results when the training and test data are similar. However, large datasets of diverse real-world scenes with dense ground truth are difficult to obtain and currently not publicly available to the re"
 url: "https://research.nvidia.com/publication/2020-01_improving-deep-stereo-network-generalization-geometric-priors"
-status: new
+status: "new"
 ---
 
 # Improving Deep Stereo Network Generalization with Geometric Priors

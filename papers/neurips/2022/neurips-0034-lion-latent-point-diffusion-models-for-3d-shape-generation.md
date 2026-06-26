@@ -1,35 +1,34 @@
 ---
-id: neurips-0034
+id: "neurips-0034"
 title: "LION: Latent Point Diffusion Models for 3D Shape Generation"
-conference: NeurIPS 2022
-date: 2022-11
+conference: "NeurIPS 2022"
+date: "2022-11"
 authors:
+  - name: "Xiaohui Zeng"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
+    is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Francis Williams"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zan Gojcic"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Or Litany"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sanja Fidler"
+    affiliation: "NVIDIA, University of Toronto, Vector Institute"
     is_industry: true
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
-  - name: "Francis Williams"
-    affiliation: ""
-    is_industry: false
-  - name: "Zan Gojcic"
-    affiliation: ""
-    is_industry: false
-  - name: "Or Litany"
-    affiliation: ""
-    is_industry: false
-  - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -42,7 +41,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/LION/"
 abstract: "Denoising diffusion models (DDMs) have shown promising results in 3D point cloud synthesis. To advance 3D DDMs and make them useful for digital artists, we require (i) high generation quality, (ii) flexibility for manipulation and applications such as conditional synthesis and shape interpolation, a"
 url: "https://research.nvidia.com/publication/2022-11_lion-latent-point-diffusion-models-3d-shape-generation"
-status: new
+status: "new"
 ---
 
 # LION: Latent Point Diffusion Models for 3D Shape Generation

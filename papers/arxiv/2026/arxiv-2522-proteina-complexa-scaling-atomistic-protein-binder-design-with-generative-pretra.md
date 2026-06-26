@@ -1,13 +1,43 @@
 ---
-id: arxiv-2522
+id: "arxiv-2522"
 title: "Proteina-Complexa: Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute"
-conference: arXiv 2026
-date: 2026-01
+conference: "arXiv 2026"
+date: "2026-01"
 authors:
   - name: "Kieran Didi"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Zuobai Zhang"
+    affiliation: "NVIDIA, Mila - Quebec AI Institute, Universite de Montreal"
+    is_industry: true
+  - name: "Guoqing Zhou"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhonglin Cao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Sooyoung Cha"
+    affiliation: "Seoul National University"
+    is_industry: false
   - name: "Tomas Geffner"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Christian Dallago"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jian Tang"
+    affiliation: "Mila - Quebec AI Institute, HEC Montreal, CIFAR AI Chair"
+    is_industry: false
+  - name: "Michael M. Bronstein"
+    affiliation: "University of Oxford, AITHYRA"
+    is_industry: false
+  - name: "Martin Steinegger"
+    affiliation: "Seoul National University"
+    is_industry: false
+  - name: "Emine Kucukbenli"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
@@ -16,40 +46,9 @@ authors:
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zuobai Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Guoqing Zhou"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhonglin Cao"
-    affiliation: ""
-    is_industry: false
-  - name: "Sooyoung Cha"
-    affiliation: ""
-    is_industry: false
-  - name: "Christian Dallago"
-    affiliation: ""
-    is_industry: false
-  - name: "Jian Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Michael M. Bronstein"
-    affiliation: ""
-    is_industry: false
-  - name: "Martin Steinegger"
-    affiliation: ""
-    is_industry: false
-  - name: "Emine Kucukbenli"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -61,7 +60,7 @@ external_links:
     url: "https://research.nvidia.com/labs/genair/proteina-complexa/"
 abstract: "Protein interaction modeling is central to protein design, which has been transformed by machine learning with applications in drug discovery and beyond. In this landscape, structure-based de novo binder design is cast as either conditional generative modeling or sequence optimization via structure "
 url: "https://research.nvidia.com/publication/2026-01%5Fproteina-complexa-scaling-atomistic-protein-binder-design-generative"
-status: new
+status: "new"
 ---
 
 # Proteina-Complexa: Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute

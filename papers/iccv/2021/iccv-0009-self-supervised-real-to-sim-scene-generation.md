@@ -1,33 +1,32 @@
 ---
-id: iccv-0009
+id: "iccv-0009"
 title: "Self-Supervised Real-to-Sim Scene Generation"
-conference: ICCV 2021
-date: 2021-10
+conference: "ICCV 2021"
+date: "2021-10"
 authors:
+  - name: "Aayush Prakash"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Shoubhik Debnath"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jean-Francois Lafleche"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Eric Cameracci"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Gavriel State"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Aayush Prakash"
-    affiliation: ""
-    is_industry: false
-  - name: "Shoubhik Debnath"
-    affiliation: ""
-    is_industry: false
-  - name: "Jean-Francois Lafleche"
-    affiliation: ""
-    is_industry: false
-  - name: "Eric Cameracci"
-    affiliation: ""
-    is_industry: false
-  - name: "Gavriel State"
-    affiliation: ""
-    is_industry: false
   - name: "Marc T. Law"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ research_areas:
   - "Computer Vision"
 abstract: "Synthetic data is emerging as a promising solution to the scalability issue of supervised deep learning, especially when real data are difficult to acquire or hard to annotate. Synthetic data generation, however, can itself be prohibitively expensive when domain experts have to manually and painstak"
 url: "https://research.nvidia.com/publication/2021-10_self-supervised-real-sim-scene-generation"
-status: new
+status: "new"
 ---
 
 # Self-Supervised Real-to-Sim Scene Generation

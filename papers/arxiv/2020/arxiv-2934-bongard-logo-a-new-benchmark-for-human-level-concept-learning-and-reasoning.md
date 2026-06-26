@@ -1,31 +1,30 @@
 ---
-id: arxiv-2934
+id: "arxiv-2934"
 title: "Bongard-LOGO: A New Benchmark for Human-Level Concept Learning and Reasoning"
-conference: arXiv 2020
-date: 2020-12
+conference: "arXiv 2020"
+date: "2020-12"
 authors:
+  - name: "Weili Nie"
+    affiliation: "Rice University"
+    is_industry: false
   - name: "Zhiding Yu"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Lei Mao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Ankit B. Patel"
+    affiliation: "Rice University"
+    is_industry: false
   - name: "Yuke Zhu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
-  - name: "Lei Mao"
-    affiliation: ""
-    is_industry: false
-  - name: "Ankit B. Patel"
-    affiliation: ""
-    is_industry: false
   - name: "Anima Anandkumar"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://en.wikipedia.org/wiki/Bongard_problem"
 abstract: "Humans have an inherent ability to learn novel concepts from only a few samples and generalize these concepts to different situations. Even though today's machine learning models excel with a plethora of training data on standard recognition tasks, a considerable gap exists between machine-level pat"
 url: "https://research.nvidia.com/publication/2020-12_bongard-logo-new-benchmark-human-level-concept-learning-and-reasoning"
-status: new
+status: "new"
 ---
 
 # Bongard-LOGO: A New Benchmark for Human-Level Concept Learning and Reasoning

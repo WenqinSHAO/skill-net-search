@@ -1,30 +1,29 @@
 ---
-id: neurips-0006
+id: "neurips-0006"
 title: "RaySt3R: Predicting Novel Depth Maps for Zero-Shot Object Completion"
-conference: NeurIPS 2025
-date: 2025-12
+conference: "NeurIPS 2025"
+date: "2025-12"
 authors:
+  - name: "Bardienus P. Duisterhof"
+    affiliation: "CMU"
+    is_industry: false
+  - name: "Jan Oberst"
+    affiliation: "CMU"
+    is_industry: false
   - name: "Bowen Wen"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Bardienus P. Duisterhof"
-    affiliation: ""
-    is_industry: false
-  - name: "Jan Oberst"
-    affiliation: ""
-    is_industry: false
   - name: "Deva Ramanan"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
   - name: "Jeffrey Ichnowski"
-    affiliation: ""
+    affiliation: "CMU"
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://rayst3r.github.io/"
 abstract: "3D shape completion has broad applications in robotics, digital twin reconstruction, and extended reality (XR). Although recent advances in 3D object and scene completion have achieved impressive results, existing methods lack 3D consistency, are computationally expensive, and struggle to capture sh"
 url: "https://research.nvidia.com/publication/2025-12_rayst3r-predicting-novel-depth-maps-zero-shot-object-completion"
-status: new
+status: "new"
 ---
 
 # RaySt3R: Predicting Novel Depth Maps for Zero-Shot Object Completion

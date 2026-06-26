@@ -1,31 +1,30 @@
 ---
-id: siggraph-0064
+id: "siggraph-0064"
 title: "AdaptiBrush: Adaptive General and Predictable VR Ribbon Brush"
-conference: SIGGRAPH 2021
-date: 2021-12
+conference: "SIGGRAPH 2021"
+date: "2021-12"
 authors:
+  - name: "Enrique Rosales"
+    affiliation: "University of British Columbia"
+    is_industry: false
+  - name: "Chrystiano Araujo"
+    affiliation: "University of British Columbia"
+    is_industry: false
+  - name: "Jafet Rodriguez"
+    affiliation: "Universidad Panamericana"
+    is_industry: false
   - name: "Nicholas Vining"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Enrique Rosales"
-    affiliation: ""
-    is_industry: false
-  - name: "Chrystiano Araujo"
-    affiliation: ""
-    is_industry: false
-  - name: "Jafet Rodriguez"
-    affiliation: ""
-    is_industry: false
   - name: "Dongwook Yoon"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
   - name: "Alla Sheffer"
-    affiliation: ""
+    affiliation: "University of British Columbia"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://www.cs.ubc.ca/labs/imager/tr/2021/AdaptiBrush/"
 abstract: "Virtual reality drawing applications let users draw 3D shapes using brushes that form&nbsp;ribbon&nbsp;shaped, or ruled-surface, strokes. Each ribbon is uniquely defined by its user-specified ruling length, path, and the ruling directions at each point along this path. Existing brushes use the traje"
 url: "https://research.nvidia.com/publication/2021-12_adaptibrush-adaptive-general-and-predictable-vr-ribbon-brush"
-status: new
+status: "new"
 ---
 
 # AdaptiBrush: Adaptive General and Predictable VR Ribbon Brush

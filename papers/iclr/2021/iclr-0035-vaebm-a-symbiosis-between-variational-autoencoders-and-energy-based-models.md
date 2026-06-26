@@ -1,9 +1,12 @@
 ---
-id: iclr-0035
+id: "iclr-0035"
 title: "VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models"
-conference: ICLR 2021
-date: 2021-06
+conference: "ICLR 2021"
+date: "2021-06"
 authors:
+  - name: "Zhisheng Xiao"
+    affiliation: "The University of Chicago"
+    is_industry: false
   - name: "Karsten Kreis"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,14 +16,10 @@ authors:
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhisheng Xiao"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -30,7 +29,7 @@ research_areas:
   - "Generative AI"
 abstract: "Energy-based models (EBMs) have recently been successful in representing complex distributions of small images. However, sampling from them requires expensive Markov chain Monte Carlo (MCMC) iterations that mix slowly in high dimensional pixel space. Unlike EBMs, variational autoencoders (VAEs) gene"
 url: "https://research.nvidia.com/publication/2021-06_vaebm-symbiosis-between-variational-autoencoders-and-energy-based-models"
-status: new
+status: "new"
 ---
 
 # VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models

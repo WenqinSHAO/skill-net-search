@@ -1,27 +1,26 @@
 ---
-id: arxiv-2816
+id: "arxiv-2816"
 title: "Text Mining Drug/Chemical-Protein Interactions using an Ensemble of BERT and T5 Based Models"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
   - name: "Virginia Adams"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hoo-Chang Shin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Carol Anderson"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bo Liu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Anas Abidin"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2111.15617"
 abstract: "In Track-1 of the BioCreative VII Challenge participants are asked to identify interactions between drugs/chemicals and proteins. In-context named entity annotations for each drug/chemical and protein are provided and one of fourteen different interactions must be automatically predicted. For this r"
 url: "https://research.nvidia.com/publication/2021-11_text-mining-drugchemical-protein-interactions-using-ensemble-bert-and-t5-based"
-status: new
+status: "new"
 ---
 
 # Text Mining Drug/Chemical-Protein Interactions using an Ensemble of BERT and T5 Based Models

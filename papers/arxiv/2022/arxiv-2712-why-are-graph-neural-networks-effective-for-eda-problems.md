@@ -1,28 +1,27 @@
 ---
-id: arxiv-2712
+id: "arxiv-2712"
 title: "Why are Graph Neural Networks Effective for EDA Problems?"
-conference: arXiv 2022
-date: 2022-10
+conference: "arXiv 2022"
+date: "2022-10"
 authors:
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Siddhartha Nath"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yanqing Zhang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Hao Chen"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Mingjie Liu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Siddhartha Nath"
-    affiliation: ""
-    is_industry: false
-  - name: "Hao Chen"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://dl.acm.org/doi/10.1145/3508352.3561093"
 abstract: "In this paper, we discuss the source of effectiveness of Graph Neural Networks (GNNs) in EDA, particularly in the VLSI design automation domain. We argue that the effectiveness comes from the fact that GNNs implicitly embed the prior knowledge and inductive biases associated with given VLSI tasks, w"
 url: "https://research.nvidia.com/publication/2022-10_why-are-graph-neural-networks-effective-eda-problems"
-status: new
+status: "new"
 ---
 
 # Why are Graph Neural Networks Effective for EDA Problems?

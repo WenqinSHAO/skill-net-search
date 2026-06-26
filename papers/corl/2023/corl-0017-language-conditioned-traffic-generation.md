@@ -1,9 +1,12 @@
 ---
-id: corl-0017
+id: "corl-0017"
 title: "Language Conditioned Traffic Generation"
-conference: CoRL 2023
-date: 2023-07
+conference: "CoRL 2023"
+date: "2023-07"
 authors:
+  - name: "Shuhan Tan"
+    affiliation: "UT Austin"
+    is_industry: false
   - name: "Boris Ivanovic"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,15 +16,11 @@ authors:
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Shuhan Tan"
-    affiliation: ""
-    is_industry: false
   - name: "Philipp Krähenbühl"
-    affiliation: ""
+    affiliation: "UT Austin"
     is_industry: false
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Autonomous Vehicles"
 abstract: "Simulation forms the backbone of modern self-driving development. Simulators help develop, test, and improve driving systems without putting humans, vehicles, or their environment at risk. However, simulators face a major challenge: They rely on realistic, scalable, yet interesting content. While re"
 url: "https://research.nvidia.com/publication/2023-07_language-conditioned-traffic-generation"
-status: new
+status: "new"
 ---
 
 # Language Conditioned Traffic Generation

@@ -1,31 +1,30 @@
 ---
-id: arxiv-3048
+id: "arxiv-3048"
 title: "ABCDPlace: Accelerated Batch-based Concurrent Detailed Placement on Multi-threaded CPUs and GPUs"
-conference: arXiv 2020
-date: 2020-02
+conference: "arXiv 2020"
+date: "2020-02"
 authors:
+  - name: "Yibo Lin"
+    affiliation: "Peking University"
+    is_industry: false
+  - name: "Wuxi Li"
+    affiliation: "Xilinx"
+    is_industry: false
+  - name: "Jiaqi Gu"
+    affiliation: "UT-Austin"
+    is_industry: false
+  - name: "Mark Haoxing Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yibo Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Wuxi Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiaqi Gu"
-    affiliation: ""
-    is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "UT-Austin"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ research_areas:
   - "Circuits and VLSI Design"
 abstract: "Placement is an important step in modern very-large-scale integrated (VLSI) designs. Detailed placement is a placement refining procedure intensively called throughout the design flow, thus its efficiency has a vital impact on design closure. However, since most detailed placement techniques are inh"
 url: "https://research.nvidia.com/publication/2020-02_abcdplace-accelerated-batch-based-concurrent-detailed-placement-multi-threaded"
-status: new
+status: "new"
 ---
 
 # ABCDPlace: Accelerated Batch-based Concurrent Detailed Placement on Multi-threaded CPUs and GPUs

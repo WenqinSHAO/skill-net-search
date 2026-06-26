@@ -1,37 +1,36 @@
 ---
-id: iclr-0011
+id: "iclr-0011"
 title: "Audio Large Language Models Can Be Descriptive Speech Quality Evaluators"
-conference: ICLR 2025
-date: 2025-04
+conference: "ICLR 2025"
+date: "2025-04"
 authors:
+  - name: "Chen Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yuchen Hu"
+    affiliation: "Nanyang Technological University"
+    is_industry: false
+  - name: "Siyin Wang"
+    affiliation: "Tsinghua University"
+    is_industry: false
+  - name: "Helin Wang"
+    affiliation: "JHU"
+    is_industry: false
+  - name: "Zhehuai Chen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Chao Zhang"
+    affiliation: "Tsinghua University"
+    is_industry: false
   - name: "Huck Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chen Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuchen Hu"
-    affiliation: ""
-    is_industry: false
-  - name: "Siyin Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Helin Wang"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhehuai Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Chao Zhang"
-    affiliation: ""
-    is_industry: false
   - name: "EngSiong Chng"
-    affiliation: ""
+    affiliation: "Nanyang Technological University"
     is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ research_areas:
   - "Speech Processing"
 abstract: "An ideal multimodal agent should be aware of the quality of its input modalities.Recent advances have enabled large language models (LLMs) to incorporate auditory systems for handling various speech-related tasks. However, most audioLLMs remain unaware of the quality of the speech they process. This"
 url: "https://research.nvidia.com/publication/2025-04_audio-large-language-models-can-be-descriptive-speech-quality-evaluators"
-status: new
+status: "new"
 ---
 
 # Audio Large Language Models Can Be Descriptive Speech Quality Evaluators

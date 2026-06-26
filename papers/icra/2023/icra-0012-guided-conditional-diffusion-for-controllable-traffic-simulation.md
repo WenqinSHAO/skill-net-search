@@ -1,9 +1,15 @@
 ---
-id: icra-0012
+id: "icra-0012"
 title: "Guided Conditional Diffusion for Controllable Traffic Simulation"
-conference: ICRA 2023
-date: 2023-05
+conference: "ICRA 2023"
+date: "2023-05"
 authors:
+  - name: "Ziyuan Zhong"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Davis Rempe"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Danfei Xu"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,23 +22,16 @@ authors:
   - name: "Gerry Che"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Baishakhi Ray"
+    affiliation: "Columbia University"
+    is_industry: false
   - name: "Marco Pavone"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ziyuan Zhong"
-    affiliation: ""
-    is_industry: false
-  - name: "Davis Rempe"
-    affiliation: ""
-    is_industry: false
-  - name: "Baishakhi Ray"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ external_links:
     url: "https://aiasd.github.io/ctg.github.io/"
 abstract: "Controllable and realistic traffic simulation is critical for developing and verifying autonomous vehicles. Typical heuristic-based traffic models offer flexible control to make vehicles follow specific trajectories and traffic rules. On the other hand, data-driven approaches generate realistic and "
 url: "https://research.nvidia.com/publication/2023-05_guided-conditional-diffusion-controllable-traffic-simulation"
-status: new
+status: "new"
 ---
 
 # Guided Conditional Diffusion for Controllable Traffic Simulation

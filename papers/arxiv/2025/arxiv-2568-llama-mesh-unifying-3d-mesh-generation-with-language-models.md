@@ -1,35 +1,34 @@
 ---
-id: arxiv-2568
+id: "arxiv-2568"
 title: "LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models"
-conference: arXiv 2025
-date: 2025-03
+conference: "arXiv 2025"
+date: "2025-03"
 authors:
   - name: "Zhengyi Wang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, Tsinghua University"
+    is_industry: true
   - name: "Jonathan Lorraine"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yikai Wang"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Hang Su"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jun Zhu"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Sanja Fidler"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xiaohui Zeng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -50,7 +49,7 @@ external_links:
     url: "https://github.com/nv-tlabs/LLaMa-Mesh"
 abstract: "This work explores expanding the capabilities of large language models (LLMs) pretrained on text to generate 3D meshes within a unified model. This offers key advantages of (1) leveraging spatial knowledge already embedded in LLMs, derived from textual sources like 3D tutorials, and (2) enabling con"
 url: "https://research.nvidia.com/publication/2025-03_llama-mesh-unifying-3d-mesh-generation-language-models"
-status: new
+status: "new"
 ---
 
 # LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models

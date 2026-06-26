@@ -1,19 +1,18 @@
 ---
-id: arxiv-2996
+id: "arxiv-2996"
 title: "Understanding SSIM"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "Jim Nilsson"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Tomas Akenine-Möller"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jim Nilsson"
-    affiliation: ""
-    is_industry: false
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -22,7 +21,7 @@ research_areas:
   - "Computer Graphics"
 abstract: "The use of the structural similarity index (SSIM) is widespread. For almost two decades, it has played a major role in image quality assessment in many different research disciplines. Clearly, its merits are indisputable in the research community. However, little deep scrutiny of this index has been"
 url: "https://research.nvidia.com/publication/2020-07_understanding-ssim"
-status: new
+status: "new"
 ---
 
 # Understanding SSIM

@@ -1,33 +1,32 @@
 ---
-id: arxiv-2948
+id: "arxiv-2948"
 title: "RMPflow: A Geometric Framework for Generation of Multi-Task Motion Policies"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
+  - name: "Ching-An Cheng"
+    affiliation: "NVIDIA, Georgia Tech"
+    is_industry: true
+  - name: "Mustafa Mukadam"
+    affiliation: "NVIDIA, Georgia Tech"
+    is_industry: true
+  - name: "Jan Issac"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Ching-An Cheng"
-    affiliation: ""
-    is_industry: false
-  - name: "Mustafa Mukadam"
-    affiliation: ""
-    is_industry: false
-  - name: "Jan Issac"
-    affiliation: ""
-    is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Byron Boots"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Nathan Ratliff"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9388869"
 abstract: "Generating robot motion for multiple tasks in dynamic environments is challenging, requiring an algorithm to respond reactively while accounting for complex nonlinear relationships between tasks. In this paper, we develop a novel policy synthesis algorithm, RMPflow, based on geometrically consistent"
 url: "https://research.nvidia.com/publication/2020-11_rmpflow-geometric-framework-generation-multi-task-motion-policies"
-status: new
+status: "new"
 ---
 
 # RMPflow: A Geometric Framework for Generation of Multi-Task Motion Policies

@@ -1,37 +1,36 @@
 ---
-id: neurips-0012
+id: "neurips-0012"
 title: "Molecule Generation with Fragment Retrieval Augmentation"
-conference: NeurIPS 2024
-date: 2024-12
+conference: "NeurIPS 2024"
+date: "2024-12"
 authors:
+  - name: "Seul Lee"
+    affiliation: "KAIST"
+    is_industry: false
   - name: "Karsten Kreis"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Srimukh Prasad Veccham"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Meng Liu"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Danny Reidenbach"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Saee Paliwal"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Arash Vahdat"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Seul Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Srimukh Prasad Veccham"
-    affiliation: ""
-    is_industry: false
-  - name: "Meng Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Danny Reidenbach"
-    affiliation: ""
-    is_industry: false
-  - name: "Saee Paliwal"
-    affiliation: ""
-    is_industry: false
   - name: "Weili Nie"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Foundation_models
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -43,7 +42,7 @@ external_links:
     url: "https://arxiv.org/abs/2411.12078"
 abstract: "Fragment-based drug discovery, in which molecular fragments are assembled into new molecules with desirable biochemical properties, has achieved great success. However, many fragment-based molecule generation methods show limited exploration beyond the existing fragments in the database as they only"
 url: "https://research.nvidia.com/publication/2024-12_molecule-generation-fragment-retrieval-augmentation"
-status: new
+status: "new"
 ---
 
 # Molecule Generation with Fragment Retrieval Augmentation

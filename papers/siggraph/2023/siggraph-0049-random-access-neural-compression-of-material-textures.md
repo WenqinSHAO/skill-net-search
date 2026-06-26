@@ -1,9 +1,15 @@
 ---
-id: siggraph-0049
+id: "siggraph-0049"
 title: "Random-Access Neural Compression of Material Textures"
-conference: SIGGRAPH 2023
-date: 2023-08
+conference: "SIGGRAPH 2023"
+date: "2023-08"
 authors:
+  - name: "Karthik Vaidyanathan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Marco Salvi"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Bart Wronski"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,16 +22,9 @@ authors:
   - name: "Aaron Lefohn"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Karthik Vaidyanathan"
-    affiliation: ""
-    is_industry: false
-  - name: "Marco Salvi"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://research.nvidia.com/labs/rtr/neural_texture_compression/"
 abstract: "The continuous advancement of photorealism in rendering is accompanied by a growth in texture data and, consequently, increasing storage and memory demands. To address this issue, we propose a novel neural compression technique specifically designed for material textures. We unlock two more levels o"
 url: "https://research.nvidia.com/publication/2023-08_random-access-neural-compression-material-textures"
-status: new
+status: "new"
 ---
 
 # Random-Access Neural Compression of Material Textures

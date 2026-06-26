@@ -1,36 +1,35 @@
 ---
-id: arxiv-3019
+id: "arxiv-3019"
 title: "Motion reasoning for goal-based imitation learning"
-conference: arXiv 2020
-date: 2020-05
+conference: "arXiv 2020"
+date: "2020-05"
 authors:
+  - name: "De-An Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "De-An Huang"
-    affiliation: ""
-    is_industry: false
   - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Xinke Deng"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA, UIUC"
+    is_industry: true
   - name: "Li Fei-Fei"
-    affiliation: ""
+    affiliation: "Stanford"
     is_industry: false
   - name: "Juan Carlos Niebles"
-    affiliation: ""
+    affiliation: "Stanford"
     is_industry: false
   - name: "Animesh Garg"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -41,7 +40,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9197172"
 abstract: "&nbsp;We address goal-based imitation learning, where the aim is to output the symbolic goal from a third-person video demonstration. This enables the robot to plan for execution and reproduce the same goal in a completely different environment. The key challenge is that the goal of a video demonstr"
 url: "https://research.nvidia.com/publication/2020-05_motion-reasoning-goal-based-imitation-learning"
-status: new
+status: "new"
 ---
 
 # Motion reasoning for goal-based imitation learning

@@ -1,28 +1,27 @@
 ---
-id: arxiv-2636
+id: "arxiv-2636"
 title: "CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization"
-conference: arXiv 2023
-date: 2023-11
+conference: "arXiv 2023"
+date: "2023-11"
 authors:
   - name: "Rongjian Liang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Anthony Agnesina"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Geraldo Pradipta"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Vidya A. Chhabria"
-    affiliation: ""
+    affiliation: "Arizona State University"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://github.com/NVlabs/CircuitOps"
 abstract: "An innovative ML infrastructure named CircuitOps is developed to streamline dataset generation and model inference for various generative AI (GAI)-based circuit optimization tasks. Addressing the challenges of the absence of a shared Intermediate Representation (IR), steep EDA learning curves, and A"
 url: "https://research.nvidia.com/publication/2023-11_circuitops-ml-infrastructure-enabling-generative-ai-vlsi-circuit-optimization"
-status: new
+status: "new"
 ---
 
 # CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization

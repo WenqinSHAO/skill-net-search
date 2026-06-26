@@ -1,24 +1,23 @@
 ---
-id: arxiv-2789
+id: "arxiv-2789"
 title: "Routability-Aware Placement for Advanced FinFET Analog Circuits with Satisfiability Modulo Theories"
-conference: arXiv 2022
-date: 2022-03
+conference: "arXiv 2022"
+date: "2022-03"
 authors:
+  - name: "Hao Chen"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hao Chen"
-    affiliation: ""
-    is_industry: false
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "University of Texas at Austin"
     is_industry: false
   - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ external_links:
     url: "https://dl.acm.org/doi/abs/10.5555/3539845.3539892"
 abstract: "Due to the increasingly complex design rules and geometric layout constraints within advanced FinFET nodes, automated placement of full-custom analog/mixed-signal (AMS) designs has become increasingly challenging. Compared with traditional planar nodes, AMS circuit layout is dramatically different f"
 url: "https://research.nvidia.com/publication/2022-03_routability-aware-placement-advanced-finfet-analog-circuits-satisfiability"
-status: new
+status: "new"
 ---
 
 # Routability-Aware Placement for Advanced FinFET Analog Circuits with Satisfiability Modulo Theories

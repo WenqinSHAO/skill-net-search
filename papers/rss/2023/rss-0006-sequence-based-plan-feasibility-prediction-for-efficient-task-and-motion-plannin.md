@@ -1,28 +1,27 @@
 ---
-id: rss-0006
+id: "rss-0006"
 title: "Sequence-Based Plan Feasibility Prediction for Efficient Task and Motion Planning"
-conference: RSS 2023
-date: 2023-07
+conference: "RSS 2023"
+date: "2023-07"
 authors:
+  - name: "Zhutian Yang"
+    affiliation: "MIT CSAIL"
+    is_industry: false
   - name: "Caelan Garrett"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Zhutian Yang"
-    affiliation: ""
-    is_industry: false
   - name: "Tomás Lozano-Pérez"
-    affiliation: ""
+    affiliation: "MIT CSAIL"
     is_industry: false
   - name: "Leslie Pack Kaelbling"
-    affiliation: ""
+    affiliation: "MIT CSAIL"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -33,7 +32,7 @@ external_links:
   - name: "Website"
     url: "https://piginet.github.io/"
 url: "https://research.nvidia.com/publication/2023-07_sequence-based-plan-feasibility-prediction-efficient-task-and-motion-planning"
-status: new
+status: "new"
 ---
 
 # Sequence-Based Plan Feasibility Prediction for Efficient Task and Motion Planning

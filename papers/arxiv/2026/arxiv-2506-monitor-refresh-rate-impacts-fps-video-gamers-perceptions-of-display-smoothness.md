@@ -1,9 +1,12 @@
 ---
-id: arxiv-2506
+id: "arxiv-2506"
 title: "Monitor refresh rate impacts FPS video gamers' perceptions of display 'smoothness' and target acquisition performance"
-conference: arXiv 2026
-date: 2026-06
+conference: "arXiv 2026"
+date: "2026-06"
 authors:
+  - name: "Adam J. Toth"
+    affiliation: "University of Limerick"
+    is_industry: false
   - name: "Joohwan Kim"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,18 +16,14 @@ authors:
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Adam J. Toth"
-    affiliation: ""
-    is_industry: false
   - name: "Sophie Cunneen"
-    affiliation: ""
+    affiliation: "University of Limerick"
     is_industry: false
   - name: "Mark J. Campbell"
-    affiliation: ""
+    affiliation: "University of Limerick"
     is_industry: false
 topics:
   - Applied_perception
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -36,7 +35,7 @@ external_links:
     url: "https://doi.org/10.1016/j.ssaho.2026.102774"
 abstract: "Esports, particularly First-Person Shooter (FPS) games, rely heavily on one's ability to rapidly perceive and respond to visual targets, a skill known as target acquisition. Modern gaming monitors increasingly feature higher refresh rates (up to 360Hz). The current study examined whether FPS gamers "
 url: "https://research.nvidia.com/publication/2026-06%5Fmonitor-refresh-rate-impacts-fps-video-gamers-perceptions-display-smoothness"
-status: new
+status: "new"
 ---
 
 # Monitor refresh rate impacts FPS video gamers' perceptions of display 'smoothness' and target acquisition performance

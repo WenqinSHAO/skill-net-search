@@ -1,9 +1,12 @@
 ---
-id: arxiv-2531
+id: "arxiv-2531"
 title: "Lead Rush: A First-Person Shooter for User Studies and Understanding Effects of Frame Time Spikes"
-conference: arXiv 2025
-date: 2025-09
+conference: "arXiv 2025"
+date: "2025-09"
 authors:
+  - name: "Samin Shahriar Tokey"
+    affiliation: "WPI"
+    is_industry: false
   - name: "Ben Boudaoud"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,16 +19,12 @@ authors:
   - name: "Peter Xenopoulos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Samin Shahriar Tokey"
-    affiliation: ""
-    is_industry: false
   - name: "Mark Claypool"
-    affiliation: ""
+    affiliation: "WPI"
     is_industry: false
 topics:
   - Applied_perception
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://github.com/Tokey/Lead-Rush"
 abstract: "User studies are a cornerstone of human-computer interaction research, including measures of user performance and quality of experience (QoE) – particularly important for games where frame rates and frame timings can impact performance. Unfortunately, commercial games have limited options for custom"
 url: "https://research.nvidia.com/publication/2025-09_lead-rush-first-person-shooter-user-studies-and-understanding-effects-frame"
-status: new
+status: "new"
 ---
 
 # Lead Rush: A First-Person Shooter for User Studies and Understanding Effects of Frame Time Spikes

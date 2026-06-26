@@ -1,8 +1,8 @@
 ---
-id: cvpr-0047
+id: "cvpr-0047"
 title: "GLAMR: Global Occlusion-Aware Human Mesh Recovery with Dynamic Cameras"
-conference: CVPR 2022
-date: 2022-06
+conference: "CVPR 2022"
+date: "2022-06"
 authors:
   - name: "Ye Yuan"
     affiliation: "NVIDIA"
@@ -13,15 +13,14 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Kris Kitani"
+    affiliation: "Carnegie Mellon University"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Kris Kitani"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -29,7 +28,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We present an approach for 3D global human mesh recovery from monocular videos recorded with dynamic cameras. Our approach is robust to severe and long-term occlusions and tracks human bodies even when they go outside the camera's field of view. To achieve this, we first propose a deep generative mo"
 url: "https://research.nvidia.com/publication/2022-06_glamr-global-occlusion-aware-human-mesh-recovery-dynamic-cameras"
-status: new
+status: "new"
 ---
 
 # GLAMR: Global Occlusion-Aware Human Mesh Recovery with Dynamic Cameras

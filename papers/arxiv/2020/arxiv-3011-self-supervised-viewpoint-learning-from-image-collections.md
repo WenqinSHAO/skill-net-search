@@ -1,9 +1,15 @@
 ---
-id: arxiv-3011
+id: "arxiv-3011"
 title: "Self-Supervised Viewpoint Learning From Image Collections"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Siva Karthik Mustikovela"
+    affiliation: "Heidelberg University"
+    is_industry: false
+  - name: "Varun Jampani"
+    affiliation: "Google Research"
+    is_industry: true
   - name: "Shalini De Mello"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +19,15 @@ authors:
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Carsten Rother"
+    affiliation: "Heidelberg University"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Siva Karthik Mustikovela"
-    affiliation: ""
-    is_industry: false
-  - name: "Varun Jampani"
-    affiliation: ""
-    is_industry: false
-  - name: "Carsten Rother"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://github.com/NVlabs/SSV"
 abstract: "Training deep neural networks to estimate the viewpoint of objects requires large labeled training datasets. However, manually labeling viewpoints is notoriously hard, error-prone, and time-consuming. On the other hand, it is relatively easy to mine many unlabeled images of an object category from t"
 url: "https://research.nvidia.com/publication/2020-06_self-supervised-viewpoint-learning-image-collections"
-status: new
+status: "new"
 ---
 
 # Self-Supervised Viewpoint Learning From Image Collections

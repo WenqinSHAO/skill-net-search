@@ -1,8 +1,8 @@
 ---
-id: arxiv-3017
+id: "arxiv-3017"
 title: "Weakly-Supervised 3D Human Pose Learning via Multi-view Images in the Wild"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Umar Iqbal"
     affiliation: "NVIDIA"
@@ -15,7 +15,6 @@ authors:
     is_industry: true
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -23,7 +22,7 @@ research_areas:
   - "Computer Vision"
 abstract: "One major challenge for monocular 3D human pose estimation in-the-wild is the acquisition of training data that contains unconstrained images annotated with accurate 3D poses. In this paper, we address this challenge by proposing a weakly-supervised approach that does not require 3D annotations and "
 url: "https://research.nvidia.com/publication/2020-06_weakly-supervised-3d-human-pose-learning-multi-view-images-wild"
-status: new
+status: "new"
 ---
 
 # Weakly-Supervised 3D Human Pose Learning via Multi-view Images in the Wild

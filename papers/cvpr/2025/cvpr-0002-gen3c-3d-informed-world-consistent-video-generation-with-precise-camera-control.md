@@ -1,9 +1,24 @@
 ---
-id: cvpr-0002
+id: "cvpr-0002"
 title: "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control"
-conference: CVPR 2025
-date: 2025-08
+conference: "CVPR 2025"
+date: "2025-08"
 authors:
+  - name: "Xuanchi Ren"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Tianchang Shen"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Jiahui Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Huan Ling"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yifan Lu"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Merlin Nimier-David"
     affiliation: "NVIDIA"
     is_industry: true
@@ -16,29 +31,13 @@ authors:
   - name: "Sanja Fidler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Xuanchi Ren"
-    affiliation: ""
-    is_industry: false
-  - name: "Tianchang Shen"
-    affiliation: ""
-    is_industry: false
-  - name: "Jiahui Huang"
-    affiliation: ""
-    is_industry: false
-  - name: "Huan Ling"
-    affiliation: ""
-    is_industry: false
-  - name: "Yifan Lu"
-    affiliation: ""
-    is_industry: false
   - name: "Jun Gao"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -52,7 +51,7 @@ external_links:
     url: "https://research.nvidia.com/labs/toronto-ai/GEN3C/"
 abstract: "We present GEN3C, a generative video model with precise Camera Control and temporal 3D Consistency. We achieve this with a 3D cache: point clouds obtained by predicting the pixel-wise depth of seed images or previously generated frames. When generating the next frames, GEN3C is conditioned on the 2D"
 url: "https://research.nvidia.com/publication/2025-08_gen3c-3d-informed-world-consistent-video-generation-precise-camera-control"
-status: new
+status: "new"
 ---
 
 # GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control

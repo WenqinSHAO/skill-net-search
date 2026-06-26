@@ -1,31 +1,30 @@
 ---
-id: arxiv-3029
+id: "arxiv-3029"
 title: "MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings"
-conference: arXiv 2020
-date: 2020-04
+conference: "arXiv 2020"
+date: "2020-04"
 authors:
+  - name: "Hyoukjun Kwon"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Prasanth Chatarasi"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Vivek Sarkar"
+    affiliation: "Georgia Tech"
+    is_industry: false
+  - name: "Tushar Krishna"
+    affiliation: "Georgia Tech"
+    is_industry: false
   - name: "Michael Pellauer"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Angshuman Parashar"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hyoukjun Kwon"
-    affiliation: ""
-    is_industry: false
-  - name: "Prasanth Chatarasi"
-    affiliation: ""
-    is_industry: false
-  - name: "Vivek Sarkar"
-    affiliation: ""
-    is_industry: false
-  - name: "Tushar Krishna"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9076333"
 abstract: "The efficiency of an accelerator depends on three factors -- mapping, deep neural network (DNN) layers, and hardware -- constructing extremely complicated design space of DNN accelerators. To demystify such complicated design space and guide the DNN accelerator design for better efficiency, we propo"
 url: "https://research.nvidia.com/publication/2020-04_maestro-data-centric-approach-understand-reuse-performance-and-hardware-cost"
-status: new
+status: "new"
 ---
 
 # MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings

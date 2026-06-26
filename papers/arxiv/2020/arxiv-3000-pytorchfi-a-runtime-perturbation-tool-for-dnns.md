@@ -1,38 +1,37 @@
 ---
-id: arxiv-3000
+id: "arxiv-3000"
 title: "PyTorchFI: A Runtime Perturbation Tool for DNNs"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Abdulrahman Mahmoud"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Neeraj Aggarwal"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Alex Nobbe"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Jose Rodrigo Sanchez Vicarte"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Sarita V. Adve"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Christopher W. Fletcher"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
   - name: "Iuri Frosio"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Siva Hari"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Abdulrahman Mahmoud"
-    affiliation: ""
-    is_industry: false
-  - name: "Neeraj Aggarwal"
-    affiliation: ""
-    is_industry: false
-  - name: "Alex Nobbe"
-    affiliation: ""
-    is_industry: false
-  - name: "Jose Rodrigo Sanchez Vicarte"
-    affiliation: ""
-    is_industry: false
-  - name: "Sarita V. Adve"
-    affiliation: ""
-    is_industry: false
-  - name: "Christopher W. Fletcher"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -45,7 +44,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9151812"
 abstract: "PyTorchFI is a runtime perturbation tool for deep neural networks (DNNs), implemented for the popular PyTorch deep learning platform. PyTorchFI enables users to perform perturbations on weights or neurons of DNNs at runtime. It is designed with the programmer in mind, providing a simple and easy-to-"
 url: "https://research.nvidia.com/publication/2020-06_pytorchfi-runtime-perturbation-tool-dnns"
-status: new
+status: "new"
 ---
 
 # PyTorchFI: A Runtime Perturbation Tool for DNNs

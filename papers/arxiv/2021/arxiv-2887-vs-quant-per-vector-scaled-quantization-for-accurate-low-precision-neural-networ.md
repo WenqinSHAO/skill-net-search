@@ -1,13 +1,16 @@
 ---
-id: arxiv-2887
+id: "arxiv-2887"
 title: "VS-QUANT: Per-Vector Scaled Quantization for Accurate Low-Precision Neural Network Inference"
-conference: arXiv 2021
-date: 2021-04
+conference: "arXiv 2021"
+date: "2021-04"
 authors:
   - name: "Steve Dai"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Rangharajan Venkatesan"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Mark Haoxing Ren"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Brian Zimmer"
@@ -19,13 +22,9 @@ authors:
   - name: "Brucek Khailany"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://arxiv.org/abs/2102.04503"
 abstract: "Quantization enables efficient acceleration of deep neural networks by reducing model memory footprint and exploiting low-cost integer math hardware units. Quantization maps floating-point weights and activations in a trained model to low-bitwidth integer values using scale factors. Excessive quanti"
 url: "https://research.nvidia.com/publication/2021-04_vs-quant-vector-scaled-quantization-accurate-low-precision-neural-network"
-status: new
+status: "new"
 ---
 
 # VS-QUANT: Per-Vector Scaled Quantization for Accurate Low-Precision Neural Network Inference

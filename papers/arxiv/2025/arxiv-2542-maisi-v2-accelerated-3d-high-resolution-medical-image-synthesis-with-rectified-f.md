@@ -1,44 +1,43 @@
 ---
-id: arxiv-2542
+id: "arxiv-2542"
 title: "MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss"
-conference: arXiv 2025
-date: 2025-08
+conference: "arXiv 2025"
+date: "2025-08"
 authors:
   - name: "Can Zhao"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Pengfei Guo"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Dong Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yucheng Tang"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Yufan He"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Benjamin Simon"
+    affiliation: "National Institutes of Health"
+    is_industry: false
+  - name: "Mason Belue"
+    affiliation: "University of Arkansas for Medical Sciences"
+    is_industry: false
+  - name: "Stephanie Harmon"
+    affiliation: "National Institutes of Health"
+    is_industry: false
+  - name: "Baris Turkbey"
+    affiliation: "National Institutes of Health"
+    is_industry: false
   - name: "Daguang Xu"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Pengfei Guo"
-    affiliation: ""
-    is_industry: false
-  - name: "Yucheng Tang"
-    affiliation: ""
-    is_industry: false
-  - name: "Benjamin Simon"
-    affiliation: ""
-    is_industry: false
-  - name: "Mason Belue"
-    affiliation: ""
-    is_industry: false
-  - name: "Stephanie Harmon"
-    affiliation: ""
-    is_industry: false
-  - name: "Baris Turkbey"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Foundation_models
   - Medical_imaging
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -47,7 +46,7 @@ research_areas:
   - "Generative AI"
   - "Medical"
 url: "https://research.nvidia.com/publication/2025-08_maisi-v2-accelerated-3d-high-resolution-medical-image-synthesis-rectified-flow"
-status: new
+status: "new"
 ---
 
 # MAISI-v2: Accelerated 3D High-Resolution Medical Image Synthesis with Rectified Flow and Region-specific Contrastive Loss

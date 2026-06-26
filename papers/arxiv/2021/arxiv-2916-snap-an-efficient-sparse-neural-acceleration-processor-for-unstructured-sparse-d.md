@@ -1,30 +1,29 @@
 ---
-id: arxiv-2916
+id: "arxiv-2916"
 title: "SNAP: An Efficient Sparse Neural Acceleration Processor for Unstructured Sparse Deep Neural Network Inference"
-conference: arXiv 2021
-date: 2021-02
+conference: "arXiv 2021"
+date: "2021-02"
 authors:
+  - name: "Jie-Fang Zhang"
+    affiliation: "University of Michigan"
+    is_industry: false
+  - name: "Ching-En Lee"
+    affiliation: "McKinsey and Company"
+    is_industry: false
+  - name: "Chester Liu"
+    affiliation: "University of Michigan"
+    is_industry: false
+  - name: "Yakun Sophia Shao"
+    affiliation: "UC Berkeley"
+    is_industry: false
   - name: "Steve Keckler"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jie-Fang Zhang"
-    affiliation: ""
-    is_industry: false
-  - name: "Ching-En Lee"
-    affiliation: ""
-    is_industry: false
-  - name: "Chester Liu"
-    affiliation: ""
-    is_industry: false
-  - name: "Yakun Sophia Shao"
-    affiliation: ""
-    is_industry: false
   - name: "Zhengya Zhang"
-    affiliation: ""
+    affiliation: "University of Michigan"
     is_industry: false
 topics:
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +34,7 @@ external_links:
     url: "https://ieeexplore.ieee.org/document/9310233"
 abstract: "Recent developments in deep neural network (DNN) pruning introduces data sparsity to enable deep learning applications to run more efficiently on resourceand energy-constrained hardware platforms. However, these sparse models require specialized hardware structures to exploit the sparsity for storag"
 url: "https://research.nvidia.com/publication/2021-02_snap-efficient-sparse-neural-acceleration-processor-unstructured-sparse-deep"
-status: new
+status: "new"
 ---
 
 # SNAP: An Efficient Sparse Neural Acceleration Processor for Unstructured Sparse Deep Neural Network Inference

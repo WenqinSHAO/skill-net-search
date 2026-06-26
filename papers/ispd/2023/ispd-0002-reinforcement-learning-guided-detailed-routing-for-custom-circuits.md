@@ -1,34 +1,33 @@
 ---
-id: ispd-0002
+id: "ispd-0002"
 title: "Reinforcement Learning Guided Detailed Routing for Custom Circuits"
-conference: ISPD 2023
-date: 2023-03
+conference: "ISPD 2023"
+date: "2023-03"
 authors:
+  - name: "Hao Chen"
+    affiliation: "University of Texas at Austin"
+    is_industry: false
+  - name: "Kai-Chieh Hsu"
+    affiliation: "Princeton University"
+    is_industry: false
   - name: "Walker Turner"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Hao Chen"
-    affiliation: ""
-    is_industry: false
-  - name: "Kai-Chieh Hsu"
-    affiliation: ""
-    is_industry: false
   - name: "Po-Hsuan Wei"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Keren Zhu"
-    affiliation: ""
+    affiliation: "University of Texas at Austin"
     is_industry: false
   - name: "David Z. Pan"
-    affiliation: ""
+    affiliation: "University of Texas at Austin"
     is_industry: false
-  - name: "Mark Haoxing Ren"
-    affiliation: ""
-    is_industry: false
+  - name: "Haoxing"
+    affiliation: "Mark) Ren (NVIDIA"
+    is_industry: true
 topics:
   - AI & Machine Learning
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://github.com/NVlabs/AutoCRAFT"
 abstract: "Detailed routing is the most tedious and complex procedure in design automation and has become a determining factor in layout automation in advanced manufacturing nodes. Despite continuing advances in custom integrated circuit (IC) routing research, industrial custom layout flows remain heavily manu"
 url: "https://research.nvidia.com/publication/2023-03_reinforcement-learning-guided-detailed-routing-custom-circuits"
-status: new
+status: "new"
 ---
 
 # Reinforcement Learning Guided Detailed Routing for Custom Circuits

@@ -1,9 +1,12 @@
 ---
-id: arxiv-2987
+id: "arxiv-2987"
 title: "Practical Product Sampling by Fitting and Composing Warps"
-conference: arXiv 2020
-date: 2020-07
+conference: "arXiv 2020"
+date: "2020-07"
 authors:
+  - name: "David Hart"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Matt Pharr"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,18 +16,14 @@ authors:
   - name: "Ward Lopes"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "David Hart"
-    affiliation: ""
-    is_industry: false
   - name: "Morgan McGuire"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Peter Shirley"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ external_links:
     url: "https://www.youtube.com/embed/LlpC6lTSqV8"
 abstract: "We introduce a Monte Carlo importance sampling method for integrands composed of products and show its application to rendering where direct sampling of the product is often difficult. Our method is based on warp functions that operate on the primary samples in [0,1)^n, where each warp approximates "
 url: "https://research.nvidia.com/publication/2020-07_practical-product-sampling-fitting-and-composing-warps"
-status: new
+status: "new"
 ---
 
 # Practical Product Sampling by Fitting and Composing Warps

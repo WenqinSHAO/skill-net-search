@@ -1,27 +1,26 @@
 ---
-id: eccv-0006
+id: "eccv-0006"
 title: "Text2LIVE: Text-Driven Layered Image and Video Editing"
-conference: ECCV 2022
-date: 2022-10
+conference: "ECCV 2022"
+date: "2022-10"
 authors:
+  - name: "Omer Bar-Tal"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
+  - name: "Dolev Ofri-Amar"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
+  - name: "Rafail Fridman"
+    affiliation: "Weizmann Institute of Science"
+    is_industry: false
   - name: "Yoni Kasten"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Omer Bar-Tal"
-    affiliation: ""
-    is_industry: false
-  - name: "Dolev Ofri-Amar"
-    affiliation: ""
-    is_industry: false
-  - name: "Rafail Fridman"
-    affiliation: ""
-    is_industry: false
   - name: "Tali Dekel"
-    affiliation: ""
+    affiliation: "Weizmann Institute of Science"
     is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://text2live.github.io/"
 abstract: "We present a method for zero-shot, text-driven appearance manipulation in natural images and videos. Specifically, given an input image or video and a target text prompt, our goal is to edit the appearance of existing objects (e.g., object's texture) or augment the scene with new visual effects (e.g"
 url: "https://research.nvidia.com/publication/2022-10_text2live-text-driven-layered-image-and-video-editing"
-status: new
+status: "new"
 ---
 
 # Text2LIVE: Text-Driven Layered Image and Video Editing

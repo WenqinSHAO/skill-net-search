@@ -1,8 +1,8 @@
 ---
-id: arxiv-2667
+id: "arxiv-2667"
 title: "Learning Autonomous Vehicle Safety Concepts from Demonstrations"
-conference: arXiv 2023
-date: 2023-05
+conference: "arXiv 2023"
+date: "2023-05"
 authors:
   - name: "Karen Leung"
     affiliation: "NVIDIA"
@@ -19,7 +19,6 @@ authors:
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -32,7 +31,7 @@ external_links:
     url: "https://arxiv.org/abs/2210.02761"
 abstract: "Evaluating the safety of an autonomous vehicle (AV) depends on the behavior of surrounding agents which can be heavily influenced by factors such as environmental context and informally-defined driving etiquette. A key challenge is in determining a minimum set of assumptions on what constitutes reas"
 url: "https://research.nvidia.com/publication/2023-05_learning-autonomous-vehicle-safety-concepts-demonstrations"
-status: new
+status: "new"
 ---
 
 # Learning Autonomous Vehicle Safety Concepts from Demonstrations

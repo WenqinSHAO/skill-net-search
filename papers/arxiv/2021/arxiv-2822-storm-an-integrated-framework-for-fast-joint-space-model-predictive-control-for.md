@@ -1,33 +1,32 @@
 ---
-id: arxiv-2822
+id: "arxiv-2822"
 title: "STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation"
-conference: arXiv 2021
-date: 2021-11
+conference: "arXiv 2021"
+date: "2021-11"
 authors:
+  - name: "Mohak Bhardwaj"
+    affiliation: "University of Washington"
+    is_industry: false
   - name: "Balakumar Sundaralingam"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arsalan Mousavian"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Nathan Ratliff"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Dieter Fox"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Fabio Ramos"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Mohak Bhardwaj"
-    affiliation: ""
-    is_industry: false
-  - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
-  - name: "Nathan Ratliff"
-    affiliation: ""
-    is_industry: false
-  - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
   - name: "Byron Boots"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://github.com/NVlabs/storm"
 abstract: "Sampling-based model-predictive control (MPC) is a promising tool for feedback control of robots with complex, non-smooth dynamics, and cost functions. However, the computationally demanding nature of sampling-based MPC algorithms has been a key bottleneck in their application to high-dimensional ro"
 url: "https://research.nvidia.com/publication/2021-11_storm-integrated-framework-fast-joint-space-model-predictive-control-reactive"
-status: new
+status: "new"
 ---
 
 # STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation

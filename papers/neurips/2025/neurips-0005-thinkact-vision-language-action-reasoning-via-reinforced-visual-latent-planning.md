@@ -1,10 +1,13 @@
 ---
-id: neurips-0005
+id: "neurips-0005"
 title: "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"
-conference: NeurIPS 2025
-date: 2025-12
+conference: "NeurIPS 2025"
+date: "2025-12"
 authors:
   - name: "Chi-Pin Huang"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yueh-Hua Wu"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Min-Hung Chen"
@@ -16,14 +19,10 @@ authors:
   - name: "Fred Yang"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yueh-Hua Wu"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Foundation_models
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://jasper0314-huang.github.io/thinkact-vla/"
 abstract: "Vision-language-action (VLA) reasoning tasks require agents to interpret multimodal instructions, perform long-horizon planning, and act adaptively in dynamic environments. Existing approaches typically train VLA models in an end-to-end fashion, directly mapping inputs to actions without explicit re"
 url: "https://research.nvidia.com/publication/2025-12_thinkact-vision-language-action-reasoning-reinforced-visual-latent-planning"
-status: new
+status: "new"
 ---
 
 # ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning

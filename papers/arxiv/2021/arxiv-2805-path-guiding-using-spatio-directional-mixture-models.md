@@ -1,25 +1,27 @@
 ---
-id: arxiv-2805
+id: "arxiv-2805"
 title: "Path Guiding Using Spatio-Directional Mixture Models"
-conference: arXiv 2021
-date: 2021-12
+conference: "arXiv 2021"
+date: "2021-12"
 authors:
-  - name: "Thomas Müller"
-    affiliation: "NVIDIA"
-    is_industry: true
   - name: "Ana Dodik"
+    affiliation: "Facebook"
+    is_industry: true
+  - name: "Marios Papas (Disney Research"
     affiliation: ""
     is_industry: false
-  - name: "Marios Papas"
+  - name: "Studios)"
     affiliation: ""
     is_industry: false
   - name: "Cengiz Öztireli"
-    affiliation: ""
+    affiliation: "University of Cambridge"
     is_industry: false
+  - name: "Thomas Müller"
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - CUDA_ecosystem
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -35,7 +37,7 @@ external_links:
     url: "https://tom94.net/data/publications/dodik21pathguiding/dodik21pathguiding.mp4"
 abstract: "We propose a learning-based method for light-path construction in path tracing algorithms, which iteratively optimizes and samples from what we refer to as spatio-directional Gaussian mixture models (SDMMs). In particular, we approximate incident radiance as an online-trained 5D mixture that is acce"
 url: "https://research.nvidia.com/publication/2021-12_path-guiding-using-spatio-directional-mixture-models"
-status: new
+status: "new"
 ---
 
 # Path Guiding Using Spatio-Directional Mixture Models

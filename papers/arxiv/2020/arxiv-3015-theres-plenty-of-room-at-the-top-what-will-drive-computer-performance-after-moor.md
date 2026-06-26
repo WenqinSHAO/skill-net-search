@@ -1,34 +1,33 @@
 ---
-id: arxiv-3015
+id: "arxiv-3015"
 title: "There’s Plenty of Room at the Top: What Will Drive Computer Performance after Moore’s Law?"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
+  - name: "Charles E. Leiserson"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
+  - name: "Neil C. Thompson"
+    affiliation: "Massachusetts Institute of Technology"
+    is_industry: false
   - name: "Joel Emer"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Charles E. Leiserson"
-    affiliation: ""
-    is_industry: false
-  - name: "Neil C. Thompson"
-    affiliation: ""
-    is_industry: false
   - name: "Bradley C. Kuszmaul"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
   - name: "Butler W. Lampson"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
   - name: "Daniel Sanchez"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
   - name: "Tao B. Schardl"
-    affiliation: ""
+    affiliation: "Massachusetts Institute of Technology"
     is_industry: false
 topics:
   - CUDA_ecosystem
   - GPU_architecture
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -40,7 +39,7 @@ external_links:
     url: "https://www.science.org/doi/10.1126/science.aam9744"
 abstract: "The miniaturization of semiconductor transistors has driven the growth in computer performance for more than 50 years. As miniaturization approaches its limits, bringing an end to Moore’s law, performance gains will need to come from software, algorithms, and hardware. We refer to these technologies"
 url: "https://research.nvidia.com/publication/2020-06_there-s-plenty-room-top-what-will-drive-computer-performance-after-moore-s-law"
-status: new
+status: "new"
 ---
 
 # There’s Plenty of Room at the Top: What Will Drive Computer Performance after Moore’s Law?

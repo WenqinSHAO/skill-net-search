@@ -1,9 +1,15 @@
 ---
-id: arxiv-2687
+id: "arxiv-2687"
 title: "Implementing Reinforcement Learning Datacenter Congestion Control in NVIDIA NICs"
-conference: arXiv 2023
-date: 2023-01
+conference: "arXiv 2023"
+date: "2023-01"
 authors:
+  - name: "Benjamin Fuhrer"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yuval Shpigelman"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Chen Tessler"
     affiliation: "NVIDIA"
     is_industry: true
@@ -13,22 +19,15 @@ authors:
   - name: "Gal Chechik"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Eitan Zahavy"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Gal Dalal"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Benjamin Fuhrer"
-    affiliation: ""
-    is_industry: false
-  - name: "Yuval Shpigelman"
-    affiliation: ""
-    is_industry: false
-  - name: "Eitan Zahavy"
-    affiliation: ""
-    is_industry: false
 topics:
   - Interconnect_networking
   - Simulation_HPC
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ research_areas:
   - "Networking"
 abstract: "As communication protocols evolve, datacenter network utilization increases. As a result, congestion is more frequent, causing higher latency and packet loss. Combined with the increasing complexity of workloads, manual design of congestion control (CC) algorithms becomes extremely difficult. This c"
 url: "https://research.nvidia.com/publication/2023-01_implementing-reinforcement-learning-datacenter-congestion-control-nvidia-nics"
-status: new
+status: "new"
 ---
 
 # Implementing Reinforcement Learning Datacenter Congestion Control in NVIDIA NICs

@@ -1,8 +1,8 @@
 ---
-id: arxiv-2952
+id: "arxiv-2952"
 title: "Modular Primitives for High-Performance Differentiable Rendering"
-conference: arXiv 2020
-date: 2020-11
+conference: "arXiv 2020"
+date: "2020-11"
 authors:
   - name: "Samuli Laine"
     affiliation: "NVIDIA"
@@ -13,19 +13,18 @@ authors:
   - name: "Tero Karras"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Yeongho Seol"
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Jaakko Lehtinen"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Timo Aila"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yeongho Seol"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Graphics_rendering
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ external_links:
     url: "https://github.com/NVlabs/nvdiffrast"
 abstract: "We present a modular differentiable renderer design that yields performance superior to previous methods by leveraging existing, highly optimized hardware graphics pipelines. Our design supports all crucial operations in a modern graphics pipeline: rasterizing large numbers of triangles, attribute i"
 url: "https://research.nvidia.com/publication/2020-11_modular-primitives-high-performance-differentiable-rendering"
-status: new
+status: "new"
 ---
 
 # Modular Primitives for High-Performance Differentiable Rendering

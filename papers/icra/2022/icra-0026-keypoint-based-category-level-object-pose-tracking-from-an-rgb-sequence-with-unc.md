@@ -1,28 +1,27 @@
 ---
-id: icra-0026
+id: "icra-0026"
 title: "Keypoint-Based Category-Level Object Pose Tracking from an RGB Sequence with Uncertainty Estimation"
-conference: ICRA 2022
-date: 2022-01
+conference: "ICRA 2022"
+date: "2022-01"
 authors:
+  - name: "Yunzhi Lin"
+    affiliation: "NVIDIA, Georgia Institute of Technology"
+    is_industry: true
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Stephen Tyree"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Patricio A. Vela"
+    affiliation: "Georgia Institute of Technology"
+    is_industry: false
   - name: "Stan Birchfield"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Yunzhi Lin"
-    affiliation: ""
-    is_industry: false
-  - name: "Patricio A. Vela"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -34,7 +33,7 @@ external_links:
     url: "https://github.com/NVlabs/CenterPose"
 abstract: "We propose a single-stage, category-level 6-DoF pose estimation algorithm that simultaneously detects and tracks instances of objects within a known category. &nbsp;Our method takes as input the previous and current frame from a monocular RGB video, as well as predictions from the previous frame, to"
 url: "https://research.nvidia.com/publication/2022-01_keypoint-based-category-level-object-pose-tracking-rgb-sequence-uncertainty"
-status: new
+status: "new"
 ---
 
 # Keypoint-Based Category-Level Object Pose Tracking from an RGB Sequence with Uncertainty Estimation

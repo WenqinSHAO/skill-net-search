@@ -1,40 +1,39 @@
 ---
-id: icra-0022
+id: "icra-0022"
 title: "HandoverSim: A Simulation Framework and Benchmark for Human-to-Robot Object Handovers"
-conference: ICRA 2022
-date: 2022-05
+conference: "ICRA 2022"
+date: "2022-05"
 authors:
   - name: "Yu-Wei Chao"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Chris Paxton"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Yu Xiang"
+    affiliation: "UT Dallas"
+    is_industry: false
   - name: "Wei Yang"
     affiliation: "NVIDIA"
     is_industry: true
   - name: "Balakumar Sundaralingam"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Tao Chen"
+    affiliation: "MIT"
+    is_industry: false
   - name: "Adithya Murali"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Chris Paxton"
-    affiliation: ""
-    is_industry: false
-  - name: "Yu Xiang"
-    affiliation: ""
-    is_industry: false
-  - name: "Tao Chen"
-    affiliation: ""
-    is_industry: false
   - name: "Maya Cakmak"
-    affiliation: ""
+    affiliation: "University of Washington"
     is_industry: false
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Computer Vision
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -44,9 +43,9 @@ research_areas:
 external_links:
   - name: "Paper, Code, Video"
     url: "https://handover-sim.github.io"
-abstract: "We introduce a new simulation benchmark "HandoverSim" for human-to-robot object handovers. To simulate the giver's motion, we leverage a recent motion capture dataset of hand grasping of objects. We create training and evaluation environments for the receiver with standardized protocols and metrics."
+abstract: "We introduce a new simulation benchmark \"HandoverSim\" for human-to-robot object handovers. To simulate the giver's motion, we leverage a recent motion capture dataset of hand grasping of objects. We create training and evaluation environments for the receiver with standardized protocols and metrics."
 url: "https://research.nvidia.com/publication/2022-05_handoversim-simulation-framework-and-benchmark-human-robot-object-handovers"
-status: new
+status: "new"
 ---
 
 # HandoverSim: A Simulation Framework and Benchmark for Human-to-Robot Object Handovers

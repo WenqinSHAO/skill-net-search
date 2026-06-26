@@ -1,8 +1,8 @@
 ---
-id: arxiv-3010
+id: "arxiv-3010"
 title: "Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion"
-conference: arXiv 2020
-date: 2020-06
+conference: "arXiv 2020"
+date: "2020-06"
 authors:
   - name: "Hongxu Danny Yin"
     affiliation: "NVIDIA"
@@ -10,27 +10,26 @@ authors:
   - name: "Pavlo Molchanov"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Jose M. Alvarez"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Zhizhong Li"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Arun Mallya"
+    affiliation: "NVIDIA"
+    is_industry: true
+  - name: "Derek Hoiem"
+    affiliation: "University of Illinois at Urbana-Champaign"
+    is_industry: false
+  - name: "Niraj K. Jha"
+    affiliation: "Princeton University"
+    is_industry: false
   - name: "Jan Kautz"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Jose M. Alvarez"
-    affiliation: ""
-    is_industry: false
-  - name: "Zhizhong Li"
-    affiliation: ""
-    is_industry: false
-  - name: "Arun Mallya"
-    affiliation: ""
-    is_industry: false
-  - name: "Derek Hoiem"
-    affiliation: ""
-    is_industry: false
-  - name: "Niraj K. Jha"
-    affiliation: ""
-    is_industry: false
 topics:
   - Computer Vision
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -38,7 +37,7 @@ research_areas:
   - "Computer Vision"
 abstract: "We introduce DeepInversion, a new method for synthesizing images from the image distribution used to train a deep neural network. We “invert” a trained network (teacher) to synthesize class-conditional input images starting from random noise, without using any additional information on the training "
 url: "https://research.nvidia.com/publication/2020-06_dreaming-distill-data-free-knowledge-transfer-deepinversion"
-status: new
+status: "new"
 ---
 
 # Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion

@@ -1,12 +1,15 @@
 ---
-id: rss-0001
+id: "rss-0001"
 title: "Towards a VLM Benchmark for Simulated Robotics"
-conference: RSS 2025
-date: 2025-06
+conference: "RSS 2025"
+date: "2025-06"
 authors:
   - name: "Xuning Yang"
     affiliation: "NVIDIA"
     is_industry: true
+  - name: "Clemens Eppner"
+    affiliation: ""
+    is_industry: false
   - name: "Valts Blukis"
     affiliation: "NVIDIA"
     is_industry: true
@@ -25,13 +28,9 @@ authors:
   - name: "Jonathan Tremblay"
     affiliation: "NVIDIA"
     is_industry: true
-  - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
 topics:
   - AI & Machine Learning
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -39,7 +38,7 @@ research_areas:
   - "Artificial Intelligence and Machine Learning"
   - "Robotics"
 url: "https://research.nvidia.com/publication/2025-06_towards-vlm-benchmark-simulated-robotics"
-status: new
+status: "new"
 ---
 
 # Towards a VLM Benchmark for Simulated Robotics

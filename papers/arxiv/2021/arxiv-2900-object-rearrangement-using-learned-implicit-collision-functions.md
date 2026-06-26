@@ -1,24 +1,23 @@
 ---
-id: arxiv-2900
+id: "arxiv-2900"
 title: "Object Rearrangement Using Learned Implicit Collision Functions"
-conference: arXiv 2021
-date: 2021-03
+conference: "arXiv 2021"
+date: "2021-03"
 authors:
   - name: "Michael Danielczuk"
-    affiliation: ""
+    affiliation: "UC Berkeley"
     is_industry: false
   - name: "Arsalan Mousavian"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Clemens Eppner"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
   - name: "Dieter Fox"
-    affiliation: ""
-    is_industry: false
+    affiliation: "NVIDIA"
+    is_industry: true
 topics:
   - Robotics_autonomous
-  - AI & Machine Learning
 tags:
   - nvidia-research
 arxiv: ""
@@ -37,7 +36,7 @@ external_links:
     url: "https://sites.google.com/nvidia.com/scenecollisionnet"
 abstract: "Robotic object rearrangement combines the skills of picking and placing objects. When object models are unavailable, typical collision-checking models may be unable to predict collisions in partial point clouds with occlusions, making generation of collision-free grasping or placement trajectories c"
 url: "https://research.nvidia.com/publication/2021-03_object-rearrangement-using-learned-implicit-collision-functions"
-status: new
+status: "new"
 ---
 
 # Object Rearrangement Using Learned Implicit Collision Functions
