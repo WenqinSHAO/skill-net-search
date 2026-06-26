@@ -34,23 +34,29 @@ quadrants, or topic categories that are too coarse for a networking audience.
   normalization.
 - `data/core99_researcher_attributes.json` / `.csv` contain deterministic
   core-99 researcher attributes, including author-position summaries.
+- `data/topnet_venue_year_papers.json` is the canonical paginated DBLP TOC
+  source for top-networking venue-year completeness.
+- `TOPNET_VENUE_COMPLETENESS.md` audits raw TOC coverage vs clean main-paper
+  scope: 41 available venue-years complete, 4 not yet available, 0 raw-fetch
+  concerns.
 - `data/new_core_clean_papers.json` is the repaired canonical clean-paper table
-  for new-core work.
+  for new-core work: 2,236 included main-paper records and 193 excluded
+  non-main records.
 - `data/new_core.json` contains the repaired new-core split:
-  - new-core: 115
-  - stayers: 43
-  - newcomers: 72
-  - dropouts: 56
-  - complete newcomers outside the broad baseline cohort: 9
-- `data/paper_topic_labels_v2.json`, `data/venue_topic_vectors_v2.json`, and
-  `data/venue_topic_evolution_v2.csv` contain the first keyword-based
-  top-networking paper-topic vectors.
-- `data/new_core_topic_profiles.json` / `.csv` contain topic profiles for all
-  171 stayers/newcomers/dropouts.
+  - new-core: 124
+  - stayers: 46
+  - newcomers: 78
+  - dropouts: 53
+  - complete newcomers outside the broad baseline cohort: 12
+- `data/paper_topic_labels_v2.json`, `data/venue_topic_vectors_v2.json`,
+  `data/venue_topic_evolution_v2.csv`, and
+  `data/new_core_topic_profiles.json` / `.csv` are stale after the venue
+  completeness repair and should be regenerated only after topic-taxonomy
+  repair.
 
 ### Important Caveats That Remain
 
-- 2026 is observed-as-available and incomplete.
+- 2026 is observed-as-available and incomplete: NSDI 2026 is complete; SIGCOMM, CoNEXT/PACMNET, HotNets, and IMC 2026 are not yet available in the canonical DBLP TOC source.
 - Current paper-topic labels are keyword-based; the "Other" rate is high enough
   that the taxonomy should be treated as a first pass, not a final ontology.
 - `classical_networking` is too broad for the next phase. A networking audience
@@ -431,20 +437,31 @@ among several, and is often a networking/systems problem rather than core AI.
 
 ## Immediate Next Work
 
-1. **Materialize I.1 paper scope.**
-   - Create the scope manifest.
-   - Produce inclusion/exclusion counts by source, venue, and year.
-   - Update README terminology to use total/net/top-net papers.
+1. ✅ **Materialize I.1 paper scope — DONE.**
+   - `data/analysis_scope_manifest.json`
+   - `data/analysis_scope_audit.json` / `.csv`
+   - README terminology updated to use total/net/top-net papers.
 
-2. **Materialize I.2 venue-year background.**
-   - Build cohort-neutral venue-year counts, topic vectors, and author concentration metrics.
-   - Produce all-top-net yearly and per-venue yearly views.
-   - Keep cohort incidence as a later overlay.
+2. ✅ **Repair top-net venue completeness — DONE for available DBLP TOCs.**
+   - `data/topnet_venue_year_papers.json` is the canonical paginated source.
+   - `TOPNET_VENUE_COMPLETENESS.md` reports 41 raw-complete available venue-years, 4 not-yet-available 2026 venue-years, and 0 raw-fetch concerns.
+   - Clean main-paper counts intentionally exclude proceedings, posters/demos, editorials, and workshop summaries.
 
-3. **Stop and review before I.3+.**
+3. ⚠️ **Materialize I.2 venue-year background — TOPIC DIAGNOSTIC ONLY.**
+   - `data/venue_year_background.json` / `.csv` now use the complete available top-net source.
+   - `data/venue_year_topic_vectors_stage1.json` exists, but the old keyword classifier is not adequate for interpretation.
+   - `data/venue_year_author_concentration.csv` is usable as a count/concentration diagnostic, subject to the 2026 availability caveat.
+   - `VENUE_YEAR_BACKGROUND.md` is a diagnostic report, not an analysis-ready topic-evolution result.
+
+4. **Repair topic taxonomy before I.3+.**
+   - Replace or substantially audit the networking-topic classifier.
+   - Regenerate topic labels, venue vectors, and new-core topic profiles from the 2,236-paper clean table.
+   - Only then produce interpretive venue-evolution text.
+
+5. **Stop and review before I.3+.**
    - Do not implement researcher broad-profile vectors yet.
    - Do not introduce cohort-incidence overlays into venue analysis yet.
-   - Revisit the rest of Part I after the scope manifest and venue-year background artifacts exist.
+   - Review the I.1/I.2 report and artifact definitions before extending the apparatus.
 
 ## Historical Completed Work Index
 

@@ -146,34 +146,27 @@ Why this repair exists:
 
 Current repaired artifacts:
   - `data/pacmnet_toc_papers.json` — PACMNET DBLP TOC records for CoNEXT long-paper evidence
-  - `data/new_core_clean_papers.json` — canonical clean-paper table (2,170 main papers) with
+  - `data/new_core_clean_papers.json` — canonical clean-paper table (2,236 main papers) with
     inclusion/exclusion reasons, source tags, and venue-year coverage diagnostics
   - `data/new_core.json` — repaired new-core/stayer/newcomer/dropout split
-  - `data/new_core_researcher_profiles.json` / `.csv` — descriptive venue-count/author-role profiles for all 171 researchers
-  - `data/new_core_topic_profiles.json` / `.csv` — per-researcher topic profiles from canonical clean table (all 171)
-  - `data/paper_topic_labels_v2.json` — per-paper topic labels from repaired data (2,170 papers)
-  - `data/venue_topic_vectors_v2.json` — venue-year topic feature vectors from repaired data
-  - `data/venue_topic_evolution_v2.csv` — CSV of venue-year topic shares for charting
+  - `data/new_core_researcher_profiles.json` / `.csv` — descriptive venue-count/author-role profiles; needs regeneration after the canonical venue completeness repair
+  - `data/new_core_topic_profiles.json` / `.csv` — per-researcher topic profiles; stale until topic taxonomy and repaired paper table are re-run together
+  - `data/paper_topic_labels_v2.json` — per-paper topic labels from the earlier repaired data; stale after the 2,236-paper completeness repair
+  - `data/venue_topic_vectors_v2.json` — venue-year topic feature vectors; stale after the 2,236-paper completeness repair
+  - `data/venue_topic_evolution_v2.csv` — CSV of venue-year topic shares; stale after the 2,236-paper completeness repair
 
 Current repaired count snapshot from `scripts/fetch_pacmnet_tocs.py` plus
 `scripts/build_new_core.py`:
-- **new-core**: 115 researchers
-- **stayers**: 43 researchers also in core-99
-- **newcomers**: 72 researchers not in core-99
-- **dropouts**: 56 core-99 researchers below the new-core threshold
-- **complete newcomers outside broad cohort**: 9
+- **new-core**: 124 researchers
+- **stayers**: 46 researchers also in core-99
+- **newcomers**: 78 researchers not in core-99
+- **dropouts**: 53 core-99 researchers below the new-core threshold
+- **complete newcomers outside broad cohort**: 12
 
-Key corrected findings (replacing old exploratory numbers from incomplete data):
-- **Stay AI infra share**: 7.5% (+7.0pp delta) at qualifying venues
-- **Newcomer current top-venue mix**: 8.9% AI infra and 23.6% classical networking; deltas are baseline-fragile because 52/72 newcomers have fewer than 5 baseline qualifying papers
-- **Dropout AI infra share**: 2.4% (+1.8pp delta)
-- **AI infra at NSDI**: 1-4% (2018-2022) → 6-11% (2023-2026)
-- **AI infra at SIGCOMM**: 0-2% (2018-2022) → 10-11% (2024-2025)
-- **Who writes AI-infra papers**: 55% involve stayers, 39% involve newcomers, 34% involve researchers outside both groups
-- **Newcomers are NOT simply "AI researchers invading networking"** — their current qualifying-venue portfolios contain substantial classical networking as well as AI infra
+Interpretive topic findings from the earlier new-core pass are now stale because the canonical venue completeness repair changed the clean paper table from 2,170 to 2,236 papers and changed the new-core split. Rebuild topic labels and researcher profiles after the networking-topic taxonomy is repaired.
 
 Important caveat remains: 2026 venue coverage is observed-as-available rather
-than complete (only NSDI 2026 present). Topic classification is keyword-based with 34.5% "Other" rate.
+than complete. NSDI 2026 is indexed and complete; SIGCOMM, CoNEXT/PACMNET, HotNets, and IMC 2026 are not yet available in the canonical DBLP TOC source. Existing topic-profile artifacts are stale until rebuilt from the 2,236-paper table.
 
 Old exploratory artifacts retained for comparison:
   - `data/post_gpt_core.json`
@@ -182,7 +175,34 @@ Old exploratory artifacts retained for comparison:
   - `data/venue_topic_vectors.json` (v1)
   - `data/researcher_topic_profiles.json` (v1)
 
-### 7. Project Plan And Status
+### 7. Data Apparatus And Venue-Year Background (Diagnostic, June 2026)
+
+The reorganized analysis now starts with explicit paper scopes and cohort-neutral
+venue background before returning to researcher interpretation. Current I.2
+outputs are diagnostic only for topic interpretation: venue-year raw coverage is now repaired and audited, while the Stage-1 topic classifier remains inadequate for substantive venue-evolution claims.
+
+Scope terminology:
+- **total papers**: all in-scope conference papers attached to a researcher after deduplication and record cleaning
+- **net papers**: total papers that are networking-related
+- **top-net papers**: net papers in SIGCOMM, NSDI, CoNEXT, HotNets, or IMC
+- **author-summed count**: researcher-paper incidences; coauthored papers can count once per scoped researcher
+- **unique-paper count**: paper union; coauthored papers count once
+
+Current I.1/I.2 artifacts:
+  - [TOPNET_VENUE_COMPLETENESS.md](/home/wenqin/net-search/projects/networking-to-ai-migration/TOPNET_VENUE_COMPLETENESS.md) — raw TOC completeness audit for top-networking venue-years
+  - [VENUE_YEAR_BACKGROUND.md](/home/wenqin/net-search/projects/networking-to-ai-migration/VENUE_YEAR_BACKGROUND.md) — diagnostic table/text report; clean-vs-raw count differences are expected scope distinctions
+  - `data/analysis_scope_manifest.json` — canonical scope definitions and aggregation modes
+  - `data/analysis_scope_audit.json` / `.csv` — inclusion/exclusion audit from repaired top-net table
+  - `data/venue_year_background.json` / `.csv` — diagnostic cohort-neutral all-top-net-year and venue-year background rows
+  - `data/venue_year_topic_vectors_stage1.json` — Stage-1 keyword topic vectors for debugging only; not analysis-ready
+  - `data/venue_year_author_concentration.csv` — unique authors, repeat-author share, top-k share, Gini, HHI
+
+Important: these are venue-background diagnostics. They intentionally do **not**
+yet overlay core-99/new-core/stayer/newcomer/dropout labels. The raw top-net
+venue completeness gate is now satisfied for available DBLP TOCs; the next gate
+is topic-taxonomy repair.
+
+### 8. Project Plan And Status
 
 For the evolving TODO list and sequencing logic, read:
 
@@ -208,8 +228,11 @@ The main scripts and their current roles are:
 | `scripts/build_comparison_cohort.py` | Build 2013-2017 comparison cohort for regression-to-the-mean check |
 | `scripts/fetch_pacmnet_tocs.py` | Fetch PACMNET TOC records for CoNEXT long-paper evidence |
 | `scripts/build_new_core.py` | Build repaired new-core cohort and canonical clean paper table |
-| `scripts/build_new_core_profiles.py` | Build descriptive venue-count/author-role profiles for all 171 new-core split researchers |
+| `scripts/build_new_core_profiles.py` | Build descriptive venue-count/author-role profiles; rerun after canonical venue completeness repair |
 | `scripts/build_new_core_topic_profiles.py` | 🆕 Build researcher topic profiles from canonical clean paper table (active) |
+| `scripts/fetch_topnet_venue_year_papers.py` | 🆕 Fetch paginated canonical top-net venue-year DBLP TOC records |
+| `scripts/audit_topnet_venue_completeness.py` | 🆕 Audit raw TOC completeness vs clean main-paper scope |
+| `scripts/build_scope_and_venue_background.py` | 🆕 Build I.1 scope manifest/audit and I.2 cohort-neutral venue-year background artifacts |
 | `scripts/classify_paper_topics.py` | 🆕 Keyword-based paper topic classifier v2 — reads from new_core_clean_papers.json |
 | `scripts/build_post_gpt_core.py` | ⛔ DEPRECATED — old post-GPT core builder; retained for comparison only |
 | `scripts/build_researcher_topic_profiles.py` | ⛔ DEPRECATED — old itinerary-based topic profiles; retained for comparison only |
@@ -314,15 +337,15 @@ Near-term open work:
 
 Completed June 2026:
 
-- ✅ New-core data foundation repaired (115 researchers, 43/72/56 split, canonical clean paper table)
+- ✅ Top-net venue completeness repaired for available DBLP TOCs (124 new-core researchers; 46/78/53 split)
 - ✅ PACMNET TOC integration for CoNEXT 2023-2025 long-paper evidence
-- ✅ Topic classification rebuilt on repaired clean paper table (v2: 2,170 papers)
-- ✅ Researcher topic profiles rebuilt for all 171 stayers/newcomers/dropouts (including 9 DBLP-only complete newcomers)
-- ✅ Conference-level topic evolution re-quantified (NSDI: 1-4% → 6-11% AI infra; SIGCOMM: 0-2% → 10-11%)
-- ✅ AI-infra authorship re-analyzed (55% involve stayers, 39% involve newcomers, 31% cross-generational collaboration)
-- ✅ Newcomer mixed current-portfolio pattern identified (substantial classical networking and AI infra in post-2023 qualifying venues; longitudinal deltas are baseline-fragile)
-- ✅ CORE99_ANALYSIS.md §11 updated with repaired counts and corrected findings
-- ✅ Documentation consistency restored (README.md, ANALYSIS_PLAN.md, CORE99_ANALYSIS.md)
+- ⚠️ Topic classification artifacts are stale after the 2,236-paper venue completeness repair
+- ⚠️ Researcher topic profiles need regeneration after topic-taxonomy repair
+- ⚠️ Conference-level topic evolution needs regeneration after taxonomy repair
+- ⚠️ AI-infra authorship analysis needs regeneration after taxonomy repair
+- ⚠️ Newcomer topic-portfolio interpretation needs regeneration after taxonomy repair
+- ⚠️ CORE99_ANALYSIS.md §11 predates the canonical venue completeness repair and needs follow-up
+- ✅ Documentation consistency restored for the venue-completeness checkpoint (README.md, ANALYSIS_PLAN.md)
 
 Old exploratory outputs (deprecated but retained for comparison):
   - `data/post_gpt_core.json` (113/40/73/59)

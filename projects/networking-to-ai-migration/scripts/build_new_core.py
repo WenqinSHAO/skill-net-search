@@ -24,6 +24,7 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR / "data"
 
 RAW_BASELINE = DATA_DIR / "raw_dblp_papers.json"
+TOPNET_VENUE_YEAR_PAPERS = DATA_DIR / "topnet_venue_year_papers.json"
 POST_VENUE_PAPERS = DATA_DIR / "post_gpt_venue_papers.json"
 PACMNET_TOC_PAPERS = DATA_DIR / "pacmnet_toc_papers.json"
 ITINERARIES = DATA_DIR / "researcher_itineraries.json"
@@ -231,33 +232,47 @@ def build_papers() -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
     name_to_pid = build_name_pid_lookup()
     diagnostics["inputs"]["unambiguous_name_pid_lookup_size"] = len(name_to_pid)
 
-    raw_baseline = load_json(RAW_BASELINE, [])
-    diagnostics["inputs"]["raw_dblp_papers"] = len(raw_baseline)
-    for p in raw_baseline:
-        if int(p.get("year") or 0) in BASELINE_YEARS:
-            add_or_merge_paper(papers, p, source="raw_dblp_papers", name_to_pid=name_to_pid)
+    topnet_data = load_json(TOPNET_VENUE_YEAR_PAPERS, None)
+    using_repaired_topnet = bool(topnet_data and topnet_data.get("papers"))
+    if using_repaired_topnet:
+        topnet_papers = topnet_data.get("papers", [])
+        diagnostics["inputs"]["topnet_venue_year_papers"] = len(topnet_papers)
+        diagnostics["inputs"]["topnet_venue_year_papers_metadata"] = topnet_data.get("metadata", {})
+        diagnostics["inputs"]["topnet_venue_year_papers_coverage"] = topnet_data.get("coverage", [])
+        for p in topnet_papers:
+            add_or_merge_paper(papers, p, source="topnet_venue_year_papers", name_to_pid=name_to_pid)
+    else:
+        diagnostics["notes"].append(
+            "data/topnet_venue_year_papers.json not found; falling back to legacy raw_dblp_papers/post_gpt_venue_papers/PACMNET inputs."
+        )
+        raw_baseline = load_json(RAW_BASELINE, [])
+        diagnostics["inputs"]["raw_dblp_papers"] = len(raw_baseline)
+        for p in raw_baseline:
+            if int(p.get("year") or 0) in BASELINE_YEARS:
+                add_or_merge_paper(papers, p, source="raw_dblp_papers", name_to_pid=name_to_pid)
 
-    post_data = load_json(POST_VENUE_PAPERS, {"papers": []})
-    post_papers = post_data.get("papers", [])
-    diagnostics["inputs"]["post_gpt_venue_papers"] = len(post_papers)
-    diagnostics["inputs"]["post_gpt_venue_papers_metadata"] = post_data.get("metadata", {})
-    for p in post_papers:
-        year = int(p.get("year") or 0)
-        if year in NEW_CORE_YEARS:
-            add_or_merge_paper(papers, p, source="post_gpt_venue_papers", name_to_pid=name_to_pid)
+        post_data = load_json(POST_VENUE_PAPERS, {"papers": []})
+        post_papers = post_data.get("papers", [])
+        diagnostics["inputs"]["post_gpt_venue_papers"] = len(post_papers)
+        diagnostics["inputs"]["post_gpt_venue_papers_metadata"] = post_data.get("metadata", {})
+        for p in post_papers:
+            year = int(p.get("year") or 0)
+            if year in NEW_CORE_YEARS:
+                add_or_merge_paper(papers, p, source="post_gpt_venue_papers", name_to_pid=name_to_pid)
 
-    pacmnet_data = load_json(PACMNET_TOC_PAPERS, {"papers": []})
-    pacmnet_papers = pacmnet_data.get("papers", [])
-    diagnostics["inputs"]["pacmnet_toc_papers"] = len(pacmnet_papers)
-    diagnostics["inputs"]["pacmnet_toc_papers_metadata"] = pacmnet_data.get("metadata", {})
-    for p in pacmnet_papers:
-        year = int(p.get("year") or 0)
-        if year in NEW_CORE_YEARS:
-            add_or_merge_paper(papers, p, source="pacmnet_toc_papers", name_to_pid=name_to_pid)
+        pacmnet_data = load_json(PACMNET_TOC_PAPERS, {"papers": []})
+        pacmnet_papers = pacmnet_data.get("papers", [])
+        diagnostics["inputs"]["pacmnet_toc_papers"] = len(pacmnet_papers)
+        diagnostics["inputs"]["pacmnet_toc_papers_metadata"] = pacmnet_data.get("metadata", {})
+        for p in pacmnet_papers:
+            year = int(p.get("year") or 0)
+            if year in NEW_CORE_YEARS:
+                add_or_merge_paper(papers, p, source="pacmnet_toc_papers", name_to_pid=name_to_pid)
 
-    # Add PACMNET long-paper evidence from the clean itinerary path. This is
-    # author-partial: it only contains broad-cohort researchers whose histories
-    # have already been fetched. That limitation is explicit in the output.
+    # Add PACMNET long-paper evidence from the clean itinerary path only when
+    # the canonical paginated venue table is unavailable. This is author-partial:
+    # it only contains broad-cohort researchers whose histories have already
+    # been fetched.
     itins = load_json(ITINERARIES, {"researchers": []})
     diagnostics["inputs"]["researcher_itineraries"] = len(itins.get("researchers", []))
     pacmnet_rows = 0
@@ -274,19 +289,25 @@ def build_papers() -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
                 paper = dict(item)
                 paper["venue"] = "PACMNET"
                 paper["authors"] = [{"pid": pid, "name": name}] if pid else [{"pid": "", "name": name}]
-                add_or_merge_paper(
-                    papers,
-                    paper,
-                    source="researcher_itineraries_pacmnet",
-                    partial_author_pids=True,
-                    force_include=True,
-                    name_to_pid=name_to_pid,
-                )
-                pacmnet_rows += 1
+                if not using_repaired_topnet:
+                    add_or_merge_paper(
+                        papers,
+                        paper,
+                        source="researcher_itineraries_pacmnet",
+                        partial_author_pids=True,
+                        force_include=True,
+                        name_to_pid=name_to_pid,
+                    )
+                    pacmnet_rows += 1
     diagnostics["inputs"]["pacmnet_itinerary_rows"] = pacmnet_rows
-    diagnostics["notes"].append(
-        "PACMNET records are read from data/pacmnet_toc_papers.json when available; local venue-paper and itinerary records are merged as auxiliary evidence."
-    )
+    if using_repaired_topnet:
+        diagnostics["notes"].append(
+            "Using data/topnet_venue_year_papers.json as the canonical top-net source. Legacy post_gpt_venue_papers/PACMNET itinerary evidence is not used for paper coverage."
+        )
+    else:
+        diagnostics["notes"].append(
+            "PACMNET records are read from data/pacmnet_toc_papers.json when available; local venue-paper and itinerary records are merged as auxiliary evidence."
+        )
 
     return papers, diagnostics
 
@@ -419,7 +440,7 @@ def main() -> None:
             "new_core_years": sorted(NEW_CORE_YEARS),
             "qualifying_venues": DISPLAY_QUALIFYING_VENUES,
             "pacmnet_policy": "PACMNET is treated as CoNEXT conference-integrated evidence; DBLP PACMNET TOC records are used when available, with local itinerary evidence merged for diagnostics.",
-            "coverage_warning": "2026 is observed as available; SIGCOMM/CoNEXT/HotNets/IMC 2026 are currently missing from local venue-paper artifacts.",
+            "coverage_warning": "2026 is observed-as-available: NSDI 2026 is indexed and complete; SIGCOMM, CoNEXT/PACMNET, HotNets, and IMC 2026 are not yet available in the canonical DBLP TOC source.",
         },
         "summary": {
             "core99_size": len(core99_pids),
