@@ -202,7 +202,34 @@ yet overlay core-99/new-core/stayer/newcomer/dropout labels. The raw top-net
 venue completeness gate is now satisfied for available DBLP TOCs; the next gate
 is topic-taxonomy repair.
 
-### 8. Project Plan And Status
+### 8. Three-Axis Paper Classification (Active, June 2026)
+
+The keyword-based v2 classifier has been replaced with a three-axis LLM-based
+classifier using DeepSeek V4 Flash. Each paper is now labeled across three
+orthogonal dimensions:
+
+- **Scenario** (12 values): the network deployment context (dcn_ai_training,
+  dcn_ai_inference, dcn_cloud, dcn_storage, dcn_mixed, dcn_general, wan,
+  wireless, interconnect, edge, cdn, internet_core)
+- **Mechanism** (12 values): the networking function studied (routing,
+  traffic_engineering, congestion_control, flow_scheduling, resource_allocation,
+  topology_design, transport_design, measurement_telemetry, security,
+  coordination, collective_comm, app_scheduling)
+- **Method** (8 values): the research approach used (sdn, programmable_dataplane,
+  formal_verification, virtualization, hardware_acceleration, ml_based,
+  optimization_theoretic, systems_building)
+
+The taxonomy is the single source of truth at `data/taxonomy_v3.json`.
+Adding new method labels requires only editing that JSON file.
+
+Pipeline: `classify_paper_topics_v3.py` → `paper_topic_labels_v3.json` →
+`regenerate_v2_artifacts.py` → `venue_topic_vectors_v3.json`,
+`new_core_topic_profiles.json`, etc.
+
+Classification results (2,236 papers, DeepSeek V4 Flash, ~$0.45):
+- 67.9% with abstracts, 32.1% title-only; 2.2% zero-mechanism, 1.8% zero-scenario
+
+### 9. Project Plan And Status
 
 For the evolving TODO list and sequencing logic, read:
 
@@ -233,7 +260,11 @@ The main scripts and their current roles are:
 | `scripts/fetch_topnet_venue_year_papers.py` | 🆕 Fetch paginated canonical top-net venue-year DBLP TOC records |
 | `scripts/audit_topnet_venue_completeness.py` | 🆕 Audit raw TOC completeness vs clean main-paper scope |
 | `scripts/build_scope_and_venue_background.py` | 🆕 Build I.1 scope manifest/audit and I.2 cohort-neutral venue-year background artifacts |
-| `scripts/classify_paper_topics.py` | 🆕 Keyword-based paper topic classifier v2 — reads from new_core_clean_papers.json |
+| `scripts/classify_paper_topics.py` | Paper topic classifier: keyword-based v2 by default; auto-delegates to v3 LLM classifier when taxonomy_v3.json exists |
+| `scripts/classify_paper_topics_v3.py` | 🆕 Three-axis LLM-based classifier (DeepSeek V4 Flash JSON mode) — scenario × mechanism × method |
+| `scripts/fetch_paper_abstracts.py` | 🆕 Fetch paper abstracts from OpenAlex and Semantic Scholar APIs by DOI/title |
+| `scripts/regenerate_v2_artifacts.py` | 🆕 Orchestrator: regenerate all downstream artifacts from v3 paper labels |
+| `scripts/validate_classification_v3.py` | 🆕 Post-classification validation: label coverage, distribution sanity, confidence checks |
 | `scripts/build_post_gpt_core.py` | ⛔ DEPRECATED — old post-GPT core builder; retained for comparison only |
 | `scripts/build_researcher_topic_profiles.py` | ⛔ DEPRECATED — old itinerary-based topic profiles; retained for comparison only |
 | `scripts/classify_zones.py` | Legacy/auxiliary conservative paper tagging, not current analytical foundation |
@@ -339,12 +370,9 @@ Completed June 2026:
 
 - ✅ Top-net venue completeness repaired for available DBLP TOCs (124 new-core researchers; 46/78/53 split)
 - ✅ PACMNET TOC integration for CoNEXT 2023-2025 long-paper evidence
-- ⚠️ Topic classification artifacts are stale after the 2,236-paper venue completeness repair
-- ⚠️ Researcher topic profiles need regeneration after topic-taxonomy repair
-- ⚠️ Conference-level topic evolution needs regeneration after taxonomy repair
-- ⚠️ AI-infra authorship analysis needs regeneration after taxonomy repair
-- ⚠️ Newcomer topic-portfolio interpretation needs regeneration after taxonomy repair
-- ⚠️ CORE99_ANALYSIS.md §11 predates the canonical venue completeness repair and needs follow-up
+- ✅ Topic taxonomy repaired: three-axis classifier (scenario × mechanism × method) replaces flat keyword-based v2
+- ✅ 2,236 papers classified via DeepSeek V4 Flash JSON mode; 67.9% with abstracts
+- ✅ Downstream artifacts regenerated: venue_topic_vectors_v3.json, venue_topic_evolution_v3.csv, new_core_topic_profiles.json
 - ✅ Documentation consistency restored for the venue-completeness checkpoint (README.md, ANALYSIS_PLAN.md)
 
 Old exploratory outputs (deprecated but retained for comparison):
