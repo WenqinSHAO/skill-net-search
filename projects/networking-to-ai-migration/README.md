@@ -202,11 +202,9 @@ yet overlay core-99/new-core/stayer/newcomer/dropout labels. The raw top-net
 venue completeness gate is now satisfied for available DBLP TOCs; the next gate
 is topic-taxonomy repair.
 
-### 8. Three-Axis Paper Classification (Active, June 2026)
+### 8. Three-Axis Paper Classification (Under Review, June 2026)
 
-The keyword-based v2 classifier has been replaced with a three-axis LLM-based
-classifier using DeepSeek V4 Flash. Each paper is now labeled across three
-orthogonal dimensions:
+A third-party pass introduced a three-axis LLM-based classifier using DeepSeek V4 Flash. This is a promising draft, but Shiye reviewed it and it is **not yet analysis-ready**: validation currently fails and abstract coverage is source-biased. Each paper is labeled across three dimensions:
 
 - **Scenario** (12 values): the network deployment context (dcn_ai_training,
   dcn_ai_inference, dcn_cloud, dcn_storage, dcn_mixed, dcn_general, wan,
@@ -222,12 +220,13 @@ orthogonal dimensions:
 The taxonomy is the single source of truth at `data/taxonomy_v3.json`.
 Adding new method labels requires only editing that JSON file.
 
-Pipeline: `classify_paper_topics_v3.py` → `paper_topic_labels_v3.json` →
-`regenerate_v2_artifacts.py` → `venue_topic_vectors_v3.json`,
-`new_core_topic_profiles.json`, etc.
+Pipeline draft: `classify_paper_topics_v3.py` -> `paper_topic_labels_v3.json` -> `regenerate_v2_artifacts.py` -> `venue_topic_vectors_v3.json`, `new_core_topic_profiles.json`, etc. Do not use regenerated topic artifacts for interpretation until the I.5 audit blockers are fixed.
 
-Classification results (2,236 papers, DeepSeek V4 Flash, ~$0.45):
-- 67.9% with abstracts, 32.1% title-only; 2.2% zero-mechanism, 1.8% zero-scenario
+Current audit results (2,236 papers, DeepSeek V4 Flash):
+- 67.9% with abstracts, 32.1% title-only.
+- Validation fails: 50 zero-mechanism papers, 40 zero-scenario papers, 37 classification-error fallback rows.
+- Missing abstracts are concentrated in NSDI because DBLP NSDI rows have no DOI and the fetcher does not scrape USENIX pages.
+- See [I5_CLASSIFICATION_REVIEW.md](/home/wenqin/net-search/projects/networking-to-ai-migration/I5_CLASSIFICATION_REVIEW.md) and `data/classification_v3_quality_audit.json`.
 
 ### 9. Project Plan And Status
 
@@ -265,6 +264,7 @@ The main scripts and their current roles are:
 | `scripts/fetch_paper_abstracts.py` | 🆕 Fetch paper abstracts from OpenAlex and Semantic Scholar APIs by DOI/title |
 | `scripts/regenerate_v2_artifacts.py` | 🆕 Orchestrator: regenerate all downstream artifacts from v3 paper labels |
 | `scripts/validate_classification_v3.py` | 🆕 Post-classification validation: label coverage, distribution sanity, confidence checks |
+| `scripts/audit_classification_v3_quality.py` | 🆕 I.5 review audit: abstract coverage, title-match risk, zero-label/error cases |
 | `scripts/build_post_gpt_core.py` | ⛔ DEPRECATED — old post-GPT core builder; retained for comparison only |
 | `scripts/build_researcher_topic_profiles.py` | ⛔ DEPRECATED — old itinerary-based topic profiles; retained for comparison only |
 | `scripts/classify_zones.py` | Legacy/auxiliary conservative paper tagging, not current analytical foundation |
@@ -370,9 +370,9 @@ Completed June 2026:
 
 - ✅ Top-net venue completeness repaired for available DBLP TOCs (124 new-core researchers; 46/78/53 split)
 - ✅ PACMNET TOC integration for CoNEXT 2023-2025 long-paper evidence
-- ✅ Topic taxonomy repaired: three-axis classifier (scenario × mechanism × method) replaces flat keyword-based v2
-- ✅ 2,236 papers classified via DeepSeek V4 Flash JSON mode; 67.9% with abstracts
-- ✅ Downstream artifacts regenerated: venue_topic_vectors_v3.json, venue_topic_evolution_v3.csv, new_core_topic_profiles.json
+- ⚠️ Topic taxonomy draft reviewed: three-axis classifier is promising but not analysis-ready
+- ⚠️ 2,236 papers classified via DeepSeek V4 Flash JSON mode, but validation fails and abstract coverage is source-biased
+- ⚠️ Downstream v3 artifacts were regenerated but remain provisional until validation passes
 - ✅ Documentation consistency restored for the venue-completeness checkpoint (README.md, ANALYSIS_PLAN.md)
 
 Old exploratory outputs (deprecated but retained for comparison):

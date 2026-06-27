@@ -316,6 +316,43 @@ Design principles:
 - Evaluate the taxonomy by inspecting representative papers per class and
   venue-year distributions.
 
+
+
+Current v3 review status (June 2026):
+
+A third-party pass introduced a three-axis LLM classifier (`scenario`,
+`mechanism`, `method`) in `data/taxonomy_v3.json` and
+`scripts/classify_paper_topics_v3.py`. Shiye reviewed the generated artifacts in
+`I5_CLASSIFICATION_REVIEW.md`. Treat the v3 outputs as a draft, not as an
+analysis-ready replacement:
+
+- `validate_classification_v3.py` currently fails: 40 zero-scenario papers and
+  50 zero-mechanism papers.
+- 37 rows are `all_retries_failed` fallback classifications.
+- Abstract coverage is 67.9%; the missing 32.1% is overwhelmingly NSDI because
+  DBLP-derived NSDI rows have no DOI and `fetch_paper_abstracts.py` does not
+  scrape USENIX technical-session pages.
+- Title-search abstract matching has false-positive risk; at least 8 title
+  matches have low forward overlap or short source titles.
+- Downstream v3 venue/researcher topic vectors must remain provisional until
+  these blockers are fixed.
+
+Immediate I.5 fix order:
+
+1. **Phase A: repair abstract evidence.** Add a USENIX/NSDI abstract fetch path,
+   tighten title-match acceptance, quarantine suspect title-sourced abstracts,
+   and rerun the abstract coverage audit.
+2. **Phase B: repair taxonomy and prompt.** Keep the three-axis idea, but refine
+   axis semantics, add missing mechanism categories, move artifact maturity out
+   of method labels, and remove prompt language that forces specific labels
+   when evidence is weak.
+3. **Phase C: reclassify and validate.** Re-run the 37 failed classifications,
+   all papers with suspect abstracts, and all papers whose abstracts change;
+   only then run full reclassification and require validation to pass.
+4. **Phase D: regenerate vectors with quality denominators.** Regenerate venue
+   and researcher vectors only after validation passes, and include title-only
+   share, no-label/unknown share, low-confidence share, and uncertain share.
+
 Required outputs:
 
 - `data/network_topic_taxonomy.json`
