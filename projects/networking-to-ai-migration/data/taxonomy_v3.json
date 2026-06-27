@@ -1,0 +1,177 @@
+{
+  "version": "3.0.0",
+  "description": "Three-axis networking paper taxonomy. Single source of truth for paper classification. Scripts read from this file; LLM prompts are built from it at runtime.",
+  "axes": {
+    "scenario": {
+      "label": "Scenario",
+      "description": "The network deployment context or domain the paper designs for / operates in",
+      "multi_label": true,
+      "min_labels": 1,
+      "max_labels": 2,
+      "values": {
+        "dcn_ai_training": {
+          "label": "DCN AI Training",
+          "description": "Datacenter networks for distributed AI/ML training workloads (all-reduce, gradient sync, parameter server, MoE training)"
+        },
+        "dcn_ai_inference": {
+          "label": "DCN AI Inference",
+          "description": "Datacenter networks for LLM/ML inference serving (KV-cache distribution, request scheduling, disaggregated inference)"
+        },
+        "dcn_cloud": {
+          "label": "DCN Cloud",
+          "description": "General cloud datacenter networking: multi-tenant virtual networks, VM/container networking, east-west traffic"
+        },
+        "dcn_storage": {
+          "label": "DCN Storage",
+          "description": "Datacenter storage networking: disaggregated storage, remote memory, NVMe-oF, storage replication"
+        },
+        "dcn_mixed": {
+          "label": "DCN Mixed",
+          "description": "Mixed or unspecified datacenter context, or a solution that applies across multiple DCN workload types"
+        },
+        "dcn_general": {
+          "label": "DCN General",
+          "description": "Datacenter networking without a specific workload focus: general architecture, Clos topology, congestion in DC fabrics"
+        },
+        "wan": {
+          "label": "WAN",
+          "description": "Wide-area networks: inter-DC WAN, backbone networks, ISP networks, SD-WAN, traffic engineering across sites"
+        },
+        "wireless": {
+          "label": "Wireless",
+          "description": "Wireless and mobile networks: 5G/6G RAN, cellular core, WiFi, satellite/LEO constellations"
+        },
+        "interconnect": {
+          "label": "Interconnect",
+          "description": "High-speed interconnects and fabrics: RDMA, NVLink, rack-scale interconnects, host-to-NIC, switch fabrics"
+        },
+        "edge": {
+          "label": "Edge",
+          "description": "Edge computing and edge networks: mobile edge (MEC), fog computing, IoT gateways, in-network computing at edge"
+        },
+        "cdn": {
+          "label": "CDN",
+          "description": "Content delivery networks and caching infrastructure: CDN design, caching strategies, video streaming edge"
+        },
+        "internet_core": {
+          "label": "Internet Core",
+          "description": "Internet-wide infrastructure: inter-domain routing (BGP), RPKI, DNS root, IXPs, global measurement studies"
+        }
+      }
+    },
+    "mechanism": {
+      "label": "Mechanism",
+      "description": "The networking mechanism, protocol function, or control action the paper studies or designs",
+      "multi_label": true,
+      "min_labels": 1,
+      "max_labels": 3,
+      "values": {
+        "routing": {
+          "label": "Routing",
+          "description": "Path selection, forwarding decisions, routing protocols (BGP, OSPF, etc.), anycast, multicast, route optimization"
+        },
+        "traffic_engineering": {
+          "label": "Traffic Engineering",
+          "description": "Traffic splitting, load balancing across paths/links, path weight optimization, demand-aware TE"
+        },
+        "congestion_control": {
+          "label": "Congestion Control",
+          "description": "Congestion control algorithms, rate adaptation, flow control, TCP/QUIC CC design, BBR, ECN-based CC"
+        },
+        "flow_scheduling": {
+          "label": "Flow Scheduling",
+          "description": "Packet/flow scheduling, priority queuing, pacing, coflow scheduling, deadline-aware scheduling"
+        },
+        "resource_allocation": {
+          "label": "Resource Allocation",
+          "description": "Bandwidth allocation, buffer management, multi-tenant resource sharing, capacity partitioning, admission control"
+        },
+        "topology_design": {
+          "label": "Topology Design",
+          "description": "Network topology design: Clos, fat-tree, dragonfly, expander graphs, physical/logical layout optimization"
+        },
+        "transport_design": {
+          "label": "Transport Design",
+          "description": "Transport protocol design: new transport protocols, transport-layer features (multipath, FEC), connection management"
+        },
+        "measurement_telemetry": {
+          "label": "Measurement & Telemetry",
+          "description": "Network monitoring, in-band network telemetry (INT), sketching, performance measurement, troubleshooting"
+        },
+        "security": {
+          "label": "Security",
+          "description": "Network security mechanisms: DDoS defense, intrusion detection, traffic filtering, network policy enforcement, privacy protection"
+        },
+        "coordination": {
+          "label": "Coordination",
+          "description": "Distributed consensus, state machine replication, coordination protocols, distributed locking, leader election"
+        },
+        "collective_comm": {
+          "label": "Collective Communication",
+          "description": "Collective communication patterns: all-reduce, all-to-all, broadcast, reduce-scatter, gradient synchronization"
+        },
+        "app_scheduling": {
+          "label": "Application-Level Scheduling",
+          "description": "Job/task/request scheduling at the application layer: inference request routing, training job placement, co-scheduling"
+        }
+      }
+    },
+    "method": {
+      "label": "Method",
+      "description": "The research approach, technique, or paradigm used (not the problem — the methodology). May be empty for purely empirical/measurement work.",
+      "multi_label": true,
+      "min_labels": 0,
+      "max_labels": 3,
+      "values": {
+        "sdn": {
+          "label": "SDN",
+          "description": "Software-defined networking: centralized or logically centralized control plane, network operating systems, OpenFlow"
+        },
+        "programmable_dataplane": {
+          "label": "Programmable Data Plane",
+          "description": "Data plane programmability: P4, programmable switches, SmartNICs, eBPF/XDP, DPDK, data plane languages"
+        },
+        "formal_verification": {
+          "label": "Formal Verification",
+          "description": "Formal methods for networking: network verification (data plane / control plane), model checking, configuration synthesis"
+        },
+        "virtualization": {
+          "label": "Virtualization",
+          "description": "Network virtualization and abstraction: NFV, network slicing, overlay networks, virtual network embedding"
+        },
+        "hardware_acceleration": {
+          "label": "Hardware Acceleration",
+          "description": "Hardware-based acceleration: FPGA offload, switch ASIC design, optical switching, GPU offload for network functions"
+        },
+        "ml_based": {
+          "label": "ML-Based",
+          "description": "Machine learning applied to solve network problems: RL for network control, DNN for traffic prediction, ML-based anomaly detection"
+        },
+        "optimization_theoretic": {
+          "label": "Optimization-Theoretic",
+          "description": "Mathematical optimization or algorithmic approach: LP/ILP formulations, online algorithms with competitive ratios, queueing theory"
+        },
+        "systems_building": {
+          "label": "Systems Building",
+          "description": "End-to-end system implementation: working prototype, real deployment, empirical evaluation at scale, production experience"
+        }
+      }
+    }
+  },
+  "extension_guidance": {
+    "adding_values": {
+      "how": "Add a new key-value pair under the relevant axis's 'values' object. The key must be snake_case. Provide both 'label' (human-readable) and 'description' (used in LLM prompts — be specific about what distinguishes this from nearby labels).",
+      "effect": "The new value will automatically appear in LLM prompts on the next classification run. No code changes needed.",
+      "caution": "Adding too many similar values increases LLM confusion. If the new value is a subtype of an existing value, consider using it sparingly or as a last-resort split."
+    },
+    "stability_note": {
+      "scenario": "Relatively stable. New DCN workload subtypes may emerge (dcn_financial, dcn_hpc, etc.) but expect low churn.",
+      "mechanism": "Relatively stable. The current list covers the main networking functions. Edge cases may need a catch-all mechanism label.",
+      "method": "Designed for incremental growth. New networking research paradigms (e.g., quantum networking hardware, AI-assisted network design) should be added here as they mature."
+    },
+    "version_policy": {
+      "minor": "Increment minor version when adding or deprecating values within an axis. Example: 3.0.0 -> 3.1.0.",
+      "major": "Increment major version when adding/removing/renaming axes, or changing the schema structure. Example: 3.x.x -> 4.0.0."
+    }
+  }
+}

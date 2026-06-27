@@ -30,7 +30,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
-from classify_paper_topics import TOPICS, classify_title
+from classify_paper_topics import TOPICS, classify_title, matched_keywords
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR / "data"
@@ -87,25 +87,6 @@ def hhi(values: list[int]) -> float:
     if total == 0:
         return 0.0
     return round(sum((v / total) ** 2 for v in values), 4)
-
-
-def matched_keywords(title: str) -> dict[str, list[str]]:
-    title_lower = title.lower()
-    out: dict[str, list[str]] = {}
-    for topic_key, topic_def in TOPICS.items():
-        if topic_key == "other":
-            continue
-        hits = []
-        for kw in topic_def.get("keywords", []):
-            if kw.lower() in title_lower:
-                hits.append(kw)
-        exclude_hits = []
-        for kw in topic_def.get("exclude_keywords", []):
-            if kw.lower() in title_lower:
-                exclude_hits.append(kw)
-        if hits and not exclude_hits:
-            out[topic_key] = hits
-    return out
 
 
 def classify_stage1(paper: dict[str, Any]) -> dict[str, Any]:

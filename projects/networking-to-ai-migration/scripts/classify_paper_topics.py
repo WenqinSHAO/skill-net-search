@@ -460,5 +460,71 @@ def main():
     print("\nDone.")
 
 
+# ── V3 Shim: if taxonomy_v3.json exists, delegate to LLM-based classifier ──
+# This preserves backward compatibility: all downstream importers of TOPICS
+# and classify_title() continue to work without any changes to their code.
+#
+# To force the old keyword-based classifier (e.g., for comparison):
+#   export CLASSIFY_USE_V2=1
+#
+# NOTE: This shim must execute BEFORE `if __name__ == "__main__"` so that
+# the overridden main() is what the __main__ block calls.
+
+import os as _os
+
+_V3_TAXONOMY_PATH = Path(__file__).resolve().parent.parent / "data" / "taxonomy_v3.json"
+_USING_V3 = False
+
+if _V3_TAXONOMY_PATH.exists() and not _os.environ.get("CLASSIFY_USE_V2"):
+    import warnings as _warnings
+    _warnings.warn(
+        "classify_paper_topics: taxonomy_v3.json detected. "
+        "Delegating to LLM-based v3 classifier. "
+        "Set CLASSIFY_USE_V2=1 to force keyword-based fallback.",
+        stacklevel=1,
+    )
+
+    from classify_paper_topics_v3 import (
+        classify_title as _v3_classify_title,
+        load_taxonomy as _v3_load_taxonomy,
+    )
+
+    # Load taxonomy and rebuild TOPICS for backward compat
+    # TOPICS keys = mechanism axis values + "other" catch-all
+    _taxonomy = _v3_load_taxonomy(str(_V3_TAXONOMY_PATH))
+    _mech_values = _taxonomy.get("axes", {}).get("mechanism", {}).get("values", {})
+    TOPICS = {
+        key: {
+            "label": val["label"],
+            "description": val.get("description", ""),
+            "keywords": [],  # No keywords in LLM mode
+        }
+        for key, val in _mech_values.items()
+    }
+    TOPICS["other"] = {
+        "label": "Other",
+        "description": "No mechanism labels assigned or classification failed",
+        "keywords": [],
+    }
+
+    def classify_title(title: str, abstract: str | None = None) -> dict:
+        """Classify a paper title using the v3 LLM-based classifier (DeepSeek).
+
+        If abstract is available, pass it for better classification accuracy.
+        Requires DS_API_KEY environment variable.
+        """
+        return _v3_classify_title(title, abstract=abstract, taxonomy=_taxonomy)
+
+    def matched_keywords(title: str) -> dict[str, list[str]]:
+        """In v3, returns empty dict (no keyword matching)."""
+        return {}
+
+    _USING_V3 = True
+
+
 if __name__ == "__main__":
-    main()
+    if _USING_V3:
+        from classify_paper_topics_v3 import main as v3_main
+        v3_main()
+    else:
+        main()
