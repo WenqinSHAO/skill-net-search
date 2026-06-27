@@ -320,6 +320,8 @@ Design principles:
 
 Current v3 review status (June 2026):
 
+The following audit findings describe the old v3.0 run before the I.5 repair code was added.
+
 A third-party pass introduced a three-axis LLM classifier (`scenario`,
 `mechanism`, `method`) in `data/taxonomy_v3.json` and
 `scripts/classify_paper_topics_v3.py`. Shiye reviewed the generated artifacts in
@@ -330,8 +332,8 @@ analysis-ready replacement:
   50 zero-mechanism papers.
 - 37 rows are `all_retries_failed` fallback classifications.
 - Abstract coverage is 67.9%; the missing 32.1% is overwhelmingly NSDI because
-  DBLP-derived NSDI rows have no DOI and `fetch_paper_abstracts.py` does not
-  scrape USENIX technical-session pages.
+  DBLP-derived NSDI rows have no DOI and the old fetcher did not use USENIX
+  technical-session pages.
 - Title-search abstract matching has false-positive risk; at least 8 title
   matches have low forward overlap or short source titles.
 - Downstream v3 venue/researcher topic vectors must remain provisional until
@@ -339,26 +341,24 @@ analysis-ready replacement:
 
 Immediate I.5 fix order:
 
-1. **Phase A: repair abstract evidence.** Add a USENIX/NSDI abstract fetch path,
-   tighten title-match acceptance, quarantine suspect title-sourced abstracts,
-   and rerun the abstract coverage audit.
-2. **Phase B: repair taxonomy and prompt.** Keep the three-axis idea, but refine
-   axis semantics, add missing mechanism categories, move artifact maturity out
-   of method labels, and remove prompt language that forces specific labels
-   when evidence is weak.
-3. **Phase C: reclassify and validate.** Re-run the 37 failed classifications,
-   all papers with suspect abstracts, and all papers whose abstracts change;
-   only then run full reclassification and require validation to pass.
-4. **Phase D: regenerate vectors with quality denominators.** Regenerate venue
-   and researcher vectors only after validation passes, and include title-only
-   share, no-label/unknown share, low-confidence share, and uncertain share.
+1. **Phase A: repair abstract evidence.** Implemented in code: USENIX/NSDI
+   abstract fetching, stricter title-match acceptance, and quarantine of unsafe
+   title-sourced abstracts. Next action is rerun by a separate agent.
+2. **Phase B: repair taxonomy and prompt.** Implemented in code: taxonomy v3.1
+   adds explicit unknown labels and missing mechanism categories; classifier
+   prompt no longer forces specific labels when evidence is weak.
+3. **Phase C: reclassify and validate.** Next action for rerun agent: rerun
+   classification after abstract extraction, then require validation to pass.
+4. **Phase D: regenerate vectors with quality denominators.** Implemented in
+   code: regenerated vectors include paper-normalized shares and quality fields;
+   run only after validation passes.
 
-Required outputs:
+Required outputs after rerun:
 
-- `data/network_topic_taxonomy.json`
-- `data/network_paper_topic_labels.json`
-- `data/researcher_network_topic_vectors.json`
-- `data/venue_network_topic_vectors.json`
+- `data/taxonomy_v3.json` as the current network-topic taxonomy source of truth
+- `data/paper_abstracts.json` with USENIX/OpenAlex/Semantic Scholar sources and title-match quarantine
+- `data/paper_topic_labels_v3.json` regenerated under taxonomy v3.1
+- `data/new_core_topic_profiles.json` and `data/venue_topic_vectors_v3.json` regenerated only after validation passes
 - an audit report with examples, uncertain cases, and confusion risks
 
 ### I.6 Evidence Quality Flags

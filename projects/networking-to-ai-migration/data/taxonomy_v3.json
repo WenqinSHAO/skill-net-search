@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0",
-  "description": "Three-axis networking paper taxonomy. Single source of truth for paper classification. Scripts read from this file; LLM prompts are built from it at runtime.",
+  "version": "3.1.0",
+  "description": "Three-axis networking paper taxonomy. Version 3.1 adds explicit unknown labels and missing mechanism categories identified during I.5 review.",
   "axes": {
     "scenario": {
       "label": "Scenario",
@@ -56,6 +56,10 @@
         "internet_core": {
           "label": "Internet Core",
           "description": "Internet-wide infrastructure: inter-domain routing (BGP), RPKI, DNS root, IXPs, global measurement studies"
+        },
+        "unknown_scenario": {
+          "label": "Unknown / Insufficient Scenario Evidence",
+          "description": "Use only when title/abstract does not provide enough evidence to identify deployment or domain context. This is an explicit uncertainty label, not a topic."
         }
       }
     },
@@ -113,6 +117,38 @@
         "app_scheduling": {
           "label": "Application-Level Scheduling",
           "description": "Job/task/request scheduling at the application layer: inference request routing, training job placement, co-scheduling"
+        },
+        "packet_processing_programming": {
+          "label": "Packet Processing & Network Programming",
+          "description": "Packet-processing pipelines, data-plane programs, network programming languages, parser/match-action composition, packet classification, P4/eBPF/DPDK programs as the main networking function."
+        },
+        "dns_naming_resolution": {
+          "label": "DNS / Naming / Resolution",
+          "description": "DNS, naming, service discovery, domain registration, resolution behavior, encrypted DNS, DNSSEC, and naming-system measurement or design."
+        },
+        "video_qoe_streaming": {
+          "label": "Video / QoE / Streaming",
+          "description": "Video streaming, adaptive bitrate, conferencing media transport, QoE measurement or optimization, CDN-assisted media delivery when the paper focus is media quality/streaming behavior."
+        },
+        "sensing_localization": {
+          "label": "Sensing / Localization / RF",
+          "description": "Wireless/RF sensing, localization, backscatter sensing, activity recognition from wireless signals, and sensor-network signal interpretation."
+        },
+        "policy_censorship_economics": {
+          "label": "Policy / Censorship / Economics",
+          "description": "Internet censorship, geoblocking, policy enforcement, network neutrality, peering/business behavior, economics of network deployment or operation."
+        },
+        "reliability_resilience": {
+          "label": "Reliability / Resilience",
+          "description": "Availability, outages, failover, robustness, resilience to faults or attacks, disaster recovery, and survivability of network services."
+        },
+        "experimentation_tooling": {
+          "label": "Experimentation / Testbed / Tooling",
+          "description": "Experimental platforms, replay frameworks, benchmarking tools, emulation/simulation systems, datasets, and tooling whose main contribution is enabling network experiments or analysis."
+        },
+        "unknown_mechanism": {
+          "label": "Unknown / Insufficient Mechanism Evidence",
+          "description": "Use only when title/abstract does not provide enough evidence to identify the networking mechanism or function. This is an explicit uncertainty label, not a topic."
         }
       }
     },
@@ -153,7 +189,15 @@
         },
         "systems_building": {
           "label": "Systems Building",
-          "description": "End-to-end system implementation: working prototype, real deployment, empirical evaluation at scale, production experience"
+          "description": "End-to-end system implementation with clear evidence of a concrete prototype, deployment, or production system. Do not use merely because a paper names a system; use only when implementation/deployment evidence is present."
+        },
+        "empirical_measurement": {
+          "label": "Empirical Measurement",
+          "description": "Empirical measurement, characterization, dataset analysis, or observational study as the primary research method."
+        },
+        "simulation_emulation": {
+          "label": "Simulation / Emulation",
+          "description": "Simulation, emulation, trace replay, or controlled experimental modeling as the primary evaluation/design method."
         }
       }
     }
@@ -173,5 +217,16 @@
       "minor": "Increment minor version when adding or deprecating values within an axis. Example: 3.0.0 -> 3.1.0.",
       "major": "Increment major version when adding/removing/renaming axes, or changing the schema structure. Example: 3.x.x -> 4.0.0."
     }
-  }
+  },
+  "revision_notes": [
+    {
+      "version": "3.1.0",
+      "date": "2026-06-27",
+      "changes": [
+        "Added unknown_scenario and unknown_mechanism explicit uncertainty labels.",
+        "Added missing networking mechanism categories from I.5 review.",
+        "Narrowed systems_building and added empirical_measurement/simulation_emulation method labels."
+      ]
+    }
+  ]
 }

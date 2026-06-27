@@ -206,26 +206,30 @@ is topic-taxonomy repair.
 
 A third-party pass introduced a three-axis LLM-based classifier using DeepSeek V4 Flash. This is a promising draft, but Shiye reviewed it and it is **not yet analysis-ready**: validation currently fails and abstract coverage is source-biased. Each paper is labeled across three dimensions:
 
-- **Scenario** (12 values): the network deployment context (dcn_ai_training,
+- **Scenario** (13 values): the network deployment context (dcn_ai_training,
   dcn_ai_inference, dcn_cloud, dcn_storage, dcn_mixed, dcn_general, wan,
-  wireless, interconnect, edge, cdn, internet_core)
-- **Mechanism** (12 values): the networking function studied (routing,
+  wireless, interconnect, edge, cdn, internet_core, and unknown scenario)
+- **Mechanism** (20 values): the networking function studied (routing,
   traffic_engineering, congestion_control, flow_scheduling, resource_allocation,
   topology_design, transport_design, measurement_telemetry, security,
-  coordination, collective_comm, app_scheduling)
-- **Method** (8 values): the research approach used (sdn, programmable_dataplane,
+  coordination, collective_comm, app_scheduling, plus v3.1 additions such as
+  packet processing/network programming, DNS/naming, video/QoE/streaming,
+  sensing/localization, policy/censorship/economics, reliability/resilience,
+  experimentation/tooling, and unknown mechanism)
+- **Method** (10 values): the research approach used (sdn, programmable_dataplane,
   formal_verification, virtualization, hardware_acceleration, ml_based,
-  optimization_theoretic, systems_building)
+  optimization_theoretic, systems_building, empirical_measurement,
+  simulation_emulation)
 
 The taxonomy is the single source of truth at `data/taxonomy_v3.json`.
-Adding new method labels requires only editing that JSON file.
+Current version is v3.1: it adds explicit unknown labels and missing networking mechanism categories from the I.5 review.
 
-Pipeline draft: `classify_paper_topics_v3.py` -> `paper_topic_labels_v3.json` -> `regenerate_v2_artifacts.py` -> `venue_topic_vectors_v3.json`, `new_core_topic_profiles.json`, etc. Do not use regenerated topic artifacts for interpretation until the I.5 audit blockers are fixed.
+Pipeline draft: `fetch_paper_abstracts.py` -> `audit_classification_v3_quality.py` -> `classify_paper_topics_v3.py` -> `validate_classification_v3.py` -> `regenerate_v2_artifacts.py`. Do not use regenerated topic artifacts for interpretation until validation passes.
 
-Current audit results (2,236 papers, DeepSeek V4 Flash):
+Pre-fix audit results from the old v3.0 run (2,236 papers, DeepSeek V4 Flash):
 - 67.9% with abstracts, 32.1% title-only.
 - Validation fails: 50 zero-mechanism papers, 40 zero-scenario papers, 37 classification-error fallback rows.
-- Missing abstracts are concentrated in NSDI because DBLP NSDI rows have no DOI and the fetcher does not scrape USENIX pages.
+- Missing abstracts are concentrated in NSDI because DBLP NSDI rows have no DOI; `fetch_paper_abstracts.py` now has a USENIX NSDI fetch path ready for rerun.
 - See [I5_CLASSIFICATION_REVIEW.md](/home/wenqin/net-search/projects/networking-to-ai-migration/I5_CLASSIFICATION_REVIEW.md) and `data/classification_v3_quality_audit.json`.
 
 ### 9. Project Plan And Status
@@ -261,7 +265,7 @@ The main scripts and their current roles are:
 | `scripts/build_scope_and_venue_background.py` | 🆕 Build I.1 scope manifest/audit and I.2 cohort-neutral venue-year background artifacts |
 | `scripts/classify_paper_topics.py` | Paper topic classifier: keyword-based v2 by default; auto-delegates to v3 LLM classifier when taxonomy_v3.json exists |
 | `scripts/classify_paper_topics_v3.py` | 🆕 Three-axis LLM-based classifier (DeepSeek V4 Flash JSON mode) — scenario × mechanism × method |
-| `scripts/fetch_paper_abstracts.py` | 🆕 Fetch paper abstracts from OpenAlex and Semantic Scholar APIs by DOI/title |
+| `scripts/fetch_paper_abstracts.py` | 🆕 Fetch paper abstracts from USENIX NSDI pages plus OpenAlex/Semantic Scholar APIs; quarantines unsafe title matches |
 | `scripts/regenerate_v2_artifacts.py` | 🆕 Orchestrator: regenerate all downstream artifacts from v3 paper labels |
 | `scripts/validate_classification_v3.py` | 🆕 Post-classification validation: label coverage, distribution sanity, confidence checks |
 | `scripts/audit_classification_v3_quality.py` | 🆕 I.5 review audit: abstract coverage, title-match risk, zero-label/error cases |

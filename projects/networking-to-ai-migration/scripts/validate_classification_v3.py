@@ -85,11 +85,14 @@ def main() -> None:
     missing_evidence_mode = 0
     invalid_confidence = 0
     uncertain_count = 0
+    classification_error_count = 0
+    title_only_not_uncertain = 0
+    unknown_label_count = Counter()
 
     for p in papers:
         # Check labels
         for s in p.get("scenario", []):
-            if s not in valid_labels["scenario"] and s not in valid_labels["scenario"]:
+            if s not in valid_labels["scenario"]:
                 invalid_labels[f"scenario:{s}"] += 1
 
         for m in p.get("mechanism", []):
@@ -118,9 +121,17 @@ def main() -> None:
             if conf not in ("high", "medium", "low"):
                 invalid_confidence += 1
 
-        # Count uncertain
+        # Count uncertain and quality gates
         if p.get("uncertain"):
             uncertain_count += 1
+        if p.get("classification_error"):
+            classification_error_count += 1
+        if p.get("evidence_mode") == "title_only" and not p.get("uncertain"):
+            title_only_not_uncertain += 1
+        for axis in ["scenario", "mechanism", "method"]:
+            for label in p.get(axis, []):
+                if str(label).startswith("unknown_"):
+                    unknown_label_count[f"{axis}:{label}"] += 1
 
     if invalid_labels:
         errors.append(f"{len(invalid_labels)} invalid labels assigned: {dict(invalid_labels.most_common(10))}")
@@ -132,6 +143,10 @@ def main() -> None:
         errors.append(f"{missing_evidence_mode} papers missing evidence_mode")
     if invalid_confidence > 0:
         errors.append(f"{invalid_confidence} invalid confidence values")
+    if classification_error_count > 0:
+        errors.append(f"{classification_error_count} papers have classification_error fallback rows")
+    if title_only_not_uncertain > 0:
+        warnings.append(f"{title_only_not_uncertain} title-only papers are marked not uncertain; verify explicit title evidence")
 
     # Check 3: Distributions
     print(f"\n--- Distribution Summary ---")
@@ -158,6 +173,11 @@ def main() -> None:
     print(f"  Uncertain: {uncertain_count} ({uncertain_count/total*100:.1f}%)")
     print(f"  Method axis empty: {zero_method} ({zero_method/total*100:.1f}%)")
     print(f"  Classification errors: {len(errors_list)}")
+    print(f"  Title-only not uncertain: {title_only_not_uncertain}")
+    if unknown_label_count:
+        print("  Unknown label distribution:")
+        for key, count in sorted(unknown_label_count.items()):
+            print(f"    {key}: {count}")
 
     confidence_dist: Counter[str] = Counter()
     for p in papers:

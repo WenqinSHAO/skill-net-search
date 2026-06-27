@@ -3,12 +3,15 @@
 
 Input: data/new_core_clean_papers.json (2,236 clean papers)
 Output: data/paper_abstracts.json (abstracts keyed by paper_id)
-Progress: data/abstract_fetch_progress.json
+Caches:
+  - data/usenix_nsdi_abstract_cache.json
+  - data/abstract_title_match_quarantine.json
 
 Strategy:
-  - Primary: OpenAlex works API by DOI (10 req/s rate limit, generous)
-  - Fallback: OpenAlex works search by title (when DOI missing)
-  - Tertiary: Semantic Scholar API by title (when OpenAlex returns nothing)
+  - USENIX NSDI paper pages for NSDI records, which usually lack DOI in DBLP
+  - OpenAlex works API by DOI (10 req/s rate limit, generous)
+  - OpenAlex works search by title with strict title matching
+  - Semantic Scholar by DOI/title with strict title matching
 
 OpenAlex stores abstracts as inverted indices; this script reconstructs them.
 """
@@ -19,18 +22,20 @@ import json
 import random
 import re
 import subprocess
+from html.parser import HTMLParser
 import sys
 import time
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urlencode
+from urllib.parse import quote, urlencode, urljoin
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR / "data"
 
 INPUT_CLEAN_PAPERS = DATA_DIR / "new_core_clean_papers.json"
 OUTPUT_ABSTRACTS = DATA_DIR / "paper_abstracts.json"
-PROGRESS_FILE = DATA_DIR / "abstract_fetch_progress.json"
+USENIX_CACHE_FILE = DATA_DIR / "usenix_nsdi_abstract_cache.json"
+TITLE_MATCH_QUARANTINE_FILE = DATA_DIR / "abstract_title_match_quarantine.json"
 
 # OpenAlex is very generous: 100k requests/day, 10 req/s recommended.
 # We stay at 8 req/s to be polite.
@@ -41,6 +46,9 @@ REQUEST_TIMEOUT = 25
 
 SEMANTIC_SCHOLAR_BASE = "https://api.semanticscholar.org/graph/v1"
 OPENALEX_BASE = "https://api.openalex.org"
+USENIX_BASE = "https://www.usenix.org"
+
+QUARANTINED_TITLE_MATCHES: list[dict[str, Any]] = []
 
 
 def load_json(path: Path, default: Any = None) -> Any:
@@ -56,6 +64,95 @@ def save_json(path: Path, data: Any) -> None:
     with open(temp, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     temp.rename(path)
+
+
+def normalize_title(title: str) -> str:
+    title = re.sub(r"&[a-zA-Z]+;", " ", title or "")
+    title = re.sub(r"[^\w\s]", " ", title.lower())
+    title = re.sub(r"\s+", " ", title).strip()
+    return title
+
+
+def title_match_metrics(target_title: str, source_title: str) -> dict[str, float | int | bool]:
+    target_norm = normalize_title(target_title)
+    source_norm = normalize_title(source_title)
+    target_words = set(target_norm.split())
+    source_words = set(source_norm.split())
+    if not target_words or not source_words:
+        return {
+            "exact": False,
+            "forward_overlap": 0.0,
+            "backward_overlap": 0.0,
+            "max_overlap": 0.0,
+            "source_word_count": len(source_words),
+        }
+    overlap = len(target_words & source_words)
+    forward = overlap / len(target_words)
+    backward = overlap / len(source_words)
+    return {
+        "exact": target_norm == source_norm,
+        "forward_overlap": round(forward, 4),
+        "backward_overlap": round(backward, 4),
+        "max_overlap": round(max(forward, backward), 4),
+        "source_word_count": len(source_words),
+    }
+
+
+def title_match_acceptable(target_title: str, source_title: str) -> tuple[bool, dict[str, float | int | bool]]:
+    """Accept only exact or high-forward-overlap title matches."""
+    metrics = title_match_metrics(target_title, source_title)
+    acceptable = bool(metrics["exact"]) or (
+        float(metrics["forward_overlap"]) >= 0.75 and int(metrics["source_word_count"]) >= 4
+    )
+    return acceptable, metrics
+
+
+def quarantine_title_match(
+    *,
+    source: str,
+    paper_title: str,
+    source_title: str,
+    source_doi: str = "",
+    reason: str,
+    metrics: dict[str, Any],
+) -> None:
+    QUARANTINED_TITLE_MATCHES.append({
+        "source": source,
+        "paper_title": paper_title,
+        "source_title": source_title,
+        "source_doi": source_doi,
+        "reason": reason,
+        "metrics": metrics,
+    })
+
+
+def save_title_match_quarantine() -> None:
+    save_json(TITLE_MATCH_QUARANTINE_FILE, {
+        "metadata": {
+            "description": "Rejected title-sourced abstract matches. These are not used in paper_abstracts.json.",
+            "count": len(QUARANTINED_TITLE_MATCHES),
+            "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        },
+        "matches": QUARANTINED_TITLE_MATCHES,
+    })
+
+
+def curl_text(url: str, timeout: int = REQUEST_TIMEOUT) -> str | None:
+    cmd = [
+        "curl", "-s", "-S", "--fail",
+        "--max-time", str(timeout),
+        "--connect-timeout", "10",
+        "-H", "Accept: text/html,application/xhtml+xml",
+        "-H", "User-Agent: networking-to-ai-migration/1.0 (academic research; mailto:research@example.com)",
+        url,
+    ]
+    try:
+        result = subprocess.run(cmd, capture_output=True, timeout=timeout + 5)
+    except subprocess.TimeoutExpired:
+        return None
+    if result.returncode != 0:
+        return None
+    return result.stdout.decode("utf-8", errors="replace")
 
 
 def curl_json(url: str, timeout: int = REQUEST_TIMEOUT) -> dict[str, Any] | None:
@@ -89,6 +186,225 @@ def reconstruct_abstract(inverted_index: dict[str, list[int]] | None) -> str:
             word_positions.append((pos, word))
     word_positions.sort(key=lambda x: x[0])
     return " ".join(w for _, w in word_positions)
+
+
+class UsenixLinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[tuple[str, str]] = []
+        self._href = ""
+        self._text: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag != "a":
+            return
+        attrs_d = {k: v or "" for k, v in attrs}
+        self._href = attrs_d.get("href", "")
+        self._text = []
+
+    def handle_data(self, data: str) -> None:
+        if self._href:
+            self._text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "a" and self._href:
+            text = " ".join(t.strip() for t in self._text if t.strip())
+            self.links.append((self._href, text))
+            self._href = ""
+            self._text = []
+
+
+class UsenixPaperParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.meta: dict[str, str] = {}
+        self.text_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag != "meta":
+            return
+        attrs_d = {k.lower(): v or "" for k, v in attrs}
+        key = (attrs_d.get("name") or attrs_d.get("property") or "").lower()
+        if key:
+            self.meta[key] = attrs_d.get("content", "")
+
+    def handle_data(self, data: str) -> None:
+        text = data.strip()
+        if text:
+            self.text_parts.append(text)
+
+    @property
+    def text(self) -> str:
+        return re.sub(r"\s+", " ", " ".join(self.text_parts)).strip()
+
+
+def usenix_nsdi_slug(year: int) -> str:
+    return f"nsdi{str(year)[-2:]}"
+
+
+def usenix_nsdi_technical_sessions_url(year: int) -> str:
+    slug = usenix_nsdi_slug(year)
+    return f"{USENIX_BASE}/conference/{slug}/technical-sessions"
+
+
+def extract_usenix_abstract_from_text(text: str) -> str:
+    markers = ["Abstract:", "Abstract"]
+    start = -1
+    marker_len = 0
+    for marker in markers:
+        start = text.find(marker)
+        if start >= 0:
+            marker_len = len(marker)
+            break
+    if start < 0:
+        return ""
+    work = text[start + marker_len:].strip()
+    end_markers = [
+        "View the Presentation",
+        "Presentation Video",
+        "Open Access Media",
+        "BibTeX",
+        "Authors:",
+        "Author(s):",
+        "Paper PDF",
+        "Download",
+    ]
+    end_positions = [work.find(marker) for marker in end_markers if work.find(marker) > 0]
+    if end_positions:
+        work = work[:min(end_positions)]
+    work = re.sub(r"\s+", " ", work).strip()
+    return work if len(work.split()) >= 20 else ""
+
+
+def parse_usenix_paper_page(url: str, html: str) -> dict[str, str] | None:
+    parser = UsenixPaperParser()
+    parser.feed(html)
+    title = (
+        parser.meta.get("citation_title")
+        or parser.meta.get("og:title")
+        or parser.meta.get("twitter:title")
+        or ""
+    ).strip()
+    abstract = (
+        parser.meta.get("description")
+        or parser.meta.get("og:description")
+        or ""
+    ).strip()
+    if len(abstract.split()) < 20:
+        abstract = extract_usenix_abstract_from_text(parser.text)
+    if not title or not abstract:
+        return None
+    return {
+        "source": "usenix_nsdi_page",
+        "title": title,
+        "abstract": abstract,
+        "url": url,
+        "doi": "",
+        "abstract_truncated": False,
+    }
+
+
+def fetch_usenix_nsdi_year(year: int) -> dict[str, dict[str, str]]:
+    """Fetch NSDI abstracts from USENIX paper pages for one year."""
+    index_url = usenix_nsdi_technical_sessions_url(year)
+    html = curl_text(index_url, timeout=45)
+    if not html:
+        return {}
+    parser = UsenixLinkParser()
+    parser.feed(html)
+    urls: dict[str, str] = {}
+    slug = usenix_nsdi_slug(year)
+    for href, text in parser.links:
+        if not href:
+            continue
+        full = urljoin(USENIX_BASE, href)
+        if f"/conference/{slug}/presentation/" in full:
+            urls[full] = text
+    out: dict[str, dict[str, str]] = {}
+    for i, url in enumerate(sorted(urls)):
+        page = curl_text(url, timeout=45)
+        if not page:
+            continue
+        parsed = parse_usenix_paper_page(url, page)
+        if parsed:
+            out[normalize_title(parsed["title"])] = parsed
+        if i % 10 == 9:
+            time.sleep(0.5 + random.uniform(0, 0.2))
+    return out
+
+
+def load_usenix_nsdi_cache(years: list[int]) -> dict[int, dict[str, dict[str, str]]]:
+    cache = load_json(USENIX_CACHE_FILE, {"years": {}})
+    cached_years = cache.get("years", {})
+    changed = False
+    for year in sorted(set(years)):
+        year_s = str(year)
+        if cached_years.get(year_s):
+            continue
+        print(f"  Fetching USENIX NSDI {year} abstract cache...")
+        cached_years[year_s] = fetch_usenix_nsdi_year(year)
+        changed = True
+        time.sleep(1.0 + random.uniform(0, 0.5))
+    if changed:
+        save_json(USENIX_CACHE_FILE, {
+            "metadata": {
+                "description": "USENIX NSDI paper-page abstracts keyed by normalized title.",
+                "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            },
+            "years": cached_years,
+        })
+    return {int(year): rows for year, rows in cached_years.items()}
+
+
+def is_nsdi_paper(paper: dict[str, Any]) -> bool:
+    return (paper.get("venue_group") or paper.get("venue")) == "NSDI"
+
+
+def fetch_usenix_nsdi_by_title(paper: dict[str, Any], cache: dict[int, dict[str, dict[str, str]]]) -> dict[str, str] | None:
+    year = int(paper.get("year") or 0)
+    if not is_nsdi_paper(paper) or year not in cache:
+        return None
+    title = paper.get("title", "")
+    title_norm = normalize_title(title)
+    candidates = cache.get(year, {})
+    if title_norm in candidates:
+        result = dict(candidates[title_norm])
+        result["match_mode"] = "exact_normalized_title"
+        result["match_metrics"] = title_match_metrics(title, result.get("title", ""))
+        return result
+    best: tuple[float, dict[str, str], dict[str, Any]] | None = None
+    for source_title_norm, candidate in candidates.items():
+        metrics = title_match_metrics(title, candidate.get("title", source_title_norm))
+        score = float(metrics["forward_overlap"])
+        if best is None or score > best[0]:
+            best = (score, candidate, metrics)
+    if best and best[0] >= 0.9:
+        result = dict(best[1])
+        result["match_mode"] = "high_forward_overlap"
+        result["match_metrics"] = best[2]
+        return result
+    return None
+
+
+def existing_abstract_is_usable(paper: dict[str, Any], record: dict[str, Any]) -> bool:
+    if not record.get("abstract"):
+        return False
+    source = record.get("source", "")
+    if source not in {"openalex_title", "semantic_scholar_title"}:
+        return True
+    source_title = record.get("source_title", "")
+    acceptable, metrics = title_match_acceptable(paper.get("title", ""), source_title)
+    if acceptable:
+        return True
+    quarantine_title_match(
+        source=source,
+        paper_title=paper.get("title", ""),
+        source_title=source_title,
+        source_doi=record.get("source_doi", ""),
+        reason="existing_unsafe_title_match",
+        metrics=metrics,
+    )
+    return False
 
 
 def fetch_openalex_by_doi(doi: str) -> dict[str, str] | None:
@@ -128,32 +444,28 @@ def fetch_openalex_by_title(title: str, year: int | None = None) -> dict[str, st
     if not results:
         return None
 
-    # Verify title similarity using bidirectional Jaccard
-    norm_title = clean.lower()
-    title_words = set(norm_title.split())
-    if len(title_words) < 3:
-        return None
-
     for work in results:
-        work_title = (work.get("title") or "").lower()
-        work_words = set(work_title.split())
-        if not work_words:
-            continue
-        # Bidirectional: handle partial/short titles (e.g., "403 Forbidden" matches
-        # "403 Forbidden: A Global View of CDN Geoblocking")
-        intersection = len(title_words & work_words)
-        forward = intersection / len(title_words) if title_words else 0
-        backward = intersection / len(work_words) if work_words else 0
-        overlap = max(forward, backward)
-        if overlap >= 0.4:  # Lenient for partial matches
-            abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
+        source_title = work.get("title") or ""
+        acceptable, metrics = title_match_acceptable(title, source_title)
+        abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
+        if acceptable and abstract:
             return {
                 "source": "openalex_title",
                 "doi": work.get("doi", ""),
-                "title": work.get("title", ""),
+                "title": source_title,
                 "abstract": abstract,
                 "abstract_truncated": False,
+                "match_metrics": metrics,
             }
+        if abstract:
+            quarantine_title_match(
+                source="openalex_title",
+                paper_title=title,
+                source_title=source_title,
+                source_doi=work.get("doi", ""),
+                reason="unsafe_title_match",
+                metrics=metrics,
+            )
     return None
 
 
@@ -185,38 +497,44 @@ def fetch_semantic_scholar_by_title(title: str) -> dict[str, str] | None:
     if not papers:
         return None
 
-    norm_title = re.sub(r"[^\w\s]", " ", title).lower()
-    norm_title = re.sub(r"\s+", " ", norm_title).strip()
-    title_words = set(norm_title.split())
-    if len(title_words) < 3:
-        return None
-
     for paper in papers:
-        work_title = (paper.get("title") or "").lower()
-        work_words = set(work_title.split())
-        if not work_words:
-            continue
-        intersection = len(title_words & work_words)
-        forward = intersection / len(title_words) if title_words else 0
-        backward = intersection / len(work_words) if work_words else 0
-        overlap = max(forward, backward)
-        if overlap >= 0.4:
-            abstract = paper.get("abstract") or ""
+        source_title = paper.get("title") or ""
+        acceptable, metrics = title_match_acceptable(title, source_title)
+        abstract = paper.get("abstract") or ""
+        if acceptable and abstract:
             return {
                 "source": "semantic_scholar_title",
                 "doi": "",
-                "title": paper.get("title", ""),
+                "title": source_title,
                 "abstract": abstract,
                 "abstract_truncated": len(abstract) > 3000,
+                "match_metrics": metrics,
             }
+        if abstract:
+            quarantine_title_match(
+                source="semantic_scholar_title",
+                paper_title=title,
+                source_title=source_title,
+                reason="unsafe_title_match",
+                metrics=metrics,
+            )
     return None
 
 
-def fetch_abstract_for_paper(paper: dict[str, Any], stats: dict[str, int]) -> dict[str, str] | None:
+def fetch_abstract_for_paper(paper: dict[str, Any], stats: dict[str, int], usenix_cache: dict[int, dict[str, dict[str, str]]] | None = None) -> dict[str, str] | None:
     """Try all available strategies to fetch an abstract for a paper."""
     title = paper.get("title", "")
     doi = paper.get("doi", "").strip()
     year = int(paper.get("year") or 0)
+
+    # Strategy 0: USENIX NSDI paper pages. NSDI rows from DBLP usually lack
+    # DOI, while USENIX technical-session pages carry abstracts.
+    if usenix_cache and is_nsdi_paper(paper):
+        stats["attempted_usenix_nsdi"] += 1
+        result = fetch_usenix_nsdi_by_title(paper, usenix_cache)
+        if result and result.get("abstract"):
+            stats["success_usenix_nsdi"] += 1
+            return result
 
     # Strategy 1: OpenAlex by DOI (fastest, most reliable)
     if doi:
@@ -262,7 +580,7 @@ def main() -> None:
     included = [p for p in all_papers if p.get("included_in_new_core_scope")]
     print(f"Loaded {len(included)} included papers from {INPUT_CLEAN_PAPERS}")
 
-    # Load existing abstracts and progress
+    # Load existing abstracts
     existing = load_json(OUTPUT_ABSTRACTS, {"abstracts": {}, "metadata": {}})
     abstracts = existing.get("abstracts", {})
 
@@ -271,24 +589,31 @@ def main() -> None:
         "attempted_oa_title": 0, "success_oa_title": 0,
         "attempted_s2_doi": 0, "success_s2_doi": 0,
         "attempted_s2_title": 0, "success_s2_title": 0,
+        "attempted_usenix_nsdi": 0, "success_usenix_nsdi": 0,
         "not_found": 0, "already_had": 0,
     }
 
-    # Count already-fetched
+    # Count already-fetched records that still pass current safety checks.
+    usable_existing: set[str] = set()
     for p in included:
-        if p["paper_id"] in abstracts and abstracts[p["paper_id"]].get("abstract"):
+        existing_record = abstracts.get(p["paper_id"], {})
+        if existing_abstract_is_usable(p, existing_record):
+            usable_existing.add(p["paper_id"])
             stats["already_had"] += 1
 
-    pending = [p for p in included if p["paper_id"] not in abstracts or not abstracts[p["paper_id"]].get("abstract")]
+    pending = [p for p in included if p["paper_id"] not in usable_existing]
     print(f"Already have abstracts: {stats['already_had']}")
     print(f"Need to fetch: {len(pending)}")
+
+    nsdi_years = sorted({int(p.get("year") or 0) for p in pending if is_nsdi_paper(p)})
+    usenix_cache = load_usenix_nsdi_cache(nsdi_years) if nsdi_years else {}
 
     checkpoint_interval = 50
     for i, paper in enumerate(pending):
         pid = paper["paper_id"]
         title_short = paper["title"][:70]
 
-        result = fetch_abstract_for_paper(paper, stats)
+        result = fetch_abstract_for_paper(paper, stats, usenix_cache)
 
         if result:
             abstracts[pid] = {
@@ -297,6 +622,9 @@ def main() -> None:
                 "source": result["source"],
                 "source_title": result.get("title", ""),
                 "source_doi": result.get("doi", ""),
+                "source_url": result.get("url", ""),
+                "match_mode": result.get("match_mode", ""),
+                "match_metrics": result.get("match_metrics", {}),
             }
             print(f"  [{i+1}/{len(pending)}] OK ({result['source']}): {title_short}")
         else:
@@ -306,6 +634,9 @@ def main() -> None:
                 "source": "none",
                 "source_title": "",
                 "source_doi": "",
+                "source_url": "",
+                "match_mode": "",
+                "match_metrics": {},
             }
             print(f"  [{i+1}/{len(pending)}] NO ABSTRACT: {title_short}")
 
@@ -313,27 +644,27 @@ def main() -> None:
         if (i + 1) % checkpoint_interval == 0:
             found = sum(1 for a in abstracts.values() if a.get("abstract"))
             total_done = stats["already_had"] + i + 1
-            total_with = stats["already_had"] + found
             output = {
                 "metadata": {
                     "description": "Fetched paper abstracts for networking paper classification.",
-                    "source_apis": ["openalex", "semantic_scholar"],
+                    "sources": ["usenix_nsdi_page", "openalex", "semantic_scholar"],
                     "total_papers_processed": total_done,
-                    "abstracts_found": total_with,
-                    "abstracts_not_found": total_done - total_with,
+                    "abstracts_found": found,
+                    "abstracts_not_found": max(total_done - found, 0),
                     "fetch_date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 },
                 "abstracts": dict(sorted(abstracts.items())),
             }
             save_json(OUTPUT_ABSTRACTS, output)
-            print(f"  [checkpoint {total_done}/{len(included)}] saved; {total_with} have abstracts")
+            save_title_match_quarantine()
+            print(f"  [checkpoint {total_done}/{len(included)}] saved; {found} have abstracts")
 
     # Final save
     found = sum(1 for a in abstracts.values() if a.get("abstract"))
     output = {
         "metadata": {
             "description": "Fetched paper abstracts for networking paper classification.",
-            "source_apis": ["openalex", "semantic_scholar"],
+            "sources": ["usenix_nsdi_page", "openalex", "semantic_scholar"],
             "total_papers_processed": len(included),
             "abstracts_found": found,
             "abstracts_not_found": len(included) - found,
@@ -343,6 +674,7 @@ def main() -> None:
         "abstracts": dict(sorted(abstracts.items())),
     }
     save_json(OUTPUT_ABSTRACTS, output)
+    save_title_match_quarantine()
     print(f"\nDone. Wrote {OUTPUT_ABSTRACTS}")
     print(f"Abstracts found: {found}/{len(included)} ({found/len(included)*100:.1f}%)")
     for k, v in sorted(stats.items()):

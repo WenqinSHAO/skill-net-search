@@ -114,6 +114,7 @@ def build_json_schema_text(taxonomy: dict[str, Any]) -> str:
 }}
 
 Only use label keys from the taxonomy lists above. Never invent new labels.
+If the taxonomy contains unknown_scenario or unknown_mechanism, use them instead of returning an empty required axis when evidence is insufficient.
 Return ONLY this JSON object, no markdown fences, no extra text."""
 
 
@@ -129,9 +130,10 @@ def build_system_prompt(taxonomy: dict[str, Any]) -> str:
 1. Assign 1-2 scenario labels, 1-3 mechanism labels, and 0-3 method labels per paper.
 2. Only assign a label when there is clear evidence in the paper title or abstract.
 3. For each assigned label, cite the specific words or phrases from the title/abstract.
-4. Be conservative: when uncertain, choose the more specific label. Do not assign a label when evidence is absent or ambiguous.
-5. Confidence per axis: "high" (explicit keywords in title), "medium" (clear inference from abstract or venue context), "low" (weak signal, guess).
-6. Set "uncertain": true when any axis has low confidence or zero required labels.
+4. Be conservative: do not force a specific label when evidence is absent or ambiguous. Use explicit unknown labels from the taxonomy when scenario or mechanism evidence is insufficient.
+5. Confidence per axis: "high" (explicit evidence in title), "medium" (clear evidence from abstract), "low" (weak signal or unknown/insufficient evidence). Do not use venue alone as evidence for a specific scenario or mechanism.
+6. Set "uncertain": true when any axis has low confidence, any unknown label, or when classifying from title only without explicit title evidence for every assigned label.
+7. Method labels describe technical approach only. Do not use `systems_building` just because a paper names a system; require implementation, deployment, or prototype evidence.
 
 ## Taxonomy
 
@@ -338,7 +340,8 @@ def classify_single_paper(
         }
 
     mechanism_labels = result.get("mechanism", [])
-    primary_topic = mechanism_labels[0] if mechanism_labels else "other"
+    primary_candidates = [m for m in mechanism_labels if not m.startswith("unknown_")]
+    primary_topic = primary_candidates[0] if primary_candidates else (mechanism_labels[0] if mechanism_labels else "other")
     mech_values = taxonomy["axes"]["mechanism"]["values"]
     primary_label = mech_values[primary_topic]["label"] if primary_topic != "other" and primary_topic in mech_values else "Other"
 
@@ -411,9 +414,22 @@ def main() -> None:
     abstract_count = sum(1 for a in abstracts.values() if a.get("abstract"))
     print(f"Loaded abstracts: {abstract_count} with content from {INPUT_ABSTRACTS}")
 
-    # Load progress
-    progress = load_json(PROGRESS_FILE, {"classified": {}})
-    classified = progress.get("classified", {})
+    # Load progress. Ignore stale progress when taxonomy/model changed; otherwise
+    # a rerun after taxonomy repair would silently reuse old labels.
+    progress = load_json(PROGRESS_FILE, {"classified": {}, "metadata": {}})
+    progress_meta = progress.get("metadata", {})
+    if (
+        progress_meta.get("taxonomy_version") != taxonomy.get("version")
+        or progress_meta.get("model") != MODEL
+    ):
+        if progress.get("classified"):
+            print(
+                "Progress file taxonomy/model differs from current run; "
+                "ignoring old classifications."
+            )
+        classified = {}
+    else:
+        classified = progress.get("classified", {})
 
     pending = [p for p in papers if p["paper_id"] not in classified]
     print(f"Already classified: {len(classified)}")

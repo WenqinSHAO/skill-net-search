@@ -34,7 +34,7 @@ The missing-abstract problem is mostly not random:
 - CoNEXT: 2
 - HotNets: 1
 
-Root cause: DBLP-derived NSDI records have no DOI in `new_core_clean_papers.json`, so OpenAlex DOI lookup cannot work. The fallback title search recovers only a small number of NSDI abstracts. USENIX technical-session pages provide abstracts, but the current fetcher does not scrape USENIX.
+Root cause in the pre-fix run: DBLP-derived NSDI records have no DOI in `new_core_clean_papers.json`, so OpenAlex DOI lookup cannot work. The fallback title search recovered only a small number of NSDI abstracts. USENIX technical-session pages provide abstracts; the repaired fetcher now uses those pages.
 
 Secondary issue: title-based matching is too lenient. A few OpenAlex title matches use short source titles or low forward overlap, which can attach the wrong abstract.
 
@@ -64,16 +64,16 @@ Goal: reduce title-only classification before changing taxonomy.
 
 Concrete changes:
 
-1. Extend `fetch_paper_abstracts.py` with a USENIX path for NSDI:
-   - fetch year pages such as `https://www.usenix.org/conference/nsdi24/technical-sessions`,
-   - parse each paper page/session entry for title and abstract,
-   - match by normalized title against NSDI rows in `new_core_clean_papers.json`,
-   - record `source: usenix_nsdi_page`, `source_url`, and title-match score.
-2. Tighten title-based matching for OpenAlex/Semantic Scholar:
+1. `fetch_paper_abstracts.py` now includes a USENIX path for NSDI:
+   - fetches year pages such as `https://www.usenix.org/conference/nsdi24/technical-sessions`,
+   - follows paper presentation links and parses titles/abstracts,
+   - matches by normalized title against NSDI rows in `new_core_clean_papers.json`,
+   - records `source: usenix_nsdi_page`, `source_url`, and title-match score.
+2. Title-based matching for OpenAlex/Semantic Scholar is now tightened:
    - require exact normalized title match, or forward title overlap >= 0.75,
    - reject short source-title subset matches unless the normalized titles are exact,
    - quarantine suspect matches rather than silently using them.
-3. Add/extend abstract audit output:
+3. Add/extend abstract audit output after rerun:
    - abstract coverage by venue/year,
    - missing-with-DOI vs missing-without-DOI,
    - suspect title matches,
@@ -91,12 +91,12 @@ Goal: preserve the three-axis idea while making labels meaningful to networking 
 
 Concrete changes:
 
-1. Keep the three high-level axes, but refine their semantics:
+1. Taxonomy v3.1 keeps the three high-level axes, but refines their semantics:
    - **scenario** = deployment/domain context only,
    - **mechanism** = networking problem/function,
    - **method** = technical approach only,
    - move artifact maturity such as `systems_building` into a separate evidence/artifact flag or make it much narrower.
-2. Add missing mechanism categories before reclassification:
+2. Taxonomy v3.1 adds missing mechanism categories before reclassification:
    - packet processing / network programming,
    - DNS / naming / resolution,
    - video / QoE / streaming,
@@ -104,12 +104,12 @@ Concrete changes:
    - censorship / policy / economics,
    - reliability / resilience / fault tolerance,
    - testbed / experimentation / tooling.
-3. Add explicit insufficient-evidence handling:
+3. Taxonomy v3.1 adds explicit insufficient-evidence handling:
    - `unknown_scenario` or no scenario with reason,
    - `unknown_mechanism` or no mechanism with reason,
    - no forced labels when title/abstract does not support a category.
-4. Update prompt language:
-   - remove “when uncertain, choose the more specific label,”
+4. `classify_paper_topics_v3.py` prompt language has been updated:
+   - removes “when uncertain, choose the more specific label,”
    - require title-only classifications to be uncertain unless evidence is explicit in the title,
    - require each evidence phrase to quote or paraphrase actual title/abstract text.
 
@@ -130,7 +130,7 @@ Concrete changes:
    - suspect title-abstract matches,
    - all papers whose abstract changed after USENIX fetch.
 2. Run full reclassification only after taxonomy/prompt is accepted.
-3. Extend `validate_classification_v3.py` with quality gates:
+3. `validate_classification_v3.py` now includes stricter quality gates:
    - validation pass/fail,
    - title-only share,
    - low-confidence share per axis,
@@ -150,9 +150,9 @@ Goal: make venue/researcher topic vectors interpretable without hiding uncertain
 
 Concrete changes:
 
-1. Regenerate venue and researcher topic vectors only from validated labels.
-2. Normalize topic shares against paper count as well as assigned-label count.
-3. Attach quality fields to every vector:
+1. `regenerate_v2_artifacts.py` should be run only after validation passes.
+2. It now emits paper-normalized topic shares as well as assigned-label-normalized shares.
+3. It now attaches quality fields to every vector:
    - paper count,
    - abstract coverage,
    - title-only share,
@@ -164,6 +164,18 @@ Acceptance criteria:
 
 - `venue_topic_vectors_v3.json`, `venue_topic_evolution_v3.csv`, and `new_core_topic_profiles.json` are regenerated after validation passes.
 - Reports distinguish observed topic movement from evidence-quality movement.
+
+## Handoff For Rerun Agent
+
+A less capable agent can run the repaired pipeline, but should not change taxonomy, prompt, or interpretation logic. Safe sequence:
+
+1. Run `python3 projects/networking-to-ai-migration/scripts/fetch_paper_abstracts.py`.
+2. Run `python3 projects/networking-to-ai-migration/scripts/audit_classification_v3_quality.py` and inspect abstract coverage plus `data/abstract_title_match_quarantine.json`.
+3. If abstract coverage and quarantine look acceptable, run `python3 projects/networking-to-ai-migration/scripts/classify_paper_topics_v3.py`. The script will ignore stale v3.0 progress because taxonomy is now v3.1.
+4. Run `python3 projects/networking-to-ai-migration/scripts/validate_classification_v3.py`. Stop if it fails.
+5. Only if validation passes, run `python3 projects/networking-to-ai-migration/scripts/regenerate_v2_artifacts.py`.
+
+Do not write analysis narrative from v3 artifacts until validation passes and quality denominators are reviewed.
 
 ## Example Suspect Abstract Matches
 
