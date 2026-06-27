@@ -188,32 +188,6 @@ def reconstruct_abstract(inverted_index: dict[str, list[int]] | None) -> str:
     return " ".join(w for _, w in word_positions)
 
 
-class UsenixLinkParser(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.links: list[tuple[str, str]] = []
-        self._href = ""
-        self._text: list[str] = []
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag != "a":
-            return
-        attrs_d = {k: v or "" for k, v in attrs}
-        self._href = attrs_d.get("href", "")
-        self._text = []
-
-    def handle_data(self, data: str) -> None:
-        if self._href:
-            self._text.append(data)
-
-    def handle_endtag(self, tag: str) -> None:
-        if tag == "a" and self._href:
-            text = " ".join(t.strip() for t in self._text if t.strip())
-            self.links.append((self._href, text))
-            self._href = ""
-            self._text = []
-
-
 class UsenixPaperParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -285,11 +259,22 @@ def parse_usenix_paper_page(url: str, html: str) -> dict[str, str] | None:
         or parser.meta.get("twitter:title")
         or ""
     ).strip()
-    abstract = (
-        parser.meta.get("description")
-        or parser.meta.get("og:description")
-        or ""
-    ).strip()
+
+    # USENIX stores the abstract in <div class="field-paper-description">
+    abstract = ""
+    desc_match = re.search(
+        r'class="[^"]*field-paper-description[^"]*"[^>]*>(.*?)</div>\s*</div>\s*</div>',
+        html, re.DOTALL,
+    )
+    if desc_match:
+        abstract = re.sub(r"<[^>]+>", " ", desc_match.group(1))
+        abstract = re.sub(r"\s+", " ", abstract).strip()
+    if not abstract:
+        abstract = (
+            parser.meta.get("description")
+            or parser.meta.get("og:description")
+            or ""
+        ).strip()
     if len(abstract.split()) < 20:
         abstract = extract_usenix_abstract_from_text(parser.text)
     if not title or not abstract:
@@ -305,27 +290,37 @@ def parse_usenix_paper_page(url: str, html: str) -> dict[str, str] | None:
 
 
 def fetch_usenix_nsdi_year(year: int) -> dict[str, dict[str, str]]:
-    """Fetch NSDI abstracts from USENIX paper pages for one year."""
+    """Fetch NSDI abstracts from USENIX paper pages for one year.
+
+    Uses regex to extract presentation links from the technical-sessions page
+    (the HTMLParser-based approach fails on USENIX's nested-link structure).
+    """
     index_url = usenix_nsdi_technical_sessions_url(year)
     html = curl_text(index_url, timeout=45)
     if not html:
         return {}
-    parser = UsenixLinkParser()
-    parser.feed(html)
-    urls: dict[str, str] = {}
+
     slug = usenix_nsdi_slug(year)
-    for href, text in parser.links:
-        if not href:
-            continue
-        full = urljoin(USENIX_BASE, href)
-        if f"/conference/{slug}/presentation/" in full:
-            urls[full] = text
+    pattern = re.compile(
+        r'<a[^>]*href="([^"]*' + re.escape(f"/conference/{slug}/presentation/") + r'[^"]*)"[^>]*>(.*?)</a>',
+        re.DOTALL,
+    )
+    # Deduplicate URLs keeping longest text
+    best_text: dict[str, str] = {}
+    for href, raw_text in pattern.findall(html):
+        text_clean = re.sub(r"<[^>]+>", " ", raw_text).strip()
+        text_clean = re.sub(r"\s+", " ", text_clean).strip()
+        if text_clean and len(text_clean) > len(best_text.get(href, "")):
+            best_text[href] = text_clean
+
     out: dict[str, dict[str, str]] = {}
-    for i, url in enumerate(sorted(urls)):
-        page = curl_text(url, timeout=45)
+    urls = sorted(best_text.keys())
+    for i, href in enumerate(urls):
+        full = urljoin(USENIX_BASE, href)
+        page = curl_text(full, timeout=45)
         if not page:
             continue
-        parsed = parse_usenix_paper_page(url, page)
+        parsed = parse_usenix_paper_page(full, page)
         if parsed:
             out[normalize_title(parsed["title"])] = parsed
         if i % 10 == 9:
