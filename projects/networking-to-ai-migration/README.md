@@ -199,12 +199,13 @@ Current I.1/I.2 artifacts:
 
 Important: these are venue-background diagnostics. They intentionally do **not**
 yet overlay core-99/new-core/stayer/newcomer/dropout labels. The raw top-net
-venue completeness gate is now satisfied for available DBLP TOCs; the next gate
-is topic-taxonomy repair.
+venue completeness gate is now satisfied for available DBLP TOCs. The v3.1
+semantic classifier now passes validation and can be used to revisit the I.2
+venue baseline, with quality fields kept visible.
 
-### 8. Three-Axis Paper Classification (Under Review, June 2026)
+### 8. Three-Axis Paper Classification (Validated, June 2026)
 
-A third-party pass introduced a three-axis LLM-based classifier using DeepSeek V4 Flash. This is a promising draft, but Shiye reviewed it and it is **not yet analysis-ready**: validation currently fails and abstract coverage is source-biased. Each paper is labeled across three dimensions:
+The current three-axis LLM-based classifier uses DeepSeek V4 Flash and taxonomy v3.1. Each paper is labeled across three dimensions:
 
 - **Scenario** (13 values): the network deployment context (dcn_ai_training,
   dcn_ai_inference, dcn_cloud, dcn_storage, dcn_mixed, dcn_general, wan,
@@ -224,13 +225,14 @@ A third-party pass introduced a three-axis LLM-based classifier using DeepSeek V
 The taxonomy is the single source of truth at `data/taxonomy_v3.json`.
 Current version is v3.1: it adds explicit unknown labels and missing networking mechanism categories from the I.5 review.
 
-Pipeline draft: `fetch_paper_abstracts.py` -> `audit_classification_v3_quality.py` -> `classify_paper_topics_v3.py` -> `validate_classification_v3.py` -> `regenerate_v2_artifacts.py`. Do not use regenerated topic artifacts for interpretation until validation passes.
+Current validated pipeline: `fetch_paper_abstracts.py` -> `classify_paper_topics_v3.py` -> `validate_classification_v3.py` -> `regenerate_v2_artifacts.py`. `regenerate_v2_artifacts.py` now refuses to run unless validation passes, unless `--allow-invalid` is used for debugging only.
 
-Pre-fix audit results from the old v3.0 run (2,236 papers, DeepSeek V4 Flash):
-- 67.9% with abstracts, 32.1% title-only.
-- Validation fails: 50 zero-mechanism papers, 40 zero-scenario papers, 37 classification-error fallback rows.
-- Missing abstracts are concentrated in NSDI because DBLP NSDI rows have no DOI; `fetch_paper_abstracts.py` now has a USENIX NSDI fetch path ready for rerun.
-- See [I5_CLASSIFICATION_REVIEW.md](/home/wenqin/net-search/projects/networking-to-ai-migration/I5_CLASSIFICATION_REVIEW.md) and `data/classification_v3_quality_audit.json`.
+Current v3.1 validation snapshot (2,236 papers, DeepSeek V4 Flash):
+- 2,204 papers have title+abstract evidence (98.6%); 32 are title-only (1.4%).
+- Validation passes: zero missing scenario/mechanism labels, zero classification-error rows, zero title-only-not-uncertain rows.
+- NSDI 2023 abstracts are repaired from the official USENIX inline technical-sessions page: 96/96 matched, 0 title-only.
+- Regenerated artifacts: `data/paper_topic_labels_v3.json`, `data/venue_topic_vectors_v3.json`, `data/venue_topic_evolution_v3.csv`, and `data/new_core_topic_profiles.json`.
+- Remaining caution: the method axis is still broad. `systems_building` appears in 1,260 papers (56.4%), so first-pass venue baseline interpretation should emphasize scenario/mechanism and treat method as secondary evidence.
 
 ### 9. Project Plan And Status
 
@@ -360,24 +362,23 @@ In practice, the current work has also been using targeted rebuilds of specific 
 
 Near-term open work:
 
-- refine paper topic classification with LLM (keyword classifier has 34.5% "Other" rate; v2 data on repaired clean paper table ready as input),
+- revisit I.2 venue baseline using validated v3.1 semantic vectors, with quality fields shown beside every venue-year row,
+- design conference evolution charts from `data/venue_topic_evolution_v3.csv` / `data/venue_topic_vectors_v3.json`,
 - run formal clustering of researcher topic profiles (PCA + k-means on `data/new_core_topic_profiles.json`),
 - run regression-to-the-mean check with 2013-2017 comparison cohort (`build_comparison_cohort.py`),
 - add career-stage proxy and author-role analysis for newcomers (author-role data in `new_core_researcher_profiles.json`),
 - strengthen geo and especially sector labels,
 - build comparison groups beyond the core-99 (near-core sample, broad cohort),
-- audit abstract coverage before LLM-based topic classification,
-- build conference evolution charts (stacked area plots from `data/venue_topic_evolution_v2.csv`),
-- refine topic taxonomy: split `classical_networking` into routing/control, congestion/transport, SDN/NFV, etc. per ANALYSIS_PLAN.md Repair Principle 5.
+- further audit the method axis, especially `systems_building`, before making strong method-level claims.
 
 Completed June 2026:
 
 - ✅ Top-net venue completeness repaired for available DBLP TOCs (124 new-core researchers; 46/78/53 split)
 - ✅ PACMNET TOC integration for CoNEXT 2023-2025 long-paper evidence
-- ⚠️ Topic taxonomy draft reviewed: three-axis classifier is promising but not analysis-ready
-- ⚠️ 2,236 papers classified via DeepSeek V4 Flash JSON mode, but validation fails and abstract coverage is source-biased
-- ⚠️ Downstream v3 artifacts were regenerated but remain provisional until validation passes
-- ✅ Documentation consistency restored for the venue-completeness checkpoint (README.md, ANALYSIS_PLAN.md)
+- ✅ Topic taxonomy v3.1 validated: 2,236 papers classified with zero validation errors
+- ✅ Abstract coverage repaired to 2,204 / 2,236 papers (98.6%); NSDI 2023 is 96/96 from official USENIX inline abstracts
+- ✅ Semantic venue/researcher vectors regenerated after validation passed
+- ✅ Documentation consistency restored for the venue-completeness and topic-classification checkpoints (README.md, ANALYSIS_PLAN.md, I5_CLASSIFICATION_REVIEW.md)
 
 Old exploratory outputs (deprecated but retained for comparison):
   - `data/post_gpt_core.json` (113/40/73/59)

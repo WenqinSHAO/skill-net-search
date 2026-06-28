@@ -17,6 +17,7 @@ Regenerates:
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -47,7 +48,20 @@ def save_json(path: Path, data: Any) -> None:
     temp.rename(path)
 
 
+def validation_passes() -> bool:
+    result = subprocess.run(
+        [sys.executable, str(PROJECT_DIR / "scripts" / "validate_classification_v3.py")],
+        cwd=PROJECT_DIR.parent.parent,
+    )
+    return result.returncode == 0
+
+
 def main() -> None:
+    if "--allow-invalid" not in sys.argv and not validation_passes():
+        print("ERROR: Classification validation failed; refusing to regenerate v3 artifacts.")
+        print("Use --allow-invalid only for debugging artifacts, never for analysis outputs.")
+        sys.exit(1)
+
     if not INPUT_LABELS.exists():
         print(f"ERROR: {INPUT_LABELS} not found. Run classify_paper_topics_v3.py first.")
         sys.exit(1)
@@ -281,7 +295,7 @@ def main() -> None:
     print(f"  {OUTPUT_VENUE_EVOLUTION}")
     if INPUT_CORE.exists():
         print(f"  {DATA_DIR / 'new_core_topic_profiles.json'}")
-    print("\nNext: run validate_classification_v3.py to verify outputs.")
+    print("\nValidation passed before regeneration; artifacts are ready for review.")
 
 
 if __name__ == "__main__":

@@ -48,21 +48,19 @@ quadrants, or topic categories that are too coarse for a networking audience.
   - newcomers: 78
   - dropouts: 53
   - complete newcomers outside the broad baseline cohort: 12
-- `data/paper_topic_labels_v2.json`, `data/venue_topic_vectors_v2.json`,
-  `data/venue_topic_evolution_v2.csv`, and
-  `data/new_core_topic_profiles.json` / `.csv` are stale after the venue
-  completeness repair and should be regenerated only after topic-taxonomy
-  repair.
+- `data/paper_topic_labels_v3.json`, `data/venue_topic_vectors_v3.json`,
+  `data/venue_topic_evolution_v3.csv`, and
+  `data/new_core_topic_profiles.json` / `.csv` are the current validated
+  semantic-topic artifacts. v2 topic artifacts are deprecated and retained only
+  for comparison.
 
 ### Important Caveats That Remain
 
 - 2026 is observed-as-available and incomplete: NSDI 2026 is complete; SIGCOMM, CoNEXT/PACMNET, HotNets, and IMC 2026 are not yet available in the canonical DBLP TOC source.
-- Current paper-topic labels are keyword-based; the "Other" rate is high enough
-  that the taxonomy should be treated as a first pass, not a final ontology.
-- `classical_networking` is too broad for the next phase. A networking audience
-  needs finer categories such as routing, congestion/transport, measurement,
-  datacenter/WAN, wireless/mobile, security, verification, programmable
-  dataplanes, video/QoE, and AI infrastructure.
+- The v3.1 classifier validates and is usable for venue-baseline review, but
+  uncertainty/unknown shares must be shown with topic shares.
+- The method axis remains broad: `systems_building` is common enough that
+  scenario/mechanism should be the primary axes for first-pass interpretation.
 - Region/sector labels are context labels, not causal explanations. Coverage
   and confidence need explicit tracking.
 - Quadrant definitions based on rate-ratio thresholds are now deprecated as a
@@ -318,48 +316,45 @@ Design principles:
 
 
 
-Current v3 review status (June 2026):
+Current v3.1 classification status (June 2026):
 
-The following audit findings describe the old v3.0 run before the I.5 repair code was added.
+The I.5 repair pass is now complete enough to support revisiting the I.2 venue
+baseline with semantic topic vectors, provided quality fields stay visible.
 
-A third-party pass introduced a three-axis LLM classifier (`scenario`,
-`mechanism`, `method`) in `data/taxonomy_v3.json` and
-`scripts/classify_paper_topics_v3.py`. Shiye reviewed the generated artifacts in
-`I5_CLASSIFICATION_REVIEW.md`. Treat the v3 outputs as a draft, not as an
-analysis-ready replacement:
+Validated state after repair:
 
-- `validate_classification_v3.py` currently fails: 40 zero-scenario papers and
-  50 zero-mechanism papers.
-- 37 rows are `all_retries_failed` fallback classifications.
-- Abstract coverage is 67.9%; the missing 32.1% is overwhelmingly NSDI because
-  DBLP-derived NSDI rows have no DOI and the old fetcher did not use USENIX
-  technical-session pages.
-- Title-search abstract matching has false-positive risk; at least 8 title
-  matches have low forward overlap or short source titles.
-- Downstream v3 venue/researcher topic vectors must remain provisional until
-  these blockers are fixed.
+- `fetch_paper_abstracts.py` supports USENIX NSDI paper pages and inline
+  technical-session pages. This fixes the NSDI 2023 page shape.
+- `paper_abstracts.json` now has 2,204 / 2,236 papers with abstracts (98.6%).
+  The remaining 32 title-only papers are concentrated mostly in older IMC rows.
+- NSDI 2023 is repaired: 96 / 96 papers matched to official USENIX inline
+  abstracts, 0 title-only.
+- `paper_topic_labels_v3.json` validates: zero missing scenario/mechanism labels,
+  zero `classification_error` rows, and zero title-only rows marked not
+  uncertain.
+- `regenerate_v2_artifacts.py` now refuses to regenerate v3 analysis artifacts
+  unless `validate_classification_v3.py` passes.
+- `venue_topic_vectors_v3.json`, `venue_topic_evolution_v3.csv`, and
+  `new_core_topic_profiles.json` have been regenerated after validation passed.
 
-Immediate I.5 fix order:
+Remaining interpretation cautions:
 
-1. **Phase A: repair abstract evidence.** Implemented in code: USENIX/NSDI
-   abstract fetching, stricter title-match acceptance, and quarantine of unsafe
-   title-sourced abstracts. Next action is rerun by a separate agent.
-2. **Phase B: repair taxonomy and prompt.** Implemented in code: taxonomy v3.1
-   adds explicit unknown labels and missing mechanism categories; classifier
-   prompt no longer forces specific labels when evidence is weak.
-3. **Phase C: reclassify and validate.** Next action for rerun agent: rerun
-   classification after abstract extraction, then require validation to pass.
-4. **Phase D: regenerate vectors with quality denominators.** Implemented in
-   code: regenerated vectors include paper-normalized shares and quality fields;
-   run only after validation passes.
+- The method axis is still broad: `systems_building` appears in 1,260 / 2,236
+  papers (56.4%). Use scenario/mechanism as the primary semantic venue baseline;
+  use method labels as secondary/contextual features until further audited.
+- Uncertainty is non-trivial: 825 papers (36.9%) are marked uncertain, and
+  `unknown_scenario` / `unknown_mechanism` remain meaningful evidence-quality
+  mass rather than topics.
+- 2026 remains observed-as-available and should not be compared as a complete
+  year.
 
-Required outputs after rerun:
+Immediate next step:
 
-- `data/taxonomy_v3.json` as the current network-topic taxonomy source of truth
-- `data/paper_abstracts.json` with USENIX/OpenAlex/Semantic Scholar sources and title-match quarantine
-- `data/paper_topic_labels_v3.json` regenerated under taxonomy v3.1
-- `data/new_core_topic_profiles.json` and `data/venue_topic_vectors_v3.json` regenerated only after validation passes
-- an audit report with examples, uncertain cases, and confusion risks
+1. Revisit I.2 using the validated v3.1 venue vectors.
+2. In every venue-year table, show paper count, title-only share, uncertain share,
+   unknown-label share, and classification-error share alongside topic shares.
+3. Prefer paper-normalized mechanism shares over assigned-label-only shares for
+   first-pass interpretation.
 
 ### I.6 Evidence Quality Flags
 
@@ -530,7 +525,7 @@ Key artifacts:
 - `data/venue_family_map.json`
 - `data/new_core_clean_papers.json`
 - `data/new_core.json`
-- `data/paper_topic_labels_v2.json`
-- `data/venue_topic_vectors_v2.json`
-- `data/venue_topic_evolution_v2.csv`
+- `data/paper_topic_labels_v3.json`
+- `data/venue_topic_vectors_v3.json`
+- `data/venue_topic_evolution_v3.csv`
 - `data/new_core_topic_profiles.json`

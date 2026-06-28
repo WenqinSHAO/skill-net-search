@@ -23,6 +23,7 @@ import random
 import re
 import subprocess
 from html.parser import HTMLParser
+from html import unescape
 import sys
 import time
 from pathlib import Path
@@ -221,6 +222,116 @@ def usenix_nsdi_technical_sessions_url(year: int) -> str:
     return f"{USENIX_BASE}/conference/{slug}/technical-sessions"
 
 
+
+def html_to_text(html: str) -> str:
+    text = re.sub(r"<script\b[^>]*>.*?</script>", " ", html, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def extract_usenix_field(html: str, class_name: str) -> str:
+    markers = [
+        f"field--name-{class_name}",
+        f"field-{class_name.replace('_', '-')}",
+        f"field-name-{class_name}",
+        f"field-name-{class_name.replace('-', '_')}",
+        f"field-name-{class_name}-long",
+    ]
+    idx = -1
+    marker = ""
+    for candidate in markers:
+        idx = html.find(candidate)
+        if idx >= 0:
+            marker = candidate
+            break
+    if idx < 0:
+        return ""
+    start = html.rfind("<div", 0, idx)
+    if start < 0:
+        start = idx
+    # USENIX has used multiple Drupal generations. Capturing until the next
+    # field/media/article marker is more robust than assuming a fixed </div>
+    # depth, and works for both paper pages and inline schedule blocks.
+    end_candidates = [
+        html.find('field--name-', idx + len(marker)),
+        html.find('field-name-', idx + len(marker)),
+        html.find('usenix-schedule-media', idx + len(marker)),
+        html.find('<article ', idx + len(marker)),
+        html.find('</article>', idx + len(marker)),
+    ]
+    end_candidates = [x for x in end_candidates if x > idx]
+    end = min(end_candidates) if end_candidates else min(len(html), idx + 16000)
+    return html_to_text(html[start:end])
+
+
+def parse_usenix_inline_sessions(index_url: str, html: str, year: int) -> dict[str, dict[str, str]]:
+    """Parse paper title/abstract blocks embedded in a USENIX sessions page.
+
+    NSDI 2023 exposes many accepted papers directly in the technical-sessions
+    page rather than via separate paper-page metadata. This supports both newer
+    field--name-* pages and older schedule articles with field-name-* classes.
+    """
+    out: dict[str, dict[str, str]] = {}
+
+    article_pat = re.compile(
+        r'<article\b[^>]*class="[^"]*node-paper[^"]*"[^>]*>(.*?)</article>',
+        re.DOTALL | re.IGNORECASE,
+    )
+    articles = list(article_pat.finditer(html))
+    if articles:
+        for article in articles:
+            block = article.group(1)
+            title_match = re.search(r'<h2[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', block, re.DOTALL | re.IGNORECASE)
+            if not title_match:
+                continue
+            href = title_match.group(1)
+            title = html_to_text(title_match.group(2))
+            abstract = extract_usenix_field(block, "field-paper-description")
+            if not abstract or len(abstract.split()) < 20:
+                abstract = extract_usenix_field(block, "field-paper-description-long")
+            if not abstract or len(abstract.split()) < 20:
+                abstract = extract_usenix_abstract_from_text(html_to_text(block))
+            if not title or not abstract or len(abstract.split()) < 20:
+                continue
+            out[normalize_title(title)] = {
+                "source": "usenix_nsdi_inline_sessions",
+                "title": title,
+                "abstract": abstract,
+                "url": urljoin(USENIX_BASE, href) if href else index_url,
+                "doi": "",
+                "abstract_truncated": False,
+            }
+        if out:
+            return out
+
+    title_pat = re.compile(
+        r'class="[^"]*field--name-field-paper-title[^"]*"[^>]*>(.*?)</div>',
+        re.DOTALL | re.IGNORECASE,
+    )
+    matches = list(title_pat.finditer(html))
+    for i, match in enumerate(matches):
+        title = html_to_text(match.group(1))
+        if not title:
+            continue
+        block_end = matches[i + 1].start() if i + 1 < len(matches) else min(len(html), match.end() + 16000)
+        block = html[match.end():block_end]
+        abstract = extract_usenix_field(block, "field-paper-description")
+        if not abstract or len(abstract.split()) < 20:
+            abstract = extract_usenix_abstract_from_text(html_to_text(block))
+        if not abstract or len(abstract.split()) < 20:
+            continue
+        out[normalize_title(title)] = {
+            "source": "usenix_nsdi_inline_sessions",
+            "title": title,
+            "abstract": abstract,
+            "url": index_url,
+            "doi": "",
+            "abstract_truncated": False,
+        }
+    return out
+
 def extract_usenix_abstract_from_text(text: str) -> str:
     markers = ["Abstract:", "Abstract"]
     start = -1
@@ -260,15 +371,8 @@ def parse_usenix_paper_page(url: str, html: str) -> dict[str, str] | None:
         or ""
     ).strip()
 
-    # USENIX stores the abstract in <div class="field-paper-description">
-    abstract = ""
-    desc_match = re.search(
-        r'class="[^"]*field-paper-description[^"]*"[^>]*>(.*?)</div>\s*</div>\s*</div>',
-        html, re.DOTALL,
-    )
-    if desc_match:
-        abstract = re.sub(r"<[^>]+>", " ", desc_match.group(1))
-        abstract = re.sub(r"\s+", " ", abstract).strip()
+    # USENIX stores the abstract in a Drupal field on most paper pages.
+    abstract = extract_usenix_field(html, "field-paper-description")
     if not abstract:
         abstract = (
             parser.meta.get("description")
@@ -313,7 +417,10 @@ def fetch_usenix_nsdi_year(year: int) -> dict[str, dict[str, str]]:
         if text_clean and len(text_clean) > len(best_text.get(href, "")):
             best_text[href] = text_clean
 
-    out: dict[str, dict[str, str]] = {}
+    out: dict[str, dict[str, str]] = parse_usenix_inline_sessions(index_url, html, year)
+    if len(out) >= 20:
+        return out
+
     urls = sorted(best_text.keys())
     for i, href in enumerate(urls):
         full = urljoin(USENIX_BASE, href)

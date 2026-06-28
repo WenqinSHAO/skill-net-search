@@ -26,6 +26,7 @@ DATA_DIR = PROJECT_DIR / "data"
 INPUT_PAPERS = DATA_DIR / "new_core_clean_papers.json"
 INPUT_LABELS = DATA_DIR / "paper_topic_labels_v3.json"
 TAXONOMY_PATH = DATA_DIR / "taxonomy_v3.json"
+OUTPUT_REPORT = DATA_DIR / "classification_v3_validation_report.json"
 
 
 def load_json(path: Path) -> Any:
@@ -146,7 +147,7 @@ def main() -> None:
     if classification_error_count > 0:
         errors.append(f"{classification_error_count} papers have classification_error fallback rows")
     if title_only_not_uncertain > 0:
-        warnings.append(f"{title_only_not_uncertain} title-only papers are marked not uncertain; verify explicit title evidence")
+        errors.append(f"{title_only_not_uncertain} title-only papers are marked not uncertain")
 
     # Check 3: Distributions
     print(f"\n--- Distribution Summary ---")
@@ -196,6 +197,33 @@ def main() -> None:
     print(f"\n  Top venues by paper count:")
     for venue, count in venue_counts.most_common(10):
         print(f"    {venue}: {count}")
+
+    report = {
+        "metadata": {
+            "model": metadata.get("model", "unknown"),
+            "taxonomy_version": metadata.get("taxonomy_version", "unknown"),
+            "classified_count": len(papers),
+            "expected_count": len(expected_papers),
+        },
+        "status": "failed" if errors else "passed",
+        "errors": errors,
+        "warnings": warnings,
+        "quality": {
+            "title_and_abstract_count": abstract_count,
+            "title_only_count": total - abstract_count,
+            "uncertain_count": uncertain_count,
+            "classification_error_count": classification_error_count,
+            "zero_scenario_count": zero_scenario,
+            "zero_mechanism_count": zero_mechanism,
+            "zero_method_count": zero_method,
+            "title_only_not_uncertain_count": title_only_not_uncertain,
+            "unknown_label_count": dict(unknown_label_count),
+            "confidence_distribution": dict(confidence_dist),
+        },
+    }
+    with open(OUTPUT_REPORT, "w") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+    print(f"\nWrote validation report: {OUTPUT_REPORT}")
 
     # Final judgment
     print(f"\n{'='*60}")

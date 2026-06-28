@@ -13,6 +13,7 @@ Requires: DS_API_KEY environment variable.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import random
@@ -299,6 +300,61 @@ def classify_with_json_mode(
     return None
 
 
+
+def abstract_hash(abstract: str | None) -> str:
+    if not abstract:
+        return ""
+    normalized = " ".join(abstract.split())
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:16]
+
+
+def current_evidence_metadata(paper_id: str, abstracts: dict[str, Any]) -> dict[str, str]:
+    abs_info = abstracts.get(paper_id, {})
+    abstract = abs_info.get("abstract") or ""
+    return {
+        "evidence_mode": "title_and_abstract" if abstract else "title_only",
+        "abstract_hash": abstract_hash(abstract),
+        "abstract_source": abs_info.get("source", "none"),
+    }
+
+
+def needs_reclassification(paper: dict[str, Any], existing: dict[str, Any], abstracts: dict[str, Any]) -> bool:
+    if not existing:
+        return True
+    if existing.get("classification_error"):
+        return True
+    meta = current_evidence_metadata(paper["paper_id"], abstracts)
+    if existing.get("evidence_mode") != meta["evidence_mode"]:
+        return True
+    # Once this script starts recording abstract hashes, changed abstracts should
+    # invalidate stale labels. Older labels without a hash are left alone unless
+    # they hit another explicit retry condition to avoid forcing full reruns.
+    if existing.get("abstract_hash") and existing.get("abstract_hash") != meta["abstract_hash"]:
+        return True
+    return False
+
+
+def enforce_quality_policy(result: dict[str, Any], evidence_mode: str, taxonomy: dict[str, Any]) -> dict[str, Any]:
+    axes = taxonomy.get("axes", {})
+    if not result.get("scenario") and "unknown_scenario" in axes.get("scenario", {}).get("values", {}):
+        result["scenario"] = ["unknown_scenario"]
+        result.setdefault("evidence", {}).setdefault("scenario", {})["unknown_scenario"] = "Insufficient evidence to assign a specific scenario."
+        result.setdefault("confidence", {})["scenario"] = "low"
+    if not result.get("mechanism") and "unknown_mechanism" in axes.get("mechanism", {}).get("values", {}):
+        result["mechanism"] = ["unknown_mechanism"]
+        result.setdefault("evidence", {}).setdefault("mechanism", {})["unknown_mechanism"] = "Insufficient evidence to assign a specific mechanism."
+        result.setdefault("confidence", {})["mechanism"] = "low"
+    for axis in ["scenario", "mechanism", "method"]:
+        result.setdefault("confidence", {}).setdefault(axis, "low")
+        result.setdefault("evidence", {}).setdefault(axis, {})
+    if evidence_mode == "title_only":
+        result["uncertain"] = True
+    if any(str(x).startswith("unknown_") for axis in ["scenario", "mechanism"] for x in result.get(axis, [])):
+        result["uncertain"] = True
+    if any(result.get("confidence", {}).get(axis) == "low" for axis in ["scenario", "mechanism", "method"]):
+        result["uncertain"] = True
+    return result
+
 def classify_single_paper(
     client: OpenAI,
     taxonomy: dict[str, Any],
@@ -325,20 +381,22 @@ def classify_single_paper(
             "title": title,
             "venue": venue,
             "year": year,
-            "scenario": [],
-            "mechanism": [],
+            "scenario": ["unknown_scenario"] if "unknown_scenario" in taxonomy.get("axes", {}).get("scenario", {}).get("values", {}) else [],
+            "mechanism": ["unknown_mechanism"] if "unknown_mechanism" in taxonomy.get("axes", {}).get("mechanism", {}).get("values", {}) else [],
             "method": [],
-            "primary_topic": "other",
-            "primary_label": "Other",
-            "all_topics": {"other": 1.0},
+            "primary_topic": "unknown_mechanism" if "unknown_mechanism" in taxonomy.get("axes", {}).get("mechanism", {}).get("values", {}) else "other",
+            "primary_label": taxonomy.get("axes", {}).get("mechanism", {}).get("values", {}).get("unknown_mechanism", {}).get("label", "Other"),
+            "all_topics": {"unknown_mechanism": 1.0} if "unknown_mechanism" in taxonomy.get("axes", {}).get("mechanism", {}).get("values", {}) else {"other": 1.0},
             "multi_topic": False,
-            "evidence": {"scenario": {}, "mechanism": {}, "method": {}},
+            "evidence": {"scenario": {"unknown_scenario": "classification failed after retries"}, "mechanism": {"unknown_mechanism": "classification failed after retries"}, "method": {}},
             "confidence": {"scenario": "low", "mechanism": "low", "method": "low"},
             "evidence_mode": evidence_mode,
             "uncertain": True,
             "classification_error": "all_retries_failed",
+            "abstract_hash": abstract_hash(abstract),
         }
 
+    result = enforce_quality_policy(result, evidence_mode, taxonomy)
     mechanism_labels = result.get("mechanism", [])
     primary_candidates = [m for m in mechanism_labels if not m.startswith("unknown_")]
     primary_topic = primary_candidates[0] if primary_candidates else (mechanism_labels[0] if mechanism_labels else "other")
@@ -368,6 +426,7 @@ def classify_single_paper(
         "confidence": result.get("confidence", {}),
         "evidence_mode": evidence_mode,
         "uncertain": result.get("uncertain", True),
+        "abstract_hash": abstract_hash(abstract),
     }
 
 
@@ -431,12 +490,17 @@ def main() -> None:
     else:
         classified = progress.get("classified", {})
 
-    pending = [p for p in papers if p["paper_id"] not in classified]
-    print(f"Already classified: {len(classified)}")
-    print(f"Pending: {len(pending)}")
+    pending = [p for p in papers if needs_reclassification(p, classified.get(p["paper_id"], {}), abstracts)]
+    retry_existing = sum(1 for p in papers if p["paper_id"] in classified and needs_reclassification(p, classified.get(p["paper_id"], {}), abstracts))
+    print(f"Already classified and current: {len(papers) - len(pending)}")
+    print(f"Pending/retry: {len(pending)}")
+    if retry_existing:
+        print(f"  Retrying stale/error rows: {retry_existing}")
 
     if not pending:
-        print("All papers already classified.")
+        print("All papers already classified and current.")
+        taxonomy_labels = build_taxonomy_labels(taxonomy)
+        save_output(classified, taxonomy, taxonomy_labels, system_prompt)
         return
 
     taxonomy_labels = build_taxonomy_labels(taxonomy)
@@ -487,15 +551,21 @@ def main() -> None:
                 except Exception as e:
                     done += 1
                     uncertain_count += 1
+                    paper = next((p for p in pending if p["paper_id"] == paper_id), {"paper_id": paper_id})
+                    meta = current_evidence_metadata(paper_id, abstracts)
                     classified[paper_id] = {
                         "paper_id": paper_id,
-                        "title": "ERROR",
-                        "scenario": [], "mechanism": [], "method": [],
-                        "primary_topic": "other", "primary_label": "Other",
-                        "all_topics": {"other": 1.0}, "multi_topic": False,
-                        "evidence": {}, "confidence": {"scenario": "low", "mechanism": "low", "method": "low"},
-                        "evidence_mode": "title_only",
+                        "title": paper.get("title", "ERROR"),
+                        "venue": paper.get("venue_group") or paper.get("venue", ""),
+                        "year": int(paper.get("year") or 0),
+                        "scenario": ["unknown_scenario"], "mechanism": ["unknown_mechanism"], "method": [],
+                        "primary_topic": "unknown_mechanism", "primary_label": taxonomy.get("axes", {}).get("mechanism", {}).get("values", {}).get("unknown_mechanism", {}).get("label", "Other"),
+                        "all_topics": {"unknown_mechanism": 1.0}, "multi_topic": False,
+                        "evidence": {"scenario": {"unknown_scenario": "classification worker exception"}, "mechanism": {"unknown_mechanism": "classification worker exception"}, "method": {}},
+                        "confidence": {"scenario": "low", "mechanism": "low", "method": "low"},
+                        "evidence_mode": meta["evidence_mode"],
                         "uncertain": True, "classification_error": str(e),
+                        "abstract_hash": meta["abstract_hash"],
                     }
                     print(f"  [{done}/{len(pending)}] ERROR: {paper_id[:70]}: {e}")
 
@@ -520,7 +590,8 @@ def main() -> None:
     print(f"Classification complete: {total} papers")
     print(f"  Model: {MODEL}")
     print(f"  With abstracts: {abs_count} ({abs_count/total*100:.1f}%)" if total else "")
-    print(f"  Uncertain: {uncertain_count} ({uncertain_count/total*100:.1f}%)" if total else "")
+    uncertain_total = sum(1 for r in classified.values() if r.get("uncertain"))
+    print(f"  Uncertain: {uncertain_total} ({uncertain_total/total*100:.1f}%)" if total else "")
     print(f"  Zero mechanism labels: {zero_mech}")
     print(f"  Zero scenario labels: {zero_scenario}")
 
@@ -552,6 +623,9 @@ def save_output(
         },
         "classified": classified,
     })
+
+    for row in classified.values():
+        enforce_quality_policy(row, row.get("evidence_mode", "title_only"), taxonomy)
 
     papers_list = sorted(
         classified.values(),
