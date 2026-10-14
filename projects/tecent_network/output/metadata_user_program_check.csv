@@ -1,0 +1,62 @@
+﻿venue,year,user_title,official_url,status,paper_id
+SIGCOMM,2026,Dorado: Scaling SmartNIC Session Tables on Commodity DDRs,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-436ac2802fe4d482
+SIGCOMM,2026,XFir: Accelerating New-Flow Setup on Host Servers of a Large Cloud Network,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-7f60f5fc47fb3fcb
+SIGCOMM,2026,Rethinking Cloud Optimization: Volatility-Driven for Better Outcomes,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-ff5fdbe08d8cd29d
+SIGCOMM,2026,DistDPU: A Disaggregated DPU Architecture for High-Performance and Cost-Efficient AI Clouds,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-b909b59461b0fe67
+SIGCOMM,2026,CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-22dcd0345e71e428
+SIGCOMM,2026,Pegasus: A Data Center Network for Bare-Metal AI Cloud,https://conferences.sigcomm.org/sigcomm/2026/accepted/,matched,tn-36a17aefb29551e5
+SIGCOMM,2025,Fornax: A Hardware-Centric Session Management in Large Public Cloud Network,https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/,matched,tn-0b6e93289d7b3005
+SIGCOMM,2025,PreTE: Traffic Engineering with Predictive Failures,https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/,matched,tn-65a6af3e4e7ae273
+SIGCOMM,2025,Astral: A Datacenter Infrastructure for Large Language Model Training at Scale,https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/,matched,tn-ef4ac043eef9c789
+SIGCOMM,2024,Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster,https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/,matched,tn-ed6fafae3cd8bdc0
+SIGCOMM,2024,MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud,https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/,matched,tn-d91322b000762057
+SIGCOMM,2023,FlexWAN: Software Hardware Co-design for Flexible and Cost-Effective Optical Backbones,https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html,matched_title_variant,tn-7f940cb9306f8c5c
+SIGCOMM,2023,TENSOR: Lightweight BGP Non-Stop Routing,https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html,matched,tn-0abe63a6f29c790f
+SIGCOMM,2022,NA,https://conferences.sigcomm.org/sigcomm/2022/program.html,user_observed_no_primary_paper_not_certified_absence,
+SIGCOMM,2021,NA,https://conferences.sigcomm.org/sigcomm/2021/program.html,user_observed_no_primary_paper_not_certified_absence,
+SIGCOMM,2020,NA,https://conferences.sigcomm.org/sigcomm/2020/program.html,user_observed_no_primary_paper_not_certified_absence,
+SIGCOMM,2019,NA,https://conferences.sigcomm.org/sigcomm/2019/program.html,user_observed_no_primary_paper_not_certified_absence,
+NSDI,2026,BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-bb96fcc8221d7661
+NSDI,2026,MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-1d6930256b9a1c41
+NSDI,2026,DDoS Detection at the Scale of One Hundred Tbps,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-2e6354ea2ff42940
+NSDI,2026,SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-4ab76b7bd3b61a53
+NSDI,2026,From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-ac1cf0954b2c5e03
+NSDI,2026,A Composable Emulation Framework for Whitebox Switches,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-2e858fd1909dcbf3
+NSDI,2026,Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-a36a4f74ab914d33
+NSDI,2026,Cost-effective and Reliable Global Internet Peering with Programmable Switches,https://www.usenix.org/conference/nsdi26/technical-sessions,matched,tn-527952756cb68624
+NSDI,2025,Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters,https://www.usenix.org/conference/nsdi25/technical-sessions,matched,tn-fcb9ef7a1565882f
+NSDI,2025,Unlocking ECMP Programmability for Precise Traffic Control,https://www.usenix.org/conference/nsdi25/technical-sessions,matched,tn-ab42eca19c84beba
+NSDI,2024,Pudica: Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming,https://www.usenix.org/conference/nsdi24/technical-sessions,matched,tn-cf46a4678f585b3d
+NSDI,2024,Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming,https://www.usenix.org/conference/nsdi24/technical-sessions,matched,tn-e948a761d296771f
+NSDI,2024,AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming,https://www.usenix.org/conference/nsdi24/technical-sessions,matched,tn-4ee11d0388e5e33b
+NSDI,2023,Boomerang: Metadata-Private Messaging under Hardware Trust,https://www.usenix.org/conference/nsdi23/technical-sessions,matched,tn-9d8ab9ccefaaabf8
+NSDI,2023,Enabling High Quality Real-Time Communications with Adaptive Frame-Rate,https://www.usenix.org/conference/nsdi23/technical-sessions,matched,tn-d230948cc184da0b
+NSDI,2022,Detecting Ephemeral Optical Events with OpTel,https://www.usenix.org/conference/nsdi22/technical-sessions,matched,tn-b5ad07b326ead5ae
+NSDI,2022,Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness,https://www.usenix.org/conference/nsdi22/technical-sessions,matched,tn-4b11634a6e5ae8d9
+NSDI,2021,Accessing Cloud with Disaggregated Software-Defined Router,https://www.usenix.org/conference/nsdi21/technical-sessions,matched,tn-5ee87295c2b32206
+NSDI,2020,NA,https://www.usenix.org/conference/nsdi20/technical-sessions,user_observed_no_primary_paper_not_certified_absence,
+NSDI,2019,NA,https://www.usenix.org/conference/nsdi19/technical-sessions,user_observed_no_primary_paper_not_certified_absence,
+IMC,2026,NA,https://conferences.sigcomm.org/imc/2026/accepted-papers/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2025,NA,https://conferences.sigcomm.org/imc/2025/accepted-papers/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2024,NA,https://conferences.sigcomm.org/imc/2024/accepted-papers/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2023,NA,https://conferences.sigcomm.org/imc/2023/program/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2022,NA,https://conferences.sigcomm.org/imc/2022/program/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2021,NA,https://conferences.sigcomm.org/imc/2021/accepted/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2020,NA,https://conferences.sigcomm.org/imc/2020/accepted/,user_observed_no_primary_paper_not_certified_absence,
+IMC,2019,NA,https://conferences.sigcomm.org/imc/2019/accepted/,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2026,NA,https://conferences.sigcomm.org/co-next/2026/#!/accepted-papers,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2025,NA,https://conferences.sigcomm.org/co-next/2025/#!/program,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2024,NA,https://conferences.sigcomm.org/co-next/2024/#!/accepted-papers,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2023,NA,https://conferences.sigcomm.org/co-next/2023/#!/accepted-papers,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2022,NA,https://conferences.sigcomm.org/co-next/2022/#!/program,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2021,Discovering Obscure Looking Glass Sites on the Web to Facilitate Internet Measurement Research,https://conferences.sigcomm.org/co-next/2021/#!/program,matched,tn-c91f67aec75ff7e3
+CoNEXT,2020,NA,https://conferences.sigcomm.org/co-next/2020/#!/program,user_observed_no_primary_paper_not_certified_absence,
+CoNEXT,2019,NA,https://conferences.sigcomm.org/co-next/2019/#!/program,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2026,NA,https://conferences.sigcomm.org/hotnets/2026/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2025,NA,https://conferences.sigcomm.org/hotnets/2025/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2024,NA,https://conferences.sigcomm.org/hotnets/2024/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2023,NA,https://conferences.sigcomm.org/hotnets/2023/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2022,NA,https://conferences.sigcomm.org/hotnets/2022/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2021,NA,https://conferences.sigcomm.org/hotnets/2021/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2020,NA,https://conferences.sigcomm.org/hotnets/2020/program.html,user_observed_no_primary_paper_not_certified_absence,
+HotNets,2019,NA,https://conferences.sigcomm.org/hotnets/2019/program.html,user_observed_no_primary_paper_not_certified_absence,

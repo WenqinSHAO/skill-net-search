@@ -1,0 +1,184 @@
+{
+  "checks": [
+    {
+      "paper_id": "tn-7f940cb9306f8c5c",
+      "url": "https://people.csail.mit.edu/zhizhenzhong/papers/2023_SIGCOMM_flexwan.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/47eb89a8909e751b6d33.pdf",
+      "text_cache": "raw/47eb89a8909e751b6d33.txt",
+      "sha256": "42141a29341783c288fa5183d1fb176015bc837e30e7936bf708708f2120add8",
+      "retrieved_at": "2026-10-14T14:18:12.553946+00:00",
+      "checked_at": "2026-10-14T14:18:12.634468+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 356,
+          "excerpt": "   Experience\n     Track\n\n                           FlexWAN: Software Hardware Co-design for\n                          Cost-Effective and Resilient Optical Backbones\n          Congcong Miao, Zhizhen Zhong ∗ , Ying Zhang + , Kunling He, Fangchao Li, Minggang Chen,\n                      Yiren Zhao, Xiang Li, Zekun He, Xianneng Zou, Jilong Wang ⋄◦\n        Tencent          ∗ Massachusetts Institute of Technology                                + Meta     ⋄ Tsinghua University               ◦ Quancheng Laboratory\n\n\nABSTRACT                                                                                            ACM Reference Format:\nThe rising demand for WAN capacity driven by the rapid growth                                       Congcong Miao, Zhizhen Zh"
+        },
+        {
+          "offset": 2434,
+          "excerpt": "                     The demand for Wide Area Networks (WANs) has surged during\nat the optical layer, enabling the generated wavelength to optimize                                  COVID due to increased online interactions like virtual meetings\nthe utilization of limited spectrum resources for the WAN capacity.                                  and cloud gaming. Cloud service providers, including Tencent, Meta,\nThe configuration of spacing-variable hardware in a multi-vendor                                     and Microsoft, respond by augmenting WAN capacity. This capacity\noptical backbone presents challenges related to spectrum manage-                                     expansion involves adding wavelengths, each requiring optical\nment. To address this, FlexWAN leverages a centralized controll"
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-0abe63a6f29c790f",
+      "url": "https://mcanini.github.io/papers/tensor.sigcomm23.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/010e1844f4b898654cde.pdf",
+      "text_cache": "raw/010e1844f4b898654cde.txt",
+      "sha256": "b759e5def73910aeaecd88bf072adb8489e0faa74146918f62559fec47f2b8e7",
+      "retrieved_at": "2026-10-14T14:18:11.614957+00:00",
+      "checked_at": "2026-10-14T14:18:11.674396+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 300,
+          "excerpt": "   Experience\n     Track\n\n                            TENSOR: Lightweight BGP Non-Stop Routing\n     Congcong Miao1∗ , Yunming Xiao2∗ , Marco Canini3 , Ruiqiang Dai1 , Shengli Zheng1 , Jilong Wang4,5 ,\n                          Jiwu Bu1 , Aleksandar Kuzmanovic2 , Yachen Wang1\n                      1 Tencent, 2 Northwestern University, 3 KAUST, 4 Tsinghua University, 5 Quancheng Laboratory\n\n\nABSTRACT                                                                                        NY, USA. ACM, New York, NY, USA, 14 pages. https://doi.org/10.1145/\nAs the solitary inter-domain protocol, BGP plays an important role                              3603269.3604852\nin today’s Internet. Its failures thre"
+        },
+        {
+          "offset": 4825,
+          "excerpt": "enabled routers.                                                          re-establishes and all the BGP routes recover. The impact is large\n                                                                                                during this period of time. For example, the average throughput\nCCS CONCEPTS                                                                                    of Tencent Cloud and its peering ASes is 37 Gbps per link. As it\n• Networks → Transport protocols; • Computer systems or-                                        may require several minutes for the BGP to recover even if peers\nganization → Dependable and fault-tolerant systems and                                          reconnect right away [13, 26], a single point of failure may affect\nnetworks.           "
+        },
+        {
+          "offset": 5523,
+          "excerpt": "                     reconnect right away [13, 26], a single point of failure may affect\nnetworks.                                                                                       over 1 TB of live traffic. The estimated cost due to BGP failure is at\n                                                                                                the scale of multi-million dollars each year at Tencent Cloud.\nKEYWORDS                                                                                           Unfortunately, BGP NSR is not compatible with BGP virtualiza-\nBorder Gateway Protocol; Fault Tolerance; Lightweight Virtualiza-                               tion because BGP is based on the connection-oriented TCP protocol.\ntion                                                                "
+        },
+        {
+          "offset": 7640,
+          "excerpt": "re not made or distributed           of virtual machines (VMs) [43]. However, replicating the VMs to\nfor profit or commercial advantage and that copies bear this notice and the full citation       support NSR is too costly and not feasible in practice.\non the first page. Copyrights for components of this work owned by others than the                 To tackle the above problem, we present TENSOR (Tencent\nauthor(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or\nrepublish, to post on servers or to redistribute to lists, requires prior specific permission   Cloud’s Non-Stop Routing). At the core of TENSOR’s approach\nand/or a fee. Request permissions from permissions@acm.org.                                     to BGP NSR is a novel design for primary-backup BGP replica-"
+        },
+        {
+          "offset": 13465,
+          "excerpt": "t\nthat the NSR of TENSOR costs less than 10 seconds to migrate the         case, dropped. This may mean a huge amount of packet drops,\nBGP process with zero link downtime for any failure scenarios. The       especially when the link is busy. For instance, a one-minute one-\nmigration time is reduced by a factor of 2 to 25 compared to the         link downtime will impact 277 GBs of live traffic in Tencent Cloud\nlink downtime of open-source BGP implementations.                        (see § 4.4). This results in a cost of several million dollars each year\n   When compared to the NSR-enabled routers, TENSOR achieves             for SLA violations.\nthe same service-level agreements (SLA) regarding the failure recov-         Therefore, it is essential to keep the gateway router available\nery time and "
+        },
+        {
+          "offset": 14717,
+          "excerpt": " 4 and the labor cost by a        failure of gateway routers [53]. The first scenario is easy to han-\nfactor of 20. Further, TENSOR also reduces the deployment costs          dle because of its predictable nature. BGP includes a mechanism\nby a factor of 5 and the maintenance costs by a factor of 10. TEN-       named graceful restart [42] that proactively notifies the peer\nSOR has been deployed at Tencent Cloud and achieved zero link            to keep the routing policies unchanged during the BGP connection\ndowntime for over two years.                                             downtime. This is also referred to as non-stop forwarding (NSF).\n   This work does not raise any ethical issues.                          Nevertheless, the latter scenario is much harder to handle because it\n             "
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-d91322b000762057",
+      "url": "https://yunmingxiao.github.io/publication/24sigcomm-megate/sigcomm24-megate.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/7a204e30e713316ea665.pdf",
+      "text_cache": "raw/7a204e30e713316ea665.txt",
+      "sha256": "a2a1c3f8dc257dd6f85ee25bece7f8d3aa57fb5728d4d9e7341f2abbfdbf4390",
+      "retrieved_at": "2026-10-14T14:18:11.512958+00:00",
+      "checked_at": "2026-10-14T14:18:11.560790+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 395,
+          "excerpt": "                         MegaTE: Extending WAN Traffic Engineering to\n                           Millions of Endpoints in Virtualized Cloud\n           Congcong Miao1∗ Zhizhen Zhong2∗ Yunming Xiao3∗ Feng Yang1∗ Senkuo Zhang1∗\n                  Yinan Jiang4 Zizhuo Bai4 Chaodong Lu1 Jingyi Geng1 Zekun He1\n                            Yachen Wang1 Xianneng Zou1 Chuanchuan Yang4\n                 1 Tencent          2 Massachusetts Institute of Technology                     3 Northwestern University                 4 Peking University\n\n\nAbstract                                                                                        Engineering to Millions of Endpoints in Virtualized Cloud. In ACM SIG-\nIn today’s virtualized cloud, containers and virtual machines (VMs)                             COM"
+        },
+        {
+          "offset": 3710,
+          "excerpt": "onnection bandwidth. In today’s networking stack,\nmore endpoints with the similar algorithm run time compared to                                  these requirements are primarily handled by the traffic engineering\nprior work. MegaTE has been adopted by large-scale public cloud                                 (TE) system on the IP layer. In particular, when traffic flows arrive\nproviders. Notably, Tencent rolled out MegaTE in its cloud WAN                                  at routers, the TE control plane decides the routing paths (i.e., TE\nsince December 2022. Our production analysis shows that MegaTE                                  tunnels) to forward the packet, and the TE data plane devices (e.g.,\nreduces the packet latency of real-time applications by up to 51%.                              r"
+        },
+        {
+          "offset": 20440,
+          "excerpt": "TE         sioning and decommissioning of virtual instances, it is not practical\nsystems. Meanwhile, MegaTE satisfies at most 8.2% more demand             to install flow entries for each individual flow on the routers. There-\nthan state-of-the-art TE algorithms in failure scenarios (§6).            fore, the hash function of packet splitting cannot guarantee that\n   MegaTE has been rolled out at Tencent WAN (TWAN), a large-             all flows from the same virtual instances are routed on the same\nscale public cloud provider with millions of virtual instance end-        TE tunnel, resulting in possible violations of the packet latency re-\npoints, since December 2022. Production measurement results show          quirements of cloud tenants. Figure 2(a) depicts the packet latency\nthat MegaTE red"
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-ed6fafae3cd8bdc0",
+      "url": "https://www-cs.stanford.edu/~keithw/sigcomm2024/sigcomm24-final391-acmpaginated.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/f4e58bd664c8fd104b06.pdf",
+      "text_cache": "raw/f4e58bd664c8fd104b06.txt",
+      "sha256": "79a09aeced62a18896baf8cb748a3a998ea3a356b8a1febc24cd16adde176bad",
+      "retrieved_at": "2026-10-14T14:18:14.320926+00:00",
+      "checked_at": "2026-10-14T14:18:14.367361+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 483,
+          "excerpt": "                 Large-scale Data Processing Cluster\n                          Xuya Jia1§ , Zhiyi Yao2§† , Chao Peng2† , Zihao Zhao 3 , Bin Lei 3 , Edison Liu 3 ,\n                           Xiang Li1 , Zekun He1 , Yachen Wang1 , Xianneng Zou1 , Chongqing Zhao1 ,\n                                          Jinhui Chu1 , Jilong Wang4 , Congcong Miao1∗\n                                                1 Tencent, 2 Fudan University, 3 NVIDIA, 4 Tsinghua University\n\n\nABSTRACT                                                                                              ACM Reference Format:\nBig data processing clusters are suffering from a long job comple-                                    Xuya Jia, Zhiyi Yao, Chao Peng, Zihao Zhao, Bin Lei, Edison Liu, Xiang Li,\n                                           "
+        },
+        {
+          "offset": 6465,
+          "excerpt": "                                                                (e.g., 8 nodes) to process small-scale jobs (e.g., 10 GB).\n     § Both authors contributed equally to the paper.\n                                                                                                         Our production measurement results in a large-scale cluster, con-\n     †Work done while these authors were interns at Tencent.                                          sisting of hundreds of server nodes, for processing large-scale jobs\n     ∗ Corresponding author.                                                                          have shown that the existing deployment of RDMA presents poor\n                                                                                                      performance. Specifica"
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-ef4ac043eef9c789",
+      "url": "https://ryanhuang1014.github.io/publications/astral/astral-sigcomm25.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/e8d9fb127c8cdaa1ffdb.pdf",
+      "text_cache": "raw/e8d9fb127c8cdaa1ffdb.txt",
+      "sha256": "ec96c1d61ed7371c9c5bca6e74589162d8bd41761f68bc74b20e301b21d4ccfd",
+      "retrieved_at": "2026-10-14T14:18:15.390913+00:00",
+      "checked_at": "2026-10-14T14:18:15.462758+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 3188,
+          "excerpt": "                        Conference Sponsors:\n                                                                                                                  SIGCOMM\n    .\n    ZHENHUI ZHANG, Nanjing University, Nanjing, Jiangsu, China\n    .\n    CHONLAM LAO, Harvard University, Cambridge, MA, United States\n    .\n    CHENGYUAN HUANG, Nanjing University, Nanjing, Jiangsu, China\n    .\n    BAOJIA LI, Tencent, Shenzhen, Guangdong, China\n    .\n    View all\n    .\n    .\n    Open Access Support provided by:\n    .\n    Tencent\n    .\n    Nanjing University\n    .\n    Harvard University\n    .\n    Politecnico di Milano\n    .\n                                                                        SIGCOMM '25: Proceedings of the ACM SIGCOMM 2025 Conference (September 2025)\n                                        "
+        },
+        {
+          "offset": 3302,
+          "excerpt": "                                             SIGCOMM\n    .\n    ZHENHUI ZHANG, Nanjing University, Nanjing, Jiangsu, China\n    .\n    CHONLAM LAO, Harvard University, Cambridge, MA, United States\n    .\n    CHENGYUAN HUANG, Nanjing University, Nanjing, Jiangsu, China\n    .\n    BAOJIA LI, Tencent, Shenzhen, Guangdong, China\n    .\n    View all\n    .\n    .\n    Open Access Support provided by:\n    .\n    Tencent\n    .\n    Nanjing University\n    .\n    Harvard University\n    .\n    Politecnico di Milano\n    .\n                                                                        SIGCOMM '25: Proceedings of the ACM SIGCOMM 2025 Conference (September 2025)\n                                                                                                                 hps://doi.org/10.1145/3718958.3750521\n  "
+        },
+        {
+          "offset": 4433,
+          "excerpt": "| , Chengyuan Huang¢, Baojia Li~ ,\n           Ziyuan Zhu~ , Hao Lu~ , Weizhen Dang~ , Zitong Lin~ , Weifeng Zhang~ , Lingfeng Liu~ ,\n            Yuanyuan Gong~ , Chunzhi He~ , Xiaoyuan Hu~ , Yinben Xia~ , Xiang Li~ , Zekun He~ ,\n          Yachen Wang~ , Xianneng Zou~ , Kun Yang¢, Gianni Antichi , Guihai Chen¢, Chen Tian¢\n                       ¢ Nanjing University      | Harvard University     ~ Tencent\n                        Politecnico di Milano and Queen Mary University of London\n\nAbstract                                                                                       1    Introduction\nThe �ourishing of Large Language Models (LLMs) calls for increas-                              In recent years, Large Language Models (LLMs) have gained pop-\ningly ultra-scale training. In this paper, w"
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-65a6af3e4e7ae273",
+      "url": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/prete.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/a542133c103cb4311548.pdf",
+      "text_cache": "raw/a542133c103cb4311548.txt",
+      "sha256": "37219eeeac7d632a7a8fb6f70d1ac23367923a0e93c64eca585416d4a825461a",
+      "retrieved_at": "2026-10-14T14:18:14.906919+00:00",
+      "checked_at": "2026-10-14T14:18:14.985929+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 250,
+          "excerpt": "                    PreTE: Traffic Engineering with Predictive Failures\n                   Congcong Miao1 Zhizhen Zhong2 Yiren Zhao1 Arpit Gupta3 Ying Zhang4\n                             Sirui Li1 Zekun He1 Xianneng Zou1 Jilong Wang5\n              1 Tencent         2 Massachusetts Institute of Technology                         3 UC Santa Barbara        4 Meta     5 Tsinghua University\n\n\nABSTRACT                                                                                         hardware malfunctions. These cuts can take a significant amount\nFiber links in wide-area networks (WANs) are exposed to compli-                                  of time "
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-22dcd0345e71e428",
+      "url": "https://yunmingxiao.github.io/publication/26sigcomm-cubetrace/sigcomm26-cubetrace.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/aba1bcaeaa4c41bf27fe.pdf",
+      "text_cache": "raw/aba1bcaeaa4c41bf27fe.txt",
+      "sha256": "42555eeee0106e7d01644a3a0978dfac30858850e6a1fa8c4850eb83f62faf57",
+      "retrieved_at": "2026-10-14T14:18:13.981930+00:00",
+      "checked_at": "2026-10-14T14:18:14.059665+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 368,
+          "excerpt": "     CubeTrace: Microscopic Network Tracing for Heterogeneous\n                         Cloud Gateways\n         Yunming Xiao1 Yinchao Yang2 Jiaqi Zheng3 Xuqian Li2 Dongbo Gu2 Jun Zhang2\n         Miantao Wan2 Chao Pei2 Chen Tian3 Mingwei Xu4 Ang Chen5 Congcong Miao6∗\n                          1 The Chinese University of Hong Kong, Shenzhen                           2 Tencent      3 Nanjing University\n                          4 Tsinghua University               5 University of Michigan             6 National University of Singapore\n\n\nABSTRACT                                                                                    1   INTRODUCTION\nModern cloud gateways have evolved to include diverse network                               The cloud gateway is a crucial compo"
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    },
+    {
+      "paper_id": "tn-7f60f5fc47fb3fcb",
+      "url": "https://yunmingxiao.github.io/publication/26sigcomm-xfir/sigcomm26-xfir.pdf",
+      "status": "first_two_pages_checked",
+      "cache_file": "raw/b0ca8be0cb7eead58e4c.pdf",
+      "text_cache": "raw/b0ca8be0cb7eead58e4c.txt",
+      "sha256": "2ddb2280bdffdcf596e4af5ccc6eea473e350c47d3da2a39e3727602e5c63f94",
+      "retrieved_at": "2026-10-14T14:18:15.707910+00:00",
+      "checked_at": "2026-10-14T14:18:15.780462+00:00",
+      "tencent_occurrences": [
+        {
+          "offset": 423,
+          "excerpt": " Accelerating New-Flow Setup on Host Servers\n                               of a Large Cloud Network\n       Shihan Lin‡∗ , Shunqiao Jiang†∗ , Liang Wang† , Jian Wang† , Chao Pei† , Jian Zhao† , Wenjun Wu† ,\n           Kai Ren† , Lijun Zhuang ¶ , Qingmin Liu ¶ , Heng Yu♠ , Sirui Li† , Yibo Huang‡ , Yifei Zhu♦ ,\n                        Yunming Xiaor , Ang Chen‡ , Linghe Kong♦ , Congcong Miao♣\n    † Tencent       ‡ University of Michigan             ¶ JaguarMicro, Shenzhen         ♠ Tsinghua University          ♦ Shanghai Jiao Tong University\n                           r The Chinese University of Hong Kong, Shenzhen                      ♣ National University of Singapore\n\n\nAbstract                                                                                    Slow path       Software        CPU "
+        }
+      ],
+      "interpretation": "manual_header_review_required"
+    }
+  ]
+}

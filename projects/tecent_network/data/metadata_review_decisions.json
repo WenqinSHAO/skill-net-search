@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-10-14",
+  "reviewed_pdf_paper_ids": [
+    "tn-c91f67aec75ff7e3", "tn-5ee87295c2b32206", "tn-b5ad07b326ead5ae", "tn-4b11634a6e5ae8d9",
+    "tn-9d8ab9ccefaaabf8", "tn-d230948cc184da0b", "tn-4ee11d0388e5e33b", "tn-e948a761d296771f",
+    "tn-cf46a4678f585b3d", "tn-fcb9ef7a1565882f", "tn-ab42eca19c84beba", "tn-2e858fd1909dcbf3",
+    "tn-bb96fcc8221d7661", "tn-527952756cb68624", "tn-2e6354ea2ff42940", "tn-ac1cf0954b2c5e03",
+    "tn-a36a4f74ab914d33", "tn-1d6930256b9a1c41", "tn-4ab76b7bd3b61a53", "tn-7f940cb9306f8c5c",
+    "tn-0abe63a6f29c790f", "tn-d91322b000762057", "tn-ed6fafae3cd8bdc0", "tn-ef4ac043eef9c789",
+    "tn-65a6af3e4e7ae273", "tn-22dcd0345e71e428", "tn-7f60f5fc47fb3fcb"
+  ],
+  "reviewed_publisher_paper_ids": [
+    "tn-d05e4d080c21e3ca", "tn-8ac890aa5f91a364", "tn-0b6e93289d7b3005", "tn-b909b59461b0fe67",
+    "tn-436ac2802fe4d482", "tn-36a17aefb29551e5", "tn-ff5fdbe08d8cd29d"
+  ],
+  "notes_by_id": {
+    "tn-fcb9ef7a1565882f": "PDF manuscript spells the last author Juncheng Jiang; the PDF cover, official USENIX author list/BibTeX and DBLP use Junchen Jiang. Retain Junchen Jiang as the bibliographic name and preserve Juncheng Jiang as the manuscript spelling; do not infer a new author identity.",
+    "tn-436ac2802fe4d482": "Official final program lists Zhongguancun Laboratory for Heng Yu, Guozhi Lin and Ziyue Zhai, whereas the accepted list and publisher deposit list Tsinghua University for Heng Yu and University of Chinese Academy of Sciences for Guozhi Lin/Ziyue Zhai. Use the reviewed publisher deposit for publication-time assignments; preserve the program conflict. Final PDF remains inaccessible from ACM (HTTP 403).",
+    "tn-ef4ac043eef9c789": "Final PDF and publisher deposit assign ChonLam Lao to Harvard University and Gianni Antichi to both Politecnico di Milano and Queen Mary University of London. Both assignments were checked; do not use a current institutional profile.",
+    "tn-7f940cb9306f8c5c": "User-listed accepted title ends Flexible and Cost-Effective Optical Backbones; final PDF/publisher title ends Cost-Effective and Resilient Optical Backbones. Same DOI and complete ordered author list: one paper, not two.",
+    "tn-7f60f5fc47fb3fcb": "The coauthor's publication-list text omits Ang Chen and Congcong Miao; the final PDF and publisher deposit include all 18 authors. Retain the complete final-paper list.",
+    "tn-36a17aefb29551e5": "Explicit Unaffiliated publisher assignments for Yiran Zhang and Yuxi Wang are not institutions. Preserve those author positions and their explicit-none status.",
+    "tn-d05e4d080c21e3ca": "Separate SIGCOMM 2019 poster. Publisher author order and affiliations checked; abstract remains unavailable in the accessible primary metadata. Do not invent an abstract.",
+    "tn-ff5fdbe08d8cd29d": "User-reviewed primary list includes this paper; keep existing networking-scope boundary-candidate judgment separate from its complete author/abstract metadata."
+  }
+}

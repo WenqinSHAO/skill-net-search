@@ -1,0 +1,2476 @@
+{
+  "generated_at": "2026-10-14T14:47:24.047690+00:00",
+  "venue_years": [
+    {
+      "venue": "NSDI",
+      "year": 2019,
+      "inventory_records": 49,
+      "primary_venue_records": 49,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 49,
+      "primary_listing_records": 49,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 35,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 1,
+      "unresolved": 13,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 49,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2020,
+      "inventory_records": 65,
+      "primary_venue_records": 65,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 65,
+      "primary_listing_records": 65,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 51,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 4,
+      "unresolved": 10,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 65,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2021,
+      "inventory_records": 59,
+      "primary_venue_records": 59,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 59,
+      "primary_listing_records": 59,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 1,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 45,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 4,
+      "unresolved": 9,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 58,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "inventory_records": 78,
+      "primary_venue_records": 78,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 78,
+      "primary_listing_records": 78,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 55,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 1,
+      "unresolved": 20,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 76,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "inventory_records": 96,
+      "primary_venue_records": 96,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 96,
+      "primary_listing_records": 96,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 75,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 3,
+      "unresolved": 16,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 94,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "inventory_records": 112,
+      "primary_venue_records": 112,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 112,
+      "primary_listing_records": 112,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 3,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 94,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 3,
+      "unresolved": 12,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 109,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "inventory_records": 83,
+      "primary_venue_records": 83,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 83,
+      "primary_listing_records": 83,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 74,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 4,
+      "unresolved": 3,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 81,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "inventory_records": 150,
+      "primary_venue_records": 150,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 150,
+      "primary_listing_records": 150,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 8,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 120,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 9,
+      "unresolved": 13,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 142,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "year_to_date",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "inventory_records": 102,
+      "primary_venue_records": 32,
+      "poster_demo_records": 60,
+      "publication_type_unresolved": 10,
+      "catalog_records": 32,
+      "primary_listing_records": 72,
+      "catalog_only_records": 30,
+      "primary_only_records": 70,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 1,
+      "no_tencent_program_supported": 2,
+      "no_tencent_program_only": 69,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 30,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 102,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "inventory_records": 74,
+      "primary_venue_records": 53,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 21,
+      "catalog_records": 53,
+      "primary_listing_records": 21,
+      "catalog_only_records": 53,
+      "primary_only_records": 21,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 10,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 64,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 74,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "inventory_records": 82,
+      "primary_venue_records": 55,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 27,
+      "catalog_records": 55,
+      "primary_listing_records": 27,
+      "catalog_only_records": 55,
+      "primary_only_records": 27,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 6,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 76,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 82,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "inventory_records": 67,
+      "primary_venue_records": 55,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 12,
+      "catalog_records": 55,
+      "primary_listing_records": 66,
+      "catalog_only_records": 1,
+      "primary_only_records": 12,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 43,
+      "no_tencent_program_only": 6,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 18,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 67,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "inventory_records": 109,
+      "primary_venue_records": 71,
+      "poster_demo_records": 36,
+      "publication_type_unresolved": 2,
+      "catalog_records": 107,
+      "primary_listing_records": 73,
+      "catalog_only_records": 36,
+      "primary_only_records": 2,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 1,
+      "no_tencent_program_supported": 53,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 53,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 107,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "inventory_records": 62,
+      "primary_venue_records": 62,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 62,
+      "primary_listing_records": 62,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 48,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 12,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 60,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "inventory_records": 155,
+      "primary_venue_records": 88,
+      "poster_demo_records": 66,
+      "publication_type_unresolved": 1,
+      "catalog_records": 88,
+      "primary_listing_records": 155,
+      "catalog_only_records": 0,
+      "primary_only_records": 67,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 1,
+      "no_tencent_program_supported": 76,
+      "no_tencent_program_only": 67,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 9,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 153,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "inventory_records": 113,
+      "primary_venue_records": 113,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 0,
+      "primary_listing_records": 113,
+      "catalog_only_records": 0,
+      "primary_only_records": 113,
+      "tencent_confirmed_pdf": 2,
+      "tencent_supported_pdf_pending": 4,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 107,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 0,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 111,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "year_to_date",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "inventory_records": 52,
+      "primary_venue_records": 32,
+      "poster_demo_records": 19,
+      "publication_type_unresolved": 1,
+      "catalog_records": 32,
+      "primary_listing_records": 51,
+      "catalog_only_records": 1,
+      "primary_only_records": 20,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 21,
+      "no_tencent_program_only": 20,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 11,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 52,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "inventory_records": 63,
+      "primary_venue_records": 63,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 63,
+      "primary_listing_records": 63,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 43,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 20,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 63,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "inventory_records": 50,
+      "primary_venue_records": 50,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 50,
+      "primary_listing_records": 50,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 1,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 34,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 15,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 49,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "inventory_records": 28,
+      "primary_venue_records": 28,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 28,
+      "primary_listing_records": 28,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 18,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 10,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 28,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "inventory_records": 41,
+      "primary_venue_records": 34,
+      "poster_demo_records": 7,
+      "publication_type_unresolved": 0,
+      "catalog_records": 40,
+      "primary_listing_records": 40,
+      "catalog_only_records": 1,
+      "primary_only_records": 1,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 8,
+      "no_tencent_program_only": 1,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 32,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 41,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "inventory_records": 50,
+      "primary_venue_records": 40,
+      "poster_demo_records": 8,
+      "publication_type_unresolved": 2,
+      "catalog_records": 48,
+      "primary_listing_records": 42,
+      "catalog_only_records": 8,
+      "primary_only_records": 2,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 17,
+      "no_tencent_program_only": 2,
+      "no_tencent_pdf_screened": 6,
+      "unresolved": 25,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 50,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "inventory_records": 77,
+      "primary_venue_records": 60,
+      "poster_demo_records": 17,
+      "publication_type_unresolved": 0,
+      "catalog_records": 77,
+      "primary_listing_records": 51,
+      "catalog_only_records": 26,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 10,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 67,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 77,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "inventory_records": 60,
+      "primary_venue_records": 60,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 0,
+      "primary_listing_records": 60,
+      "catalog_only_records": 0,
+      "primary_only_records": 60,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 60,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 0,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 60,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "year_to_date",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2019,
+      "inventory_records": 40,
+      "primary_venue_records": 39,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 1,
+      "catalog_records": 39,
+      "primary_listing_records": 39,
+      "catalog_only_records": 1,
+      "primary_only_records": 1,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 21,
+      "no_tencent_program_only": 1,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 18,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 40,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "inventory_records": 60,
+      "primary_venue_records": 54,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 6,
+      "catalog_records": 54,
+      "primary_listing_records": 53,
+      "catalog_only_records": 7,
+      "primary_only_records": 6,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 27,
+      "no_tencent_program_only": 6,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 27,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 60,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "inventory_records": 72,
+      "primary_venue_records": 54,
+      "poster_demo_records": 17,
+      "publication_type_unresolved": 1,
+      "catalog_records": 54,
+      "primary_listing_records": 70,
+      "catalog_only_records": 2,
+      "primary_only_records": 18,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 38,
+      "no_tencent_program_only": 18,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 16,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 72,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "inventory_records": 78,
+      "primary_venue_records": 76,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 2,
+      "catalog_records": 76,
+      "primary_listing_records": 78,
+      "catalog_only_records": 0,
+      "primary_only_records": 2,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 46,
+      "no_tencent_program_only": 2,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 30,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 78,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "inventory_records": 63,
+      "primary_venue_records": 52,
+      "poster_demo_records": 11,
+      "publication_type_unresolved": 0,
+      "catalog_records": 63,
+      "primary_listing_records": 63,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 37,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 26,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 63,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "inventory_records": 97,
+      "primary_venue_records": 56,
+      "poster_demo_records": 33,
+      "publication_type_unresolved": 8,
+      "catalog_records": 84,
+      "primary_listing_records": 91,
+      "catalog_only_records": 6,
+      "primary_only_records": 13,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 33,
+      "no_tencent_program_only": 1,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 63,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 97,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "inventory_records": 112,
+      "primary_venue_records": 73,
+      "poster_demo_records": 37,
+      "publication_type_unresolved": 2,
+      "catalog_records": 99,
+      "primary_listing_records": 102,
+      "catalog_only_records": 10,
+      "primary_only_records": 13,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 73,
+      "no_tencent_program_only": 12,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 27,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 112,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "inventory_records": 79,
+      "primary_venue_records": 79,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 0,
+      "primary_listing_records": 79,
+      "catalog_only_records": 0,
+      "primary_only_records": 79,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 78,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 1,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 79,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "year_to_date",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "inventory_records": 23,
+      "primary_venue_records": 23,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 20,
+      "primary_listing_records": 20,
+      "catalog_only_records": 3,
+      "primary_only_records": 3,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 13,
+      "no_tencent_program_only": 3,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 7,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 23,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "inventory_records": 30,
+      "primary_venue_records": 30,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 30,
+      "primary_listing_records": 30,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 25,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 5,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 30,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "inventory_records": 32,
+      "primary_venue_records": 32,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 31,
+      "primary_listing_records": 32,
+      "catalog_only_records": 0,
+      "primary_only_records": 1,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 19,
+      "no_tencent_program_only": 1,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 12,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 32,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "inventory_records": 33,
+      "primary_venue_records": 33,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 32,
+      "primary_listing_records": 33,
+      "catalog_only_records": 0,
+      "primary_only_records": 1,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 1,
+      "no_tencent_pdf_screened": 27,
+      "unresolved": 5,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 33,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "inventory_records": 38,
+      "primary_venue_records": 38,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 38,
+      "primary_listing_records": 38,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 1,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 32,
+      "unresolved": 5,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 38,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "inventory_records": 44,
+      "primary_venue_records": 44,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 44,
+      "primary_listing_records": 44,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 1,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 34,
+      "unresolved": 9,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 44,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2025,
+      "inventory_records": 50,
+      "primary_venue_records": 50,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 50,
+      "primary_listing_records": 50,
+      "catalog_only_records": 0,
+      "primary_only_records": 0,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 2,
+      "no_tencent_program_only": 0,
+      "no_tencent_pdf_screened": 41,
+      "unresolved": 7,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 50,
+      "inventory_reconciliation": "title_sets_agree",
+      "affiliation_completeness": "not_established",
+      "year_status": "historical",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2026,
+      "inventory_records": 43,
+      "primary_venue_records": 43,
+      "poster_demo_records": 0,
+      "publication_type_unresolved": 0,
+      "catalog_records": 0,
+      "primary_listing_records": 43,
+      "catalog_only_records": 0,
+      "primary_only_records": 43,
+      "tencent_confirmed_pdf": 0,
+      "tencent_supported_pdf_pending": 0,
+      "no_tencent_program_supported": 0,
+      "no_tencent_program_only": 43,
+      "no_tencent_pdf_screened": 0,
+      "unresolved": 0,
+      "new_tencent_author_line_leads": 0,
+      "needs_manual_review": 43,
+      "inventory_reconciliation": "open_discrepancies",
+      "affiliation_completeness": "not_established",
+      "year_status": "year_to_date",
+      "completion_blocker": "Reconcile catalog-only/program-only records and publication types; resolve affiliations; audit PDF/current-address discrepancies. Screened negative decisions are not manual certification."
+    }
+  ],
+  "decision_counts": {
+    "no_tencent_in_complete_program_affiliations": 1258,
+    "no_tencent_in_program_only_affiliations": 514,
+    "unresolved": 796,
+    "tencent_coauthorship_confirmed": 27,
+    "no_tencent_in_matched_pdf_screen": 169,
+    "tencent_coauthorship_supported": 7
+  },
+  "source_parse_logs": [
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/co-next/2019/partials/accepted-papers.html?updated=191210",
+      "cache_file": "raw/263326d9725ee66e2dcf.html",
+      "paper_blocks": 32,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/co-next/2019/partials/program.html?updated=191214",
+      "cache_file": "raw/471e1f3f329f4655f3a9.html",
+      "paper_blocks": 33,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/co-next/2020/partials/accepted-papers.html?updated=191210",
+      "cache_file": "raw/cac5063282fb95057670.html",
+      "paper_blocks": 42,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/co-next/2020/partials/program.html?updated=191214",
+      "cache_file": "raw/95d2469cd42d8b7558c9.html",
+      "paper_blocks": 45,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/co-next/2021/partials/accepted-papers.html?updated=191210",
+      "cache_file": "raw/955ab99e187c1c3f1401.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/co-next/2021/partials/program.html?updated=191214",
+      "cache_file": "raw/eba6e39956565d0f1cb3.html",
+      "paper_blocks": 39,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/co-next/2022/partials/accepted-papers.html?updated=191210",
+      "cache_file": "raw/4a021d8068a083feddbb.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/co-next/2022/partials/program.html?updated=221111",
+      "cache_file": "raw/1a723d6a49f0a890b0fb.html",
+      "paper_blocks": 31,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/co-next/2023/partials/accepted-papers.html",
+      "cache_file": "raw/635335b6598564c5564a.html",
+      "paper_blocks": 30,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/co-next/2023/partials/program.html?updated=191214",
+      "cache_file": "raw/2f0f06cca5856a082e0f.html",
+      "paper_blocks": 32,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/co-next/2024/partials/accepted-papers.html?updated=241118",
+      "cache_file": "raw/5f4047d05176c7abccc8.html",
+      "paper_blocks": 40,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/co-next/2024/partials/program.html?updated=241224",
+      "cache_file": "raw/20ac8b9dc01f9cf1054a.html",
+      "paper_blocks": 43,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/co-next/2025/partials/program.html?updated=191214",
+      "cache_file": "raw/cd3bcf116389d9ccba05.html",
+      "paper_blocks": 52,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/co-next/2026/partials/accepted-papers.html",
+      "cache_file": "raw/00f2855ebbcb2b01389a.html",
+      "paper_blocks": 60,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/imc/2019/program/",
+      "cache_file": "raw/716fc69d316229becc3c.html",
+      "paper_blocks": 39,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/imc/2020/accepted/",
+      "cache_file": "raw/af96d1a8904dbf9f5e4b.html",
+      "paper_blocks": 53,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/imc/2020/accepted",
+      "cache_file": "raw/e8846193e9f24f36716e.html",
+      "paper_blocks": 53,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/imc/2020/program/",
+      "cache_file": "raw/36fd44ee036a0bf4643b.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/imc/2021/accepted/",
+      "cache_file": "raw/df0b1a2e2d1831f4317b.html",
+      "paper_blocks": 53,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/imc/2021/accepted",
+      "cache_file": "raw/3bba0d384845e329cc70.html",
+      "paper_blocks": 53,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/imc/2022/accepted/",
+      "cache_file": "raw/e12e72ae8147d06c4324.html",
+      "paper_blocks": 56,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/imc/2022/program/",
+      "cache_file": "raw/fcc29b8c58efcc1ce23c.html",
+      "paper_blocks": 57,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/imc/2022/accepted",
+      "cache_file": "raw/b1f75f47f18db052944c.html",
+      "paper_blocks": 56,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/imc/2023/program/",
+      "cache_file": "raw/2d3cf668f0ef3683b00e.html",
+      "paper_blocks": 52,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/imc/2024/accepted-papers/",
+      "cache_file": "raw/d4ef5fb5d835bccb12b3.html",
+      "paper_blocks": 55,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/imc/2024/program/",
+      "cache_file": "raw/71ace9f20f67228b0144.html",
+      "paper_blocks": 56,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/imc/2025/program/",
+      "cache_file": "raw/4b9b447892179d005f0a.html",
+      "paper_blocks": 72,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/imc/2025/accepted-papers/",
+      "cache_file": "raw/300f99dac38172f72cc9.html",
+      "paper_blocks": 72,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/imc/2026/accepted-papers",
+      "cache_file": "raw/08e3fa538f40b17e2c39.html",
+      "paper_blocks": 77,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/imc/2026/program/",
+      "cache_file": "raw/60407512f3b3585ed562.html",
+      "paper_blocks": 78,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/hotnets/2019/accepted.html",
+      "cache_file": "raw/8909ecec9c881b6b6f02.html",
+      "paper_blocks": 20,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/hotnets/2019/program.html",
+      "cache_file": "raw/d144dc9cdebfe7780dc5.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/hotnets/2020/program.html",
+      "cache_file": "raw/dca563be75857f035fc7.html",
+      "paper_blocks": 31,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/hotnets/2021/accepted.html",
+      "cache_file": "raw/a1e51e188101c474a051.html",
+      "paper_blocks": 31,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/hotnets/2021/program.html",
+      "cache_file": "raw/15fa24ab96b490978947.html",
+      "paper_blocks": 33,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/hotnets/2022/accepted.html",
+      "cache_file": "raw/01084eea5b3df2556a2e.html",
+      "paper_blocks": 32,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/hotnets/2022/program.html",
+      "cache_file": "raw/a6f9cf31ed69c70bc277.html",
+      "paper_blocks": 35,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/hotnets/2023/accepted.html",
+      "cache_file": "raw/691fab2bba446191e81b.html",
+      "paper_blocks": 38,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/hotnets/2023/program.html",
+      "cache_file": "raw/ede78335902e8e1839bf.html",
+      "paper_blocks": 41,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/hotnets/2024/program.html",
+      "cache_file": "raw/315bedfca1cf50f2f0a0.html",
+      "paper_blocks": 47,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/hotnets/2025/program.html",
+      "cache_file": "raw/5f334dc1935e532c3783.html",
+      "paper_blocks": 50,
+      "status": "parsed"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/hotnets/2026/program.html",
+      "cache_file": "raw/b9351447db6434fd9272.html",
+      "paper_blocks": 43,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2019,
+      "url": "https://www.usenix.org/conference/nsdi19/technical-sessions",
+      "cache_file": "raw/c110e7c08028f3b32c80.html",
+      "paper_blocks": 49,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2020,
+      "url": "https://www.usenix.org/conference/nsdi20/technical-sessions",
+      "cache_file": "raw/b617dba4b557218f0116.html",
+      "paper_blocks": 65,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2021,
+      "url": "https://www.usenix.org/conference/nsdi21/technical-sessions",
+      "cache_file": "raw/b3905229c4096e2b4b31.html",
+      "paper_blocks": 59,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "url": "https://www.usenix.org/conference/nsdi22/technical-sessions",
+      "cache_file": "raw/da836018a4835a6190c9.html",
+      "paper_blocks": 78,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "cache_file": "raw/24f38629a6774c25e005.html",
+      "paper_blocks": 96,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "cache_file": "raw/3d00b31e89ba59049f66.html",
+      "paper_blocks": 112,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "cache_file": "raw/57e3ebe1c2f34a799e81.html",
+      "paper_blocks": 83,
+      "status": "parsed"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "cache_file": "raw/cb2f4e708893465a897e.html",
+      "paper_blocks": 150,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/program.html",
+      "cache_file": "raw/a6ec29d6a6c75f1a8886.html",
+      "paper_blocks": 12,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/program/",
+      "cache_file": "raw/5178199571475124d3ac.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/program.html",
+      "cache_file": "raw/3bbf4faec8124ade515e.html",
+      "paper_blocks": 10,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/sigcomm/2021/program.html",
+      "cache_file": "raw/1a794f4fd4c9d4102028.html",
+      "paper_blocks": 28,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/sigcomm/2022/program.html",
+      "cache_file": "raw/372c0cefb87fb5c033f9.html",
+      "paper_blocks": 69,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "cache_file": "raw/f2ec7fe76bc0b81da362.html",
+      "paper_blocks": 73,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "cache_file": "raw/715de29407cb0a46cd28.html",
+      "paper_blocks": 62,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/",
+      "cache_file": "raw/c539eb1534bdc6a9cd05.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/",
+      "cache_file": "raw/53d93ced78f262980959.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "cache_file": "raw/a010598cefd932b574af.html",
+      "paper_blocks": 206,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "cache_file": "raw/4f8a4137ecec68db764f.html",
+      "paper_blocks": 137,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/accepted-papers.html",
+      "cache_file": "raw/a70b7a534b8d2d03b923.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/cf-posters.html",
+      "cache_file": "raw/d1f09720a84e21bd56ca.html",
+      "paper_blocks": 62,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html",
+      "cache_file": "raw/f797ca78ea51ba73dbfd.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/tutorial-mptp.html",
+      "cache_file": "raw/10d42066a71f36322633.html",
+      "paper_blocks": 4,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/tutorial-aarp.html",
+      "cache_file": "raw/d9d38b36b79c19fcf5dc.html",
+      "paper_blocks": 6,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/tutorial-quic.html",
+      "cache_file": "raw/637772d7c4150bda9d24.html",
+      "paper_blocks": 2,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/sigcomm/2021/cf-posters.html",
+      "cache_file": "raw/f1ba5072504fa70c313d.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/sigcomm/2022/cf-posters.html",
+      "cache_file": "raw/df597c05f1dfefd929a3.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/cf-posters.html",
+      "cache_file": "raw/7a6e548ccf2ca8872925.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html",
+      "cache_file": "raw/5f6912f5fc6ff112852e.html",
+      "paper_blocks": 71,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/",
+      "cache_file": "raw/534d9dc741910c415d49.html",
+      "paper_blocks": 62,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/papers-posters-demos-info/",
+      "cache_file": "raw/15176caf5607b10d509a.html",
+      "paper_blocks": 132,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/accepted-posters-demos",
+      "cache_file": "raw/43edef5802d8cacc47c4.html",
+      "paper_blocks": 66,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/",
+      "cache_file": "raw/bc6378b780ef59035db2.html",
+      "paper_blocks": 88,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "cache_file": "raw/9f24c0ad4fef45067196.html",
+      "paper_blocks": 109,
+      "status": "parsed"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/accepted",
+      "cache_file": "raw/755abfa6a305e3e3e903.html",
+      "paper_blocks": 109,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/co-next/2019/partials/program-poster.html?updated=191205",
+      "cache_file": "raw/2093bf5d4e57ef3a6ba5.html",
+      "paper_blocks": 38,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/co-next/2019/partials/posters.html",
+      "cache_file": "raw/b7e880b81e24635d7c10.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/co-next/2020/partials/program-poster.html?updated=191205",
+      "cache_file": "raw/13f8778c13be75e2dac6.html",
+      "paper_blocks": 42,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/co-next/2020/partials/posters.html",
+      "cache_file": "raw/7c2d6967e8596afd45c6.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/co-next/2021/partials/program-poster.html?updated=191205",
+      "cache_file": "raw/b7ed74b74639131a2e76.html",
+      "paper_blocks": 28,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/co-next/2021/partials/posters.html",
+      "cache_file": "raw/6004b21a6a963b6dadab.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/co-next/2021/misc/toc.html",
+      "cache_file": "raw/ea84407d7efb63a671dc.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/co-next/2022/partials/program-poster.html?updated=191205",
+      "cache_file": "raw/07cec7c678fd7a55d539.html",
+      "paper_blocks": 0,
+      "status": "excluded_stale_template",
+      "detail": "2022 URL serves a CoNEXT 2020 heading and content; not evidence of 2022 publications."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/co-next/2022/partials/posters.html",
+      "cache_file": "raw/f7c27ceb1353f2a4dc01.html",
+      "paper_blocks": 0,
+      "status": "excluded_stale_template",
+      "detail": "2022 URL serves a CoNEXT 2020 heading and content; not evidence of 2022 publications."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/co-next/2023/partials/program-poster.html?updated=191205",
+      "cache_file": "raw/e41d44ed66d6261f40d1.html",
+      "paper_blocks": 10,
+      "status": "parsed"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/co-next/2023/partials/posters.html",
+      "cache_file": "raw/d98bfdc53f6bc933a0fb.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/co-next/2024/partials/posters.html",
+      "cache_file": "raw/974d0f056b2f7d4eb725.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/co-next/2025/partials/posters.html",
+      "cache_file": "raw/48c7d030b711a120db15.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/co-next/2025/partials/pprogram.html?updated=191214",
+      "cache_file": "raw/345448aea19184eb6b90.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/co-next/2026/partials/posters.html",
+      "cache_file": "raw/65a348cc56da4f18d606.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/imc/2021/posters/",
+      "cache_file": "raw/f4a8aff865e0fcfecff2.html",
+      "paper_blocks": 19,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/imc/2021/posters",
+      "cache_file": "raw/29d99eb39ed83e353337.html",
+      "paper_blocks": 19,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/imc/2022/accepted-posters/",
+      "cache_file": "raw/1bffbb26b0dcad20f202.html",
+      "paper_blocks": 20,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/imc/2022/posters",
+      "cache_file": "raw/539b112d919bef68d259.html",
+      "paper_blocks": 40,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/imc/2023/accepted-posters/",
+      "cache_file": "raw/9e6c77a8212bb5b8d581.html",
+      "paper_blocks": 11,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/imc/2024/toc/",
+      "cache_file": "raw/e6941d2882b21fd8deb3.html",
+      "paper_blocks": 0,
+      "status": "no_supported_paper_blocks"
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/imc/2024/accepted-posters/",
+      "cache_file": "raw/47fe3346b94f59837591.html",
+      "paper_blocks": 28,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/imc/2025/accepted-posters/",
+      "cache_file": "raw/1a9127fdec2f4d1f3ef5.html",
+      "paper_blocks": 28,
+      "status": "parsed"
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/imc/2025/program",
+      "cache_file": "raw/de20967d872722728ee7.html",
+      "paper_blocks": 72,
+      "status": "parsed"
+    }
+  ],
+  "excluded_non_paper_records": [
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "title": "Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies, CoNEXT 2019, Orlando, FL, USA, December 09-12, 2019",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2019"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "title": "Proceedings of the 18th ACM Workshop on Hot Topics in Networks, HotNets 2019, Princeton, NJ, USA, November 13-15, 2019",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2019"
+    },
+    {
+      "venue": "IMC",
+      "year": 2019,
+      "title": "Proceedings of the Internet Measurement Conference, IMC 2019, Amsterdam, The Netherlands, October 21-23, 2019",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2019"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2019,
+      "title": "16th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2019, Boston, MA, February 26-28, 2019",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2019"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "title": "Proceedings of the ACM Special Interest Group on Data Communication, SIGCOMM 2019, Beijing, China, August 19-23, 2019",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2019"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "title": "CoNEXT &apos;20: The 16th International Conference on emerging Networking EXperiments and Technologies, Barcelona, Spain, December, 2020",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2020"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "title": "HotNets &apos;20: The 19th ACM Workshop on Hot Topics in Networks, Virtual Event, USA, November 4-6, 2020",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2020"
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "title": "IMC &apos;20: ACM Internet Measurement Conference, Virtual Event, USA, October 27-29, 2020",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2020"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2020,
+      "title": "17th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2020, Santa Clara, CA, USA, February 25-27, 2020",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2020"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "title": "SIGCOMM &apos;20: Proceedings of the 2020 Annual conference of the ACM Special Interest Group on Data Communication on the applications, technologies, architectures, and protocols for computer communication, Virtual Event, USA, August 10-14, 2020",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2020"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "title": "CoNEXT &apos;21: The 17th International Conference on emerging Networking EXperiments and Technologies, Virtual Event, Munich, Germany, December 7 - 10, 2021",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2021"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "title": "HotNets &apos;21: The 20th ACM Workshop on Hot Topics in Networks, Virtual Event, United Kingdom, November 10-12, 2021",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2021"
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "title": "IMC &apos;21: ACM Internet Measurement Conference, Virtual Event, USA, November 2-4, 2021",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2021"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2021,
+      "title": "18th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2021, April 12-14, 2021",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2021"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "title": "ACM SIGCOMM 2021 Conference, Virtual Event, USA, August 23-27, 2021",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2021"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "title": "Proceedings of the 18th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2022, Roma, Italy, December 6-9, 2022",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2022"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "title": "Proceedings of the 21st ACM Workshop on Hot Topics in Networks, HotNets 2022, Austin, Texas, November 14-15, 2022",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2022"
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "title": "Proceedings of the 22nd ACM Internet Measurement Conference, IMC 2022, Nice, France, October 25-27, 2022",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2022"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "title": "19th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2022, Renton, WA, USA, April 4-6, 2022",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2022"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "title": "SIGCOMM &apos;22: ACM SIGCOMM 2022 Conference, Amsterdam, The Netherlands, August 22 - 26, 2022",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2022"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "Companion of the 19th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2023 (Short Papers), Paris, France, December 5-8, 2023",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2023c"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "title": "Proceedings of the 22nd ACM Workshop on Hot Topics in Networks, HotNets 2023, Cambridge, MA, USA, November 28-29, 2023",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2023"
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "title": "Proceedings of the 2023 ACM on Internet Measurement Conference, IMC 2023, Montreal, QC, Canada, October 24-26, 2023",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2023"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "title": "20th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2023, Boston, MA, April 17-19, 2023",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2023"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET V1, CoNEXT2, September 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23a"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET V1, N1, June 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET, V1, CoNEXT3, December 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23b"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "title": "Proceedings of the ACM SIGCOMM 2023 Conference, ACM SIGCOMM 2023, New York, NY, USA, 10-14 September 2023",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2023"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "Proceedings of the 20th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2024 (Short Papers), Los Angeles, CA, USA, December 9-12, 2024",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2024"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "title": "Proceedings of the 23rd ACM Workshop on Hot Topics in Networks, HOTNETS 2024, Irvine, CA, USA, November 18-19, 2024",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2024"
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "title": "Proceedings of the 2024 ACM on Internet Measurement Conference, IMC 2024, Madrid, Spain, November 4-6, 2024",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2024"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "title": "21st USENIX Symposium on Networked Systems Design and Implementation, NSDI 2024, Santa Clara, CA, April 15-17, 2024",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2024"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT1, March 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT2, June 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSTQ24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT3, September 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT4, December 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT24a"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "title": "Proceedings of the ACM SIGCOMM 2024 Conference, ACM SIGCOMM 2024, Sydney, NSW, Australia, August 4-8, 2024",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2024"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "Proceedings of the 21st International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2025, Hong Kong, December 1-4, 2025",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/conext/2025"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2025,
+      "title": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks, HotNets 2025, UMD Campus, College Park, MD, USA, November 17-18, 2025",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/hotnets/2025"
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "title": "Proceedings of the 2025 ACM Internet Measurement Conference, IMC 2025, Madison, WI, USA, 28-31 October 2025",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/imc/2025"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "title": "22nd USENIX Symposium on Networked Systems Design and Implementation, NSDI 2025, Philadelphia, PA, USA, April 28-30, 2025",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2025"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, CoNEXT4, December 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaLZ25a"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N1, March 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT25"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N2, June 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaLZ25"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N3, September 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaZL25"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "Proceedings of the ACM SIGCOMM 2025 Conference, SIGCOMM 2025, São Francisco Convent, Coimbra, Portugal, September 8-11, 2025",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/sigcomm/2025"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "23rd USENIX Symposium on Networked Systems Design and Implementation, NSDI 2026, Renton, WA, May 4-6, 2026",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/conf/nsdi/2026"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET V1, CoNEXT2, September 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23a"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET V1, N1, June 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "PACMNET, V1, CoNEXT3, December 2023 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB23b"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT1, March 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQB24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT2, June 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSTQ24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT3, September 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT24"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "PACMNET, V2, CoNEXT4, December 2024 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT24a"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, CoNEXT4, December 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaLZ25a"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N1, March 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaSQT25"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N2, June 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaLZ25"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "PACMNET V3, N3, September 2025 Editorial",
+      "reason": "proceedings_volume_or_editorial",
+      "dblp_url": "https://dblp.org/rec/journals/pacmnet/MelliaZL25"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "title": "Keynote: Riding along with the Time-Traveling Networking Researcher",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "title": "Keynote: Building and operating reliable hyper-scale networks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "title": "Keynote: Towards 'trustworthy by design' networked systems",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "title": "Keynote: What we talk about when we talk about networking",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "title": "Keynote: Multi-connectivity in a 5G and beyond network landscape",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "title": "Keynote: The three tales of (correct) network operations",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "title": "Keynote: Top-down network management at scale",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "title": "Keynote: Mind the Photons: Next-generation Networks for Emerging Workloads",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "title": "Keynote: The Internet: A Beautiful Mess?",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "title": "Keynote: The Quest for Terabit-per-second (Truly) Programmable Networks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "Keynote: Application-Centric Networking: Unleashing the Top of the Network Stack",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "title": "Keynote: The SCION Research and Education Network",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "Co-Designing Network, Storage and Compute for Software-Defined Cloud Systems",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "Keynote: A tale of two trends - Agentic AI and Quantum.",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "title": "Network Research Evolution at the Crossroads: Balancing Innovation, Regulation, and Ethical AI",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "title": "Keynote: Computing transformation: From large language model to agentic AI",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "title": "Opening Remarks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "title": "Introduction and Opening Remarks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "title": "The first HotNets storytelling session",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "title": "Introduction and Opening Remarks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "title": "noon - 1:30pm",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "title": "Introduction and Opening Remarks",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "title": "noon - 1:15pm",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "title": "Student talk by Jhonatan Tavori",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "title": "Student talk by Pooria Namyar",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "title": "Student talk by Vamsi Addanki",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "title": "Keynote",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "title": "Welcome Remarks and Awards",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "title": "Closing",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "title": "Community session (Effectenbeurszaal)",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "title": "Keynote 2",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "title": "Keynote: Networking: The Newest Civil Engineering Challenge",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "08:30 — 10:30 | NetAI",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "08:30 — 10:30 | NetAI & Wireless",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "08:30 — 10:30 | NetMon",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "08:30 — 10:30 | Network Architecture & Satellites",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "09:00 — 10:20 | Datacenter Networking",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "09:00 — 10:20 | NetAI",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "10:50 — 12:10 | Hardware",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "10:50 — 12:10 | Measurements",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:10 | Distributed Systems",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:10 | Video & QoE",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:30 | AI for SysNet",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:30 | Datacenter Networking",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:30 | NetMon & Hyperscalers",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "13:30 — 15:30 | Network Architecture",
+      "reason": "agenda_item_not_research_paper"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "16:30 — 17:15 | Shorts",
+      "reason": "agenda_item_not_research_paper"
+    }
+  ],
+  "completion_rule": "Never certify completeness from a negative string search. Each cell needs reconciled inventories and individually supported publication-time affiliation decisions; 2026 remains a dated cutoff."
+}

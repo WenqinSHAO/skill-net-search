@@ -1,0 +1,2653 @@
+{
+  "checks": [
+    {
+      "paper_id": "tn-d05e4d080c21e3ca",
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "title": "Network-Aware and Unsupervised Diagnostics for Latent Issues in Network Management Databases",
+      "user_reviewed_primary_set": false,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Li Chen; Hua Shao",
+      "authors_final": "Li Chen; Hua Shao",
+      "authors_publisher": "Li Chen; Hua Shao",
+      "publisher_affiliations_raw": "[{\"name\": \"Li Chen\", \"affiliations_raw\": [\"Networking Platform, TEG, Tencent\"], \"orcid\": \"\"}, {\"name\": \"Hua Shao\", \"affiliations_raw\": [\"Networking Platform, TEG, Tencent\"], \"orcid\": \"\"}]",
+      "abstract_status": "missing",
+      "abstract_characters": 0,
+      "abstract_source": "",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "Separate SIGCOMM 2019 poster. Publisher author order and affiliations checked; abstract remains unavailable in the accessible primary metadata. Do not invent an abstract.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3342280.3342320",
+      "source_cache": "raw/eb60cda1e00a5be491b8.html",
+      "checked_at": "2026-10-14T14:49:34.418428+00:00"
+    },
+    {
+      "paper_id": "tn-c91f67aec75ff7e3",
+      "venue": "CoNEXT",
+      "year": 2021,
+      "title": "Discovering Obscure Looking Glass Sites on the Web to Facilitate Internet Measurement Research",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Shuying Zhuang; Jessie Hui Wang; Jilong Wang; Zujiang Pan; Tianhao Wu; Fenghua Li; Zhiyong Zhang",
+      "authors_final": "Shuying Zhuang; Jessie Hui Wang; Jilong Wang; Zujiang Pan; Tianhao Wu; Fenghua Li; Zhiyong Zhang",
+      "authors_publisher": "Shuying Zhuang; Jessie Hui Wang; Jilong Wang; Zujiang Pan; Tianhao Wu; Fenghua Li; Zhiyong Zhang",
+      "publisher_affiliations_raw": "[{\"name\": \"Shuying Zhuang\", \"affiliations_raw\": [\"Tsinghua University\"], \"orcid\": \"\"}, {\"name\": \"Jessie Hui Wang\", \"affiliations_raw\": [\"Tsinghua University\"], \"orcid\": \"\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua University\"], \"orcid\": \"\"}, {\"name\": \"Zujiang Pan\", \"affiliations_raw\": [\"Tencent Technology\"], \"orcid\": \"\"}, {\"name\": \"Tianhao Wu\", \"affiliations_raw\": [\"Tsinghua University\"], \"orcid\": \"\"}, {\"name\": \"Fenghua Li\", \"affiliations_raw\": [\"Tsinghua University\"], \"orcid\": \"\"}, {\"name\": \"Zhiyong Zhang\", \"affiliations_raw\": [\"CETCSC\"], \"orcid\": \"\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1623,
+      "abstract_source": "https://conferences.sigcomm.org/co-next/2021/partials/program.html?updated=191214",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3485983.3494857",
+      "source_cache": "raw/fad64c5557bb2a69cc60.html",
+      "checked_at": "2026-10-14T14:49:34.418577+00:00"
+    },
+    {
+      "paper_id": "tn-5ee87295c2b32206",
+      "venue": "NSDI",
+      "year": 2021,
+      "title": "Accessing Cloud with Disaggregated Software-Defined Router",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Hua Shao; Xiaoliang Wang; Yuanwei Lu; Yanbo Yu; Shengli Zheng; Youjian Zhao",
+      "authors_final": "Hua Shao; Xiaoliang Wang; Yuanwei Lu; Yanbo Yu; Shengli Zheng; Youjian Zhao",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1344,
+      "abstract_source": "https://www.usenix.org/conference/nsdi21/presentation/shao",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.429040+00:00"
+    },
+    {
+      "paper_id": "tn-b5ad07b326ead5ae",
+      "venue": "NSDI",
+      "year": 2022,
+      "title": "Detecting Ephemeral Optical Events with OpTel",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Congcong Miao; Minggang Chen; Arpit Gupta; Zili Meng; Lianjin Ye; Jingyu Xiao; Jie Chen; Zekun He; Xulong Luo; Jilong Wang; Heng Yu",
+      "authors_final": "Congcong Miao; Minggang Chen; Arpit Gupta; Zili Meng; Lianjin Ye; Jingyu Xiao; Jie Chen; Zekun He; Xulong Luo; Jilong Wang; Heng Yu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1456,
+      "abstract_source": "https://www.usenix.org/conference/nsdi22/presentation/miao",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.441368+00:00"
+    },
+    {
+      "paper_id": "tn-4b11634a6e5ae8d9",
+      "venue": "NSDI",
+      "year": 2022,
+      "title": "Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Yanshu Wang; Dan Li; Yuanwei Lu; Jianping Wu; Hua Shao; Yutian Wang",
+      "authors_final": "Yanshu Wang; Dan Li; Yuanwei Lu; Jianping Wu; Hua Shao; Yutian Wang",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1600,
+      "abstract_source": "https://www.usenix.org/conference/nsdi22/presentation/wang-yanshu",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.452471+00:00"
+    },
+    {
+      "paper_id": "tn-9d8ab9ccefaaabf8",
+      "venue": "NSDI",
+      "year": 2023,
+      "title": "Boomerang: Metadata-Private Messaging under Hardware Trust",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Peipei Jiang; Qian Wang; Jianhao Cheng; Cong Wang; Lei Xu; Xinyu Wang; Yihao Wu; Xiaoyuan Li; Kui Ren",
+      "authors_final": "Peipei Jiang; Qian Wang; Jianhao Cheng; Cong Wang; Lei Xu; Xinyu Wang; Yihao Wu; Xiaoyuan Li; Kui Ren",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1377,
+      "abstract_source": "https://www.usenix.org/conference/nsdi23/presentation/jiang",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.464987+00:00"
+    },
+    {
+      "paper_id": "tn-d230948cc184da0b",
+      "venue": "NSDI",
+      "year": 2023,
+      "title": "Enabling High Quality Real-Time Communications with Adaptive Frame-Rate",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Zili Meng; Tingfeng Wang; Yixin Shen; Bo Wang; Mingwei Xu; Rui Han; Honghao Liu; Venkat Arun; Hongxin Hu; Xue Wei",
+      "authors_final": "Zili Meng; Tingfeng Wang; Yixin Shen; Bo Wang; Mingwei Xu; Rui Han; Honghao Liu; Venkat Arun; Hongxin Hu; Xue Wei",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1135,
+      "abstract_source": "https://www.usenix.org/conference/nsdi23/presentation/meng",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.478183+00:00"
+    },
+    {
+      "paper_id": "tn-7f940cb9306f8c5c",
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "title": "FlexWAN: Software Hardware Co-design for Cost-Effective and Resilient Optical Backbones",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Congcong Miao; Zhizhen Zhong; Ying Zhang; Kunling He; Fangchao Li; Minggang Chen; Yiren Zhao; Xiang Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "authors_final": "Congcong Miao; Zhizhen Zhong; Ying Zhang; Kunling He; Fangchao Li; Minggang Chen; Yiren Zhao; Xiang Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "authors_publisher": "Congcong Miao; Zhizhen Zhong; Ying Zhang; Kunling He; Fangchao Li; Minggang Chen; Yiren Zhao; Xiang Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "publisher_affiliations_raw": "[{\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}, {\"name\": \"Zhizhen Zhong\", \"affiliations_raw\": [\"Massachusetts Institute of Technology, Boston, United States of America\"], \"orcid\": \"https://orcid.org/0000-0003-3131-374X\"}, {\"name\": \"Ying Zhang\", \"affiliations_raw\": [\"Meta, Seattle, United States of America\"], \"orcid\": \"https://orcid.org/0000-0003-2736-5694\"}, {\"name\": \"Kunling He\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-1220-5560\"}, {\"name\": \"Fangchao Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0001-5018-4843\"}, {\"name\": \"Minggang Chen\", \"affiliations_raw\": [\"Tencent, Beijng, China\"], \"orcid\": \"https://orcid.org/0009-0002-2493-1902\"}, {\"name\": \"Yiren Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0005-2486-1491\"}, {\"name\": \"Xiang Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-0556-5290\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\", \"Quancheng Laboratory, Jinan, Shandong, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1653,
+      "abstract_source": "https://people.csail.mit.edu/zhizhenzhong/papers/2023_SIGCOMM_flexwan.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "User-listed accepted title ends Flexible and Cost-Effective Optical Backbones; final PDF/publisher title ends Cost-Effective and Resilient Optical Backbones. Same DOI and complete ordered author list: one paper, not two.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3603269.3604824",
+      "source_cache": "raw/72b7133e9c94ff757398.html",
+      "checked_at": "2026-10-14T14:49:34.505247+00:00"
+    },
+    {
+      "paper_id": "tn-8ac890aa5f91a364",
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "title": "Poster: TOO: Accelerating Loss Recovery by Taming On-Off Traffic Patterns",
+      "user_reviewed_primary_set": false,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Xu Yan; Tong Li; Bo Wu; Cheng Luo; Fuyu Wang; Haiyang Wang; Ke Xu",
+      "authors_final": "Xu Yan; Tong Li; Bo Wu; Cheng Luo; Fuyu Wang; Haiyang Wang; Ke Xu",
+      "authors_publisher": "Xu Yan; Tong Li; Bo Wu; Cheng Luo; Fuyu Wang; Haiyang Wang; Ke Xu",
+      "publisher_affiliations_raw": "[{\"name\": \"Xu Yan\", \"affiliations_raw\": [\"Renmin University of China, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0002-8060-739X\"}, {\"name\": \"Tong Li\", \"affiliations_raw\": [\"Renmin University of China, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-6805-9565\"}, {\"name\": \"Bo Wu\", \"affiliations_raw\": [\"Tencent Technologies, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-3897-3450\"}, {\"name\": \"Cheng Luo\", \"affiliations_raw\": [\"Tencent Technologies, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0008-0343-5874\"}, {\"name\": \"Fuyu Wang\", \"affiliations_raw\": [\"Tencent Technologies, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0001-2014-412X\"}, {\"name\": \"Haiyang Wang\", \"affiliations_raw\": [\"University of Minnesota Duluth, Minnesota, USA\"], \"orcid\": \"https://orcid.org/0000-0002-1064-9669\"}, {\"name\": \"Ke Xu\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-2587-8517\"}]",
+      "abstract_status": "available_primary_source_review_pending",
+      "abstract_characters": 461,
+      "abstract_source": "https://experts.umn.edu/en/publications/poster-too-accelerating-loss-recovery-by-taming-on-off-traffic-pa/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3603269.3610841",
+      "source_cache": "raw/bf7f4d80531f4d829123.html",
+      "checked_at": "2026-10-14T14:49:34.505389+00:00"
+    },
+    {
+      "paper_id": "tn-0abe63a6f29c790f",
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Congcong Miao; Yunming Xiao; Marco Canini; Ruiqiang Dai; Shengli Zheng; Jilong Wang; Jiwu Bu; Aleksandar Kuzmanovic; Yachen Wang",
+      "authors_final": "Congcong Miao; Yunming Xiao; Marco Canini; Ruiqiang Dai; Shengli Zheng; Jilong Wang; Jiwu Bu; Aleksandar Kuzmanovic; Yachen Wang",
+      "authors_publisher": "Congcong Miao; Yunming Xiao; Marco Canini; Ruiqiang Dai; Shengli Zheng; Jilong Wang; Jiwu Bu; Aleksandar Kuzmanovic; Yachen Wang",
+      "publisher_affiliations_raw": "[{\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}, {\"name\": \"Yunming Xiao\", \"affiliations_raw\": [\"Northwestern University, Evanston, Illinois, United States of America\"], \"orcid\": \"https://orcid.org/0000-0002-4913-4881\"}, {\"name\": \"Marco Canini\", \"affiliations_raw\": [\"King Abdullah University of Science and Technology, Thuwal, Saudi Arabia\"], \"orcid\": \"https://orcid.org/0000-0002-5051-4283\"}, {\"name\": \"Ruiqiang Dai\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-3026-0387\"}, {\"name\": \"Shengli Zheng\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-0918-1465\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua university, Beijing, China\", \"Quancheng Laboratory, Jinan, Shandong, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}, {\"name\": \"Jiwu Bu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0007-6090-2742\"}, {\"name\": \"Aleksandar Kuzmanovic\", \"affiliations_raw\": [\"Northwestern University, Evanston, Illinois, USA\"], \"orcid\": \"https://orcid.org/0000-0003-2622-6019\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1646,
+      "abstract_source": "https://mcanini.github.io/papers/tensor.sigcomm23.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3603269.3604852",
+      "source_cache": "raw/da95a15acd0a34afb68a.html",
+      "checked_at": "2026-10-14T14:49:34.531918+00:00"
+    },
+    {
+      "paper_id": "tn-4ee11d0388e5e33b",
+      "venue": "NSDI",
+      "year": 2024,
+      "title": "AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Yuhan Zhou; Tingfeng Wang; Liying Wang; Nian Wen; Rui Han; Jing Wang; Chenglei Wu; Jiafeng Chen; Longwei Jiang; Shibo Wang; Honghao Liu; Chenren Xu",
+      "authors_final": "Yuhan Zhou; Tingfeng Wang; Liying Wang; Nian Wen; Rui Han; Jing Wang; Chenglei Wu; Jiafeng Chen; Longwei Jiang; Shibo Wang; Honghao Liu; Chenren Xu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1386,
+      "abstract_source": "https://www.usenix.org/conference/nsdi24/presentation/zhou-yuhan",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.544719+00:00"
+    },
+    {
+      "paper_id": "tn-e948a761d296771f",
+      "venue": "NSDI",
+      "year": 2024,
+      "title": "Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Zili Meng; Xiao Kong; Jing Chen; Bo Wang; Mingwei Xu; Rui Han; Honghao Liu; Venkat Arun; Hongxin Hu; Xue Wei",
+      "authors_final": "Zili Meng; Xiao Kong; Jing Chen; Bo Wang; Mingwei Xu; Rui Han; Honghao Liu; Venkat Arun; Hongxin Hu; Xue Wei",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1161,
+      "abstract_source": "https://www.usenix.org/conference/nsdi24/presentation/meng",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.558375+00:00"
+    },
+    {
+      "paper_id": "tn-cf46a4678f585b3d",
+      "venue": "NSDI",
+      "year": 2024,
+      "title": "Pudica: Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Shibo Wang; Shusen Yang; Xiao Kong; Chenglei Wu; Longwei Jiang; Chenren Xu; Cong Zhao; Xuesong Yang; Jianjun Xiao; Xin Liu; Changxi Zheng; Jing Wang; Honghao Liu",
+      "authors_final": "Shibo Wang; Shusen Yang; Xiao Kong; Chenglei Wu; Longwei Jiang; Chenren Xu; Cong Zhao; Xuesong Yang; Jianjun Xiao; Xin Liu; Changxi Zheng; Jing Wang; Honghao Liu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1071,
+      "abstract_source": "https://www.usenix.org/conference/nsdi24/presentation/wang-shibo",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.571522+00:00"
+    },
+    {
+      "paper_id": "tn-d91322b000762057",
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "title": "MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Congcong Miao; Zhizhen Zhong; Yunming Xiao; Feng Yang; Senkuo Zhang; Yinan Jiang; Zizhuo Bai; Chaodong Lu; Jingyi Geng; Zekun He; Yachen Wang; Xianneng Zou; Chuanchuan Yang",
+      "authors_final": "Congcong Miao; Zhizhen Zhong; Yunming Xiao; Feng Yang; Senkuo Zhang; Yinan Jiang; Zizhuo Bai; Chaodong Lu; Jingyi Geng; Zekun He; Yachen Wang; Xianneng Zou; Chuanchuan Yang",
+      "authors_publisher": "Congcong Miao; Zhizhen Zhong; Yunming Xiao; Feng Yang; Senkuo Zhang; Yinan Jiang; Zizhuo Bai; Chaodong Lu; Jingyi Geng; Zekun He; Yachen Wang; Xianneng Zou; Chuanchuan Yang",
+      "publisher_affiliations_raw": "[{\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}, {\"name\": \"Zhizhen Zhong\", \"affiliations_raw\": [\"Massachusetts Institute of Technology, Cambridge, United States of America\"], \"orcid\": \"https://orcid.org/0000-0003-3131-374X\"}, {\"name\": \"Yunming Xiao\", \"affiliations_raw\": [\"Northwestern University, Evanston, United States of America\"], \"orcid\": \"https://orcid.org/0000-0002-4913-4881\"}, {\"name\": \"Feng Yang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0006-2587-446X\"}, {\"name\": \"Senkuo Zhang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-4786-9962\"}, {\"name\": \"Yinan Jiang\", \"affiliations_raw\": [\"Peking University, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-0642-7726\"}, {\"name\": \"Zizhuo Bai\", \"affiliations_raw\": [\"Peking University, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0001-1452-2702\"}, {\"name\": \"Chaodong Lu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-5569-9522\"}, {\"name\": \"Jingyi Geng\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-7358-1146\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}, {\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Chuanchuan Yang\", \"affiliations_raw\": [\"Peking University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-8593-2848\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1442,
+      "abstract_source": "https://yunmingxiao.github.io/publication/24sigcomm-megate/sigcomm24-megate.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3651890.3672242",
+      "source_cache": "raw/13f39f3a32971e4a2c7f.html",
+      "checked_at": "2026-10-14T14:49:34.609833+00:00"
+    },
+    {
+      "paper_id": "tn-ed6fafae3cd8bdc0",
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Xuya Jia; Zhiyi Yao; Chao Peng; Zihao Zhao; Bin Lei; Edison Liu; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Chongqing Zhao; Jinhui Chu; Jilong Wang; Congcong Miao",
+      "authors_final": "Xuya Jia; Zhiyi Yao; Chao Peng; Zihao Zhao; Bin Lei; Edison Liu; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Chongqing Zhao; Jinhui Chu; Jilong Wang; Congcong Miao",
+      "authors_publisher": "Xuya Jia; Zhiyi Yao; Chao Peng; Zihao Zhao; Bin Lei; Edison Liu; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Chongqing Zhao; Jinhui Chu; Jilong Wang; Congcong Miao",
+      "publisher_affiliations_raw": "[{\"name\": \"Xuya Jia\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0001-8995-879X\"}, {\"name\": \"Zhiyi Yao\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0002-2778-6077\"}, {\"name\": \"Chao Peng\", \"affiliations_raw\": [\"Fudan University, shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0005-1269-7575\"}, {\"name\": \"Zihao Zhao\", \"affiliations_raw\": [\"NVIDIA, Santa Clara, USA\"], \"orcid\": \"https://orcid.org/0009-0008-6850-2185\"}, {\"name\": \"Bin Lei\", \"affiliations_raw\": [\"NVIDIA, Santa Clara, USA\"], \"orcid\": \"https://orcid.org/0009-0003-2517-9262\"}, {\"name\": \"Edison Liu\", \"affiliations_raw\": [\"NVIDIA, Santa Clara, USA\"], \"orcid\": \"https://orcid.org/0009-0003-8969-3789\"}, {\"name\": \"Xiang Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-0556-5290\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}, {\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Chongqing Zhao\", \"affiliations_raw\": [\"Tencent, Bejing, China\"], \"orcid\": \"https://orcid.org/0009-0000-1345-9484\"}, {\"name\": \"Jinhui Chu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0009-4323-8063\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}, {\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1424,
+      "abstract_source": "https://www-cs.stanford.edu/~keithw/sigcomm2024/sigcomm24-final391-acmpaginated.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3651890.3672241",
+      "source_cache": "raw/93cf07060cb612c3c58b.html",
+      "checked_at": "2026-10-14T14:49:34.635360+00:00"
+    },
+    {
+      "paper_id": "tn-fcb9ef7a1565882f",
+      "venue": "NSDI",
+      "year": 2025,
+      "title": "Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Zhiyi Yao; Pengbo Hu; Congcong Miao; Xuya Jia; Zuning Liang; Yuedong Xu; Chunzhi He; Hao Lu; Mingzhuo Chen; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Junchen Jiang",
+      "authors_final": "Zhiyi Yao; Pengbo Hu; Congcong Miao; Xuya Jia; Zuning Liang; Yuedong Xu; Chunzhi He; Hao Lu; Mingzhuo Chen; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Junchen Jiang",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1527,
+      "abstract_source": "https://www.usenix.org/conference/nsdi25/presentation/yao",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "PDF manuscript spells the last author Juncheng Jiang; the PDF cover, official USENIX author list/BibTeX and DBLP use Junchen Jiang. Retain Junchen Jiang as the bibliographic name and preserve Juncheng Jiang as the manuscript spelling; do not infer a new author identity.",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.648129+00:00"
+    },
+    {
+      "paper_id": "tn-ab42eca19c84beba",
+      "venue": "NSDI",
+      "year": 2025,
+      "title": "Unlocking ECMP Programmability for Precise Traffic Control",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Yadong Liu; Yunming Xiao; Xuan Zhang; Weizhen Dang; Huihui Liu; Xiang Li; Zekun He; Jilong Wang; Aleksandar Kuzmanovic; Ang Chen; Congcong Miao",
+      "authors_final": "Yadong Liu; Yunming Xiao; Xuan Zhang; Weizhen Dang; Huihui Liu; Xiang Li; Zekun He; Jilong Wang; Aleksandar Kuzmanovic; Ang Chen; Congcong Miao",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1542,
+      "abstract_source": "https://www.usenix.org/conference/nsdi25/presentation/liu-yadong",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.660929+00:00"
+    },
+    {
+      "paper_id": "tn-ef4ac043eef9c789",
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Qingkai Meng; Hao Zheng; Zhenhui Zhang; ChonLam Lao; Chengyuan Huang; Baojia Li; Ziyuan Zhu; Hao Lu; Weizhen Dang; Zitong Lin; Weifeng Zhang; Lingfeng Liu; Yuanyuan Gong; Chunzhi He; Xiaoyuan Hu; Yinben Xia; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Kun Yang; Gianni Antichi; Guihai Chen; Chen Tian",
+      "authors_final": "Qingkai Meng; Hao Zheng; Zhenhui Zhang; ChonLam Lao; Chengyuan Huang; Baojia Li; Ziyuan Zhu; Hao Lu; Weizhen Dang; Zitong Lin; Weifeng Zhang; Lingfeng Liu; Yuanyuan Gong; Chunzhi He; Xiaoyuan Hu; Yinben Xia; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Kun Yang; Gianni Antichi; Guihai Chen; Chen Tian",
+      "authors_publisher": "Qingkai Meng; Hao Zheng; Zhenhui Zhang; ChonLam Lao; Chengyuan Huang; Baojia Li; Ziyuan Zhu; Hao Lu; Weizhen Dang; Zitong Lin; Weifeng Zhang; Lingfeng Liu; Yuanyuan Gong; Chunzhi He; Xiaoyuan Hu; Yinben Xia; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou; Kun Yang; Gianni Antichi; Guihai Chen; Chen Tian",
+      "publisher_affiliations_raw": "[{\"name\": \"Qingkai Meng\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0001-5394-8450\"}, {\"name\": \"Hao Zheng\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0002-2663-4146\"}, {\"name\": \"Zhenhui Zhang\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0009-0009-9381-2019\"}, {\"name\": \"ChonLam Lao\", \"affiliations_raw\": [\"Harvard University, Cambridge, Massachusetts, USA\"], \"orcid\": \"https://orcid.org/0000-0002-0214-664X\"}, {\"name\": \"Chengyuan Huang\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0002-6079-6579\"}, {\"name\": \"Baojia Li\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-6714-5014\"}, {\"name\": \"Ziyuan Zhu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0002-9354-9117\"}, {\"name\": \"Hao Lu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0007-4554-8554\"}, {\"name\": \"Weizhen Dang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0000-0003-2390-7978\"}, {\"name\": \"Zitong Lin\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0004-7982-8894\"}, {\"name\": \"Weifeng Zhang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0002-3595-6750\"}, {\"name\": \"Lingfeng Liu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0004-3574-2052\"}, {\"name\": \"Yuanyuan Gong\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0008-0992-6017\"}, {\"name\": \"Chunzhi He\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0003-6128-0384\"}, {\"name\": \"Xiaoyuan Hu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0007-8233-1143\"}, {\"name\": \"Yinben Xia\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-2816-9777\"}, {\"name\": \"Xiang Li\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0009-0556-5290\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}, {\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Kun Yang\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0009-0006-1979-4420\"}, {\"name\": \"Gianni Antichi\", \"affiliations_raw\": [\"Politecnico di Milano and Queen Mary University of London, Milan, Italy\"], \"orcid\": \"https://orcid.org/0000-0002-6063-4975\"}, {\"name\": \"Guihai Chen\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0002-6934-1685\"}, {\"name\": \"Chen Tian\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0003-2710-7628\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1128,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "Final PDF and publisher deposit assign ChonLam Lao to Harvard University and Gianni Antichi to both Politecnico di Milano and Queen Mary University of London. Both assignments were checked; do not use a current institutional profile.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3718958.3750521",
+      "source_cache": "raw/f93d512c7ef26cfb6895.html",
+      "checked_at": "2026-10-14T14:49:34.775268+00:00"
+    },
+    {
+      "paper_id": "tn-0b6e93289d7b3005",
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Heng Yu; Jian Wang; Jian Zhao; Kai Ren; Guozhi Lin; Baozeng Zhang; Yunpeng Guan; Xin Li; Hao Yin; Jiajun Liang; Liang Wang; Chao Pei; Yachen Wang; Xin Jin; Jilong Wang; Congcong Miao",
+      "authors_final": "Heng Yu; Jian Wang; Jian Zhao; Kai Ren; Guozhi Lin; Baozeng Zhang; Yunpeng Guan; Xin Li; Hao Yin; Jiajun Liang; Liang Wang; Chao Pei; Yachen Wang; Xin Jin; Jilong Wang; Congcong Miao",
+      "authors_publisher": "Heng Yu; Jian Wang; Jian Zhao; Kai Ren; Guozhi Lin; Baozeng Zhang; Yunpeng Guan; Xin Li; Hao Yin; Jiajun Liang; Liang Wang; Chao Pei; Yachen Wang; Xin Jin; Jilong Wang; Congcong Miao",
+      "publisher_affiliations_raw": "[{\"name\": \"Heng Yu\", \"affiliations_raw\": [\"Zhongguancun Laboratory, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0001-6907-9958\"}, {\"name\": \"Jian Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-8932-4022\"}, {\"name\": \"Jian Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-3351-786X\"}, {\"name\": \"Kai Ren\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-6356-0847\"}, {\"name\": \"Guozhi Lin\", \"affiliations_raw\": [\"Zhongguancun Laboratory, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0006-9524-1262\"}, {\"name\": \"Baozeng Zhang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-8711-8244\"}, {\"name\": \"Yunpeng Guan\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-2929-8179\"}, {\"name\": \"Xin Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-4121-1178\"}, {\"name\": \"Hao Yin\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-0030-2280\"}, {\"name\": \"Jiajun Liang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-8049-6790\"}, {\"name\": \"Liang Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-2587-5440\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}, {\"name\": \"Xin Jin\", \"affiliations_raw\": [\"Peking University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0001-8741-5847\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Zhongguancun Laboratory, Beijing, China\", \"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}, {\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1471,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3718958.3750501",
+      "source_cache": "raw/eaf90667668ec3b48975.html",
+      "checked_at": "2026-10-14T14:49:34.880809+00:00"
+    },
+    {
+      "paper_id": "tn-65a6af3e4e7ae273",
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "title": "PreTE: Traffic Engineering with Predictive Failures",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Congcong Miao; Zhizhen Zhong; Yiren Zhao; Arpit Gupta; Ying Zhang; Sirui Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "authors_final": "Congcong Miao; Zhizhen Zhong; Yiren Zhao; Arpit Gupta; Ying Zhang; Sirui Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "authors_publisher": "Congcong Miao; Zhizhen Zhong; Yiren Zhao; Arpit Gupta; Ying Zhang; Sirui Li; Zekun He; Xianneng Zou; Jilong Wang",
+      "publisher_affiliations_raw": "[{\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"Tencent, Beijing, beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}, {\"name\": \"Zhizhen Zhong\", \"affiliations_raw\": [\"Massachusetts Institute of Technology, Boston, USA\"], \"orcid\": \"https://orcid.org/0000-0003-3131-374X\"}, {\"name\": \"Yiren Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, ON, China\"], \"orcid\": \"https://orcid.org/0009-0005-2486-1491\"}, {\"name\": \"Arpit Gupta\", \"affiliations_raw\": [\"UCSB, Santa Barbara, USA\"], \"orcid\": \"https://orcid.org/0000-0002-6378-7440\"}, {\"name\": \"Ying Zhang\", \"affiliations_raw\": [\"Meta, Silicon Valley, USA\"], \"orcid\": \"https://orcid.org/0000-0003-2736-5694\"}, {\"name\": \"Sirui Li\", \"affiliations_raw\": [\"Tencent, Beijing, beijing, China\"], \"orcid\": \"https://orcid.org/0009-0005-2506-2122\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Beijing, beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tencent, Beijing, beijing, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua university, Beijing, beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1308,
+      "abstract_source": "https://sites.cs.ucsb.edu/~arpitgupta/pdfs/prete.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3718958.3750508",
+      "source_cache": "raw/377119bdf9d92a431017.html",
+      "checked_at": "2026-10-14T14:49:34.910328+00:00"
+    },
+    {
+      "paper_id": "tn-2e858fd1909dcbf3",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "A Composable Emulation Framework for Whitebox Switches",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Congcong Miao; Xianneng Zou; Chuwen Zhang; Shiping Yang; Qihang Liu; Zhijie Yan; Yanke Zhang; Yong Jiang; Qiao Xiang; Xin Jin; Zili Meng; Ang Chen",
+      "authors_final": "Congcong Miao; Xianneng Zou; Chuwen Zhang; Shiping Yang; Qihang Liu; Zhijie Yan; Yanke Zhang; Yong Jiang; Qiao Xiang; Xin Jin; Zili Meng; Ang Chen",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1203,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/miao-whitebox",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.922112+00:00"
+    },
+    {
+      "paper_id": "tn-bb96fcc8221d7661",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Fengqian Guo; Yuhan Zhou; Longwei Jiang; Congcong Miao; Yuxin Liu; Chenren Xu; Hancheng Lu; Chang Wen Chen; Yaxiong Xie; Honghao Liu",
+      "authors_final": "Fengqian Guo; Yuhan Zhou; Longwei Jiang; Congcong Miao; Yuxin Liu; Chenren Xu; Hancheng Lu; Chang Wen Chen; Yaxiong Xie; Honghao Liu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1234,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.933782+00:00"
+    },
+    {
+      "paper_id": "tn-527952756cb68624",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "Cost-effective and Reliable Global Internet Peering with Programmable Switches",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Congcong Miao; Zhiyi Yao; Jianchao Lv; Jinglin Wang; Shihan Lin; Xinyi Zhang; Yunming Xiao; Wei Guo; Jiwu Bu; Yachen Wang; Xianneng Zou; Yong Jiang; Marco Canini; Gaogang Xie",
+      "authors_final": "Congcong Miao; Zhiyi Yao; Jianchao Lv; Jinglin Wang; Shihan Lin; Xinyi Zhang; Yunming Xiao; Wei Guo; Jiwu Bu; Yachen Wang; Xianneng Zou; Yong Jiang; Marco Canini; Gaogang Xie",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1484,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/miao-peering",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.945715+00:00"
+    },
+    {
+      "paper_id": "tn-2e6354ea2ff42940",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "DDoS Detection at the Scale of One Hundred Tbps",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Yunming Xiao; Xijun Luo; Youliang Jiang; Aike Wang; Hu Chen; Zhibin Zhou; Heng Yu; Jiahao Cao; Yong Jiang; Jilong Wang; Mingwei Xu; Yan Chen; Congcong Miao",
+      "authors_final": "Yunming Xiao; Xijun Luo; Youliang Jiang; Aike Wang; Hu Chen; Zhibin Zhou; Heng Yu; Jiahao Cao; Yong Jiang; Jilong Wang; Mingwei Xu; Yan Chen; Congcong Miao",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1460,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/xiao",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.957720+00:00"
+    },
+    {
+      "paper_id": "tn-ac1cf0954b2c5e03",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Jing Wang; Xiao Kong; Yunzhe Ni; Nian Wen; Jiaxing Zhang; Congcong Miao; Honghao Liu",
+      "authors_final": "Jing Wang; Xiao Kong; Yunzhe Ni; Nian Wen; Jiaxing Zhang; Congcong Miao; Honghao Liu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1426,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/wang-jing",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.969450+00:00"
+    },
+    {
+      "paper_id": "tn-a36a4f74ab914d33",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Jiayu Hu; Feng Jin; Xianping Zhou; Kai Zhang; Zhen Shen; Yongkang Luo",
+      "authors_final": "Jiayu Hu; Feng Jin; Xianping Zhou; Kai Zhang; Zhen Shen; Yongkang Luo",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 945,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/hu-jiayu",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.979645+00:00"
+    },
+    {
+      "paper_id": "tn-1d6930256b9a1c41",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Congcong Miao; Yuejie Wang; Jianming Wang; Xuefeng Ji; Guozhi Shan; Sirui Li; Pan Fang; Yanke Zhang; Jialin Li; Xianneng Zou; Guyue Liu",
+      "authors_final": "Congcong Miao; Yuejie Wang; Jianming Wang; Xuefeng Ji; Guozhi Shan; Sirui Li; Pan Fang; Yanke Zhang; Jialin Li; Xianneng Zou; Guyue Liu",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1341,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/miao",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:34.991582+00:00"
+    },
+    {
+      "paper_id": "tn-4ab76b7bd3b61a53",
+      "venue": "NSDI",
+      "year": 2026,
+      "title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "doi_not_assigned_or_not_collected",
+      "publisher_author_list_check": "not_available",
+      "authors_before": "Xingyi Li; Yadong Liu; Xiaojie Huang; Yiran Zhang; Shuai Wang; Shangguang Wang; Zhehao Lin; Yinben Xia; Chang Yu; Qihang Liu; Xuan Zhang; Hao Lu; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou",
+      "authors_final": "Xingyi Li; Yadong Liu; Xiaojie Huang; Yiran Zhang; Shuai Wang; Shangguang Wang; Zhehao Lin; Yinben Xia; Chang Yu; Qihang Liu; Xuan Zhang; Hao Lu; Xiang Li; Zekun He; Yachen Wang; Xianneng Zou",
+      "authors_publisher": "",
+      "publisher_affiliations_raw": "[]",
+      "abstract_status": "complete_official_paper_page",
+      "abstract_characters": 1371,
+      "abstract_source": "https://www.usenix.org/conference/nsdi26/presentation/li-xingyi",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "",
+      "source_cache": "",
+      "checked_at": "2026-10-14T14:49:35.004755+00:00"
+    },
+    {
+      "paper_id": "tn-22dcd0345e71e428",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Yunming Xiao; Yinchao Yang; Jiaqi Zheng; Xuqian Li; Dongbo Gu; Jun Zhang; Miantao Wan; Chao Pei; Chen Tian; Mingwei Xu; Ang Chen; Congcong Miao",
+      "authors_final": "Yunming Xiao; Yinchao Yang; Jiaqi Zheng; Xuqian Li; Dongbo Gu; Jun Zhang; Miantao Wan; Chao Pei; Chen Tian; Mingwei Xu; Ang Chen; Congcong Miao",
+      "authors_publisher": "Yunming Xiao; Yinchao Yang; Jiaqi Zheng; Xuqian Li; Dongbo Gu; Jun Zhang; Miantao Wan; Chao Pei; Chen Tian; Mingwei Xu; Ang Chen; Congcong Miao",
+      "publisher_affiliations_raw": "[{\"name\": \"Yunming Xiao\", \"affiliations_raw\": [\"The Chinese Universities of Hong Kong, Shenzhen, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0000-0002-4913-4881\"}, {\"name\": \"Yinchao Yang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-5194-7783\"}, {\"name\": \"Jiaqi Zheng\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0001-8403-9655\"}, {\"name\": \"Xuqian Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0007-0529-940X\"}, {\"name\": \"Dongbo Gu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-5235-8722\"}, {\"name\": \"Jun Zhang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-5373-2157\"}, {\"name\": \"Miantao Wan\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-9341-1979\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Chen Tian\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0003-2710-7628\"}, {\"name\": \"Mingwei Xu\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4847-4585\"}, {\"name\": \"Ang Chen\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0009-0003-8326-8124\"}, {\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"National University of Singapore, Singapore, Singapore\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1404,
+      "abstract_source": "https://yunmingxiao.github.io/publication/26sigcomm-cubetrace/sigcomm26-cubetrace.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829165",
+      "source_cache": "raw/9b0590c043f78794fc27.html",
+      "checked_at": "2026-10-14T14:49:35.032464+00:00"
+    },
+    {
+      "paper_id": "tn-b909b59461b0fe67",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "DistDPU: A Disaggregated DPU Architecture for High-Performance and Cost-Efficient AI Clouds",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Hao Mei; Lizhou Gao; Yuanyi Zhu; Liang Wang; Peng Yang; Chao Pei; Chuhao Chen; Zijian Li; Jian Zhao; Dongbo Gu; Hongchen Ren; Jiyuan Chen; Junpeng Zhang; Yunpeng Guan; Jianye Yuan; Jian Wang; Yibo Huang; Yang Xu",
+      "authors_final": "Hao Mei; Lizhou Gao; Yuanyi Zhu; Liang Wang; Peng Yang; Chao Pei; Chuhao Chen; Zijian Li; Jian Zhao; Dongbo Gu; Hongchen Ren; Jiyuan Chen; Junpeng Zhang; Yunpeng Guan; Jianye Yuan; Jian Wang; Yibo Huang; Yang Xu",
+      "authors_publisher": "Hao Mei; Lizhou Gao; Yuanyi Zhu; Liang Wang; Peng Yang; Chao Pei; Chuhao Chen; Zijian Li; Jian Zhao; Dongbo Gu; Hongchen Ren; Jiyuan Chen; Junpeng Zhang; Yunpeng Guan; Jianye Yuan; Jian Wang; Yibo Huang; Yang Xu",
+      "publisher_affiliations_raw": "[{\"name\": \"Hao Mei\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0001-7265-9512\"}, {\"name\": \"Lizhou Gao\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0006-3393-1962\"}, {\"name\": \"Yuanyi Zhu\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0004-9920-7155\"}, {\"name\": \"Liang Wang\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0008-2587-5440\"}, {\"name\": \"Peng Yang\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0003-4400-2289\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Chuhao Chen\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0003-6286-8964\"}, {\"name\": \"Zijian Li\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0000-5821-0025\"}, {\"name\": \"Jian Zhao\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0009-3351-786X\"}, {\"name\": \"Dongbo Gu\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0004-5235-8722\"}, {\"name\": \"Hongchen Ren\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0008-7819-119X\"}, {\"name\": \"Jiyuan Chen\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0003-4678-6221\"}, {\"name\": \"Junpeng Zhang\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0000-2496-5446\"}, {\"name\": \"Yunpeng Guan\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0000-2929-8179\"}, {\"name\": \"Jianye Yuan\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0005-7676-0967\"}, {\"name\": \"Jian Wang\", \"affiliations_raw\": [\"Tencent, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0002-8932-4022\"}, {\"name\": \"Yibo Huang\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0000-0002-9215-4298\"}, {\"name\": \"Yang Xu\", \"affiliations_raw\": [\"Fudan University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0002-0958-8547\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1685,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829161",
+      "source_cache": "raw/e4564c3b7579a266a456.html",
+      "checked_at": "2026-10-14T14:49:35.076785+00:00"
+    },
+    {
+      "paper_id": "tn-436ac2802fe4d482",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "Dorado: Scaling SmartNIC Session Tables on Commodity DDRs",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Heng Yu; Kai Ren; Jiajun Liang; Baozeng Zhang; Guozhi Lin; Xinyi Zhang; Jian Wang; Jian Zhao; Ziyue Zhai; Liang Wang; Chao Pei; Jilong Wang; Gaogang Xie; Ang Chen; Congcong Miao",
+      "authors_final": "Heng Yu; Kai Ren; Jiajun Liang; Baozeng Zhang; Guozhi Lin; Xinyi Zhang; Jian Wang; Jian Zhao; Ziyue Zhai; Liang Wang; Chao Pei; Jilong Wang; Gaogang Xie; Ang Chen; Congcong Miao",
+      "authors_publisher": "Heng Yu; Kai Ren; Jiajun Liang; Baozeng Zhang; Guozhi Lin; Xinyi Zhang; Jian Wang; Jian Zhao; Ziyue Zhai; Liang Wang; Chao Pei; Jilong Wang; Gaogang Xie; Ang Chen; Congcong Miao",
+      "publisher_affiliations_raw": "[{\"name\": \"Heng Yu\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0001-6907-9958\"}, {\"name\": \"Kai Ren\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-6356-0847\"}, {\"name\": \"Jiajun Liang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-8049-6790\"}, {\"name\": \"Baozeng Zhang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-8711-8244\"}, {\"name\": \"Guozhi Lin\", \"affiliations_raw\": [\"University of Chinese Academy of Sciences, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0006-9524-1262\"}, {\"name\": \"Xinyi Zhang\", \"affiliations_raw\": [\"CNIC CAS, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-6739-3676\"}, {\"name\": \"Jian Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-8932-4022\"}, {\"name\": \"Jian Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-3351-786X\"}, {\"name\": \"Ziyue Zhai\", \"affiliations_raw\": [\"University of Chinese Academy of Sciences, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-7633-3327\"}, {\"name\": \"Liang Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-2587-5440\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Jilong Wang\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4493-5145\"}, {\"name\": \"Gaogang Xie\", \"affiliations_raw\": [\"CNIC CAS, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0003-4964-1135\"}, {\"name\": \"Ang Chen\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0009-0003-8326-8124\"}, {\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"National University of Singapore, Singapore, Singapore\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1078,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "Official final program lists Zhongguancun Laboratory for Heng Yu, Guozhi Lin and Ziyue Zhai, whereas the accepted list and publisher deposit list Tsinghua University for Heng Yu and University of Chinese Academy of Sciences for Guozhi Lin/Ziyue Zhai. Use the reviewed publisher deposit for publication-time assignments; preserve the program conflict. Final PDF remains inaccessible from ACM (HTTP 403).",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829121",
+      "source_cache": "raw/0c53fa7bfcaff511405d.html",
+      "checked_at": "2026-10-14T14:49:35.124680+00:00"
+    },
+    {
+      "paper_id": "tn-36a17aefb29551e5",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "Pegasus: A Data Center Network for Bare-Metal AI Cloud",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Xianneng Zou; Yadong Liu; Yiran Zhang; Jian Zhao; Zhaoxun Zhou; Qing Wang; Xingyi Li; Liang Wang; Xingda Wei; Xiaojie Huang; Zhaohe Chen; Yinben Xia; Yuxi Wang; Kai Ren; Lizhou Gao; Jiajun Liang; Jian Wang; Chunxu Zhao; Weifeng Zhang; Lu Shi; Xin Li; Jiewei Yang; Hao Lu; Yunpeng Guan; Dongbo Gu; Chao Pei; Xiang Li; Zekun He; Yong Jiang; Yachen Wang",
+      "authors_final": "Xianneng Zou; Yadong Liu; Yiran Zhang; Jian Zhao; Zhaoxun Zhou; Qing Wang; Xingyi Li; Liang Wang; Xingda Wei; Xiaojie Huang; Zhaohe Chen; Yinben Xia; Yuxi Wang; Kai Ren; Lizhou Gao; Jiajun Liang; Jian Wang; Chunxu Zhao; Weifeng Zhang; Lu Shi; Xin Li; Jiewei Yang; Hao Lu; Yunpeng Guan; Dongbo Gu; Chao Pei; Xiang Li; Zekun He; Yong Jiang; Yachen Wang",
+      "authors_publisher": "Xianneng Zou; Yadong Liu; Yiran Zhang; Jian Zhao; Zhaoxun Zhou; Qing Wang; Xingyi Li; Liang Wang; Xingda Wei; Xiaojie Huang; Zhaohe Chen; Yinben Xia; Yuxi Wang; Kai Ren; Lizhou Gao; Jiajun Liang; Jian Wang; Chunxu Zhao; Weifeng Zhang; Lu Shi; Xin Li; Jiewei Yang; Hao Lu; Yunpeng Guan; Dongbo Gu; Chao Pei; Xiang Li; Zekun He; Yong Jiang; Yachen Wang",
+      "publisher_affiliations_raw": "[{\"name\": \"Xianneng Zou\", \"affiliations_raw\": [\"Tsinghua, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0005-5370-8162\"}, {\"name\": \"Yadong Liu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0007-9709-4240\"}, {\"name\": \"Yiran Zhang\", \"affiliations_raw\": [\"Unaffiliated, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-3555-0155\"}, {\"name\": \"Jian Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-3351-786X\"}, {\"name\": \"Zhaoxun Zhou\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-4038-0929\"}, {\"name\": \"Qing Wang\", \"affiliations_raw\": [\"Nanjing University, Nanjing, China\"], \"orcid\": \"https://orcid.org/0000-0002-5526-7154\"}, {\"name\": \"Xingyi Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-6639-4719\"}, {\"name\": \"Liang Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0008-2587-5440\"}, {\"name\": \"Xingda Wei\", \"affiliations_raw\": [\"Shanghai Jiao Tong University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0003-4983-6047\"}, {\"name\": \"Xiaojie Huang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0001-2176-4697\"}, {\"name\": \"Zhaohe Chen\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0007-1745-7495\"}, {\"name\": \"Yinben Xia\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0005-2816-9777\"}, {\"name\": \"Yuxi Wang\", \"affiliations_raw\": [\"Unaffiliated, Boston, USA\"], \"orcid\": \"https://orcid.org/0009-0009-1218-1252\"}, {\"name\": \"Kai Ren\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-6356-0847\"}, {\"name\": \"Lizhou Gao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0006-3393-1962\"}, {\"name\": \"Jiajun Liang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-8049-6790\"}, {\"name\": \"Jian Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-8932-4022\"}, {\"name\": \"Chunxu Zhao\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-2293-5368\"}, {\"name\": \"Weifeng Zhang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0002-3595-6750\"}, {\"name\": \"Lu Shi\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0001-8673-8609\"}, {\"name\": \"Xin Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-4121-1178\"}, {\"name\": \"Jiewei Yang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0006-5369-9152\"}, {\"name\": \"Hao Lu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0007-4554-8554\"}, {\"name\": \"Yunpeng Guan\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-2929-8179\"}, {\"name\": \"Dongbo Gu\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0004-5235-8722\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Xiang Li\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0009-0556-5290\"}, {\"name\": \"Zekun He\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0000-8020-0595\"}, {\"name\": \"Yong Jiang\", \"affiliations_raw\": [\"Tsinghua, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0002-4260-1395\"}, {\"name\": \"Yachen Wang\", \"affiliations_raw\": [\"Tencent, Beijing, China\"], \"orcid\": \"https://orcid.org/0009-0003-3669-1202\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1232,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "Explicit Unaffiliated publisher assignments for Yiran Zhang and Yuxi Wang are not institutions. Preserve those author positions and their explicit-none status.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829186",
+      "source_cache": "raw/f09eff9654c2c5b20857.html",
+      "checked_at": "2026-10-14T14:49:35.168512+00:00"
+    },
+    {
+      "paper_id": "tn-ff5fdbe08d8cd29d",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "Rethinking Cloud Optimization: Volatility-Driven for Better Outcomes",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Baoqing Wang; Gongming Zhao; Hongli Xu; Shibo Wu; Zhuolong Yu; Jiawei Liu; Junhong Lu; Shaohui Xu; Fanjie Meng",
+      "authors_final": "Baoqing Wang; Gongming Zhao; Hongli Xu; Shibo Wu; Zhuolong Yu; Jiawei Liu; Junhong Lu; Shaohui Xu; Fanjie Meng",
+      "authors_publisher": "Baoqing Wang; Gongming Zhao; Hongli Xu; Shibo Wu; Zhuolong Yu; Jiawei Liu; Junhong Lu; Shaohui Xu; Fanjie Meng",
+      "publisher_affiliations_raw": "[{\"name\": \"Baoqing Wang\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0009-0008-5449-3791\"}, {\"name\": \"Gongming Zhao\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0000-0003-1311-8908\"}, {\"name\": \"Hongli Xu\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0000-0003-3831-4577\"}, {\"name\": \"Shibo Wu\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0009-0004-3806-4138\"}, {\"name\": \"Zhuolong Yu\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0000-0002-8846-5229\"}, {\"name\": \"Jiawei Liu\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0000-0002-5871-9187\"}, {\"name\": \"Junhong Lu\", \"affiliations_raw\": [\"School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China\", \"Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China\"], \"orcid\": \"https://orcid.org/0009-0009-9473-8068\"}, {\"name\": \"Shaohui Xu\", \"affiliations_raw\": [\"Tencent Cloud, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0007-6200-804X\"}, {\"name\": \"Fanjie Meng\", \"affiliations_raw\": [\"Tencent Cloud, Shanghai, China\"], \"orcid\": \"https://orcid.org/0009-0001-0631-7469\"}]",
+      "abstract_status": "complete_official_program_abstract",
+      "abstract_characters": 1582,
+      "abstract_source": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "affiliation_status": "publisher_deposit_verified",
+      "author_header_review": "reviewed_publisher_complete_order_and_affiliation_assignments",
+      "metadata_notes": "User-reviewed primary list includes this paper; keep existing networking-scope boundary-candidate judgment separate from its complete author/abstract metadata.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829141",
+      "source_cache": "raw/4e4c8eb7e33b324b52b1.html",
+      "checked_at": "2026-10-14T14:49:35.215258+00:00"
+    },
+    {
+      "paper_id": "tn-7f60f5fc47fb3fcb",
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "title": "XFir: Accelerating New-Flow Setup on Host Servers of a Large Cloud Network",
+      "user_reviewed_primary_set": true,
+      "publisher_check_status": "title_matched",
+      "publisher_author_list_check": "exact_order_match",
+      "authors_before": "Shihan Lin; Shunqiao Jiang; Liang Wang; Jian Wang; Chao Pei; Jian Zhao; Wenjun Wu; Kai Ren; Lijun Zhuang; Qingmin Liu; Heng Yu; Sirui Li; Yibo Huang; Yifei Zhu; Yunming Xiao; Ang Chen; Linghe Kong; Congcong Miao",
+      "authors_final": "Shihan Lin; Shunqiao Jiang; Liang Wang; Jian Wang; Chao Pei; Jian Zhao; Wenjun Wu; Kai Ren; Lijun Zhuang; Qingmin Liu; Heng Yu; Sirui Li; Yibo Huang; Yifei Zhu; Yunming Xiao; Ang Chen; Linghe Kong; Congcong Miao",
+      "authors_publisher": "Shihan Lin; Shunqiao Jiang; Liang Wang; Jian Wang; Chao Pei; Jian Zhao; Wenjun Wu; Kai Ren; Lijun Zhuang; Qingmin Liu; Heng Yu; Sirui Li; Yibo Huang; Yifei Zhu; Yunming Xiao; Ang Chen; Linghe Kong; Congcong Miao",
+      "publisher_affiliations_raw": "[{\"name\": \"Shihan Lin\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0000-0001-7182-9041\"}, {\"name\": \"Shunqiao Jiang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0001-1827-7134\"}, {\"name\": \"Liang Wang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0008-2587-5440\"}, {\"name\": \"Jian Wang\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0000-0002-8932-4022\"}, {\"name\": \"Chao Pei\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-7662-8855\"}, {\"name\": \"Jian Zhao\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0009-3351-786X\"}, {\"name\": \"Wenjun Wu\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0007-0687-6088\"}, {\"name\": \"Kai Ren\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-6356-0847\"}, {\"name\": \"Lijun Zhuang\", \"affiliations_raw\": [\"JaguarMicro, Shenzhen, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0000-4986-9266\"}, {\"name\": \"Qingmin Liu\", \"affiliations_raw\": [\"JaguarMicro, Shenzhen, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0004-1043-2787\"}, {\"name\": \"Heng Yu\", \"affiliations_raw\": [\"Tsinghua University, Beijing, China\"], \"orcid\": \"https://orcid.org/0000-0001-6907-9958\"}, {\"name\": \"Sirui Li\", \"affiliations_raw\": [\"Tencent, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0009-0005-2506-2122\"}, {\"name\": \"Yibo Huang\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0000-0002-9215-4298\"}, {\"name\": \"Yifei Zhu\", \"affiliations_raw\": [\"Shanghai Jiao Tong University, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0003-4352-6507\"}, {\"name\": \"Yunming Xiao\", \"affiliations_raw\": [\"The Chinese Universities of Hong Kong, Shenzhen, Shenzhen, China\"], \"orcid\": \"https://orcid.org/0000-0002-4913-4881\"}, {\"name\": \"Ang Chen\", \"affiliations_raw\": [\"University of Michigan, Ann Arbor, USA\"], \"orcid\": \"https://orcid.org/0009-0003-8326-8124\"}, {\"name\": \"Linghe Kong\", \"affiliations_raw\": [\"Shanghai Jiao Tong University, China, Shanghai, China\"], \"orcid\": \"https://orcid.org/0000-0001-9266-3044\"}, {\"name\": \"Congcong Miao\", \"affiliations_raw\": [\"National University of Singapore, Singapore, Singapore\"], \"orcid\": \"https://orcid.org/0000-0003-3265-049X\"}]",
+      "abstract_status": "complete_reviewed_pdf_abstract",
+      "abstract_characters": 1434,
+      "abstract_source": "https://yunmingxiao.github.io/publication/26sigcomm-xfir/sigcomm26-xfir.pdf",
+      "affiliation_status": "pdf_verified",
+      "author_header_review": "reviewed_complete_order_and_affiliation_markers",
+      "metadata_notes": "The coauthor's publication-list text omits Ang Chen and Congcong Miao; the final PDF and publisher deposit include all 18 authors. Retain the complete final-paper list.",
+      "source_url": "https://api.crossref.org/works/10.1145%2F3789240.3829131",
+      "source_cache": "raw/06d4321f36e72104bb0b.html",
+      "checked_at": "2026-10-14T14:49:35.245399+00:00"
+    }
+  ],
+  "publisher_deposits": {
+    "tn-d05e4d080c21e3ca": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3342280.3342320",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3342280.3342320",
+      "retrieved_at": "2026-10-14T14:16:22.117141+00:00",
+      "cache_file": "raw/eb60cda1e00a5be491b8.html",
+      "sha256": "1480f6937cab7816ff8eb7124c90f85603719a7a2655466540f1126e38e1dcb7",
+      "title": "Network-Aware and Unsupervised Diagnostics for Latent Issues in Network Management Databases",
+      "authors": [
+        {
+          "name": "Li Chen",
+          "affiliations_raw": [
+            "Networking Platform, TEG, Tencent"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Hua Shao",
+          "affiliations_raw": [
+            "Networking Platform, TEG, Tencent"
+          ],
+          "orcid": ""
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "96-97",
+      "published_date": "2019-08-19",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3342280.3342320",
+        "https://dl.acm.org/doi/pdf/10.1145/3342280.3342320"
+      ]
+    },
+    "tn-c91f67aec75ff7e3": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3485983.3494857",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3485983.3494857",
+      "retrieved_at": "2026-10-14T14:18:33.423459+00:00",
+      "cache_file": "raw/fad64c5557bb2a69cc60.html",
+      "sha256": "a4a8c97f727a301df4bbb884280771d636af2d111638aa0ede656d46b7eb676b",
+      "title": "Discovering obscure looking glass sites on the web to facilitate internet measurement research",
+      "authors": [
+        {
+          "name": "Shuying Zhuang",
+          "affiliations_raw": [
+            "Tsinghua University"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Jessie Hui Wang",
+          "affiliations_raw": [
+            "Tsinghua University"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua University"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Zujiang Pan",
+          "affiliations_raw": [
+            "Tencent Technology"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Tianhao Wu",
+          "affiliations_raw": [
+            "Tsinghua University"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Fenghua Li",
+          "affiliations_raw": [
+            "Tsinghua University"
+          ],
+          "orcid": ""
+        },
+        {
+          "name": "Zhiyong Zhang",
+          "affiliations_raw": [
+            "CETCSC"
+          ],
+          "orcid": ""
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "426-439",
+      "published_date": "2021-12-02",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3485983.3494857",
+        "https://dl.acm.org/doi/pdf/10.1145/3485983.3494857"
+      ]
+    },
+    "tn-5ee87295c2b32206": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-b5ad07b326ead5ae": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-4b11634a6e5ae8d9": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-9d8ab9ccefaaabf8": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-d230948cc184da0b": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-7f940cb9306f8c5c": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604824",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3603269.3604824",
+      "retrieved_at": "2026-10-10T14:35:56.922094+00:00",
+      "cache_file": "raw/72b7133e9c94ff757398.html",
+      "sha256": "344c26fa1bc43928ee5515a527bf4d39d1f072efd2aace8db6985fcbeac4872d",
+      "title": "FlexWAN: Software Hardware Co-design for Cost-Effective and Resilient Optical Backbones",
+      "authors": [
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        },
+        {
+          "name": "Zhizhen Zhong",
+          "affiliations_raw": [
+            "Massachusetts Institute of Technology, Boston, United States of America"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3131-374X"
+        },
+        {
+          "name": "Ying Zhang",
+          "affiliations_raw": [
+            "Meta, Seattle, United States of America"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2736-5694"
+        },
+        {
+          "name": "Kunling He",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-1220-5560"
+        },
+        {
+          "name": "Fangchao Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-5018-4843"
+        },
+        {
+          "name": "Minggang Chen",
+          "affiliations_raw": [
+            "Tencent, Beijng, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-2493-1902"
+        },
+        {
+          "name": "Yiren Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2486-1491"
+        },
+        {
+          "name": "Xiang Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0556-5290"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China",
+            "Quancheng Laboratory, Jinan, Shandong, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "319-332",
+      "published_date": "2023-09",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3603269.3604824",
+        "https://dl.acm.org/doi/pdf/10.1145/3603269.3604824"
+      ]
+    },
+    "tn-8ac890aa5f91a364": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3610841",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3603269.3610841",
+      "retrieved_at": "2026-10-14T14:18:33.801709+00:00",
+      "cache_file": "raw/bf7f4d80531f4d829123.html",
+      "sha256": "3a7e6c27aabce585b94f3953ec93a77d852cd0b2be6a93ace7368f50b75b91b3",
+      "title": "Poster: TOO: Accelerating Loss Recovery by Taming On-Off Traffic Patterns",
+      "authors": [
+        {
+          "name": "Xu Yan",
+          "affiliations_raw": [
+            "Renmin University of China, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-8060-739X"
+        },
+        {
+          "name": "Tong Li",
+          "affiliations_raw": [
+            "Renmin University of China, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6805-9565"
+        },
+        {
+          "name": "Bo Wu",
+          "affiliations_raw": [
+            "Tencent Technologies, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3897-3450"
+        },
+        {
+          "name": "Cheng Luo",
+          "affiliations_raw": [
+            "Tencent Technologies, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-0343-5874"
+        },
+        {
+          "name": "Fuyu Wang",
+          "affiliations_raw": [
+            "Tencent Technologies, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-2014-412X"
+        },
+        {
+          "name": "Haiyang Wang",
+          "affiliations_raw": [
+            "University of Minnesota Duluth, Minnesota, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1064-9669"
+        },
+        {
+          "name": "Ke Xu",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2587-8517"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "1147-1149",
+      "published_date": "2023-09",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3603269.3610841",
+        "https://dl.acm.org/doi/pdf/10.1145/3603269.3610841"
+      ]
+    },
+    "tn-0abe63a6f29c790f": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3603269.3604852",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3603269.3604852",
+      "retrieved_at": "2026-10-10T14:35:56.922738+00:00",
+      "cache_file": "raw/da95a15acd0a34afb68a.html",
+      "sha256": "b43dbcde15b844697c3feef3b4d6c00a24ac5a640240de327278956ae4226c59",
+      "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+      "authors": [
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        },
+        {
+          "name": "Yunming Xiao",
+          "affiliations_raw": [
+            "Northwestern University, Evanston, Illinois, United States of America"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4913-4881"
+        },
+        {
+          "name": "Marco Canini",
+          "affiliations_raw": [
+            "King Abdullah University of Science and Technology, Thuwal, Saudi Arabia"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5051-4283"
+        },
+        {
+          "name": "Ruiqiang Dai",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-3026-0387"
+        },
+        {
+          "name": "Shengli Zheng",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-0918-1465"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua university, Beijing, China",
+            "Quancheng Laboratory, Jinan, Shandong, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        },
+        {
+          "name": "Jiwu Bu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-6090-2742"
+        },
+        {
+          "name": "Aleksandar Kuzmanovic",
+          "affiliations_raw": [
+            "Northwestern University, Evanston, Illinois, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2622-6019"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "108-121",
+      "published_date": "2023-09",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3603269.3604852",
+        "https://dl.acm.org/doi/pdf/10.1145/3603269.3604852"
+      ]
+    },
+    "tn-4ee11d0388e5e33b": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-e948a761d296771f": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-cf46a4678f585b3d": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-d91322b000762057": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672242",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3651890.3672242",
+      "retrieved_at": "2026-10-14T14:16:22.145856+00:00",
+      "cache_file": "raw/13f39f3a32971e4a2c7f.html",
+      "sha256": "116abdce0cc4e590c95d34eae76e44e3dd4a73dd8016d33758ef7032ffc8f93f",
+      "title": "MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud",
+      "authors": [
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        },
+        {
+          "name": "Zhizhen Zhong",
+          "affiliations_raw": [
+            "Massachusetts Institute of Technology, Cambridge, United States of America"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3131-374X"
+        },
+        {
+          "name": "Yunming Xiao",
+          "affiliations_raw": [
+            "Northwestern University, Evanston, United States of America"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4913-4881"
+        },
+        {
+          "name": "Feng Yang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-2587-446X"
+        },
+        {
+          "name": "Senkuo Zhang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-4786-9962"
+        },
+        {
+          "name": "Yinan Jiang",
+          "affiliations_raw": [
+            "Peking University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-0642-7726"
+        },
+        {
+          "name": "Zizhuo Bai",
+          "affiliations_raw": [
+            "Peking University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-1452-2702"
+        },
+        {
+          "name": "Chaodong Lu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-5569-9522"
+        },
+        {
+          "name": "Jingyi Geng",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-7358-1146"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        },
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Chuanchuan Yang",
+          "affiliations_raw": [
+            "Peking University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8593-2848"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "103-116",
+      "published_date": "2024-08-04",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3651890.3672242",
+        "https://dl.acm.org/doi/pdf/10.1145/3651890.3672242"
+      ]
+    },
+    "tn-ed6fafae3cd8bdc0": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3651890.3672241",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3651890.3672241",
+      "retrieved_at": "2026-10-14T14:18:34.313321+00:00",
+      "cache_file": "raw/93cf07060cb612c3c58b.html",
+      "sha256": "020e93479310aed6a44a36bd8d16188e5a58d2893d25281b035b937e9ed8ae09",
+      "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "authors": [
+        {
+          "name": "Xuya Jia",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8995-879X"
+        },
+        {
+          "name": "Zhiyi Yao",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-2778-6077"
+        },
+        {
+          "name": "Chao Peng",
+          "affiliations_raw": [
+            "Fudan University, shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-1269-7575"
+        },
+        {
+          "name": "Zihao Zhao",
+          "affiliations_raw": [
+            "NVIDIA, Santa Clara, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0008-6850-2185"
+        },
+        {
+          "name": "Bin Lei",
+          "affiliations_raw": [
+            "NVIDIA, Santa Clara, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-2517-9262"
+        },
+        {
+          "name": "Edison Liu",
+          "affiliations_raw": [
+            "NVIDIA, Santa Clara, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-8969-3789"
+        },
+        {
+          "name": "Xiang Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0556-5290"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        },
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Chongqing Zhao",
+          "affiliations_raw": [
+            "Tencent, Bejing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-1345-9484"
+        },
+        {
+          "name": "Jinhui Chu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-4323-8063"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        },
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "540-553",
+      "published_date": "2024-08-04",
+      "license_urls": [
+        "https://www.acm.org/publications/policies/copyright_policy#Background"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/10.1145/3651890.3672241",
+        "https://dl.acm.org/doi/pdf/10.1145/3651890.3672241"
+      ]
+    },
+    "tn-fcb9ef7a1565882f": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-ab42eca19c84beba": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-ef4ac043eef9c789": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750521",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3718958.3750521",
+      "retrieved_at": "2026-10-14T14:16:22.545932+00:00",
+      "cache_file": "raw/f93d512c7ef26cfb6895.html",
+      "sha256": "99f088d224820e4a513530a58724bf5fb9ada5f17947670760f203212b3592c5",
+      "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "authors": [
+        {
+          "name": "Qingkai Meng",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5394-8450"
+        },
+        {
+          "name": "Hao Zheng",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2663-4146"
+        },
+        {
+          "name": "Zhenhui Zhang",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-9381-2019"
+        },
+        {
+          "name": "ChonLam Lao",
+          "affiliations_raw": [
+            "Harvard University, Cambridge, Massachusetts, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0214-664X"
+        },
+        {
+          "name": "Chengyuan Huang",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6079-6579"
+        },
+        {
+          "name": "Baojia Li",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-6714-5014"
+        },
+        {
+          "name": "Ziyuan Zhu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-9354-9117"
+        },
+        {
+          "name": "Hao Lu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-4554-8554"
+        },
+        {
+          "name": "Weizhen Dang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2390-7978"
+        },
+        {
+          "name": "Zitong Lin",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-7982-8894"
+        },
+        {
+          "name": "Weifeng Zhang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-3595-6750"
+        },
+        {
+          "name": "Lingfeng Liu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-3574-2052"
+        },
+        {
+          "name": "Yuanyuan Gong",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-0992-6017"
+        },
+        {
+          "name": "Chunzhi He",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-6128-0384"
+        },
+        {
+          "name": "Xiaoyuan Hu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-8233-1143"
+        },
+        {
+          "name": "Yinben Xia",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2816-9777"
+        },
+        {
+          "name": "Xiang Li",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0556-5290"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        },
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Kun Yang",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-1979-4420"
+        },
+        {
+          "name": "Gianni Antichi",
+          "affiliations_raw": [
+            "Politecnico di Milano and Queen Mary University of London, Milan, Italy"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6063-4975"
+        },
+        {
+          "name": "Guihai Chen",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6934-1685"
+        },
+        {
+          "name": "Chen Tian",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2710-7628"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "609-625",
+      "published_date": "2025-08-27",
+      "license_urls": [],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3718958.3750521"
+      ]
+    },
+    "tn-0b6e93289d7b3005": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750501",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3718958.3750501",
+      "retrieved_at": "2026-10-14T14:16:22.548735+00:00",
+      "cache_file": "raw/eaf90667668ec3b48975.html",
+      "sha256": "983a96f6cf6a735494cff025d412b91952ee22f7fc31260e027f06167adc4e2a",
+      "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+      "authors": [
+        {
+          "name": "Heng Yu",
+          "affiliations_raw": [
+            "Zhongguancun Laboratory, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6907-9958"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8932-4022"
+        },
+        {
+          "name": "Jian Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3351-786X"
+        },
+        {
+          "name": "Kai Ren",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-6356-0847"
+        },
+        {
+          "name": "Guozhi Lin",
+          "affiliations_raw": [
+            "Zhongguancun Laboratory, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-9524-1262"
+        },
+        {
+          "name": "Baozeng Zhang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8711-8244"
+        },
+        {
+          "name": "Yunpeng Guan",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-2929-8179"
+        },
+        {
+          "name": "Xin Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-4121-1178"
+        },
+        {
+          "name": "Hao Yin",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0030-2280"
+        },
+        {
+          "name": "Jiajun Liang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-8049-6790"
+        },
+        {
+          "name": "Liang Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-2587-5440"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        },
+        {
+          "name": "Xin Jin",
+          "affiliations_raw": [
+            "Peking University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8741-5847"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Zhongguancun Laboratory, Beijing, China",
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        },
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "663-676",
+      "published_date": "2025-08-27",
+      "license_urls": [],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3718958.3750501"
+      ]
+    },
+    "tn-65a6af3e4e7ae273": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3718958.3750508",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3718958.3750508",
+      "retrieved_at": "2026-10-14T14:18:34.731073+00:00",
+      "cache_file": "raw/377119bdf9d92a431017.html",
+      "sha256": "15041abbf0df302cf3a9b13bf23487e77a834e9e3f6dbb999cb2a55d4b9e8bd2",
+      "title": "PreTE: Traffic Engineering with Predictive Failures",
+      "authors": [
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "Tencent, Beijing, beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        },
+        {
+          "name": "Zhizhen Zhong",
+          "affiliations_raw": [
+            "Massachusetts Institute of Technology, Boston, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3131-374X"
+        },
+        {
+          "name": "Yiren Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, ON, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2486-1491"
+        },
+        {
+          "name": "Arpit Gupta",
+          "affiliations_raw": [
+            "UCSB, Santa Barbara, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6378-7440"
+        },
+        {
+          "name": "Ying Zhang",
+          "affiliations_raw": [
+            "Meta, Silicon Valley, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2736-5694"
+        },
+        {
+          "name": "Sirui Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2506-2122"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Beijing, beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tencent, Beijing, beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua university, Beijing, beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "780-795",
+      "published_date": "2025-08-27",
+      "license_urls": [],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3718958.3750508"
+      ]
+    },
+    "tn-2e858fd1909dcbf3": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-bb96fcc8221d7661": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-527952756cb68624": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-2e6354ea2ff42940": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-ac1cf0954b2c5e03": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-a36a4f74ab914d33": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-1d6930256b9a1c41": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-4ab76b7bd3b61a53": {
+      "status": "doi_not_assigned_or_not_collected"
+    },
+    "tn-22dcd0345e71e428": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829165",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829165",
+      "retrieved_at": "2026-10-14T14:16:22.917296+00:00",
+      "cache_file": "raw/9b0590c043f78794fc27.html",
+      "sha256": "59439e422e11a6b1be3f661f6cbfb984b94fddb99585eb4542c9ec1ffc8a1d1a",
+      "title": "CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways",
+      "authors": [
+        {
+          "name": "Yunming Xiao",
+          "affiliations_raw": [
+            "The Chinese Universities of Hong Kong, Shenzhen, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4913-4881"
+        },
+        {
+          "name": "Yinchao Yang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-5194-7783"
+        },
+        {
+          "name": "Jiaqi Zheng",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8403-9655"
+        },
+        {
+          "name": "Xuqian Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-0529-940X"
+        },
+        {
+          "name": "Dongbo Gu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-5235-8722"
+        },
+        {
+          "name": "Jun Zhang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-5373-2157"
+        },
+        {
+          "name": "Miantao Wan",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-9341-1979"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Chen Tian",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2710-7628"
+        },
+        {
+          "name": "Mingwei Xu",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4847-4585"
+        },
+        {
+          "name": "Ang Chen",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-8326-8124"
+        },
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "National University of Singapore, Singapore, Singapore"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "475-490",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829165"
+      ]
+    },
+    "tn-b909b59461b0fe67": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829161",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829161",
+      "retrieved_at": "2026-10-14T14:16:22.996596+00:00",
+      "cache_file": "raw/e4564c3b7579a266a456.html",
+      "sha256": "aa8eb08d9d20ac117643f52da1c3734ad3195e9ab14c677ae2069cd78405875a",
+      "title": "DistDPU: A Disaggregated DPU Architecture for High-Performance and Cost-Efficient AI Clouds",
+      "authors": [
+        {
+          "name": "Hao Mei",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-7265-9512"
+        },
+        {
+          "name": "Lizhou Gao",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-3393-1962"
+        },
+        {
+          "name": "Yuanyi Zhu",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-9920-7155"
+        },
+        {
+          "name": "Liang Wang",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-2587-5440"
+        },
+        {
+          "name": "Peng Yang",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4400-2289"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Chuhao Chen",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-6286-8964"
+        },
+        {
+          "name": "Zijian Li",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-5821-0025"
+        },
+        {
+          "name": "Jian Zhao",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3351-786X"
+        },
+        {
+          "name": "Dongbo Gu",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-5235-8722"
+        },
+        {
+          "name": "Hongchen Ren",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-7819-119X"
+        },
+        {
+          "name": "Jiyuan Chen",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-4678-6221"
+        },
+        {
+          "name": "Junpeng Zhang",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-2496-5446"
+        },
+        {
+          "name": "Yunpeng Guan",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-2929-8179"
+        },
+        {
+          "name": "Jianye Yuan",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-7676-0967"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliations_raw": [
+            "Tencent, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8932-4022"
+        },
+        {
+          "name": "Yibo Huang",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9215-4298"
+        },
+        {
+          "name": "Yang Xu",
+          "affiliations_raw": [
+            "Fudan University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0958-8547"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "519-534",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829161"
+      ]
+    },
+    "tn-436ac2802fe4d482": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829121",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829121",
+      "retrieved_at": "2026-10-14T14:18:35.117686+00:00",
+      "cache_file": "raw/0c53fa7bfcaff511405d.html",
+      "sha256": "a40ffe2fc72ffcbc8cc7ca9b5c938faf6169f561c22cb207a7ef5816456ece84",
+      "title": "Dorado: Scaling SmartNIC Session Tables on Commodity DDRs",
+      "authors": [
+        {
+          "name": "Heng Yu",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6907-9958"
+        },
+        {
+          "name": "Kai Ren",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-6356-0847"
+        },
+        {
+          "name": "Jiajun Liang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-8049-6790"
+        },
+        {
+          "name": "Baozeng Zhang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8711-8244"
+        },
+        {
+          "name": "Guozhi Lin",
+          "affiliations_raw": [
+            "University of Chinese Academy of Sciences, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-9524-1262"
+        },
+        {
+          "name": "Xinyi Zhang",
+          "affiliations_raw": [
+            "CNIC CAS, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6739-3676"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8932-4022"
+        },
+        {
+          "name": "Jian Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3351-786X"
+        },
+        {
+          "name": "Ziyue Zhai",
+          "affiliations_raw": [
+            "University of Chinese Academy of Sciences, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-7633-3327"
+        },
+        {
+          "name": "Liang Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-2587-5440"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Jilong Wang",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4493-5145"
+        },
+        {
+          "name": "Gaogang Xie",
+          "affiliations_raw": [
+            "CNIC CAS, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4964-1135"
+        },
+        {
+          "name": "Ang Chen",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-8326-8124"
+        },
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "National University of Singapore, Singapore, Singapore"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "433-446",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829121"
+      ]
+    },
+    "tn-36a17aefb29551e5": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829186",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829186",
+      "retrieved_at": "2026-10-14T14:18:35.541072+00:00",
+      "cache_file": "raw/f09eff9654c2c5b20857.html",
+      "sha256": "154e29a0270394f74b88b73abba9612172bc92268decb2fb92ce9bece9debdf4",
+      "title": "Pegasus: A Data Center Network for Bare-Metal AI Cloud",
+      "authors": [
+        {
+          "name": "Xianneng Zou",
+          "affiliations_raw": [
+            "Tsinghua, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-5370-8162"
+        },
+        {
+          "name": "Yadong Liu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-9709-4240"
+        },
+        {
+          "name": "Yiran Zhang",
+          "affiliations_raw": [
+            "Unaffiliated, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-3555-0155"
+        },
+        {
+          "name": "Jian Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3351-786X"
+        },
+        {
+          "name": "Zhaoxun Zhou",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-4038-0929"
+        },
+        {
+          "name": "Qing Wang",
+          "affiliations_raw": [
+            "Nanjing University, Nanjing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5526-7154"
+        },
+        {
+          "name": "Xingyi Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-6639-4719"
+        },
+        {
+          "name": "Liang Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-2587-5440"
+        },
+        {
+          "name": "Xingda Wei",
+          "affiliations_raw": [
+            "Shanghai Jiao Tong University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4983-6047"
+        },
+        {
+          "name": "Xiaojie Huang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-2176-4697"
+        },
+        {
+          "name": "Zhaohe Chen",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-1745-7495"
+        },
+        {
+          "name": "Yinben Xia",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2816-9777"
+        },
+        {
+          "name": "Yuxi Wang",
+          "affiliations_raw": [
+            "Unaffiliated, Boston, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0009-1218-1252"
+        },
+        {
+          "name": "Kai Ren",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-6356-0847"
+        },
+        {
+          "name": "Lizhou Gao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-3393-1962"
+        },
+        {
+          "name": "Jiajun Liang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-8049-6790"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8932-4022"
+        },
+        {
+          "name": "Chunxu Zhao",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-2293-5368"
+        },
+        {
+          "name": "Weifeng Zhang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0002-3595-6750"
+        },
+        {
+          "name": "Lu Shi",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-8673-8609"
+        },
+        {
+          "name": "Xin Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-4121-1178"
+        },
+        {
+          "name": "Jiewei Yang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0006-5369-9152"
+        },
+        {
+          "name": "Hao Lu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-4554-8554"
+        },
+        {
+          "name": "Yunpeng Guan",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-2929-8179"
+        },
+        {
+          "name": "Dongbo Gu",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-5235-8722"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Xiang Li",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0556-5290"
+        },
+        {
+          "name": "Zekun He",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-8020-0595"
+        },
+        {
+          "name": "Yong Jiang",
+          "affiliations_raw": [
+            "Tsinghua, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4260-1395"
+        },
+        {
+          "name": "Yachen Wang",
+          "affiliations_raw": [
+            "Tencent, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-3669-1202"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "535-549",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829186"
+      ]
+    },
+    "tn-ff5fdbe08d8cd29d": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829141",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829141",
+      "retrieved_at": "2026-10-14T14:16:23.343542+00:00",
+      "cache_file": "raw/4e4c8eb7e33b324b52b1.html",
+      "sha256": "2bdaf7fe8278b2fc28f359a5a2d50cc73b32c7b745db65d93d31309bf76c5321",
+      "title": "Rethinking Cloud Optimization: Volatility-Driven for Better Outcomes",
+      "authors": [
+        {
+          "name": "Baoqing Wang",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-5449-3791"
+        },
+        {
+          "name": "Gongming Zhao",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1311-8908"
+        },
+        {
+          "name": "Hongli Xu",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3831-4577"
+        },
+        {
+          "name": "Shibo Wu",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-3806-4138"
+        },
+        {
+          "name": "Zhuolong Yu",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8846-5229"
+        },
+        {
+          "name": "Jiawei Liu",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5871-9187"
+        },
+        {
+          "name": "Junhong Lu",
+          "affiliations_raw": [
+            "School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China",
+            "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-9473-8068"
+        },
+        {
+          "name": "Shaohui Xu",
+          "affiliations_raw": [
+            "Tencent Cloud, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-6200-804X"
+        },
+        {
+          "name": "Fanjie Meng",
+          "affiliations_raw": [
+            "Tencent Cloud, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-0631-7469"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "491-504",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829141"
+      ]
+    },
+    "tn-7f60f5fc47fb3fcb": {
+      "status": "title_matched",
+      "url": "https://api.crossref.org/works/10.1145%2F3789240.3829131",
+      "final_url": "https://api.crossref.org/works/10.1145%2F3789240.3829131",
+      "retrieved_at": "2026-10-14T14:16:23.358860+00:00",
+      "cache_file": "raw/06d4321f36e72104bb0b.html",
+      "sha256": "67677879c4c74de4e6a55674861c92c34ecc0f283e30227eca6bcfac5ff4f0e6",
+      "title": "XFir: Accelerating New-Flow Setup on Host Servers of a Large Cloud Network",
+      "authors": [
+        {
+          "name": "Shihan Lin",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7182-9041"
+        },
+        {
+          "name": "Shunqiao Jiang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0001-1827-7134"
+        },
+        {
+          "name": "Liang Wang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-2587-5440"
+        },
+        {
+          "name": "Jian Wang",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8932-4022"
+        },
+        {
+          "name": "Chao Pei",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-7662-8855"
+        },
+        {
+          "name": "Jian Zhao",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0009-3351-786X"
+        },
+        {
+          "name": "Wenjun Wu",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0007-0687-6088"
+        },
+        {
+          "name": "Kai Ren",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-6356-0847"
+        },
+        {
+          "name": "Lijun Zhuang",
+          "affiliations_raw": [
+            "JaguarMicro, Shenzhen, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0000-4986-9266"
+        },
+        {
+          "name": "Qingmin Liu",
+          "affiliations_raw": [
+            "JaguarMicro, Shenzhen, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0004-1043-2787"
+        },
+        {
+          "name": "Heng Yu",
+          "affiliations_raw": [
+            "Tsinghua University, Beijing, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6907-9958"
+        },
+        {
+          "name": "Sirui Li",
+          "affiliations_raw": [
+            "Tencent, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0009-0005-2506-2122"
+        },
+        {
+          "name": "Yibo Huang",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9215-4298"
+        },
+        {
+          "name": "Yifei Zhu",
+          "affiliations_raw": [
+            "Shanghai Jiao Tong University, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4352-6507"
+        },
+        {
+          "name": "Yunming Xiao",
+          "affiliations_raw": [
+            "The Chinese Universities of Hong Kong, Shenzhen, Shenzhen, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4913-4881"
+        },
+        {
+          "name": "Ang Chen",
+          "affiliations_raw": [
+            "University of Michigan, Ann Arbor, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-8326-8124"
+        },
+        {
+          "name": "Linghe Kong",
+          "affiliations_raw": [
+            "Shanghai Jiao Tong University, China, Shanghai, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9266-3044"
+        },
+        {
+          "name": "Congcong Miao",
+          "affiliations_raw": [
+            "National University of Singapore, Singapore, Singapore"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3265-049X"
+        }
+      ],
+      "abstract": "",
+      "publisher": "ACM",
+      "pages": "447-460",
+      "published_date": "2026-08-11",
+      "license_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+      ],
+      "resource_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3789240.3829131"
+      ]
+    }
+  }
+}

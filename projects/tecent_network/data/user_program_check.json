@@ -1,0 +1,492 @@
+{
+  "checks": [
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "Dorado: Scaling SmartNIC Session Tables on Commodity DDRs",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-436ac2802fe4d482"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "XFir: Accelerating New-Flow Setup on Host Servers of a Large Cloud Network",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-7f60f5fc47fb3fcb"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "Rethinking Cloud Optimization: Volatility-Driven for Better Outcomes",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-ff5fdbe08d8cd29d"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "DistDPU: A Disaggregated DPU Architecture for High-Performance and Cost-Efficient AI Clouds",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-b909b59461b0fe67"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-22dcd0345e71e428"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "user_title": "Pegasus: A Data Center Network for Bare-Metal AI Cloud",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2026/accepted/",
+      "status": "matched",
+      "paper_id": "tn-36a17aefb29551e5"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "user_title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/",
+      "status": "matched",
+      "paper_id": "tn-0b6e93289d7b3005"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "user_title": "PreTE: Traffic Engineering with Predictive Failures",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/",
+      "status": "matched",
+      "paper_id": "tn-65a6af3e4e7ae273"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "user_title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2025/accepted-papers/",
+      "status": "matched",
+      "paper_id": "tn-ef4ac043eef9c789"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "user_title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/",
+      "status": "matched",
+      "paper_id": "tn-ed6fafae3cd8bdc0"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "user_title": "MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2024/accepted-papers/",
+      "status": "matched",
+      "paper_id": "tn-d91322b000762057"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "user_title": "FlexWAN: Software Hardware Co-design for Flexible and Cost-Effective Optical Backbones",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html",
+      "status": "matched_title_variant",
+      "paper_id": "tn-7f940cb9306f8c5c"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "user_title": "TENSOR: Lightweight BGP Non-Stop Routing",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2023/list-accepted.html",
+      "status": "matched",
+      "paper_id": "tn-0abe63a6f29c790f"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2022/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2021/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2020/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/sigcomm/2019/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-bb96fcc8221d7661"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "MirrorNet: High-fidelity and Scalable Network Emulation for Software-defined WAN",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-1d6930256b9a1c41"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "DDoS Detection at the Scale of One Hundred Tbps",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-2e6354ea2ff42940"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "SwiftEP: Accelerating MoE Inference with Buffer Fusion and TMA Offloading",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-4ab76b7bd3b61a53"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "From Source to Solution: Tackling Packet Losses in Large-scale Cloud Gaming Systematically and Precisely",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-ac1cf0954b2c5e03"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "A Composable Emulation Framework for Whitebox Switches",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-2e858fd1909dcbf3"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "Harp: Improving VPC Network Availability via Efficient Failure Detection and Rerouting in Tencent Cloud",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-a36a4f74ab914d33"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "user_title": "Cost-effective and Reliable Global Internet Peering with Programmable Switches",
+      "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-527952756cb68624"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "user_title": "Holmes: Localizing Irregularities in LLM Training with Mega-scale GPU Clusters",
+      "official_url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-fcb9ef7a1565882f"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "user_title": "Unlocking ECMP Programmability for Precise Traffic Control",
+      "official_url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-ab42eca19c84beba"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "user_title": "Pudica: Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming",
+      "official_url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-cf46a4678f585b3d"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "user_title": "Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming",
+      "official_url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-e948a761d296771f"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "user_title": "AUGUR: Practical Mobile Multipath Transport Service for Low Tail Latency in Real-Time Streaming",
+      "official_url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-4ee11d0388e5e33b"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "user_title": "Boomerang: Metadata-Private Messaging under Hardware Trust",
+      "official_url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-9d8ab9ccefaaabf8"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "user_title": "Enabling High Quality Real-Time Communications with Adaptive Frame-Rate",
+      "official_url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-d230948cc184da0b"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "user_title": "Detecting Ephemeral Optical Events with OpTel",
+      "official_url": "https://www.usenix.org/conference/nsdi22/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-b5ad07b326ead5ae"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "user_title": "Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness",
+      "official_url": "https://www.usenix.org/conference/nsdi22/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-4b11634a6e5ae8d9"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2021,
+      "user_title": "Accessing Cloud with Disaggregated Software-Defined Router",
+      "official_url": "https://www.usenix.org/conference/nsdi21/technical-sessions",
+      "status": "matched",
+      "paper_id": "tn-5ee87295c2b32206"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2020,
+      "user_title": "NA",
+      "official_url": "https://www.usenix.org/conference/nsdi20/technical-sessions",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "NSDI",
+      "year": 2019,
+      "user_title": "NA",
+      "official_url": "https://www.usenix.org/conference/nsdi19/technical-sessions",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2026/accepted-papers/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2025/accepted-papers/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2024/accepted-papers/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2023/program/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2022/program/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2021/accepted/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2020/accepted/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "IMC",
+      "year": 2019,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/imc/2019/accepted/",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2026/#!/accepted-papers",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2025/#!/program",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2024/#!/accepted-papers",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2023/#!/accepted-papers",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2022/#!/program",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "user_title": "Discovering Obscure Looking Glass Sites on the Web to Facilitate Internet Measurement Research",
+      "official_url": "https://conferences.sigcomm.org/co-next/2021/#!/program",
+      "status": "matched",
+      "paper_id": "tn-c91f67aec75ff7e3"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2020/#!/program",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/co-next/2019/#!/program",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2026,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2026/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2025,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2025/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2024/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2023/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2022/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2021/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2020/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "user_title": "NA",
+      "official_url": "https://conferences.sigcomm.org/hotnets/2019/program.html",
+      "status": "user_observed_no_primary_paper_not_certified_absence",
+      "paper_id": ""
+    }
+  ]
+}

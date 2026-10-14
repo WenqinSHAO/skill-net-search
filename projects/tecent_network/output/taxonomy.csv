@@ -1,0 +1,12 @@
+﻿tag,status,matching_terms
+DCN,provisional_title_rule,datacenter; data center; data-center; rdma; ecmp; dcn; gpu cluster; switch
+AI_infrastructure,provisional_title_rule,llm; training; inference; gpu; machine learning; deep learning; collective
+WAN_optical,provisional_title_rule,wan; wide area; wide-area; optical; backbone; traffic engineering
+transport_congestion,provisional_title_rule,transport; congestion; tcp; multipath; packet loss
+routing_control,provisional_title_rule,routing; bgp; router; control plane; sdn
+cloud_virtualization,provisional_title_rule,vpc; virtual; public cloud; cloud network; session management
+measurement_reliability,provisional_title_rule,telemetry; monitor; diagnos; detect; failure; reliab; irregular; measurement; availability
+edge_CDN_media,provisional_title_rule,cdn; edge; video; streaming; real time; real-time; communication quality; gaming
+wireless_mobile,provisional_title_rule,mobile; wireless; wifi; wi-fi; cellular; wlan
+network_security,provisional_title_rule,hijack; ddos; security; attack; encryption
+programmability_offload,provisional_title_rule,programmab; offload; packet processing; nic; hardware centric; hardware-centric

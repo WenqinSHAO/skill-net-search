@@ -1,0 +1,1233 @@
+{
+  "institutions": [
+    {
+      "id": "https://openalex.org/I2250653659",
+      "name": "Tencent (China)"
+    },
+    {
+      "id": "https://openalex.org/I4210103558",
+      "name": "Tencent Healthcare (China)"
+    }
+  ],
+  "works_seen": 11419,
+  "five_venue_matches": [
+    {
+      "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+      "year": 2025,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4413756477",
+      "doi": "https://doi.org/10.1145/3718958.3750521",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "Astral: A Datacenter Infrastructure for Large Language Model Training at Scale",
+        "venue": "SIGCOMM",
+        "year": 2025,
+        "authors": [
+          {
+            "pid": "54/2449-1",
+            "name": "Qingkai Meng 0001"
+          },
+          {
+            "pid": "31/6916",
+            "name": "Hao Zheng"
+          },
+          {
+            "pid": "06/9099",
+            "name": "Zhenhui Zhang"
+          },
+          {
+            "pid": "291/3926",
+            "name": "ChonLam Lao"
+          },
+          {
+            "pid": "202/5480",
+            "name": "Chengyuan Huang"
+          },
+          {
+            "pid": "96/8179-2",
+            "name": "Baojia Li 0002"
+          },
+          {
+            "pid": "15/8052",
+            "name": "Ziyuan Zhu"
+          },
+          {
+            "pid": "72/5422",
+            "name": "Hao Lu"
+          },
+          {
+            "pid": "227/7193",
+            "name": "Weizhen Dang"
+          },
+          {
+            "pid": "325/0662",
+            "name": "Zitong Lin"
+          },
+          {
+            "pid": "19/949",
+            "name": "Weifeng Zhang"
+          },
+          {
+            "pid": "75/3152",
+            "name": "Lingfeng Liu"
+          },
+          {
+            "pid": "166/1813",
+            "name": "Yuanyuan Gong"
+          },
+          {
+            "pid": "02/10585",
+            "name": "Chunzhi He"
+          },
+          {
+            "pid": "251/1025",
+            "name": "Xiaoyuan Hu"
+          },
+          {
+            "pid": "155/5692",
+            "name": "Yinben Xia"
+          },
+          {
+            "pid": "40/1491-223",
+            "name": "Xiang Li 0223"
+          },
+          {
+            "pid": "289/2152",
+            "name": "Zekun He"
+          },
+          {
+            "pid": "44/6407",
+            "name": "Yachen Wang"
+          },
+          {
+            "pid": "356/7957",
+            "name": "Xianneng Zou"
+          },
+          {
+            "pid": "63/1587-1",
+            "name": "Kun Yang 0001"
+          },
+          {
+            "pid": "00/4948",
+            "name": "Gianni Antichi"
+          },
+          {
+            "pid": "51/1742",
+            "name": "Guihai Chen"
+          },
+          {
+            "pid": "94/1247-1",
+            "name": "Chen Tian 0001"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/0001ZZLHLZLDLZL25",
+        "doi": "10.1145/3718958.3750521",
+        "dblp_key": "conf/sigcomm/0001ZZLHLZLDLZL25",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2025",
+        "expected_year": 2025,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/879ceeed44291366bc02.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud",
+      "year": 2024,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4401176891",
+      "doi": "https://doi.org/10.1145/3651890.3672242",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud",
+        "venue": "SIGCOMM",
+        "year": 2024,
+        "authors": [
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          },
+          {
+            "pid": "183/6387",
+            "name": "Zhizhen Zhong"
+          },
+          {
+            "pid": "235/7025",
+            "name": "Yunming Xiao"
+          },
+          {
+            "pid": "22/4613",
+            "name": "Feng Yang"
+          },
+          {
+            "pid": "381/9647",
+            "name": "Senkuo Zhang"
+          },
+          {
+            "pid": "254/6390",
+            "name": "Yinan Jiang"
+          },
+          {
+            "pid": "381/9169",
+            "name": "Zizhuo Bai"
+          },
+          {
+            "pid": "311/3471",
+            "name": "Chaodong Lu"
+          },
+          {
+            "pid": "381/9252",
+            "name": "Jingyi Geng"
+          },
+          {
+            "pid": "289/2152",
+            "name": "Zekun He"
+          },
+          {
+            "pid": "44/6407",
+            "name": "Yachen Wang"
+          },
+          {
+            "pid": "356/7957",
+            "name": "Xianneng Zou"
+          },
+          {
+            "pid": "143/0974",
+            "name": "Chuanchuan Yang"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/MiaoZXYZJBLGHWZ24",
+        "doi": "10.1145/3651890.3672242",
+        "dblp_key": "conf/sigcomm/MiaoZXYZJBLGHWZ24",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2024",
+        "expected_year": 2024,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/dba1d451e0a41ef14d1b.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "FlexWAN: Software Hardware Co-design for Cost-Effective and Resilient Optical Backbones",
+      "year": 2023,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4386396132",
+      "doi": "https://doi.org/10.1145/3603269.3604824",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "FlexWAN: Software Hardware Co-design for Cost-Effective and Resilient Optical Backbones",
+        "venue": "SIGCOMM",
+        "year": 2023,
+        "authors": [
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          },
+          {
+            "pid": "183/6387",
+            "name": "Zhizhen Zhong"
+          },
+          {
+            "pid": "13/6769-22",
+            "name": "Ying Zhang 0022"
+          },
+          {
+            "pid": "278/2703",
+            "name": "Kunling He"
+          },
+          {
+            "pid": "266/4162",
+            "name": "Fangchao Li"
+          },
+          {
+            "pid": "56/2482",
+            "name": "Minggang Chen"
+          },
+          {
+            "pid": "200/2754",
+            "name": "Yiren Zhao"
+          },
+          {
+            "pid": "40/1491-223",
+            "name": "Xiang Li 0223"
+          },
+          {
+            "pid": "289/2152",
+            "name": "Zekun He"
+          },
+          {
+            "pid": "356/7957",
+            "name": "Xianneng Zou"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/MiaoZ0HLCZLHZ023",
+        "doi": "10.1145/3603269.3604824",
+        "dblp_key": "conf/sigcomm/MiaoZ0HLCZLHZ023",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2023",
+        "expected_year": 2023,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/1b1fe33167d126523dbd.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "PreTE: Traffic Engineering with Predictive Failures",
+      "year": 2025,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4413757057",
+      "doi": "https://doi.org/10.1145/3718958.3750508",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "PreTE: Traffic Engineering with Predictive Failures",
+        "venue": "SIGCOMM",
+        "year": 2025,
+        "authors": [
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          },
+          {
+            "pid": "183/6387",
+            "name": "Zhizhen Zhong"
+          },
+          {
+            "pid": "200/2754",
+            "name": "Yiren Zhao"
+          },
+          {
+            "pid": "122/9141",
+            "name": "Arpit Gupta"
+          },
+          {
+            "pid": "13/6769-22",
+            "name": "Ying Zhang 0022"
+          },
+          {
+            "pid": "182/9939",
+            "name": "Sirui Li"
+          },
+          {
+            "pid": "289/2152",
+            "name": "Zekun He"
+          },
+          {
+            "pid": "356/7957",
+            "name": "Xianneng Zou"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/MiaoZZG0LHZ025",
+        "doi": "10.1145/3718958.3750508",
+        "dblp_key": "conf/sigcomm/MiaoZZG0LHZ025",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2025",
+        "expected_year": 2025,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/d0207690fe0c3f664bf5.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+      "year": 2025,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4413757588",
+      "doi": "https://doi.org/10.1145/3718958.3750501",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "Fornax: A Hardware-Centric Session Management in Large Public Cloud Network",
+        "venue": "SIGCOMM",
+        "year": 2025,
+        "authors": [
+          {
+            "pid": "29/1429-5",
+            "name": "Heng Yu 0005"
+          },
+          {
+            "pid": "39/449",
+            "name": "Jian Wang"
+          },
+          {
+            "pid": "70/2932",
+            "name": "Jian Zhao"
+          },
+          {
+            "pid": "01/7592",
+            "name": "Kai Ren"
+          },
+          {
+            "pid": "296/7043",
+            "name": "Guozhi Lin"
+          },
+          {
+            "pid": "417/1586",
+            "name": "Baozeng Zhang"
+          },
+          {
+            "pid": "238/6763",
+            "name": "Yunpeng Guan"
+          },
+          {
+            "pid": "09/1365",
+            "name": "Xin Li"
+          },
+          {
+            "pid": "21/760",
+            "name": "Hao Yin"
+          },
+          {
+            "pid": "184/6428",
+            "name": "Jiajun Liang"
+          },
+          {
+            "pid": "56/4499",
+            "name": "Liang Wang"
+          },
+          {
+            "pid": "214/9364",
+            "name": "Chao Pei"
+          },
+          {
+            "pid": "44/6407",
+            "name": "Yachen Wang"
+          },
+          {
+            "pid": "68/3340-8",
+            "name": "Xin Jin 0008"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          },
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/0005WZRLZGLYLWP25",
+        "doi": "10.1145/3718958.3750501",
+        "dblp_key": "conf/sigcomm/0005WZRLZGLYLWP25",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2025",
+        "expected_year": 2025,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/d0207690fe0c3f664bf5.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "Discovering obscure looking glass sites on the web to facilitate internet measurement research",
+      "year": 2021,
+      "venue": "CoNEXT",
+      "openalex_id": "https://openalex.org/W3216950620",
+      "doi": "https://doi.org/10.1145/3485983.3494857",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": false,
+      "bibliography": {
+        "title": "Discovering obscure looking glass sites on the web to facilitate internet measurement research",
+        "venue": "CoNEXT",
+        "year": 2021,
+        "authors": [
+          {
+            "pid": "07/10207",
+            "name": "Shuying Zhuang"
+          },
+          {
+            "pid": "79/2151",
+            "name": "Jessie Hui Wang"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          },
+          {
+            "pid": "308/2439",
+            "name": "Zujiang Pan"
+          },
+          {
+            "pid": "17/1976-10",
+            "name": "Tianhao Wu 0010"
+          },
+          {
+            "pid": "20/8277",
+            "name": "Fenghua Li"
+          },
+          {
+            "pid": "03/5274",
+            "name": "Zhiyong Zhang"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/conext/ZhuangW0PWLZ21",
+        "doi": "10.1145/3485983.3494857",
+        "dblp_key": "conf/conext/ZhuangW0PWLZ21",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/conext/conext2021",
+        "expected_year": 2021,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/f56a386536faac90660f.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+      "year": 2024,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4401176780",
+      "doi": "https://doi.org/10.1145/3651890.3672241",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "Turbo: Efficient Communication Framework for Large-scale Data Processing Cluster",
+        "venue": "SIGCOMM",
+        "year": 2024,
+        "authors": [
+          {
+            "pid": "192/3465",
+            "name": "Xuya Jia"
+          },
+          {
+            "pid": "180/6996",
+            "name": "Zhiyi Yao"
+          },
+          {
+            "pid": "85/6436",
+            "name": "Chao Peng"
+          },
+          {
+            "pid": "63/9613",
+            "name": "Zihao Zhao"
+          },
+          {
+            "pid": "96/4975",
+            "name": "Bin Lei"
+          },
+          {
+            "pid": "381/9493",
+            "name": "Edison Liu"
+          },
+          {
+            "pid": "40/1491-223",
+            "name": "Xiang Li 0223"
+          },
+          {
+            "pid": "289/2152",
+            "name": "Zekun He"
+          },
+          {
+            "pid": "44/6407",
+            "name": "Yachen Wang"
+          },
+          {
+            "pid": "356/7957",
+            "name": "Xianneng Zou"
+          },
+          {
+            "pid": "48/7993",
+            "name": "Chongqing Zhao"
+          },
+          {
+            "pid": "381/9196",
+            "name": "Jinhui Chu"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          },
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/JiaYPZLLLHWZZC024",
+        "doi": "10.1145/3651890.3672241",
+        "dblp_key": "conf/sigcomm/JiaYPZLLLHWZZC024",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2024",
+        "expected_year": 2024,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/303747670d76acdaec24.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "Accessing Cloud with Disaggregated Software-Defined Router.",
+      "year": 2021,
+      "venue": "NSDI",
+      "openalex_id": "https://openalex.org/W3156609395",
+      "doi": null,
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "Accessing Cloud with Disaggregated Software-Defined Router",
+        "venue": "NSDI",
+        "year": 2021,
+        "authors": [
+          {
+            "pid": "44/468",
+            "name": "Hua Shao"
+          },
+          {
+            "pid": "02/3450-1",
+            "name": "Xiaoliang Wang 0001"
+          },
+          {
+            "pid": "182/6479",
+            "name": "Yuanwei Lu"
+          },
+          {
+            "pid": "10/9414",
+            "name": "Yanbo Yu"
+          },
+          {
+            "pid": "29/7522",
+            "name": "Shengli Zheng"
+          },
+          {
+            "pid": "41/3820",
+            "name": "Youjian Zhao"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/nsdi/Shao0LYZZ21",
+        "doi": "",
+        "dblp_key": "conf/nsdi/Shao0LYZZ21",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/nsdi/nsdi2021",
+        "expected_year": 2021,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/303747670d76acdaec24.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "Poster: TOO: Accelerating Loss Recovery by Taming On-Off Traffic Patterns",
+      "year": 2023,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4386385135",
+      "doi": "https://doi.org/10.1145/3603269.3610841",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": false,
+      "bibliography": {
+        "title": "Poster: TOO: Accelerating Loss Recovery by Taming On-Off Traffic Patterns",
+        "venue": "SIGCOMM",
+        "year": 2023,
+        "authors": [
+          {
+            "pid": "408/7070",
+            "name": "Xu Yan"
+          },
+          {
+            "pid": "29/3826-14",
+            "name": "Tong Li 0014"
+          },
+          {
+            "pid": "47/6534-2",
+            "name": "Bo Wu 0002"
+          },
+          {
+            "pid": "68/6443",
+            "name": "Cheng Luo"
+          },
+          {
+            "pid": "88/8346",
+            "name": "Fuyu Wang"
+          },
+          {
+            "pid": "22/3326",
+            "name": "Haiyang Wang"
+          },
+          {
+            "pid": "181/2626-2",
+            "name": "Ke Xu 0002"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/YanLWLWWX23",
+        "doi": "10.1145/3603269.3610841",
+        "dblp_key": "conf/sigcomm/YanLWLWWX23",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2023",
+        "expected_year": 2023,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/60cd730e5011fba5f28a.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    },
+    {
+      "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+      "year": 2023,
+      "venue": "SIGCOMM",
+      "openalex_id": "https://openalex.org/W4386385167",
+      "doi": "https://doi.org/10.1145/3603269.3604852",
+      "institution_id": "https://openalex.org/I2250653659",
+      "already_collected": true,
+      "bibliography": {
+        "title": "TENSOR: Lightweight BGP Non-Stop Routing",
+        "venue": "SIGCOMM",
+        "year": 2023,
+        "authors": [
+          {
+            "pid": "30/10775",
+            "name": "Congcong Miao"
+          },
+          {
+            "pid": "235/7025",
+            "name": "Yunming Xiao"
+          },
+          {
+            "pid": "24/5715",
+            "name": "Marco Canini"
+          },
+          {
+            "pid": "356/8164",
+            "name": "Ruiqiang Dai"
+          },
+          {
+            "pid": "29/7522",
+            "name": "Shengli Zheng"
+          },
+          {
+            "pid": "18/6008-1",
+            "name": "Jilong Wang 0001"
+          },
+          {
+            "pid": "356/8451",
+            "name": "Jiwu Bu"
+          },
+          {
+            "pid": "k/AleksandarKuzmanovic",
+            "name": "Aleksandar Kuzmanovic"
+          },
+          {
+            "pid": "44/6407",
+            "name": "Yachen Wang"
+          }
+        ],
+        "dblp_url": "https://dblp.org/rec/conf/sigcomm/MiaoXCDZ0BKW23",
+        "doi": "10.1145/3603269.3604852",
+        "dblp_key": "conf/sigcomm/MiaoXCDZ0BKW23",
+        "record_type": "inproceedings",
+        "source": "conference_toc",
+        "source_toc_key": "db/conf/sigcomm/sigcomm2023",
+        "expected_year": 2023,
+        "year_matches_expected": true,
+        "dblp_publication_type": "Conference and Workshop Papers",
+        "is_journal": false
+      },
+      "source_cache": "raw/432fe647453ce1b62953.html",
+      "status": "index_affiliation_candidate_primary_verification_required"
+    }
+  ],
+  "source_logs": [
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5034300df1acdae7e0aa.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgMjE2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTgxMzgyNDQnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/16984062c90d33d0d090.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgMTMwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzI5NTQwODc5MjQnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/7774c127e9808f623cec.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgOTAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk4NjA1MDA4NCddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/1725b7ff0b8429871695.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgNjYsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDMwNDA5MjY3OSddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/856c4d57f79a2b2f36b3.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgNTAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2NjA4NzM3NSddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/ba593366b9c2ad737e24.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgMzYsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk1MTk3NzI3OCddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/dd83ce01f9c2821578af.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsxMDAuMCwgMjEsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4ODg1NjkyOSddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/879ceeed44291366bc02.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCA0NSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTU3MjAxMzE5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/19d7320c8eca85d43ad7.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAzNCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTUzNjc1NjA5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/4f5ae27fbaa8dd9fe1cd.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAyOCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzA3NTEwNzc5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/540d3b01cff170e776ff.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAyMywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MjAwMDk3NjEyJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/700fbbde2b38611ba43a.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAxOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMjE3MjYzMTM4J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/8d7876bb3d8570e74c78.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAxNSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjk2NDM4MDY5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/dba1d451e0a41ef14d1b.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCAxMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzgyNDY1NTQ4J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/1b1fe33167d126523dbd.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OS4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTA4NzIwNzMnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/d0207690fe0c3f664bf5.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OC4wLCAyMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTc0NTU2OTM5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/f56a386536faac90660f.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OC4wLCAxMywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTIyODk0NzYwJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/0327e6e1fdd9c46a262c.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OC4wLCA5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODgxOTA2NzMnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/45de328dab5038f74427.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5OC4wLCA0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODk5ODc2OTQnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5d2b8a8fc729775f3d14.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ny4wLCAxMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMDA0MjA2NDYwJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/bbdda93e291014058e65.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ny4wLCA2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxODY3MDA0NjknXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/303747670d76acdaec24.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ny4wLCA0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODI0OTk0MzQnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/a221ca7201fef1446fa0.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ny4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTMxNTczNTEnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/6e6b8f45512c6551c109.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ni4wLCA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMjQ5MzI1MTUnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/60cd730e5011fba5f28a.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ni4wLCAzLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTMxNDkxMzcnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/432fe647453ce1b62953.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ni4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTUzNDgxODknXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/cf57d8048d3f2bd3a2d7.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTcyNDQwNjEnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/921c0879970506dbea98.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5NS4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMyMTMxNTY2MDUnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/9f9977e6fb46b4b5f9bd.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5NC4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzNjU4MTA4NDInXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5df0cf418e199aed7a7c.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=Ils5My4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyOTY0NTkyMTcnXSI%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5cc05af4a1a06adeb919.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMjgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAxNzIyODc2MiddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/289feef444a3b8035bd7.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMTIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAxNDQwODA3NCddIg%3D%3D&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/ef54f19e06fdf1ab101d.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgNywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MjIxMTY2Mzc3J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/bfa4e61d72f5901538ed.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgNCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyOTk2NDk3ODAyJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/08230bf7f5592a70fa2f.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMywgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjg0NjcwNjM5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/0e0d2523cccf6088a3cd.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTgwNjkzNzQ4J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5bc3d13d6ad47c80c782.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTA5OTQ2ODY4J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/13c709ca2f1e6c010934.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjg4NzI0MDU1J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/b8e8aaf24928b80fd8ef.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg4MTg0ODM0J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/f42d11d64545a46d849c.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyOTM0NjA5ODEyJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/78c6329d87877e50dc40.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTgzOTI5NDA5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/564b8025d5490ae20713.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjg3MTgxNTgzJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/059447cc27753083a6f5.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzE5NTg3MDkyJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/d01e5237cb65f089b903.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg1ODIyODE5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/0e4cbee1cb58e7ee0121.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzkwOTYxMjk0J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/b67389b7aa823dbe3a77.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDAwMDE5MjA5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/cc51ca94308b97a6c663.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA0MDg4OTM5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/53aaf772cebb5112c8b0.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA4OTU0NDk1J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/be0666989e7ac5c0494b.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE1MzM2NDE4J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/911961838d699f94ec70.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE3NTMxMTgxJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/465c5fe1890d4aa8e00e.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTI4NzAxMTI5J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/1a58b75e809b1e2bad6f.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTU0NTQwNTA1J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/26a45cbb8f47cc28096d.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYyNjMyMzQ1J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/4b7af2a25e6da47a9cb7.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY2ODMwNDc2J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/17a65fba30aa9235a765.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTcxODI4MDEzJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/061b59d1461724058485.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjA0MTI5MDAyJ10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/5d92692a53f6813c2c1e.html",
+      "reported_total": 11400,
+      "returned": 200
+    },
+    {
+      "institution_id": "https://openalex.org/I2250653659",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI2250653659%2Cpublication_year%3A2019-2026&per-page=200&cursor=IlsnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjIxMDU2MTU2J10i&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/bcefc9f05bc64ab08c77.html",
+      "reported_total": 11400,
+      "returned": 0
+    },
+    {
+      "institution_id": "https://openalex.org/I4210103558",
+      "url": "https://api.openalex.org/works?filter=institutions.id%3AI4210103558%2Cpublication_year%3A2019-2026&per-page=200&cursor=%2A&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location",
+      "status": "fetched",
+      "source_cache": "raw/9b504a2026444d38f926.html",
+      "reported_total": 72,
+      "returned": 72
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "papers": [],
+  "attempts": [
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/nsdi/nsdi2026.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/sigcomm/sigcomm2026.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/conext/conext2026.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/imc/imc2026.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "429 Client Error: Too Many Requests for url: https://dblp.org/search/publ/api?q=toc%3Adb/conf/imc/imc2026.bht%3A&format=json&h=1000&f=0"
+    },
+    {
+      "venue": "HotNets",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/conf/hotnets/hotnets2026.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "venue": "PACMNET",
+      "year": 2026,
+      "url": "https://dblp.org/search/publ/api?q=toc%3Adb/journals/pacmnet/pacmnet4.bht%3A&format=json&h=1000&f=0",
+      "status": "fetch_or_parse_error",
+      "detail": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ]
+}

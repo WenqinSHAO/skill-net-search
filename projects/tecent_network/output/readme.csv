@@ -1,0 +1,16 @@
+﻿topic,description
+Status,Initial partial corpus. Coverage is not established; do not present these counts as all Tencent publications.
+Author affiliations,One row per publication-author-institution assignment. Dual affiliations have multiple rows. Preserve publication-time affiliations.
+Identity,Authorship IDs are paper-local. Name keys do not resolve homonyms. DBLP PIDs are supplied only after exact author-order checks.
+Keywords,Author keywords are separate from analyst tags. Tag status identifies primary-program review or provisional title rules. Missing keyword fields have not yet been collected.
+Analysis eligibility,"Requires included networking scope, parsed Tencent assignment, and no known author-order mismatch. PDF affiliation review and version review still remain; provisional tags are not validated."
+Weights,Full count=1 per paper-partner edge. Fractional weight=1/number of academic/research institution partners on that paper.
+Geography,"Country and region require reviewed institution metadata with a source. Blank geography means unknown, not China."
+Versions,Version families are not yet reconciled. Do not combine conference/journal/preprint counts without version review.
+Corrections,"Edit data/overrides.json and data/institutions_reviewed.json, then rerun scripts/export.py. Retain evidence URLs."
+Sources,"Official programs, recovered CoNEXT Angular templates, independent OpenAlex indexing, DBLP catalogs and author-hosted PDFs are cached under raw/. See Independent_Checks, Discovery_Audit and PDF_Checks for methods and exclusions."
+Counting,"Annual_Stats separates main-venue records, networking-scope included records, boundary candidates, and posters. Zero confirmed papers is not proof of absence. 2026 is year-to-date; CoNEXT/PACMNET long papers must not be double-counted."
+Excluded venues,"ICNP and mobile-centric conferences are excluded by user request. HotNets is a workshop venue; its primary papers belong in the five-venue series, unlike SIGCOMM poster/demo and affiliated-workshop outputs."
+Generated,2026-10-14T14:51:24.502121+00:00
+Metadata completion,"User-reviewed primary set: 32 papers. Required metadata means title, venue/year, full sourced abstract, ordered author names and individual publication-time affiliations; it does not imply all author keywords, person identities, PDF access, versions or venue recall are complete. PDF and publisher-deposit affiliation reviews are labeled separately. Source conflicts remain in metadata notes."
+Completeness ledger,"Proceedings_Ledger accounts for all discovered venue records, not Tencent papers alone. Completeness covers 40 venue/year cells. Unresolved_Queue exposes gaps; PDF string screening does not certify exhaustive affiliations. Unclassified records and title variants still require review."

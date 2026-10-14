@@ -1,0 +1,784 @@
+{
+  "target_years": "1998-present",
+  "completeness": "not_established",
+  "attempts": [
+    {
+      "venue": "NSDI",
+      "year": 2010,
+      "url": "https://www.usenix.org/conference/nsdi10/technical-sessions",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://www.usenix.org/conference/nsdi10/technical-sessions"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2011,
+      "url": "https://www.usenix.org/conference/nsdi11/technical-sessions",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://www.usenix.org/conference/nsdi11/technical-sessions"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2012,
+      "url": "https://www.usenix.org/conference/nsdi12/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 31,
+      "retrieved_at": "2026-10-10T14:26:49.645063+00:00",
+      "source_cache": "raw/556f2070686c44714b41.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2013,
+      "url": "https://www.usenix.org/conference/nsdi13/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 39,
+      "retrieved_at": "2026-10-10T14:26:49.722855+00:00",
+      "source_cache": "raw/9e9bc10fecd9b9a72328.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2014,
+      "url": "https://www.usenix.org/conference/nsdi14/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 39,
+      "retrieved_at": "2026-10-10T14:26:50.973095+00:00",
+      "source_cache": "raw/4d2e7b75b53221a61ab6.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2015,
+      "url": "https://www.usenix.org/conference/nsdi15/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 42,
+      "retrieved_at": "2026-10-10T14:26:51.208137+00:00",
+      "source_cache": "raw/50c3924c2135d462a091.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2016,
+      "url": "https://www.usenix.org/conference/nsdi16/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 46,
+      "retrieved_at": "2026-10-10T14:26:51.763948+00:00",
+      "source_cache": "raw/5d902c53de353ee68321.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2017,
+      "url": "https://www.usenix.org/conference/nsdi17/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 46,
+      "retrieved_at": "2026-10-10T14:26:52.698984+00:00",
+      "source_cache": "raw/909f6f19358e366a1cdd.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2018,
+      "url": "https://www.usenix.org/conference/nsdi18/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 40,
+      "retrieved_at": "2026-10-10T14:26:54.036905+00:00",
+      "source_cache": "raw/8017f74f36ee94fe518e.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2019,
+      "url": "https://www.usenix.org/conference/nsdi19/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 50,
+      "retrieved_at": "2026-10-10T14:26:54.785244+00:00",
+      "source_cache": "raw/c110e7c08028f3b32c80.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2020,
+      "url": "https://www.usenix.org/conference/nsdi20/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 66,
+      "retrieved_at": "2026-10-10T14:26:55.877068+00:00",
+      "source_cache": "raw/b617dba4b557218f0116.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2021,
+      "url": "https://www.usenix.org/conference/nsdi21/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 1,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 59,
+      "retrieved_at": "2026-10-10T14:26:56.696276+00:00",
+      "source_cache": "raw/b3905229c4096e2b4b31.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2022,
+      "url": "https://www.usenix.org/conference/nsdi22/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 2,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 78,
+      "retrieved_at": "2026-10-10T14:26:59.539288+00:00",
+      "source_cache": "raw/da836018a4835a6190c9.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2023,
+      "url": "https://www.usenix.org/conference/nsdi23/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 2,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 96,
+      "retrieved_at": "2026-10-10T14:27:00.791062+00:00",
+      "source_cache": "raw/24f38629a6774c25e005.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2024,
+      "url": "https://www.usenix.org/conference/nsdi24/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 3,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 112,
+      "retrieved_at": "2026-10-10T14:27:02.657677+00:00",
+      "source_cache": "raw/3d00b31e89ba59049f66.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2025,
+      "url": "https://www.usenix.org/conference/nsdi25/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 2,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 83,
+      "retrieved_at": "2026-10-10T14:27:02.814631+00:00",
+      "source_cache": "raw/57e3ebe1c2f34a799e81.html"
+    },
+    {
+      "venue": "NSDI",
+      "year": 2026,
+      "url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
+      "status": "parsed",
+      "tencent_records": 8,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 151,
+      "retrieved_at": "2026-10-10T14:27:05.162016+00:00",
+      "source_cache": "raw/cb2f4e708893465a897e.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2010,
+      "url": "https://conferences.sigcomm.org/sigcomm/2010/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2010/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2010,
+      "url": "https://conferences.sigcomm.org/sigcomm/2010/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2010/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2011,
+      "url": "https://conferences.sigcomm.org/sigcomm/2011/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2011/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2011,
+      "url": "https://conferences.sigcomm.org/sigcomm/2011/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2011/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2012,
+      "url": "https://conferences.sigcomm.org/sigcomm/2012/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2012/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2012,
+      "url": "https://conferences.sigcomm.org/sigcomm/2012/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2012/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2013,
+      "url": "https://conferences.sigcomm.org/sigcomm/2013/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2013/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2013,
+      "url": "https://conferences.sigcomm.org/sigcomm/2013/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2013/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2014,
+      "url": "https://conferences.sigcomm.org/sigcomm/2014/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2014/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2014,
+      "url": "https://conferences.sigcomm.org/sigcomm/2014/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2014/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2015,
+      "url": "https://conferences.sigcomm.org/sigcomm/2015/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2015/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2015,
+      "url": "https://conferences.sigcomm.org/sigcomm/2015/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2015/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2016,
+      "url": "https://conferences.sigcomm.org/sigcomm/2016/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2016/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2016,
+      "url": "https://conferences.sigcomm.org/sigcomm/2016/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2016/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2017,
+      "url": "https://conferences.sigcomm.org/sigcomm/2017/program.html",
+      "status": "unsupported_layout",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 0,
+      "retrieved_at": "2026-10-10T14:27:04.664386+00:00",
+      "source_cache": "raw/739c5f2c319703ebaeb5.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2017,
+      "url": "https://conferences.sigcomm.org/sigcomm/2017/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2017/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2018,
+      "url": "https://conferences.sigcomm.org/sigcomm/2018/program.html",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 48,
+      "retrieved_at": "2026-10-10T14:27:05.470060+00:00",
+      "source_cache": "raw/aff8c7e6835db21550bc.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2018,
+      "url": "https://conferences.sigcomm.org/sigcomm/2018/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2018/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/program.html",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 27,
+      "retrieved_at": "2026-10-10T14:27:05.641421+00:00",
+      "source_cache": "raw/a6ec29d6a6c75f1a8886.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2019,
+      "url": "https://conferences.sigcomm.org/sigcomm/2019/program/",
+      "status": "unsupported_layout",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 0,
+      "retrieved_at": "2026-10-10T14:27:06.200961+00:00",
+      "source_cache": "raw/5178199571475124d3ac.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/program.html",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 56,
+      "retrieved_at": "2026-10-10T14:27:06.088957+00:00",
+      "source_cache": "raw/3bbf4faec8124ade515e.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2020,
+      "url": "https://conferences.sigcomm.org/sigcomm/2020/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2020/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/sigcomm/2021/program.html",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 58,
+      "retrieved_at": "2026-10-10T14:27:06.148144+00:00",
+      "source_cache": "raw/1a794f4fd4c9d4102028.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2021,
+      "url": "https://conferences.sigcomm.org/sigcomm/2021/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2021/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/sigcomm/2022/program.html",
+      "status": "parsed",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 57,
+      "retrieved_at": "2026-10-10T14:27:06.779991+00:00",
+      "source_cache": "raw/372c0cefb87fb5c033f9.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2022,
+      "url": "https://conferences.sigcomm.org/sigcomm/2022/program/",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2022/program/"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2023,
+      "url": "https://conferences.sigcomm.org/sigcomm/2023/program.html",
+      "status": "parsed",
+      "tencent_records": 2,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 73,
+      "retrieved_at": "2026-10-10T14:27:06.942539+00:00",
+      "source_cache": "raw/f2ec7fe76bc0b81da362.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2024,
+      "url": "https://conferences.sigcomm.org/sigcomm/2024/program/",
+      "status": "parsed",
+      "tencent_records": 2,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 62,
+      "retrieved_at": "2026-10-10T14:27:07.541108+00:00",
+      "source_cache": "raw/715de29407cb0a46cd28.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/",
+      "status": "unsupported_layout",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 0,
+      "retrieved_at": "2026-10-10T14:27:07.404143+00:00",
+      "source_cache": "raw/c539eb1534bdc6a9cd05.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2025/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/",
+      "status": "unsupported_layout",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 0,
+      "retrieved_at": "2026-10-10T14:27:07.566625+00:00",
+      "source_cache": "raw/53d93ced78f262980959.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program.html",
+      "status": "fetch_error",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "HTTPError: 404 Client Error: Not Found for url: https://conferences.sigcomm.org/sigcomm/2026/program.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2025,
+      "url": "https://conferences.sigcomm.org/sigcomm/2025/program/papers-info/",
+      "status": "parsed",
+      "tencent_records": 3,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 103,
+      "retrieved_at": "2026-10-10T14:31:48.897021+00:00",
+      "source_cache": "raw/a010598cefd932b574af.html"
+    },
+    {
+      "venue": "SIGCOMM",
+      "year": 2026,
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/program/papers/",
+      "status": "parsed",
+      "tencent_records": 6,
+      "completeness": "not_established",
+      "note": "Program scan only; independent recall/PDF review required",
+      "paper_blocks": 113,
+      "retrieved_at": "2026-10-10T14:31:50.002765+00:00",
+      "source_cache": "raw/4f8a4137ecec68db764f.html"
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2019,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2019/partials/accepted-papers.html?updated=191210; https://conferences.sigcomm.org/co-next/2019/partials/toc.html; https://conferences.sigcomm.org/co-next/2019/partials/program.html?updated=191214",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2020,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2020/partials/accepted-papers.html?updated=191210; https://conferences.sigcomm.org/co-next/2020/partials/toc.html; https://conferences.sigcomm.org/co-next/2020/partials/program.html?updated=191214",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2021,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2021/partials/toc.html; https://conferences.sigcomm.org/co-next/2021/partials/program.html?updated=191214",
+      "tencent_records": 1,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2022,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2022/partials/toc.html; https://conferences.sigcomm.org/co-next/2022/partials/program.html?updated=221111",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2023,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2023/partials/accepted-papers.html; https://conferences.sigcomm.org/co-next/2023/partials/toc.html; https://conferences.sigcomm.org/co-next/2023/partials/program.html?updated=191214",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2024,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2024/partials/accepted-papers.html?updated=241118; https://conferences.sigcomm.org/co-next/2024/partials/program.html?updated=241224",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2025,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2025/partials/program.html?updated=191214",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "CoNEXT",
+      "year": 2026,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/co-next/2026/partials/accepted-papers.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2019,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2019/; https://conferences.sigcomm.org/imc/2019/program/",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2020,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2020/; https://conferences.sigcomm.org/imc/2020/accepted/; https://conferences.sigcomm.org/imc/2020/accepted",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2021,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2021/; https://conferences.sigcomm.org/imc/2021/accepted/; https://conferences.sigcomm.org/imc/2021/accepted",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2022,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2022/; https://conferences.sigcomm.org/imc/2022/accepted/; https://conferences.sigcomm.org/imc/2022/program/; https://conferences.sigcomm.org/imc/2022/accepted",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2023,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2023/; https://conferences.sigcomm.org/imc/2023/program/",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2024,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2024/; https://conferences.sigcomm.org/imc/2024/accepted-papers/; https://conferences.sigcomm.org/imc/2024/program/",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2025,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2025/; https://conferences.sigcomm.org/imc/2025/program/; https://conferences.sigcomm.org/imc/2025/accepted-papers/",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "IMC",
+      "year": 2026,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/imc/2026/; https://conferences.sigcomm.org/imc/2026/accepted-papers; https://conferences.sigcomm.org/imc/2026/program/",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2019,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2019/; https://conferences.sigcomm.org/hotnets/2019/accepted.html; https://conferences.sigcomm.org/hotnets/2019/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2020,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2020/; https://conferences.sigcomm.org/hotnets/2020/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2021,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2021/; https://conferences.sigcomm.org/hotnets/2021/accepted.html; https://conferences.sigcomm.org/hotnets/2021/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2022,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2022/; https://conferences.sigcomm.org/hotnets/2022/accepted.html; https://conferences.sigcomm.org/hotnets/2022/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2023,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2023/; https://conferences.sigcomm.org/hotnets/2023/accepted.html; https://conferences.sigcomm.org/hotnets/2023/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2024,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2024/; https://conferences.sigcomm.org/hotnets/2024/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2025,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2025/; https://conferences.sigcomm.org/hotnets/2025/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    },
+    {
+      "venue": "HotNets",
+      "year": 2026,
+      "status": "program_discovery_scanned",
+      "url": "https://conferences.sigcomm.org/hotnets/2026/; https://conferences.sigcomm.org/hotnets/2026/program.html",
+      "tencent_records": 0,
+      "completeness": "not_established",
+      "note": "Independent institution-index and PDF-header checks recorded separately. Zero confirmed records is not proven zero output. 2026 is year-to-date."
+    }
+  ],
+  "pending_venues": [
+    "INFOCOM",
+    "ToN",
+    "APNet",
+    "ICCCN",
+    "EuroSys",
+    "ATC",
+    "OSDI",
+    "SOSP",
+    "Security",
+    "arXiv",
+    "Chinese-language outlets"
+  ],
+  "excluded_venues": [
+    "ICNP",
+    "MobiCom",
+    "MobiSys",
+    "other mobile-centric conferences"
+  ]
+}

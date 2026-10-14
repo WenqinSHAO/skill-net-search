@@ -1,0 +1,8 @@
+﻿topic,description
+Scope,"32 primary papers explicitly checked by the user in COLLECTION_PLAN.md, 2019–2026. Includes the existing networking-scope boundary candidate; two posters are separate. This is a metadata-completed set, not a certified exhaustive venue survey."
+Required metadata,"All 32 have full source abstracts, ordered author names and reviewed individual publication-time affiliations. PDF verification (27) and publisher-deposit verification (5) are labeled separately. Publisher links may still be inaccessible; PDF access status is explicit."
+Author rows,One row per author–institution assignment. Dual affiliations have multiple rows; author_position preserves the complete ordered list. Explicit unaffiliated authors keep a row with a blank institution. Paper-local authorship IDs are not global researcher identities.
+Sources,"paper_url points to the paper/DOI; url retains the discovery program. Abstract and affiliation source URLs are retained. PDF spellings and publisher raw affiliations preserve discrepancies; metadata notes explain Dorado, Holmes, FlexWAN and XFir."
+Keywords,"Author keywords are separate from analyst tags. NSDI front matter does not supply a keyword field; remaining inaccessible ACM keywords are not_collected, not fabricated."
+Posters,Posters are not primary-paper counts. The 2019 poster abstract is still missing from accessible primary metadata; TOO's existing repository abstract remains separately labeled.
+Generated,2026-10-14T14:51:26.010000+00:00

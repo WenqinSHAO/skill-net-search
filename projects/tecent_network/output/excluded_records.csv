@@ -1,0 +1,106 @@
+﻿venue,year,title,reason,dblp_url
+CoNEXT,2019,"Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies, CoNEXT 2019, Orlando, FL, USA, December 09-12, 2019",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2019
+HotNets,2019,"Proceedings of the 18th ACM Workshop on Hot Topics in Networks, HotNets 2019, Princeton, NJ, USA, November 13-15, 2019",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2019
+IMC,2019,"Proceedings of the Internet Measurement Conference, IMC 2019, Amsterdam, The Netherlands, October 21-23, 2019",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2019
+NSDI,2019,"16th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2019, Boston, MA, February 26-28, 2019",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2019
+SIGCOMM,2019,"Proceedings of the ACM Special Interest Group on Data Communication, SIGCOMM 2019, Beijing, China, August 19-23, 2019",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2019
+CoNEXT,2020,"CoNEXT &apos;20: The 16th International Conference on emerging Networking EXperiments and Technologies, Barcelona, Spain, December, 2020",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2020
+HotNets,2020,"HotNets &apos;20: The 19th ACM Workshop on Hot Topics in Networks, Virtual Event, USA, November 4-6, 2020",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2020
+IMC,2020,"IMC &apos;20: ACM Internet Measurement Conference, Virtual Event, USA, October 27-29, 2020",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2020
+NSDI,2020,"17th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2020, Santa Clara, CA, USA, February 25-27, 2020",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2020
+SIGCOMM,2020,"SIGCOMM &apos;20: Proceedings of the 2020 Annual conference of the ACM Special Interest Group on Data Communication on the applications, technologies, architectures, and protocols for computer communication, Virtual Event, USA, August 10-14, 2020",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2020
+CoNEXT,2021,"CoNEXT &apos;21: The 17th International Conference on emerging Networking EXperiments and Technologies, Virtual Event, Munich, Germany, December 7 - 10, 2021",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2021
+HotNets,2021,"HotNets &apos;21: The 20th ACM Workshop on Hot Topics in Networks, Virtual Event, United Kingdom, November 10-12, 2021",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2021
+IMC,2021,"IMC &apos;21: ACM Internet Measurement Conference, Virtual Event, USA, November 2-4, 2021",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2021
+NSDI,2021,"18th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2021, April 12-14, 2021",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2021
+SIGCOMM,2021,"ACM SIGCOMM 2021 Conference, Virtual Event, USA, August 23-27, 2021",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2021
+CoNEXT,2022,"Proceedings of the 18th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2022, Roma, Italy, December 6-9, 2022",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2022
+HotNets,2022,"Proceedings of the 21st ACM Workshop on Hot Topics in Networks, HotNets 2022, Austin, Texas, November 14-15, 2022",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2022
+IMC,2022,"Proceedings of the 22nd ACM Internet Measurement Conference, IMC 2022, Nice, France, October 25-27, 2022",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2022
+NSDI,2022,"19th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2022, Renton, WA, USA, April 4-6, 2022",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2022
+SIGCOMM,2022,"SIGCOMM &apos;22: ACM SIGCOMM 2022 Conference, Amsterdam, The Netherlands, August 22 - 26, 2022",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2022
+CoNEXT,2023,"Companion of the 19th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2023 (Short Papers), Paris, France, December 5-8, 2023",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2023c
+HotNets,2023,"Proceedings of the 22nd ACM Workshop on Hot Topics in Networks, HotNets 2023, Cambridge, MA, USA, November 28-29, 2023",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2023
+IMC,2023,"Proceedings of the 2023 ACM on Internet Measurement Conference, IMC 2023, Montreal, QC, Canada, October 24-26, 2023",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2023
+NSDI,2023,"20th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2023, Boston, MA, April 17-19, 2023",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2023
+CoNEXT,2023,"PACMNET V1, CoNEXT2, September 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23a
+CoNEXT,2023,"PACMNET V1, N1, June 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23
+CoNEXT,2023,"PACMNET, V1, CoNEXT3, December 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23b
+SIGCOMM,2023,"Proceedings of the ACM SIGCOMM 2023 Conference, ACM SIGCOMM 2023, New York, NY, USA, 10-14 September 2023",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2023
+CoNEXT,2024,"Proceedings of the 20th International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2024 (Short Papers), Los Angeles, CA, USA, December 9-12, 2024",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2024
+HotNets,2024,"Proceedings of the 23rd ACM Workshop on Hot Topics in Networks, HOTNETS 2024, Irvine, CA, USA, November 18-19, 2024",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2024
+IMC,2024,"Proceedings of the 2024 ACM on Internet Measurement Conference, IMC 2024, Madrid, Spain, November 4-6, 2024",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2024
+NSDI,2024,"21st USENIX Symposium on Networked Systems Design and Implementation, NSDI 2024, Santa Clara, CA, April 15-17, 2024",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2024
+CoNEXT,2024,"PACMNET, V2, CoNEXT1, March 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB24
+CoNEXT,2024,"PACMNET, V2, CoNEXT2, June 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSTQ24
+CoNEXT,2024,"PACMNET, V2, CoNEXT3, September 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT24
+CoNEXT,2024,"PACMNET, V2, CoNEXT4, December 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT24a
+SIGCOMM,2024,"Proceedings of the ACM SIGCOMM 2024 Conference, ACM SIGCOMM 2024, Sydney, NSW, Australia, August 4-8, 2024",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2024
+CoNEXT,2025,"Proceedings of the 21st International Conference on emerging Networking EXperiments and Technologies, CoNEXT 2025, Hong Kong, December 1-4, 2025",proceedings_volume_or_editorial,https://dblp.org/rec/conf/conext/2025
+HotNets,2025,"Proceedings of the 24th ACM Workshop on Hot Topics in Networks, HotNets 2025, UMD Campus, College Park, MD, USA, November 17-18, 2025",proceedings_volume_or_editorial,https://dblp.org/rec/conf/hotnets/2025
+IMC,2025,"Proceedings of the 2025 ACM Internet Measurement Conference, IMC 2025, Madison, WI, USA, 28-31 October 2025",proceedings_volume_or_editorial,https://dblp.org/rec/conf/imc/2025
+NSDI,2025,"22nd USENIX Symposium on Networked Systems Design and Implementation, NSDI 2025, Philadelphia, PA, USA, April 28-30, 2025",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2025
+CoNEXT,2025,"PACMNET V3, CoNEXT4, December 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaLZ25a
+CoNEXT,2025,"PACMNET V3, N1, March 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT25
+CoNEXT,2025,"PACMNET V3, N2, June 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaLZ25
+CoNEXT,2025,"PACMNET V3, N3, September 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaZL25
+SIGCOMM,2025,"Proceedings of the ACM SIGCOMM 2025 Conference, SIGCOMM 2025, São Francisco Convent, Coimbra, Portugal, September 8-11, 2025",proceedings_volume_or_editorial,https://dblp.org/rec/conf/sigcomm/2025
+NSDI,2026,"23rd USENIX Symposium on Networked Systems Design and Implementation, NSDI 2026, Renton, WA, May 4-6, 2026",proceedings_volume_or_editorial,https://dblp.org/rec/conf/nsdi/2026
+CoNEXT,2023,"PACMNET V1, CoNEXT2, September 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23a
+CoNEXT,2023,"PACMNET V1, N1, June 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23
+CoNEXT,2023,"PACMNET, V1, CoNEXT3, December 2023 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB23b
+CoNEXT,2024,"PACMNET, V2, CoNEXT1, March 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQB24
+CoNEXT,2024,"PACMNET, V2, CoNEXT2, June 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSTQ24
+CoNEXT,2024,"PACMNET, V2, CoNEXT3, September 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT24
+CoNEXT,2024,"PACMNET, V2, CoNEXT4, December 2024 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT24a
+CoNEXT,2025,"PACMNET V3, CoNEXT4, December 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaLZ25a
+CoNEXT,2025,"PACMNET V3, N1, March 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaSQT25
+CoNEXT,2025,"PACMNET V3, N2, June 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaLZ25
+CoNEXT,2025,"PACMNET V3, N3, September 2025 Editorial",proceedings_volume_or_editorial,https://dblp.org/rec/journals/pacmnet/MelliaZL25
+CoNEXT,2019,Keynote: Riding along with the Time-Traveling Networking Researcher,agenda_item_not_research_paper,
+CoNEXT,2020,Keynote: Building and operating reliable hyper-scale networks,agenda_item_not_research_paper,
+CoNEXT,2020,Keynote: Towards 'trustworthy by design' networked systems,agenda_item_not_research_paper,
+CoNEXT,2020,Keynote: What we talk about when we talk about networking,agenda_item_not_research_paper,
+CoNEXT,2021,Keynote: Multi-connectivity in a 5G and beyond network landscape,agenda_item_not_research_paper,
+CoNEXT,2021,Keynote: The three tales of (correct) network operations,agenda_item_not_research_paper,
+CoNEXT,2021,Keynote: Top-down network management at scale,agenda_item_not_research_paper,
+CoNEXT,2022,Keynote: Mind the Photons: Next-generation Networks for Emerging Workloads,agenda_item_not_research_paper,
+CoNEXT,2022,Keynote: The Internet: A Beautiful Mess?,agenda_item_not_research_paper,
+CoNEXT,2022,Keynote: The Quest for Terabit-per-second (Truly) Programmable Networks,agenda_item_not_research_paper,
+CoNEXT,2023,Keynote: Application-Centric Networking: Unleashing the Top of the Network Stack,agenda_item_not_research_paper,
+CoNEXT,2023,Keynote: The SCION Research and Education Network,agenda_item_not_research_paper,
+CoNEXT,2024,"Co-Designing Network, Storage and Compute for Software-Defined Cloud Systems",agenda_item_not_research_paper,
+CoNEXT,2024,Keynote: A tale of two trends - Agentic AI and Quantum.,agenda_item_not_research_paper,
+CoNEXT,2024,"Network Research Evolution at the Crossroads: Balancing Innovation, Regulation, and Ethical AI",agenda_item_not_research_paper,
+CoNEXT,2025,Keynote: Computing transformation: From large language model to agentic AI,agenda_item_not_research_paper,
+HotNets,2020,Opening Remarks,agenda_item_not_research_paper,
+HotNets,2021,Introduction and Opening Remarks,agenda_item_not_research_paper,
+HotNets,2021,The first HotNets storytelling session,agenda_item_not_research_paper,
+HotNets,2022,Introduction and Opening Remarks,agenda_item_not_research_paper,
+HotNets,2022,noon - 1:30pm,agenda_item_not_research_paper,
+HotNets,2023,Introduction and Opening Remarks,agenda_item_not_research_paper,
+HotNets,2023,noon - 1:15pm,agenda_item_not_research_paper,
+HotNets,2024,Student talk by Jhonatan Tavori,agenda_item_not_research_paper,
+HotNets,2024,Student talk by Pooria Namyar,agenda_item_not_research_paper,
+HotNets,2024,Student talk by Vamsi Addanki,agenda_item_not_research_paper,
+SIGCOMM,2019,Keynote,agenda_item_not_research_paper,
+SIGCOMM,2019,Welcome Remarks and Awards,agenda_item_not_research_paper,
+SIGCOMM,2020,Closing,agenda_item_not_research_paper,
+SIGCOMM,2022,Community session (Effectenbeurszaal),agenda_item_not_research_paper,
+SIGCOMM,2022,Keynote 2,agenda_item_not_research_paper,
+SIGCOMM,2022,Keynote: Networking: The Newest Civil Engineering Challenge,agenda_item_not_research_paper,
+SIGCOMM,2025,08:30 — 10:30 | NetAI,agenda_item_not_research_paper,
+SIGCOMM,2025,08:30 — 10:30 | NetAI & Wireless,agenda_item_not_research_paper,
+SIGCOMM,2025,08:30 — 10:30 | NetMon,agenda_item_not_research_paper,
+SIGCOMM,2025,08:30 — 10:30 | Network Architecture & Satellites,agenda_item_not_research_paper,
+SIGCOMM,2025,09:00 — 10:20 | Datacenter Networking,agenda_item_not_research_paper,
+SIGCOMM,2025,09:00 — 10:20 | NetAI,agenda_item_not_research_paper,
+SIGCOMM,2025,10:50 — 12:10 | Hardware,agenda_item_not_research_paper,
+SIGCOMM,2025,10:50 — 12:10 | Measurements,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:10 | Distributed Systems,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:10 | Video & QoE,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:30 | AI for SysNet,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:30 | Datacenter Networking,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:30 | NetMon & Hyperscalers,agenda_item_not_research_paper,
+SIGCOMM,2025,13:30 — 15:30 | Network Architecture,agenda_item_not_research_paper,
+SIGCOMM,2025,16:30 — 17:15 | Shorts,agenda_item_not_research_paper,

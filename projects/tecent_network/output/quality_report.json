@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-14T14:51:26.200563+00:00",
+  "coverage": "not_established",
+  "sheet_rows": {
+    "Readme": 15,
+    "Publications": 34,
+    "Author_Affiliations": 439,
+    "Institutions": 44,
+    "Collaboration": 99,
+    "Coverage": 104,
+    "Quality": 68,
+    "Taxonomy": 11,
+    "Metadata_Checks": 34,
+    "User_Program_Check": 61,
+    "Annual_Stats": 40,
+    "Independent_Checks": 10,
+    "Discovery_Audit": 24,
+    "PDF_Checks": 326,
+    "Proceedings_Ledger": 2771,
+    "Completeness": 40,
+    "Unresolved_Queue": 796,
+    "Source_Parse_Log": 101,
+    "Excluded_Records": 105
+  },
+  "scope_status": {
+    "included": 33,
+    "candidate": 1
+  },
+  "author_list_checks": {
+    "exact_order_match": 34
+  },
+  "quality_flags": {
+    "abstract": 1,
+    "author_keywords": 6,
+    "version_status": 34,
+    "pdf_access": 7,
+    "doi": 18,
+    "scope_status": 1,
+    "tag_status": 1
+  }
+}

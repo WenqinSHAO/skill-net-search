@@ -1,0 +1,43 @@
+﻿institution_id,institution,institution_type,country,region,geography_source,normalization_status
+i-6a6f37e50f29,Tencent,industry,,,,alias_rule_review_pending
+i-88293fa677ea,Tsinghua University,academic,,,,alias_rule_review_pending
+i-0253a6684c40,CETC,industry,,,,alias_rule_review_pending
+i-8fbdf4ba9126,Nanjing University,academic,,,,alias_rule_review_pending
+i-ed533522bc74,"University of California, Santa Barbara",academic,,,,alias_rule_review_pending
+i-35c3f60d089e,Peng Cheng Laboratory,research_institute,,,,alias_rule_review_pending
+i-102c49fc1704,Wuhan University,academic,,,,alias_rule_review_pending
+i-adee38e2dd5f,City University of Hong Kong,academic,,,,alias_rule_review_pending
+i-af39a57f6b7e,Nanjing University of Science and Technology,academic,,,,alias_rule_review_pending
+i-41292b6fdc30,Zhejiang University,academic,,,,alias_rule_review_pending
+i-63e3d04ff4b4,Beijing University of Posts and Telecommunications,academic,,,,alias_rule_review_pending
+i-bbd12801250a,Zhongguancun Laboratory,research_institute,,,,alias_rule_review_pending
+i-18dd08a7f9b2,Massachusetts Institute of Technology,academic,,,,alias_rule_review_pending
+i-f10ba82854d0,University at Buffalo,academic,,,,alias_rule_review_pending
+i-4f749de7c24f,Meta,industry,,,,alias_rule_review_pending
+i-15137a891914,Quancheng Laboratory,research_institute,,,,alias_rule_review_pending
+i-21e31fc423ef,Northwestern University,academic,,,,alias_rule_review_pending
+i-52df82b2dafa,King Abdullah University of Science and Technology,academic,,,,alias_rule_review_pending
+i-4818c1881a7d,Peking University,academic,,,,alias_rule_review_pending
+i-95c2779f2fbd,Xi'an Jiaotong University,academic,,,,alias_rule_review_pending
+i-51d90ce7cb02,Hong Kong University of Science and Technology,academic,,,,alias_rule_review_pending
+i-0e44489618f3,University of Texas at Austin,academic,,,,alias_rule_review_pending
+i-93035a1492a8,Bonree,industry,,,,alias_rule_review_pending
+i-0386721f29c7,Columbia University,academic,,,,alias_rule_review_pending
+i-749651d49597,Fudan University,academic,,,,alias_rule_review_pending
+i-0890f456684a,NVIDIA,industry,,,,alias_rule_review_pending
+i-2d92afcec4b3,University of Chicago,academic,,,,alias_rule_review_pending
+i-79621155f9fe,University of Michigan,academic,,,,alias_rule_review_pending
+i-513241526dd2,Harvard University,academic,,,,alias_rule_review_pending
+i-52c61456bd3d,Politecnico di Milano,academic,,,,alias_rule_review_pending
+i-c45bae770df8,Queen Mary University of London,academic,,,,alias_rule_review_pending
+i-5271b2269605,Xiamen University,academic,,,,alias_rule_review_pending
+i-08c6e330b527,"Institute of Artificial Intelligence, China",research_institute,,,,alias_rule_review_pending
+i-1440dbcdf4c3,Hong Kong Polytechnic University,academic,,,,alias_rule_review_pending
+i-2cfed6827482,National University of Singapore,academic,,,,alias_rule_review_pending
+i-0b8ed795c35f,"Computer Network Information Center, Chinese Academy of Sciences",research_institute,,,,alias_rule_review_pending
+i-9951041e9867,"Chinese University of Hong Kong, Shenzhen",academic,,,,alias_rule_review_pending
+i-4879e2001dec,University of Chinese Academy of Sciences,academic,,,,alias_rule_review_pending
+i-8a25d4441b5c,Shanghai Jiao Tong University,academic,,,,alias_rule_review_pending
+i-c46b83901b36,School of Computer Science,unknown,,,,raw_unreviewed
+i-f5f2d908a418,University of Science and Technology of China,academic,,,,alias_rule_review_pending
+i-6f57b0894cbc,JaguarMicro,industry,,,,alias_rule_review_pending
