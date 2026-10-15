@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-15",
+  "policy": "仅用于中文版显示，不改写论文原始作者名。本人或机构一手来源明确给出中文名，并以机构、邮箱或论文交叉核对身份；未核实名字保留英文。同名字符串不是跨项目身份标识。",
+  "names": {
+    "Yunming Xiao": {"zh": "肖蕴明", "institution": "Chinese University of Hong Kong, Shenzhen", "source_url": "https://sds.cuhk.edu.cn/teacher/2127", "evidence": "机构主页中文标题为肖蕴明，所列 MegaTE 论文作者包含 Yunming Xiao，与本项目论文及机构一致。"},
+    "Zili Meng": {"zh": "孟子立", "institution": "Hong Kong University of Science and Technology", "source_url": "https://seng.hkust.edu.hk/about/people/faculty/zili-meng", "evidence": "机构主页直接并列 Zili MENG 与孟子立，研究方向为网络协议及视频通信；链接本人主页。"},
+    "Jilong Wang": {"zh": "王继龙", "institution": "Tsinghua University", "source_url": "https://www.insc.tsinghua.edu.cn/info/1157/2449.htm", "secondary_source_url": "https://www.insc.tsinghua.edu.cn/inscen/info/1255/1120.htm", "evidence": "清华网络研究院中英文主页共享 wjl@tsinghua.edu.cn 邮箱，分别署王继龙与 WANG Jilong；不是 Jiliang Wang（王继良）。"},
+    "Mingwei Xu": {"zh": "徐明伟", "institution": "Tsinghua University", "source_url": "https://www.cs.tsinghua.edu.cn/info/1126/3580.htm", "secondary_source_url": "https://www.cs.tsinghua.edu.cn/csen/info/1309/4353.htm", "evidence": "清华计算机系中英文主页共享 xumw@tsinghua.edu.cn 邮箱，分别署徐明伟与 Mingwei XU；排除港大经济学同名者。"},
+    "Chenren Xu": {"zh": "许辰人", "institution": "Peking University", "source_url": "https://ceca.pku.edu.cn/people/alumni_undergrad/2021n/1344353.htm", "secondary_source_url": "https://www.winlab.rutgers.edu/~lendlice/", "evidence": "北大双语导师记录直接并列许辰人与 Chenren Xu；本人 Rutgers 旧主页亦并列中英文名。"},
+    "Yuedong Xu": {"zh": "徐跃东", "institution": "Fudan University", "source_url": "https://ydxu2025.github.io/", "secondary_source_url": "https://ee.fudan.edu.cn/Data/View/812", "evidence": "本人主页直接并列 Yuedong Xu 徐跃东，并列复旦机构及 ydxu@fudan.edu.cn 邮箱；机构旧主页交叉确认。"},
+    "Qingkai Meng": {"zh": "孟晴开", "institution": "Nanjing University", "source_url": "https://njusz.nju.edu.cn/7f/9a/c53017a753562/page.htm", "evidence": "南京大学机构双语主页直接并列孟晴开与 Qingkai Meng，列 qkmeng@nju.edu.cn 及数据中心网络、机器学习系统研究方向；不是孟庆凯。"},
+    "Chen Tian": {"zh": "田臣", "institution": "Nanjing University", "source_url": "https://cs.nju.edu.cn/51/c1/c2639a86465/pagem.htm", "secondary_source_url": "https://cs.nju.edu.cn/tianchen/", "evidence": "南京大学中文教师页署田臣，链接英文 Chen Tian 本人主页，共享 tianchen@nju.edu.cn 邮箱；不是田辰。"}
+  },
+  "unresolved": {"Congcong Miao": "检索出现同名地理学研究者及其他职业记录，不能据此确定腾讯论文作者的中文名，保留英文。"}
+}

@@ -1,0 +1,33 @@
+﻿tag,papers,share_percent
+AI workload,5,15.625
+BGP,2,6.25
+DDoS,1,3.125
+GPU communication,1,3.125
+Internet measurement,1,3.125
+RDMA,2,6.25
+SmartNIC/DPU,7,21.875
+VPC,1,3.125
+application-transport co-design,2,6.25
+cloud gaming,6,18.75
+cloud scheduling,1,3.125
+congestion control,2,6.25
+data analytics,1,3.125
+disaggregation,2,6.25
+emulation,2,6.25
+last mile,1,3.125
+learning-assisted control,2,6.25
+loss recovery,2,6.25
+multipath,1,3.125
+network architecture,2,6.25
+optical,2,6.25
+privacy,1,3.125
+production operations,12,37.5
+programmability,9,28.125
+reliability,6,18.75
+resource efficiency,8,25.0
+routing,1,3.125
+security,1,3.125
+telemetry,4,12.5
+traffic engineering,2,6.25
+trusted hardware,1,3.125
+wireless,2,6.25

@@ -20,6 +20,11 @@ Conference and journal papers, workshops, posters/demos, and preprints should be
 
 ## Outputs and reproducibility
 
+- [Illustrated analysis report](output/tencent_networking_report.html): offline HTML with seven figures, primary-topic shares and evolution, university/research geography, recurring coauthor cohorts, seven topic deep dives, explicit academic-role evidence, forward-looking hypotheses and a searchable 32-paper evidence appendix. This describes the reviewed corpus, not the whole company or a verified roadmap.
+- [中文版图文报告](output/tencent_networking_report_zh.html): separate Chinese edition with seven localized figures, all seven topic deep dives, a bilingual-searchable 32-paper appendix, and eight verified Chinese author names with primary-source identity evidence. Unverified names remain English; original paper titles, metadata caveats and expandable English annotations are retained for checking. English HTML and source metadata are not changed by the Chinese build.
+- `ANALYSIS_PLAN.md`, `data/analysis_papers.json`, `data/report_content.json` and `data/analysis_role_evidence.json`: report structure, reviewed classifications, narrative synthesis and explicit PDF contribution/internship evidence. These project judgments are separate from source metadata.
+- `data/analysis_geography.json`, `analysis_geography_checks.json` and `analysis_results.json`: approximate institutional anchors with source-check outcomes and reproducible aggregates. Geography is institution location, not author nationality. One institute's city is unresolved; inaccessible official references remain explicit.
+- `output/analysis_*.csv`, `output/report_figures/`, `output/report_review.json` and `output/report_browser_review.json`: chart data, reusable SVG/PNG figures, numerical/content review and desktop/mobile rendering checks.
 - `output/tencent_networking_metadata.xlsx`: compact, metadata-completed handoff for the **32 primary papers manually listed by the user**, with individual author-affiliation rows, source checks, and the two posters in separate sheets. All 32 have sourced full abstracts and reviewed author assignments: 27 PDF-verified and five publisher-deposit-verified. This does not certify exhaustive venue coverage or global person identities.
 - `data/publications.json`: evidence-backed project records, stable project IDs, shared-index links when an exact match exists.
 - `data/coverage.json`: each attempted venue/year URL, fetch/parser outcome, and remaining search work.
@@ -58,6 +63,23 @@ python3 scripts/export.py
 python3 scripts/validate.py
 python3 scripts/test_foundation.py
 ```
+
+Rebuild and review the analysis report:
+
+```bash
+python3 scripts/build_report.py
+python3 scripts/test_analysis.py
+node scripts/review_report.mjs
+python3 scripts/build_report_zh.py
+python3 scripts/test_report_zh.py
+node scripts/review_report.mjs --zh
+```
+
+Chinese prose lives in `data/report_content_zh.json` and `data/analysis_papers_zh.json`; verified bilingual names and their evidence are in `data/author_names_zh.json`. The Chinese build reuses the English aggregates and cached Natural Earth map, requires `fc-match` and a locally installed Noto CJK font, and embeds glyph outlines into SVGs so readers do not need that font installed. Chinese figures and browser checks are separate under `output/report_figures_zh/`, `output/report_review_zh/` and `output/report_browser_review_zh.json`. Rebuild the Chinese edition after changing English analysis inputs.
+
+The report needs Matplotlib/NumPy; optional browser review uses an installed Chrome at `/opt/google/chrome/chrome` and Node with native WebSocket support. Update that path if needed. The HTML embeds its SVGs and CSS and needs no server, CDN or external plotting service. Source workbooks/CSVs are linked as neighboring files. `build_report.py --acquire-geography-sources` attempts missing official location pages and preserves failures; normal rebuilds reuse the recorded checks. The public-domain Natural Earth base map is cached under ignored `raw/`. Browser screenshots are saved under `output/report_review/`; the browser's temporary profile stays under `/tmp`.
+
+The analysis uses one primary-topic assignment per paper (shares total 100%) and separate overlapping technology/workload tags. Primary-paper academic/research ties are deduplicated per institution per paper, with both full and fractional credits. The 32-paper descriptive denominator and 31-paper networking-core sensitivity are both visible. A department conjunction inside the USTC address was corrected during analysis so it no longer creates a phantom institution or extra author-affiliation rows.
 
 Collection requires the libraries in `requirements.txt`; PDF screening additionally requires `pdftotext`. Export and structural validation use the Python standard library. Rerunning collection reuses cached pages. `--refresh` deliberately fetches them again. The original collector targets NSDI and SIGCOMM; `discover_programs.py` covers CoNEXT, IMC and HotNets for 2019–2026. `import_extension.py` imports the specifically reviewed extension records; it is not an automatic exhaustive classifier. Older proceedings and other venues still require additional collectors. Errors and unsupported layouts remain visible in Coverage. No credentials are required. Optional `scripts/validate.py --excel-reader-path /path/to/openpyxl` independently reads every workbook cell.
 

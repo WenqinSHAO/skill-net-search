@@ -5,4 +5,4 @@ Author rows,One row per author–institution assignment. Dual affiliations have 
 Sources,"paper_url points to the paper/DOI; url retains the discovery program. Abstract and affiliation source URLs are retained. PDF spellings and publisher raw affiliations preserve discrepancies; metadata notes explain Dorado, Holmes, FlexWAN and XFir."
 Keywords,"Author keywords are separate from analyst tags. NSDI front matter does not supply a keyword field; remaining inaccessible ACM keywords are not_collected, not fabricated."
 Posters,Posters are not primary-paper counts. The 2019 poster abstract is still missing from accessible primary metadata; TOO's existing repository abstract remains separately labeled.
-Generated,2026-10-14T14:51:26.010000+00:00
+Generated,2026-10-15T16:30:28.743977+00:00

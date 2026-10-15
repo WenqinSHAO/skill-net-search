@@ -1,0 +1,57 @@
+﻿year,topic,label,papers,year_total,period_status
+2019,dcn_ai,DCN & AI infrastructure,0,0,observed_publication_cohort
+2019,cloud_gateway,Cloud gateways & offload,0,0,observed_publication_cohort
+2019,rtc_qoe,Interactive media & QoE,0,0,observed_publication_cohort
+2019,wan,WAN & optical systems,0,0,observed_publication_cohort
+2019,operations,Measurement & operations,0,0,observed_publication_cohort
+2019,security,Security & privacy,0,0,observed_publication_cohort
+2019,cloud_resource,Cloud resource optimization,0,0,observed_publication_cohort
+2020,dcn_ai,DCN & AI infrastructure,0,0,observed_publication_cohort
+2020,cloud_gateway,Cloud gateways & offload,0,0,observed_publication_cohort
+2020,rtc_qoe,Interactive media & QoE,0,0,observed_publication_cohort
+2020,wan,WAN & optical systems,0,0,observed_publication_cohort
+2020,operations,Measurement & operations,0,0,observed_publication_cohort
+2020,security,Security & privacy,0,0,observed_publication_cohort
+2020,cloud_resource,Cloud resource optimization,0,0,observed_publication_cohort
+2021,dcn_ai,DCN & AI infrastructure,0,2,observed_publication_cohort
+2021,cloud_gateway,Cloud gateways & offload,1,2,observed_publication_cohort
+2021,rtc_qoe,Interactive media & QoE,0,2,observed_publication_cohort
+2021,wan,WAN & optical systems,0,2,observed_publication_cohort
+2021,operations,Measurement & operations,1,2,observed_publication_cohort
+2021,security,Security & privacy,0,2,observed_publication_cohort
+2021,cloud_resource,Cloud resource optimization,0,2,observed_publication_cohort
+2022,dcn_ai,DCN & AI infrastructure,0,2,observed_publication_cohort
+2022,cloud_gateway,Cloud gateways & offload,1,2,observed_publication_cohort
+2022,rtc_qoe,Interactive media & QoE,0,2,observed_publication_cohort
+2022,wan,WAN & optical systems,1,2,observed_publication_cohort
+2022,operations,Measurement & operations,0,2,observed_publication_cohort
+2022,security,Security & privacy,0,2,observed_publication_cohort
+2022,cloud_resource,Cloud resource optimization,0,2,observed_publication_cohort
+2023,dcn_ai,DCN & AI infrastructure,0,4,observed_publication_cohort
+2023,cloud_gateway,Cloud gateways & offload,1,4,observed_publication_cohort
+2023,rtc_qoe,Interactive media & QoE,1,4,observed_publication_cohort
+2023,wan,WAN & optical systems,1,4,observed_publication_cohort
+2023,operations,Measurement & operations,0,4,observed_publication_cohort
+2023,security,Security & privacy,1,4,observed_publication_cohort
+2023,cloud_resource,Cloud resource optimization,0,4,observed_publication_cohort
+2024,dcn_ai,DCN & AI infrastructure,1,5,observed_publication_cohort
+2024,cloud_gateway,Cloud gateways & offload,0,5,observed_publication_cohort
+2024,rtc_qoe,Interactive media & QoE,3,5,observed_publication_cohort
+2024,wan,WAN & optical systems,1,5,observed_publication_cohort
+2024,operations,Measurement & operations,0,5,observed_publication_cohort
+2024,security,Security & privacy,0,5,observed_publication_cohort
+2024,cloud_resource,Cloud resource optimization,0,5,observed_publication_cohort
+2025,dcn_ai,DCN & AI infrastructure,3,5,observed_publication_cohort
+2025,cloud_gateway,Cloud gateways & offload,1,5,observed_publication_cohort
+2025,rtc_qoe,Interactive media & QoE,0,5,observed_publication_cohort
+2025,wan,WAN & optical systems,1,5,observed_publication_cohort
+2025,operations,Measurement & operations,0,5,observed_publication_cohort
+2025,security,Security & privacy,0,5,observed_publication_cohort
+2025,cloud_resource,Cloud resource optimization,0,5,observed_publication_cohort
+2026,dcn_ai,DCN & AI infrastructure,4,14,dated_2026_corpus_not_annualized
+2026,cloud_gateway,Cloud gateways & offload,3,14,dated_2026_corpus_not_annualized
+2026,rtc_qoe,Interactive media & QoE,2,14,dated_2026_corpus_not_annualized
+2026,wan,WAN & optical systems,1,14,dated_2026_corpus_not_annualized
+2026,operations,Measurement & operations,2,14,dated_2026_corpus_not_annualized
+2026,security,Security & privacy,1,14,dated_2026_corpus_not_annualized
+2026,cloud_resource,Cloud resource optimization,1,14,dated_2026_corpus_not_annualized

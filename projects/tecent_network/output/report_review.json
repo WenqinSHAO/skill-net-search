@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-15T17:17:44.750525+00:00",
+  "analysis_tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "report_sha256": "8efb9d03ab3eedc9bd734f7a1bb65caf2c88dc4c8d94688fec0769868eefa3cb",
+  "content_review": [
+    "All 32 primary papers classified; posters excluded; 31-paper core sensitivity retained.",
+    "Topic partition is exclusive; workload/mechanism tags and countries are explicitly overlapping.",
+    "Full/fractional institution edges reconcile without duplicating dual-affiliation rows.",
+    "Reported results, production/prototype/simulation settings and analyst hypotheses are separated.",
+    "Competitive mechanisms are not presented as causal business outcomes or a disclosed roadmap.",
+    "Academic role claims are limited to explicit PDF credits; recurring names are not global identities.",
+    "Matplotlib SVG identifiers are prefixed to prevent collisions in the single-file report.",
+    "Desktop/mobile figures reviewed; crowded map labels corrected; mobile charts horizontally scrollable."
+  ],
+  "residual_geographic_issues": [
+    {
+      "institution": "Institute of Artificial Intelligence, China",
+      "source_status": "country_only_in_affiliation_city_unresolved",
+      "source_url": "https://www.usenix.org/conference/nsdi26/presentation/guo-fengqian"
+    },
+    {
+      "institution": "Nanjing University of Science and Technology",
+      "source_status": "official_page_empty_or_challenge",
+      "source_url": "https://english.njust.edu.cn/"
+    }
+  ],
+  "unresolved_substantive_questions": [
+    "Final PDFs unacquired for five primary papers.",
+    "Component-level contribution ownership and researcher identity disambiguation.",
+    "Causal competitive advantage, complete company research output and a confirmed future roadmap.",
+    "Publication-time campus precision and expanded traditional CDN/caching coverage."
+  ],
+  "browser_review": "See output/report_browser_review.json for separate desktop/mobile interaction checks."
+}

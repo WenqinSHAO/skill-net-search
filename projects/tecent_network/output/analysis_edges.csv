@@ -1,0 +1,97 @@
+﻿paper_id,short,year,topic,institution,country,region,full_count,fractional_count
+tn-d230948cc184da0b,AFR,2023,rtc_qoe,Beijing University of Posts and Telecommunications,China,Mainland China,1,0.2
+tn-527952756cb68624,Janus,2026,cloud_gateway,"Chinese University of Hong Kong, Shenzhen",China,Mainland China,1,0.16666666666666666
+tn-2e6354ea2ff42940,Canopy,2026,security,"Chinese University of Hong Kong, Shenzhen",China,Mainland China,1,0.3333333333333333
+tn-22dcd0345e71e428,CubeTrace,2026,operations,"Chinese University of Hong Kong, Shenzhen",China,Mainland China,1,0.2
+tn-7f60f5fc47fb3fcb,XFir,2026,cloud_gateway,"Chinese University of Hong Kong, Shenzhen",China,Mainland China,1,0.2
+tn-9d8ab9ccefaaabf8,Boomerang,2023,security,City University of Hong Kong,China,Hong Kong,1,0.25
+tn-cf46a4678f585b3d,Pudica,2024,rtc_qoe,Columbia University,United States,United States,1,0.3333333333333333
+tn-527952756cb68624,Janus,2026,cloud_gateway,"Computer Network Information Center, Chinese Academy of Sciences",China,Mainland China,1,0.16666666666666666
+tn-436ac2802fe4d482,Dorado,2026,cloud_gateway,"Computer Network Information Center, Chinese Academy of Sciences",China,Mainland China,1,0.2
+tn-ed6fafae3cd8bdc0,Turbo,2024,dcn_ai,Fudan University,China,Mainland China,1,0.5
+tn-fcb9ef7a1565882f,Holmes,2025,dcn_ai,Fudan University,China,Mainland China,1,0.5
+tn-a36a4f74ab914d33,Harp,2026,dcn_ai,Fudan University,China,Mainland China,1,1.0
+tn-b909b59461b0fe67,DistDPU,2026,dcn_ai,Fudan University,China,Mainland China,1,0.5
+tn-ef4ac043eef9c789,Astral,2025,dcn_ai,Harvard University,United States,United States,1,0.25
+tn-bb96fcc8221d7661,BLADE,2026,rtc_qoe,Hong Kong Polytechnic University,China,Hong Kong,1,0.25
+tn-e948a761d296771f,Hairpin,2024,rtc_qoe,Hong Kong University of Science and Technology,China,Hong Kong,1,0.25
+tn-2e858fd1909dcbf3,MirSwitch,2026,operations,Hong Kong University of Science and Technology,China,Hong Kong,1,0.2
+tn-bb96fcc8221d7661,BLADE,2026,rtc_qoe,"Institute of Artificial Intelligence, China",China,Mainland China,1,0.25
+tn-0abe63a6f29c790f,TENSOR,2023,cloud_gateway,King Abdullah University of Science and Technology,Saudi Arabia,Saudi Arabia,1,0.25
+tn-527952756cb68624,Janus,2026,cloud_gateway,King Abdullah University of Science and Technology,Saudi Arabia,Saudi Arabia,1,0.16666666666666666
+tn-d230948cc184da0b,AFR,2023,rtc_qoe,Massachusetts Institute of Technology,United States,United States,1,0.2
+tn-7f940cb9306f8c5c,FlexWAN,2023,wan,Massachusetts Institute of Technology,United States,United States,1,0.3333333333333333
+tn-d91322b000762057,MegaTE,2024,wan,Massachusetts Institute of Technology,United States,United States,1,0.3333333333333333
+tn-65a6af3e4e7ae273,PreTE,2025,wan,Massachusetts Institute of Technology,United States,United States,1,0.3333333333333333
+tn-5ee87295c2b32206,DSR,2021,cloud_gateway,Nanjing University,China,Mainland China,1,0.5
+tn-ef4ac043eef9c789,Astral,2025,dcn_ai,Nanjing University,China,Mainland China,1,0.25
+tn-4ab76b7bd3b61a53,SwiftEP,2026,dcn_ai,Nanjing University,China,Mainland China,1,1.0
+tn-22dcd0345e71e428,CubeTrace,2026,operations,Nanjing University,China,Mainland China,1,0.2
+tn-36a17aefb29551e5,Pegasus,2026,dcn_ai,Nanjing University,China,Mainland China,1,0.3333333333333333
+tn-9d8ab9ccefaaabf8,Boomerang,2023,security,Nanjing University of Science and Technology,China,Mainland China,1,0.25
+tn-527952756cb68624,Janus,2026,cloud_gateway,National University of Singapore,Singapore,Singapore,1,0.16666666666666666
+tn-1d6930256b9a1c41,MirrorNet,2026,wan,National University of Singapore,Singapore,Singapore,1,0.5
+tn-22dcd0345e71e428,CubeTrace,2026,operations,National University of Singapore,Singapore,Singapore,1,0.2
+tn-436ac2802fe4d482,Dorado,2026,cloud_gateway,National University of Singapore,Singapore,Singapore,1,0.2
+tn-7f60f5fc47fb3fcb,XFir,2026,cloud_gateway,National University of Singapore,Singapore,Singapore,1,0.2
+tn-0abe63a6f29c790f,TENSOR,2023,cloud_gateway,Northwestern University,United States,United States,1,0.25
+tn-d91322b000762057,MegaTE,2024,wan,Northwestern University,United States,United States,1,0.3333333333333333
+tn-ab42eca19c84beba,P-ECMP,2025,dcn_ai,Northwestern University,United States,United States,1,0.3333333333333333
+tn-2e6354ea2ff42940,Canopy,2026,security,Northwestern University,United States,United States,1,0.3333333333333333
+tn-4ee11d0388e5e33b,AUGUR,2024,rtc_qoe,Peking University,China,Mainland China,1,0.3333333333333333
+tn-cf46a4678f585b3d,Pudica,2024,rtc_qoe,Peking University,China,Mainland China,1,0.3333333333333333
+tn-d91322b000762057,MegaTE,2024,wan,Peking University,China,Mainland China,1,0.3333333333333333
+tn-0b6e93289d7b3005,Fornax,2025,cloud_gateway,Peking University,China,Mainland China,1,0.3333333333333333
+tn-2e858fd1909dcbf3,MirSwitch,2026,operations,Peking University,China,Mainland China,1,0.2
+tn-bb96fcc8221d7661,BLADE,2026,rtc_qoe,Peking University,China,Mainland China,1,0.25
+tn-1d6930256b9a1c41,MirrorNet,2026,wan,Peking University,China,Mainland China,1,0.5
+tn-b5ad07b326ead5ae,OpTel,2022,wan,Peng Cheng Laboratory,China,Mainland China,1,0.3333333333333333
+tn-ef4ac043eef9c789,Astral,2025,dcn_ai,Politecnico di Milano,Italy,Italy,1,0.25
+tn-7f940cb9306f8c5c,FlexWAN,2023,wan,Quancheng Laboratory,China,Mainland China,1,0.3333333333333333
+tn-0abe63a6f29c790f,TENSOR,2023,cloud_gateway,Quancheng Laboratory,China,Mainland China,1,0.25
+tn-ef4ac043eef9c789,Astral,2025,dcn_ai,Queen Mary University of London,United Kingdom,United Kingdom,1,0.25
+tn-36a17aefb29551e5,Pegasus,2026,dcn_ai,Shanghai Jiao Tong University,China,Mainland China,1,0.3333333333333333
+tn-7f60f5fc47fb3fcb,XFir,2026,cloud_gateway,Shanghai Jiao Tong University,China,Mainland China,1,0.2
+tn-c91f67aec75ff7e3,Looking Glass,2021,operations,Tsinghua University,China,Mainland China,1,1.0
+tn-5ee87295c2b32206,DSR,2021,cloud_gateway,Tsinghua University,China,Mainland China,1,0.5
+tn-b5ad07b326ead5ae,OpTel,2022,wan,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-4b11634a6e5ae8d9,Elixir,2022,cloud_gateway,Tsinghua University,China,Mainland China,1,1.0
+tn-d230948cc184da0b,AFR,2023,rtc_qoe,Tsinghua University,China,Mainland China,1,0.2
+tn-7f940cb9306f8c5c,FlexWAN,2023,wan,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-0abe63a6f29c790f,TENSOR,2023,cloud_gateway,Tsinghua University,China,Mainland China,1,0.25
+tn-e948a761d296771f,Hairpin,2024,rtc_qoe,Tsinghua University,China,Mainland China,1,0.25
+tn-ed6fafae3cd8bdc0,Turbo,2024,dcn_ai,Tsinghua University,China,Mainland China,1,0.5
+tn-ab42eca19c84beba,P-ECMP,2025,dcn_ai,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-0b6e93289d7b3005,Fornax,2025,cloud_gateway,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-65a6af3e4e7ae273,PreTE,2025,wan,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-2e858fd1909dcbf3,MirSwitch,2026,operations,Tsinghua University,China,Mainland China,1,0.2
+tn-527952756cb68624,Janus,2026,cloud_gateway,Tsinghua University,China,Mainland China,1,0.16666666666666666
+tn-2e6354ea2ff42940,Canopy,2026,security,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-22dcd0345e71e428,CubeTrace,2026,operations,Tsinghua University,China,Mainland China,1,0.2
+tn-436ac2802fe4d482,Dorado,2026,cloud_gateway,Tsinghua University,China,Mainland China,1,0.2
+tn-36a17aefb29551e5,Pegasus,2026,dcn_ai,Tsinghua University,China,Mainland China,1,0.3333333333333333
+tn-7f60f5fc47fb3fcb,XFir,2026,cloud_gateway,Tsinghua University,China,Mainland China,1,0.2
+tn-d230948cc184da0b,AFR,2023,rtc_qoe,University at Buffalo,United States,United States,1,0.2
+tn-e948a761d296771f,Hairpin,2024,rtc_qoe,University at Buffalo,United States,United States,1,0.25
+tn-bb96fcc8221d7661,BLADE,2026,rtc_qoe,University at Buffalo,United States,United States,1,0.25
+tn-b5ad07b326ead5ae,OpTel,2022,wan,"University of California, Santa Barbara",United States,United States,1,0.3333333333333333
+tn-65a6af3e4e7ae273,PreTE,2025,wan,"University of California, Santa Barbara",United States,United States,1,0.3333333333333333
+tn-fcb9ef7a1565882f,Holmes,2025,dcn_ai,University of Chicago,United States,United States,1,0.5
+tn-436ac2802fe4d482,Dorado,2026,cloud_gateway,University of Chinese Academy of Sciences,China,Mainland China,1,0.2
+tn-ab42eca19c84beba,P-ECMP,2025,dcn_ai,University of Michigan,United States,United States,1,0.3333333333333333
+tn-2e858fd1909dcbf3,MirSwitch,2026,operations,University of Michigan,United States,United States,1,0.2
+tn-527952756cb68624,Janus,2026,cloud_gateway,University of Michigan,United States,United States,1,0.16666666666666666
+tn-22dcd0345e71e428,CubeTrace,2026,operations,University of Michigan,United States,United States,1,0.2
+tn-b909b59461b0fe67,DistDPU,2026,dcn_ai,University of Michigan,United States,United States,1,0.5
+tn-436ac2802fe4d482,Dorado,2026,cloud_gateway,University of Michigan,United States,United States,1,0.2
+tn-7f60f5fc47fb3fcb,XFir,2026,cloud_gateway,University of Michigan,United States,United States,1,0.2
+tn-ff5fdbe08d8cd29d,Hestia,2026,cloud_resource,University of Science and Technology of China,China,Mainland China,1,1.0
+tn-e948a761d296771f,Hairpin,2024,rtc_qoe,University of Texas at Austin,United States,United States,1,0.25
+tn-9d8ab9ccefaaabf8,Boomerang,2023,security,Wuhan University,China,Mainland China,1,0.25
+tn-4ee11d0388e5e33b,AUGUR,2024,rtc_qoe,Xi'an Jiaotong University,China,Mainland China,1,0.3333333333333333
+tn-cf46a4678f585b3d,Pudica,2024,rtc_qoe,Xi'an Jiaotong University,China,Mainland China,1,0.3333333333333333
+tn-2e858fd1909dcbf3,MirSwitch,2026,operations,Xiamen University,China,Mainland China,1,0.2
+tn-9d8ab9ccefaaabf8,Boomerang,2023,security,Zhejiang University,China,Mainland China,1,0.25
+tn-d230948cc184da0b,AFR,2023,rtc_qoe,Zhongguancun Laboratory,China,Mainland China,1,0.2
+tn-4ee11d0388e5e33b,AUGUR,2024,rtc_qoe,Zhongguancun Laboratory,China,Mainland China,1,0.3333333333333333
+tn-0b6e93289d7b3005,Fornax,2025,cloud_gateway,Zhongguancun Laboratory,China,Mainland China,1,0.3333333333333333

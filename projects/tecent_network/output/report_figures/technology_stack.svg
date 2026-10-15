@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="684pt" height="297.144pt" viewBox="0 0 684 297.144" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 297.144 
+L 684 297.144 
+L 684 -0 
+L 0 -0 
+z
+" style="fill: #fbfaf7"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 12.78 66.949675 
+L 665.64 66.949675 
+Q 669.546 66.949675 669.546 63.215321 
+L 669.546 24.804815 
+Q 669.546 21.07046 665.64 21.07046 
+L 12.78 21.07046 
+Q 8.874 21.07046 8.874 24.804815 
+L 8.874 63.215321 
+Q 8.874 66.949675 12.78 66.949675 
+z
+" clip-path="url(#p70a2f6bf56)" style="fill: #d47c38; opacity: 0.1"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 12.78 120.2976 
+L 665.64 120.2976 
+Q 669.546 120.2976 669.546 116.563245 
+L 669.546 78.15274 
+Q 669.546 74.418385 665.64 74.418385 
+L 12.78 74.418385 
+Q 8.874 74.418385 8.874 78.15274 
+L 8.874 116.563245 
+Q 8.874 120.2976 12.78 120.2976 
+z
+" clip-path="url(#p70a2f6bf56)" style="fill: #137f83; opacity: 0.1"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 12.78 173.645525 
+L 665.64 173.645525 
+Q 669.546 173.645525 669.546 169.91117 
+L 669.546 131.500664 
+Q 669.546 127.766309 665.64 127.766309 
+L 12.78 127.766309 
+Q 8.874 127.766309 8.874 131.500664 
+L 8.874 169.91117 
+Q 8.874 173.645525 12.78 173.645525 
+z
+" clip-path="url(#p70a2f6bf56)" style="fill: #3868b2; opacity: 0.1"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 12.78 226.993449 
+L 665.64 226.993449 
+Q 669.546 226.993449 669.546 223.259094 
+L 669.546 184.848589 
+Q 669.546 181.114234 665.64 181.114234 
+L 12.78 181.114234 
+Q 8.874 181.114234 8.874 184.848589 
+L 8.874 223.259094 
+Q 8.874 226.993449 12.78 226.993449 
+z
+" clip-path="url(#p70a2f6bf56)" style="fill: #7970ad; opacity: 0.1"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 12.78 280.341374 
+L 665.64 280.341374 
+Q 669.546 280.341374 669.546 276.607019 
+L 669.546 238.196513 
+Q 669.546 234.462158 665.64 234.462158 
+L 12.78 234.462158 
+Q 8.874 234.462158 8.874 238.196513 
+L 8.874 276.607019 
+Q 8.874 280.341374 12.78 280.341374 
+z
+" clip-path="url(#p70a2f6bf56)" style="fill: #5a8f60; opacity: 0.1"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #d47c38" x="21.15" y="40.275713" transform="rotate(-0 21.15 40.275713)">Workloads &amp; experience</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3a" x="188.55" y="46.921516" transform="rotate(-0 188.55 46.921516)">AFR / LADR · interactive QoE    |    SwiftEP / Holmes · AI efficiency</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #137f83" x="21.15" y="93.623638" transform="rotate(-0 21.15 93.623638)">Control &amp; reliability</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3a" x="188.55" y="100.26944" transform="rotate(-0 188.55 100.26944)">DSR / TENSOR / Janus    |    MegaTE / PreTE    |    P-ECMP / Harp</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #3868b2" x="21.15" y="146.971562" transform="rotate(-0 21.15 146.971562)">Offload &amp; transport</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3a" x="188.55" y="153.617365" transform="rotate(-0 188.55 153.617365)">Elixir / Fornax / Dorado / XFir    |    DistDPU / Pegasus</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7970ad" x="21.15" y="200.319487" transform="rotate(-0 21.15 200.319487)">Physical bottlenecks</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3a" x="188.55" y="206.96529" transform="rotate(-0 188.55 206.96529)">OpTel / FlexWAN · optics    |    BLADE · Wi-Fi contention</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5a8f60" x="21.15" y="253.667411" transform="rotate(-0 21.15 253.667411)">Observe, replay, diagnose</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3a" x="188.55" y="260.418683" transform="rotate(-0 188.55 260.418683)">Looking Glass / MirSwitch / MirrorNet / CubeTrace</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p70a2f6bf56">
+   <rect x="7.2" y="7.2" width="669.6" height="282.744"/>
+  </clipPath>
+ </defs>
+</svg>

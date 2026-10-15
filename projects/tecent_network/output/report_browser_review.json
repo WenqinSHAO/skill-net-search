@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-15T16:38:11.944Z",
+  "report_sha256": "8efb9d03ab3eedc9bd734f7a1bb65caf2c88dc4c8d94688fec0769868eefa3cb",
+  "browser": "Installed Chrome headless via CDP",
+  "checks": [
+    {
+      "viewport": 1440,
+      "width": 1440,
+      "height": 1000,
+      "body": 1425,
+      "document": 1425,
+      "cards": 32,
+      "figures": 7,
+      "brokenAnchors": [],
+      "externalAssets": [],
+      "documentHeight": 29034,
+      "search": {
+        "visible": 1,
+        "label": "1 papers shown"
+      },
+      "searchReset": 32,
+      "captures": [
+        {
+          "file": "desktop_overview.png",
+          "scroll": 0
+        },
+        {
+          "file": "desktop_topics.png",
+          "scroll": 1593
+        },
+        {
+          "file": "desktop_geography.png",
+          "scroll": 5030
+        },
+        {
+          "file": "desktop_deepdive.png",
+          "scroll": 9800
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "width": 390,
+      "height": 844,
+      "body": 390,
+      "document": 390,
+      "cards": 32,
+      "figures": 7,
+      "brokenAnchors": [],
+      "externalAssets": [],
+      "documentHeight": 54894,
+      "search": {
+        "visible": 1,
+        "label": "1 papers shown"
+      },
+      "searchReset": 32,
+      "captures": [
+        {
+          "file": "mobile_overview.png",
+          "scroll": 0
+        },
+        {
+          "file": "mobile_topics.png",
+          "scroll": 2660
+        },
+        {
+          "file": "mobile_geography.png",
+          "scroll": 6349
+        },
+        {
+          "file": "mobile_deepdive.png",
+          "scroll": 13084
+        }
+      ]
+    }
+  ],
+  "console_errors": [],
+  "temporary_browser_profile": "/tmp/tencent-report-chrome-JfKECA"
+}

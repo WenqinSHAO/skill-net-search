@@ -1,0 +1,8 @@
+﻿topic,label,papers,share_percent,networking_core_papers,networking_core_share_percent,academic_research_collaboration,tencent_only
+dcn_ai,DCN & AI infrastructure,8,25.0,8,25.806451612903224,8,0
+cloud_gateway,Cloud gateways & offload,7,21.875,7,22.58064516129032,7,0
+rtc_qoe,Interactive media & QoE,6,18.75,6,19.35483870967742,5,1
+wan,WAN & optical systems,5,15.625,5,16.129032258064516,5,0
+operations,Measurement & operations,3,9.375,3,9.67741935483871,3,0
+security,Security & privacy,2,6.25,2,6.451612903225806,2,0
+cloud_resource,Cloud resource optimization,1,3.125,0,0.0,1,0

@@ -92,6 +92,8 @@ def institution_parts(raw):
         return [("", raw, "unaffiliated", "explicit_none")]
     # Do not split 'and' inside one institution's official name (e.g. HKUST).
     protected = raw
+    # A department's internal conjunction is not a second affiliation.
+    protected = re.sub(r"School of Computer Science and Technology", lambda m: m.group().replace(" and ", " __AND__ "), protected, flags=re.I)
     for aliases in INSTITUTIONS.values():
         for alias in aliases:
             if " and " in alias:

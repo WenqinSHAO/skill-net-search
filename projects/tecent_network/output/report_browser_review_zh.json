@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "language": "zh-CN",
+  "checked_at": "2026-10-15T17:12:42.866Z",
+  "report_sha256": "ba538109dbd9ce182e4fb73ae72b13db68b15970f0b3ef95f03501b2f6cc167b",
+  "browser": "Installed Chrome headless via CDP",
+  "checks": [
+    {
+      "viewport": 1440,
+      "width": 1440,
+      "height": 1000,
+      "body": 1425,
+      "document": 1425,
+      "cards": 32,
+      "figures": 7,
+      "brokenAnchors": [],
+      "externalAssets": [],
+      "documentHeight": 29089,
+      "search": {
+        "visible": 1,
+        "label": "显示 1 篇论文"
+      },
+      "chineseSearch": {
+        "visible": 4,
+        "label": "显示 4 篇论文"
+      },
+      "searchReset": 32,
+      "captures": [
+        {
+          "file": "desktop_overview.png",
+          "scroll": 0
+        },
+        {
+          "file": "desktop_topics.png",
+          "scroll": 1502
+        },
+        {
+          "file": "desktop_geography.png",
+          "scroll": 4913
+        },
+        {
+          "file": "desktop_deepdive.png",
+          "scroll": 9490
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "width": 390,
+      "height": 844,
+      "body": 390,
+      "document": 390,
+      "cards": 32,
+      "figures": 7,
+      "brokenAnchors": [],
+      "externalAssets": [],
+      "documentHeight": 49614,
+      "search": {
+        "visible": 1,
+        "label": "显示 1 篇论文"
+      },
+      "chineseSearch": {
+        "visible": 4,
+        "label": "显示 4 篇论文"
+      },
+      "searchReset": 32,
+      "captures": [
+        {
+          "file": "mobile_overview.png",
+          "scroll": 0
+        },
+        {
+          "file": "mobile_topics.png",
+          "scroll": 2235
+        },
+        {
+          "file": "mobile_geography.png",
+          "scroll": 5602
+        },
+        {
+          "file": "mobile_deepdive.png",
+          "scroll": 11495
+        }
+      ]
+    }
+  ],
+  "console_errors": [],
+  "temporary_browser_profile": "/tmp/tencent-report-chrome-GNsZwk"
+}

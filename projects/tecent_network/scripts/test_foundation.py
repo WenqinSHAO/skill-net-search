@@ -14,6 +14,9 @@ from collect import ROOT
 
 
 class FoundationTests(unittest.TestCase):
+    def test_department_conjunction_does_not_create_phantom_institution(self):
+        raw = 'School of Computer Science and Technology, University of Science and Technology of China, Hefei, Anhui, China'
+        self.assertEqual([x[0] for x in institution_parts(raw)], ['University of Science and Technology of China'])
     def test_pdf_abstract_and_keywords_do_not_include_footer_or_other_column(self):
         class Extraction:
             stdout = 'ABSTRACT\nA cost-\neffective system.\nCCS CONCEPTS\nNetworks\nKEYWORDS\nRDMA, Reliability\n†Work done while interns at Tencent.\nPermission to copy\n'
